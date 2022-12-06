@@ -2,8 +2,8 @@
   "openapi": "3.0.2",
   "info": {
     "title": "OPTIMADE API",
-    "description": "The [Open Databases Integration for Materials Design (OPTIMADE) consortium](https://www.optimade.org/) aims to make materials databases interoperational by developing a common REST API.\n\nThis specification is generated using [`optimade-python-tools`](https://github.com/Materials-Consortia/optimade-python-tools/tree/v0.19.5) v0.19.5.",
-    "version": "1.1.0"
+    "description": "The [Open Databases Integration for Materials Design (OPTIMADE) consortium](https://www.optimade.org/) aims to make materials databases interoperational by developing a common REST API.\n\nThis specification is generated using [`optimade-python-tools`](https://github.com/Materials-Consortia/optimade-python-tools/tree/v0.20.1) v0.21.0~develop.",
+    "version": "1.2.0~develop"
   },
   "paths": {
     "/info": {
@@ -1300,6 +1300,428 @@
         }
       }
     },
+    "/files": {
+      "get": {
+        "tags": [
+          "Files"
+        ],
+        "summary": "Get Files",
+        "operationId": "get_files_files_get",
+        "parameters": [
+          {
+            "description": "A filter string, in the format described in section API Filtering Format Specification of the specification.",
+            "required": false,
+            "schema": {
+              "title": "Filter",
+              "type": "string",
+              "description": "A filter string, in the format described in section API Filtering Format Specification of the specification.",
+              "default": ""
+            },
+            "name": "filter",
+            "in": "query"
+          },
+          {
+            "description": "The output format requested (see section Response Format).\nDefaults to the format string 'json', which specifies the standard output format described in this specification.\nExample: `http://example.com/v1/structures?response_format=xml`",
+            "required": false,
+            "schema": {
+              "title": "Response Format",
+              "type": "string",
+              "description": "The output format requested (see section Response Format).\nDefaults to the format string 'json', which specifies the standard output format described in this specification.\nExample: `http://example.com/v1/structures?response_format=xml`",
+              "default": "json"
+            },
+            "name": "response_format",
+            "in": "query"
+          },
+          {
+            "description": "An email address of the user making the request.\nThe email SHOULD be that of a person and not an automatic system.\nExample: `http://example.com/v1/structures?email_address=user@example.com`",
+            "required": false,
+            "schema": {
+              "title": "Email Address",
+              "type": "string",
+              "description": "An email address of the user making the request.\nThe email SHOULD be that of a person and not an automatic system.\nExample: `http://example.com/v1/structures?email_address=user@example.com`",
+              "format": "email",
+              "default": ""
+            },
+            "name": "email_address",
+            "in": "query"
+          },
+          {
+            "description": "A comma-delimited set of fields to be provided in the output.\nIf provided, these fields MUST be returned along with the REQUIRED fields.\nOther OPTIONAL fields MUST NOT be returned when this parameter is present.\nExample: `http://example.com/v1/structures?response_fields=last_modified,nsites`",
+            "required": false,
+            "schema": {
+              "title": "Response Fields",
+              "pattern": "([a-z_][a-z_0-9]*(,[a-z_][a-z_0-9]*)*)?",
+              "type": "string",
+              "description": "A comma-delimited set of fields to be provided in the output.\nIf provided, these fields MUST be returned along with the REQUIRED fields.\nOther OPTIONAL fields MUST NOT be returned when this parameter is present.\nExample: `http://example.com/v1/structures?response_fields=last_modified,nsites`",
+              "default": ""
+            },
+            "name": "response_fields",
+            "in": "query"
+          },
+          {
+            "description": "If supporting sortable queries, an implementation MUST use the `sort` query parameter with format as specified by [JSON API 1.0](https://jsonapi.org/format/1.0/#fetching-sorting).\n\nAn implementation MAY support multiple sort fields for a single query.\nIf it does, it again MUST conform to the JSON API 1.0 specification.\n\nIf an implementation supports sorting for an entry listing endpoint, then the `/info/<entries>` endpoint MUST include, for each field name `<fieldname>` in its `data.properties.<fieldname>` response value that can be used for sorting, the key `sortable` with value `true`.\nIf a field name under an entry listing endpoint supporting sorting cannot be used for sorting, the server MUST either leave out the `sortable` key or set it equal to `false` for the specific field name.\nThe set of field names, with `sortable` equal to `true` are allowed to be used in the \"sort fields\" list according to its definition in the JSON API 1.0 specification.\nThe field `sortable` is in addition to each property description and other OPTIONAL fields.\nAn example is shown in the section Entry Listing Info Endpoints.",
+            "required": false,
+            "schema": {
+              "title": "Sort",
+              "pattern": "([a-z_][a-z_0-9]*(,[a-z_][a-z_0-9]*)*)?",
+              "type": "string",
+              "description": "If supporting sortable queries, an implementation MUST use the `sort` query parameter with format as specified by [JSON API 1.0](https://jsonapi.org/format/1.0/#fetching-sorting).\n\nAn implementation MAY support multiple sort fields for a single query.\nIf it does, it again MUST conform to the JSON API 1.0 specification.\n\nIf an implementation supports sorting for an entry listing endpoint, then the `/info/<entries>` endpoint MUST include, for each field name `<fieldname>` in its `data.properties.<fieldname>` response value that can be used for sorting, the key `sortable` with value `true`.\nIf a field name under an entry listing endpoint supporting sorting cannot be used for sorting, the server MUST either leave out the `sortable` key or set it equal to `false` for the specific field name.\nThe set of field names, with `sortable` equal to `true` are allowed to be used in the \"sort fields\" list according to its definition in the JSON API 1.0 specification.\nThe field `sortable` is in addition to each property description and other OPTIONAL fields.\nAn example is shown in the section Entry Listing Info Endpoints.",
+              "default": ""
+            },
+            "name": "sort",
+            "in": "query"
+          },
+          {
+            "description": "Sets a numerical limit on the number of entries returned.\nSee [JSON API 1.0](https://jsonapi.org/format/1.0/#fetching-pagination).\nThe API implementation MUST return no more than the number specified.\nIt MAY return fewer.\nThe database MAY have a maximum limit and not accept larger numbers (in which case an error code -- 403 Forbidden -- MUST be returned).\nThe default limit value is up to the API implementation to decide.\nExample: `http://example.com/optimade/v1/structures?page_limit=100`",
+            "required": false,
+            "schema": {
+              "title": "Page Limit",
+              "minimum": 0.0,
+              "type": "integer",
+              "description": "Sets a numerical limit on the number of entries returned.\nSee [JSON API 1.0](https://jsonapi.org/format/1.0/#fetching-pagination).\nThe API implementation MUST return no more than the number specified.\nIt MAY return fewer.\nThe database MAY have a maximum limit and not accept larger numbers (in which case an error code -- 403 Forbidden -- MUST be returned).\nThe default limit value is up to the API implementation to decide.\nExample: `http://example.com/optimade/v1/structures?page_limit=100`",
+              "default": 20
+            },
+            "name": "page_limit",
+            "in": "query"
+          },
+          {
+            "description": "RECOMMENDED for use with _offset-based_ pagination: using `page_offset` and `page_limit` is RECOMMENDED.\nExample: Skip 50 structures and fetch up to 100: `/structures?page_offset=50&page_limit=100`.",
+            "required": false,
+            "schema": {
+              "title": "Page Offset",
+              "minimum": 0.0,
+              "type": "integer",
+              "description": "RECOMMENDED for use with _offset-based_ pagination: using `page_offset` and `page_limit` is RECOMMENDED.\nExample: Skip 50 structures and fetch up to 100: `/structures?page_offset=50&page_limit=100`.",
+              "default": 0
+            },
+            "name": "page_offset",
+            "in": "query"
+          },
+          {
+            "description": "RECOMMENDED for use with _page-based_ pagination: using `page_number` and `page_limit` is RECOMMENDED.\nIt is RECOMMENDED that the first page has number 1, i.e., that `page_number` is 1-based.\nExample: Fetch page 2 of up to 50 structures per page: `/structures?page_number=2&page_limit=50`.",
+            "required": false,
+            "schema": {
+              "title": "Page Number",
+              "type": "integer",
+              "description": "RECOMMENDED for use with _page-based_ pagination: using `page_number` and `page_limit` is RECOMMENDED.\nIt is RECOMMENDED that the first page has number 1, i.e., that `page_number` is 1-based.\nExample: Fetch page 2 of up to 50 structures per page: `/structures?page_number=2&page_limit=50`."
+            },
+            "name": "page_number",
+            "in": "query"
+          },
+          {
+            "description": "RECOMMENDED for use with _cursor-based_ pagination: using `page_cursor` and `page_limit` is RECOMMENDED.",
+            "required": false,
+            "schema": {
+              "title": "Page Cursor",
+              "minimum": 0.0,
+              "type": "integer",
+              "description": "RECOMMENDED for use with _cursor-based_ pagination: using `page_cursor` and `page_limit` is RECOMMENDED.",
+              "default": 0
+            },
+            "name": "page_cursor",
+            "in": "query"
+          },
+          {
+            "description": "RECOMMENDED for use with _value-based_ pagination: using `page_above`/`page_below` and `page_limit` is RECOMMENDED.\nExample: Fetch up to 100 structures above sort-field value 4000 (in this example, server chooses to fetch results sorted by increasing `id`, so `page_above` value refers to an `id` value): `/structures?page_above=4000&page_limit=100`.",
+            "required": false,
+            "schema": {
+              "title": "Page Above",
+              "minimum": 0.0,
+              "type": "integer",
+              "description": "RECOMMENDED for use with _value-based_ pagination: using `page_above`/`page_below` and `page_limit` is RECOMMENDED.\nExample: Fetch up to 100 structures above sort-field value 4000 (in this example, server chooses to fetch results sorted by increasing `id`, so `page_above` value refers to an `id` value): `/structures?page_above=4000&page_limit=100`.",
+              "default": 0
+            },
+            "name": "page_above",
+            "in": "query"
+          },
+          {
+            "description": "RECOMMENDED for use with _value-based_ pagination: using `page_above`/`page_below` and `page_limit` is RECOMMENDED.",
+            "required": false,
+            "schema": {
+              "title": "Page Below",
+              "minimum": 0.0,
+              "type": "integer",
+              "description": "RECOMMENDED for use with _value-based_ pagination: using `page_above`/`page_below` and `page_limit` is RECOMMENDED.",
+              "default": 0
+            },
+            "name": "page_below",
+            "in": "query"
+          },
+          {
+            "description": "A server MAY implement the JSON API concept of returning [compound documents](https://jsonapi.org/format/1.0/#document-compound-documents) by utilizing the `include` query parameter as specified by [JSON API 1.0](https://jsonapi.org/format/1.0/#fetching-includes).\n\nAll related resource objects MUST be returned as part of an array value for the top-level `included` field, see the section JSON Response Schema: Common Fields.\n\nThe value of `include` MUST be a comma-separated list of \"relationship paths\", as defined in the [JSON API](https://jsonapi.org/format/1.0/#fetching-includes).\nIf relationship paths are not supported, or a server is unable to identify a relationship path a `400 Bad Request` response MUST be made.\n\nThe **default value** for `include` is `references`.\nThis means `references` entries MUST always be included under the top-level field `included` as default, since a server assumes if `include` is not specified by a client in the request, it is still specified as `include=references`.\nNote, if a client explicitly specifies `include` and leaves out `references`, `references` resource objects MUST NOT be included under the top-level field `included`, as per the definition of `included`, see section JSON Response Schema: Common Fields.\n\n> **Note**: A query with the parameter `include` set to the empty string means no related resource objects are to be returned under the top-level field `included`.",
+            "required": false,
+            "schema": {
+              "title": "Include",
+              "type": "string",
+              "description": "A server MAY implement the JSON API concept of returning [compound documents](https://jsonapi.org/format/1.0/#document-compound-documents) by utilizing the `include` query parameter as specified by [JSON API 1.0](https://jsonapi.org/format/1.0/#fetching-includes).\n\nAll related resource objects MUST be returned as part of an array value for the top-level `included` field, see the section JSON Response Schema: Common Fields.\n\nThe value of `include` MUST be a comma-separated list of \"relationship paths\", as defined in the [JSON API](https://jsonapi.org/format/1.0/#fetching-includes).\nIf relationship paths are not supported, or a server is unable to identify a relationship path a `400 Bad Request` response MUST be made.\n\nThe **default value** for `include` is `references`.\nThis means `references` entries MUST always be included under the top-level field `included` as default, since a server assumes if `include` is not specified by a client in the request, it is still specified as `include=references`.\nNote, if a client explicitly specifies `include` and leaves out `references`, `references` resource objects MUST NOT be included under the top-level field `included`, as per the definition of `included`, see section JSON Response Schema: Common Fields.\n\n> **Note**: A query with the parameter `include` set to the empty string means no related resource objects are to be returned under the top-level field `included`.",
+              "default": "references"
+            },
+            "name": "include",
+            "in": "query"
+          },
+          {
+            "description": "If the client provides the parameter, the value SHOULD have the format `vMAJOR` or `vMAJOR.MINOR`, where MAJOR is a major version and MINOR is a minor version of the API. For example, if a client appends `api_hint=v1.0` to the query string, the hint provided is for major version 1 and minor version 0.",
+            "required": false,
+            "schema": {
+              "title": "Api Hint",
+              "pattern": "(v[0-9]+(\\.[0-9]+)?)?",
+              "type": "string",
+              "description": "If the client provides the parameter, the value SHOULD have the format `vMAJOR` or `vMAJOR.MINOR`, where MAJOR is a major version and MINOR is a minor version of the API. For example, if a client appends `api_hint=v1.0` to the query string, the hint provided is for major version 1 and minor version 0.",
+              "default": ""
+            },
+            "name": "api_hint",
+            "in": "query"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/vnd.api+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FileResponseMany"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/vnd.api+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/vnd.api+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "application/vnd.api+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Unprocessable Entity",
+            "content": {
+              "application/vnd.api+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "content": {
+              "application/vnd.api+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "501": {
+            "description": "Not Implemented",
+            "content": {
+              "application/vnd.api+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "553": {
+            "description": "Version Not Supported",
+            "content": {
+              "application/vnd.api+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/files/{entry_id}": {
+      "get": {
+        "tags": [
+          "Files"
+        ],
+        "summary": "Get Single File",
+        "operationId": "get_single_file_files__entry_id__get",
+        "parameters": [
+          {
+            "required": true,
+            "schema": {
+              "title": "Entry Id",
+              "type": "string"
+            },
+            "name": "entry_id",
+            "in": "path"
+          },
+          {
+            "description": "The output format requested (see section Response Format).\nDefaults to the format string 'json', which specifies the standard output format described in this specification.\nExample: `http://example.com/v1/structures?response_format=xml`",
+            "required": false,
+            "schema": {
+              "title": "Response Format",
+              "type": "string",
+              "description": "The output format requested (see section Response Format).\nDefaults to the format string 'json', which specifies the standard output format described in this specification.\nExample: `http://example.com/v1/structures?response_format=xml`",
+              "default": "json"
+            },
+            "name": "response_format",
+            "in": "query"
+          },
+          {
+            "description": "An email address of the user making the request.\nThe email SHOULD be that of a person and not an automatic system.\nExample: `http://example.com/v1/structures?email_address=user@example.com`",
+            "required": false,
+            "schema": {
+              "title": "Email Address",
+              "type": "string",
+              "description": "An email address of the user making the request.\nThe email SHOULD be that of a person and not an automatic system.\nExample: `http://example.com/v1/structures?email_address=user@example.com`",
+              "format": "email",
+              "default": ""
+            },
+            "name": "email_address",
+            "in": "query"
+          },
+          {
+            "description": "A comma-delimited set of fields to be provided in the output.\nIf provided, these fields MUST be returned along with the REQUIRED fields.\nOther OPTIONAL fields MUST NOT be returned when this parameter is present.\nExample: `http://example.com/v1/structures?response_fields=last_modified,nsites`",
+            "required": false,
+            "schema": {
+              "title": "Response Fields",
+              "pattern": "([a-z_][a-z_0-9]*(,[a-z_][a-z_0-9]*)*)?",
+              "type": "string",
+              "description": "A comma-delimited set of fields to be provided in the output.\nIf provided, these fields MUST be returned along with the REQUIRED fields.\nOther OPTIONAL fields MUST NOT be returned when this parameter is present.\nExample: `http://example.com/v1/structures?response_fields=last_modified,nsites`",
+              "default": ""
+            },
+            "name": "response_fields",
+            "in": "query"
+          },
+          {
+            "description": "A server MAY implement the JSON API concept of returning [compound documents](https://jsonapi.org/format/1.0/#document-compound-documents) by utilizing the `include` query parameter as specified by [JSON API 1.0](https://jsonapi.org/format/1.0/#fetching-includes).\n\nAll related resource objects MUST be returned as part of an array value for the top-level `included` field, see the section JSON Response Schema: Common Fields.\n\nThe value of `include` MUST be a comma-separated list of \"relationship paths\", as defined in the [JSON API](https://jsonapi.org/format/1.0/#fetching-includes).\nIf relationship paths are not supported, or a server is unable to identify a relationship path a `400 Bad Request` response MUST be made.\n\nThe **default value** for `include` is `references`.\nThis means `references` entries MUST always be included under the top-level field `included` as default, since a server assumes if `include` is not specified by a client in the request, it is still specified as `include=references`.\nNote, if a client explicitly specifies `include` and leaves out `references`, `references` resource objects MUST NOT be included under the top-level field `included`, as per the definition of `included`, see section JSON Response Schema: Common Fields.\n\n> **Note**: A query with the parameter `include` set to the empty string means no related resource objects are to be returned under the top-level field `included`.",
+            "required": false,
+            "schema": {
+              "title": "Include",
+              "type": "string",
+              "description": "A server MAY implement the JSON API concept of returning [compound documents](https://jsonapi.org/format/1.0/#document-compound-documents) by utilizing the `include` query parameter as specified by [JSON API 1.0](https://jsonapi.org/format/1.0/#fetching-includes).\n\nAll related resource objects MUST be returned as part of an array value for the top-level `included` field, see the section JSON Response Schema: Common Fields.\n\nThe value of `include` MUST be a comma-separated list of \"relationship paths\", as defined in the [JSON API](https://jsonapi.org/format/1.0/#fetching-includes).\nIf relationship paths are not supported, or a server is unable to identify a relationship path a `400 Bad Request` response MUST be made.\n\nThe **default value** for `include` is `references`.\nThis means `references` entries MUST always be included under the top-level field `included` as default, since a server assumes if `include` is not specified by a client in the request, it is still specified as `include=references`.\nNote, if a client explicitly specifies `include` and leaves out `references`, `references` resource objects MUST NOT be included under the top-level field `included`, as per the definition of `included`, see section JSON Response Schema: Common Fields.\n\n> **Note**: A query with the parameter `include` set to the empty string means no related resource objects are to be returned under the top-level field `included`.",
+              "default": "references"
+            },
+            "name": "include",
+            "in": "query"
+          },
+          {
+            "description": "If the client provides the parameter, the value SHOULD have the format `vMAJOR` or `vMAJOR.MINOR`, where MAJOR is a major version and MINOR is a minor version of the API. For example, if a client appends `api_hint=v1.0` to the query string, the hint provided is for major version 1 and minor version 0.",
+            "required": false,
+            "schema": {
+              "title": "Api Hint",
+              "pattern": "(v[0-9]+(\\.[0-9]+)?)?",
+              "type": "string",
+              "description": "If the client provides the parameter, the value SHOULD have the format `vMAJOR` or `vMAJOR.MINOR`, where MAJOR is a major version and MINOR is a minor version of the API. For example, if a client appends `api_hint=v1.0` to the query string, the hint provided is for major version 1 and minor version 0.",
+              "default": ""
+            },
+            "name": "api_hint",
+            "in": "query"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/vnd.api+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FileResponseOne"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/vnd.api+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/vnd.api+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "application/vnd.api+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Unprocessable Entity",
+            "content": {
+              "application/vnd.api+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "content": {
+              "application/vnd.api+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "501": {
+            "description": "Not Implemented",
+            "content": {
+              "application/vnd.api+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "553": {
+            "description": "Version Not Supported",
+            "content": {
+              "application/vnd.api+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/versions": {
       "get": {
         "tags": [
@@ -1334,6 +1756,18 @@
           "no"
         ],
         "description": "Enumeration of aggregate values"
+      },
+      "AllowedJSONSchemaDataType": {
+        "title": "AllowedJSONSchemaDataType",
+        "enum": [
+          "boolean",
+          "object",
+          "array",
+          "number",
+          "string",
+          "integer"
+        ],
+        "description": "The allowed values for `type` in the Property Definition restricted JSON Schema syntax."
       },
       "Assembly": {
         "title": "Assembly",
@@ -1412,7 +1846,9 @@
           "api_version",
           "available_api_versions",
           "available_endpoints",
-          "entry_types_by_format"
+          "entry_types_by_format",
+          "license",
+          "available_licenses"
         ],
         "type": "object",
         "properties": {
@@ -1464,6 +1900,29 @@
               }
             },
             "description": "Available entry endpoints as a function of output formats."
+          },
+          "license": {
+            "title": "License",
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Link"
+              },
+              {
+                "maxLength": 65536,
+                "minLength": 1,
+                "type": "string",
+                "format": "uri"
+              }
+            ],
+            "description": "A [JSON API links object](http://jsonapi.org/format/1.0/#document-links) giving a URL to a web page containing a human-readable text describing the license (or licensing options if there are multiple) covering all the data and metadata provided by this database.\nClients are advised not to try automated parsing of this link or its content, but rather rely on the field `available_licenses` instead."
+          },
+          "available_licenses": {
+            "title": "Available Licenses",
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "List of [SPDX license identifiers](https://spdx.org/licenses/) specifying a set of alternative licenses under which the client is granted access to all the data and metadata in this database.\n\nIf the data and metadata is available under multiple alternative licenses, identifiers of these multiple licenses SHOULD be provided to let clients know under which conditions the data and metadata can be used.\nInclusion of a license identifier in the list is a commitment of the database that the rights are in place to grant clients access to all the data and metadata according to the terms of either of these licenses (at the choice of the client).\nIf the licensing information provided via the field `license` omits licensing options specified in `available_licenses`, or if it otherwise contradicts them, a client MUST still be allowed to interpret the inclusion of a license in `available_licenses` as a full commitment from the database that the data and metadata is available, without exceptions, under the respective licenses.\nIf the database cannot make that commitment, e.g., if only part of the data is available under a license, the corresponding license identifier MUST NOT appear in `available_licenses` (but, rather, the field `license` is to be used to clarify the licensing situation.)\nAn empty list indicates that none of the SPDX licenses apply for the entirety of the database and that the licensing situation is clarified in human readable form in the field `license`."
           },
           "is_index": {
             "title": "Is Index",
@@ -1573,50 +2032,640 @@
         },
         "description": "Minimum requirements to represent a relationship resource"
       },
-      "DataType": {
-        "title": "DataType",
-        "enum": [
-          "string",
-          "integer",
-          "float",
-          "boolean",
-          "timestamp",
-          "list",
-          "dictionary",
-          "unknown"
-        ],
-        "description": "Optimade Data Types\n\n    See the section \"Data types\" in the OPTIMADE API specification for more information.\n    "
-      },
       "EntryInfoProperty": {
         "title": "EntryInfoProperty",
         "required": [
-          "description"
+          "title",
+          "description",
+          "x-optimade-property",
+          "x-optimade-implementation",
+          "x-optimade-requirements",
+          "deprecated",
+          "enum",
+          "examples"
         ],
         "type": "object",
         "properties": {
+          "title": {
+            "title": "Title",
+            "type": "string",
+            "description": "A short single-line human-readable explanation of the defined property appropriate to show as part of a user interface."
+          },
           "description": {
             "title": "Description",
             "type": "string",
-            "description": "A human-readable description of the entry property"
+            "description": "A human-readable multi-line description that explains the purpose, requirements, and conventions of the defined property.\n\nThe format SHOULD be a one-line description, followed by a new paragraph (two newlines), followed by a more detailed description of all the requirements and conventions of the defined property.\nFormatting in the text SHOULD use Markdown in the CommonMark v0.3 format."
           },
-          "unit": {
-            "title": "Unit",
+          "x-optimade-property": {
+            "title": "X-Optimade-Property",
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/OptimadePropertyDefinition"
+              }
+            ],
+            "description": "Additional information to define the property that is not covered by fields in the JSON Schema standard."
+          },
+          "x-optimade-unit": {
+            "title": "X-Optimade-Unit",
             "type": "string",
-            "description": "The physical unit of the entry property.\nThis MUST be a valid representation of units according to version 2.1 of [The Unified Code for Units of Measure](https://unitsofmeasure.org/ucum.html).\nIt is RECOMMENDED that non-standard (non-SI) units are described in the description for the property."
+            "description": "A (compound) symbol for the physical unit in which the value of the defined property is given or one of the strings `dimensionless` or `inapplicable`."
           },
-          "sortable": {
-            "title": "Sortable",
-            "type": "boolean",
-            "description": "Defines whether the entry property can be used for sorting with the \"sort\" parameter.\nIf the entry listing endpoint supports sorting, this key MUST be present for sortable properties with value `true`."
+          "x-optimade-implementation": {
+            "title": "X-Optimade-Implementation",
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/PropertyImplementationInfo"
+              }
+            ],
+            "description": "A dictionary describing the level of OPTIMADE API functionality provided by the present implementation.\nIf an implementation omits this field in its response, a client interacting with that implementation SHOULD NOT make any assumptions about the availability of these features."
+          },
+          "x-optimade-requirements": {
+            "title": "X-Optimade-Requirements",
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/PropertyRequirementsInfo"
+              }
+            ],
+            "description": "A dictionary describing the level of OPTIMADE API functionality required by all implementations of this property.\nOmitting this field means the corresponding functionality is OPTIONAL."
           },
           "type": {
             "title": "Type",
-            "allOf": [
+            "anyOf": [
               {
-                "$ref": "#/components/schemas/DataType"
+                "$ref": "#/components/schemas/AllowedJSONSchemaDataType"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/AllowedJSONSchemaDataType"
+                }
               }
             ],
-            "description": "The type of the property's value.\nThis MUST be any of the types defined in the Data types section.\nFor the purpose of compatibility with future versions of this specification, a client MUST accept values that are not `string` values specifying any of the OPTIMADE Data types, but MUST then also disregard the `type` field.\nNote, if the value is a nested type, only the outermost type should be reported.\nE.g., for the entry resource `structures`, the `species` property is defined as a list of dictionaries, hence its `type` value would be `list`."
+            "description": "A string or list that specifies the type of the defined property.\nIt MUST be one of:\n\n- One of the strings `\"boolean\"`, `\"object\"` (refers to an OPTIMADE dictionary), `\"array\"` (refers to an OPTIMADE list), `\"number\"` (refers to an OPTIMADE float), `\"string\"`, or `\"integer\"`.\n- A list where the first item MUST be one of the strings above, and the second item MUST be the string `\"null\"`."
+          },
+          "deprecated": {
+            "title": "Deprecated",
+            "type": "boolean",
+            "description": " If `TRUE`, implementations SHOULD not use the defined property, and it MAY be removed in the future.\nIf `FALSE`, the defined property is not deprecated.\nThe field not being present means `FALSE`."
+          },
+          "enum": {
+            "title": "Enum",
+            "type": "array",
+            "items": {},
+            "description": "The defined property MUST take one of the values given in the provided list.\nThe items in the list MUST all be of a data type that matches the `type` field and otherwise adhere to the rest of the Property Description.\nIf this key is given, for `null` to be a valid value of the defined property, the list MUST contain a `null` value and the `type` MUST be a list where the second value is the string `\"null\"`."
+          },
+          "examples": {
+            "title": "Examples",
+            "type": "array",
+            "items": {},
+            "description": "A list of example values that the defined property can have.\nThese examples MUST all be of a data type that matches the `type` field and otherwise adhere to the rest of the Property Description."
+          }
+        }
+      },
+      "EntryInfoPropertyArray": {
+        "title": "EntryInfoPropertyArray",
+        "required": [
+          "items",
+          "title",
+          "description",
+          "x-optimade-property",
+          "x-optimade-implementation",
+          "x-optimade-requirements",
+          "deprecated",
+          "enum",
+          "examples"
+        ],
+        "type": "object",
+        "properties": {
+          "items": {
+            "$ref": "#/components/schemas/EntryInfoProperty"
+          },
+          "maxItems": {
+            "title": "Maxitems",
+            "type": "integer"
+          },
+          "minItems": {
+            "title": "Minitems",
+            "type": "integer"
+          },
+          "uniqueItems": {
+            "title": "Uniqueitems",
+            "type": "boolean"
+          },
+          "title": {
+            "title": "Title",
+            "type": "string",
+            "description": "A short single-line human-readable explanation of the defined property appropriate to show as part of a user interface."
+          },
+          "description": {
+            "title": "Description",
+            "type": "string",
+            "description": "A human-readable multi-line description that explains the purpose, requirements, and conventions of the defined property.\n\nThe format SHOULD be a one-line description, followed by a new paragraph (two newlines), followed by a more detailed description of all the requirements and conventions of the defined property.\nFormatting in the text SHOULD use Markdown in the CommonMark v0.3 format."
+          },
+          "x-optimade-property": {
+            "title": "X-Optimade-Property",
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/OptimadePropertyDefinition"
+              }
+            ],
+            "description": "Additional information to define the property that is not covered by fields in the JSON Schema standard."
+          },
+          "x-optimade-unit": {
+            "title": "X-Optimade-Unit",
+            "type": "string",
+            "description": "A (compound) symbol for the physical unit in which the value of the defined property is given or one of the strings `dimensionless` or `inapplicable`."
+          },
+          "x-optimade-implementation": {
+            "title": "X-Optimade-Implementation",
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/PropertyImplementationInfo"
+              }
+            ],
+            "description": "A dictionary describing the level of OPTIMADE API functionality provided by the present implementation.\nIf an implementation omits this field in its response, a client interacting with that implementation SHOULD NOT make any assumptions about the availability of these features."
+          },
+          "x-optimade-requirements": {
+            "title": "X-Optimade-Requirements",
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/PropertyRequirementsInfo"
+              }
+            ],
+            "description": "A dictionary describing the level of OPTIMADE API functionality required by all implementations of this property.\nOmitting this field means the corresponding functionality is OPTIONAL."
+          },
+          "type": {
+            "title": "Type",
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/AllowedJSONSchemaDataType"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/AllowedJSONSchemaDataType"
+                }
+              }
+            ],
+            "description": "A string or list that specifies the type of the defined property.\nIt MUST be one of:\n\n- One of the strings `\"boolean\"`, `\"object\"` (refers to an OPTIMADE dictionary), `\"array\"` (refers to an OPTIMADE list), `\"number\"` (refers to an OPTIMADE float), `\"string\"`, or `\"integer\"`.\n- A list where the first item MUST be one of the strings above, and the second item MUST be the string `\"null\"`."
+          },
+          "deprecated": {
+            "title": "Deprecated",
+            "type": "boolean",
+            "description": " If `TRUE`, implementations SHOULD not use the defined property, and it MAY be removed in the future.\nIf `FALSE`, the defined property is not deprecated.\nThe field not being present means `FALSE`."
+          },
+          "enum": {
+            "title": "Enum",
+            "type": "array",
+            "items": {},
+            "description": "The defined property MUST take one of the values given in the provided list.\nThe items in the list MUST all be of a data type that matches the `type` field and otherwise adhere to the rest of the Property Description.\nIf this key is given, for `null` to be a valid value of the defined property, the list MUST contain a `null` value and the `type` MUST be a list where the second value is the string `\"null\"`."
+          },
+          "examples": {
+            "title": "Examples",
+            "type": "array",
+            "items": {},
+            "description": "A list of example values that the defined property can have.\nThese examples MUST all be of a data type that matches the `type` field and otherwise adhere to the rest of the Property Description."
+          }
+        }
+      },
+      "EntryInfoPropertyInteger": {
+        "title": "EntryInfoPropertyInteger",
+        "required": [
+          "title",
+          "description",
+          "x-optimade-property",
+          "x-optimade-implementation",
+          "x-optimade-requirements",
+          "deprecated",
+          "enum",
+          "examples"
+        ],
+        "type": "object",
+        "properties": {
+          "multipleOf": {
+            "title": "Multipleof",
+            "type": "integer"
+          },
+          "maximum": {
+            "title": "Maximum",
+            "type": "integer"
+          },
+          "exclusiveMaximum": {
+            "title": "Exclusivemaximum",
+            "type": "integer"
+          },
+          "minimum": {
+            "title": "Minimum",
+            "type": "integer"
+          },
+          "exclusiveMinimum": {
+            "title": "Exclusiveminimum",
+            "type": "integer"
+          },
+          "title": {
+            "title": "Title",
+            "type": "string",
+            "description": "A short single-line human-readable explanation of the defined property appropriate to show as part of a user interface."
+          },
+          "description": {
+            "title": "Description",
+            "type": "string",
+            "description": "A human-readable multi-line description that explains the purpose, requirements, and conventions of the defined property.\n\nThe format SHOULD be a one-line description, followed by a new paragraph (two newlines), followed by a more detailed description of all the requirements and conventions of the defined property.\nFormatting in the text SHOULD use Markdown in the CommonMark v0.3 format."
+          },
+          "x-optimade-property": {
+            "title": "X-Optimade-Property",
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/OptimadePropertyDefinition"
+              }
+            ],
+            "description": "Additional information to define the property that is not covered by fields in the JSON Schema standard."
+          },
+          "x-optimade-unit": {
+            "title": "X-Optimade-Unit",
+            "type": "string",
+            "description": "A (compound) symbol for the physical unit in which the value of the defined property is given or one of the strings `dimensionless` or `inapplicable`."
+          },
+          "x-optimade-implementation": {
+            "title": "X-Optimade-Implementation",
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/PropertyImplementationInfo"
+              }
+            ],
+            "description": "A dictionary describing the level of OPTIMADE API functionality provided by the present implementation.\nIf an implementation omits this field in its response, a client interacting with that implementation SHOULD NOT make any assumptions about the availability of these features."
+          },
+          "x-optimade-requirements": {
+            "title": "X-Optimade-Requirements",
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/PropertyRequirementsInfo"
+              }
+            ],
+            "description": "A dictionary describing the level of OPTIMADE API functionality required by all implementations of this property.\nOmitting this field means the corresponding functionality is OPTIONAL."
+          },
+          "type": {
+            "title": "Type",
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/AllowedJSONSchemaDataType"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/AllowedJSONSchemaDataType"
+                }
+              }
+            ],
+            "description": "A string or list that specifies the type of the defined property.\nIt MUST be one of:\n\n- One of the strings `\"boolean\"`, `\"object\"` (refers to an OPTIMADE dictionary), `\"array\"` (refers to an OPTIMADE list), `\"number\"` (refers to an OPTIMADE float), `\"string\"`, or `\"integer\"`.\n- A list where the first item MUST be one of the strings above, and the second item MUST be the string `\"null\"`."
+          },
+          "deprecated": {
+            "title": "Deprecated",
+            "type": "boolean",
+            "description": " If `TRUE`, implementations SHOULD not use the defined property, and it MAY be removed in the future.\nIf `FALSE`, the defined property is not deprecated.\nThe field not being present means `FALSE`."
+          },
+          "enum": {
+            "title": "Enum",
+            "type": "array",
+            "items": {},
+            "description": "The defined property MUST take one of the values given in the provided list.\nThe items in the list MUST all be of a data type that matches the `type` field and otherwise adhere to the rest of the Property Description.\nIf this key is given, for `null` to be a valid value of the defined property, the list MUST contain a `null` value and the `type` MUST be a list where the second value is the string `\"null\"`."
+          },
+          "examples": {
+            "title": "Examples",
+            "type": "array",
+            "items": {},
+            "description": "A list of example values that the defined property can have.\nThese examples MUST all be of a data type that matches the `type` field and otherwise adhere to the rest of the Property Description."
+          }
+        }
+      },
+      "EntryInfoPropertyNumber": {
+        "title": "EntryInfoPropertyNumber",
+        "required": [
+          "title",
+          "description",
+          "x-optimade-property",
+          "x-optimade-implementation",
+          "x-optimade-requirements",
+          "deprecated",
+          "enum",
+          "examples"
+        ],
+        "type": "object",
+        "properties": {
+          "multipleOf": {
+            "title": "Multipleof",
+            "type": "integer"
+          },
+          "maximum": {
+            "title": "Maximum",
+            "type": "integer"
+          },
+          "exclusiveMaximum": {
+            "title": "Exclusivemaximum",
+            "type": "integer"
+          },
+          "minimum": {
+            "title": "Minimum",
+            "type": "integer"
+          },
+          "exclusiveMinimum": {
+            "title": "Exclusiveminimum",
+            "type": "integer"
+          },
+          "title": {
+            "title": "Title",
+            "type": "string",
+            "description": "A short single-line human-readable explanation of the defined property appropriate to show as part of a user interface."
+          },
+          "description": {
+            "title": "Description",
+            "type": "string",
+            "description": "A human-readable multi-line description that explains the purpose, requirements, and conventions of the defined property.\n\nThe format SHOULD be a one-line description, followed by a new paragraph (two newlines), followed by a more detailed description of all the requirements and conventions of the defined property.\nFormatting in the text SHOULD use Markdown in the CommonMark v0.3 format."
+          },
+          "x-optimade-property": {
+            "title": "X-Optimade-Property",
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/OptimadePropertyDefinition"
+              }
+            ],
+            "description": "Additional information to define the property that is not covered by fields in the JSON Schema standard."
+          },
+          "x-optimade-unit": {
+            "title": "X-Optimade-Unit",
+            "type": "string",
+            "description": "A (compound) symbol for the physical unit in which the value of the defined property is given or one of the strings `dimensionless` or `inapplicable`."
+          },
+          "x-optimade-implementation": {
+            "title": "X-Optimade-Implementation",
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/PropertyImplementationInfo"
+              }
+            ],
+            "description": "A dictionary describing the level of OPTIMADE API functionality provided by the present implementation.\nIf an implementation omits this field in its response, a client interacting with that implementation SHOULD NOT make any assumptions about the availability of these features."
+          },
+          "x-optimade-requirements": {
+            "title": "X-Optimade-Requirements",
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/PropertyRequirementsInfo"
+              }
+            ],
+            "description": "A dictionary describing the level of OPTIMADE API functionality required by all implementations of this property.\nOmitting this field means the corresponding functionality is OPTIONAL."
+          },
+          "type": {
+            "title": "Type",
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/AllowedJSONSchemaDataType"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/AllowedJSONSchemaDataType"
+                }
+              }
+            ],
+            "description": "A string or list that specifies the type of the defined property.\nIt MUST be one of:\n\n- One of the strings `\"boolean\"`, `\"object\"` (refers to an OPTIMADE dictionary), `\"array\"` (refers to an OPTIMADE list), `\"number\"` (refers to an OPTIMADE float), `\"string\"`, or `\"integer\"`.\n- A list where the first item MUST be one of the strings above, and the second item MUST be the string `\"null\"`."
+          },
+          "deprecated": {
+            "title": "Deprecated",
+            "type": "boolean",
+            "description": " If `TRUE`, implementations SHOULD not use the defined property, and it MAY be removed in the future.\nIf `FALSE`, the defined property is not deprecated.\nThe field not being present means `FALSE`."
+          },
+          "enum": {
+            "title": "Enum",
+            "type": "array",
+            "items": {},
+            "description": "The defined property MUST take one of the values given in the provided list.\nThe items in the list MUST all be of a data type that matches the `type` field and otherwise adhere to the rest of the Property Description.\nIf this key is given, for `null` to be a valid value of the defined property, the list MUST contain a `null` value and the `type` MUST be a list where the second value is the string `\"null\"`."
+          },
+          "examples": {
+            "title": "Examples",
+            "type": "array",
+            "items": {},
+            "description": "A list of example values that the defined property can have.\nThese examples MUST all be of a data type that matches the `type` field and otherwise adhere to the rest of the Property Description."
+          }
+        }
+      },
+      "EntryInfoPropertyObject": {
+        "title": "EntryInfoPropertyObject",
+        "required": [
+          "properties",
+          "required",
+          "title",
+          "description",
+          "x-optimade-property",
+          "x-optimade-implementation",
+          "x-optimade-requirements",
+          "deprecated",
+          "enum",
+          "examples"
+        ],
+        "type": "object",
+        "properties": {
+          "properties": {
+            "title": "Properties",
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/EntryInfoProperty"
+            },
+            "description": "Gives key-value pairs where each value is an inner Property Definition.\nThe defined property is a dictionary that can only contain keys present in this dictionary, and, if so, the corresponding value is described by the respective inner Property Definition.\n(Or, if the `type` field is the list \"object\" and \"null\", it can also be `null`.)"
+          },
+          "required": {
+            "title": "Required",
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "The list MUST only contain strings.\n\nThe defined property MUST have keys that match all the strings in this list.\nOther keys present in the `properties` field are OPTIONAL in the defined property.\nIf not present or empty, all keys in `properties` are regarded as OPTIONAL."
+          },
+          "maxProperties": {
+            "title": "Maxproperties",
+            "type": "integer"
+          },
+          "minProperties": {
+            "title": "Minproperties",
+            "type": "integer"
+          },
+          "dependentRequired": {
+            "title": "Dependentrequired",
+            "type": "object"
+          },
+          "title": {
+            "title": "Title",
+            "type": "string",
+            "description": "A short single-line human-readable explanation of the defined property appropriate to show as part of a user interface."
+          },
+          "description": {
+            "title": "Description",
+            "type": "string",
+            "description": "A human-readable multi-line description that explains the purpose, requirements, and conventions of the defined property.\n\nThe format SHOULD be a one-line description, followed by a new paragraph (two newlines), followed by a more detailed description of all the requirements and conventions of the defined property.\nFormatting in the text SHOULD use Markdown in the CommonMark v0.3 format."
+          },
+          "x-optimade-property": {
+            "title": "X-Optimade-Property",
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/OptimadePropertyDefinition"
+              }
+            ],
+            "description": "Additional information to define the property that is not covered by fields in the JSON Schema standard."
+          },
+          "x-optimade-unit": {
+            "title": "X-Optimade-Unit",
+            "type": "string",
+            "description": "A (compound) symbol for the physical unit in which the value of the defined property is given or one of the strings `dimensionless` or `inapplicable`."
+          },
+          "x-optimade-implementation": {
+            "title": "X-Optimade-Implementation",
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/PropertyImplementationInfo"
+              }
+            ],
+            "description": "A dictionary describing the level of OPTIMADE API functionality provided by the present implementation.\nIf an implementation omits this field in its response, a client interacting with that implementation SHOULD NOT make any assumptions about the availability of these features."
+          },
+          "x-optimade-requirements": {
+            "title": "X-Optimade-Requirements",
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/PropertyRequirementsInfo"
+              }
+            ],
+            "description": "A dictionary describing the level of OPTIMADE API functionality required by all implementations of this property.\nOmitting this field means the corresponding functionality is OPTIONAL."
+          },
+          "type": {
+            "title": "Type",
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/AllowedJSONSchemaDataType"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/AllowedJSONSchemaDataType"
+                }
+              }
+            ],
+            "description": "A string or list that specifies the type of the defined property.\nIt MUST be one of:\n\n- One of the strings `\"boolean\"`, `\"object\"` (refers to an OPTIMADE dictionary), `\"array\"` (refers to an OPTIMADE list), `\"number\"` (refers to an OPTIMADE float), `\"string\"`, or `\"integer\"`.\n- A list where the first item MUST be one of the strings above, and the second item MUST be the string `\"null\"`."
+          },
+          "deprecated": {
+            "title": "Deprecated",
+            "type": "boolean",
+            "description": " If `TRUE`, implementations SHOULD not use the defined property, and it MAY be removed in the future.\nIf `FALSE`, the defined property is not deprecated.\nThe field not being present means `FALSE`."
+          },
+          "enum": {
+            "title": "Enum",
+            "type": "array",
+            "items": {},
+            "description": "The defined property MUST take one of the values given in the provided list.\nThe items in the list MUST all be of a data type that matches the `type` field and otherwise adhere to the rest of the Property Description.\nIf this key is given, for `null` to be a valid value of the defined property, the list MUST contain a `null` value and the `type` MUST be a list where the second value is the string `\"null\"`."
+          },
+          "examples": {
+            "title": "Examples",
+            "type": "array",
+            "items": {},
+            "description": "A list of example values that the defined property can have.\nThese examples MUST all be of a data type that matches the `type` field and otherwise adhere to the rest of the Property Description."
+          }
+        }
+      },
+      "EntryInfoPropertyString": {
+        "title": "EntryInfoPropertyString",
+        "required": [
+          "title",
+          "description",
+          "x-optimade-property",
+          "x-optimade-implementation",
+          "x-optimade-requirements",
+          "deprecated",
+          "enum",
+          "examples"
+        ],
+        "type": "object",
+        "properties": {
+          "maxLength": {
+            "title": "Maxlength",
+            "type": "integer"
+          },
+          "minLength": {
+            "title": "Minlength",
+            "type": "integer"
+          },
+          "format": {
+            "$ref": "#/components/schemas/JSONSchemaStringFormat"
+          },
+          "title": {
+            "title": "Title",
+            "type": "string",
+            "description": "A short single-line human-readable explanation of the defined property appropriate to show as part of a user interface."
+          },
+          "description": {
+            "title": "Description",
+            "type": "string",
+            "description": "A human-readable multi-line description that explains the purpose, requirements, and conventions of the defined property.\n\nThe format SHOULD be a one-line description, followed by a new paragraph (two newlines), followed by a more detailed description of all the requirements and conventions of the defined property.\nFormatting in the text SHOULD use Markdown in the CommonMark v0.3 format."
+          },
+          "x-optimade-property": {
+            "title": "X-Optimade-Property",
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/OptimadePropertyDefinition"
+              }
+            ],
+            "description": "Additional information to define the property that is not covered by fields in the JSON Schema standard."
+          },
+          "x-optimade-unit": {
+            "title": "X-Optimade-Unit",
+            "type": "string",
+            "description": "A (compound) symbol for the physical unit in which the value of the defined property is given or one of the strings `dimensionless` or `inapplicable`."
+          },
+          "x-optimade-implementation": {
+            "title": "X-Optimade-Implementation",
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/PropertyImplementationInfo"
+              }
+            ],
+            "description": "A dictionary describing the level of OPTIMADE API functionality provided by the present implementation.\nIf an implementation omits this field in its response, a client interacting with that implementation SHOULD NOT make any assumptions about the availability of these features."
+          },
+          "x-optimade-requirements": {
+            "title": "X-Optimade-Requirements",
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/PropertyRequirementsInfo"
+              }
+            ],
+            "description": "A dictionary describing the level of OPTIMADE API functionality required by all implementations of this property.\nOmitting this field means the corresponding functionality is OPTIONAL."
+          },
+          "type": {
+            "title": "Type",
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/AllowedJSONSchemaDataType"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/AllowedJSONSchemaDataType"
+                }
+              }
+            ],
+            "description": "A string or list that specifies the type of the defined property.\nIt MUST be one of:\n\n- One of the strings `\"boolean\"`, `\"object\"` (refers to an OPTIMADE dictionary), `\"array\"` (refers to an OPTIMADE list), `\"number\"` (refers to an OPTIMADE float), `\"string\"`, or `\"integer\"`.\n- A list where the first item MUST be one of the strings above, and the second item MUST be the string `\"null\"`."
+          },
+          "deprecated": {
+            "title": "Deprecated",
+            "type": "boolean",
+            "description": " If `TRUE`, implementations SHOULD not use the defined property, and it MAY be removed in the future.\nIf `FALSE`, the defined property is not deprecated.\nThe field not being present means `FALSE`."
+          },
+          "enum": {
+            "title": "Enum",
+            "type": "array",
+            "items": {},
+            "description": "The defined property MUST take one of the values given in the provided list.\nThe items in the list MUST all be of a data type that matches the `type` field and otherwise adhere to the rest of the Property Description.\nIf this key is given, for `null` to be a valid value of the defined property, the list MUST contain a `null` value and the `type` MUST be a list where the second value is the string `\"null\"`."
+          },
+          "examples": {
+            "title": "Examples",
+            "type": "array",
+            "items": {},
+            "description": "A list of example values that the defined property can have.\nThese examples MUST all be of a data type that matches the `type` field and otherwise adhere to the rest of the Property Description."
           }
         }
       },
@@ -1647,7 +2696,26 @@
             "title": "Properties",
             "type": "object",
             "additionalProperties": {
-              "$ref": "#/components/schemas/EntryInfoProperty"
+              "anyOf": [
+                {
+                  "$ref": "#/components/schemas/EntryInfoProperty"
+                },
+                {
+                  "$ref": "#/components/schemas/EntryInfoPropertyArray"
+                },
+                {
+                  "$ref": "#/components/schemas/EntryInfoPropertyInteger"
+                },
+                {
+                  "$ref": "#/components/schemas/EntryInfoPropertyNumber"
+                },
+                {
+                  "$ref": "#/components/schemas/EntryInfoPropertyObject"
+                },
+                {
+                  "$ref": "#/components/schemas/EntryInfoPropertyString"
+                }
+              ]
             },
             "description": "A dictionary describing queryable properties for this entry type, where each key is a property name."
           },
@@ -2011,6 +3079,354 @@
         },
         "description": "an object containing references to the source of the error"
       },
+      "FileResource": {
+        "title": "FileResource",
+        "required": [
+          "id",
+          "type",
+          "attributes"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "title": "Id",
+            "type": "string",
+            "description": "An entry's ID as defined in section Definition of Terms.\n\n- **Type**: string.\n\n- **Requirements/Conventions**:\n    - **Support**: MUST be supported by all implementations, MUST NOT be `null`.\n    - **Query**: MUST be a queryable property with support for all mandatory filter features.\n    - **Response**: REQUIRED in the response.\n\n- **Examples**:\n    - `\"db/1234567\"`\n    - `\"cod/2000000\"`\n    - `\"cod/2000000@1234567\"`\n    - `\"nomad/L1234567890\"`\n    - `\"42\"`",
+            "x-optimade-support": "must",
+            "x-optimade-queryable": "must"
+          },
+          "type": {
+            "title": "Type",
+            "pattern": "^files$",
+            "type": "string",
+            "description": "The name of the type of an entry.\n\n- **Type**: string.\n\n- **Requirements/Conventions**:\n    - **Support**: MUST be supported by all implementations, MUST NOT be `null`.\n    - **Query**: MUST be a queryable property with support for all mandatory filter features.\n    - **Response**: REQUIRED in the response.\n    - MUST be an existing entry type.\n    - The entry of type `<type>` and ID `<id>` MUST be returned in response to a request for `/<type>/<id>` under the versioned base URL.\n\n- **Examples**:\n    - `\"structures\"`",
+            "default": "files",
+            "x-optimade-support": "must",
+            "x-optimade-queryable": "must"
+          },
+          "links": {
+            "title": "Links",
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/ResourceLinks"
+              }
+            ],
+            "description": "a links object containing links related to the resource."
+          },
+          "meta": {
+            "title": "Meta",
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/Meta"
+              }
+            ],
+            "description": "a meta object containing non-standard meta-information about a resource that can not be represented as an attribute or relationship."
+          },
+          "attributes": {
+            "$ref": "#/components/schemas/FileResourceAttributes"
+          },
+          "relationships": {
+            "title": "Relationships",
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/EntryRelationships"
+              }
+            ],
+            "description": "A dictionary containing references to other entries according to the description in section Relationships encoded as [JSON API Relationships](https://jsonapi.org/format/1.0/#document-resource-object-relationships).\nThe OPTIONAL human-readable description of the relationship MAY be provided in the `description` field inside the `meta` dictionary of the JSON API resource identifier object."
+          }
+        },
+        "description": "Representing a structure."
+      },
+      "FileResourceAttributes": {
+        "title": "FileResourceAttributes",
+        "required": [
+          "last_modified",
+          "url",
+          "url_stable_until",
+          "name",
+          "size",
+          "media_type",
+          "modification_timestamp",
+          "description",
+          "checksums",
+          "atime",
+          "ctime",
+          "mtime"
+        ],
+        "type": "object",
+        "properties": {
+          "immutable_id": {
+            "title": "Immutable Id",
+            "type": "string",
+            "description": "The entry's immutable ID (e.g., an UUID). This is important for databases having preferred IDs that point to \"the latest version\" of a record, but still offer access to older variants. This ID maps to the version-specific record, in case it changes in the future.\n\n- **Type**: string.\n\n- **Requirements/Conventions**:\n    - **Support**: OPTIONAL support in implementations, i.e., MAY be `null`.\n    - **Query**: MUST be a queryable property with support for all mandatory filter features.\n\n- **Examples**:\n    - `\"8bd3e750-b477-41a0-9b11-3a799f21b44f\"`\n    - `\"fjeiwoj,54;@=%<>#32\"` (Strings that are not URL-safe are allowed.)",
+            "x-optimade-support": "optional",
+            "x-optimade-queryable": "must"
+          },
+          "last_modified": {
+            "title": "Last Modified",
+            "type": "string",
+            "description": "Date and time representing when the entry was last modified.\n\n- **Type**: timestamp.\n\n- **Requirements/Conventions**:\n    - **Support**: SHOULD be supported by all implementations, i.e., SHOULD NOT be `null`.\n    - **Query**: MUST be a queryable property with support for all mandatory filter features.\n    - **Response**: REQUIRED in the response unless the query parameter `response_fields` is present and does not include this property.\n\n- **Example**:\n    - As part of JSON response format: `\"2007-04-05T14:30:20Z\"` (i.e., encoded as an [RFC 3339 Internet Date/Time Format](https://tools.ietf.org/html/rfc3339#section-5.6) string.)",
+            "format": "date-time",
+            "x-optimade-support": "should",
+            "x-optimade-queryable": "must"
+          },
+          "url": {
+            "title": "Url",
+            "type": "string",
+            "description": "The URL to get the contents of a file.\n- **Type**: string\n- **Requirements/Conventions**:\n\n  - **Support**: MUST be supported by all implementations, MUST NOT be :val:`null`.\n  - **Query**: Support for queries on this property is OPTIONAL.\n  - **Response**: REQUIRED in the response.\n  - The URL MUST point to the actual contents of a file (i.e. byte stream), not an intermediate (preview) representation.\n    For example, if referring to a file on GitHub, a link should point to raw contents.\n\n- **Examples**:\n\n  - :val:`\"https://example.org/files/cifs/1000000.cif\"`\n",
+            "x-optimade-support": "must",
+            "x-optimade-queryable": "optional"
+          },
+          "url_stable_until": {
+            "title": "Url Stable Until",
+            "type": "string",
+            "description": "Point in time until which the URL in `url` is guaranteed to stay stable.\n- **Type**: timestamp\n- **Requirements/Conventions**:\n\n  - **Support**: OPTIONAL support in implementations, i.e., MAY be :val:`null`.\n  - **Query**: Support for queries on this property is OPTIONAL.\n  - :val:`null` means that there is no stability guarantee for the URL in `url`.\n    Indefinite support could be communicated by providing a date sufficiently far in the future, for example, :val:`9999-12-31`.",
+            "format": "date-time",
+            "x-optimade-support": "optional",
+            "x-optimade-queryable": "optional"
+          },
+          "name": {
+            "title": "Name",
+            "type": "string",
+            "description": "Base name of a file.\n- **Type**: string\n- **Requirements/Conventions**:\n\n  - **Support**: MUST be supported by all implementations, MUST NOT be :val:`null`.\n  - **Query**: Support for queries on this property is OPTIONAL.\n  - File name extension is an integral part of a file name and, if available, MUST be included.\n\n- **Examples**:\n\n  - :val:`\"1000000.cif\"`",
+            "x-optimade-support": "must",
+            "x-optimade-queryable": "optional"
+          },
+          "size": {
+            "title": "Size",
+            "type": "integer",
+            "description": "Size of a file in bytes.\n- **Type**: integer\n- **Requirements/Conventions**:\n\n  - **Support**: OPTIONAL support in implementations, i.e., MAY be :val:`null`.\n  - **Query**: Support for queries on this property is OPTIONAL.\n  - If provided, it MUST be guaranteed that either exact size of a file is given or its upper bound.\n    This way if a client reserves a static buffer or truncates the download stream after this many bytes the whole file would be received.\n    Such provision is included to allow the providers to serve on-the-fly compressed files.",
+            "x-optimade-support": "optional",
+            "x-optimade-queryable": "optional"
+          },
+          "media_type": {
+            "title": "Media Type",
+            "type": "string",
+            "description": "Media type identifier (also known as MIME type), for a file as per `RFC 6838 Media Type Specifications and Registration Procedures <https://datatracker.ietf.org/doc/html/rfc6838>`__.\n- **Type**: string\n- **Requirements/Conventions**:\n\n  - **Support**: OPTIONAL support in implementations, i.e., MAY be :val:`null`.\n  - **Query**: Support for queries on this property is OPTIONAL.\n\n- **Examples**:\n\n  - :val:`\"chemical/x-cif\"`",
+            "x-optimade-support": "optional",
+            "x-optimade-queryable": "optional"
+          },
+          "version": {
+            "title": "Version",
+            "type": "string",
+            "description": "Version information of a file (e.g. commit, revision, timestamp).\n- **Type**: string\n- **Requirements/Conventions**:\n\n  - **Support**: OPTIONAL support in implementations, i.e., MAY be :val:`null`.\n  - **Query**: Support for queries on this property is OPTIONAL.\n  - If provided, it MUST be guaranteed that file contents pertaining to the same combination of :field:`id` and :field:`version` are the same",
+            "x-optimade-support": "optional",
+            "x-optimade-queryable": "optional"
+          },
+          "modification_timestamp": {
+            "title": "Modification Timestamp",
+            "type": "string",
+            "description": "Timestamp of the last modification of file contents.\n  A modification is understood as an addition, change or deletion of one or more bytes, resulting in file contents different from the previous.\n- **Type**: timestamp\n- **Requirements/Conventions**:\n\n  - **Support**: OPTIONAL support in implementations, i.e., MAY be :val:`null`.\n  - **Query**: Support for queries on this property is OPTIONAL.\n  - Timestamps of subsequent file modifications SHOULD be increasing (not earlier than previous timestamps).",
+            "format": "date-time",
+            "x-optimade-support": "optional",
+            "x-optimade-queryable": "optional"
+          },
+          "description": {
+            "title": "Description",
+            "type": "string",
+            "description": "Free-form description of a file.\n- **Type**: string\n- **Requirements/Conventions**:\n\n  - **Support**: OPTIONAL support in implementations, i.e., MAY be :val:`null`.\n  - **Query**: Support for queries on this property is OPTIONAL.\n\n- **Examples**:\n\n  - :val:`\"POSCAR format file\"`",
+            "x-optimade-support": "optional",
+            "x-optimade-queryable": "optional"
+          },
+          "checksums": {
+            "title": "Checksums",
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "Dictionary providing checksums of file contents.\n* **Type**: dictionary with keys identifying checksum functions and values (strings) giving the actual checksums\n* **Requirements/Conventions**:\n\n  - **Support**: OPTIONAL support in implementations, i.e., MAY be :val:`null`.\n  - **Query**: Support for queries on this property is OPTIONAL.\n  - Supported dictionary keys: :property:`md5`, :property:`sha1`, :property:`sha224`, :property:`sha256`, :property:`sha384`, :property:`sha512`.\n    Checksums outside this list MAY be used, but their names MUST be prefixed by database-provider-specific namespace prefix (see appendix `Database-Provider-Specific Namespace Prefixes`_).\n",
+            "x-optimade-support": "optional",
+            "x-optimade-queryable": "optional"
+          },
+          "atime": {
+            "title": "Atime",
+            "type": "string",
+            "description": "Time of last access of a file as per POSIX standard.\n- **Type**: timestamp\n- **Requirements/Conventions**:\n\n  - **Support**: OPTIONAL support in implementations, i.e., MAY be :val:`null`.\n  - **Query**: Support for queries on this property is OPTIONAL.",
+            "format": "date-time",
+            "x-optimade-support": "optional",
+            "x-optimade-queryable": "optional"
+          },
+          "ctime": {
+            "title": "Ctime",
+            "type": "string",
+            "description": "Time of last status change of a file as per POSIX standard.\n- **Type**: timestamp\n- **Requirements/Conventions**:\n\n  - **Support**: OPTIONAL support in implementations, i.e., MAY be :val:`null`.\n  - **Query**: Support for queries on this property is OPTIONAL.",
+            "format": "date-time",
+            "x-optimade-support": "optional",
+            "x-optimade-queryable": "optional",
+            "x-optimade-unit": "\u00c5"
+          },
+          "mtime": {
+            "title": "Mtime",
+            "type": "string",
+            "description": " Time of last modification of a file as per POSIX standard.\n- **Type**: timestamp\n- **Requirements/Conventions**:\n\n  - **Support**: OPTIONAL support in implementations, i.e., MAY be :val:`null`.\n  - **Query**: Support for queries on this property is OPTIONAL.\n  - It should be noted that the values of :field:`last_modified`, :field:`modification_timestamp` and :field:`mtime` do not necessary match.\n    :field:`last_modified` pertains to the modification of the OPTIMADE metadata, :field:`modification_timestamp` pertains to file contents and :field:`mtime` pertains to the modification of the file (not necessary changing its contents).\n    For example, appending an empty string to a file would result in the change of :field:`mtime` in some operating systems, but this would not be deemed as a modification of its contents.\n",
+            "format": "date-time",
+            "x-optimade-support": "optional",
+            "x-optimade-queryable": "optional"
+          }
+        },
+        "description": "This class contains the Field for the attributes used to represent a file, e.g. ."
+      },
+      "FileResponseMany": {
+        "title": "FileResponseMany",
+        "required": [
+          "data",
+          "meta"
+        ],
+        "type": "object",
+        "properties": {
+          "data": {
+            "title": "Data",
+            "uniqueItems": true,
+            "anyOf": [
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/FileResource"
+                }
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "object"
+                }
+              }
+            ],
+            "description": "List of unique OPTIMADE files entry resource objects."
+          },
+          "meta": {
+            "title": "Meta",
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/ResponseMeta"
+              }
+            ],
+            "description": "A meta object containing non-standard information"
+          },
+          "errors": {
+            "title": "Errors",
+            "uniqueItems": true,
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Error"
+            },
+            "description": "A list of unique errors"
+          },
+          "included": {
+            "title": "Included",
+            "uniqueItems": true,
+            "anyOf": [
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/EntryResource"
+                }
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "object"
+                }
+              }
+            ]
+          },
+          "links": {
+            "title": "Links",
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/ToplevelLinks"
+              }
+            ],
+            "description": "Links associated with the primary data or errors"
+          },
+          "jsonapi": {
+            "title": "Jsonapi",
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/JsonApi"
+              }
+            ],
+            "description": "Information about the JSON API used"
+          }
+        },
+        "description": "errors are not allowed"
+      },
+      "FileResponseOne": {
+        "title": "FileResponseOne",
+        "required": [
+          "data",
+          "meta"
+        ],
+        "type": "object",
+        "properties": {
+          "data": {
+            "title": "Data",
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/FileResource"
+              },
+              {
+                "type": "object"
+              }
+            ],
+            "description": "A single files entry resource."
+          },
+          "meta": {
+            "title": "Meta",
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/ResponseMeta"
+              }
+            ],
+            "description": "A meta object containing non-standard information"
+          },
+          "errors": {
+            "title": "Errors",
+            "uniqueItems": true,
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Error"
+            },
+            "description": "A list of unique errors"
+          },
+          "included": {
+            "title": "Included",
+            "uniqueItems": true,
+            "anyOf": [
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/EntryResource"
+                }
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "object"
+                }
+              }
+            ]
+          },
+          "links": {
+            "title": "Links",
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/ToplevelLinks"
+              }
+            ],
+            "description": "Links associated with the primary data or errors"
+          },
+          "jsonapi": {
+            "title": "Jsonapi",
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/JsonApi"
+              }
+            ],
+            "description": "Information about the JSON API used"
+          }
+        },
+        "description": "errors are not allowed"
+      },
       "Implementation": {
         "title": "Implementation",
         "type": "object",
@@ -2162,6 +3578,18 @@
           }
         },
         "description": "errors are not allowed"
+      },
+      "JSONSchemaStringFormat": {
+        "title": "JSONSchemaStringFormat",
+        "enum": [
+          "date-time",
+          "date",
+          "time",
+          "duration",
+          "email",
+          "uri"
+        ],
+        "description": "An enumeration."
       },
       "JsonApi": {
         "title": "JsonApi",
@@ -2452,6 +3880,15 @@
         "properties": {},
         "description": "Non-standard meta-information that can not be represented as an attribute or relationship."
       },
+      "OptimadeAllowedUnitStandard": {
+        "title": "OptimadeAllowedUnitStandard",
+        "enum": [
+          "gnu units",
+          "ucum",
+          "qudt"
+        ],
+        "description": "An enumeration."
+      },
       "OptimadeError": {
         "title": "OptimadeError",
         "required": [
@@ -2514,6 +3951,101 @@
         },
         "description": "detail MUST be present"
       },
+      "OptimadePropertyDefinition": {
+        "title": "OptimadePropertyDefinition",
+        "required": [
+          "property-uri",
+          "version",
+          "unit-definitions",
+          "resource-uris"
+        ],
+        "type": "object",
+        "properties": {
+          "property-uri": {
+            "title": "Property-Uri",
+            "type": "string",
+            "description": "A static URI identifier that is a URN or URL representing the specific version of the property.\nIt SHOULD NOT be changed as long as the property definition remains the same, and SHOULD be changed when the property definition changes.\n(If it is a URL, clients SHOULD NOT assign any interpretation to the response when resolving that URL.)"
+          },
+          "version": {
+            "title": "Version",
+            "type": "string",
+            "description": "This string indicates the version of the property definition.\nThe string SHOULD be in the format described by the [semantic versioning v2](https://semver.org/spec/v2.0.0.html) standard."
+          },
+          "unit-definitions": {
+            "title": "Unit-Definitions",
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OptimadeUnitDefinition"
+            },
+            "description": "A list of definitions of the symbols used in the Property Definition (including its nested levels) for physical units given as values of the `x-optimade-unit` field.\nThis field MUST be included if the defined property, at any level, includes an `x-optimade-unit` with a value that is not `dimensionless` or `inapplicable`."
+          },
+          "resource-uris": {
+            "title": "Resource-Uris",
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PropertyRemoteResource"
+            },
+            "description": "A list of dictionaries that references remote resources that describe the property."
+          }
+        }
+      },
+      "OptimadeUnitDefinition": {
+        "title": "OptimadeUnitDefinition",
+        "required": [
+          "symbol",
+          "title",
+          "description",
+          "standard",
+          "resource-uris"
+        ],
+        "type": "object",
+        "properties": {
+          "symbol": {
+            "title": "Symbol",
+            "type": "string"
+          },
+          "title": {
+            "title": "Title",
+            "type": "string"
+          },
+          "description": {
+            "title": "Description",
+            "type": "string"
+          },
+          "standard": {
+            "$ref": "#/components/schemas/OptimadeUnitStandard"
+          },
+          "resource-uris": {
+            "title": "Resource-Uris",
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/UnitResourceURIs"
+            }
+          }
+        }
+      },
+      "OptimadeUnitStandard": {
+        "title": "OptimadeUnitStandard",
+        "required": [
+          "name",
+          "version",
+          "symbol"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "$ref": "#/components/schemas/OptimadeAllowedUnitStandard"
+          },
+          "version": {
+            "title": "Version",
+            "type": "string"
+          },
+          "symbol": {
+            "title": "Symbol",
+            "type": "string"
+          }
+        }
+      },
       "Periodicity": {
         "title": "Periodicity",
         "enum": [
@@ -2553,6 +4085,99 @@
           }
         },
         "description": "A person, i.e., an author, editor or other."
+      },
+      "PropertyImplementationInfo": {
+        "title": "PropertyImplementationInfo",
+        "required": [
+          "sortable",
+          "query-support",
+          "query-support-operators"
+        ],
+        "type": "object",
+        "properties": {
+          "sortable": {
+            "title": "Sortable",
+            "type": "boolean",
+            "description": "If `TRUE`, specifies that results can be sorted on this property.\n    If `FALSE`, specifies that results cannot be sorted on this property.\n    Omitting the field is equivalent to `FALSE`."
+          },
+          "query-support": {
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/QuerySupport"
+              }
+            ],
+            "description": "Defines a required level of support in formulating queries on this field.\n\n    The string MUST be one of the following:\n\n    - `all mandatory`: the defined property MUST be queryable using the OPTIMADE filter language with support for all mandatory filter features.\n    - `equality only`: the defined property MUST be queryable using the OPTIMADE filter language equality and inequality operators. Other filter language features do not need to be available.\n    - `partial`: the defined property MUST be queryable with support for a subset of the filter language operators as specified by the field `query-support-operators`.\n    - `none`: the defined property does not need to be queryable with any features of the filter language."
+          },
+          "query-support-operators": {
+            "title": "Query-Support-Operators",
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Defines the filter language features supported on this property.\n\nEach string in the list MUST be one of `<`, `<=`, `>`, `>=`, `=`, `!=`, `CONTAINS`, `STARTS WITH`, `ENDS WITH`:, `HAS`, `HAS ALL`, `HAS ANY`, `HAS ONLY`, `IS KNOWN`, `IS UNKNOWN` with the following meanings:\n\n- `<`, `<=`, `>`, `>=`, `=`, `!=`: indicating support for filtering this property using the respective operator.\n  If the property is of Boolean type, support for `=` also designates support for boolean comparisons with the property being true that omit \":filter-fragment:`= TRUE`\", e.g., specifying that filtering for \"`is_yellow = TRUE`\" is supported also implies support for \"`is_yellow`\" (which means the same thing).\n  Support for \"`NOT is_yellow`\" also follows.\n\n- `CONTAINS`, `STARTS WITH`, `ENDS WITH`: indicating support for substring filtering of this property using the respective operator. MUST NOT appear if the property is not of type String.\n\n- `HAS`, `HAS ALL`, `HAS ANY`: indicating support of the MANDATORY features for list property comparison using the respective operator. MUST NOT appear if the property is not of type List.\n\n- `HAS ONLY`: indicating support for list property comparison with all or a subset of the OPTIONAL constructs using this operator. MUST NOT appear if the property is not of type List.\n\n- `IS KNOWN`, `IS UNKNOWN`: indicating support for filtering this property on unknown values using the respective operator."
+          }
+        }
+      },
+      "PropertyRemoteResource": {
+        "title": "PropertyRemoteResource",
+        "required": [
+          "relation",
+          "uri"
+        ],
+        "type": "object",
+        "properties": {
+          "relation": {
+            "title": "Relation",
+            "type": "string",
+            "description": "A human-readable description of the relationship between the property and the remote resource, e.g., a 'natural language description'."
+          },
+          "uri": {
+            "title": "Uri",
+            "type": "string",
+            "description": "A URI of the external resource (which MAY be a resolvable URL)."
+          }
+        }
+      },
+      "PropertyRequirementsInfo": {
+        "title": "PropertyRequirementsInfo",
+        "required": [
+          "sortable",
+          "query-support",
+          "query-support-operators",
+          "support"
+        ],
+        "type": "object",
+        "properties": {
+          "sortable": {
+            "title": "Sortable",
+            "type": "boolean",
+            "description": "If `TRUE`, specifies that results can be sorted on this property.\n    If `FALSE`, specifies that results cannot be sorted on this property.\n    Omitting the field is equivalent to `FALSE`."
+          },
+          "query-support": {
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/QuerySupport"
+              }
+            ],
+            "description": "Defines a required level of support in formulating queries on this field.\n\n    The string MUST be one of the following:\n\n    - `all mandatory`: the defined property MUST be queryable using the OPTIMADE filter language with support for all mandatory filter features.\n    - `equality only`: the defined property MUST be queryable using the OPTIMADE filter language equality and inequality operators. Other filter language features do not need to be available.\n    - `partial`: the defined property MUST be queryable with support for a subset of the filter language operators as specified by the field `query-support-operators`.\n    - `none`: the defined property does not need to be queryable with any features of the filter language."
+          },
+          "query-support-operators": {
+            "title": "Query-Support-Operators",
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Defines the filter language features supported on this property.\n\nEach string in the list MUST be one of `<`, `<=`, `>`, `>=`, `=`, `!=`, `CONTAINS`, `STARTS WITH`, `ENDS WITH`:, `HAS`, `HAS ALL`, `HAS ANY`, `HAS ONLY`, `IS KNOWN`, `IS UNKNOWN` with the following meanings:\n\n- `<`, `<=`, `>`, `>=`, `=`, `!=`: indicating support for filtering this property using the respective operator.\n  If the property is of Boolean type, support for `=` also designates support for boolean comparisons with the property being true that omit \":filter-fragment:`= TRUE`\", e.g., specifying that filtering for \"`is_yellow = TRUE`\" is supported also implies support for \"`is_yellow`\" (which means the same thing).\n  Support for \"`NOT is_yellow`\" also follows.\n\n- `CONTAINS`, `STARTS WITH`, `ENDS WITH`: indicating support for substring filtering of this property using the respective operator. MUST NOT appear if the property is not of type String.\n\n- `HAS`, `HAS ALL`, `HAS ANY`: indicating support of the MANDATORY features for list property comparison using the respective operator. MUST NOT appear if the property is not of type List.\n\n- `HAS ONLY`: indicating support for list property comparison with all or a subset of the OPTIONAL constructs using this operator. MUST NOT appear if the property is not of type List.\n\n- `IS KNOWN`, `IS UNKNOWN`: indicating support for filtering this property on unknown values using the respective operator."
+          },
+          "support": {
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/SupportLevel"
+              }
+            ],
+            "description": "Describes the minimal required level of support for the Property by an implementation.\n\n    This field SHOULD only appear in a `x-optimade-requirements` that is at the outermost level of a Property Definition, as the meaning of its inclusion on other levels is not defined.\n    The string MUST be one of the following:\n\n    - `must`: the defined property MUST be recognized by the implementation (e.g., in filter strings) and MUST NOT be `null`.\n    - `should`: the defined property MUST be recognized by the implementation (e.g., in filter strings) and SHOULD NOT be `null`.\n    - `may`: it is OPTIONAL for the implementation to recognize the defined property and it MAY be equal to `null`."
+          }
+        }
       },
       "Provider": {
         "title": "Provider",
@@ -2596,6 +4221,16 @@
           }
         },
         "description": "Information on the database provider of the implementation."
+      },
+      "QuerySupport": {
+        "title": "QuerySupport",
+        "enum": [
+          "all mandatory",
+          "equality only",
+          "partial",
+          "none"
+        ],
+        "description": "An enumeration."
       },
       "ReferenceRelationship": {
         "title": "ReferenceRelationship",
@@ -3280,6 +4915,12 @@
             "type": "string",
             "description": "response string from the server"
           },
+          "request_delay": {
+            "title": "Request Delay",
+            "minimum": 0.0,
+            "type": "number",
+            "description": "A non-negative float giving time in seconds that the client is suggested to wait before issuing a subsequent request."
+          },
           "implementation": {
             "title": "Implementation",
             "allOf": [
@@ -3359,9 +5000,9 @@
               "type": "number"
             },
             "description": "If present MUST be a list of floats expressed in a.m.u.\nElements denoting vacancies MUST have masses equal to 0.",
-            "x-optimade-unit": "a.m.u.",
             "x-optimade-support": "optional",
-            "x-optimade-queryable": "optional"
+            "x-optimade-queryable": "optional",
+            "x-optimade-unit": "a.m.u."
           },
           "original_name": {
             "title": "Original Name",
@@ -3639,8 +5280,24 @@
             },
             "description": "The three lattice vectors in Cartesian coordinates, in \u00e5ngstr\u00f6m (\u00c5).\n\n- **Type**: list of list of floats or unknown values.\n\n- **Requirements/Conventions**:\n    - **Support**: SHOULD be supported by all implementations, i.e., SHOULD NOT be `null`.\n    - **Query**: Support for queries on this property is OPTIONAL.\n      If supported, filters MAY support only a subset of comparison operators.\n    - MUST be a list of three vectors *a*, *b*, and *c*, where each of the vectors MUST BE a list of the vector's coordinates along the x, y, and z Cartesian coordinates.\n      (Therefore, the first index runs over the three lattice vectors and the second index runs over the x, y, z Cartesian coordinates).\n    - For databases that do not define an absolute Cartesian system (e.g., only defining the length and angles between vectors), the first lattice vector SHOULD be set along *x* and the second on the *xy*-plane.\n    - MUST always contain three vectors of three coordinates each, independently of the elements of property `dimension_types`.\n      The vectors SHOULD by convention be chosen so the determinant of the `lattice_vectors` matrix is different from zero.\n      The vectors in the non-periodic directions have no significance beyond fulfilling these requirements.\n    - The coordinates of the lattice vectors of non-periodic dimensions (i.e., those dimensions for which `dimension_types` is `0`) MAY be given as a list of all `null` values.\n        If a lattice vector contains the value `null`, all coordinates of that lattice vector MUST be `null`.\n\n- **Examples**:\n    - `[[4.0,0.0,0.0],[0.0,4.0,0.0],[0.0,1.0,4.0]]` represents a cell, where the first vector is `(4, 0, 0)`, i.e., a vector aligned along the `x` axis of length 4 \u00c5; the second vector is `(0, 4, 0)`; and the third vector is `(0, 1, 4)`.",
             "nullable": true,
-            "x-optimade-unit": "\u00c5",
             "x-optimade-support": "should",
+            "x-optimade-queryable": "optional",
+            "x-optimade-unit": "\u00c5"
+          },
+          "space_group_hall": {
+            "title": "Space Group Hall",
+            "type": "string",
+            "description": "A Hall space group symbol representing the symmetry of the structure as defined in Hall, S. R. (1981), Acta Cryst. A37, 517-525 and erratum (1981), A37, 921.\n\n- **Type**: string\n\n- **Requirements/Conventions**:\n  - **Support**: OPTIONAL support in implementations, i.e., MAY be `null`.\n  - **Query**: Support for queries on this property is OPTIONAL.\n  - Each component of the Hall symbol MUST be separated by a single space symbol.\n  - If there exists a standard Hall symbol which represents the symmetry it SHOULD be used.\n  - MUST be null if `nperiodic_dimensions` is not equal to 3.",
+            "x-optimade-support": "optional",
+            "x-optimade-queryable": "optional"
+          },
+          "space_group_it_number": {
+            "title": "Space Group It Number",
+            "maximum": 230.0,
+            "minimum": 1.0,
+            "type": "integer",
+            "description": "Space group number for the structure assigned by the International Tables for Crystallography Vol. A.\n- **Type**: integer\n\n- **Requirements/Conventions**:\n  - **Support**: OPTIONAL support in implementations, i.e., MAY be `null`.\n  - **Query**: Support for queries on this property is OPTIONAL.\n  - The integer value MUST be between 1 and 230.\n  - MUST be null if `nperiodic_dimensions` is not equal to 3.",
+            "x-optimade-support": "optional",
             "x-optimade-queryable": "optional"
           },
           "cartesian_site_positions": {
@@ -3656,9 +5313,9 @@
             },
             "description": "Cartesian positions of each site in the structure.\nA site is usually used to describe positions of atoms; what atoms can be encountered at a given site is conveyed by the `species_at_sites` property, and the species themselves are described in the `species` property.\n\n- **Type**: list of list of floats\n\n- **Requirements/Conventions**:\n    - **Support**: SHOULD be supported by all implementations, i.e., SHOULD NOT be `null`.\n    - **Query**: Support for queries on this property is OPTIONAL.\n      If supported, filters MAY support only a subset of comparison operators.\n    - It MUST be a list of length equal to the number of sites in the structure, where every element is a list of the three Cartesian coordinates of a site expressed as float values in the unit angstrom (\u00c5).\n    - An entry MAY have multiple sites at the same Cartesian position (for a relevant use of this, see e.g., the property `assemblies`).\n\n- **Examples**:\n    - `[[0,0,0],[0,0,2]]` indicates a structure with two sites, one sitting at the origin and one along the (positive) *z*-axis, 2 \u00c5 away from the origin.",
             "nullable": true,
-            "x-optimade-unit": "\u00c5",
             "x-optimade-support": "should",
-            "x-optimade-queryable": "optional"
+            "x-optimade-queryable": "optional",
+            "x-optimade-unit": "\u00c5"
           },
           "nsites": {
             "title": "Nsites",
@@ -3874,6 +5531,15 @@
         },
         "description": "errors are not allowed"
       },
+      "SupportLevel": {
+        "title": "SupportLevel",
+        "enum": [
+          "must",
+          "should",
+          "optional"
+        ],
+        "description": "OPTIMADE property/field support levels"
+      },
       "ToplevelLinks": {
         "title": "ToplevelLinks",
         "type": "object",
@@ -3970,6 +5636,24 @@
           }
         },
         "description": "A set of Links objects, possibly including pagination"
+      },
+      "UnitResourceURIs": {
+        "title": "UnitResourceURIs",
+        "required": [
+          "relation",
+          "uri"
+        ],
+        "type": "object",
+        "properties": {
+          "relation": {
+            "title": "Relation",
+            "type": "string"
+          },
+          "uri": {
+            "title": "Uri",
+            "type": "string"
+          }
+        }
       },
       "Warnings": {
         "title": "Warnings",
