@@ -1,0 +1,16 @@
+{
+    "@context": {
+        "id": "@id",
+        "type": "@type",
+        "data": "@graph",
+        "attributes": "@nest",
+        "structures": {
+            "@id": "/types/v1.2.0/optimade/structures",
+            "@context": "/json-ld/v1.2.0/types/optimade/structures"
+        },
+        "files": {
+            "@id": "/types/v1.2.0/optimade/files",
+            "@context": "/json-ld/v1.2.0/types/optimade/files"
+        }
+    }
+}

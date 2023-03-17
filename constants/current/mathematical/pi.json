@@ -1,0 +1,27 @@
+{
+    "title": "pi",
+    "symbol": "pi",
+    "alternate-symbols": [
+        "\u03c0"
+    ],
+    "$id": "https://schemas.optimade.org/constants/v1.2.0/mathematical/pi",
+    "description": "The ratio of a circle's circumference to its diameter. Approximately equal to 3.1415926.",
+    "version": "1.2.0",
+    "property-format": "1.2",
+    "standard": {
+        "name": "gnu units",
+        "version": "3.15",
+        "symbol": "pi"
+    },
+    "resource-uris": [
+        {
+            "relation": "Wikipedia article describing the constant",
+            "uri": "https://en.wikipedia.org/wiki/Pi"
+        }
+    ],
+    "approximate-relation": {
+        "scale": {
+            "value": 3.141592653589793
+        }
+    }
+}

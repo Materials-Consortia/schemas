@@ -1,0 +1,76 @@
+{
+    "title": "Cartesian site positions",
+    "$id": "https://schemas.optimade.org/properties/v1.2.0/optimade/structures/cartesian_site_positions",
+    "x-optimade-type": "list",
+    "x-optimade-property": {
+        "version": "1.2.0",
+        "property-format": "1.2",
+        "unit-definitions": [
+            {
+                "title": "\u00e5ngstr\u00f6m",
+                "symbol": "angstrom",
+                "$id": "https://schemas.optimade.org/units/v1.2.0/atomistic/angstrom",
+                "description": "The \u00e5ngstr\u00f6m non-SI unit of length equal to 10\u207b\u00b9\u2070 meter conforming to the 2019 redefinition of the SI base units.",
+                "version": "1.2.0",
+                "property-format": "1.2",
+                "standard": {
+                    "name": "gnu units",
+                    "version": "3.15",
+                    "symbol": "angstrom"
+                },
+                "resource-uris": [
+                    {
+                        "relation": "Wikipedia article describing the unit",
+                        "uri": "https://en.wikipedia.org/wiki/Angstrom"
+                    }
+                ],
+                "defining-relation": {
+                    "base-units": [
+                        {
+                            "symbol": "m",
+                            "uri": "https://schema.optimade.org/units/v1.2.0/si/base/m"
+                        }
+                    ],
+                    "base-units-expression": "m",
+                    "scale": {
+                        "exponent": -10
+                    }
+                }
+            }
+        ]
+    },
+    "type": [
+        "array",
+        "null"
+    ],
+    "description": "Cartesian positions of each site in the structure. A site is usually used to describe positions of atoms; what atoms can be encountered at a given site is conveyed by the `species_at_sites` property, and the species themselves are described in the `species` property.\n\n**Requirements/Conventions**:\n\n- It MUST be a list of length equal to the number of sites in the structure, where every element is a list of the three Cartesian coordinates of a site expressed as float values in the unit angstrom (\u00c5).\n- An entry MAY have multiple sites at the same Cartesian position (for a relevant use of this, see e.g., the property `assemblies`).\n\n**Explained examples**:\n\n- :val:`[[0,0,0],[0,0,2]]` indicates a structure with two sites, one sitting at the origin and one along the (positive) *z*-axis, 2 \u00c5 away from the origin.",
+    "examples": [
+        [
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                2
+            ]
+        ]
+    ],
+    "x-optimade-unit": "inapplicable",
+    "items": {
+        "x-optimade-type": "list",
+        "type": [
+            "array"
+        ],
+        "x-optimade-unit": "inapplicable",
+        "items": {
+            "x-optimade-type": "float",
+            "type": [
+                "number"
+            ],
+            "x-optimade-unit": "angstrom"
+        }
+    }
+}

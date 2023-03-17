@@ -1,0 +1,164 @@
+{
+    "$id": "https://schemas.optimade.org/types/v1.2.0/files",
+    "url": {
+        "x-optimade-requirements": {
+            "support": "must",
+            "sortable": false,
+            "query-support": "none",
+            "response-default-level": "must"
+        },
+        "title": "URL",
+        "$id": "https://schemas.optimade.org/properties/v1.2.0/optimade/file/url",
+        "x-optimade-type": "string",
+        "x-optimade-property": {
+            "version": "1.2.0",
+            "property-format": "1.2"
+        },
+        "type": [
+            "string"
+        ],
+        "description": "The URL to get the contents of a file.\n\n**Requirements/Conventions:**\n\n- The URL MUST point to the actual contents of a file (i.e. byte stream), not an intermediate (preview) representation. For example, if referring to a file on GitHub, a link should point to raw contents.",
+        "examples": [
+            "https://example.org/files/cifs/1000000.cif"
+        ],
+        "x-optimade-unit": "inapplicable"
+    },
+    "url_stable_until": {
+        "x-optimade-requirements": {
+            "support": "may",
+            "sortable": false,
+            "query-support": "none"
+        },
+        "title": "URL stable until",
+        "$id": "https://schemas.optimade.org/properties/v1.2.0/optimade/file/url_stable_until",
+        "x-optimade-type": "timestamp",
+        "x-optimade-property": {
+            "version": "1.2.0",
+            "property-format": "1.2"
+        },
+        "type": [
+            "string",
+            "null"
+        ],
+        "description": "Point in time until which the URL in `url` is guaranteed to stay stable.\n\n**Requirements/Conventions:**\n\n- `null` means that there is no stability guarantee for the URL in url.\n  Indefinite support could be communicated by providing a date sufficiently far in the future, for example, 9999-12-31.",
+        "examples": [
+            "2052-04-05T14:30:20Z"
+        ],
+        "x-optimade-unit": "inapplicable",
+        "format": "date-time"
+    },
+    "name": {
+        "x-optimade-requirements": {
+            "support": "must",
+            "sortable": false,
+            "query-support": "none"
+        },
+        "title": "Name",
+        "$id": "https://schemas.optimade.org/properties/v1.2.0/optimade/files/name",
+        "x-optimade-type": "string",
+        "x-optimade-property": {
+            "version": "1.2.0",
+            "property-format": "1.2"
+        },
+        "type": [
+            "string"
+        ],
+        "description": "Base name of a file.\n\n**Requirements/Conventions:**\n\n- File name extension is an integral part of a file name and, if available, MUST be included.",
+        "examples": [
+            "1000000.cif"
+        ],
+        "x-optimade-unit": "inapplicable"
+    },
+    "size": {
+        "x-optimade-requirements": {
+            "support": "may",
+            "sortable": false,
+            "query-support": "none"
+        },
+        "title": "Size",
+        "$id": "https://schemas.optimade.org/properties/v1.2.0/optimade/files/size",
+        "x-optimade-type": "integer",
+        "x-optimade-property": {
+            "version": "1.2.0",
+            "property-format": "1.2"
+        },
+        "type": [
+            "integer",
+            "null"
+        ],
+        "description": "Size of a file in bytes.\n\n**Requirements/Conventions:**\n\n- If provided, it MUST be guaranteed that either exact size of a file is given or its upper bound.\n  This way if a client reserves a static buffer or truncates the download stream after this many bytes the whole file would be received.\n  Such provision is included to allow the providers to serve on-the-fly compressed files.",
+        "examples": [
+            4711
+        ],
+        "x-optimade-unit": "inapplicable"
+    },
+    "media_type": {
+        "x-optimade-requirements": {
+            "support": "may",
+            "sortable": false,
+            "query-support": "none"
+        },
+        "title": "Media type",
+        "$id": "https://schemas.optimade.org/properties/v1.2.0/optimade/files/media_type",
+        "x-optimade-type": "string",
+        "x-optimade-property": {
+            "version": "1.2.0",
+            "property-format": "1.2"
+        },
+        "type": [
+            "string",
+            "null"
+        ],
+        "description": "Media type identifier (also known as MIME type), for a file as per [RFC 6838 Media Type Specifications and Registration Procedures](https://datatracker.ietf.org/doc/html/rfc6838).",
+        "examples": [
+            "chemical/x-cif"
+        ],
+        "x-optimade-unit": "inapplicable"
+    },
+    "version": {
+        "x-optimade-requirements": {
+            "support": "may",
+            "sortable": false,
+            "query-support": "none"
+        },
+        "title": "Version",
+        "$id": "https://schemas.optimade.org/properties/v1.2.0/optimade/files/version",
+        "x-optimade-type": "string",
+        "x-optimade-property": {
+            "version": "1.2.0",
+            "property-format": "1.2"
+        },
+        "type": [
+            "string",
+            "null"
+        ],
+        "description": "Version information of a file (e.g. commit, revision, timestamp).\n\n**Requirements/Conventions:**\n\n- If provided, it MUST be guaranteed that file contents pertaining to the same combination of id and version are the same.",
+        "examples": [
+            "3.2.6"
+        ],
+        "x-optimade-unit": "inapplicable"
+    },
+    "modification_timestamp": {
+        "x-optimade-requirements": {
+            "support": "may",
+            "sortable": false,
+            "query-support": "none"
+        },
+        "title": "Modification timestamp",
+        "$id": "https://schemas.optimade.org/properties/v1.2.0/optimade/files/modification_timestamp",
+        "x-optimade-type": "timestamp",
+        "x-optimade-property": {
+            "version": "1.2.0",
+            "property-format": "1.2"
+        },
+        "type": [
+            "string",
+            "null"
+        ],
+        "description": "Timestamp of the last modification of file contents. A modification is understood as an addition, change or deletion of one or more bytes, resulting in file contents different from the previous.\n\n**Requirements/Conventions:**\n\n- Timestamps of subsequent file modifications SHOULD be increasing (not earlier than previous timestamps).",
+        "examples": [
+            "2020-04-05T14:30:20Z"
+        ],
+        "x-optimade-unit": "inapplicable"
+    }
+}
