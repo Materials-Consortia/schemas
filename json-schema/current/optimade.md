@@ -31,6 +31,17 @@ OPTIMADE Schema
                             "$ref": "#endpoints/entrytypes/files"
                         }
                     }
+                },
+                {
+                    "type": "object",
+                    "properties": {
+                        "type": {
+                            "const": "references"
+                        },
+                        "attributes": {
+                            "$ref": "#endpoints/entrytypes/references"
+                        }
+                    }
                 }
             ],
             "description": "\"Resource objects\" appear in a JSON:API document to represent resources.",
