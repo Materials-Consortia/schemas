@@ -1,10 +1,12 @@
 {
-    "title": "ID",
     "$id": "https://schemas.optimade.org/properties/v1.2.0/core/id",
+    "title": "ID",
     "x-optimade-type": "string",
-    "x-optimade-property": {
+    "x-optimade-definition": {
+        "kind": "property",
         "version": "1.2.0",
-        "property-format": "1.2"
+        "format": "1.2",
+        "name": "id"
     },
     "type": [
         "string"

@@ -1,10 +1,12 @@
 {
-    "title": "Number of periodic dimensions",
     "$id": "https://schemas.optimade.org/properties/v1.2.0/optimade/structures/nelements",
+    "title": "Number of periodic dimensions",
     "x-optimade-type": "integer",
-    "x-optimade-property": {
+    "x-optimade-definition": {
+        "kind": "property",
         "version": "1.2.0",
-        "property-format": "1.2"
+        "format": "1.2",
+        "name": "nelements"
     },
     "type": [
         "integer",
@@ -14,5 +16,6 @@
     "examples": [
         2
     ],
-    "x-optimade-unit": "dimensionless"
+    "x-optimade-unit": "dimensionless",
+    "$schema": "https://schemas.optimade.org/meta/v1.2.0/optimade/property_definition.json"
 }

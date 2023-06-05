@@ -1,20 +1,23 @@
 {
-    "title": "Reduced chemical formula",
     "$id": "https://schemas.optimade.org/properties/v1.2.0/optimade/structures/chemical_formula_reduced",
+    "title": "Reduced chemical formula",
     "x-optimade-type": "string",
-    "x-optimade-property": {
+    "x-optimade-definition": {
+        "kind": "property",
         "version": "1.2.0",
-        "property-format": "1.2"
+        "format": "1.2",
+        "name": "chemical_formula_reduced"
     },
     "type": [
         "string",
         "null"
     ],
-    "description": "The reduced chemical formula for a structure as a string with element symbols and integer chemical proportion numbers.\n\n**Requirements/Conventions**:\n\n- Intricate queries on formula components are suggested to be formulated using set-type filter operators on the multi valued :property:`elements` and :property:`elements_ratios` properties.\n- Element symbols MUST have proper capitalization (e.g., :val:`\"Si\"`, not :VAL:`\"SI\"` for \"silicon\").\n- Elements MUST be placed in alphabetical order, followed by their integer chemical proportion number.\n- For structures with no partial occupation, the chemical proportion numbers are the smallest integers for which the chemical proportion is exactly correct.\n- For structures with partial occupation, the chemical proportion numbers are integers that within reasonable approximation indicate the correct chemical proportions. The precise details of how to perform the rounding is chosen by the API implementation.\n- No spaces or separators are allowed.\n\n**Query examples**:\n\n- A filter that matches an exactly given formula is `chemical_formula_reduced=\"H2NaO\"`.",
+    "description": "The reduced chemical formula for a structure as a string with element symbols and integer chemical proportion numbers.\n\n**Requirements/Conventions**:\n\n- Intricate queries on formula components are suggested to be formulated using set-type filter operators on the multi valued `elements` and `elements_ratios` properties.\n- Element symbols MUST have proper capitalization (e.g., `\"Si\"`, not `\"SI\"` for \"silicon\").\n- Elements MUST be placed in alphabetical order, followed by their integer chemical proportion number.\n- For structures with no partial occupation, the chemical proportion numbers are the smallest integers for which the chemical proportion is exactly correct.\n- For structures with partial occupation, the chemical proportion numbers are integers that within reasonable approximation indicate the correct chemical proportions. The precise details of how to perform the rounding is chosen by the API implementation.\n- No spaces or separators are allowed.\n\n**Query examples**:\n\n- A filter that matches an exactly given formula is `chemical_formula_reduced=\"H2NaO\"`.",
     "examples": [
         "H2NaO",
         "ClNa",
         "CCaO3"
     ],
-    "x-optimade-unit": "inapplicable"
+    "x-optimade-unit": "inapplicable",
+    "$schema": "https://schemas.optimade.org/meta/v1.2.0/optimade/property_definition.json"
 }

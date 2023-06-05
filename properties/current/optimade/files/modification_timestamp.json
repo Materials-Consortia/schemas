@@ -1,10 +1,12 @@
 {
-    "title": "Modification timestamp",
     "$id": "https://schemas.optimade.org/properties/v1.2.0/optimade/files/modification_timestamp",
+    "title": "Modification timestamp",
     "x-optimade-type": "timestamp",
-    "x-optimade-property": {
+    "x-optimade-definition": {
+        "kind": "property",
         "version": "1.2.0",
-        "property-format": "1.2"
+        "format": "1.2",
+        "name": "modification_timestamp"
     },
     "type": [
         "string",
@@ -14,5 +16,6 @@
     "examples": [
         "2020-04-05T14:30:20Z"
     ],
-    "x-optimade-unit": "inapplicable"
+    "x-optimade-unit": "inapplicable",
+    "$schema": "https://schemas.optimade.org/meta/v1.2.0/optimade/property_definition.json"
 }

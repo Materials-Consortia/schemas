@@ -1,10 +1,12 @@
 {
-    "title": "Last modified",
     "$id": "https://schemas.optimade.org/properties/v1.2.0/core/last_modified",
+    "title": "Last modified",
     "x-optimade-type": "timestamp",
-    "x-optimade-property": {
+    "x-optimade-definition": {
+        "kind": "property",
         "version": "1.2.0",
-        "property-format": "1.2"
+        "format": "1.2",
+        "name": "last_modified"
     },
     "type": [
         "string",

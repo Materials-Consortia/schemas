@@ -1,10 +1,12 @@
 {
-    "title": "Number of elements",
     "$id": "https://schemas.optimade.org/properties/v1.2.0/optimade/structures/nelements",
+    "title": "Number of elements",
     "x-optimade-type": "integer",
-    "x-optimade-property": {
+    "x-optimade-definition": {
+        "kind": "property",
         "version": "1.2.0",
-        "property-format": "1.2"
+        "format": "1.2",
+        "name": "nelements"
     },
     "type": [
         "integer",
@@ -19,5 +21,6 @@
         "support": "should",
         "sortable": false,
         "query-support": "all mandatory"
-    }
+    },
+    "$schema": "https://schemas.optimade.org/meta/v1.2.0/optimade/property_definition.json"
 }

@@ -1,7 +1,23 @@
 {
-    "tile": "Chemical symbol or vacancy",
     "$id": "https://schemas.optimade.org/properties/v1.2.0/optimade/common/chemical_symbol_or_vacancy",
-    "description": "A chemical symbol refering to an element, a non-chemical element, or a vacancy.\n\n**Requirements/Conventions:**\n\n- Must be one of the following:\n\n  - a valid chemical-element symbol, or\n  - the special value :val:`\"X\"` to represent a non-chemical element, or\n  - the special value :val:`\"vacancy\"` to represent that this site has a non-zero probability of having a vacancy (the respective probability is indicated in the :property:`concentration` list, see below).",
+    "title": "Chemical symbol or vacancy",
+    "x-optimade-type": "string",
+    "x-optimade-definition": {
+        "kind": "property",
+        "version": "1.2.0",
+        "format": "1.2",
+        "name": "chemical_symbol_or_vacancy"
+    },
+    "description": "A chemical symbol refering to an element, a non-chemical element, or a vacancy.\n\n**Requirements/Conventions:**\n\n- Must be one of the following:\n\n  - a valid chemical-element symbol, or\n  - the special value `\"X\"` to represent a non-chemical element, or\n  - the special value `\"vacancy\"` to represent that this site has a non-zero probability of having a vacancy (the respective probability is indicated in the `concentration` list, see below).",
+    "x-optimade-unit": "inapplicable",
+    "examples": [
+        "He",
+        "X",
+        "vacancy"
+    ],
+    "type": [
+        "string"
+    ],
     "enum": [
         "X",
         "H",
@@ -129,24 +145,5 @@
         "Ts",
         "Og"
     ],
-    "x-optimade-type": "string",
-    "x-optimade-property": {
-        "version": "1.2.0",
-        "property-format": "1.2"
-    },
-    "x-optimade-unit": "inapplicable",
-    "examples": [
-        [
-            "He",
-            "He",
-            "C"
-        ],
-        [
-            "Li",
-            "X"
-        ]
-    ],
-    "type": [
-        "string"
-    ]
+    "$schema": "https://schemas.optimade.org/meta/v1.2.0/optimade/property_definition.json"
 }

@@ -1,10 +1,12 @@
 {
-    "tile": "Element",
     "$id": "https://schemas.optimade.org/properties/v1.2.0/optimade/common/element",
+    "title": "Element",
     "x-optimade-type": "string",
-    "x-optimade-property": {
+    "x-optimade-definition": {
+        "kind": "property",
         "version": "1.2.0",
-        "property-format": "1.2"
+        "format": "1.2",
+        "name": "element"
     },
     "description": "The chemical symbol of an element\n\n**Requirements/Conventions:**\n\n- The strings are the chemical symbols, i.e., either a single uppercase letter or an uppercase letter followed by a number of lowercase letters.",
     "x-optimade-unit": "inapplicable",
@@ -138,5 +140,6 @@
         "Lv",
         "Ts",
         "Og"
-    ]
+    ],
+    "$schema": "https://schemas.optimade.org/meta/v1.2.0/optimade/property_definition.json"
 }

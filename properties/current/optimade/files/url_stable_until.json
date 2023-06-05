@@ -1,10 +1,12 @@
 {
-    "title": "URL stable until",
     "$id": "https://schemas.optimade.org/properties/v1.2.0/optimade/file/url_stable_until",
+    "title": "URL stable until",
     "x-optimade-type": "timestamp",
-    "x-optimade-property": {
+    "x-optimade-definition": {
+        "kind": "property",
         "version": "1.2.0",
-        "property-format": "1.2"
+        "format": "1.2",
+        "name": "url_stable_until"
     },
     "type": [
         "string",
@@ -15,5 +17,6 @@
         "2052-04-05T14:30:20Z"
     ],
     "x-optimade-unit": "inapplicable",
-    "format": "date-time"
+    "format": "date-time",
+    "$schema": "https://schemas.optimade.org/meta/v1.2.0/optimade/property_definition.json"
 }

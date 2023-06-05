@@ -1,10 +1,12 @@
 {
-    "title": "Immutable ID",
     "$id": "https://schemas.optimade.org/properties/v1.2.0/core/immutable_id",
+    "title": "Immutable ID",
     "x-optimade-type": "string",
-    "x-optimade-property": {
+    "x-optimade-definition": {
+        "kind": "property",
         "version": "1.2.0",
-        "property-format": "1.2"
+        "format": "1.2",
+        "name": "immutable_id"
     },
     "type": [
         "string",
@@ -15,5 +17,6 @@
         "8bd3e750-b477-41a0-9b11-3a799f21b44f",
         "fjeiwoj,54;@=%<>#32"
     ],
-    "x-optimade-unit": "inapplicable"
+    "x-optimade-unit": "inapplicable",
+    "$schema": "https://schemas.optimade.org/meta/v1.2.0/optimade/property_definition.json"
 }

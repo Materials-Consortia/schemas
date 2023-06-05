@@ -1,10 +1,12 @@
 {
-    "title": "Features",
     "$id": "https://schemas.optimade.org/properties/v1.2.0/core/features",
+    "title": "Features",
     "x-optimade-type": "list",
-    "x-optimade-property": {
+    "x-optimade-definition": {
+        "kind": "property",
         "version": "1.2.0",
-        "property-format": "1.2"
+        "format": "1.2",
+        "name": "features"
     },
     "type": [
         "array"
@@ -23,5 +25,6 @@
         ],
         "x-optimade-type": "string",
         "x-optimade-unit": "inapplicable"
-    }
+    },
+    "$schema": "https://schemas.optimade.org/meta/v1.2.0/optimade/property_definition.json"
 }

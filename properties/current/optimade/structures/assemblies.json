@@ -1,10 +1,12 @@
 {
-    "title": "Assemblies",
     "$id": "https://schemas.optimade.org/properties/v1.2.0/optimade/structures/assemblies",
+    "title": "Assemblies",
     "x-optimade-type": "dictionary",
-    "x-optimade-property": {
+    "x-optimade-definition": {
+        "kind": "property",
         "version": "1.2.0",
-        "property-format": "1.2"
+        "format": "1.2",
+        "name": "assembiles"
     },
     "type": [
         "object",
@@ -43,99 +45,96 @@
         }
     ],
     "x-optimade-unit": "inapplicable",
-    "properties": [
-        {
-            "sites_in_groups": {
-                "title": "Sites in groups",
+    "properties": {
+        "sites_in_groups": {
+            "title": "Sites in groups",
+            "x-optimade-type": "list",
+            "type": [
+                "array"
+            ],
+            "description": "Index of the sites (0-based) that belong to each group for each assembly.\n\n**Explained examples**:\n\n- `[[1], [2]]`: two groups, one with the second site, one with the third.\n- `[[1,2], [3]]`: one group with the second and third site, one with the fourth.",
+            "examples": [
+                [
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                [
+                    [
+                        1,
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "x-optimade-unit": "inapplicable",
+            "items": {
+                "title": "Group of sites",
                 "x-optimade-type": "list",
                 "type": [
                     "array"
                 ],
-                "description": "Index of the sites (0-based) that belong to each group for each assembly.\n\n**Explained examples**:\n\n- `[[1], [2]]`: two groups, one with the second site, one with the third.\n- `[[1,2], [3]]`: one group with the second and third site, one with the fourth.",
+                "description": "A list of sites that belong to one group in the assembly.",
                 "examples": [
                     [
-                        [
-                            1
-                        ],
-                        [
-                            2
-                        ]
+                        1
                     ],
                     [
-                        [
-                            1,
-                            2
-                        ],
-                        [
-                            3
-                        ]
+                        1,
+                        2
                     ]
                 ],
                 "x-optimade-unit": "inapplicable",
                 "items": {
-                    "title": "Group of sites",
-                    "x-optimade-type": "list",
+                    "title": "A site reference",
+                    "x-optimade-type": "integer",
                     "type": [
-                        "array"
+                        "integer"
                     ],
-                    "description": "A list of sites that belong to one group in the assembly.",
+                    "description": "An integer that refers to a site by index (0-based).",
                     "examples": [
-                        [
-                            1
-                        ],
-                        [
-                            1,
-                            2
-                        ]
+                        2
                     ],
-                    "x-optimade-unit": "inapplicable",
-                    "items": {
-                        "title": "A site reference",
-                        "x-optimade-type": "integer",
-                        "type": [
-                            "integer"
-                        ],
-                        "description": "An integer that refers to a site by index (0-based).",
-                        "examples": [
-                            2
-                        ],
-                        "x-optimade-unit": "inapplicable"
-                    }
+                    "x-optimade-unit": "inapplicable"
                 }
             }
         },
-        {
-            "group_probabilities": {
-                "title": "Group probabilities",
-                "x-optimade-type": "list",
+        "group_probabilities": {
+            "title": "Group probabilities",
+            "x-optimade-type": "list",
+            "type": [
+                "array"
+            ],
+            "description": "Statistical probability of each group.\n\n**Requirements/Conventions**:\n\n- It MUST have the same length as `sites_in_groups`.\n- It SHOULD sum to one.\n- The possible reasons for the values not to sum to one are the same as specified in the `concentration` field of the `species` property.",
+            "examples": [
+                [
+                    0.3,
+                    0.7
+                ]
+            ],
+            "x-optimade-unit": "inapplicable",
+            "items": {
+                "title": "A concentration",
+                "x-optimade-type": "float",
                 "type": [
-                    "array"
+                    "number"
                 ],
-                "description": "Statistical probability of each group.\n\n**Requirements/Conventions**:\n\n- It MUST have the same length as `sites_in_groups`.\n- It SHOULD sum to one.\n- The possible reasons for the values not to sum to one are the same as specified in the `concentration` field of the `species` property.",
+                "description": "An float that specifies the statistical probability of a group in the description of assemblies.",
                 "examples": [
-                    [
-                        0.3,
-                        0.7
-                    ]
+                    0.4
                 ],
-                "x-optimade-unit": "inapplicable",
-                "items": {
-                    "title": "A concentration",
-                    "x-optimade-type": "float",
-                    "type": [
-                        "number"
-                    ],
-                    "description": "An float that specifies the statistical probability of a group in the description of assemblies.",
-                    "examples": [
-                        0.4
-                    ],
-                    "x-optimade-unit": "dimensionless"
-                }
+                "x-optimade-unit": "dimensionless"
             }
         }
-    ],
+    },
     "required": [
         "sites_in_groups",
         "group_probabilities"
-    ]
+    ],
+    "$schema": "https://schemas.optimade.org/meta/v1.2.0/optimade/property_definition.json"
 }

@@ -1,10 +1,12 @@
 {
-    "title": "Dimension types",
     "$id": "https://schemas.optimade.org/properties/v1.2.0/optimade/structures/dimension_types",
+    "title": "Dimension types",
     "x-optimade-type": "list",
-    "x-optimade-property": {
+    "x-optimade-definition": {
+        "kind": "property",
         "version": "1.2.0",
-        "property-format": "1.2"
+        "format": "1.2",
+        "name": "dimension_types"
     },
     "type": [
         "array",
@@ -31,12 +33,15 @@
     "x-optimade-unit": "inapplicable",
     "items": {
         "x-optimade-type": "integer",
-        "type": "integer",
+        "type": [
+            "integer"
+        ],
         "x-optimade-unit": "inapplicable",
         "description": "The integers 0 and 1 are used to mean false/true in a boolean flag indicating a periodic direction.",
         "enum": [
             0,
             1
         ]
-    }
+    },
+    "$schema": "https://schemas.optimade.org/meta/v1.2.0/optimade/property_definition.json"
 }

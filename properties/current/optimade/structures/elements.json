@@ -1,16 +1,18 @@
 {
-    "title": "Elements",
     "$id": "https://schemas.optimade.org/properties/v1.2.0/optimade/structures/elements",
+    "title": "Elements",
     "x-optimade-type": "list",
-    "x-optimade-property": {
+    "x-optimade-definition": {
+        "kind": "property",
         "version": "1.2.0",
-        "property-format": "1.2"
+        "format": "1.2",
+        "name": "elements"
     },
     "type": [
         "array",
         "null"
     ],
-    "description": "The chemical symbols of the different elements present in the structure.\n\n**Requirements/Conventions**:\n\n- The strings are the chemical symbols, i.e., either a single uppercase letter or an uppercase letter followed by a number of lowercase letters.\n- The order MUST be alphabetical.\n- MUST refer to the same elements in the same order, and therefore be of the same length, as elements_ratios, if the latter is provided.\n- Note: This property SHOULD NOT contain the string \"X\" to indicate non-chemical elements or \"vacancy\" to indicate vacancies (in contrast to the field chemical_symbols for the species property).\n\n**Query examples**:\n\n- A filter that matches all records of structures that contain Si, Al **and** O, and possibly other elements: `elements HAS ALL \"Si\", \"Al\", \"O\"`.\n- To match structures with exactly these three elements, use `elements HAS ALL \"Si\", \"Al\", \"O\" AND elements LENGTH 3`.\n- Note: length queries on this property can be equivalently formulated by filtering on the `nelements`_ property directly.",
+    "description": "The chemical symbols of the different elements present in the structure.\n\n**Requirements/Conventions**:\n\n- The strings are the chemical symbols, i.e., either a single uppercase letter or an uppercase letter followed by a number of lowercase letters.\n- The order MUST be alphabetical.\n- MUST refer to the same elements in the same order, and therefore be of the same length, as `elements_ratios`, if the latter is provided.\n- Note: This property SHOULD NOT contain the string \"X\" to indicate non-chemical elements or \"vacancy\" to indicate vacancies (in contrast to the field `chemical_symbols` for the species property).\n\n**Query examples**:\n\n- A filter that matches all records of structures that contain Si, Al **and** O, and possibly other elements: `elements HAS ALL \"Si\", \"Al\", \"O\"`.\n- To match structures with exactly these three elements, use `elements HAS ALL \"Si\", \"Al\", \"O\" AND elements LENGTH 3`.\n- Note: length queries on this property can be equivalently formulated by filtering on the `nelements` property directly.",
     "examples": [
         [
             "Al",
@@ -23,12 +25,14 @@
     ],
     "x-optimade-unit": "inapplicable",
     "items": {
-        "tile": "Element",
         "$id": "https://schemas.optimade.org/properties/v1.2.0/optimade/common/element",
+        "title": "Element",
         "x-optimade-type": "string",
-        "x-optimade-property": {
+        "x-optimade-definition": {
+            "kind": "property",
             "version": "1.2.0",
-            "property-format": "1.2"
+            "format": "1.2",
+            "name": "element"
         },
         "description": "The chemical symbol of an element\n\n**Requirements/Conventions:**\n\n- The strings are the chemical symbols, i.e., either a single uppercase letter or an uppercase letter followed by a number of lowercase letters.",
         "x-optimade-unit": "inapplicable",
@@ -163,5 +167,6 @@
             "Ts",
             "Og"
         ]
-    }
+    },
+    "$schema": "https://schemas.optimade.org/meta/v1.2.0/optimade/property_definition.json"
 }
