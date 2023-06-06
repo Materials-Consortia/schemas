@@ -1,7 +1,7 @@
 # URL stable until (property)
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/properties/v1.2.0/optimade/file/url_stable_until`](https://schemas.optimade.org/properties/v1.2.0/optimade/file/url_stable_until)**  
+**ID: [`https://schemas.optimade.org/properties/v1.2.0/optimade/files/url_stable_until`](https://schemas.optimade.org/properties/v1.2.0/optimade/files/url_stable_until)**  
 **Definition name:** `url_stable_until`
 
 **Property name:** URL stable until  
@@ -23,7 +23,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 ``` json
 {
-    "$id": "https://schemas.optimade.org/properties/v1.2.0/optimade/file/url_stable_until",
+    "$id": "https://schemas.optimade.org/properties/v1.2.0/optimade/files/url_stable_until",
     "title": "URL stable until",
     "x-optimade-type": "timestamp",
     "x-optimade-definition": {

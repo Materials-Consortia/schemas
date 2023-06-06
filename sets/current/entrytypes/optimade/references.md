@@ -11,7 +11,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Entrytype Definiti
 
 This entrytype defines the following properties:
 
-* **[id](../../../../properties/v1.2.0/core/id)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/core/id`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/references)  
+* **[ID](../../../../properties/v1.2.0/core/id)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/core/id`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/references)  
   A unique string referencing a specific entry in the database.
 
     **Requirements/Conventions:**  
@@ -24,7 +24,7 @@ This entrytype defines the following properties:
     - IDs MAY change over time.
 
 
-* **[type](../../../../properties/v1.2.0/core/type)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/core/type`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/references)  
+* **[Type](../../../../properties/v1.2.0/core/type)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/core/type`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/references)  
   The name of the type of an entry.
 
     **Requirements/Conventions:**  
@@ -36,7 +36,7 @@ This entrytype defines the following properties:
     - The entry of type <type> and ID <id> MUST be returned in response to a request for /<type>/<id> under the versioned or unversioned base URL serving the API.
 
 
-* **[immutable_id](../../../../properties/v1.2.0/core/immutable_id)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/core/immutable_id`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/references)  
+* **[Immutable ID (immutable_id)](../../../../properties/v1.2.0/core/immutable_id)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/core/immutable_id`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/references)  
   The entry's immutable ID (e.g., a UUID).
 
     **Requirements/Conventions:**  
@@ -48,7 +48,7 @@ This entrytype defines the following properties:
     - This ID maps to the version-specific record, in case it changes in the future.
 
 
-* **[last_modified](../../../../properties/v1.2.0/core/last_modified)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/core/last_modified`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/references)  
+* **[Last modified (last_modified)](../../../../properties/v1.2.0/core/last_modified)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/core/last_modified`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/references)  
   Date and time representing when the entry was last modified.
 
     **Requirements/Conventions:**  
@@ -246,7 +246,7 @@ This entrytype defines the following properties:
     - **Query:** Support for queries on this property is OPTIONAL.
     - **Response:** MAY be included by default in the response.
 
-* **[bib_type](../../../../properties/v1.2.0/optimade/references/bib_type)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/references/bib_type`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/references)  
+* **[bibliographic type (bib_type)](../../../../properties/v1.2.0/optimade/references/bib_type)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/references/bib_type`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/references)  
   Type of the reference (the type field in the BibTeX specification).
 
     **Requirements/Conventions:**  

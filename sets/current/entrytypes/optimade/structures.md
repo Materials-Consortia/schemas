@@ -11,7 +11,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Entrytype Definiti
 
 This entrytype defines the following properties:
 
-* **[id](../../../../properties/v1.2.0/core/id)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/core/id`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
+* **[ID](../../../../properties/v1.2.0/core/id)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/core/id`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
   A unique string referencing a specific entry in the database.
 
     **Requirements/Conventions:**  
@@ -24,7 +24,7 @@ This entrytype defines the following properties:
     - IDs MAY change over time.
 
 
-* **[type](../../../../properties/v1.2.0/core/type)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/core/type`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
+* **[Type](../../../../properties/v1.2.0/core/type)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/core/type`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
   The name of the type of an entry.
 
     **Requirements/Conventions:**  
@@ -36,7 +36,7 @@ This entrytype defines the following properties:
     - The entry of type <type> and ID <id> MUST be returned in response to a request for /<type>/<id> under the versioned or unversioned base URL serving the API.
 
 
-* **[immutable_id](../../../../properties/v1.2.0/core/immutable_id)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/core/immutable_id`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
+* **[Immutable ID (immutable_id)](../../../../properties/v1.2.0/core/immutable_id)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/core/immutable_id`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
   The entry's immutable ID (e.g., a UUID).
 
     **Requirements/Conventions:**  
@@ -48,7 +48,7 @@ This entrytype defines the following properties:
     - This ID maps to the version-specific record, in case it changes in the future.
 
 
-* **[last_modified](../../../../properties/v1.2.0/core/last_modified)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/core/last_modified`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
+* **[Last modified (last_modified)](../../../../properties/v1.2.0/core/last_modified)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/core/last_modified`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
   Date and time representing when the entry was last modified.
 
     **Requirements/Conventions:**  
@@ -57,7 +57,7 @@ This entrytype defines the following properties:
     - **Query:** MUST be a queryable property with support for all mandatory filter features.
     - **Response:** MUST be included by default in the response.
 
-* **[elements](../../../../properties/v1.2.0/optimade/structures/elements)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/elements`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
+* **[Elements](../../../../properties/v1.2.0/optimade/structures/elements)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/elements`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
   The chemical symbols of the different elements present in the structure.
 
     **Requirements/Conventions:**  
@@ -77,7 +77,7 @@ This entrytype defines the following properties:
     - Note: length queries on this property can be equivalently formulated by filtering on the `nelements` property directly.
 
 
-* **[nelements](../../../../properties/v1.2.0/optimade/structures/nelements)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/nelements`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
+* **[Number of elements (nelements)](../../../../properties/v1.2.0/optimade/structures/nelements)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/nelements`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
   Number of different elements in the structure as an integer.
 
     **Requirements/Conventions:**  
@@ -94,7 +94,7 @@ This entrytype defines the following properties:
     - A filter that matches structures that have between 2 and 7 elements: `nelements>=2 AND nelements<=7`.
 
 
-* **[elements_ratios](../../../../properties/v1.2.0/optimade/structures/elements_ratios)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/elements_ratios`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
+* **[Elements ratios (elements_ratios)](../../../../properties/v1.2.0/optimade/structures/elements_ratios)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/elements_ratios`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
   Relative proportions of different elements in the structure.
 
     **Requirements/Conventions:**  
@@ -113,7 +113,7 @@ This entrytype defines the following properties:
     - OPTIONAL: a filter that matches structures where approximately 1/3 of the atoms in the structure are the element Al is: `elements:elements_ratios HAS ALL "Al":>0.3333, "Al":<0.3334`.
 
 
-* **[chemical_formula_descriptive](../../../../properties/v1.2.0/optimade/structures/chemical_formula_descriptive)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/chemical_formula_descriptive`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
+* **[Descriptive chemical formula (chemical_formula_descriptive)](../../../../properties/v1.2.0/optimade/structures/chemical_formula_descriptive)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/chemical_formula_descriptive`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
   The chemical formula for a structure as a string in a form chosen by the API implementation.
 
     **Requirements/Conventions:**  
@@ -135,7 +135,7 @@ This entrytype defines the following properties:
     - A filter that does a partial match: `chemical_formula_descriptive CONTAINS "H2O"`.
 
 
-* **[chemical_formula_reduced](../../../../properties/v1.2.0/optimade/structures/chemical_formula_reduced)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/chemical_formula_reduced`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
+* **[Reduced chemical formula (chemical_formula_reduced)](../../../../properties/v1.2.0/optimade/structures/chemical_formula_reduced)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/chemical_formula_reduced`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
   The reduced chemical formula for a structure as a string with element symbols and integer chemical proportion numbers.
 
     **Requirements/Conventions:**  
@@ -155,7 +155,7 @@ This entrytype defines the following properties:
     - A filter that matches an exactly given formula is `chemical_formula_reduced="H2NaO"`.
 
 
-* **[chemical_formula_hill](../../../../properties/v1.2.0/optimade/structures/chemical_formula_hill)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/chemical_formula_hill`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
+* **[Hill chemical formula (chemical_formula_hill)](../../../../properties/v1.2.0/optimade/structures/chemical_formula_hill)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/chemical_formula_hill`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
   The chemical formula for a structure in [Hill form](https://dx.doi.org/10.1021/ja02046a005) with element symbols followed by integer chemical proportion numbers. The proportion number MUST be omitted if it is 1.
 
     **Requirements/Conventions:**  
@@ -179,7 +179,7 @@ This entrytype defines the following properties:
     - A filter that matches an exactly given formula is `chemical_formula_hill="H2O2"`.
 
 
-* **[chemical_formula_anonymous](../../../../properties/v1.2.0/optimade/structures/chemical_formula_anonymous)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/chemical_formula_anonymous`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
+* **[Anonymous chemical formula (chemical_formula_anonymous)](../../../../properties/v1.2.0/optimade/structures/chemical_formula_anonymous)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/chemical_formula_anonymous`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
   The anonymous formula is the chemical_formula_reduced, but where the elements are instead first ordered by their chemical proportion number, and then, in order left to right, replaced by anonymous symbols A, B, C, ..., Z, Aa, Ba, ..., Za, Ab, Bb, ... and so on.
 
     **Requirements/Conventions:**  
@@ -188,7 +188,7 @@ This entrytype defines the following properties:
     - **Query:** MUST be queryable using the OPTIMADE filter language equality and inequality operators. Other filter language features do not need to be available.
     - **Response:** MAY be included by default in the response.
 
-* **[dimension_types](../../../../properties/v1.2.0/optimade/structures/dimension_types)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/dimension_types`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
+* **[Dimension types (dimension_types)](../../../../properties/v1.2.0/optimade/structures/dimension_types)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/dimension_types`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
   List of three integers describing the periodicity of the boundaries of the unit cell. For each direction indicated by the three lattice_vectors, this list indicates if the direction is periodic (value 1) or non-periodic (value 0). Note: the elements in this list each refer to the direction of the corresponding entry in lattice_vectors and not the Cartesian x, y, z directions.
 
     **Requirements/Conventions:**  
@@ -207,7 +207,7 @@ This entrytype defines the following properties:
     - For a bulk 3D system with a unit cell that is periodic in all directions: `[1, 1, 1]`
 
 
-* **[nperiodic_dimensions](../../../../properties/v1.2.0/optimade/structures/nelements)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/nelements`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
+* **[Number of periodic dimensions (nperiodic_dimensions)](../../../../properties/v1.2.0/optimade/structures/nelements)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/nelements`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
   An integer specifying the number of periodic dimensions in the structure, equivalent to the number of non-zero entries in `dimension_types`.
 
     **Requirements/Conventions:**  
@@ -229,7 +229,7 @@ This entrytype defines the following properties:
     - Match all structures with 2 or fewer periodic dimensions: `nperiodic_dimensions<=2`
 
 
-* **[lattice_vectors](../../../../properties/v1.2.0/optimade/structures/lattice_vectors)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/lattice_vectors`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
+* **[Lattice vectors (lattice_vectors)](../../../../properties/v1.2.0/optimade/structures/lattice_vectors)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/lattice_vectors`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
   The three lattice vectors in Cartesian coordinates, in ångström (Å).
 
     **Requirements/Conventions:**  
@@ -251,7 +251,7 @@ This entrytype defines the following properties:
     - `[[4.0,0.0,0.0],[0.0,4.0,0.0],[0.0,1.0,4.0]]` represents a cell, where the first vector is (4, 0, 0), i.e., a vector aligned along the x axis of length 4 Å; the second vector is (0, 4, 0); and the third vector is (0, 1, 4).
 
 
-* **[space_group_hall](../../../../properties/v1.2.0/optimade/structures/space_group_hall)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/space_group_hall`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
+* **[Hall space group (space_group_hall)](../../../../properties/v1.2.0/optimade/structures/space_group_hall)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/space_group_hall`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
   A Hall space group symbol representing the symmetry of the structure as defined in Hall, S. R. (1981), Acta Cryst. A37, 517-525 and erratum (1981), A37, 921.
 
     **Requirements/Conventions:**  
@@ -264,7 +264,7 @@ This entrytype defines the following properties:
     - MUST be null if n`periodic_dimensions` is not equal to 3.
 
 
-* **[space_group_it_number](../../../../properties/v1.2.0/optimade/structures/space_group_it_number)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/space_group_it_number`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
+* **[Space group IT number (space_group_it_number)](../../../../properties/v1.2.0/optimade/structures/space_group_it_number)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/space_group_it_number`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
   Space group number for the structure assigned by the International Tables for Crystallography Vol. A.
 
     **Requirements/Conventions:**  
@@ -276,7 +276,7 @@ This entrytype defines the following properties:
     - MUST be null if `nperiodic_dimensions` is not equal to 3.
 
 
-* **[cartesian_site_positions](../../../../properties/v1.2.0/optimade/structures/cartesian_site_positions)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/cartesian_site_positions`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
+* **[Cartesian site positions (cartesian_site_positions)](../../../../properties/v1.2.0/optimade/structures/cartesian_site_positions)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/cartesian_site_positions`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
   Cartesian positions of each site in the structure.
 
     **Requirements/Conventions:**  
@@ -296,7 +296,7 @@ This entrytype defines the following properties:
     - `[[0,0,0],[0,0,2]]` indicates a structure with two sites, one sitting at the origin and one along the (positive) *z*-axis, 2 Å away from the origin.
 
 
-* **[nsites](../../../../properties/v1.2.0/optimade/structures/nsites)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/nsites`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
+* **[Number of sites (nsites)](../../../../properties/v1.2.0/optimade/structures/nsites)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/nsites`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
   An integer specifying the length of the `cartesian_site_positions` property.
 
     **Requirements/Conventions:**  
@@ -312,7 +312,7 @@ This entrytype defines the following properties:
     - Match structures that have between 2 and 7 sites: `nsites>=2 AND nsites<=7`
 
 
-* **[species_at_sites](../../../../properties/v1.2.0/optimade/structures/species_at_sites)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/species_at_sites`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
+* **[Species at sites (species_at_sites)](../../../../properties/v1.2.0/optimade/structures/species_at_sites)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/species_at_sites`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
   Name of the species at each site (where values for sites are specified with the same order of the property `cartesian_site_positions`). The properties of the species are found in the property `species`.
 
     **Requirements/Conventions:**  
@@ -332,7 +332,7 @@ This entrytype defines the following properties:
     - `["Ac", "Ac", "Ag", "Ir"]` indicates that the first two sites contain the `"Ac"` species, while the third and fourth sites contain the `"Ag"` and `"Ir"` species, respectively.
 
 
-* **[species](../../../../properties/v1.2.0/optimade/structures/species)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/species`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
+* **[Species](../../../../properties/v1.2.0/optimade/structures/species)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/species`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
   A list describing the species of the sites of this structure. Species can represent pure chemical elements, virtual-crystal atoms representing a statistical occupation of a given site by multiple chemical elements, and/or a location to which there are attached atoms, i.e., atoms whose precise location are unknown beyond that they are attached to that position (frequently used to indicate hydrogen atoms attached to another element, e.g., a carbon with three attached hydrogens might represent a methyl group, -CH3).
 
     **Requirements/Conventions:**  
@@ -388,7 +388,7 @@ This entrytype defines the following properties:
     - `[ {"name": "CH3", "chemical_symbols": ["C"], "concentration": [1.0], "attached": ["H"], "nattached": [3]} ]`: any site with this species is occupied by a methyl group, -CH3, which is represented without specifying precise positions of the hydrogen atoms.
 
 
-* **[assemblies](../../../../properties/v1.2.0/optimade/structures/assemblies)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/assemblies`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
+* **[Assemblies](../../../../properties/v1.2.0/optimade/structures/assemblies)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structures/assemblies`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
   A description of groups of sites that are statistically correlated.
 
     **Requirements/Conventions:**  
@@ -497,7 +497,7 @@ This entrytype defines the following properties:
         However, the presence or absence of sites 0 and 1 is not correlated with the presence or absence of sites 2 and 3 (in the specific example, the pair of sites (0, 2) can occur with 0.2*0.3 = 6 % probability; the pair (0, 3) with 0.2*0.7 = 14 % probability; the pair (1, 2) with 0.8*0.3 = 24 % probability; and the pair (1, 3) with 0.8*0.7 = 56 % probability).
 
 
-* **[structure_features](../../../../properties/v1.2.0/optimade/structure/structure_features)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structure/structure_features`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
+* **[Structure features (structure_features)](../../../../properties/v1.2.0/optimade/structure/structure_features)** (property) - [`https://schemas.optimade.org/properties/v1.2.0/optimade/structure/structure_features`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
   A list of strings that flag which special features are used by the structure.
 
     **Requirements/Conventions:**  

@@ -1,5 +1,5 @@
 {
-    "$id": "https://schemas.optimade.org/properties/v1.2.0/optimade/file/url",
+    "$id": "https://schemas.optimade.org/properties/v1.2.0/optimade/files/url",
     "title": "URL",
     "x-optimade-type": "string",
     "x-optimade-definition": {

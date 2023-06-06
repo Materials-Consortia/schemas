@@ -11,7 +11,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Standard Definitio
 
 This standard defines the following entrytypes:
 
-* **[structures](../entrytypes/optimade/structures)** (entrytype) - [`https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures`](https://schemas.optimade.org/sets/v1.2.0/standards/optimade)  
+* **[Structures](../entrytypes/optimade/structures)** (entrytype) - [`https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures`](https://schemas.optimade.org/sets/v1.2.0/standards/optimade)  
   The structures entry type describes a crystal structure via its unit cell
 
     **Requirements/Conventions:**  
@@ -19,7 +19,7 @@ This standard defines the following entrytypes:
     - **Support:** MUST be implemented.  
 
 
-* **[files](../entrytypes/optimade/files)** (entrytype) - [`https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/files`](https://schemas.optimade.org/sets/v1.2.0/standards/optimade)  
+* **[Files](../entrytypes/optimade/files)** (entrytype) - [`https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/files`](https://schemas.optimade.org/sets/v1.2.0/standards/optimade)  
   The files entry type describes a file with metadata and an URL to retrive it
 
     **Requirements/Conventions:**  
@@ -1889,7 +1889,7 @@ This standard defines the following entrytypes:
                         "query-support": "none",
                         "response-level": "must"
                     },
-                    "$id": "https://schemas.optimade.org/properties/v1.2.0/optimade/file/url",
+                    "$id": "https://schemas.optimade.org/properties/v1.2.0/optimade/files/url",
                     "title": "URL",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
@@ -1914,7 +1914,7 @@ This standard defines the following entrytypes:
                         "query-support": "none",
                         "response-level": "may"
                     },
-                    "$id": "https://schemas.optimade.org/properties/v1.2.0/optimade/file/url_stable_until",
+                    "$id": "https://schemas.optimade.org/properties/v1.2.0/optimade/files/url_stable_until",
                     "title": "URL stable until",
                     "x-optimade-type": "timestamp",
                     "x-optimade-definition": {
