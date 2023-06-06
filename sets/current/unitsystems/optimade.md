@@ -13,175 +13,175 @@ This unit set combines all units associated with SI in the 2019 redefinition of 
 
 This unitsystem defines the following units:
 
-* **[bit](../../../units/v1.2.0/independent/1948/information/bit)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/independent/1948/information/bit`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[bit](../../../units/v1.2.0/independent/1948/information/bit)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/independent/1948/information/bit`](https://schemas.optimade.org/units/v1.2.0/independent/1948/information/bit)  
   A basic unit of digital information representing a single logical state with one of two possible values, defined by Shannon in 1948.
-* **[byte](../../../units/v1.2.0/iso-iec-80000/2008/information_science_and_technology/byte)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/iso-iec-80000/2008/information_science_and_technology/byte`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[byte](../../../units/v1.2.0/iso-iec-80000/2008/information_science_and_technology/byte)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/iso-iec-80000/2008/information_science_and_technology/byte`](https://schemas.optimade.org/units/v1.2.0/iso-iec-80000/2008/information_science_and_technology/byte)  
   A unit of digital information representing eight bits, defined in the International System of Quantities in ISO/IEC 80000-13 (2008).
-* **[ampere (A)](../../../units/v1.2.0/si/general/ampere)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/ampere`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[ampere (A)](../../../units/v1.2.0/si/general/ampere)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/ampere`](https://schemas.optimade.org/units/v1.2.0/si/general/ampere)  
   A unit of electric current defined according to the current, or one of the historical, definitions of the SI units.
-* **[ångström (angstrom)](../../../units/v1.2.0/si/general/angstrom)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/angstrom`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[ångström (angstrom)](../../../units/v1.2.0/si/general/angstrom)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/angstrom`](https://schemas.optimade.org/units/v1.2.0/si/general/angstrom)  
   A unit of length equal to 10⁻¹⁰ meter, using the current, or one of the historical, definitions of the SI units.
-* **[arcminute (arcmin)](../../../units/v1.2.0/si/general/arcminute)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/arcminute`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[arcminute (arcmin)](../../../units/v1.2.0/si/general/arcminute)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/arcminute`](https://schemas.optimade.org/units/v1.2.0/si/general/arcminute)  
   A unit of plane and phase angle equal to 1/60 of a degree representing 1/21600 of a circle, equal to π/10800 rad, using the current, or one of the historical, definitions of the SI units.
-* **[arcsecond (arcsec)](../../../units/v1.2.0/si/general/arcsecond)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/arcsecond`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[arcsecond (arcsec)](../../../units/v1.2.0/si/general/arcsecond)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/arcsecond`](https://schemas.optimade.org/units/v1.2.0/si/general/arcsecond)  
   A unit of plane and phase angle equal to 1/60 of an arcminute representing 1/1296000 of a circle, equal to π/648000 rad, using the current, or one of the historical, definitions of the SI units.
-* **[are](../../../units/v1.2.0/si/general/are)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/are`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[are](../../../units/v1.2.0/si/general/are)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/are`](https://schemas.optimade.org/units/v1.2.0/si/general/are)  
   A unit of area equal to 100 square meters (10² m²) using the current, or one of the historical, definitions of the SI units.
-* **[astronomical unit (au)](../../../units/v1.2.0/si/general/astronomicalunit)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/astronomicalunit`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[astronomical unit (au)](../../../units/v1.2.0/si/general/astronomicalunit)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/astronomicalunit`](https://schemas.optimade.org/units/v1.2.0/si/general/astronomicalunit)  
   A unit of length representing the mean distance between the Earth and the Sun, using the current, or one of the historical, definitions given in the editions of The International System of Units (SI).
-* **[standard atmosphere (atm)](../../../units/v1.2.0/si/general/atmosphere)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/atmosphere`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[standard atmosphere (atm)](../../../units/v1.2.0/si/general/atmosphere)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/atmosphere`](https://schemas.optimade.org/units/v1.2.0/si/general/atmosphere)  
   A unit for pressure approximately equal to the average atmospheric pressure at sea level on Earth using the current, or one of the historical, definitions of the SI units.
-* **[atomic mass unit (u)](../../../units/v1.2.0/si/general/atomicmassunit)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/atomicmassunit`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[atomic mass unit (u)](../../../units/v1.2.0/si/general/atomicmassunit)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/atomicmassunit`](https://schemas.optimade.org/units/v1.2.0/si/general/atomicmassunit)  
   A unit of mass representing 1/12 of the mass of a free carbon 12 atom (i.e., a typical value of the mass of a nucleon in an atom) using the current, or one of the historical, definitions given in the editions of The International System of Units (SI).
-* **[barn (b)](../../../units/v1.2.0/si/general/barn)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/barn`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[barn (b)](../../../units/v1.2.0/si/general/barn)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/barn`](https://schemas.optimade.org/units/v1.2.0/si/general/barn)  
   A unit of area used in nuclear physics to express cross sections equal to 100 fm² using the current, or one of the historical, definitions of the SI units.
-* **[bar](../../../units/v1.2.0/si/general/bar)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/bar`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[bar](../../../units/v1.2.0/si/general/bar)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/bar`](https://schemas.optimade.org/units/v1.2.0/si/general/bar)  
   A unit of pressure equal to 10⁵ N/m using the current, or one of the historical, definitions of the SI units.
-* **[becquerel (Bq)](../../../units/v1.2.0/si/general/becquerel)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/becquerel`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[becquerel (Bq)](../../../units/v1.2.0/si/general/becquerel)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/becquerel`](https://schemas.optimade.org/units/v1.2.0/si/general/becquerel)  
   A unit for radioactivity, defined as s⁻¹ using the current, or one of the historical, definitions of the SI units.
-* **[candela (cd)](../../../units/v1.2.0/si/general/candela)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/candela`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[candela (cd)](../../../units/v1.2.0/si/general/candela)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/candela`](https://schemas.optimade.org/units/v1.2.0/si/general/candela)  
   A unit of luminous intensity in a given direction defined according to the current, or one of the historical, definitions of the SI units.
-* **[coulomb (C)](../../../units/v1.2.0/si/general/coulomb)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/coulomb`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[coulomb (C)](../../../units/v1.2.0/si/general/coulomb)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/coulomb`](https://schemas.optimade.org/units/v1.2.0/si/general/coulomb)  
   A unit for electric charge equal to s·A using the current, or one of the historical, definitions of the SI units.
-* **[curie (Ci)](../../../units/v1.2.0/si/general/curie)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/curie`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[curie (Ci)](../../../units/v1.2.0/si/general/curie)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/curie`](https://schemas.optimade.org/units/v1.2.0/si/general/curie)  
   A unit of activity with the value 3.7·10⁻¹⁰ s⁻¹ using the current, or one of the historical, definitions of the SI units.
-* **[dalton (da)](../../../units/v1.2.0/si/general/dalton)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/dalton`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[dalton (da)](../../../units/v1.2.0/si/general/dalton)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/dalton`](https://schemas.optimade.org/units/v1.2.0/si/general/dalton)  
   A unit of mass intended to represent a typical mass of a nucleon in an atom using the current, or one of the historical, definitions given in the editions of The International System of Units (SI).
-* **[day](../../../units/v1.2.0/si/general/day)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/day`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[day](../../../units/v1.2.0/si/general/day)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/day`](https://schemas.optimade.org/units/v1.2.0/si/general/day)  
   A unit of time equal to 86 400 seconds using the current, or one of the historical, definitions of the SI units.
-* **[Degree Celsius (degC)](../../../units/v1.2.0/si/general/degcelsius)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/degcelsius`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[Degree Celsius (degC)](../../../units/v1.2.0/si/general/degcelsius)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/degcelsius`](https://schemas.optimade.org/units/v1.2.0/si/general/degcelsius)  
   A unit of temperature, defined as kelvin offset with +273.15 using the current, or one of the historical, definitions of the SI units.
-* **[degree (deg)](../../../units/v1.2.0/si/general/degree)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/degree`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[degree (deg)](../../../units/v1.2.0/si/general/degree)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/degree`](https://schemas.optimade.org/units/v1.2.0/si/general/degree)  
   A unit of plane and phase angle representing 1/360 of a full circle, equal to π/180 rad using the current, or one of the historical, definitions of the SI units.
-* **[electron volt (eV)](../../../units/v1.2.0/si/general/electronvolt)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/electronvolt`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[electron volt (eV)](../../../units/v1.2.0/si/general/electronvolt)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/electronvolt`](https://schemas.optimade.org/units/v1.2.0/si/general/electronvolt)  
   A unit of energy that representing the kinetic energy acquired by an electron as it accelerates through a 1 volt potential difference in a vacuum using the current, or one of the historical, definitions given in the editions of The International System of Units (SI).
-* **[farad (F)](../../../units/v1.2.0/si/general/farad)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/farad`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[farad (F)](../../../units/v1.2.0/si/general/farad)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/farad`](https://schemas.optimade.org/units/v1.2.0/si/general/farad)  
   A unit for electrical capacitance equal to kg⁻¹·m⁻²·s⁴·A² using the current, or one of the historical, definitions of the SI units.
-* **[gal](../../../units/v1.2.0/si/general/gal)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/gal`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[gal](../../../units/v1.2.0/si/general/gal)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/gal`](https://schemas.optimade.org/units/v1.2.0/si/general/gal)  
   A unit of acceleration equal to 1 centimeter per second squared (1 cm/s²), using the current, or one of the historical, definitions of the SI units.
-* **[gray (Gy)](../../../units/v1.2.0/si/general/gray)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/gray`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[gray (Gy)](../../../units/v1.2.0/si/general/gray)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/gray`](https://schemas.optimade.org/units/v1.2.0/si/general/gray)  
   A unit for absorbed dose of ionizing radiation equal to m²·s⁻² using the current, or one of the historical, definitions of the SI units.
-* **[hectare (ha)](../../../units/v1.2.0/si/general/hectare)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/hectare`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[hectare (ha)](../../../units/v1.2.0/si/general/hectare)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/hectare`](https://schemas.optimade.org/units/v1.2.0/si/general/hectare)  
   A unit of area equal to 1000 square meters (1 hm²), using the current, or one of the historical, definitions of the SI units.
-* **[henry (H)](../../../units/v1.2.0/si/general/henry)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/henry`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[henry (H)](../../../units/v1.2.0/si/general/henry)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/henry`](https://schemas.optimade.org/units/v1.2.0/si/general/henry)  
   A unit for inductance equal to kg·m²·s⁻²·A⁻² using the current, or one of the historical, definitions of the SI units.
-* **[hertz (Hz)](../../../units/v1.2.0/si/general/hertz)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/hertz`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[hertz (Hz)](../../../units/v1.2.0/si/general/hertz)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/hertz`](https://schemas.optimade.org/units/v1.2.0/si/general/hertz)  
   A unit for frequency equal to s⁻¹ using the current, or one of the historical, definitions of the SI units.
-* **[hour (h)](../../../units/v1.2.0/si/general/hour)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/hour`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[hour (h)](../../../units/v1.2.0/si/general/hour)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/hour`](https://schemas.optimade.org/units/v1.2.0/si/general/hour)  
   A unit of time equal to 60 minutes, or 3600 seconds, using the current, or one of the historical, definitions of the SI units.
-* **[joule (J)](../../../units/v1.2.0/si/general/joule)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/joule`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[joule (J)](../../../units/v1.2.0/si/general/joule)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/joule`](https://schemas.optimade.org/units/v1.2.0/si/general/joule)  
   A derived SI unit for energy, work, and heat equal to kg·m²·s⁻² using the current, or one of the historical, definitions of the SI units.
-* **[katal (kat)](../../../units/v1.2.0/si/general/katal)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/katal`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[katal (kat)](../../../units/v1.2.0/si/general/katal)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/katal`](https://schemas.optimade.org/units/v1.2.0/si/general/katal)  
   A derived SI unit for catalytic activity, defined as mol·s⁻¹ using the current, or one of the historical, definitions of the SI units.
-* **[kelvin (K)](../../../units/v1.2.0/si/general/kelvin)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/kelvin`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[kelvin (K)](../../../units/v1.2.0/si/general/kelvin)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/kelvin`](https://schemas.optimade.org/units/v1.2.0/si/general/kelvin)  
   A unit of thermodynamic temperature using the current, or one of the historical, definitions of the SI units.
-* **[kilogram (kg)](../../../units/v1.2.0/si/general/kilogram)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/kilogram`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[kilogram (kg)](../../../units/v1.2.0/si/general/kilogram)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/kilogram`](https://schemas.optimade.org/units/v1.2.0/si/general/kilogram)  
   A unit of mass using the current, or one of the historical, definitions of the SI units.
-* **[knot](../../../units/v1.2.0/si/general/knot)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/knot`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[knot](../../../units/v1.2.0/si/general/knot)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/knot`](https://schemas.optimade.org/units/v1.2.0/si/general/knot)  
   A unit of speed primarily used in navigation defined as 1 nautical mile per hour which is equal to (1852/3600) m/s using the current, or one of the historical, definitions of the SI units.
-* **[litre (l)](../../../units/v1.2.0/si/general/litre)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/litre`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[litre (l)](../../../units/v1.2.0/si/general/litre)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/litre`](https://schemas.optimade.org/units/v1.2.0/si/general/litre)  
   The litre, or liter is a unit of volume equal to a cubic decimetre (1 dm³) using the current, or one of the historical, definitions of the SI units.
-* **[lumen (lm)](../../../units/v1.2.0/si/general/lumen)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/lumen`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[lumen (lm)](../../../units/v1.2.0/si/general/lumen)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/lumen`](https://schemas.optimade.org/units/v1.2.0/si/general/lumen)  
   A derived SI unit for luminous flux equal to cd·sr using the current, or one of the historical, definitions of the SI units.
-* **[lux (lx)](../../../units/v1.2.0/si/general/lux)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/lux`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[lux (lx)](../../../units/v1.2.0/si/general/lux)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/lux`](https://schemas.optimade.org/units/v1.2.0/si/general/lux)  
   A derived SI unit for illuminance equal to cd⋅sr⋅m⁻² using the current, or one of the historical, definitions of the SI units.
-* **[metre (m)](../../../units/v1.2.0/si/general/metre)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/metre`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[metre (m)](../../../units/v1.2.0/si/general/metre)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/metre`](https://schemas.optimade.org/units/v1.2.0/si/general/metre)  
   The metre, or meter, is a unit of length using the current, or one of the historical, definitions of the SI units.
-* **[minute (min)](../../../units/v1.2.0/si/general/minute)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/minute`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[minute (min)](../../../units/v1.2.0/si/general/minute)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/minute`](https://schemas.optimade.org/units/v1.2.0/si/general/minute)  
   A unit of time that is equal to 60 seconds, using the current, or one of the historical, definitions of the SI units.
-* **[mole (mol)](../../../units/v1.2.0/si/general/mole)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/mole`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[mole (mol)](../../../units/v1.2.0/si/general/mole)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/mole`](https://schemas.optimade.org/units/v1.2.0/si/general/mole)  
   A unit of amount of substance using the current, or one of the historical, definitions of the SI units.
-* **[nautical mile (nauticalmile)](../../../units/v1.2.0/si/general/nauticalmile)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/nauticalmile`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[nautical mile (nauticalmile)](../../../units/v1.2.0/si/general/nauticalmile)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/nauticalmile`](https://schemas.optimade.org/units/v1.2.0/si/general/nauticalmile)  
   A unit of length primarily used in navigation defined as 1852 m using the current, or one of the historical, definitions of the SI units.
-* **[newton (N)](../../../units/v1.2.0/si/general/newton)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/newton`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[newton (N)](../../../units/v1.2.0/si/general/newton)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/newton`](https://schemas.optimade.org/units/v1.2.0/si/general/newton)  
   A unit for force and weight equal to kg·m·s⁻² using the current, or one of the historical, definitions of the SI units.
-* **[ohm](../../../units/v1.2.0/si/general/ohm)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/ohm`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[ohm](../../../units/v1.2.0/si/general/ohm)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/ohm`](https://schemas.optimade.org/units/v1.2.0/si/general/ohm)  
   A unit for electrical resistance equal to kg·m²·s⁻³·A⁻² using the current, or one of the historical, definitions of the SI units.
-* **[parsec (pc)](../../../units/v1.2.0/si/general/parsec)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/parsec`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[parsec (pc)](../../../units/v1.2.0/si/general/parsec)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/parsec`](https://schemas.optimade.org/units/v1.2.0/si/general/parsec)  
   A unit of length representing the distance at which 1 astronomical unit subtends an angle of 1 arcsecond using the current, or one of the historical, definitions of the SI units.
-* **[pascal (Pa)](../../../units/v1.2.0/si/general/pascal)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/pascal`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[pascal (Pa)](../../../units/v1.2.0/si/general/pascal)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/pascal`](https://schemas.optimade.org/units/v1.2.0/si/general/pascal)  
   A unit for pressure and stress equal to kg·m⁻¹·s⁻² using the current, or one of the historical, definitions of the SI units.
-* **[radian (rad)](../../../units/v1.2.0/si/general/radian)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/radian`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[radian (rad)](../../../units/v1.2.0/si/general/radian)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/radian`](https://schemas.optimade.org/units/v1.2.0/si/general/radian)  
   A unit of plane angle representing the relation of the arc length on a circle intercepted at a given radius so that the full circle has an angle of 4π radians using the current, or one of the historical, definitions of the SI units.
-* **[radiation unit (radiationunit)](../../../units/v1.2.0/si/general/radiationunit)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/radiationunit`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[radiation unit (radiationunit)](../../../units/v1.2.0/si/general/radiationunit)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/radiationunit`](https://schemas.optimade.org/units/v1.2.0/si/general/radiationunit)  
   A unit used to express the absorbed dose of ionizing radiation defined as 10⁻² J/kg using the current, or one of the historical, definitions of the SI units.
-* **[Roentgen equivalent man (rem)](../../../units/v1.2.0/si/general/rem)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/rem`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[Roentgen equivalent man (rem)](../../../units/v1.2.0/si/general/rem)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/rem`](https://schemas.optimade.org/units/v1.2.0/si/general/rem)  
   The "roentgen equivalent man" (rem) is a unit used in radioprotection meant to represent a dose of any ionizing radiation comparable in effect to one roentgen of high-voltage x-radiation, taken to be equal to 10⁻² Sv using the current, or one of the historical, definitions of the SI units.
-* **[roentgen (R)](../../../units/v1.2.0/si/general/roentgen)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/roentgen`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[roentgen (R)](../../../units/v1.2.0/si/general/roentgen)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/roentgen`](https://schemas.optimade.org/units/v1.2.0/si/general/roentgen)  
   A unit used to express the exposure of ionizing radiation defined as 2.58 x 10⁻⁴ C/kg using the current, or one of the historical, definitions of the SI units.
-* **[second (s)](../../../units/v1.2.0/si/general/second)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/second`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[second (s)](../../../units/v1.2.0/si/general/second)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/second`](https://schemas.optimade.org/units/v1.2.0/si/general/second)  
   A unit of time using the current, or one of the historical, definitions of the SI units.
-* **[siemens (S)](../../../units/v1.2.0/si/general/siemens)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/siemens`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[siemens (S)](../../../units/v1.2.0/si/general/siemens)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/siemens`](https://schemas.optimade.org/units/v1.2.0/si/general/siemens)  
   A unit for electrical conductance equal to kg⁻¹·m⁻²·s³·A² using the current, or one of the historical, definitions of the SI units.
-* **[sievert (Sv)](../../../units/v1.2.0/si/general/sievert)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/sievert`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[sievert (Sv)](../../../units/v1.2.0/si/general/sievert)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/sievert`](https://schemas.optimade.org/units/v1.2.0/si/general/sievert)  
   A unit for equivalent dose of ionizing radiation equal to m²·s⁻² using the current, or one of the historical, definitions of the SI units.
-* **[steradian (sr)](../../../units/v1.2.0/si/general/steradian)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/steradian`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[steradian (sr)](../../../units/v1.2.0/si/general/steradian)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/steradian`](https://schemas.optimade.org/units/v1.2.0/si/general/steradian)  
   A unit of solid angle representing the relation of the area cut out on a sphere at a given radius so that the entire sphere has a solid angle of 4π steradians using the current, or one of the historical, definitions of the SI units.
-* **[tesla (T)](../../../units/v1.2.0/si/general/tesla)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/tesla`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[tesla (T)](../../../units/v1.2.0/si/general/tesla)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/tesla`](https://schemas.optimade.org/units/v1.2.0/si/general/tesla)  
   A unit for magnetic flux density equal to kg·s⁻²·A⁻¹ using the current, or one of the historical, definitions of the SI units.
-* **[tonne (t)](../../../units/v1.2.0/si/general/tonne)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/tonne`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[tonne (t)](../../../units/v1.2.0/si/general/tonne)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/tonne`](https://schemas.optimade.org/units/v1.2.0/si/general/tonne)  
   A unit of mass equal to 1000 kg using the current, or one of the historical, definitions of the SI units.
-* **[volt (V)](../../../units/v1.2.0/si/general/volt)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/volt`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[volt (V)](../../../units/v1.2.0/si/general/volt)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/volt`](https://schemas.optimade.org/units/v1.2.0/si/general/volt)  
   A unit for electric potential, voltage, and electromotive force equal to kg·m²·s⁻³·A⁻¹ using the current, or one of the historical, definitions of the SI units.
-* **[watt (W)](../../../units/v1.2.0/si/general/watt)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/watt`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[watt (W)](../../../units/v1.2.0/si/general/watt)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/watt`](https://schemas.optimade.org/units/v1.2.0/si/general/watt)  
   A unit for power and radiant flux equal to kg·m²·s⁻³ using the current, or one of the historical, definitions of the SI units.
-* **[weber (Wb)](../../../units/v1.2.0/si/general/weber)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/weber`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[weber (Wb)](../../../units/v1.2.0/si/general/weber)** (unit) - [`https://schemas.optimade.org/units/v1.2.0/si/general/weber`](https://schemas.optimade.org/units/v1.2.0/si/general/weber)  
   A unit for magnetic flux equal to kg·m²·s⁻³·A⁻¹ using the current, or one of the historical, definitions of the SI units.
 
 This unitsystem defines the following prefixes:
 
-* **[yotta (Y)](../../../units/v1.2.0/si/prefixes/yotta)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/yotta`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[yotta (Y)](../../../units/v1.2.0/si/prefixes/yotta)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/yotta`](https://schemas.optimade.org/units/v1.2.0/si/prefixes/yotta)  
   The yotta SI prefix defined as a dimensionless multiple of 10²⁴, defined at the 19:th CGPM Meeting in 1991, resolution 4.
-* **[zetta (Z)](../../../units/v1.2.0/si/prefixes/zetta)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/zetta`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[zetta (Z)](../../../units/v1.2.0/si/prefixes/zetta)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/zetta`](https://schemas.optimade.org/units/v1.2.0/si/prefixes/zetta)  
   The zetta SI prefix defined as a dimensionless multiple of 10²¹, defined at the 19:th CGPM Meeting in 1991, resolution 4.
-* **[exa (E)](../../../units/v1.2.0/si/prefixes/exa)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/exa`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[exa (E)](../../../units/v1.2.0/si/prefixes/exa)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/exa`](https://schemas.optimade.org/units/v1.2.0/si/prefixes/exa)  
   The exa SI prefix defined as a dimensionless multiple of 10¹⁸, defined at the 15th CGPM Meeting in 1975, resolution 10.
-* **[peta (P)](../../../units/v1.2.0/si/prefixes/peta)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/peta`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[peta (P)](../../../units/v1.2.0/si/prefixes/peta)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/peta`](https://schemas.optimade.org/units/v1.2.0/si/prefixes/peta)  
   The peta SI prefix defined as a dimensionless multiple of 10¹⁵, defined at the 15th CGPM Meeting in 1975, resolution 10.
-* **[tera (T)](../../../units/v1.2.0/si/prefixes/tera)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/tera`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[tera (T)](../../../units/v1.2.0/si/prefixes/tera)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/tera`](https://schemas.optimade.org/units/v1.2.0/si/prefixes/tera)  
   The tera SI prefix defined as a dimensionless multiple of 10¹², adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.
-* **[giga (G)](../../../units/v1.2.0/si/prefixes/giga)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/giga`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[giga (G)](../../../units/v1.2.0/si/prefixes/giga)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/giga`](https://schemas.optimade.org/units/v1.2.0/si/prefixes/giga)  
   The giga SI prefix defined as a dimensionless multiple of 10⁹, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.
-* **[mega (M)](../../../units/v1.2.0/si/prefixes/mega)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/mega`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[mega (M)](../../../units/v1.2.0/si/prefixes/mega)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/mega`](https://schemas.optimade.org/units/v1.2.0/si/prefixes/mega)  
   The mega SI prefix defined as a dimensionless multiple of 10⁶, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.
-* **[kilo (k)](../../../units/v1.2.0/si/prefixes/kilo)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/kilo`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[kilo (k)](../../../units/v1.2.0/si/prefixes/kilo)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/kilo`](https://schemas.optimade.org/units/v1.2.0/si/prefixes/kilo)  
   The kilo SI prefix defined as a dimensionless multiple of 10³, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.
-* **[hecto (h)](../../../units/v1.2.0/si/prefixes/hecto)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/hecto`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[hecto (h)](../../../units/v1.2.0/si/prefixes/hecto)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/hecto`](https://schemas.optimade.org/units/v1.2.0/si/prefixes/hecto)  
   The hecto SI prefix defined as a dimensionless multiple of 10², adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.
-* **[deca (da)](../../../units/v1.2.0/si/prefixes/deca)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/deca`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[deca (da)](../../../units/v1.2.0/si/prefixes/deca)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/deca`](https://schemas.optimade.org/units/v1.2.0/si/prefixes/deca)  
   The deca SI prefix defined as a dimensionless multiple of 10, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.
-* **[deci (d)](../../../units/v1.2.0/si/prefixes/deci)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/deci`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[deci (d)](../../../units/v1.2.0/si/prefixes/deci)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/deci`](https://schemas.optimade.org/units/v1.2.0/si/prefixes/deci)  
   The deci SI prefix defined as a dimensionless multiple of 10⁻¹, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.
-* **[centi (c)](../../../units/v1.2.0/si/prefixes/centi)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/centi`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[centi (c)](../../../units/v1.2.0/si/prefixes/centi)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/centi`](https://schemas.optimade.org/units/v1.2.0/si/prefixes/centi)  
   The centi SI prefix defined as a dimensionless multiple of 10⁻², adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.
-* **[milli (m)](../../../units/v1.2.0/si/prefixes/milli)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/milli`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[milli (m)](../../../units/v1.2.0/si/prefixes/milli)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/milli`](https://schemas.optimade.org/units/v1.2.0/si/prefixes/milli)  
   The milli SI prefix defined as a dimensionless multiple of 10⁻³, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.
-* **[micro (mc)](../../../units/v1.2.0/si/prefixes/micro)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/micro`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[micro (mc)](../../../units/v1.2.0/si/prefixes/micro)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/micro`](https://schemas.optimade.org/units/v1.2.0/si/prefixes/micro)  
   The micro SI prefix defined as a dimensionless multiple of 10⁻⁶, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.
-* **[nano (n)](../../../units/v1.2.0/si/prefixes/nano)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/nano`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[nano (n)](../../../units/v1.2.0/si/prefixes/nano)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/nano`](https://schemas.optimade.org/units/v1.2.0/si/prefixes/nano)  
   The nano SI prefix defined as a dimensionless multiple of 10⁻⁹, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.
-* **[pico (p)](../../../units/v1.2.0/si/prefixes/pico)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/pico`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[pico (p)](../../../units/v1.2.0/si/prefixes/pico)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/pico`](https://schemas.optimade.org/units/v1.2.0/si/prefixes/pico)  
   The pico SI prefix defined as a dimensionless multiple of 10⁻¹², adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.
-* **[femto (f)](../../../units/v1.2.0/si/prefixes/femto)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/femto`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[femto (f)](../../../units/v1.2.0/si/prefixes/femto)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/femto`](https://schemas.optimade.org/units/v1.2.0/si/prefixes/femto)  
   The femto SI prefix defined as a dimensionless multiple of 10⁻¹⁵, defined at the 12:th CGPM Meeting in 1964, resolution 8.
-* **[atto (a)](../../../units/v1.2.0/si/prefixes/atto)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/atto`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[atto (a)](../../../units/v1.2.0/si/prefixes/atto)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/atto`](https://schemas.optimade.org/units/v1.2.0/si/prefixes/atto)  
   The atto SI prefix defined as a dimensionless multiple of 10⁻¹⁸, defined at the 12:th CGPM Meeting in 1964, resolution 8.
-* **[zepto (z)](../../../units/v1.2.0/si/prefixes/zepto)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/zepto`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[zepto (z)](../../../units/v1.2.0/si/prefixes/zepto)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/zepto`](https://schemas.optimade.org/units/v1.2.0/si/prefixes/zepto)  
   The zepto SI prefix defined as a dimensionless multiple of 10⁻²¹, defined at the 19:th CGPM Meeting in 1991, resolution 4.
-* **[yocto (y)](../../../units/v1.2.0/si/prefixes/yocto)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/yocto`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[yocto (y)](../../../units/v1.2.0/si/prefixes/yocto)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/yocto`](https://schemas.optimade.org/units/v1.2.0/si/prefixes/yocto)  
   The yocto SI prefix defined as a dimensionless multiple of 10⁻²⁴, defined at the 19:th CGPM Meeting in 1991, resolution 4.
-* **[quetta (Q)](../../../units/v1.2.0/si/prefixes/quetta)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/quetta`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[quetta (Q)](../../../units/v1.2.0/si/prefixes/quetta)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/quetta`](https://schemas.optimade.org/units/v1.2.0/si/prefixes/quetta)  
   The quetta SI prefix defined as a dimensionless multiple of 10³⁰, defined at the 27:th CGPM Meeting in 2022, resolution 3.
-* **[ronna (R)](../../../units/v1.2.0/si/prefixes/ronna)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/ronna`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[ronna (R)](../../../units/v1.2.0/si/prefixes/ronna)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/ronna`](https://schemas.optimade.org/units/v1.2.0/si/prefixes/ronna)  
   The ronna SI prefix defined as a dimensionless multiple of 10²⁷, defined at the 27:th CGPM Meeting in 2022, resolution 3.
-* **[ronto (r)](../../../units/v1.2.0/si/prefixes/ronto)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/ronto`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[ronto (r)](../../../units/v1.2.0/si/prefixes/ronto)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/ronto`](https://schemas.optimade.org/units/v1.2.0/si/prefixes/ronto)  
   The ronto SI prefix defined as a dimensionless multiple of 10^⁻²⁷, defined at the 27:th CGPM Meeting in 2022, resolution 3.
-* **[quecto (q)](../../../units/v1.2.0/si/prefixes/quecto)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/quecto`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[quecto (q)](../../../units/v1.2.0/si/prefixes/quecto)** (prefix) - [`https://schemas.optimade.org/units/v1.2.0/si/prefixes/quecto`](https://schemas.optimade.org/units/v1.2.0/si/prefixes/quecto)  
   The quecto SI prefix defined as a dimensionless multiple of 10⁻³⁰, defined at the 27:th CGPM Meeting in 2022, resolution 3.
 
 This unitsystem defines the following constants:
 
-* **[pi](../../../constants/v1.2.0/math/pi)** (constant) - [`https://schemas.optimade.org/constants/v1.2.0/math/pi`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade)  
+* **[pi](../../../constants/v1.2.0/math/pi)** (constant) - [`https://schemas.optimade.org/constants/v1.2.0/math/pi`](https://schemas.optimade.org/constants/v1.2.0/math/pi)  
   The ratio of a circle's circumference to its diameter. Approximately equal to 3.1415926.
 
 **JSON definition:**

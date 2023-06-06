@@ -11,7 +11,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Standard Definitio
 
 This standard defines the following entrytypes:
 
-* **[Structures](../entrytypes/optimade/structures)** (entrytype) - [`https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures`](https://schemas.optimade.org/sets/v1.2.0/standards/optimade)  
+* **[Structures](../entrytypes/optimade/structures)** (entrytype) - [`https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/structures)  
   The structures entry type describes a crystal structure via its unit cell
 
     **Requirements/Conventions:**  
@@ -19,7 +19,7 @@ This standard defines the following entrytypes:
     - **Support:** MUST be implemented.  
 
 
-* **[Files](../entrytypes/optimade/files)** (entrytype) - [`https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/files`](https://schemas.optimade.org/sets/v1.2.0/standards/optimade)  
+* **[Files](../entrytypes/optimade/files)** (entrytype) - [`https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/files`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/files)  
   The files entry type describes a file with metadata and an URL to retrive it
 
     **Requirements/Conventions:**  
@@ -27,7 +27,7 @@ This standard defines the following entrytypes:
     - **Support:** OPTIONAL.  
 
 
-* **[References](../entrytypes/optimade/references)** (entrytype) - [`https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/references`](https://schemas.optimade.org/sets/v1.2.0/standards/optimade)  
+* **[References](../entrytypes/optimade/references)** (entrytype) - [`https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/references`](https://schemas.optimade.org/sets/v1.2.0/entrytypes/optimade/references)  
   The references entry type describes a reference
 
     **Requirements/Conventions:**  
