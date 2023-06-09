@@ -1,7 +1,7 @@
 {
     "$id": "https://schemas.optimade.org/sets/v1.2.0/unitsystems/si_1985",
     "title": "SI 1985",
-    "description": "The SI unit system as represented in the 5th edition of The International System of Units.\n\nThe International System of Units (SI) is established and maintained by the General Conference on Weights and Measures (CGPM).\nThis represents the SI unit system described in the 5th edition of The International System of Units in 1991.",
+    "description": "The SI unit system as represented in the 5th edition of The International System of Units.\n\nThe International System of Units (SI) is established and maintained by the General Conference on Weights and Measures (CGPM).\nThis represents the SI unit system described in the 5th edition of The International System of Units in 1995.",
     "x-optimade-definition": {
         "kind": "unitsystem",
         "format": "1.2",

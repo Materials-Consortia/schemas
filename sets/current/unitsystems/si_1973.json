@@ -1,12 +1,12 @@
 {
-    "$id": "https://schemas.optimade.org/sets/v1.2.0/unitsystems/si_1970",
+    "$id": "https://schemas.optimade.org/sets/v1.2.0/unitsystems/si_1973",
     "title": "SI 1973",
-    "description": "The SI unit system as represented in the 1st edition of The International System of Units.\n\nThe International System of Units (SI) is established and maintained by the General Conference on Weights and Measures (CGPM).\nThis represents the SI unit system described in the 1st edition of The International System of Units in 1970.",
+    "description": "The SI unit system as represented in the 3rd edition of The International System of Units.\n\nThe International System of Units (SI) is established and maintained by the General Conference on Weights and Measures (CGPM).\nThis represents the SI unit system described in the 3rd edition of The International System of Units in 1973.",
     "x-optimade-definition": {
         "kind": "unitsystem",
         "format": "1.2",
         "version": "1.2.0",
-        "name": "si_1970"
+        "name": "si_1973"
     },
     "units": {
         "s": {
@@ -182,6 +182,33 @@
                 "name": "candela"
             }
         },
+        "mol": {
+            "$id": "https://schemas.optimade.org/units/v1.2.0/si/1971/base/mole",
+            "title": "mole",
+            "symbol": "mol",
+            "display-symbol": "mol",
+            "description": "The SI base unit of amount of substance defined via the number of atoms in 12 grams of carbon 12 at the 14th CGPM Meeting in 1971 and clarified at the 69th CIPM meeting in 1980.\n\n\"1. The mole is the amount of substance of a system which contains as many elementary entities as there are atoms in 0.012 kilogram of carbon 12. 2. When the mole is used, the elementary entities must be specified and may be atoms, molecules, ions, electrons, other particles, or specified groups of such particles.\" [14th CGPM Meeting (1971), resolution 3].\n\nThe 69th CIPM meeting in 1980 approved to append a clarification to the above definition: \"In this definition, it is understood that unbound atoms of carbon 12, at rest and in their ground state, are referred to.\"",
+            "resources": [
+                {
+                    "relation": "Definition in the 14th CGPM Meeting in 1971, resolution 3",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/14-1971/resolution-3"
+                },
+                {
+                    "relation": "Clarification in the 96th meeting of the CIPM",
+                    "resource-id": "https://www.bipm.org/en/committees/ci/cipm/69-1980"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Mole_(unit)"
+                }
+            ],
+            "x-optimade-definition": {
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "mole"
+            }
+        },
         "rad": {
             "$id": "https://schemas.optimade.org/units/v1.2.0/si/1960/supplementary/radian",
             "title": "radian",
@@ -348,6 +375,51 @@
                 "format": "1.2",
                 "version": "1.2.0",
                 "name": "newton"
+            }
+        },
+        "Pa": {
+            "$id": "https://schemas.optimade.org/units/v1.2.0/si/1971/named/pascal",
+            "title": "pascal",
+            "symbol": "Pa",
+            "display-symbol": "Pa",
+            "description": "A derived SI unit for pressure and stress equal to kg\u00b7m\u207b\u00b9\u00b7s\u207b\u00b2 using the 1967 SI base units, defined at the 14th CGPM Meeting (1971).\n\n\"The International Committee will ask the General Conference to approve two special names: pascal (symbol Pa) for the SI unit of pressure (N/m\u00b2), [...]\" [14th CGPM Meeting (1971)].",
+            "standard": {
+                "name": "gnu units",
+                "version": "3.15",
+                "symbol": "pascal"
+            },
+            "resources": [
+                {
+                    "relation": "Definition at the 14th CGPM Meeting (1971)",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/14-1971"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Pascal_(unit)"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [
+                    {
+                        "symbol": "kg",
+                        "id": "https://schemas.optimade.org/units/v1.2.0/si/1960/base/kilogram"
+                    },
+                    {
+                        "symbol": "m",
+                        "id": "https://schemas.optimade.org/units/v1.2.0/si/1960/base/metre"
+                    },
+                    {
+                        "symbol": "s",
+                        "id": "https://schemas.optimade.org/units/v1.2.0/si/1967/base/second"
+                    }
+                ],
+                "base-units-expression": "kg*m^-1*s^-2"
+            },
+            "x-optimade-definition": {
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "pascal"
             }
         },
         "J": {
@@ -665,6 +737,55 @@
                 "format": "1.2",
                 "version": "1.2.0",
                 "name": "ohm"
+            }
+        },
+        "S": {
+            "$id": "https://schemas.optimade.org/units/v1.2.0/si/1971/named/siemens",
+            "title": "siemens",
+            "symbol": "S",
+            "display-symbol": "S",
+            "description": "A derived SI unit for electrical conductance equal to kg\u207b\u00b9\u00b7m\u207b\u00b2\u00b7s\u00b3\u00b7A\u00b2 using the 1967 SI base units, defined at the 14th CGPM Meeting (1971).\n\n\"The International Committee will ask the General Conference to approve two special names: [...] siemens (symbol S) for the SI unit of conductance (\u03a9\u207b\u00b9).\" [14th CGPM Meeting (1971)].",
+            "standard": {
+                "name": "gnu units",
+                "version": "3.15",
+                "symbol": "siemens"
+            },
+            "resources": [
+                {
+                    "relation": "Definition at the 14th CGPM Meeting (1971)",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/14-1971"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Siemens_(unit)"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [
+                    {
+                        "symbol": "A",
+                        "id": "https://schemas.optimade.org/units/v1.2.0/si/1967/base/ampere"
+                    },
+                    {
+                        "symbol": "kg",
+                        "id": "https://schemas.optimade.org/units/v1.2.0/si/1960/base/kilogram"
+                    },
+                    {
+                        "symbol": "m",
+                        "id": "https://schemas.optimade.org/units/v1.2.0/si/1960/base/metre"
+                    },
+                    {
+                        "symbol": "s",
+                        "id": "https://schemas.optimade.org/units/v1.2.0/si/1967/base/second"
+                    }
+                ],
+                "base-units-expression": "A^2*kg^-1*m^-2*s^3"
+            },
+            "x-optimade-definition": {
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "siemens"
             }
         },
         "Wb": {

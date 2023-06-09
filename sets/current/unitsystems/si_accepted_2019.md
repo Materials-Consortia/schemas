@@ -1,8 +1,8 @@
 # SI accepted 2019 (unitsystem)
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unitsystem Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/sets/v1.2.0/unitsystems/si_extra_2019`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/si_extra_2019)**  
-**Definition name:** `si_extra_2019`
+**ID: [`https://schemas.optimade.org/sets/v1.2.0/unitsystems/si_accepted_2019`](https://schemas.optimade.org/sets/v1.2.0/unitsystems/si_accepted_2019)**  
+**Definition name:** `si_accepted_2019`
 
 **Unitsystem name:** SI accepted 2019  
 **Description:** The SI 2019 unit system and units accepted to be used with the SI.
@@ -12,7 +12,7 @@ In the redefinition of the SI unit system in 2019 the magnitudes of all SI units
 The si_extra_2019 unit system includes the prefixes and the units designated in The International System of Units (SI), 9th ed. (2019) as "non-SI units that are accepted for use with the SI."
 (The general logarithmic ratio quantities, B and dB are not included.)
 
-**Formats:** [[JSON](si_extra_2019.json)] [[MD](si_extra_2019.md)]
+**Formats:** [[JSON](si_accepted_2019.json)] [[MD](si_accepted_2019.md)]
 
 This unitsystem defines the following units:
 
@@ -146,14 +146,14 @@ This unitsystem defines the following prefixes:
 
 ``` json
 {
-    "$id": "https://schemas.optimade.org/sets/v1.2.0/unitsystems/si_extra_2019",
+    "$id": "https://schemas.optimade.org/sets/v1.2.0/unitsystems/si_accepted_2019",
     "title": "SI accepted 2019",
     "description": "The SI 2019 unit system and units accepted to be used with the SI.\n\nThe International System of Units (SI) is established and maintained by the General Conference on Weights and Measures (CGPM).\nIn the redefinition of the SI unit system in 2019 the magnitudes of all SI units are defined from declaring exact numerical values for seven defining constants when expressed in terms of their SI units.\nThe si_extra_2019 unit system includes the prefixes and the units designated in The International System of Units (SI), 9th ed. (2019) as \"non-SI units that are accepted for use with the SI.\"\n(The general logarithmic ratio quantities, B and dB are not included.)",
     "x-optimade-definition": {
         "kind": "unitsystem",
         "format": "1.2",
         "version": "1.2.0",
-        "name": "si_extra_2019"
+        "name": "si_accepted_2019"
     },
     "units": {
         "min": {

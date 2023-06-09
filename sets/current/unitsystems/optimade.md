@@ -7,7 +7,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unitsystem Definit
 **Unitsystem name:** OPTIMADE  
 **Description:** A combination of SI and non-SI units in common use suitable for use with OPTIMADE.
 
-This unit set combines all units associated with SI in the 2019 redefinition of the SI units with the ångstrom, the bit, and the byte unit."
+This unit system combines SI units (including units accepted for use with the SI), the bit, and the byte unit."
 
 **Formats:** [[JSON](optimade.json)] [[MD](optimade.md)]
 
@@ -190,7 +190,7 @@ This unitsystem defines the following constants:
 {
     "$id": "https://schemas.optimade.org/sets/v1.2.0/unitsystems/optimade",
     "title": "OPTIMADE",
-    "description": "A combination of SI and non-SI units in common use suitable for use with OPTIMADE.\n\nThis unit set combines all units associated with SI in the 2019 redefinition of the SI units with the \u00e5ngstrom, the bit, and the byte unit.\"",
+    "description": "A combination of SI and non-SI units in common use suitable for use with OPTIMADE.\n\nThis unit system combines SI units (including units accepted for use with the SI), the bit, and the byte unit.\"",
     "x-optimade-definition": {
         "kind": "unitsystem",
         "format": "1.2",
