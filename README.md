@@ -31,19 +31,19 @@ Generated from the definitons are also:
 
 - A JSON Schema for validation of OPTIMADE JSON:API responses:
 
-  - [json-schema/v1.2/optimade.json](json-schema/v1.2/optimade.json)
+  - [json-schema/v1.2.0/optimade.json](json-schema/v1.2.0/optimade.json)
   - https://schemas.optimade.org/json-schema/v1.2/optimade.json
 
 - A JSON-LD context to be used with OPTIMADE v1.2 responses:
 
-  - [json-ld/v1.2/optimade.json](json-ld/v1.2/optimade.json)
+  - [json-ld/v1.2.0/optimade.json](json-ld/v1.2.0/optimade.json)
   - https://schemas.optimade.org/json-ld/v1.2/optimade.json
 
 - An updated OpenAPI schema for v1.2 is not yet available.
 
 An index of all definition files in the v1.2.0 release are available here:
 
-- [releases/v1.2.0/index.html](json-ld/v1.2.0/index.html)
+- [releases/v1.2.0/index.html](releases/v1.2.0/index.html)
 - https://schemas.optimade.org/releases/v1.2.0/index.html
 
 (Until a new versions are released, this index will represent the exact same information as the definition index)
