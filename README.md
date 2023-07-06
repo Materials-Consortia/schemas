@@ -24,7 +24,7 @@ However, note that until v1.2 is officially released, these are subject to chang
 
 An index of the definition files is available at:
 
-- [defs/index.html](defs/index.html)
+- [defs/index.md](defs/index.md)
 - https://schemas.optimade.org/defs/index.html
 
 Generated from the definitons are also:
@@ -43,7 +43,7 @@ Generated from the definitons are also:
 
 An index of all definition files in the v1.2.0 release are available here:
 
-- [releases/v1.2.0/index.html](releases/v1.2.0/index.html)
+- [releases/v1.2.0/index.md](releases/v1.2.0/index.md)
 - https://schemas.optimade.org/releases/v1.2.0/index.html
 
 (Until a new versions are released, this index will represent the exact same information as the definition index)
