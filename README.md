@@ -32,29 +32,24 @@ If an entity needs to be redefined it is given a new URI and the old URI is reta
 
 A good place to start to browse these definitions is the definition of the OPTIMADE v1.2 standard:
 
-- [https://schemas.optimade.org/defs/v1.2/standards/optimade](https://schemas.optimade.org/defs/v1.2/standards/optimade)
-- [defs/v1.2/standards/optimade.md](defs/v1.2/standards/optimade.md)
+- [defs/v1.2/standards/optimade](defs/v1.2/standards/optimade.md)
 
 For the Physical Unit definitions, a good place to start is a collection of units suitable for use with OPTIMADE:
 
-- [https://schemas.optimade.org/defs/v1.2/unitsystems/optimade/optimade](https://schemas.optimade.org/defs/v1.2/unitsystems/optimade/optimade)
-- [defs/v1.2/unitsystems/optimade/optimade](defs/v1.2/unitsystems/optimade/optimade)
+- [defs/v1.2/unitsystems/optimade/optimade](defs/v1.2/unitsystems/optimade/optimade.md)
 
 A complete index of all provided definition files is available at:
 
-- [https://schemas.optimade.org/defs/index.html](https://schemas.optimade.org/defs/index.html)
-- [defs/index.md](defs/index.md)
+- [defs/index](defs/index.md)
 
 We also provide, generated from the definitons:
 
 - A JSON Schema for validation of OPTIMADE JSON:API responses:
 
-  - [https://schemas.optimade.org/json-schema/latest/optimade.json](https://schemas.optimade.org/json-schema/latest/optimade.json)
   - [json-schema/v1.2.0/optimade.json](json-schema/v1.2.0/optimade.json)
 
 - A JSON-LD context to be used with OPTIMADE responses (as a topmost `@context` field):
 
-  - [https://schemas.optimade.org/json-ld/latest/optimade.json](https://schemas.optimade.org/json-ld/latest/optimade.json)
   - [json-ld/v1.2.0/optimade.json](json-ld/v1.2.0/optimade.json)
 
 - An updated OpenAPI schema for v1.2 is not yet available.
@@ -63,6 +58,5 @@ The exact state of the definition files at the time of a patch release of OPTIMA
 The double URL segments for versions may look redundant, however, they take this form to keep a complete historical record that preserves amendments and clarifications that may have altered older definition files even after the entity has been redefined.
 Hence, for the v1.2.0 the Index URLs are:
 
-- [https://schemas.optimade.org/releases/v1.2.0/v1.2/index.html](https://schemas.optimade.org/releases/v1.2.0/v1.2/index.html)
-- [releases/v1.2.0/v1.2/index.md](releases/v1.2.0/v1.2/index.md)
+- [releases/v1.2.0/v1.2/index](releases/v1.2.0/v1.2/index.md)
 
