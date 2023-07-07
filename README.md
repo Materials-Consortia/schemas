@@ -25,12 +25,12 @@ In preparation for the upcoming release, we serve the preliminary versions of th
 **Until v1.2 is officially released, these are not to be considered stable and may change without notice.**
 
 All definitions have stable URI IDs (`$id` in JSON) that represent the entity being defined.
-The URIs are resolvable URLs that resolve to a human-readable description of the entity being defined.
-By appending ".json" to the URL, a machine readable JSON version of the definition is provided with a format documented in the [OPTIMADE specification](https://www.optimade.org/optimade).
-The content at these URLs may be amended or clarified, but the same URI ID always refer to what is functionally the same definition.
-If a property needs to be redefined, the redefinition is given a new URI, and the old one is retained to represent the prior definition.
+The URIs are resolvable URLs that resolve to a human-readable description.
+If `.json` is appended to the URL it resolves to a machine readable JSON version of the definition is provided with a format documented in the [OPTIMADE specification](https://www.optimade.org/optimade).
+The content at these URLs may change with amendedments or clarifications, but a URI ID will always refer to what is functionally the same definition.
+If an entity needs to be redefined it is given a new URI and the old URI is retained to represent the prior definition.
 
-To browse the definitions, a good place to start is the definition of the OPTIMADE v1.2 standard:
+A good place to start to browse these definitions is the definition of the OPTIMADE v1.2 standard:
 
 - [https://schemas.optimade.org/defs/v1.2/standards/optimade](https://schemas.optimade.org/defs/v1.2/standards/optimade)
 - [defs/v1.2/standards/optimade.md](defs/v1.2/standards/optimade.md)
