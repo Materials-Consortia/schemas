@@ -45,12 +45,19 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
         "base-units": [
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
             }
         ],
         "base-units-expression": "s^-1"
     },
+    "standard": {
+        "name": "si",
+        "year": 1975,
+        "category": "named",
+        "symbol": "Bq"
+    },
     "x-optimade-definition": {
+        "label": "becquerel_si_1975_named",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

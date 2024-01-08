@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/general/steradian`](https://schemas.optimade.org/defs/v1.2/units/si/general/steradian)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/general/steradian`](https://schemas.optimade.org/defs/v1.2/units/si/general/steradian.md)**  
 **Definition name:** `steradian`
 
 **Unit name:** steradian  
@@ -45,13 +45,8 @@ This definition is intended for situations when it is not possible to be more pr
     ],
     "description": "A unit of solid angle representing the relation of the area cut out on a sphere at a given radius so that the entire sphere has a solid angle of 4\u03c0 steradians using the current, or one of the historical, definitions of the SI units.\n\nThe radian is defined at the 9th CGPM Meeting in 1948 as: \"The unit of solid angle is the steradian. The steradian is the solid angle with its vertex at the center of a sphere with a radius of one meter, which cuts out an area of one square meter on the surface of that sphere.\"\n\nThe International System of Units (SI), 9th Edition give a rephrased but equivalent definition: \"The solid angle, expressed in steradian, corresponds to the ratio between an area \\(A\\) of the surface of a sphere of radius \\(r\\) and the squared radius, \\(\\Omega = A/r^2\\) sr. One steradian corresponds to the solid angle for which \\(A = r^2\\), thus 1 sr = 1.\"\n\nThe steradian is categorized in the International System of Units (SI), 1st Edition as a supplementary SI unit.\nAt the 20th CGPM meeting in 1995, resolution 8 the categorization was changed to a dimensionless derived SI unit.\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
     "compatibility": [
-        "https://schemas.optimade.org/units/v1.2/si/1960/supplementary/steradian"
+        "https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/steradian"
     ],
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "steradian"
-    },
     "resources": [
         {
             "relation": "Definition at the 9st CGPM meeting (1948)",
@@ -71,6 +66,7 @@ This definition is intended for situations when it is not possible to be more pr
         }
     ],
     "x-optimade-definition": {
+        "label": "steradian_si_general",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

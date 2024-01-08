@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/degcelsius`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/degcelsius)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/degcelsius`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/degcelsius.md)**  
 **Definition name:** `degcelsius`
 
 **Unit name:** Degree Celsius  
@@ -38,11 +38,6 @@ The degree Celsius was defined and included in SI at the 11th CGPM meeting in 19
         "degreecelsius"
     ],
     "description": "A derived SI unit of temperature, defined as kelvin offset with +273.15 in the 2019 SI units.\n\n\"If we add to the practical international Celsius temperatures defined above T\u2080 = 273.15 degrees, we obtain the practical international Kelvin temperatures. By subtracting T\u2080 from the thermodynamic temperatures, we obtain the thermodynamic Celsius temperatures.\" [11th CGPM meeting (1960)]\n\nThe degree Celsius was defined and included in SI at the 11th CGPM meeting in 1960, resolution 12 and implicitly redefined via the redefinitions of the kelvin at the 13th CGPM Meeting in 1967, resolution 4 and at the 26th CGPM Meeting (2018), resolution 1.",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "degcelsius"
-    },
     "resources": [
         {
             "relation": "Definition at the 11th CGPM meeting (1960)",
@@ -65,7 +60,7 @@ The degree Celsius was defined and included in SI at the 11th CGPM meeting in 19
         "base-units": [
             {
                 "symbol": "K",
-                "id": "https://schemas.optimade.org/units/v1.2/si/2019/base/kelvin"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kelvin"
             }
         ],
         "base-units-expression": "K",
@@ -74,7 +69,14 @@ The degree Celsius was defined and included in SI at the 11th CGPM meeting in 19
             "denominator": 100
         }
     },
+    "standard": {
+        "name": "si",
+        "year": 2019,
+        "category": "named",
+        "symbol": "degC"
+    },
     "x-optimade-definition": {
+        "label": "degcelsius_si_2019_named",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

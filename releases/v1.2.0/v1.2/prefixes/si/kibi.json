@@ -20,10 +20,11 @@
         "base-units-expression": "",
         "scale": {
             "base": 2,
-            "nominator": 10
+            "numerator": 10
         }
     },
     "x-optimade-definition": {
+        "label": "kibi_prefix_si",
         "kind": "prefix",
         "format": "1.2",
         "version": "1.2.0",

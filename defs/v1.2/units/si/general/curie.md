@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/general/curie`](https://schemas.optimade.org/defs/v1.2/units/si/general/curie)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/general/curie`](https://schemas.optimade.org/defs/v1.2/units/si/general/curie.md)**  
 **Definition name:** `curie`
 
 **Unit name:** curie  
@@ -14,9 +14,9 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
 Defined as outside the SI at the 12th CGPM meeting in 1964, resolution 7.
 Implicitly redefined via the redefinition of the second at the 13th CGPM Meeting in 1967, resolution 1.
 
-The International System of Units (SI), 1th ed. (1970) categorizes the unit as "Units in use temporarily with the International System."
-The International System of Units (SI), 7th ed. (1998) changes the categorization to "Other non-SI units".
-The curie is omitted in the International System of Units (SI), 8th Edition (2006).
+- The International System of Units (SI), 1th ed. (1970) categorizes the unit as "Units in use temporarily with the International System."
+- The International System of Units (SI), 7th ed. (1998) changes the categorization to "Other non-SI units".
+- The curie is omitted in the International System of Units (SI), 8th Edition (2006).
 
 This is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.
 This definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.
@@ -40,16 +40,11 @@ This definition is intended for situations when it is not possible to be more pr
     "title": "curie",
     "symbol": "Ci",
     "display-symbol": "Ci",
-    "description": "A unit of activity with the value 3.7\u00b710\u207b\u00b9\u2070 s\u207b\u00b9 using the current, or one of the historical, definitions of the SI units.\n\nDefined as outside the SI at the 12th CGPM meeting in 1964, resolution 7.\nImplicitly redefined via the redefinition of the second at the 13th CGPM Meeting in 1967, resolution 1.\n\nThe International System of Units (SI), 1th ed. (1970) categorizes the unit as \"Units in use temporarily with the International System.\"\nThe International System of Units (SI), 7th ed. (1998) changes the categorization to \"Other non-SI units\".\nThe curie is omitted in the International System of Units (SI), 8th Edition (2006).\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
+    "description": "A unit of activity with the value 3.7\u00b710\u207b\u00b9\u2070 s\u207b\u00b9 using the current, or one of the historical, definitions of the SI units.\n\nDefined as outside the SI at the 12th CGPM meeting in 1964, resolution 7.\nImplicitly redefined via the redefinition of the second at the 13th CGPM Meeting in 1967, resolution 1.\n\n- The International System of Units (SI), 1th ed. (1970) categorizes the unit as \"Units in use temporarily with the International System.\"\n- The International System of Units (SI), 7th ed. (1998) changes the categorization to \"Other non-SI units\".\n- The curie is omitted in the International System of Units (SI), 8th Edition (2006).\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
     "compatibility": [
-        "https://schemas.optimade.org/units/v1.2/si/1964/temporary/curie",
-        "https://schemas.optimade.org/units/v1.2/si/1967/temporary/curie"
+        "https://schemas.optimade.org/defs/v1.2/units/si/1964/temporary/curie",
+        "https://schemas.optimade.org/defs/v1.2/units/si/1967/temporary/curie"
     ],
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "curie"
-    },
     "resources": [
         {
             "relation": "Definition at the 12th CGPM meeting (1964), resolution 3",
@@ -72,16 +67,17 @@ This definition is intended for situations when it is not possible to be more pr
         "base-units": [
             {
                 "symbol": "s",
-                "id": "https://schema.optimade.org/units/si/general/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/general/second"
             }
         ],
         "base-units-expression": "s^-1",
         "scale": {
-            "nominator": 37,
+            "numerator": 37,
             "exponent": -11
         }
     },
     "x-optimade-definition": {
+        "label": "curie_si_general",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/codata/1969/electromagnetic/bohrmagneton`](https://schemas.optimade.org/defs/v1.2/units/codata/1969/electromagnetic/bohrmagneton)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/codata/1969/electromagnetic/bohrmagneton`](https://schemas.optimade.org/defs/v1.2/units/codata/1969/electromagnetic/bohrmagneton.md)**  
 **Definition name:** `bohrmagneton`
 
 **Unit name:** Bohr magneton  
@@ -31,11 +31,6 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
     "symbol": "bohrmagneton",
     "display-symbol": "\\(\\mu_B\\)",
     "description": "A unit expressing the magnetic moment of an electron caused by its orbital or spin angular momentum defined as part of CODATA 1969.\n\n\"The magneton moment of the free electron in units of the Bohr magneton \\(\\mu_B=e\\hbar/2m_e\\)\" [B. N. Taylor, W. H. Parker, and D. N. Langenberg, Rev. Mod. Phys. 41(3), 375-496 (1969)]",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "bohrmagneton"
-    },
     "resources": [
         {
             "relation": "Defining paper: B. N. Taylor, W. H. Parker, and D. N. Langenberg, Rev. Mod. Phys. 41(3), 375-496 (1969)",
@@ -51,13 +46,20 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
             "base-units": [
                 {
                     "symbol": "bohrmagneton",
-                    "id": "https://schema.optimade.org/constants/codata/2018/electromagnetic/bohrmagneton"
+                    "id": "https://schema.optimade.org/defs/v1.2/units/codata/2018/electromagnetic/bohrmagneton"
                 }
             ],
             "base-units-expression": "bohrmagneton"
         }
     ],
+    "standard": {
+        "name": "codata",
+        "year": 1969,
+        "category": "electromagnetic",
+        "symbol": "\\(\\mu_B\\)"
+    },
     "x-optimade-definition": {
+        "label": "bohrmagneton_codata_1969_electromagnetic",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

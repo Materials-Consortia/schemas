@@ -63,7 +63,7 @@ The nautical mile was implicitly redefined via the redefinition of the metre at 
         "base-units": [
             {
                 "symbol": "m",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
             }
         ],
         "base-units-expression": "m",
@@ -72,6 +72,7 @@ The nautical mile was implicitly redefined via the redefinition of the metre at 
         }
     },
     "x-optimade-definition": {
+        "label": "nauticalmile_si_1983_temporary",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

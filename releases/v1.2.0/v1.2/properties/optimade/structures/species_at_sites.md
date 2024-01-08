@@ -38,6 +38,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "Species at sites",
     "x-optimade-type": "list",
     "x-optimade-definition": {
+        "label": "species_at_sites_optimade_structures",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",
@@ -71,6 +72,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
         "title": "Name of the species",
         "x-optimade-type": "string",
         "x-optimade-definition": {
+            "label": "species_name_optimade_common",
             "kind": "property",
             "version": "1.2.0",
             "format": "1.2",

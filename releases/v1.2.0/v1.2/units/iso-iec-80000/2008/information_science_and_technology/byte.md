@@ -45,7 +45,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
         "base-units": [
             {
                 "symbol": "bit",
-                "id": "https://schemas.optimade.org/units/v1.2/information/bit"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/independent/1948/information/bit"
             }
         ],
         "base-units-expression": "bit",
@@ -53,7 +53,14 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
             "numerator": 8
         }
     },
+    "standard": {
+        "name": "iso-iec-80000",
+        "year": 2008,
+        "category": "information_science_and_technology",
+        "symbol": "B"
+    },
     "x-optimade-definition": {
+        "label": "byte_iso_iec_80000_2008_information_science_and_technology",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

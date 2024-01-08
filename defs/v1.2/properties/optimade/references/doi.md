@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/doi`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/doi)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/doi`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/doi.md)**  
 **Definition name:** `doi`
 
 **Property name:** doi  
@@ -26,6 +26,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "doi",
     "x-optimade-type": "string",
     "x-optimade-definition": {
+        "label": "doi_optimade_references",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",

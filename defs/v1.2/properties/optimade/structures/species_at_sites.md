@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/species_at_sites`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/species_at_sites)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/species_at_sites`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/species_at_sites.md)**  
 **Definition name:** `species_at_sites`
 
 **Property name:** Species at sites  
@@ -38,10 +38,16 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "Species at sites",
     "x-optimade-type": "list",
     "x-optimade-definition": {
+        "label": "species_at_sites_optimade_structures",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",
         "name": "species_at_sites"
+    },
+    "x-optimade-dimensions": {
+        "names": [
+            "dim_sites"
+        ]
     },
     "type": [
         "array",
@@ -66,6 +72,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
         "title": "Name of the species",
         "x-optimade-type": "string",
         "x-optimade-definition": {
+            "label": "species_name_optimade_common",
             "kind": "property",
             "version": "1.2.0",
             "format": "1.2",

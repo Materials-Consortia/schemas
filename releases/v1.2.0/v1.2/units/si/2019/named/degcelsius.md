@@ -60,7 +60,7 @@ The degree Celsius was defined and included in SI at the 11th CGPM meeting in 19
         "base-units": [
             {
                 "symbol": "K",
-                "id": "https://schemas.optimade.org/units/v1.2/si/2019/base/kelvin"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kelvin"
             }
         ],
         "base-units-expression": "K",
@@ -69,7 +69,14 @@ The degree Celsius was defined and included in SI at the 11th CGPM meeting in 19
             "denominator": 100
         }
     },
+    "standard": {
+        "name": "si",
+        "year": 2019,
+        "category": "named",
+        "symbol": "degC"
+    },
     "x-optimade-definition": {
+        "label": "degcelsius_si_2019_named",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

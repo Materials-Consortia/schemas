@@ -6,7 +6,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
 **Definition name:** `volt`
 
 **Unit name:** volt  
-**Latin symbol:** volt  
+**Latin symbol:** V  
 **Display symbol:** V  
   
 **Description:** A derived SI unit for electric potential, voltage, and electromotive force equal to kg·m²·s⁻³·A⁻¹ in the 2019 SI units.
@@ -33,7 +33,7 @@ The volt was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/volt",
     "title": "volt",
-    "symbol": "volt",
+    "symbol": "V",
     "display-symbol": "V",
     "description": "A derived SI unit for electric potential, voltage, and electromotive force equal to kg\u00b7m\u00b2\u00b7s\u207b\u00b3\u00b7A\u207b\u00b9 in the 2019 SI units.\n\n\"The volt is the electric potential difference that exists between two points of a conducting wire carrying a constant current of one ampere when the power dissipated between these points is equal to one watt.\" [9th CGPM meeting in 1946]\n\nThe volt was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12 and implicitly redefined via the redefinitions of the second at the 13th CGPM Meeting in 1967, resolution 1, the metre at the 17th CGPM Meeting in 1983, resolution 1, and the kilogram at the 26th CGPM Meeting (2018), resolution 1.",
     "resources": [
@@ -62,24 +62,31 @@ The volt was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th
         "base-units": [
             {
                 "symbol": "kg",
-                "id": "https://schemas.optimade.org/units/v1.2/si/2019/base/kilogram"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram"
             },
             {
                 "symbol": "m",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
             },
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
             },
             {
                 "symbol": "A",
-                "id": "https://schemas.optimade.org/units/v1.2/si/2019/base/ampere"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/ampere"
             }
         ],
         "base-units-expression": "A^-1*kg*m^2*s^-3"
     },
+    "standard": {
+        "name": "si",
+        "year": 2019,
+        "category": "named",
+        "symbol": "V"
+    },
     "x-optimade-definition": {
+        "label": "volt_si_2019_named",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/prefixes/si/yotta`](https://schemas.optimade.org/defs/v1.2/prefixes/si/yotta)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/prefixes/si/yotta`](https://schemas.optimade.org/defs/v1.2/prefixes/si/yotta.md)**  
 **Definition name:** `yotta`
 
 **Prefix name:** yotta  
@@ -31,11 +31,6 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
     "symbol": "Y",
     "display-symbol": "Y",
     "description": "The yotta SI prefix defined as a dimensionless multiple of 10\u00b2\u2074, defined at the 19:th CGPM Meeting in 1991, resolution 4.",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "yotta"
-    },
     "resources": [
         {
             "relation": "Definition in the 19:th CGPM Meeting in 1991, resolution 4",
@@ -54,6 +49,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
         }
     },
     "x-optimade-definition": {
+        "label": "yotta_prefix_si",
         "kind": "prefix",
         "format": "1.2",
         "version": "1.2.0",

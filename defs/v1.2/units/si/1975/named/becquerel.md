@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1975/named/becquerel`](https://schemas.optimade.org/defs/v1.2/units/si/1975/named/becquerel)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1975/named/becquerel`](https://schemas.optimade.org/defs/v1.2/units/si/1975/named/becquerel.md)**  
 **Definition name:** `becquerel`
 
 **Unit name:** becquerel  
@@ -31,11 +31,6 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
     "symbol": "Bq",
     "display-symbol": "Bq",
     "description": "A derived SI unit for radioactivity, defined as s\u207b\u00b9 using the 1967 SI second, defined at the 15th CGPM Meeting in 1975.\n\n\"The 15th Conf\u00e9rence G\u00e9n\u00e9rale des Poids et Mesures, [...] adopts the following special name for the SI unit of activity: becquerel, symbol Bq, equal to one reciprocal second.\" [15th CGPM Meeting (1975)]",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "becquerel"
-    },
     "resources": [
         {
             "relation": "Definition at the 15th CGPM Meeting (1975)",
@@ -50,12 +45,19 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
         "base-units": [
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
             }
         ],
         "base-units-expression": "s^-1"
     },
+    "standard": {
+        "name": "si",
+        "year": 1975,
+        "category": "named",
+        "symbol": "Bq"
+    },
     "x-optimade-definition": {
+        "label": "becquerel_si_1975_named",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

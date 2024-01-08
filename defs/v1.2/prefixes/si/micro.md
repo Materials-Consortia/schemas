@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/prefixes/si/micro`](https://schemas.optimade.org/defs/v1.2/prefixes/si/micro)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/prefixes/si/micro`](https://schemas.optimade.org/defs/v1.2/prefixes/si/micro.md)**  
 **Definition name:** `micro`
 
 **Prefix name:** micro  
@@ -12,7 +12,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
 **Description:** The micro SI prefix defined as a dimensionless multiple of 10⁻⁶, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.
 
 The micro SI prefix is the only one using a non Latin symbol.
-Based on the recommendation of the ISMP List of Error-Prone Abbreviations, Symbols, and Dose Designations to use mcg in place of μg, mc is used for a symbol for micro using the Latin alphabet.
+Based on the recommendation of the ISMP List of Error-Prone Abbreviations, Symbols, and Dose Designations to use mcg in place of μg, i.e., mc is used as the symbol for micro using the Latin alphabet.
 
 **Resources:**
 
@@ -32,12 +32,7 @@ Based on the recommendation of the ISMP List of Error-Prone Abbreviations, Symbo
     "title": "micro",
     "symbol": "mc",
     "display-symbol": "\u03bc",
-    "description": "The micro SI prefix defined as a dimensionless multiple of 10\u207b\u2076, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.\n\nThe micro SI prefix is the only one using a non Latin symbol.\nBased on the recommendation of the ISMP List of Error-Prone Abbreviations, Symbols, and Dose Designations to use mcg in place of \u03bcg, mc is used for a symbol for micro using the Latin alphabet.",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "micro"
-    },
+    "description": "The micro SI prefix defined as a dimensionless multiple of 10\u207b\u2076, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.\n\nThe micro SI prefix is the only one using a non Latin symbol.\nBased on the recommendation of the ISMP List of Error-Prone Abbreviations, Symbols, and Dose Designations to use mcg in place of \u03bcg, i.e., mc is used as the symbol for micro using the Latin alphabet.",
     "resources": [
         {
             "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
@@ -60,6 +55,7 @@ Based on the recommendation of the ISMP List of Error-Prone Abbreviations, Symbo
         }
     },
     "x-optimade-definition": {
+        "label": "micro_prefix_si",
         "kind": "prefix",
         "format": "1.2",
         "version": "1.2.0",

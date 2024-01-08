@@ -51,7 +51,7 @@ The day appear in the International System of Units (SI), 1th ed. (1970) defined
         "base-units": [
             {
                 "symbol": "s",
-                "id": "https://schema.optimade.org/units/si/1967/base/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/second"
             }
         ],
         "base-units-expression": "s",
@@ -60,6 +60,7 @@ The day appear in the International System of Units (SI), 1th ed. (1970) defined
         }
     },
     "x-optimade-definition": {
+        "label": "day_si_1970_accepted",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

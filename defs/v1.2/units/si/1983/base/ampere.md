@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1983/base/ampere`](https://schemas.optimade.org/defs/v1.2/units/si/1983/base/ampere)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1983/base/ampere`](https://schemas.optimade.org/defs/v1.2/units/si/1983/base/ampere.md)**  
 **Definition name:** `ampere`
 
 **Unit name:** ampere  
@@ -61,7 +61,14 @@ Following the redefinition of the second at the 13th CGPM Meeting in 1967, resol
             "resource-id": "https://en.wikipedia.org/wiki/Ampere"
         }
     ],
+    "standard": {
+        "name": "si",
+        "year": 1983,
+        "category": "base",
+        "symbol": "A"
+    },
     "x-optimade-definition": {
+        "label": "ampere_si_1983_base",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

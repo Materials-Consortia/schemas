@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/prefixes/si/gibi`](https://schemas.optimade.org/defs/v1.2/prefixes/si/gibi)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/prefixes/si/gibi`](https://schemas.optimade.org/defs/v1.2/prefixes/si/gibi.md)**  
 **Definition name:** `gibi`
 
 **Prefix name:** gibi  
@@ -31,11 +31,6 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
     "symbol": "Gi",
     "display-symbol": "Gi",
     "description": "The gibi prefix as a dimensionless multiple of 2\u00b3\u2070 is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for refering to powers of 2.",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "gibi"
-    },
     "resources": [
         {
             "relation": "Definition in the International System of Units (SI), 9th Edition",
@@ -51,10 +46,11 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
         "base-units-expression": "",
         "scale": {
             "base": 2,
-            "nominator": 30
+            "numerator": 30
         }
     },
     "x-optimade-definition": {
+        "label": "gibi_prefix_si",
         "kind": "prefix",
         "format": "1.2",
         "version": "1.2.0",

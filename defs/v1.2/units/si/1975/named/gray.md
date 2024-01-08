@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1975/named/gray`](https://schemas.optimade.org/defs/v1.2/units/si/1975/named/gray)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1975/named/gray`](https://schemas.optimade.org/defs/v1.2/units/si/1975/named/gray.md)**  
 **Definition name:** `gray`
 
 **Unit name:** gray  
@@ -31,11 +31,6 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
     "symbol": "Gy",
     "display-symbol": "Gy",
     "description": "A derived SI unit for absorbed dose of ionizing radiation equal to m\u00b2\u00b7s\u207b\u00b2 using the 1967 base SI units at the 15th CGPM Meeting in 1975.\n\n\"The 15th Conf\u00e9rence G\u00e9n\u00e9rale des Poids et Mesures, [...] adopts the following special name for the SI unit of ionizing radiation: gray, symbol Gy, equal to one joule per kilogram.\" [15th CGPM Meeting (1975)]",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "gray"
-    },
     "resources": [
         {
             "relation": "Definition at the 15th CGPM Meeting (1975)",
@@ -50,16 +45,23 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
         "base-units": [
             {
                 "symbol": "m",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre"
             },
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
             }
         ],
         "base-units-expression": "m^2*s^-2"
     },
+    "standard": {
+        "name": "si",
+        "year": 1975,
+        "category": "named",
+        "symbol": "Gy"
+    },
     "x-optimade-definition": {
+        "label": "gray_si_1975_named",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

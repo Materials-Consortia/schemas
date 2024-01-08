@@ -39,6 +39,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "Number of periodic dimensions",
     "x-optimade-type": "integer",
     "x-optimade-definition": {
+        "label": "nperiodic_dimensions_optimade_structures",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",

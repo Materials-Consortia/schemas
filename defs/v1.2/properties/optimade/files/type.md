@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/properties/core/type`](https://schemas.optimade.org/defs/v1.2/properties/core/type)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/properties/core/type`](https://schemas.optimade.org/defs/v1.2/properties/core/type.md)**  
 **Definition name:** `type`
 
 **Property name:** Type  
@@ -29,6 +29,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "Type",
     "x-optimade-type": "string",
     "x-optimade-definition": {
+        "label": "type_core",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",

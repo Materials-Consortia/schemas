@@ -20,13 +20,20 @@
             "base-units": [
                 {
                     "symbol": "bohrmagneton",
-                    "id": "https://schema.optimade.org/constants/codata/2018/electromagnetic/bohrmagneton"
+                    "id": "https://schema.optimade.org/defs/v1.2/units/codata/2018/electromagnetic/bohrmagneton"
                 }
             ],
             "base-units-expression": "bohrmagneton"
         }
     ],
+    "standard": {
+        "name": "codata",
+        "year": 1969,
+        "category": "electromagnetic",
+        "symbol": "\\(\\mu_B\\)"
+    },
     "x-optimade-definition": {
+        "label": "bohrmagneton_codata_1969_electromagnetic",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

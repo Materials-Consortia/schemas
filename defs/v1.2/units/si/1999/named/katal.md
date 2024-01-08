@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1999/named/katal`](https://schemas.optimade.org/defs/v1.2/units/si/1999/named/katal)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1999/named/katal`](https://schemas.optimade.org/defs/v1.2/units/si/1999/named/katal.md)**  
 **Definition name:** `katal`
 
 **Unit name:** katal  
@@ -31,11 +31,6 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
     "symbol": "kat",
     "display-symbol": "kat",
     "description": "A derived SI unit for catalytic activity, defined as mol\u00b7s\u207b\u00b9 defined at the 21th CGPM meeting in 1999.\n\n\"The 21st Conf\u00e9rence G\u00e9n\u00e9rale des Poids et Mesures, [...] decides to adopt the special name katal, symbol kat, for the SI unit mole per second to express catalytic activity, especially in the fields of medicine and biochemistry, and recommends that when the katal is used, the measurand be specified by reference to the measurement procedure; the measurement procedure must identify the indicator reaction.\" [21th CGPM meeting (1999), resolution 12]",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "katal"
-    },
     "resources": [
         {
             "relation": "Definition of the unit at the 21st CGPM (1999)",
@@ -50,16 +45,23 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
         "base-units": [
             {
                 "symbol": "mol",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1971/base/mole"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1971/base/mole"
             },
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
             }
         ],
         "base-units-expression": "mol*s^-1"
     },
+    "standard": {
+        "name": "si",
+        "year": 1999,
+        "category": "named",
+        "symbol": "kat"
+    },
     "x-optimade-definition": {
+        "label": "katal_si_1999_named",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

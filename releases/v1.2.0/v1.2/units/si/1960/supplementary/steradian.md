@@ -59,7 +59,14 @@ At the 20th CGPM meeting in 1995, resolution 8 the categorization was changed to
             "resource-id": "https://en.wikipedia.org/wiki/Radian"
         }
     ],
+    "standard": {
+        "name": "si",
+        "year": 1960,
+        "category": "supplementary",
+        "symbol": "sr"
+    },
     "x-optimade-definition": {
+        "label": "steradian_si_1960_supplementary",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

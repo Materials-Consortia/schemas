@@ -26,6 +26,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "Media type",
     "x-optimade-type": "string",
     "x-optimade-definition": {
+        "label": "media_type_optimade_files",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",

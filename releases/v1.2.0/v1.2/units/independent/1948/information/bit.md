@@ -42,6 +42,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
         }
     ],
     "x-optimade-definition": {
+        "label": "bit_independent_1948_information",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

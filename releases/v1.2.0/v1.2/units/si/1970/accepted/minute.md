@@ -48,7 +48,7 @@ The minute appear in the International System of Units (SI), 1th ed. (1970) defi
         "base-units": [
             {
                 "symbol": "s",
-                "id": "https://schema.optimade.org/units/si/1967/base/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/second"
             }
         ],
         "base-units-expression": "s",
@@ -57,6 +57,7 @@ The minute appear in the International System of Units (SI), 1th ed. (1970) defi
         }
     },
     "x-optimade-definition": {
+        "label": "minute_si_1970_accepted",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

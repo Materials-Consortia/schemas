@@ -2,7 +2,7 @@
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/named/weber",
     "title": "weber",
-    "symbol": "weber",
+    "symbol": "Wb",
     "display-symbol": "Wb",
     "description": "A derived SI unit for magnetic flux equal to kg\u00b7m\u00b2\u00b7s\u207b\u00b3\u00b7A\u207b\u00b9 in the 1967 SI base units.\n\n\"The weber is the magnetic induction flux that, passing through a single-turn circuit, produces an electromotive force of one volt if it is reduced to zero in one second by uniform decay.\" [9th CGPM meeting in 1946]\n\nThe weber was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12 and implicitly redefined via the redefinition of the second at the 13th CGPM Meeting in 1967, resolution 1.",
     "resources": [
@@ -27,24 +27,31 @@
         "base-units": [
             {
                 "symbol": "A",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/ampere"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/ampere"
             },
             {
                 "symbol": "kg",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/kilogram"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram"
             },
             {
                 "symbol": "m",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre"
             },
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
             }
         ],
         "base-units-expression": "ampere^-1*kg*m^2*s^-3"
     },
+    "standard": {
+        "name": "si",
+        "year": 1967,
+        "category": "named",
+        "symbol": "Wb"
+    },
     "x-optimade-definition": {
+        "label": "weber_si_1967_named",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

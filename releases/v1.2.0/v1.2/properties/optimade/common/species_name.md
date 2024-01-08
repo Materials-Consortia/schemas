@@ -28,6 +28,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "Name of the species",
     "x-optimade-type": "string",
     "x-optimade-definition": {
+        "label": "species_name_optimade_common",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",

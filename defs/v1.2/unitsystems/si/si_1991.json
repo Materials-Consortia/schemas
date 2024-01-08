@@ -4,6 +4,7 @@
     "title": "SI 1991",
     "description": "The SI unit system as represented in the 6th edition of The International System of Units.\n\nThe International System of Units (SI) is established and maintained by the General Conference on Weights and Measures (CGPM).\nThis represents the SI unit system described in the 6th edition of The International System of Units in 1991.",
     "x-optimade-definition": {
+        "label": "si_1991_unitsystem",
         "kind": "unitsystem",
         "format": "1.2",
         "version": "1.2.0",
@@ -30,7 +31,14 @@
                     "resource-id": "https://en.wikipedia.org/wiki/Second"
                 }
             ],
+            "standard": {
+                "name": "si",
+                "year": 1967,
+                "category": "base",
+                "symbol": "s"
+            },
             "x-optimade-definition": {
+                "label": "second_si_1967_base",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -47,11 +55,6 @@
                 "meter"
             ],
             "description": "The metre, or meter, is the SI base unit of length defined via the distance light travels in vaccum during a fixed time interval after the redefinition at the 17th CGPM Meeting in 1983.\n\n\"The metre is the length of the path travelled by light in vacuum during a time interval of 1/299792458 of a second.\" [17th CGPM Meeting (1983), resolution 1].\n\nAt the 26th CGPM Meeting (2018), resolution 1 the definition was rephrased to: \"The metre, symbol m, is the SI unit of length. It is defined by taking the fixed numerical value of the speed of light in vacuum \\(c\\) to be 299792458 when expressed in the unit m\u22c5s\u207b\u00b9, where the second is defined in terms of the caesium frequency \\(\\Delta \\nu_\\textrm{Cs}\\).\"\n\nThis definition references the SI 1967 second (https://schemas.optimade.org/units/v1.2/si/1967/base/second).",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "metre"
-            },
             "resources": [
                 {
                     "relation": "Definition at the 17th CGPM meeting (1983), resolution 1",
@@ -62,7 +65,14 @@
                     "resource-id": "https://en.wikipedia.org/wiki/Metre"
                 }
             ],
+            "standard": {
+                "name": "si",
+                "year": 1983,
+                "category": "base",
+                "symbol": "m"
+            },
             "x-optimade-definition": {
+                "label": "metre_si_1983_base",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -89,7 +99,14 @@
                     "resource-id": "https://en.wikipedia.org/wiki/Kilogram"
                 }
             ],
+            "standard": {
+                "name": "si",
+                "year": 1960,
+                "category": "base",
+                "symbol": "kg"
+            },
             "x-optimade-definition": {
+                "label": "kilogram_si_1960_base",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -124,7 +141,14 @@
                     "resource-id": "https://en.wikipedia.org/wiki/Ampere"
                 }
             ],
+            "standard": {
+                "name": "si",
+                "year": 1983,
+                "category": "base",
+                "symbol": "A"
+            },
             "x-optimade-definition": {
+                "label": "ampere_si_1983_base",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -134,11 +158,11 @@
         "K": {
             "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/kelvin",
             "title": "kelvin",
-            "symbol": "kelvin",
+            "symbol": "K",
             "display-symbol": "K",
             "description": "The kelvin is the SI base unit of thermodynamic temperature defined from the triple point of water at the 13th CGPM Meeting in 1967, resolution 3 and 4 and clarified at the 23rd CGPM Meeting in 2007, resolution 10.\n\nThe definition is functionally the same as the prior definition of degree Kelvin from the 10th CGPM meeting in 1954.\nHowever, at the 13th CGPM Meeting in 1967, resolution 4, the definition was rephrased as: \"The kelvin, unit of thermodynamic temperature, is the fraction 1/273.16 of the thermodynamic temperature of the triple point of water.\"\nIn this defining text, and as decided in resolution 3, the unit is named kelvin with the symbol K, replacing the prior use of degree Kelvin and variations.\n\nThe 23th CGPM meeting in 2007, resolution 10, approved to append a clarification to the above definition: \"This definition refers to water having the isotopic composition defined by the following amount-of-substance ratios: 0.00015576 mole of \u00b2H per mole of \u00b9H, 0.0003799 mole of \u00b9\u2077O per mole of \u00b9\u2076O and 0.0020052 mole of \u00b9\u2078O per mole of \u00b9\u2076O.\"",
             "compatibility": [
-                "https://schemas.optimade.org/units/v1.2/si/1960/base/degreekelvin"
+                "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/degreekelvin"
             ],
             "resources": [
                 {
@@ -158,7 +182,14 @@
                     "resource-id": "https://en.wikipedia.org/wiki/Kelvin"
                 }
             ],
+            "standard": {
+                "name": "si",
+                "year": 1967,
+                "category": "base",
+                "symbol": "K"
+            },
             "x-optimade-definition": {
+                "label": "kelvin_si_1967_base",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -185,7 +216,14 @@
                     "resource-id": "https://en.wikipedia.org/wiki/Mole_(unit)"
                 }
             ],
+            "standard": {
+                "name": "si",
+                "year": 1971,
+                "category": "base",
+                "symbol": "mol"
+            },
             "x-optimade-definition": {
+                "label": "mole_si_1971_base",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -198,11 +236,6 @@
             "symbol": "cd",
             "display-symbol": "cd",
             "description": "The candela is the SI base unit of luminous intensity in a given direction defined from the luminous intensity of monocromatic radiation at a specific frequency and radiant intensity at the 16th CGPM Meeting in 1979; implicitly redefined via the redefinition of the metre at the 17th CGPM Meeting in 1983.\n\n\"The candela is the luminous intensity, in a given direction, of a source that emits monochromatic radiation of frequency 540\u00d710\u00b9\u00b2 hertz and that has a radiant intensity in that direction of 1/683 watt per steradian.\" [16th CGPM Meeting (1979), resolution 3].\n\nFollowing the redefinition of the metre at the 17th CGPM Meeting in 1983, resolution 1, the implicitly redefined candela references:\n\n- the SI 1967 derived hertz unit (https://schemas.optimade.org/units/v1.2/si/1967/named/hertz).\n- the SI 1983 derived watt unit (https://schemas.optimade.org/units/v1.2/si/1983/named/watt).\n- the SI 1960 supplementary unit steradian (https://schemas.optimade.org/units/v1.2/si/1960/supplementary/steradian).",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "cd"
-            },
             "resources": [
                 {
                     "relation": "Definition at the 41st CIPM meeting (1946), resolution 2",
@@ -225,7 +258,14 @@
                     "resource-id": "https://en.wikipedia.org/wiki/Candela"
                 }
             ],
+            "standard": {
+                "name": "si",
+                "year": 1983,
+                "category": "base",
+                "symbol": "cd"
+            },
             "x-optimade-definition": {
+                "label": "candela_si_1983_base",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -260,7 +300,14 @@
                     "resource-id": "https://en.wikipedia.org/wiki/Radian"
                 }
             ],
+            "standard": {
+                "name": "si",
+                "year": 1960,
+                "category": "supplementary",
+                "symbol": "rad"
+            },
             "x-optimade-definition": {
+                "label": "radian_si_1960_supplementary",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -276,11 +323,6 @@
                 "sterad"
             ],
             "description": "A supplementary SI unit of solid angle defined from the relation of the area cut out on a sphere at a given radius so that the entire sphere has a solid angle of 4\u03c0 steradians, defined at the 9th CGPM Meeting in 1948 and included into SI at the 11th CGPM Meeting in 1960.\n\nThe radian is defined at the 9th CGPM Meeting in 1948 as: \"The unit of solid angle is the steradian. The steradian is the solid angle with its vertex at the center of a sphere with a radius of one meter, which cuts out an area of one square meter on the surface of that sphere.\"\n\nThe International System of Units (SI), 9th Edition give a rephrased but equivalent definition: \"The solid angle, expressed in steradian, corresponds to the ratio between an area \\(A\\) of the surface of a sphere of radius \\(r\\) and the squared radius, \\(\\Omega = A/r^2\\) sr. One steradian corresponds to the solid angle for which \\(A = r^2\\), thus 1 sr = 1.\"\n\nThe steradian is categorized in the International System of Units (SI), 1st Edition as a supplementary SI unit.\nAt the 20th CGPM meeting in 1995, resolution 8 the categorization was changed to a dimensionless derived SI unit.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "sr"
-            },
             "resources": [
                 {
                     "relation": "Definition at the 9st CGPM meeting (1948)",
@@ -299,7 +341,14 @@
                     "resource-id": "https://en.wikipedia.org/wiki/Radian"
                 }
             ],
+            "standard": {
+                "name": "si",
+                "year": 1960,
+                "category": "supplementary",
+                "symbol": "sr"
+            },
             "x-optimade-definition": {
+                "label": "steradian_si_1960_supplementary",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -309,14 +358,9 @@
         "Hz": {
             "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/named/hertz",
             "title": "hertz",
-            "symbol": "hertz",
+            "symbol": "Hz",
             "display-symbol": "Hz",
             "description": "A derived SI unit for frequency equal to s\u207b\u00b9 in the 1967 SI units.\n\n\"The frequency of a periodic phenomenon is expressed in hertz, as the inverse of its period expressed in seconds.\" [9th CGPM meeting in 1946]\n\nThe hertz was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12 and implicitly redefined via the redefinition of the second at the 13th CGPM Meeting in 1967, resolution 1.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "hertz"
-            },
             "resources": [
                 {
                     "relation": "Definition at the 9st CGPM meeting (1948)",
@@ -339,12 +383,19 @@
                 "base-units": [
                     {
                         "symbol": "s",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     }
                 ],
                 "base-units-expression": "s^-1"
             },
+            "standard": {
+                "name": "si",
+                "year": 1967,
+                "category": "named",
+                "symbol": "Hz"
+            },
             "x-optimade-definition": {
+                "label": "hertz_si_1967_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -354,14 +405,9 @@
         "N": {
             "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/named/newton",
             "title": "newton",
-            "symbol": "newton",
+            "symbol": "N",
             "display-symbol": "N",
             "description": "The newton is a derived SI unit for force and weight equal to kg\u00b7m\u00b7s\u207b\u00b2 in 1983 SI units.\n\n\"The newton is the force that, in one second, imparts to a mass equal to one kilogram an increase in speed of one meter per second.\" [9th CGPM meeting in 1946]\n\nThe newton was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12, implicitly redefined via the redefinition of the second at the 13th CGPM Meeting in 1967, resolution 1, and again implicity redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "newton"
-            },
             "resources": [
                 {
                     "relation": "Definition and establishment of the SI unit system at the 11th CGPM meeting (1960), resolution 12.",
@@ -384,20 +430,27 @@
                 "base-units": [
                     {
                         "symbol": "kg",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/kilogram"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram"
                     },
                     {
                         "symbol": "m",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/metre"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
                     },
                     {
                         "symbol": "s",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     }
                 ],
                 "base-units-expression": "kg*m*s^-2"
             },
+            "standard": {
+                "name": "si",
+                "year": 1983,
+                "category": "named",
+                "symbol": "N"
+            },
             "x-optimade-definition": {
+                "label": "newton_si_1983_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -410,11 +463,6 @@
             "symbol": "Pa",
             "display-symbol": "Pa",
             "description": "A derived SI unit for pressure and stress equal to kg\u00b7m\u207b\u00b9\u00b7s\u207b\u00b2 using the 1983 SI units.\n\n\"The International Committee will ask the General Conference to approve two special names: pascal (symbol Pa) for the SI unit of pressure (N/m\u00b2), [...]\" [14th CGPM Meeting (1971)].\n\nThe pascal was defined at the 14th CGPM Meeting in 1971 and implicitly redefined via the redefinition of the metre at the 17th CGPM Meeting in 1983, resolution 1.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "pascal"
-            },
             "resources": [
                 {
                     "relation": "Definition at the 14th CGPM Meeting (1971)",
@@ -433,20 +481,27 @@
                 "base-units": [
                     {
                         "symbol": "kg",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/kilogram"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram"
                     },
                     {
                         "symbol": "m",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/metre"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
                     },
                     {
                         "symbol": "s",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     }
                 ],
                 "base-units-expression": "kg*m^-1*s^-2"
             },
+            "standard": {
+                "name": "si",
+                "year": 1983,
+                "category": "named",
+                "symbol": "Pa"
+            },
             "x-optimade-definition": {
+                "label": "pascal_si_1983_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -459,11 +514,6 @@
             "symbol": "J",
             "display-symbol": "J",
             "description": "A derived SI unit for energy, work, and heat equal to kg\u00b7m\u00b2\u00b7s\u207b\u00b2 in the 1967 SI units.\n\n\"The joule is the work produced by a newton whose point of application moves one meter in the direction of the force.\" [9th CGPM meeting in 1946]\n\nThe joule was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12 and implicitly redefined via the redefinition of the second at the 13th CGPM Meeting in 1967, resolution 1.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "joule"
-            },
             "resources": [
                 {
                     "relation": "Definition at the 9st CGPM meeting (1948)",
@@ -486,20 +536,27 @@
                 "base-units": [
                     {
                         "symbol": "kg",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/kilogram"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram"
                     },
                     {
                         "symbol": "m",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/metre"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre"
                     },
                     {
                         "symbol": "s",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     }
                 ],
                 "base-units-expression": "kg*m^2*s^-2"
             },
+            "standard": {
+                "name": "si",
+                "year": 1967,
+                "category": "named",
+                "symbol": "J"
+            },
             "x-optimade-definition": {
+                "label": "joule_si_1967_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -534,20 +591,27 @@
                 "base-units": [
                     {
                         "symbol": "kg",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/kilogram"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram"
                     },
                     {
                         "symbol": "m",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/meter"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre"
                     },
                     {
                         "symbol": "s",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     }
                 ],
                 "base-units-expression": "kg*m^2*s^-3"
             },
+            "standard": {
+                "name": "si",
+                "year": 1967,
+                "category": "named",
+                "symbol": "W"
+            },
             "x-optimade-definition": {
+                "label": "watt_si_1967_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -557,14 +621,9 @@
         "C": {
             "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/named/coulomb",
             "title": "coulomb",
-            "symbol": "coulomb",
+            "symbol": "C",
             "display-symbol": "C",
             "description": "A derived SI unit for electric charge equal to s\u00b7A in the 1967 SI base units.\n\n\"The coulomb is the amount of electricity transported in one second by a current of one ampere.\" [9th CGPM meeting in 1946]\n\nThe coulomb was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12 and implicitly redefined via the redefinition of the second at the 13th CGPM Meeting in 1967, resolution 1.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "coulomb"
-            },
             "resources": [
                 {
                     "relation": "Definition at the 9st CGPM meeting (1948)",
@@ -587,16 +646,23 @@
                 "base-units": [
                     {
                         "symbol": "s",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     },
                     {
                         "symbol": "A",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/ampere"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/ampere"
                     }
                 ],
                 "base-units-expression": "A*s"
             },
+            "standard": {
+                "name": "si",
+                "year": 1967,
+                "category": "named",
+                "symbol": "C"
+            },
             "x-optimade-definition": {
+                "label": "coulomb_si_1967_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -606,14 +672,9 @@
         "V": {
             "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/named/volt",
             "title": "volt",
-            "symbol": "volt",
+            "symbol": "V",
             "display-symbol": "V",
             "description": "A derived SI unit for electric potential, voltage, and electromotive force equal to kg\u00b7m\u00b2\u00b7s\u207b\u00b3\u00b7A\u207b\u00b9 in the 1983 SI units.\n\n\"The volt is the electric potential difference that exists between two points of a conducting wire carrying a constant current of one ampere when the power dissipated between these points is equal to one watt.\" [9th CGPM meeting in 1946]\n\nThe volt was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12 and implicitly redefined via the redefinition of the second at the 13th CGPM Meeting in 1967, resolution 1, and again redefined via the redefinition of the metre at the 17th CGPM Meeting in 1983, resolution 1.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "V"
-            },
             "resources": [
                 {
                     "relation": "Definition and establishment of the SI unit system at the 11th CGPM meeting (1960), resolution 12.",
@@ -636,24 +697,31 @@
                 "base-units": [
                     {
                         "symbol": "kg",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/kilogram"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram"
                     },
                     {
                         "symbol": "m",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/metre"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
                     },
                     {
                         "symbol": "s",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     },
                     {
                         "symbol": "A",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/ampere"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/ampere"
                     }
                 ],
                 "base-units-expression": "A^-1*kg*m^2*s^-3"
             },
+            "standard": {
+                "name": "si",
+                "year": 1983,
+                "category": "named",
+                "symbol": "V"
+            },
             "x-optimade-definition": {
+                "label": "volt_si_1983_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -663,14 +731,9 @@
         "F": {
             "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/named/farad",
             "title": "farad",
-            "symbol": "farad",
+            "symbol": "F",
             "display-symbol": "F",
             "description": "A derived SI unit for electrical capacitance equal to kg\u207b\u00b9\u00b7m\u207b\u00b2\u00b7s\u2074\u00b7A\u00b2 in the 1967 SI units.\n\n\"The farad is the capacitance of an electric capacitor between whose plates an electric potential difference of one volt appears when it is charged with an amount of electricity equal to one coulomb.\" [9th CGPM meeting in 1946]\n\nThe farad was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12m implicitly redefined via the redefinition of the second at the 13th CGPM Meeting in 1967, resolution 1, and again implicity redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "farad"
-            },
             "resources": [
                 {
                     "relation": "Definition and establishment of the SI unit system at the 11th CGPM meeting (1960), resolution 12.",
@@ -693,24 +756,31 @@
                 "base-units": [
                     {
                         "symbol": "A",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/ampere"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/ampere"
                     },
                     {
                         "symbol": "kg",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/kilogram"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram"
                     },
                     {
                         "symbol": "m",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/metre"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
                     },
                     {
                         "symbol": "s",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     }
                 ],
                 "base-units-expression": "A^2*kg^-1*m^-2*s^4"
             },
+            "standard": {
+                "name": "si",
+                "year": 1983,
+                "category": "named",
+                "symbol": "F"
+            },
             "x-optimade-definition": {
+                "label": "farad_si_1983_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -723,11 +793,6 @@
             "symbol": "ohm",
             "display-symbol": "\u03a9",
             "description": "A derived SI unit for electrical resistance equal to kg\u00b7m\u00b2\u00b7s\u207b\u00b3\u00b7A\u207b\u00b2 in the 1983 SI units.\n\n\"The ohm is the electrical resistance that exists between two points of a conductor when a constant potential difference of one volt, applied between these two points, produces a current of one ampere in the conductor, provided that the conductor is not the seat of any electromotive force.\" [9th CGPM meeting in 1946]\n\nThe ohm was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12, implicitly redefined via the redefinition of the second at the 13th CGPM Meeting in 1967, resolution 1, and again implicity redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "ohm"
-            },
             "resources": [
                 {
                     "relation": "Definition at the 9st CGPM meeting (1948)",
@@ -754,24 +819,31 @@
                 "base-units": [
                     {
                         "symbol": "A",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/ampere"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/ampere"
                     },
                     {
                         "symbol": "kg",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/kilogram"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram"
                     },
                     {
                         "symbol": "m",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/metre"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
                     },
                     {
                         "symbol": "s",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     }
                 ],
                 "base-units-expression": "A^-2*kg*m^2*s^-3"
             },
+            "standard": {
+                "name": "si",
+                "year": 1983,
+                "category": "named",
+                "symbol": "ohm"
+            },
             "x-optimade-definition": {
+                "label": "ohm_si_1983_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -784,11 +856,6 @@
             "symbol": "S",
             "display-symbol": "S",
             "description": "A derived SI unit for electrical conductance equal to kg\u207b\u00b9\u00b7m\u207b\u00b2\u00b7s\u00b3\u00b7A\u00b2 using the 1983 SI base units.\n\n\"The International Committee will ask the General Conference to approve two special names: [...] siemens (symbol S) for the SI unit of conductance (\u03a9\u207b\u00b9).\" [14th CGPM Meeting (1971)].\n\nThe siemens was defined at the 14th CGPM Meeting in 1971 and implicitly redefined via the redefinition of the meter at the 17th CGPM Meeting in 1983, resolution 1.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "siemens"
-            },
             "resources": [
                 {
                     "relation": "Definition at the 14th CGPM Meeting (1971)",
@@ -807,24 +874,31 @@
                 "base-units": [
                     {
                         "symbol": "A",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/ampere"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/ampere"
                     },
                     {
                         "symbol": "kg",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/kilogram"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram"
                     },
                     {
                         "symbol": "m",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/metre"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
                     },
                     {
                         "symbol": "s",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     }
                 ],
                 "base-units-expression": "A^2*kg^-1*m^-2*s^3"
             },
+            "standard": {
+                "name": "si",
+                "year": 1983,
+                "category": "named",
+                "symbol": "S"
+            },
             "x-optimade-definition": {
+                "label": "siemens_si_1983_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -834,14 +908,9 @@
         "Wb": {
             "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/named/weber",
             "title": "weber",
-            "symbol": "weber",
+            "symbol": "Wb",
             "display-symbol": "Wb",
             "description": "A derived SI unit for magnetic flux equal to kg\u00b7m\u00b2\u00b7s\u207b\u00b3\u00b7A\u207b\u00b9 in the 1983 SI units.\n\n\"The weber is the magnetic induction flux that, passing through a single-turn circuit, produces an electromotive force of one volt if it is reduced to zero in one second by uniform decay.\" [9th CGPM meeting in 1946]\n\nThe weber was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12, implicitly redefined via the redefinition of the second at the 13th CGPM Meeting in 1967, resolution 1, and again implicity redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "weber"
-            },
             "resources": [
                 {
                     "relation": "Definition at the 41st CIPM meeting (1946), resolution 2",
@@ -868,24 +937,31 @@
                 "base-units": [
                     {
                         "symbol": "A",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/ampere"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/ampere"
                     },
                     {
                         "symbol": "kg",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/kilogram"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram"
                     },
                     {
                         "symbol": "m",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/metre"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
                     },
                     {
                         "symbol": "s",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     }
                 ],
                 "base-units-expression": "ampere^-1*kg*m^2*s^-3"
             },
+            "standard": {
+                "name": "si",
+                "year": 1983,
+                "category": "named",
+                "symbol": "Wb"
+            },
             "x-optimade-definition": {
+                "label": "weber_si_1983_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -895,14 +971,9 @@
         "T": {
             "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/named/tesla",
             "title": "tesla",
-            "symbol": "tesla",
+            "symbol": "T",
             "display-symbol": "T",
             "description": "A derived SI unit for magnetic flux density equal to kg\u00b7s\u207b\u00b2\u00b7A\u207b\u00b9 in the 1967 SI units.\n\nThe tesla was defined as 1 Wb/m in the introduction of the SI unit system the 11th CGPM Meeting in 1960, resolution 12 and implicitly redefined via the redefinition of the second at the 13th CGPM Meeting in 1967, resolution 1.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "tesla"
-            },
             "resources": [
                 {
                     "relation": "Definition and establishment of the SI unit system at the 11th CGPM meeting (1960), resolution 12.",
@@ -917,20 +988,27 @@
                 "base-units": [
                     {
                         "symbol": "A",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/ampere"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/ampere"
                     },
                     {
                         "symbol": "kg",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/kilogram"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram"
                     },
                     {
                         "symbol": "s",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     }
                 ],
                 "base-units-expression": "A^-1*kg*s^-2"
             },
+            "standard": {
+                "name": "si",
+                "year": 1967,
+                "category": "named",
+                "symbol": "T"
+            },
             "x-optimade-definition": {
+                "label": "tesla_si_1967_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -943,11 +1021,6 @@
             "symbol": "H",
             "display-symbol": "H",
             "description": "A derived SI unit for inductance equal to kg\u00b7m\u00b2\u00b7s\u207b\u00b2\u00b7A\u207b\u00b2 in the 1983 SI units.\n\n\"The henry is the inductance of a closed circuit in which an electromotive force of one volt is produced when the electric current passing through the circuit varies uniformly at a rate of one ampere per second.\" [9th CGPM meeting in 1946]\n\nThe henry was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12, implicitly redefined via the redefinition of the second at the 13th CGPM Meeting in 1967, resolution 1, and again implicity redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "henry"
-            },
             "resources": [
                 {
                     "relation": "Definition and establishment of the SI unit system at the 11th CGPM meeting (1960), resolution 12.",
@@ -970,24 +1043,31 @@
                 "base-units": [
                     {
                         "symbol": "A",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/ampere"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/ampere"
                     },
                     {
                         "symbol": "kg",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/kilogram"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram"
                     },
                     {
                         "symbol": "m",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/metre"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
                     },
                     {
                         "symbol": "s",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     }
                 ],
                 "base-units-expression": "A^-2*kg*m^2*s^-2"
             },
+            "standard": {
+                "name": "si",
+                "year": 1983,
+                "category": "named",
+                "symbol": "H"
+            },
             "x-optimade-definition": {
+                "label": "henry_si_1983_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1003,11 +1083,6 @@
                 "degcelsius"
             ],
             "description": "A derived SI unit of temperature, defined as degree kelvin offset with +273.15 in 1967 SI units.\n\n\"If we add to the practical international Celsius temperatures defined above T\u2080 = 273.15 degrees, we obtain the practical international Kelvin temperatures. By subtracting T\u2080 from the thermodynamic temperatures, we obtain the thermodynamic Celsius temperatures.\" [11th CGPM meeting (1960)]\n\nThe degree Celsius was defined and included in SI at the 11th CGPM meeting in 1960, resolution 12 and implicitly redefined via the redefinition of the kelvin at the 13th CGPM Meeting in 1967, resolution 4.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "degcelsius"
-            },
             "resources": [
                 {
                     "relation": "Redefinition of the kelvin at the 13th CGPM meeting (1967), resolution 4",
@@ -1026,7 +1101,7 @@
                 "base-units": [
                     {
                         "symbol": "degK",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/kelvin"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/kelvin"
                     }
                 ],
                 "base-units-expression": "degK",
@@ -1035,7 +1110,14 @@
                     "denominator": 100
                 }
             },
+            "standard": {
+                "name": "si",
+                "year": 1967,
+                "category": "named",
+                "symbol": "degC"
+            },
             "x-optimade-definition": {
+                "label": "degcelsius_si_1967_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1048,11 +1130,6 @@
             "symbol": "lm",
             "display-symbol": "lm",
             "description": "A derived SI unit for luminous flux equal to cd\u00b7sr using the 1983 SI units.\n\n\"The lumen is the luminous flux emitted in a steradian by a uniform point source with a luminous intensity of one candela.\" [9th CGPM meeting in 1946]\n\nThe lumen was defined at the 9th CGPM meeting in 1946, implicitly redefined via the redefinition of the second at the 13th CGPM Meeting in 1967, resolution 1, and the redefinition of the candela at the 16th CGPM Meeting in 1979, resolution 3.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "lumen"
-            },
             "resources": [
                 {
                     "relation": "Definition and establishment of the SI unit system at the 11th CGPM meeting (1960), resolution 12.",
@@ -1075,16 +1152,23 @@
                 "base-units": [
                     {
                         "symbol": "cd",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1979/base/candela"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1979/base/candela"
                     },
                     {
                         "symbol": "sr",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1960/supplementary/steradian"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/steradian"
                     }
                 ],
                 "base-units-expression": "cd*sr"
             },
+            "standard": {
+                "name": "si",
+                "year": 1979,
+                "category": "named",
+                "symbol": "lm"
+            },
             "x-optimade-definition": {
+                "label": "lumen_si_1979_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1097,11 +1181,6 @@
             "symbol": "lx",
             "display-symbol": "lx",
             "description": "A derived SI unit for illuminance equal to cd\u22c5sr\u22c5m\u207b\u00b2 in 1983 SI units.\n\n\"The lux is the illuminance of a surface that receives a uniformly distributed luminous flux of one lumen per square meter.\" [9th CGPM meeting in 1946]\n\nThe lux was defined at the 9th CGPM meeting in 1946, and implicitly redefined via the redefinitions of the second at the 13th CGPM Meeting in 1967, resolution 1, the candela at the 16th CGPM Meeting in 1979, resolution 3, and the metre at the 17th CGPM meeting (1983), resolution 1.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "lux"
-            },
             "resources": [
                 {
                     "relation": "Definition at the 9st CGPM meeting (1948)",
@@ -1132,20 +1211,27 @@
                 "base-units": [
                     {
                         "symbol": "cd",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/candela"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/candela"
                     },
                     {
                         "symbol": "sr",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1960/supplementary/steradian"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/steradian"
                     },
                     {
                         "symbol": "m",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/metre"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
                     }
                 ],
                 "base-units-expression": "cd*m^-2*sr"
             },
+            "standard": {
+                "name": "si",
+                "year": 1983,
+                "category": "named",
+                "symbol": "lx"
+            },
             "x-optimade-definition": {
+                "label": "lux_si_1983_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1158,11 +1244,6 @@
             "symbol": "Bq",
             "display-symbol": "Bq",
             "description": "A derived SI unit for radioactivity, defined as s\u207b\u00b9 using the 1967 SI second, defined at the 15th CGPM Meeting in 1975.\n\n\"The 15th Conf\u00e9rence G\u00e9n\u00e9rale des Poids et Mesures, [...] adopts the following special name for the SI unit of activity: becquerel, symbol Bq, equal to one reciprocal second.\" [15th CGPM Meeting (1975)]",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "becquerel"
-            },
             "resources": [
                 {
                     "relation": "Definition at the 15th CGPM Meeting (1975)",
@@ -1177,12 +1258,19 @@
                 "base-units": [
                     {
                         "symbol": "s",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     }
                 ],
                 "base-units-expression": "s^-1"
             },
+            "standard": {
+                "name": "si",
+                "year": 1975,
+                "category": "named",
+                "symbol": "Bq"
+            },
             "x-optimade-definition": {
+                "label": "becquerel_si_1975_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1195,11 +1283,6 @@
             "symbol": "Gy",
             "display-symbol": "Gy",
             "description": "A derived SI unit for absorbed dose of ionizing radiation equal to m\u00b2\u00b7s\u207b\u00b2 using the 1983 SI units.\n\n\"The 15th Conf\u00e9rence G\u00e9n\u00e9rale des Poids et Mesures, [...] adopts the following special name for the SI unit of ionizing radiation: gray, symbol Gy, equal to one joule per kilogram.\" [15th CGPM Meeting (1975)]\n\nThe gray was defined at the 15th CGPM Meeting in 1975, and implicitly redefined via the redefinition of the meter at the 17th CGPM Meeting in 1983, resolution 1.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "gray"
-            },
             "resources": [
                 {
                     "relation": "Definition at the 15th CGPM Meeting (1975)",
@@ -1218,16 +1301,23 @@
                 "base-units": [
                     {
                         "symbol": "m",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/metre"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
                     },
                     {
                         "symbol": "s",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     }
                 ],
                 "base-units-expression": "m^2*s^-2"
             },
+            "standard": {
+                "name": "si",
+                "year": 1983,
+                "category": "named",
+                "symbol": "Gy"
+            },
             "x-optimade-definition": {
+                "label": "gray_si_1983_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1240,11 +1330,6 @@
             "symbol": "Sv",
             "display-symbol": "Sv",
             "description": "A derived SI unit for equivalent dose of ionizing radiation equal to m\u00b2\u00b7s\u207b\u00b2 using the 1983 SI base units.\n\n\"The 16th Conf\u00e9rence G\u00e9n\u00e9rale des Poids et Mesures, [...] adopts the special name sievert, symbol Sv, for the SI unit of dose equivalent in the field of radioprotection. The sievert is equal to the joule per kilogram.\" [16th CGPM meeting (1979), resolution 5]\n\nThe sievert was defined at the 16th CGPM meeting in 1979 and implicitly redefined via the redefinition of the meter at the 17th CGPM Meeting in 1983, resolution 1.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "sievert"
-            },
             "resources": [
                 {
                     "relation": "Definition at the 16th CGPM meeting (1979), resolution 5",
@@ -1263,16 +1348,23 @@
                 "base-units": [
                     {
                         "symbol": "m",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/metre"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre"
                     },
                     {
                         "symbol": "s",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     }
                 ],
                 "base-units-expression": "m^2*s^-2"
             },
+            "standard": {
+                "name": "si",
+                "year": 1983,
+                "category": "named",
+                "symbol": "Sv"
+            },
             "x-optimade-definition": {
+                "label": "sievert_si_1983_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1282,16 +1374,11 @@
     },
     "prefixes": {
         "Y": {
-            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/prefixes/yotta",
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/yotta",
             "title": "yotta",
             "symbol": "Y",
             "display-symbol": "Y",
             "description": "The yotta SI prefix defined as a dimensionless multiple of 10\u00b2\u2074, defined at the 19:th CGPM Meeting in 1991, resolution 4.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "yotta"
-            },
             "resources": [
                 {
                     "relation": "Definition in the 19:th CGPM Meeting in 1991, resolution 4",
@@ -1310,6 +1397,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "yotta_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1317,16 +1405,11 @@
             }
         },
         "Z": {
-            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/prefixes/zetta",
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/zetta",
             "title": "zetta",
             "symbol": "Z",
             "display-symbol": "Z",
             "description": "The zetta SI prefix defined as a dimensionless multiple of 10\u00b2\u00b9, defined at the 19:th CGPM Meeting in 1991, resolution 4.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "zetta"
-            },
             "resources": [
                 {
                     "relation": "Definition in the 19:th CGPM Meeting in 1991, resolution 4",
@@ -1345,6 +1428,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "zetta_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1352,16 +1436,11 @@
             }
         },
         "E": {
-            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/prefixes/exa",
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/exa",
             "title": "exa",
             "symbol": "E",
             "display-symbol": "E",
             "description": "The exa SI prefix defined as a dimensionless multiple of 10\u00b9\u2078, defined at the 15th CGPM Meeting in 1975, resolution 10.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "exa"
-            },
             "resources": [
                 {
                     "relation": "Definition in the 15th CGPM Meeting in 1975, resolution 10",
@@ -1380,6 +1459,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "exa_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1387,16 +1467,11 @@
             }
         },
         "P": {
-            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/prefixes/peta",
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/peta",
             "title": "peta",
             "symbol": "P",
             "display-symbol": "P",
             "description": "The peta SI prefix defined as a dimensionless multiple of 10\u00b9\u2075, defined at the 15th CGPM Meeting in 1975, resolution 10.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "peta"
-            },
             "resources": [
                 {
                     "relation": "Definition in the 15th CGPM Meeting in 1975, resolution 10",
@@ -1415,6 +1490,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "peta_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1422,16 +1498,11 @@
             }
         },
         "T": {
-            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/prefixes/tera",
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/tera",
             "title": "tera",
             "symbol": "T",
             "display-symbol": "T",
             "description": "The tera SI prefix defined as a dimensionless multiple of 10\u00b9\u00b2, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "tera"
-            },
             "resources": [
                 {
                     "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
@@ -1450,6 +1521,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "tera_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1457,16 +1529,11 @@
             }
         },
         "G": {
-            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/prefixes/giga",
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/giga",
             "title": "giga",
             "symbol": "G",
             "display-symbol": "G",
             "description": "The giga SI prefix defined as a dimensionless multiple of 10\u2079, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "giga"
-            },
             "resources": [
                 {
                     "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
@@ -1485,6 +1552,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "giga_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1492,16 +1560,11 @@
             }
         },
         "M": {
-            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/prefixes/mega",
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/mega",
             "title": "mega",
             "symbol": "M",
             "display-symbol": "M",
             "description": "The mega SI prefix defined as a dimensionless multiple of 10\u2076, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "mega"
-            },
             "resources": [
                 {
                     "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
@@ -1520,6 +1583,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "mega_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1527,16 +1591,11 @@
             }
         },
         "k": {
-            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/prefixes/kilo",
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/kilo",
             "title": "kilo",
             "symbol": "k",
             "display-symbol": "k",
             "description": "The kilo SI prefix defined as a dimensionless multiple of 10\u00b3, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "kilo"
-            },
             "resources": [
                 {
                     "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
@@ -1555,6 +1614,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "kilo_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1562,16 +1622,11 @@
             }
         },
         "h": {
-            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/prefixes/hecto",
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/hecto",
             "title": "hecto",
             "symbol": "h",
             "display-symbol": "h",
             "description": "The hecto SI prefix defined as a dimensionless multiple of 10\u00b2, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "hecto"
-            },
             "resources": [
                 {
                     "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
@@ -1590,6 +1645,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "hecto_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1597,16 +1653,11 @@
             }
         },
         "da": {
-            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/prefixes/deca",
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/deca",
             "title": "deca",
             "symbol": "da",
             "display-symbol": "da",
             "description": "The deca SI prefix defined as a dimensionless multiple of 10, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "deca"
-            },
             "resources": [
                 {
                     "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
@@ -1625,6 +1676,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "deca_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1632,16 +1684,11 @@
             }
         },
         "d": {
-            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/prefixes/deci",
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/deci",
             "title": "deci",
             "symbol": "d",
             "display-symbol": "d",
             "description": "The deci SI prefix defined as a dimensionless multiple of 10\u207b\u00b9, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "deci"
-            },
             "resources": [
                 {
                     "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
@@ -1660,6 +1707,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "deci_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1667,16 +1715,11 @@
             }
         },
         "c": {
-            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/prefixes/centi",
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/centi",
             "title": "centi",
             "symbol": "c",
             "display-symbol": "c",
             "description": "The centi SI prefix defined as a dimensionless multiple of 10\u207b\u00b2, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "centi"
-            },
             "resources": [
                 {
                     "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
@@ -1695,6 +1738,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "centi_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1702,16 +1746,11 @@
             }
         },
         "m": {
-            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/prefixes/milli",
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/milli",
             "title": "milli",
             "symbol": "m",
             "display-symbol": "m",
             "description": "The milli SI prefix defined as a dimensionless multiple of 10\u207b\u00b3, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "milli"
-            },
             "resources": [
                 {
                     "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
@@ -1730,6 +1769,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "milli_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1737,16 +1777,11 @@
             }
         },
         "mc": {
-            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/prefixes/micro",
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/micro",
             "title": "micro",
             "symbol": "mc",
             "display-symbol": "\u03bc",
-            "description": "The micro SI prefix defined as a dimensionless multiple of 10\u207b\u2076, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.\n\nThe micro SI prefix is the only one using a non Latin symbol.\nBased on the recommendation of the ISMP List of Error-Prone Abbreviations, Symbols, and Dose Designations to use mcg in place of \u03bcg, mc is used for a symbol for micro using the Latin alphabet.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "micro"
-            },
+            "description": "The micro SI prefix defined as a dimensionless multiple of 10\u207b\u2076, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.\n\nThe micro SI prefix is the only one using a non Latin symbol.\nBased on the recommendation of the ISMP List of Error-Prone Abbreviations, Symbols, and Dose Designations to use mcg in place of \u03bcg, i.e., mc is used as the symbol for micro using the Latin alphabet.",
             "resources": [
                 {
                     "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
@@ -1769,6 +1804,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "micro_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1776,16 +1812,11 @@
             }
         },
         "n": {
-            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/prefixes/nano",
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/nano",
             "title": "nano",
             "symbol": "n",
             "display-symbol": "n",
             "description": "The nano SI prefix defined as a dimensionless multiple of 10\u207b\u2079, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "nano"
-            },
             "resources": [
                 {
                     "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
@@ -1804,6 +1835,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "nano_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1811,16 +1843,11 @@
             }
         },
         "p": {
-            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/prefixes/pico",
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/pico",
             "title": "pico",
             "symbol": "p",
             "display-symbol": "p",
             "description": "The pico SI prefix defined as a dimensionless multiple of 10\u207b\u00b9\u00b2, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "pico"
-            },
             "resources": [
                 {
                     "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
@@ -1839,6 +1866,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "pico_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1846,16 +1874,11 @@
             }
         },
         "f": {
-            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/prefixes/femto",
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/femto",
             "title": "femto",
             "symbol": "f",
             "display-symbol": "f",
             "description": "The femto SI prefix defined as a dimensionless multiple of 10\u207b\u00b9\u2075, defined at the 12:th CGPM Meeting in 1964, resolution 8.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "femto"
-            },
             "resources": [
                 {
                     "relation": "Definition in the 12th CGPM Meeting in 1964, resolution 8",
@@ -1874,6 +1897,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "femto_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1881,16 +1905,11 @@
             }
         },
         "a": {
-            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/prefixes/atto",
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/atto",
             "title": "atto",
             "symbol": "a",
             "display-symbol": "a",
             "description": "The atto SI prefix defined as a dimensionless multiple of 10\u207b\u00b9\u2078, defined at the 12:th CGPM Meeting in 1964, resolution 8.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "atto"
-            },
             "resources": [
                 {
                     "relation": "Definition in the 12th CGPM Meeting in 1964, resolution 8",
@@ -1909,6 +1928,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "atto_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1916,16 +1936,11 @@
             }
         },
         "z": {
-            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/prefixes/zepto",
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/zepto",
             "title": "zepto",
             "symbol": "z",
             "display-symbol": "z",
             "description": "The zepto SI prefix defined as a dimensionless multiple of 10\u207b\u00b2\u00b9, defined at the 19:th CGPM Meeting in 1991, resolution 4.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "zepto"
-            },
             "resources": [
                 {
                     "relation": "Definition in the 19:th CGPM Meeting in 1991, resolution 4",
@@ -1944,6 +1959,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "zepto_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1951,16 +1967,11 @@
             }
         },
         "y": {
-            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/prefixes/yocto",
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/yocto",
             "title": "yocto",
             "symbol": "y",
             "display-symbol": "y",
             "description": "The yocto SI prefix defined as a dimensionless multiple of 10\u207b\u00b2\u2074, defined at the 19:th CGPM Meeting in 1991, resolution 4.",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "yocto"
-            },
             "resources": [
                 {
                     "relation": "Definition in the 19:th CGPM Meeting in 1991, resolution 4",
@@ -1979,6 +1990,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "yocto_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",

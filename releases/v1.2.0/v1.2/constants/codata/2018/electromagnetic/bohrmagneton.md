@@ -59,7 +59,14 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
             "standard_uncertainty": 2.8e-34
         }
     },
+    "standard": {
+        "name": "codata",
+        "year": 2018,
+        "category": "electromagnetic",
+        "symbol": "\\(\\mu_B\\)"
+    },
     "x-optimade-definition": {
+        "label": "bohrmagneton_constant_codata_2018_electromagnetic",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

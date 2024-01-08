@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/cartesian_site_positions`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/cartesian_site_positions)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/cartesian_site_positions`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/cartesian_site_positions.md)**  
 **Definition name:** `cartesian_site_positions`
 
 **Property name:** Cartesian site positions  
@@ -35,6 +35,7 @@ A site is usually used to describe positions of atoms; what atoms can be encount
     "title": "Cartesian site positions",
     "x-optimade-type": "list",
     "x-optimade-definition": {
+        "label": "cartesian_site_positions_optimade_structures",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",
@@ -46,16 +47,11 @@ A site is usually used to describe positions of atoms; what atoms can be encount
             "title": "\u00e5ngstr\u00f6m",
             "symbol": "angstrom",
             "display-symbol": "\u00c5",
-            "description": "A unit of length equal to 10\u207b\u00b9\u2070 meter, using the current, or one of the historical, definitions of the SI units.\n\nThe \u00e5ngstr\u00f6m appear in the International System of Units (SI), 1th ed. (1970) defined as \"1 \u00c5 = 0.1 nm = 10\u207b\u00b9\u2070 m\".\n\nThe \u00e5ngstr\u00f6m was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.\n\nThe International System of Units (SI), 1th ed. (1970) categorizes the unit as \"temporarily admitted\" for use with the SI units.\nThe International System of Units (SI), 7th ed. (1998) changes the categorisation to \"Other non-SI units currently accepted for use with the International System.\"\nThe International System of Units (SI), 8th ed. (2006) changes the categorization to \"Other non-SI units\" and adds as a clarifying footnote \"The \u00e5ngstr\u00f6m is widely used by x-ray crystallographers and structural chemists because all chemical bonds lie in the range 1 to 3 \u00e5ngstr\u00f6ms. However it has no official sanction from the CIPM or the CGPM.\"\nThe \u00e5ngstr\u00f6m is omitted in the International System of Units (SI), 9th Edition (2019).\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
+            "description": "A unit of length equal to 10\u207b\u00b9\u2070 meter, using the current, or one of the historical, definitions of the SI units.\n\nThe \u00e5ngstr\u00f6m appear in the International System of Units (SI), 1th ed. (1970) defined as \"1 \u00c5 = 0.1 nm = 10\u207b\u00b9\u2070 m\".\n\nThe \u00e5ngstr\u00f6m was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.\n\n- The International System of Units (SI), 1th ed. (1970) categorizes the unit as \"temporarily admitted\" for use with the SI units.\n- The International System of Units (SI), 7th ed. (1998) changes the categorisation to \"Other non-SI units currently accepted for use with the International System.\"\n- The International System of Units (SI), 8th ed. (2006) changes the categorization to \"Other non-SI units\" and adds as a clarifying footnote \"The \u00e5ngstr\u00f6m is widely used by x-ray crystallographers and structural chemists because all chemical bonds lie in the range 1 to 3 \u00e5ngstr\u00f6ms. However it has no official sanction from the CIPM or the CGPM.\"\n- The \u00e5ngstr\u00f6m is omitted in the International System of Units (SI), 9th Edition (2019).\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
             "compatibility": [
-                "https://schemas.optimade.org/units/v1.2/si/1970/temporary/angstrom",
-                "https://schemas.optimade.org/units/v1.2/si/1983/temporary/angstrom"
+                "https://schemas.optimade.org/defs/v1.2/units/si/1970/temporary/angstrom",
+                "https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/angstrom"
             ],
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "angstrom"
-            },
             "resources": [
                 {
                     "relation": "Definition in the International System of Units (SI), 1th Edition",
@@ -74,7 +70,7 @@ A site is usually used to describe positions of atoms; what atoms can be encount
                 "base-units": [
                     {
                         "symbol": "m",
-                        "id": "https://schema.optimade.org/units/si/general/metre"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/general/metre"
                     }
                 ],
                 "base-units-expression": "m",
@@ -83,6 +79,7 @@ A site is usually used to describe positions of atoms; what atoms can be encount
                 }
             },
             "x-optimade-definition": {
+                "label": "angstrom_si_general",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -90,6 +87,16 @@ A site is usually used to describe positions of atoms; what atoms can be encount
             }
         }
     ],
+    "x-optimade-dimensions": {
+        "names": [
+            "dim_sites",
+            "dim_spatial"
+        ],
+        "sizes": [
+            null,
+            3
+        ]
+    },
     "type": [
         "array",
         "null"
@@ -112,6 +119,14 @@ A site is usually used to describe positions of atoms; what atoms can be encount
     "x-optimade-unit": "inapplicable",
     "items": {
         "x-optimade-type": "list",
+        "x-optimade-dimensions": {
+            "names": [
+                "dim_spatial"
+            ],
+            "sizes": [
+                3
+            ]
+        },
         "type": [
             "array"
         ],

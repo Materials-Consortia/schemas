@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/common/element`](https://schemas.optimade.org/defs/v1.2/properties/optimade/common/element)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/common/element`](https://schemas.optimade.org/defs/v1.2/properties/optimade/common/element.md)**  
 **Definition name:** `element`
 
 **Property name:** Element  
@@ -28,6 +28,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "Element",
     "x-optimade-type": "string",
     "x-optimade-definition": {
+        "label": "element_optimade_common",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",

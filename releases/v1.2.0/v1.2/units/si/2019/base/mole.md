@@ -46,7 +46,14 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
             "resource-id": "https://en.wikipedia.org/wiki/Mole_(unit)"
         }
     ],
+    "standard": {
+        "name": "si",
+        "year": 2019,
+        "category": "base",
+        "symbol": "mol"
+    },
     "x-optimade-definition": {
+        "label": "mole_si_2019_base",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

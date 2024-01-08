@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/atime`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/atime)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/atime`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/atime.md)**  
 **Definition name:** `atime`
 
 **Property name:** Access time  
@@ -26,6 +26,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "Access time",
     "x-optimade-type": "timestamp",
     "x-optimade-definition": {
+        "label": "atime_optimade_files",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",

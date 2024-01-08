@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/dimension_types`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/dimension_types)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/dimension_types`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/dimension_types.md)**  
 **Definition name:** `dimension_types`
 
 **Property name:** Dimension types  
@@ -38,10 +38,16 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "Dimension types",
     "x-optimade-type": "list",
     "x-optimade-definition": {
+        "label": "dimension_types_optimade_structures",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",
         "name": "dimension_types"
+    },
+    "x-optimade-dimensions": {
+        "names": [
+            "dim_lattice"
+        ]
     },
     "type": [
         "array",

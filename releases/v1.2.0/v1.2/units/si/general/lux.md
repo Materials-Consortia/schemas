@@ -42,11 +42,11 @@ This definition is intended for situations when it is not possible to be more pr
     "display-symbol": "lx",
     "description": "A derived SI unit for illuminance equal to cd\u22c5sr\u22c5m\u207b\u00b2 using the current, or one of the historical, definitions of the SI units.\n\n\"The lux is the illuminance of a surface that receives a uniformly distributed luminous flux of one lumen per square meter.\" [9th CGPM meeting in 1946]\n\nThe lux was defined at the 9th CGPM meeting in 1946, and implicitly redefined via the redefinitions of the second at the 13th CGPM Meeting in 1967, resolution 1, the candela at the 16th CGPM Meeting in 1979, resolution 3, the metre at the 17th CGPM meeting (1983), resolution 1, and the candela (implicitly redefined via the kilogram) at the 26th CGPM Meeting (2018), resolution 1.\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
     "compatibility": [
-        "https://schemas.optimade.org/units/v1.2/si/1960/named/lux",
-        "https://schemas.optimade.org/units/v1.2/si/1967/named/lux",
-        "https://schemas.optimade.org/units/v1.2/si/1979/named/lux",
-        "https://schemas.optimade.org/units/v1.2/si/1983/named/lux",
-        "https://schemas.optimade.org/units/v1.2/si/2019/named/lux"
+        "https://schemas.optimade.org/defs/v1.2/units/si/1960/named/lux",
+        "https://schemas.optimade.org/defs/v1.2/units/si/1967/named/lux",
+        "https://schemas.optimade.org/defs/v1.2/units/si/1979/named/lux",
+        "https://schemas.optimade.org/defs/v1.2/units/si/1983/named/lux",
+        "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/lux"
     ],
     "resources": [
         {
@@ -82,20 +82,21 @@ This definition is intended for situations when it is not possible to be more pr
         "base-units": [
             {
                 "symbol": "cd",
-                "id": "https://schemas.optimade.org/units/v1.2/si/general/candela"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/general/candela"
             },
             {
                 "symbol": "sr",
-                "id": "https://schemas.optimade.org/units/v1.2/si/general/steradian"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/general/steradian"
             },
             {
                 "symbol": "m",
-                "id": "https://schemas.optimade.org/units/v1.2/si/general/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/general/metre"
             }
         ],
         "base-units-expression": "cd*m^-2*sr"
     },
     "x-optimade-definition": {
+        "label": "lux_si_general",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

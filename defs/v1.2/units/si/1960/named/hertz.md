@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1960/named/hertz`](https://schemas.optimade.org/defs/v1.2/units/si/1960/named/hertz)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1960/named/hertz`](https://schemas.optimade.org/defs/v1.2/units/si/1960/named/hertz.md)**  
 **Definition name:** `hertz`
 
 **Unit name:** hertz  
@@ -32,11 +32,6 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
     "symbol": "Hz",
     "display-symbol": "Hz",
     "description": "A derived SI unit for frequency equal to s\u207b\u00b9 in the 1960 SI base units.\n\n\"The frequency of a periodic phenomenon is expressed in hertz, as the inverse of its period expressed in seconds.\" [9th CGPM meeting in 1946]",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "hertz"
-    },
     "resources": [
         {
             "relation": "Definition at the 9st CGPM meeting (1948)",
@@ -55,12 +50,19 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
         "base-units": [
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/s"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/second"
             }
         ],
         "base-units-expression": "s^-1"
     },
+    "standard": {
+        "name": "si",
+        "year": 1960,
+        "category": "named",
+        "symbol": "Hz"
+    },
     "x-optimade-definition": {
+        "label": "hertz_si_1960_named",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

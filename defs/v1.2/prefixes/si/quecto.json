@@ -5,11 +5,6 @@
     "symbol": "q",
     "display-symbol": "q",
     "description": "The quecto SI prefix defined as a dimensionless multiple of 10\u207b\u00b3\u2070, defined at the 27:th CGPM Meeting in 2022, resolution 3.",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "quecto"
-    },
     "resources": [
         {
             "relation": "Definition in the 27:th CGPM Meeting in 2022, resolution 3",
@@ -28,6 +23,7 @@
         }
     },
     "x-optimade-definition": {
+        "label": "quecto_prefix_si",
         "kind": "prefix",
         "format": "1.2",
         "version": "1.2.0",

@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/steradian`](https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/steradian)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/steradian`](https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/steradian.md)**  
 **Definition name:** `steradian`
 
 **Unit name:** steradian  
@@ -41,11 +41,6 @@ At the 20th CGPM meeting in 1995, resolution 8 the categorization was changed to
         "sterad"
     ],
     "description": "A supplementary SI unit of solid angle defined from the relation of the area cut out on a sphere at a given radius so that the entire sphere has a solid angle of 4\u03c0 steradians, defined at the 9th CGPM Meeting in 1948 and included into SI at the 11th CGPM Meeting in 1960.\n\nThe radian is defined at the 9th CGPM Meeting in 1948 as: \"The unit of solid angle is the steradian. The steradian is the solid angle with its vertex at the center of a sphere with a radius of one meter, which cuts out an area of one square meter on the surface of that sphere.\"\n\nThe International System of Units (SI), 9th Edition give a rephrased but equivalent definition: \"The solid angle, expressed in steradian, corresponds to the ratio between an area \\(A\\) of the surface of a sphere of radius \\(r\\) and the squared radius, \\(\\Omega = A/r^2\\) sr. One steradian corresponds to the solid angle for which \\(A = r^2\\), thus 1 sr = 1.\"\n\nThe steradian is categorized in the International System of Units (SI), 1st Edition as a supplementary SI unit.\nAt the 20th CGPM meeting in 1995, resolution 8 the categorization was changed to a dimensionless derived SI unit.",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "sr"
-    },
     "resources": [
         {
             "relation": "Definition at the 9st CGPM meeting (1948)",
@@ -64,7 +59,14 @@ At the 20th CGPM meeting in 1995, resolution 8 the categorization was changed to
             "resource-id": "https://en.wikipedia.org/wiki/Radian"
         }
     ],
+    "standard": {
+        "name": "si",
+        "year": 1960,
+        "category": "supplementary",
+        "symbol": "sr"
+    },
     "x-optimade-definition": {
+        "label": "steradian_si_1960_supplementary",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

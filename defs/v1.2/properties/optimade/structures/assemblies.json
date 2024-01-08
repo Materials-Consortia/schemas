@@ -4,10 +4,11 @@
     "title": "Assemblies",
     "x-optimade-type": "dictionary",
     "x-optimade-definition": {
+        "label": "assemblies_optimade_structures",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",
-        "name": "assembiles"
+        "name": "assemblies"
     },
     "type": [
         "object",
@@ -50,6 +51,12 @@
         "sites_in_groups": {
             "title": "Sites in groups",
             "x-optimade-type": "list",
+            "x-optimade-dimensions": {
+                "names": [
+                    "dim_assembly_groups",
+                    "dim_assembly_groups_sites"
+                ]
+            },
             "type": [
                 "array"
             ],
@@ -77,6 +84,11 @@
             "items": {
                 "title": "Group of sites",
                 "x-optimade-type": "list",
+                "x-optimade-dimensions": {
+                    "names": [
+                        "dim_assembly_groups_sites"
+                    ]
+                },
                 "type": [
                     "array"
                 ],
@@ -108,6 +120,11 @@
         "group_probabilities": {
             "title": "Group probabilities",
             "x-optimade-type": "list",
+            "x-optimade-dimensions": {
+                "names": [
+                    "dim_assembly_groups"
+                ]
+            },
             "type": [
                 "array"
             ],

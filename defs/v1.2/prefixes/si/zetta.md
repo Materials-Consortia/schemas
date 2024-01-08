@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/prefixes/si/zetta`](https://schemas.optimade.org/defs/v1.2/prefixes/si/zetta)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/prefixes/si/zetta`](https://schemas.optimade.org/defs/v1.2/prefixes/si/zetta.md)**  
 **Definition name:** `zetta`
 
 **Prefix name:** zetta  
@@ -31,11 +31,6 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
     "symbol": "Z",
     "display-symbol": "Z",
     "description": "The zetta SI prefix defined as a dimensionless multiple of 10\u00b2\u00b9, defined at the 19:th CGPM Meeting in 1991, resolution 4.",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "zetta"
-    },
     "resources": [
         {
             "relation": "Definition in the 19:th CGPM Meeting in 1991, resolution 4",
@@ -54,6 +49,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
         }
     },
     "x-optimade-definition": {
+        "label": "zetta_prefix_si",
         "kind": "prefix",
         "format": "1.2",
         "version": "1.2.0",

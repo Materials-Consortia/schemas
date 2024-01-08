@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/common/chemical_symbol`](https://schemas.optimade.org/defs/v1.2/properties/optimade/common/chemical_symbol)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/common/chemical_symbol`](https://schemas.optimade.org/defs/v1.2/properties/optimade/common/chemical_symbol.md)**  
 **Definition name:** `chemical_symbol`
 
 **Property name:** Chemical symbol  
@@ -32,6 +32,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "Chemical symbol",
     "x-optimade-type": "string",
     "x-optimade-definition": {
+        "label": "chemical_symbol_optimade_common",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",

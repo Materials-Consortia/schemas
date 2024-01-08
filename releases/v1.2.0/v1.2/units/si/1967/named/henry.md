@@ -57,24 +57,31 @@ The henry was defined at the 9th CGPM Meeting in 1946, included in SI at the 11t
         "base-units": [
             {
                 "symbol": "A",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/ampere"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/ampere"
             },
             {
                 "symbol": "kg",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/kilogram"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram"
             },
             {
                 "symbol": "m",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre"
             },
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
             }
         ],
         "base-units-expression": "A^-2*kg*m^2*s^-2"
     },
+    "standard": {
+        "name": "si",
+        "year": 1967,
+        "category": "named",
+        "symbol": "H"
+    },
     "x-optimade-definition": {
+        "label": "henry_si_1967_named",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

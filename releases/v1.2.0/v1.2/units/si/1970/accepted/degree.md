@@ -52,19 +52,20 @@ The degree appear in the International System of Units (SI), 1th ed. (1970) defi
         "base-units": [
             {
                 "symbol": "pi",
-                "id": "https://schema.optimade.org/units/constants/math/pi"
+                "id": "https://schemas.optimade.org/defs/v1.2/constants/math/basic/pi"
             },
             {
                 "symbol": "rad",
-                "id": "https://schema.optimade.org/units/si/2019/named/radian"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/radian"
             }
         ],
         "base-units-expression": "pi*rad",
         "scale": {
-            "denomenator": 180
+            "denominator": 180
         }
     },
     "x-optimade-definition": {
+        "label": "degree_si_1970_accepted",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

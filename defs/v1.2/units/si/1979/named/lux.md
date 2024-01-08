@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1979/named/lux`](https://schemas.optimade.org/defs/v1.2/units/si/1979/named/lux)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1979/named/lux`](https://schemas.optimade.org/defs/v1.2/units/si/1979/named/lux.md)**  
 **Definition name:** `lux`
 
 **Unit name:** lux  
@@ -35,11 +35,6 @@ The lux was defined at the 9th CGPM meeting in 1946, and implicitly redefined vi
     "symbol": "lx",
     "display-symbol": "lx",
     "description": "A derived SI unit for illuminance equal to cd\u22c5sr\u22c5m\u207b\u00b2 in the 1979 SI units.\n\n\"The lux is the illuminance of a surface that receives a uniformly distributed luminous flux of one lumen per square meter.\" [9th CGPM meeting in 1946]\n\nThe lux was defined at the 9th CGPM meeting in 1946, and implicitly redefined via the redefinition of the second at the 13th CGPM Meeting in 1967, resolution 1 and the redefinition of the candela at the 16th CGPM Meeting in 1979, resolution 3.",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "lux"
-    },
     "resources": [
         {
             "relation": "Definition and establishment of the SI unit system at the 11th CGPM meeting (1960), resolution 12.",
@@ -62,20 +57,27 @@ The lux was defined at the 9th CGPM meeting in 1946, and implicitly redefined vi
         "base-units": [
             {
                 "symbol": "cd",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/candela"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/candela"
             },
             {
                 "symbol": "sr",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/supplementary/steradian"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/steradian"
             },
             {
                 "symbol": "m",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre"
             }
         ],
         "base-units-expression": "cd*m^-2*sr"
     },
+    "standard": {
+        "name": "si",
+        "year": 1979,
+        "category": "named",
+        "symbol": "lx"
+    },
     "x-optimade-definition": {
+        "label": "lux_si_1979_named",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

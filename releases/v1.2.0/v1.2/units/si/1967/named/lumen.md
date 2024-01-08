@@ -52,16 +52,23 @@ The lumen was defined at the 9th CGPM Meeting in 1946, included in SI at the 11t
         "base-units": [
             {
                 "symbol": "cd",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/candela"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/candela"
             },
             {
                 "symbol": "sr",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/supplementary/steradian"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/steradian"
             }
         ],
         "base-units-expression": "cd*sr"
     },
+    "standard": {
+        "name": "si",
+        "year": 1967,
+        "category": "named",
+        "symbol": "lm"
+    },
     "x-optimade-definition": {
+        "label": "lumen_si_1967_named",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

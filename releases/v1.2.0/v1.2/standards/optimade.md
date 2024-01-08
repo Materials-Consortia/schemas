@@ -12,7 +12,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Standard Definitio
 
 This standard defines the following entrytypes:
 
-* **[Structures](../entrytypes/optimade/structures.md)** (entrytype) - [`https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/structures`](https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/structures.md)  
+* **[Structures](structures.md)** (entrytype) - [`https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/structures`](https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/structures.md)  
   The structures entry type describes a crystal structure via its unit cell
 
     **Requirements/Conventions:**  
@@ -20,7 +20,7 @@ This standard defines the following entrytypes:
     - **Support:** MUST be implemented.  
 
 
-* **[Files](../entrytypes/optimade/files.md)** (entrytype) - [`https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/files`](https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/files.md)  
+* **[Files](files.md)** (entrytype) - [`https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/files`](https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/files.md)  
   The files entry type describes a file with metadata and an URL to retrive it
 
     **Requirements/Conventions:**  
@@ -28,7 +28,7 @@ This standard defines the following entrytypes:
     - **Support:** OPTIONAL.  
 
 
-* **[References](../entrytypes/optimade/references.md)** (entrytype) - [`https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/references`](https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/references.md)  
+* **[References](references.md)** (entrytype) - [`https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/references`](https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/references.md)  
   The references entry type describes a reference
 
     **Requirements/Conventions:**  
@@ -46,6 +46,7 @@ This standard defines the following entrytypes:
     "title": "OPTIMADE standard",
     "description": "The OPTIMADE standard node types and properties",
     "x-optimade-definition": {
+        "label": "optimade_standard",
         "kind": "standard",
         "format": "1.2",
         "version": "1.2.0",
@@ -60,6 +61,7 @@ This standard defines the following entrytypes:
             "title": "Structures",
             "description": "The structures entry type describes a crystal structure via its unit cell",
             "x-optimade-definition": {
+                "label": "structures_entrytype_optimade",
                 "kind": "entrytype",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -78,6 +80,7 @@ This standard defines the following entrytypes:
                     "title": "ID",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "id_core",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -107,6 +110,7 @@ This standard defines the following entrytypes:
                     "title": "Type",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "type_core",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -132,6 +136,7 @@ This standard defines the following entrytypes:
                     "title": "Immutable ID",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "immutable_id_core",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -159,6 +164,7 @@ This standard defines the following entrytypes:
                     "title": "Last modified",
                     "x-optimade-type": "timestamp",
                     "x-optimade-definition": {
+                        "label": "last_modified_core",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -186,6 +192,7 @@ This standard defines the following entrytypes:
                     "title": "Elements",
                     "x-optimade-type": "list",
                     "x-optimade-definition": {
+                        "label": "elements_optimade_structures",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -217,6 +224,7 @@ This standard defines the following entrytypes:
                         "title": "Element",
                         "x-optimade-type": "string",
                         "x-optimade-definition": {
+                            "label": "element_optimade_common",
                             "kind": "property",
                             "version": "1.2.0",
                             "format": "1.2",
@@ -368,6 +376,7 @@ This standard defines the following entrytypes:
                     "title": "Number of elements",
                     "x-optimade-type": "integer",
                     "x-optimade-definition": {
+                        "label": "nelements_optimade_structures",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -394,6 +403,7 @@ This standard defines the following entrytypes:
                     "title": "Elements ratios",
                     "x-optimade-type": "list",
                     "x-optimade-definition": {
+                        "label": "elements_ratios_optimade_structures",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -441,6 +451,7 @@ This standard defines the following entrytypes:
                     "title": "Descriptive chemical formula",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "chemical_formula_descriptive_optimade_structures",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -472,6 +483,7 @@ This standard defines the following entrytypes:
                     "title": "Reduced chemical formula",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "chemical_formula_reduced_optimade_structures",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -500,6 +512,7 @@ This standard defines the following entrytypes:
                     "title": "Hill chemical formula",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "chemical_formula_hill_optimade_structures",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -527,6 +540,7 @@ This standard defines the following entrytypes:
                     "title": "Anonymous chemical formula",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "chemical_formula_anonymous_optimade_structures",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -554,6 +568,7 @@ This standard defines the following entrytypes:
                     "title": "Dimension types",
                     "x-optimade-type": "list",
                     "x-optimade-definition": {
+                        "label": "dimension_types_optimade_structures",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -611,6 +626,7 @@ This standard defines the following entrytypes:
                     "title": "Number of periodic dimensions",
                     "x-optimade-type": "integer",
                     "x-optimade-definition": {
+                        "label": "nperiodic_dimensions_optimade_structures",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -636,6 +652,7 @@ This standard defines the following entrytypes:
                     },
                     "title": "Lattice vectors",
                     "x-optimade-definition": {
+                        "label": "lattice_vectors_optimade_structures",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -660,8 +677,8 @@ This standard defines the following entrytypes:
                             "display-symbol": "\u00c5",
                             "description": "A unit of length equal to 10\u207b\u00b9\u2070 meter, using the current, or one of the historical, definitions of the SI units.\n\nThe \u00e5ngstr\u00f6m appear in the International System of Units (SI), 1th ed. (1970) defined as \"1 \u00c5 = 0.1 nm = 10\u207b\u00b9\u2070 m\".\n\nThe \u00e5ngstr\u00f6m was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.\n\n- The International System of Units (SI), 1th ed. (1970) categorizes the unit as \"temporarily admitted\" for use with the SI units.\n- The International System of Units (SI), 7th ed. (1998) changes the categorisation to \"Other non-SI units currently accepted for use with the International System.\"\n- The International System of Units (SI), 8th ed. (2006) changes the categorization to \"Other non-SI units\" and adds as a clarifying footnote \"The \u00e5ngstr\u00f6m is widely used by x-ray crystallographers and structural chemists because all chemical bonds lie in the range 1 to 3 \u00e5ngstr\u00f6ms. However it has no official sanction from the CIPM or the CGPM.\"\n- The \u00e5ngstr\u00f6m is omitted in the International System of Units (SI), 9th Edition (2019).\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
                             "compatibility": [
-                                "https://schemas.optimade.org/units/v1.2/si/1970/temporary/angstrom",
-                                "https://schemas.optimade.org/units/v1.2/si/1983/temporary/angstrom"
+                                "https://schemas.optimade.org/defs/v1.2/units/si/1970/temporary/angstrom",
+                                "https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/angstrom"
                             ],
                             "resources": [
                                 {
@@ -681,7 +698,7 @@ This standard defines the following entrytypes:
                                 "base-units": [
                                     {
                                         "symbol": "m",
-                                        "id": "https://schema.optimade.org/units/si/general/metre"
+                                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/general/metre"
                                     }
                                 ],
                                 "base-units-expression": "m",
@@ -690,6 +707,7 @@ This standard defines the following entrytypes:
                                 }
                             },
                             "x-optimade-definition": {
+                                "label": "angstrom_si_general",
                                 "kind": "unit",
                                 "format": "1.2",
                                 "version": "1.2.0",
@@ -745,30 +763,145 @@ This standard defines the following entrytypes:
                         }
                     }
                 },
-                "space_group_hall": {
-                    "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_hall",
+                "space_group_symmetry_operations_xyz": {
+                    "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symmetry_operations_xyz",
                     "x-optimade-requirements": {
                         "support": "may",
                         "sortable": false,
                         "response-level": "may",
                         "query-support": "none"
                     },
-                    "title": "Hall space group",
-                    "x-optimade-type": "string",
+                    "title": "Space group symmetry operations",
+                    "x-optimade-type": "list",
                     "x-optimade-definition": {
+                        "label": "space_group_symmetry_operations_xyz_optimade_structures",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
-                        "name": "space_group_hall"
+                        "name": "space_group_symmetry_operations_xyz"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ],
+                    "description": "A list of symmetry operations given as general position x, y and z coordinates in algebraic form.\n\n**Requirements/Conventions**:\n\n- MUST be `null` if the property `nperiodic_dimensions` is equal to 0.\n- Each symmetry operation is described by a string that gives that symmetry operation in Jones' faithful representation (Bradley & Cracknell, 1972: pp. 35-37), adapted for computer string notation.\n- The letters `x`, `y` and `z` that are typesetted with overbars in printed text represent coordinate values multiplied by -1 and are encoded as `-x`, `-y` and `-z`, respectively.\n- The syntax of the strings representing symmetry operations MUST conform to regular expressions given in OPTIMADE specification appendix The Symmetry Operation String Regular Expressions.\n- The interpretation of the strings MUST follow the conventions of the IUCr CIF core dictionary (IUCr, 2023).\n- In particular, this property MUST explicitly provide all symmetry operations needed to generate all the atoms in the unit cell from the atoms in the asymmetric unit, for the setting used.\n- This symmetry operation set MUST always include the `x,y,z` identity operation.\n- The symmetry operations are to be applied to fractional atom coordinates.\n- In case only Cartesian coordinates are available, these Cartesian coordinates must be converted to fractional coordinates before the application of the provided symmetry operations.\n- If the symmetry operation list is present, it MUST be compatible with other space group specifications (e.g. the ITC space group number, the Hall symbol, the Hermann-Mauguin symbol) if these are present.\n\n**Notes**:\n\n- The list of space group symmetry operations applies to the whole periodic array of atoms and together with the lattice translations given in the :property:`lattice\\_vectors` property provides the necessary information to reconstruct all atom site positions of the periodic material.\n- Thus, the symmetry operations described in this property are only applicable to material models with at least one periodic dimension.\n- This property is not meant to represent arbitrary symmetries of molecules, non-periodic (finite) collections of atoms or non-crystallographic symmetry.\n\n**Explained examples**:\n\n- Space group operations for the space group with ITC number 3 (H-M symbol `P 2`, extended H-M symbol `P 1 2 1`, Hall symbol `P 2y`): `[\"x,y,z\", \"-x,y,-z\"]`\n- Space group operations for the space group with ITC number 5 (H-M symbol `C 2`, extended H-M symbol `C 1 2 1`, Hall symbol `C 2y`): `[\"x,y,z\", \"-x,y,-z\", \"x+1/2,y+1/2,z\", \"-x+1/2,y+1/2,-z\"]`\n\n**Bibliographic References**\n\n- Bradley, C. J. and Cracknell, A. P. (1972) The Mathematical Theory of Symmetry in Solids. Oxford, Clarendon Press (paperback edition 2010) 745 p. ISBN `978-0-19-958258-7 <https://isbnsearch.org/isbn/9780199582587>`__.\n- IUCr (2023) Core dictionary (coreCIF) version 2.4.5; data name `\\_space\\_group\\_symop\\_operation\\_xyz`. Available from: https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Ispace_group_symop_operation_xyz.html [Accessed 2023-06-18T16:46+03:00].",
+                    "examples": [
+                        [
+                            "x,y,z",
+                            "-x,y,-z"
+                        ],
+                        [
+                            "x,y,z",
+                            "-x,y,-z",
+                            "x+1/2,y+1/2,z",
+                            "-x+1/2,y+1/2,-z"
+                        ]
+                    ],
+                    "x-optimade-unit": "unapplicable",
+                    "items": {
+                        "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/space_group_symmetry_operation_xyz",
+                        "title": "Space group symmetry operation",
+                        "x-optimade-type": "string",
+                        "x-optimade-definition": {
+                            "label": "space_group_symmetry_operation_xyz_optimade_common",
+                            "kind": "property",
+                            "version": "1.2.0",
+                            "format": "1.2",
+                            "name": "space_group_symmetry_operation_xyz"
+                        },
+                        "type": [
+                            "string"
+                        ],
+                        "description": "A single symmetry operation.\n\n**Requirements/Conventions**:\n\n- The symmetry operation is described in Jones' faithful representation (Bradley & Cracknell, 1972: pp. 35-37), adapted for computer string notation.\n\n- The letters `x`, `y` and `z` that are typesetted with overbars in printed text represent coordinate values multiplied by -1 and are encoded as `-x`, `-y` and `-z`, respectively.\n- The syntax of the string representing a symmetry operation MUST conform to regular expressions given in appendix `The Symmetry Operation String Regular Expressions`_.\n\n**Bibliographic References**\n\n- Bradley, C. J. and Cracknell, A. P. (1972) The Mathematical Theory of Symmetry in Solids. Oxford, Clarendon Press (paperback edition 2010) 745 p. ISBN `978-0-19-958258-7 <https://isbnsearch.org/isbn/9780199582587>`__.\n- IUCr (2023) Core dictionary (coreCIF) version 2.4.5; data name `\\_space\\_group\\_symop\\_operation\\_xyz`. Available from: https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Ispace_group_symop_operation_xyz.html [Accessed 2023-06-18T16:46+03:00].",
+                        "examples": [
+                            "x,y,z",
+                            "-x,y,-z"
+                        ],
+                        "x-optimade-unit": "inapplicable"
+                    }
+                },
+                "space_group_symbol_hall": {
+                    "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hall",
+                    "x-optimade-requirements": {
+                        "support": "may",
+                        "sortable": false,
+                        "response-level": "may",
+                        "query-support": "none"
+                    },
+                    "title": "Hall space group symbol",
+                    "x-optimade-type": "string",
+                    "x-optimade-definition": {
+                        "label": "space_group_symbol_hall_optimade_structures",
+                        "kind": "property",
+                        "version": "1.2.0",
+                        "format": "1.2",
+                        "name": "space_group_symbol_hall"
                     },
                     "type": [
                         "string",
                         "null"
                     ],
-                    "description": "A Hall space group symbol representing the symmetry of the structure as defined in Hall, S. R. (1981), Acta Cryst. A37, 517-525 and erratum (1981), A37, 921.\n\n**Requirements/Conventions**:\n\n- Each component of the Hall symbol MUST be separated by a single space symbol.\n- If there exists a standard Hall symbol which represents the symmetry it SHOULD be used.\n- MUST be null if n`periodic_dimensions` is not equal to 3.",
+                    "description": "A Hall space group symbol representing the symmetry of the structure as defined in Hall, S. R. (1981), Acta Cryst. A37, 517-525 and erratum (1981), A37, 921.\n\n**Requirements/Conventions**:\n\n- The change-of-basis operations are used as defined in the International Tables of Crystallography (ITC) Vol. B, Sect. 1.4, Appendix A1.4.2 (IUCr, 2001).\n- Each component of the Hall symbol MUST be separated by a single space symbol.\n- If there exists a standard Hall symbol which represents the symmetry it SHOULD be used.\n- MUST be `null` if `nperiodic_dimensions` is not equal to 3.\n\n**Explained examples**:\n\n- Space group symbols with explicit origin (the Hall symbols):\n\n  - `P 2c -2ac`\n  - `-I 4bd 2ab 3`\n\n- Space group symbols with change-of-basis operations:\n\n  - `P 2yb (-1/2*x+z,1/2*x,y)`\n  - `-I 4 2 (1/2*x+1/2*y,-1/2*x+1/2*y,z)`\n\n**Bibliographic References**\n\n- Hall, S. R. (1981) Space-group notation with an explicit origin. Acta Crystallographica Section A, 37, 517-525, International Union of Crystallography (IUCr), DOI: https://doi.org/10.1107/s0567739481001228\n- Hall, S. R. (1981a) Space-group notation with an explicit origin; erratum. Acta Crystallographica Section A, 37, 921-921, International Union of Crystallography (IUCr), DOI: https://doi.org/10.1107/s0567739481001976\n- IUCr (2001). International Tables for Crystallography vol. B. Reciprocal Space. Ed. U. Shmueli. 2-nd edition. Dordrecht/Boston/London, Kluwer Academic Publishers.",
                     "examples": [
                         "P 2c -2ac",
-                        "-I 4db 2ab 3"
+                        "-I 4db 2ab 3",
+                        "P 2yb (-1/2*x+z,1/2*x,y)",
+                        "-I 4 2 (1/2*x+1/2*y,-1/2*x+1/2*y,z)"
+                    ],
+                    "x-optimade-unit": "unapplicable"
+                },
+                "space_group_symbol_hermann_mauguin": {
+                    "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hermann_mauguin",
+                    "x-optimade-requirements": {
+                        "support": "may",
+                        "sortable": false,
+                        "response-level": "may",
+                        "query-support": "none"
+                    },
+                    "title": "Hermann-Mauguin space group symbol",
+                    "x-optimade-type": "string",
+                    "x-optimade-definition": {
+                        "label": "space_group_symbol_hermann_mauguin_optimade_structures",
+                        "kind": "property",
+                        "version": "1.2.0",
+                        "format": "1.2",
+                        "name": "space_group_symbol_hermann_mauguin"
+                    },
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "description": "A human- and machine-readable string containing the short Hermann-Mauguin (H-M) symbol which specifies the space group of the structure in the response.\n\n**Requirements/Conventions**:\n\n- The H-M symbol SHOULD aim to convey the closest representation of the symmetry information that can be specified using the short format used in the International Tables for Crystallography vol. A (IUCr, 2005), Table 4.3.2.1 as described in the accompanying text.\n- The symbol MAY be a non-standard short H-M symbol.\n- The H-M symbol does not unambiguously communicate the axis, cell, and origin choice, and the given symbol SHOULD NOT be amended to convey this information.\n- To encode as character strings, the following adaptations MUST be made when representing H-M symbols given in their typesetted form:\n\n  - the overbar above the numbers MUST be changed to the minus sign in front of the digit (e.g. '-2');\n  - subscripts that denote screw axes are written as digits immediately after the axis designator without a space (e.g. 'P 32');\n  - the space group generators MUST be separated by a single space (e.g. 'P 21 21 2');\n  - there MUST be no spaces in the space group generator designation (i.e. use 'P 21/m', not the 'P 21 / m');\n\n**Bibliographic References**\n\n- IUCr (2005). International Tables for Crystallography vol. A. Space-Group Symmetry. Ed. Theo Hahn. 5-th edition. Dordrecht, Springer.",
+                    "examples": [
+                        "C 2",
+                        "P 21 21 21"
+                    ],
+                    "x-optimade-unit": "unapplicable"
+                },
+                "space_group_symbol_hermann_mauguin_extended": {
+                    "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hermann_mauguin_extended",
+                    "x-optimade-requirements": {
+                        "support": "may",
+                        "sortable": false,
+                        "response-level": "may",
+                        "query-support": "none"
+                    },
+                    "title": "Extended Hermann-Mauguin space group symbol",
+                    "x-optimade-type": "string",
+                    "x-optimade-definition": {
+                        "label": "space_group_symbol_hermann_mauguin_extended_optimade_structures",
+                        "kind": "property",
+                        "version": "1.2.0",
+                        "format": "1.2",
+                        "name": "space_group_symbol_hermann_mauguin_extended"
+                    },
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "description": "A human- and machine-readable string containing the extended Hermann-Mauguin (H-M) symbol which specifies the space group of the structure in the response.\n\n**Requirements/Conventions**:\n\n- The H-M symbols SHOULD be given as specified in the International Tables for Crystallography vol. A (IUCr, 2005), Table 4.3.2.1.\n- The change-of-basis operation SHOULD be provided for the non-standard axis and cell choices.\n- The extended H-M symbol does not unambiguously communicate the origin choice, and the given symbol SHOULD NOT be amended to convey this information.\n- The description of the change-of-basis SHOULD follow conventions of the ITC Vol. B, Sect. 1.4, Appendix A1.4.2 (IUCr, 2001).\n- The same character string encoding conventions MUST be used as for the specification of the `space_group_symbol_hermann_mauguin` property.\n\n**Bibliographic References**\n\n- IUCr (2001). International Tables for Crystallography vol. B. Reciprocal Space. Ed. U. Shmueli. 2-nd edition. Dordrecht/Boston/London, Kluwer Academic Publishers.\n- IUCr (2005). International Tables for Crystallography vol. A. Space-Group Symmetry. Ed. Theo Hahn. 5-th edition. Dordrecht, Springer.",
+                    "examples": [
+                        "C 1 2 1"
                     ],
                     "x-optimade-unit": "unapplicable"
                 },
@@ -783,6 +916,7 @@ This standard defines the following entrytypes:
                     "title": "Space group IT number",
                     "x-optimade-type": "integer",
                     "x-optimade-definition": {
+                        "label": "space_group_it_number_optimade_structures",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -792,7 +926,7 @@ This standard defines the following entrytypes:
                         "integer",
                         "null"
                     ],
-                    "description": "Space group number for the structure assigned by the International Tables for Crystallography Vol. A.\n\n**Requirements/Conventions**:\n\n- The integer value MUST be between 1 and 230.\n- MUST be null if `nperiodic_dimensions` is not equal to 3.",
+                    "description": "Space group number for the structure assigned by the International Tables for Crystallography Vol. A.\n\n**Requirements/Conventions**:\n\n- The integer value MUST be between 1 and 230.\n- MUST be `null` if `nperiodic_dimensions` is not equal to 3.",
                     "examples": [
                         42
                     ],
@@ -809,6 +943,7 @@ This standard defines the following entrytypes:
                     "title": "Cartesian site positions",
                     "x-optimade-type": "list",
                     "x-optimade-definition": {
+                        "label": "cartesian_site_positions_optimade_structures",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -822,8 +957,8 @@ This standard defines the following entrytypes:
                             "display-symbol": "\u00c5",
                             "description": "A unit of length equal to 10\u207b\u00b9\u2070 meter, using the current, or one of the historical, definitions of the SI units.\n\nThe \u00e5ngstr\u00f6m appear in the International System of Units (SI), 1th ed. (1970) defined as \"1 \u00c5 = 0.1 nm = 10\u207b\u00b9\u2070 m\".\n\nThe \u00e5ngstr\u00f6m was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.\n\n- The International System of Units (SI), 1th ed. (1970) categorizes the unit as \"temporarily admitted\" for use with the SI units.\n- The International System of Units (SI), 7th ed. (1998) changes the categorisation to \"Other non-SI units currently accepted for use with the International System.\"\n- The International System of Units (SI), 8th ed. (2006) changes the categorization to \"Other non-SI units\" and adds as a clarifying footnote \"The \u00e5ngstr\u00f6m is widely used by x-ray crystallographers and structural chemists because all chemical bonds lie in the range 1 to 3 \u00e5ngstr\u00f6ms. However it has no official sanction from the CIPM or the CGPM.\"\n- The \u00e5ngstr\u00f6m is omitted in the International System of Units (SI), 9th Edition (2019).\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
                             "compatibility": [
-                                "https://schemas.optimade.org/units/v1.2/si/1970/temporary/angstrom",
-                                "https://schemas.optimade.org/units/v1.2/si/1983/temporary/angstrom"
+                                "https://schemas.optimade.org/defs/v1.2/units/si/1970/temporary/angstrom",
+                                "https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/angstrom"
                             ],
                             "resources": [
                                 {
@@ -843,7 +978,7 @@ This standard defines the following entrytypes:
                                 "base-units": [
                                     {
                                         "symbol": "m",
-                                        "id": "https://schema.optimade.org/units/si/general/metre"
+                                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/general/metre"
                                     }
                                 ],
                                 "base-units-expression": "m",
@@ -852,6 +987,7 @@ This standard defines the following entrytypes:
                                 }
                             },
                             "x-optimade-definition": {
+                                "label": "angstrom_si_general",
                                 "kind": "unit",
                                 "format": "1.2",
                                 "version": "1.2.0",
@@ -923,6 +1059,7 @@ This standard defines the following entrytypes:
                     "title": "Number of sites",
                     "x-optimade-type": "integer",
                     "x-optimade-definition": {
+                        "label": "nsites_optimade_structures",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -949,6 +1086,7 @@ This standard defines the following entrytypes:
                     "title": "Species at sites",
                     "x-optimade-type": "list",
                     "x-optimade-definition": {
+                        "label": "species_at_sites_optimade_structures",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -982,6 +1120,7 @@ This standard defines the following entrytypes:
                         "title": "Name of the species",
                         "x-optimade-type": "string",
                         "x-optimade-definition": {
+                            "label": "species_name_optimade_common",
                             "kind": "property",
                             "version": "1.2.0",
                             "format": "1.2",
@@ -1010,6 +1149,7 @@ This standard defines the following entrytypes:
                     "title": "Species",
                     "x-optimade-type": "list",
                     "x-optimade-definition": {
+                        "label": "species_optimade_structures",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -1032,9 +1172,9 @@ This standard defines the following entrytypes:
                             ],
                             "description": "A unit of mass representing 1/12 of the mass of a free carbon 12 atom (i.e., a typical value of the mass of a nucleon in an atom) using the current, or one of the historical, definitions given in the editions of The International System of Units (SI).\n\nThe International System of Units (SI), 1st ed. (1970) defines the atomic mass unit in the section \"Units used with the International System\" (known as \"Non-SI units accepted for use with the SI units\" in later editions).\nThe unit is defined in a footnote as: \"The atomic mass unit (unified) is equal to 1/12 of the mass of an atom of the nuclide \u00b9\u00b2C; 1 u = 1.66053 x 10\u207b\u00b2\u2077 kg approximately.\"\n\nThe definition is retained in The International System of Units up to the 7th edition (1998), where the conditions are slightly clarified and dalton (Da) is introduced as an alternative name: \"The unified atomic mass unit is equal to 1/12 of the mass of an unbound atom of the nuclide \u00b9\u00b2C, at rest, and in its ground state. In the field of biochemistry, the unified atomic mass unit is also called the dalton, symbol Da.\"\nIn the 8th ed. (2006) the definition is slightly adjusted, replacing \"unbound\" with \"free\": \"The dalton (Da) and the unified atomic mass unit (u) are alternative names (and symbols) for the same unit, equal to 1/12 times the mass of a free carbon 12 atom, at rest and in its ground state.\"\n\nAll editions of The International System of Units note approximate relationships to the kilogram.\nThe 9th ed. states \"1 Da = 1.660 539 066 60(50)\u00d710\u207b\u00b2\u2077 kg\", where the 2018 CODATA value has been used and the 2019 SI kilogram is referenced (https://schemas.optimade.org/units/v1.2/si/2019/base/kilogram).\n\nIn the 2019 redefinition of the SI units, the atomic mass unit is the only unit listed as accepted for use with SI that has an experimental relationship to the base SI units.\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
                             "compatibility": [
-                                "https://schemas.optimade.org/units/v1.2/si/1970/accepted/atomicmassunit",
-                                "https://schemas.optimade.org/units/v1.2/si/1998/accepted/dalton",
-                                "https://schemas.optimade.org/units/v1.2/si/general/dalton"
+                                "https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/atomicmassunit",
+                                "https://schemas.optimade.org/defs/v1.2/units/si/1998/accepted/dalton",
+                                "https://schemas.optimade.org/defs/v1.2/units/si/general/dalton"
                             ],
                             "resources": [
                                 {
@@ -1055,18 +1195,18 @@ This standard defines the following entrytypes:
                                     "base-units": [
                                         {
                                             "symbol": "kg",
-                                            "id": "https://schema.optimade.org/units/si/general/kilogram"
+                                            "id": "https://schemas.optimade.org/defs/v1.2/units/si/general/kilogram"
                                         }
                                     ],
                                     "base-units-expression": "kg",
                                     "scale": {
                                         "value": 1.6605390666e-27,
-                                        "standard_uncertainty": 5e-37,
-                                        "relative_standard_uncertainty": 3e-10
+                                        "standard_uncertainty": 5e-37
                                     }
                                 }
                             ],
                             "x-optimade-definition": {
+                                "label": "atomicmassunit_si_general",
                                 "kind": "unit",
                                 "format": "1.2",
                                 "version": "1.2.0",
@@ -1185,6 +1325,7 @@ This standard defines the following entrytypes:
                                 "title": "Name of the species",
                                 "x-optimade-type": "string",
                                 "x-optimade-definition": {
+                                    "label": "species_name_optimade_common",
                                     "kind": "property",
                                     "version": "1.2.0",
                                     "format": "1.2",
@@ -1231,6 +1372,7 @@ This standard defines the following entrytypes:
                                     "title": "Chemical symbol or vacancy",
                                     "x-optimade-type": "string",
                                     "x-optimade-definition": {
+                                        "label": "chemical_symbol_or_vacancy_optimade_common",
                                         "kind": "property",
                                         "version": "1.2.0",
                                         "format": "1.2",
@@ -1437,6 +1579,7 @@ This standard defines the following entrytypes:
                                     "title": "Chemical symbol",
                                     "x-optimade-type": "string",
                                     "x-optimade-definition": {
+                                        "label": "chemical_symbol_optimade_common",
                                         "kind": "property",
                                         "version": "1.2.0",
                                         "format": "1.2",
@@ -1669,6 +1812,7 @@ This standard defines the following entrytypes:
                     "title": "Assemblies",
                     "x-optimade-type": "dictionary",
                     "x-optimade-definition": {
+                        "label": "assemblies_optimade_structures",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -1829,6 +1973,7 @@ This standard defines the following entrytypes:
                     },
                     "title": "Structure features",
                     "x-optimade-definition": {
+                        "label": "structure_features_optimade_structures",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -1869,6 +2014,7 @@ This standard defines the following entrytypes:
             "title": "Files",
             "description": "The files entry type describes a file with metadata and an URL to retrive it",
             "x-optimade-definition": {
+                "label": "files_entrytype_optimade",
                 "kind": "entrytype",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1887,6 +2033,7 @@ This standard defines the following entrytypes:
                     "title": "ID",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "id_core",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -1916,6 +2063,7 @@ This standard defines the following entrytypes:
                     "title": "Type",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "type_core",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -1941,6 +2089,7 @@ This standard defines the following entrytypes:
                     "title": "Immutable ID",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "immutable_id_core",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -1968,6 +2117,7 @@ This standard defines the following entrytypes:
                     "title": "Last modified",
                     "x-optimade-type": "timestamp",
                     "x-optimade-definition": {
+                        "label": "last_modified_core",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -1995,6 +2145,7 @@ This standard defines the following entrytypes:
                     "title": "URL",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "url_optimade_files",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2020,6 +2171,7 @@ This standard defines the following entrytypes:
                     "title": "URL stable until",
                     "x-optimade-type": "timestamp",
                     "x-optimade-definition": {
+                        "label": "url_stable_until_optimade_files",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2047,6 +2199,7 @@ This standard defines the following entrytypes:
                     "title": "Name",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "name_optimade_files",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2072,6 +2225,7 @@ This standard defines the following entrytypes:
                     "title": "Size",
                     "x-optimade-type": "integer",
                     "x-optimade-definition": {
+                        "label": "size_optimade_files",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2098,7 +2252,7 @@ This standard defines the following entrytypes:
                                 "base-units": [
                                     {
                                         "symbol": "bit",
-                                        "id": "https://schemas.optimade.org/units/v1.2/information/bit"
+                                        "id": "https://schemas.optimade.org/defs/v1.2/units/independent/1948/information/bit"
                                     }
                                 ],
                                 "base-units-expression": "bit",
@@ -2106,7 +2260,14 @@ This standard defines the following entrytypes:
                                     "numerator": 8
                                 }
                             },
+                            "standard": {
+                                "name": "iso-iec-80000",
+                                "year": 2008,
+                                "category": "information_science_and_technology",
+                                "symbol": "B"
+                            },
                             "x-optimade-definition": {
+                                "label": "byte_iso_iec_80000_2008_information_science_and_technology",
                                 "kind": "unit",
                                 "format": "1.2",
                                 "version": "1.2.0",
@@ -2135,6 +2296,7 @@ This standard defines the following entrytypes:
                     "title": "Media type",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "media_type_optimade_files",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2161,6 +2323,7 @@ This standard defines the following entrytypes:
                     "title": "Version",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "version_optimade_files",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2187,6 +2350,7 @@ This standard defines the following entrytypes:
                     "title": "Modification timestamp",
                     "x-optimade-type": "timestamp",
                     "x-optimade-definition": {
+                        "label": "modification_timestamp_optimade_files",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2213,6 +2377,7 @@ This standard defines the following entrytypes:
                     "title": "Description",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "description_optimade_files",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2239,6 +2404,7 @@ This standard defines the following entrytypes:
                     "title": "Checksums",
                     "x-optimade-type": "dictionary",
                     "x-optimade-definition": {
+                        "label": "checksums_optimade_files",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2304,6 +2470,7 @@ This standard defines the following entrytypes:
                     "title": "Access time",
                     "x-optimade-type": "timestamp",
                     "x-optimade-definition": {
+                        "label": "atime_optimade_files",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2331,6 +2498,7 @@ This standard defines the following entrytypes:
                     "title": "Change time",
                     "x-optimade-type": "timestamp",
                     "x-optimade-definition": {
+                        "label": "ctime_optimade_files",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2358,6 +2526,7 @@ This standard defines the following entrytypes:
                     "title": "Modification time",
                     "x-optimade-type": "timestamp",
                     "x-optimade-definition": {
+                        "label": "mtime_optimade_files",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2384,6 +2553,7 @@ This standard defines the following entrytypes:
             "title": "References",
             "description": "The references entry type describes a reference",
             "x-optimade-definition": {
+                "label": "references_entrytype_optimade",
                 "kind": "entrytype",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -2402,6 +2572,7 @@ This standard defines the following entrytypes:
                     "title": "ID",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "id_core",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2431,6 +2602,7 @@ This standard defines the following entrytypes:
                     "title": "Type",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "type_core",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2456,6 +2628,7 @@ This standard defines the following entrytypes:
                     "title": "Immutable ID",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "immutable_id_core",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2483,6 +2656,7 @@ This standard defines the following entrytypes:
                     "title": "Last modified",
                     "x-optimade-type": "timestamp",
                     "x-optimade-definition": {
+                        "label": "last_modified_core",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2510,6 +2684,7 @@ This standard defines the following entrytypes:
                     "title": "address",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "address_optimade_references",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2536,6 +2711,7 @@ This standard defines the following entrytypes:
                     "title": "annote",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "annote_optimade_references",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2562,6 +2738,7 @@ This standard defines the following entrytypes:
                     "title": "booktitle",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "booktitle_optimade_references",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2588,6 +2765,7 @@ This standard defines the following entrytypes:
                     "title": "chapter",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "chapter_optimade_references",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2614,6 +2792,7 @@ This standard defines the following entrytypes:
                     "title": "crossref",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "crossref_optimade_references",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2640,6 +2819,7 @@ This standard defines the following entrytypes:
                     "title": "edition",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "edition_optimade_references",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2666,6 +2846,7 @@ This standard defines the following entrytypes:
                     "title": "howpublished",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "howpublished_optimade_references",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2692,6 +2873,7 @@ This standard defines the following entrytypes:
                     "title": "institution",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "institution_optimade_references",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2718,6 +2900,7 @@ This standard defines the following entrytypes:
                     "title": "journal",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "journal_optimade_references",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2744,6 +2927,7 @@ This standard defines the following entrytypes:
                     "title": "key",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "key_optimade_references",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2770,6 +2954,7 @@ This standard defines the following entrytypes:
                     "title": "month",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "month_optimade_references",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2796,6 +2981,7 @@ This standard defines the following entrytypes:
                     "title": "note",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "note_optimade_references",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2822,6 +3008,7 @@ This standard defines the following entrytypes:
                     "title": "number",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "number_optimade_references",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2848,6 +3035,7 @@ This standard defines the following entrytypes:
                     "title": "organization",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "organization_optimade_references",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2874,6 +3062,7 @@ This standard defines the following entrytypes:
                     "title": "pages",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "pages_optimade_references",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2900,6 +3089,7 @@ This standard defines the following entrytypes:
                     "title": "publisher",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "publisher_optimade_references",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2926,6 +3116,7 @@ This standard defines the following entrytypes:
                     "title": "school",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "school_optimade_references",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2952,6 +3143,7 @@ This standard defines the following entrytypes:
                     "title": "series",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "series_optimade_references",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -2978,6 +3170,7 @@ This standard defines the following entrytypes:
                     "title": "title",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "title_optimade_references",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -3004,6 +3197,7 @@ This standard defines the following entrytypes:
                     "title": "volume",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "volume_optimade_references",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -3030,6 +3224,7 @@ This standard defines the following entrytypes:
                     "title": "year",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "year_optimade_references",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -3056,6 +3251,7 @@ This standard defines the following entrytypes:
                     "title": "bibliographic type",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "bib_type_optimade_references",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -3082,6 +3278,7 @@ This standard defines the following entrytypes:
                     "title": "authors",
                     "x-optimade-type": "list",
                     "x-optimade-definition": {
+                        "label": "authors_optimade_references",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -3102,6 +3299,7 @@ This standard defines the following entrytypes:
                         "title": "Person",
                         "x-optimade-type": "dictionary",
                         "x-optimade-definition": {
+                            "label": "person_optimade_common",
                             "kind": "property",
                             "version": "1.2.0",
                             "format": "1.2",
@@ -3175,6 +3373,7 @@ This standard defines the following entrytypes:
                     "title": "editors",
                     "x-optimade-type": "list",
                     "x-optimade-definition": {
+                        "label": "editors_optimade_references",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -3195,6 +3394,7 @@ This standard defines the following entrytypes:
                         "title": "Person",
                         "x-optimade-type": "dictionary",
                         "x-optimade-definition": {
+                            "label": "person_optimade_common",
                             "kind": "property",
                             "version": "1.2.0",
                             "format": "1.2",
@@ -3268,6 +3468,7 @@ This standard defines the following entrytypes:
                     "title": "doi",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "doi_optimade_references",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",
@@ -3294,6 +3495,7 @@ This standard defines the following entrytypes:
                     "title": "url",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
+                        "label": "url_optimade_references",
                         "kind": "property",
                         "version": "1.2.0",
                         "format": "1.2",

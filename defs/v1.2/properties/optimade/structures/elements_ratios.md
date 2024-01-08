@@ -2,8 +2,8 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/elements_ratios`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/elements_ratios)**  
-**Definition name:** `element_ratios`
+**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/elements_ratios`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/elements_ratios.md)**  
+**Definition name:** `elements_ratios`
 
 **Property name:** Elements ratios  
 **Description:** Relative proportions of different elements in the structure.  
@@ -37,10 +37,16 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "Elements ratios",
     "x-optimade-type": "list",
     "x-optimade-definition": {
+        "label": "elements_ratios_optimade_structures",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",
-        "name": "element_ratios"
+        "name": "elements_ratios"
+    },
+    "x-optimade-dimensions": {
+        "names": [
+            "dim_elements"
+        ]
     },
     "type": [
         "array",

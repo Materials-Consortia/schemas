@@ -5,15 +5,10 @@
     "symbol": "Pa",
     "display-symbol": "Pa",
     "description": "A unit for pressure and stress equal to kg\u00b7m\u207b\u00b9\u00b7s\u207b\u00b2 using the current, or one of the historical, definitions of the SI units.\n\n\"The International Committee will ask the General Conference to approve two special names: pascal (symbol Pa) for the SI unit of pressure (N/m\u00b2), [...]\" [14th CGPM Meeting (1971)].\n\nThe pascal was defined at the 14th CGPM Meeting in 1971 and implicitly redefined via the redefinitions of the metre at the 17th CGPM Meeting in 1983, resolution 1, and the kilogram at the 26th CGPM Meeting (2018), resolution 1.\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "pascal"
-    },
     "compatibility": [
-        "https://schemas.optimade.org/units/v1.2/si/1971/named/pascal",
-        "https://schemas.optimade.org/units/v1.2/si/1983/named/pascal",
-        "https://schemas.optimade.org/units/v1.2/si/2019/named/pascal"
+        "https://schemas.optimade.org/defs/v1.2/units/si/1971/named/pascal",
+        "https://schemas.optimade.org/defs/v1.2/units/si/1983/named/pascal",
+        "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/pascal"
     ],
     "resources": [
         {
@@ -37,20 +32,21 @@
         "base-units": [
             {
                 "symbol": "kg",
-                "id": "https://schemas.optimade.org/units/v1.2/si/general/kilogram"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/general/kilogram"
             },
             {
                 "symbol": "m",
-                "id": "https://schemas.optimade.org/units/v1.2/si/general/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/general/metre"
             },
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/general/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/general/second"
             }
         ],
         "base-units-expression": "kg*m^-1*s^-2"
     },
     "x-optimade-definition": {
+        "label": "pascal_si_general",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

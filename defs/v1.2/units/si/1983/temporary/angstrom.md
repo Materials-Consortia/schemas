@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/angstrom`](https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/angstrom)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/angstrom`](https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/angstrom.md)**  
 **Definition name:** `angstrom`
 
 **Unit name:** ångström  
@@ -13,10 +13,10 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
 
 The ångström appear in the International System of Units (SI), 1th ed. (1970) defined as "1 Å = 0.1 nm = 10⁻¹⁰ m".
 
-The International System of Units (SI), 1th ed. (1970) categorizes the unit as "temporarily admitted" for use with the SI units.
-The International System of Units (SI), 7th ed. (1998) changes the categorisation to "Other non-SI units currently accepted for use with the International System."
-The International System of Units (SI), 8th ed. (2006) changes the categorization to "Other non-SI units" and adds as a clarifying footnote "The ångström is widely used by x-ray crystallographers and structural chemists because all chemical bonds lie in the range 1 to 3 ångströms. However it has no official sanction from the CIPM or the CGPM."
-The ångström is omitted in the International System of Units (SI), 9th Edition (2019).
+- The International System of Units (SI), 1th ed. (1970) categorizes the unit as "temporarily admitted" for use with the SI units.
+- The International System of Units (SI), 7th ed. (1998) changes the categorisation to "Other non-SI units currently accepted for use with the International System."
+- The International System of Units (SI), 8th ed. (2006) changes the categorization to "Other non-SI units" and adds as a clarifying footnote "The ångström is widely used by x-ray crystallographers and structural chemists because all chemical bonds lie in the range 1 to 3 ångströms. However it has no official sanction from the CIPM or the CGPM."
+- The ångström is omitted in the International System of Units (SI), 9th Edition (2019).
 
 The ångström was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.
 
@@ -38,12 +38,7 @@ The ångström was implicitly redefined via the redefinition of the metre at the
     "title": "\u00e5ngstr\u00f6m",
     "symbol": "angstrom",
     "display-symbol": "\u00c5",
-    "description": "A length equal to 10\u207b\u00b9\u2070 meter, with meter defined according to the 1983 SI base units.\n\nThe \u00e5ngstr\u00f6m appear in the International System of Units (SI), 1th ed. (1970) defined as \"1 \u00c5 = 0.1 nm = 10\u207b\u00b9\u2070 m\".\n\nThe International System of Units (SI), 1th ed. (1970) categorizes the unit as \"temporarily admitted\" for use with the SI units.\nThe International System of Units (SI), 7th ed. (1998) changes the categorisation to \"Other non-SI units currently accepted for use with the International System.\"\nThe International System of Units (SI), 8th ed. (2006) changes the categorization to \"Other non-SI units\" and adds as a clarifying footnote \"The \u00e5ngstr\u00f6m is widely used by x-ray crystallographers and structural chemists because all chemical bonds lie in the range 1 to 3 \u00e5ngstr\u00f6ms. However it has no official sanction from the CIPM or the CGPM.\"\nThe \u00e5ngstr\u00f6m is omitted in the International System of Units (SI), 9th Edition (2019).\n\nThe \u00e5ngstr\u00f6m was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "angstrom"
-    },
+    "description": "A length equal to 10\u207b\u00b9\u2070 meter, with meter defined according to the 1983 SI base units.\n\nThe \u00e5ngstr\u00f6m appear in the International System of Units (SI), 1th ed. (1970) defined as \"1 \u00c5 = 0.1 nm = 10\u207b\u00b9\u2070 m\".\n\n- The International System of Units (SI), 1th ed. (1970) categorizes the unit as \"temporarily admitted\" for use with the SI units.\n- The International System of Units (SI), 7th ed. (1998) changes the categorisation to \"Other non-SI units currently accepted for use with the International System.\"\n- The International System of Units (SI), 8th ed. (2006) changes the categorization to \"Other non-SI units\" and adds as a clarifying footnote \"The \u00e5ngstr\u00f6m is widely used by x-ray crystallographers and structural chemists because all chemical bonds lie in the range 1 to 3 \u00e5ngstr\u00f6ms. However it has no official sanction from the CIPM or the CGPM.\"\n- The \u00e5ngstr\u00f6m is omitted in the International System of Units (SI), 9th Edition (2019).\n\nThe \u00e5ngstr\u00f6m was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.",
     "resources": [
         {
             "relation": "Definition in the International System of Units (SI), 1th Edition",
@@ -62,7 +57,7 @@ The ångström was implicitly redefined via the redefinition of the metre at the
         "base-units": [
             {
                 "symbol": "m",
-                "id": "https://schema.optimade.org/units/si/1983/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
             }
         ],
         "base-units-expression": "m",
@@ -71,6 +66,7 @@ The ångström was implicitly redefined via the redefinition of the metre at the
         }
     },
     "x-optimade-definition": {
+        "label": "angstrom_si_1983_temporary",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

@@ -2,8 +2,8 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/assemblies`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/assemblies)**  
-**Definition name:** `assembiles`
+**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/assemblies`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/assemblies.md)**  
+**Definition name:** `assemblies`
 
 **Property name:** Assemblies  
 **Description:** A description of groups of sites that are statistically correlated.  
@@ -127,10 +127,11 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "Assemblies",
     "x-optimade-type": "dictionary",
     "x-optimade-definition": {
+        "label": "assemblies_optimade_structures",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",
-        "name": "assembiles"
+        "name": "assemblies"
     },
     "type": [
         "object",
@@ -173,6 +174,12 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
         "sites_in_groups": {
             "title": "Sites in groups",
             "x-optimade-type": "list",
+            "x-optimade-dimensions": {
+                "names": [
+                    "dim_assembly_groups",
+                    "dim_assembly_groups_sites"
+                ]
+            },
             "type": [
                 "array"
             ],
@@ -200,6 +207,11 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
             "items": {
                 "title": "Group of sites",
                 "x-optimade-type": "list",
+                "x-optimade-dimensions": {
+                    "names": [
+                        "dim_assembly_groups_sites"
+                    ]
+                },
                 "type": [
                     "array"
                 ],
@@ -231,6 +243,11 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
         "group_probabilities": {
             "title": "Group probabilities",
             "x-optimade-type": "list",
+            "x-optimade-dimensions": {
+                "names": [
+                    "dim_assembly_groups"
+                ]
+            },
             "type": [
                 "array"
             ],

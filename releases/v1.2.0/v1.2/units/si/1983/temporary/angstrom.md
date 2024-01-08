@@ -57,7 +57,7 @@ The ångström was implicitly redefined via the redefinition of the metre at the
         "base-units": [
             {
                 "symbol": "m",
-                "id": "https://schema.optimade.org/units/si/1983/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
             }
         ],
         "base-units-expression": "m",
@@ -66,6 +66,7 @@ The ångström was implicitly redefined via the redefinition of the metre at the
         }
     },
     "x-optimade-definition": {
+        "label": "angstrom_si_1983_temporary",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

@@ -63,19 +63,20 @@ The unit appear under the name minute (with symbol ′) in the International Sys
         "base-units": [
             {
                 "symbol": "pi",
-                "id": "https://schema.optimade.org/units/constants/math/pi"
+                "id": "https://schemas.optimade.org/defs/v1.2/constants/math/basic/pi"
             },
             {
                 "symbol": "rad",
-                "id": "https://schema.optimade.org/units/si/1960/supplementary/radian"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/radian"
             }
         ],
         "base-units-expression": "pi*rad",
         "scale": {
-            "denomenator": 10800
+            "denominator": 10800
         }
     },
     "x-optimade-definition": {
+        "label": "arcminute_si_1970_accepted",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

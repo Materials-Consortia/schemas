@@ -65,18 +65,18 @@ In the 2019 redefinition of the SI units, the atomic mass unit is the only unit 
             "base-units": [
                 {
                     "symbol": "kg",
-                    "id": "https://schema.optimade.org/units/si/2019/base/kilogram"
+                    "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram"
                 }
             ],
             "base-units-expression": "kg",
             "scale": {
                 "value": 1.6605390666e-27,
-                "standard_uncertainty": 5e-37,
-                "relative_standard_uncertainty": 3e-10
+                "standard_uncertainty": 5e-37
             }
         }
     ],
     "x-optimade-definition": {
+        "label": "atomicmassunit_si_1970_accepted",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

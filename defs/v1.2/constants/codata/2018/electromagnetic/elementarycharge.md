@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/elementarycharge`](https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/elementarycharge)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/elementarycharge`](https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/elementarycharge.md)**  
 **Definition name:** `elementarycharge`
 
 **Unit name:** Elementary charge  
@@ -32,11 +32,6 @@ It is exactly 1.602176634·10⁻¹⁹ C following the 2019 redefinition of the S
     "symbol": "e",
     "display-symbol": "\\(e\\)",
     "description": "The CODATA 2018 value for the absolute value of the charge of the electron.\n\nThis constant is described in Rev. Mod. Phys. 93, 025010 (2021) as \"Absolute value of the charge of the electron and one of the seven defining constants of the SI\".\nIt is exactly 1.602176634\u00b710\u207b\u00b9\u2079 C following the 2019 redefinition of the SI base units.",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "angstrom"
-    },
     "resources": [
         {
             "relation": "Definition in: E. Tiesinga, P. J. Mohr, D. B. Newell, and B. N. Taylor, Rev. Mod. Phys. 93, 025010 (2021)",
@@ -50,17 +45,24 @@ It is exactly 1.602176634·10⁻¹⁹ C following the 2019 redefinition of the S
     "defining-relation": {
         "base-units": [
             {
-                "symbol": "coulomb",
-                "id": "https://schema.optimade.org/units/si/2019/named/coulomb"
+                "symbol": "C",
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/coulomb"
             }
         ],
-        "base-units-expression": "coulomb",
+        "base-units-expression": "C",
         "scale": {
             "numerator": 1602176634,
             "exponent": -28
         }
     },
+    "standard": {
+        "name": "codata",
+        "year": 2018,
+        "category": "electromagnetic",
+        "symbol": "e"
+    },
     "x-optimade-definition": {
+        "label": "elementary_charge_constant_codata_2019_electromagnetic",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

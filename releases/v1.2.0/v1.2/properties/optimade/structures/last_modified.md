@@ -26,6 +26,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "Last modified",
     "x-optimade-type": "timestamp",
     "x-optimade-definition": {
+        "label": "last_modified_core",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",

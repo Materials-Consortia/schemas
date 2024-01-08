@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/general/minute`](https://schemas.optimade.org/defs/v1.2/units/si/general/minute)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/general/minute`](https://schemas.optimade.org/defs/v1.2/units/si/general/minute.md)**  
 **Definition name:** `minute`
 
 **Unit name:** minute  
@@ -13,8 +13,8 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
 
 The minute appear in the International System of Units (SI), 1th ed. (1970) defined as "1 min = 60 s".
 
-The International System of Units (SI), 1th ed. (1970) categorizes the unit as "Units in use with the International System."
-The International System of Units (SI), 7th ed. (1998) changes the categorization to "Non-SI units accepted for use with the International System."
+- The International System of Units (SI), 1th ed. (1970) categorizes the unit as "Units in use with the International System."
+- The International System of Units (SI), 7th ed. (1998) changes the categorization to "Non-SI units accepted for use with the International System."
 
 This is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.
 This definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.
@@ -36,15 +36,10 @@ This definition is intended for situations when it is not possible to be more pr
     "title": "minute",
     "symbol": "min",
     "display-symbol": "min",
-    "description": "A unit of time that is equal to 60 seconds, using the current, or one of the historical, definitions of the SI units.\n\nThe minute appear in the International System of Units (SI), 1th ed. (1970) defined as \"1 min = 60 s\".\n\nThe International System of Units (SI), 1th ed. (1970) categorizes the unit as \"Units in use with the International System.\"\nThe International System of Units (SI), 7th ed. (1998) changes the categorization to \"Non-SI units accepted for use with the International System.\"\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
+    "description": "A unit of time that is equal to 60 seconds, using the current, or one of the historical, definitions of the SI units.\n\nThe minute appear in the International System of Units (SI), 1th ed. (1970) defined as \"1 min = 60 s\".\n\n- The International System of Units (SI), 1th ed. (1970) categorizes the unit as \"Units in use with the International System.\"\n- The International System of Units (SI), 7th ed. (1998) changes the categorization to \"Non-SI units accepted for use with the International System.\"\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
     "compatibility": [
-        "https://schemas.optimade.org/units/v1.2/si/1970/accepted/minute"
+        "https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/minute"
     ],
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "minute"
-    },
     "resources": [
         {
             "relation": "Definition in the International System of Units (SI), 1st Edition",
@@ -59,7 +54,7 @@ This definition is intended for situations when it is not possible to be more pr
         "base-units": [
             {
                 "symbol": "s",
-                "id": "https://schema.optimade.org/units/si/general/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/general/second"
             }
         ],
         "base-units-expression": "s",
@@ -68,6 +63,7 @@ This definition is intended for situations when it is not possible to be more pr
         }
     },
     "x-optimade-definition": {
+        "label": "minute_si_general",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

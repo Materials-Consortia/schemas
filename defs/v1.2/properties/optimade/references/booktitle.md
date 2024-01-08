@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/booktitle`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/booktitle)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/booktitle`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/booktitle.md)**  
 **Definition name:** `booktitle`
 
 **Property name:** booktitle  
@@ -26,6 +26,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "booktitle",
     "x-optimade-type": "string",
     "x-optimade-definition": {
+        "label": "booktitle_optimade_references",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",

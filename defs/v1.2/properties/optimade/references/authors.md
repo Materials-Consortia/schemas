@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/authors`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/authors)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/authors`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/authors.md)**  
 **Definition name:** `authors`
 
 **Property name:** authors  
@@ -31,10 +31,16 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "authors",
     "x-optimade-type": "list",
     "x-optimade-definition": {
+        "label": "authors_optimade_references",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",
         "name": "authors"
+    },
+    "x-optimade-dimensions": {
+        "names": [
+            "dim_authors"
+        ]
     },
     "type": [
         "array",
@@ -43,9 +49,10 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "description": "A list of dictionaries with names of the authors.\n\n**Requirements/Conventions**:\n\n- Each list member MUST be a dictionary with the following keys:\n\n  - **name**: Full name of the person, REQUIRED.\n  - **firstname**, **lastname**: Parts of the person's name, OPTIONAL.",
     "items": {
         "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/person",
-        "title": "authors",
+        "title": "Person",
         "x-optimade-type": "dictionary",
         "x-optimade-definition": {
+            "label": "person_optimade_common",
             "kind": "property",
             "version": "1.2.0",
             "format": "1.2",

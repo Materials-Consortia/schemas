@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/elements`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/elements)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/elements`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/elements.md)**  
 **Definition name:** `elements`
 
 **Property name:** Elements  
@@ -38,10 +38,16 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "Elements",
     "x-optimade-type": "list",
     "x-optimade-definition": {
+        "label": "elements_optimade_structures",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",
         "name": "elements"
+    },
+    "x-optimade-dimensions": {
+        "names": [
+            "dim_elements"
+        ]
     },
     "type": [
         "array",
@@ -64,6 +70,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
         "title": "Element",
         "x-optimade-type": "string",
         "x-optimade-definition": {
+            "label": "element_optimade_common",
             "kind": "property",
             "version": "1.2.0",
             "format": "1.2",

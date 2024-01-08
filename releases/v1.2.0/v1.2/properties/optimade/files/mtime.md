@@ -30,6 +30,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "Modification time",
     "x-optimade-type": "timestamp",
     "x-optimade-definition": {
+        "label": "mtime_optimade_files",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",

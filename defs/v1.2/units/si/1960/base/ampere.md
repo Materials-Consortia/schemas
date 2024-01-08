@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1960/base/ampere`](https://schemas.optimade.org/defs/v1.2/units/si/1960/base/ampere)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1960/base/ampere`](https://schemas.optimade.org/defs/v1.2/units/si/1960/base/ampere.md)**  
 **Definition name:** `ampere`
 
 **Unit name:** ampere  
@@ -52,7 +52,14 @@ Furthermore, the SI 1960 definition of the ampere depend on:
             "resource-id": "https://en.wikipedia.org/wiki/Ampere"
         }
     ],
+    "standard": {
+        "name": "si",
+        "year": 1960,
+        "category": "base",
+        "symbol": "A"
+    },
     "x-optimade-definition": {
+        "label": "ampere_si_1960_base",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

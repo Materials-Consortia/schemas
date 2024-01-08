@@ -52,11 +52,11 @@ The radiation unit appear in the International System of Units (SI), 1th ed. (19
         "base-units": [
             {
                 "symbol": "J",
-                "id": "https://schema.optimade.org/units/si/1967/named/joule"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/named/joule"
             },
             {
                 "symbol": "kg",
-                "id": "https://schema.optimade.org/units/si/1960/base/kilogram"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram"
             }
         ],
         "base-units-expression": "J*kg^-1",
@@ -65,6 +65,7 @@ The radiation unit appear in the International System of Units (SI), 1th ed. (19
         }
     },
     "x-optimade-definition": {
+        "label": "radiationunit_si_1970_temporary",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

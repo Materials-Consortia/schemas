@@ -4,10 +4,16 @@
     "title": "editors",
     "x-optimade-type": "list",
     "x-optimade-definition": {
+        "label": "editors_optimade_references",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",
         "name": "editors"
+    },
+    "x-optimade-dimensions": {
+        "names": [
+            "dim_editors"
+        ]
     },
     "type": [
         "array",
@@ -16,9 +22,10 @@
     "description": "A list of dictionaries with names of the editors.\n\n**Requirements/Conventions**:\n\n- Each list member MUST be a dictionary with the following keys:\n\n  - **name**: Full name of the person, REQUIRED.\n  - **firstname**, **lastname**: Parts of the person's name, OPTIONAL.",
     "items": {
         "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/person",
-        "title": "authors",
+        "title": "Person",
         "x-optimade-type": "dictionary",
         "x-optimade-definition": {
+            "label": "person_optimade_common",
             "kind": "property",
             "version": "1.2.0",
             "format": "1.2",

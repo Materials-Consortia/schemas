@@ -29,6 +29,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "URL stable until",
     "x-optimade-type": "timestamp",
     "x-optimade-definition": {
+        "label": "url_stable_until_optimade_files",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",

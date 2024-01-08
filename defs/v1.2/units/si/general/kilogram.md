@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/general/kilogram`](https://schemas.optimade.org/defs/v1.2/units/si/general/kilogram)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/general/kilogram`](https://schemas.optimade.org/defs/v1.2/units/si/general/kilogram.md)**  
 **Definition name:** `kilogram`
 
 **Unit name:** kilogram  
@@ -38,14 +38,9 @@ This definition is intended for situations when it is not possible to be more pr
     "display-symbol": "kg",
     "description": "A unit of mass using the current, or one of the historical, definitions of the SI units.\n\nThe current definition at the 26th CGPM Meeting in 2018, resolution 1 is: \"The kilogram, symbol kg, is the SI unit of mass. It is defined by taking the fixed numerical value of the Planck constant \\(h\\) to be 6.62607015\u00d710\u207b\u00b3\u2074 when expressed in the unit J\u22c5s, which is equal to kg\u22c5m\u00b2\u22c5s\u207b\u00b9, where the metre and the second are defined in terms of \\(c\\) and \\(\\Delta \\nu_\\textrm{Cs}\\).\"\n\nThe prior definition at the 1st CGPM Meeting (1889) was: \"The prototype of the kilogram adopted by the International Committee; This prototype will henceforth be considered as the unit of mass;\", referring to the international prototype of the kilogram made of platinum-iridium.\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
     "compatibility": [
-        "https://schemas.optimade.org/units/v1.2/si/1960/base/kilogram",
-        "https://schemas.optimade.org/units/v1.2/si/2019/base/kilogram"
+        "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram",
+        "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram"
     ],
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "kilogram"
-    },
     "resources": [
         {
             "relation": "Definition in the 26th CGPM Meeting in 2018, resolution 1",
@@ -61,6 +56,7 @@ This definition is intended for situations when it is not possible to be more pr
         }
     ],
     "x-optimade-definition": {
+        "label": "kilogram_si_general",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

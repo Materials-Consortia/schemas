@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/hectare`](https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/hectare)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/hectare`](https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/hectare.md)**  
 **Definition name:** `hectare`
 
 **Unit name:** hectare  
@@ -13,9 +13,9 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
 
 The hectare appear in the International System of Units (SI), 1th ed. (1970) defined as "1 ha = 1 hm² = 10⁴ m²" with the footnote "This unit and its symbol were adopted by the International Committee in 1879 (Proces-Verbaux C.I.P.M., 1879, p. 41).
 
-The International System of Units (SI), 1th ed. (1970) categorizes the unit as "units in use temporarily".
-The International System of Units (SI), 5th ed. (1985) add the clarification that the unit is "used to express agricultural areas."
-The International System of Units (SI), 7th ed. (1998) changes the categorisation to "Other non-SI units currently accepted for use with the International System."
+- The International System of Units (SI), 1th ed. (1970) categorizes the unit as "units in use temporarily".
+- The International System of Units (SI), 5th ed. (1985) add the clarification that the unit is "used to express agricultural areas."
+- The International System of Units (SI), 7th ed. (1998) changes the categorisation to "Other non-SI units currently accepted for use with the International System."
 
 The hectare was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.
 
@@ -37,12 +37,7 @@ The hectare was implicitly redefined via the redefinition of the metre at the 17
     "title": "hectare",
     "symbol": "he",
     "display-symbol": "he",
-    "description": "A unit of area equal to 1000 square meters (1 hm\u00b2), with meter defined according to the 1983 SI base unit.\n\nThe hectare appear in the International System of Units (SI), 1th ed. (1970) defined as \"1 ha = 1 hm\u00b2 = 10\u2074 m\u00b2\" with the footnote \"This unit and its symbol were adopted by the International Committee in 1879 (Proces-Verbaux C.I.P.M., 1879, p. 41).\n\nThe International System of Units (SI), 1th ed. (1970) categorizes the unit as \"units in use temporarily\".\nThe International System of Units (SI), 5th ed. (1985) add the clarification that the unit is \"used to express agricultural areas.\"\nThe International System of Units (SI), 7th ed. (1998) changes the categorisation to \"Other non-SI units currently accepted for use with the International System.\"\n\nThe hectare was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "hectare"
-    },
+    "description": "A unit of area equal to 1000 square meters (1 hm\u00b2), with meter defined according to the 1983 SI base unit.\n\nThe hectare appear in the International System of Units (SI), 1th ed. (1970) defined as \"1 ha = 1 hm\u00b2 = 10\u2074 m\u00b2\" with the footnote \"This unit and its symbol were adopted by the International Committee in 1879 (Proces-Verbaux C.I.P.M., 1879, p. 41).\n\n- The International System of Units (SI), 1th ed. (1970) categorizes the unit as \"units in use temporarily\".\n- The International System of Units (SI), 5th ed. (1985) add the clarification that the unit is \"used to express agricultural areas.\"\n- The International System of Units (SI), 7th ed. (1998) changes the categorisation to \"Other non-SI units currently accepted for use with the International System.\"\n\nThe hectare was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.",
     "resources": [
         {
             "relation": "Definition in the International System of Units (SI), 9th Edition",
@@ -61,7 +56,7 @@ The hectare was implicitly redefined via the redefinition of the metre at the 17
         "base-units": [
             {
                 "symbol": "m",
-                "id": "https://schema.optimade.org/units/si/1983/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
             }
         ],
         "base-units-expression": "m^2",
@@ -70,6 +65,7 @@ The hectare was implicitly redefined via the redefinition of the metre at the 17
         }
     },
     "x-optimade-definition": {
+        "label": "hectare_si_1983_temporary",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

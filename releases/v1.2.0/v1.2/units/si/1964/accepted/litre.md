@@ -6,7 +6,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
 **Definition name:** `litre`
 
 **Unit name:** litre  
-**Latin symbol:** litre  
+**Latin symbol:** l  
 **Display symbol:** l  
   
 **Description:** The litre, or liter is a unit of volume equal to a cubic decimetre (1 dm³), with meter defined according to the 1960 SI units.
@@ -28,7 +28,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1964/accepted/litre",
     "title": "litre",
-    "symbol": "litre",
+    "symbol": "l",
     "display-symbol": "l",
     "alternate-symbols": [
         "L",
@@ -49,7 +49,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
         "base-units": [
             {
                 "symbol": "m",
-                "id": "https://schema.optimade.org/units/si/1960/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre"
             }
         ],
         "base-units-expression": "m^3",
@@ -58,6 +58,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
         }
     },
     "x-optimade-definition": {
+        "label": "litre_si_1964_accepted",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

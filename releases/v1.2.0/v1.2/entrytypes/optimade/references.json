@@ -4,6 +4,7 @@
     "title": "References",
     "description": "The references entry type describes a reference",
     "x-optimade-definition": {
+        "label": "references_entrytype_optimade",
         "kind": "entrytype",
         "format": "1.2",
         "version": "1.2.0",
@@ -22,6 +23,7 @@
             "title": "ID",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "id_core",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -51,6 +53,7 @@
             "title": "Type",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "type_core",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -76,6 +79,7 @@
             "title": "Immutable ID",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "immutable_id_core",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -103,6 +107,7 @@
             "title": "Last modified",
             "x-optimade-type": "timestamp",
             "x-optimade-definition": {
+                "label": "last_modified_core",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -130,6 +135,7 @@
             "title": "address",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "address_optimade_references",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -156,6 +162,7 @@
             "title": "annote",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "annote_optimade_references",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -182,6 +189,7 @@
             "title": "booktitle",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "booktitle_optimade_references",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -208,6 +216,7 @@
             "title": "chapter",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "chapter_optimade_references",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -234,6 +243,7 @@
             "title": "crossref",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "crossref_optimade_references",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -260,6 +270,7 @@
             "title": "edition",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "edition_optimade_references",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -286,6 +297,7 @@
             "title": "howpublished",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "howpublished_optimade_references",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -312,6 +324,7 @@
             "title": "institution",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "institution_optimade_references",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -338,6 +351,7 @@
             "title": "journal",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "journal_optimade_references",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -364,6 +378,7 @@
             "title": "key",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "key_optimade_references",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -390,6 +405,7 @@
             "title": "month",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "month_optimade_references",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -416,6 +432,7 @@
             "title": "note",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "note_optimade_references",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -442,6 +459,7 @@
             "title": "number",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "number_optimade_references",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -468,6 +486,7 @@
             "title": "organization",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "organization_optimade_references",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -494,6 +513,7 @@
             "title": "pages",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "pages_optimade_references",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -520,6 +540,7 @@
             "title": "publisher",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "publisher_optimade_references",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -546,6 +567,7 @@
             "title": "school",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "school_optimade_references",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -572,6 +594,7 @@
             "title": "series",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "series_optimade_references",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -598,6 +621,7 @@
             "title": "title",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "title_optimade_references",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -624,6 +648,7 @@
             "title": "volume",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "volume_optimade_references",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -650,6 +675,7 @@
             "title": "year",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "year_optimade_references",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -676,6 +702,7 @@
             "title": "bibliographic type",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "bib_type_optimade_references",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -702,6 +729,7 @@
             "title": "authors",
             "x-optimade-type": "list",
             "x-optimade-definition": {
+                "label": "authors_optimade_references",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -722,6 +750,7 @@
                 "title": "Person",
                 "x-optimade-type": "dictionary",
                 "x-optimade-definition": {
+                    "label": "person_optimade_common",
                     "kind": "property",
                     "version": "1.2.0",
                     "format": "1.2",
@@ -795,6 +824,7 @@
             "title": "editors",
             "x-optimade-type": "list",
             "x-optimade-definition": {
+                "label": "editors_optimade_references",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -815,6 +845,7 @@
                 "title": "Person",
                 "x-optimade-type": "dictionary",
                 "x-optimade-definition": {
+                    "label": "person_optimade_common",
                     "kind": "property",
                     "version": "1.2.0",
                     "format": "1.2",
@@ -888,6 +919,7 @@
             "title": "doi",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "doi_optimade_references",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -914,6 +946,7 @@
             "title": "url",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "url_optimade_references",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",

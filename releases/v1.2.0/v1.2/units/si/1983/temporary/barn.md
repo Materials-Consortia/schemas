@@ -56,7 +56,7 @@ The are was implicitly redefined via the redefinition of the metre at the 17th C
         "base-units": [
             {
                 "symbol": "m",
-                "id": "https://schema.optimade.org/units/si/1983/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
             }
         ],
         "scale": {
@@ -65,6 +65,7 @@ The are was implicitly redefined via the redefinition of the metre at the 17th C
         "base-units-expression": "m^2"
     },
     "x-optimade-definition": {
+        "label": "barn_si_1983_temporary",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

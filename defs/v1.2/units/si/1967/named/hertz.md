@@ -2,11 +2,11 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1967/named/hertz`](https://schemas.optimade.org/defs/v1.2/units/si/1967/named/hertz)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1967/named/hertz`](https://schemas.optimade.org/defs/v1.2/units/si/1967/named/hertz.md)**  
 **Definition name:** `hertz`
 
 **Unit name:** hertz  
-**Latin symbol:** hertz  
+**Latin symbol:** Hz  
 **Display symbol:** Hz  
   
 **Description:** A derived SI unit for frequency equal to s⁻¹ in the 1967 SI units.
@@ -32,14 +32,9 @@ The hertz was defined at the 9th CGPM Meeting in 1946, included in SI at the 11t
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/named/hertz",
     "title": "hertz",
-    "symbol": "hertz",
+    "symbol": "Hz",
     "display-symbol": "Hz",
     "description": "A derived SI unit for frequency equal to s\u207b\u00b9 in the 1967 SI units.\n\n\"The frequency of a periodic phenomenon is expressed in hertz, as the inverse of its period expressed in seconds.\" [9th CGPM meeting in 1946]\n\nThe hertz was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12 and implicitly redefined via the redefinition of the second at the 13th CGPM Meeting in 1967, resolution 1.",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "hertz"
-    },
     "resources": [
         {
             "relation": "Definition at the 9st CGPM meeting (1948)",
@@ -62,12 +57,19 @@ The hertz was defined at the 9th CGPM Meeting in 1946, included in SI at the 11t
         "base-units": [
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
             }
         ],
         "base-units-expression": "s^-1"
     },
+    "standard": {
+        "name": "si",
+        "year": 1967,
+        "category": "named",
+        "symbol": "Hz"
+    },
     "x-optimade-definition": {
+        "label": "hertz_si_1967_named",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

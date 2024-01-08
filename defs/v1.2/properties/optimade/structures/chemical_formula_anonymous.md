@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_anonymous`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_anonymous)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_anonymous`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_anonymous.md)**  
 **Definition name:** `chemical_formula_anonymous`
 
 **Property name:** Anonymous chemical formula  
@@ -27,6 +27,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "Anonymous chemical formula",
     "x-optimade-type": "string",
     "x-optimade-definition": {
+        "label": "chemical_formula_anonymous_optimade_structures",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",

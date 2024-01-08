@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/prefixes/si/yobi`](https://schemas.optimade.org/defs/v1.2/prefixes/si/yobi)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/prefixes/si/yobi`](https://schemas.optimade.org/defs/v1.2/prefixes/si/yobi.md)**  
 **Definition name:** `yobi`
 
 **Prefix name:** yobi  
@@ -31,11 +31,6 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
     "symbol": "Yi",
     "display-symbol": "Yi",
     "description": "The yobi prefix as a dimensionless multiple of 2\u2078\u2070 is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for refering to powers of 2.",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "yobi"
-    },
     "resources": [
         {
             "relation": "Definition in the International System of Units (SI), 9th Edition",
@@ -51,10 +46,11 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
         "base-units-expression": "",
         "scale": {
             "base": 2,
-            "nominator": 80
+            "numerator": 80
         }
     },
     "x-optimade-definition": {
+        "label": "yobi_prefix_si",
         "kind": "prefix",
         "format": "1.2",
         "version": "1.2.0",

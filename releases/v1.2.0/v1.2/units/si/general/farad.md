@@ -39,10 +39,10 @@ This definition is intended for situations when it is not possible to be more pr
     "display-symbol": "F",
     "description": "A unit for electrical capacitance equal to kg\u207b\u00b9\u00b7m\u207b\u00b2\u00b7s\u2074\u00b7A\u00b2 using the current, or one of the historical, definitions of the SI units.\n\n\"The farad is the capacitance of an electric capacitor between whose plates an electric potential difference of one volt appears when it is charged with an amount of electricity equal to one coulomb.\" [9th CGPM meeting in 1946]\n\nThe farad was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12 and implicitly redefined via the redefinitions of the second at the 13th CGPM Meeting in 1967, resolution 1, and the redefinitions of the ampere and kilogram at the 26th CGPM Meeting in 2018, resolution 1\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
     "compatibility": [
-        "https://schemas.optimade.org/units/v1.2/si/1960/named/farad",
-        "https://schemas.optimade.org/units/v1.2/si/1967/named/farad",
-        "https://schemas.optimade.org/units/v1.2/si/1983/named/farad",
-        "https://schemas.optimade.org/units/v1.2/si/2019/named/farad"
+        "https://schemas.optimade.org/defs/v1.2/units/si/1960/named/farad",
+        "https://schemas.optimade.org/defs/v1.2/units/si/1967/named/farad",
+        "https://schemas.optimade.org/defs/v1.2/units/si/1983/named/farad",
+        "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/farad"
     ],
     "resources": [
         {
@@ -66,24 +66,25 @@ This definition is intended for situations when it is not possible to be more pr
         "base-units": [
             {
                 "symbol": "A",
-                "id": "https://schemas.optimade.org/units/v1.2/si/general/ampere"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/general/ampere"
             },
             {
                 "symbol": "kg",
-                "id": "https://schemas.optimade.org/units/v1.2/si/general/kilogram"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/general/kilogram"
             },
             {
                 "symbol": "m",
-                "id": "https://schemas.optimade.org/units/v1.2/si/general/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/general/metre"
             },
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/general/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/general/second"
             }
         ],
         "base-units-expression": "A^2*kg^-1*m^-2*s^4"
     },
     "x-optimade-definition": {
+        "label": "farad_si_general",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

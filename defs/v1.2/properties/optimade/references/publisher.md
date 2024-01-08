@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/publisher`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/publisher)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/publisher`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/publisher.md)**  
 **Definition name:** `publisher`
 
 **Property name:** publisher  
@@ -26,6 +26,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "publisher",
     "x-optimade-type": "string",
     "x-optimade-definition": {
+        "label": "publisher_optimade_references",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",

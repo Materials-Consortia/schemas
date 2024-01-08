@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/watt`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/watt)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/watt`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/watt.md)**  
 **Definition name:** `watt`
 
 **Unit name:** watt  
@@ -62,20 +62,27 @@ The watt was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th
         "base-units": [
             {
                 "symbol": "kg",
-                "id": "https://schemas.optimade.org/units/v1.2/si/2019/base/kilogram"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram"
             },
             {
                 "symbol": "m",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/meter"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
             },
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
             }
         ],
         "base-units-expression": "kg*m^2*s^-3"
     },
+    "standard": {
+        "name": "si",
+        "year": 2019,
+        "category": "named",
+        "symbol": "W"
+    },
     "x-optimade-definition": {
+        "label": "watt_si_2019_named",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

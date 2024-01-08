@@ -61,7 +61,14 @@ Following the redefinition of the second at the 13th CGPM Meeting in 1967, resol
             "resource-id": "https://en.wikipedia.org/wiki/Ampere"
         }
     ],
+    "standard": {
+        "name": "si",
+        "year": 1983,
+        "category": "base",
+        "symbol": "A"
+    },
     "x-optimade-definition": {
+        "label": "ampere_si_1983_base",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

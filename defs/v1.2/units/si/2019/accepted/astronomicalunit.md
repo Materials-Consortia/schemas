@@ -2,11 +2,11 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/2019/accepted/astronomicalunit`](https://schemas.optimade.org/defs/v1.2/units/si/2019/accepted/astronomicalunit)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/2019/accepted/astronomicalunit`](https://schemas.optimade.org/defs/v1.2/units/si/2019/accepted/astronomicalunit.md)**  
 **Definition name:** `astronomicalunit`
 
 **Unit name:** astronomical unit  
-**Latin symbol:** astronomicalunit  
+**Latin symbol:** au  
 **Display symbol:** au  
   
 **Description:** A unit defined as exactly 149597870700 meters which is meant to represent the mean distance between the Earth and the Sun using the SI 1983 meter.
@@ -30,14 +30,9 @@ The International System of Units (SI), 9th ed. (2019) categorizes the astronomi
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/accepted/astronomicalunit",
     "title": "astronomical unit",
-    "symbol": "astronomicalunit",
+    "symbol": "au",
     "display-symbol": "au",
     "description": "A unit defined as exactly 149597870700 meters which is meant to represent the mean distance between the Earth and the Sun using the SI 1983 meter.\n\nThe International System of Units (SI), 9th ed. (2019) changed the definition of the astronomical unit given in prior editions into: \"1 au = 149 597 870 700 m\" with the footnote \"As decided at the XXVIII General Assembly of the International Astronomical Union (Resolution B2, 2012).\"\n\nThe International System of Units (SI), 9th ed. (2019) categorizes the astronomical unit as a \"non-SI unit accepted for use with the SI units\".",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "astronomicalunit"
-    },
     "resources": [
         {
             "relation": "Definition in the International System of Units (SI), 9th Edition",
@@ -52,7 +47,7 @@ The International System of Units (SI), 9th ed. (2019) categorizes the astronomi
         "base-units": [
             {
                 "symbol": "m",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
             }
         ],
         "base-units-expression": "m",
@@ -61,6 +56,7 @@ The International System of Units (SI), 9th ed. (2019) categorizes the astronomi
         }
     },
     "x-optimade-definition": {
+        "label": "astronomicalunit_si_2019_accepted",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

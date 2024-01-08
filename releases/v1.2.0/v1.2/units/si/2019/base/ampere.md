@@ -48,7 +48,14 @@ This definition references the 1976 SI base second unit (https://schemas.optimad
             "resource-id": "https://en.wikipedia.org/wiki/Ampere"
         }
     ],
+    "standard": {
+        "name": "si",
+        "year": 2019,
+        "category": "base",
+        "symbol": "A"
+    },
     "x-optimade-definition": {
+        "label": "ampere_si_2019_base",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

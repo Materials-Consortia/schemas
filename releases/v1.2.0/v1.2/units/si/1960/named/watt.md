@@ -50,20 +50,27 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
         "base-units": [
             {
                 "symbol": "kg",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/kilogram"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram"
             },
             {
                 "symbol": "m",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/meter"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre"
             },
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/second"
             }
         ],
         "base-units-expression": "kg*m^2*s^-3"
     },
+    "standard": {
+        "name": "si",
+        "year": 1960,
+        "category": "named",
+        "symbol": "W"
+    },
     "x-optimade-definition": {
+        "label": "watt_si_1960_named",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

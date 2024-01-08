@@ -5,11 +5,6 @@
     "symbol": "da",
     "display-symbol": "da",
     "description": "The deca SI prefix defined as a dimensionless multiple of 10, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "deca"
-    },
     "resources": [
         {
             "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
@@ -28,6 +23,7 @@
         }
     },
     "x-optimade-definition": {
+        "label": "deca_prefix_si",
         "kind": "prefix",
         "format": "1.2",
         "version": "1.2.0",

@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/size`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/size)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/size`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/size.md)**  
 **Definition name:** `size`
 
 **Property name:** Size  
@@ -30,6 +30,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "Size",
     "x-optimade-type": "integer",
     "x-optimade-definition": {
+        "label": "size_optimade_files",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",
@@ -42,11 +43,6 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
             "symbol": "B",
             "display-symbol": "B",
             "description": "A unit of digital information representing eight bits, defined in the International System of Quantities in ISO/IEC 80000-13 (2008).\n\n\"In English, the name byte, symbol B, is used as a synonym for octet. Here byte means an eight-bit byte.\" [ISO/IEC 80000-13 (2008)]",
-            "standard": {
-                "name": "gnu units",
-                "version": "3.15",
-                "symbol": "byte"
-            },
             "resources": [
                 {
                     "relation": "Defining standard",
@@ -61,7 +57,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
                 "base-units": [
                     {
                         "symbol": "bit",
-                        "id": "https://schemas.optimade.org/units/v1.2/information/bit"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/independent/1948/information/bit"
                     }
                 ],
                 "base-units-expression": "bit",
@@ -69,7 +65,14 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
                     "numerator": 8
                 }
             },
+            "standard": {
+                "name": "iso-iec-80000",
+                "year": 2008,
+                "category": "information_science_and_technology",
+                "symbol": "B"
+            },
             "x-optimade-definition": {
+                "label": "byte_iso_iec_80000_2008_information_science_and_technology",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",

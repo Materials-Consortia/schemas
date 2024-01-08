@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/general/are`](https://schemas.optimade.org/defs/v1.2/units/si/general/are)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/general/are`](https://schemas.optimade.org/defs/v1.2/units/si/general/are.md)**  
 **Definition name:** `are`
 
 **Unit name:** are  
@@ -13,10 +13,10 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
 
 The are appear in the International System of Units (SI), 1th ed. (1970) defined as "1 a = 1 dam² = 10² m²" with the footnote "This unit and its symbol were adopted by the International Committee in 1879 (Proces-Verbaux C.I.P.M., 1879, p. 41).
 
-The International System of Units (SI), 1th ed. (1970) categorizes the unit as "units in use temporarily".
-The International System of Units (SI), 5th ed. (1985) adds the clarification that the unit is "used to express agricultural areas."
-The International System of Units (SI), 8th ed. (2006) completely removes the unit (but still defines the hectare).
-The International System of Units (SI), 7th ed. (1998) reintroduces the unit in the category "Other non-SI units currently accepted for use with the International System."
+- The International System of Units (SI), 1th ed. (1970) categorizes the unit as "units in use temporarily".
+- The International System of Units (SI), 5th ed. (1985) adds the clarification that the unit is "used to express agricultural areas."
+- The International System of Units (SI), 8th ed. (2006) completely removes the unit (but still defines the hectare).
+- The International System of Units (SI), 7th ed. (1998) reintroduces the unit in the category "Other non-SI units currently accepted for use with the International System."
 
 The are was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.
 
@@ -40,16 +40,11 @@ This definition is intended for situations when it is not possible to be more pr
     "title": "are",
     "symbol": "a",
     "display-symbol": "a",
-    "description": "A unit of area equal to 100 square meters (10\u00b2 m\u00b2) using the current, or one of the historical, definitions of the SI units.\n\nThe are appear in the International System of Units (SI), 1th ed. (1970) defined as \"1 a = 1 dam\u00b2 = 10\u00b2 m\u00b2\" with the footnote \"This unit and its symbol were adopted by the International Committee in 1879 (Proces-Verbaux C.I.P.M., 1879, p. 41).\n\nThe International System of Units (SI), 1th ed. (1970) categorizes the unit as \"units in use temporarily\".\nThe International System of Units (SI), 5th ed. (1985) adds the clarification that the unit is \"used to express agricultural areas.\"\nThe International System of Units (SI), 8th ed. (2006) completely removes the unit (but still defines the hectare).\nThe International System of Units (SI), 7th ed. (1998) reintroduces the unit in the category \"Other non-SI units currently accepted for use with the International System.\"\n\nThe are was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
+    "description": "A unit of area equal to 100 square meters (10\u00b2 m\u00b2) using the current, or one of the historical, definitions of the SI units.\n\nThe are appear in the International System of Units (SI), 1th ed. (1970) defined as \"1 a = 1 dam\u00b2 = 10\u00b2 m\u00b2\" with the footnote \"This unit and its symbol were adopted by the International Committee in 1879 (Proces-Verbaux C.I.P.M., 1879, p. 41).\n\n- The International System of Units (SI), 1th ed. (1970) categorizes the unit as \"units in use temporarily\".\n- The International System of Units (SI), 5th ed. (1985) adds the clarification that the unit is \"used to express agricultural areas.\"\n- The International System of Units (SI), 8th ed. (2006) completely removes the unit (but still defines the hectare).\n- The International System of Units (SI), 7th ed. (1998) reintroduces the unit in the category \"Other non-SI units currently accepted for use with the International System.\"\n\nThe are was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
     "compatibility": [
-        "https://schemas.optimade.org/units/v1.2/si/1970/temporary/are",
-        "https://schemas.optimade.org/units/v1.2/si/1983/temporary/are"
+        "https://schemas.optimade.org/defs/v1.2/units/si/1970/temporary/are",
+        "https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/are"
     ],
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "are"
-    },
     "resources": [
         {
             "relation": "Definition in the International System of Units (SI), 1th Edition",
@@ -64,7 +59,7 @@ This definition is intended for situations when it is not possible to be more pr
         "base-units": [
             {
                 "symbol": "m",
-                "id": "https://schema.optimade.org/units/si/general/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/general/metre"
             }
         ],
         "base-units-expression": "m^2",
@@ -73,6 +68,7 @@ This definition is intended for situations when it is not possible to be more pr
         }
     },
     "x-optimade-definition": {
+        "label": "are_si_general",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

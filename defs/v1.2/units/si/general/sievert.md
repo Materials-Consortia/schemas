@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/general/sievert`](https://schemas.optimade.org/defs/v1.2/units/si/general/sievert)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/general/sievert`](https://schemas.optimade.org/defs/v1.2/units/si/general/sievert.md)**  
 **Definition name:** `sievert`
 
 **Unit name:** sievert  
@@ -38,14 +38,9 @@ This definition is intended for situations when it is not possible to be more pr
     "display-symbol": "Sv",
     "description": "A unit for equivalent dose of ionizing radiation equal to m\u00b2\u00b7s\u207b\u00b2 using the current, or one of the historical, definitions of the SI units.\n\n\"The 16th Conf\u00e9rence G\u00e9n\u00e9rale des Poids et Mesures, [...] adopts the special name sievert, symbol Sv, for the SI unit of dose equivalent in the field of radioprotection. The sievert is equal to the joule per kilogram.\" [16th CGPM meeting (1979), resolution 5]\n\nThe sievert was defined at the 16th CGPM meeting in 1979 and implicitly redefined via the redefinition of the meter at the 17th CGPM Meeting in 1983, resolution 1.\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
     "compatibility": [
-        "https://schemas.optimade.org/units/v1.2/si/1979/named/sievert",
-        "https://schemas.optimade.org/units/v1.2/si/1983/named/sievert"
+        "https://schemas.optimade.org/defs/v1.2/units/si/1979/named/sievert",
+        "https://schemas.optimade.org/defs/v1.2/units/si/1983/named/sievert"
     ],
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "sievert"
-    },
     "resources": [
         {
             "relation": "Definition at the 16th CGPM meeting (1979), resolution 5",
@@ -64,16 +59,17 @@ This definition is intended for situations when it is not possible to be more pr
         "base-units": [
             {
                 "symbol": "m",
-                "id": "https://schemas.optimade.org/units/v1.2/si/general/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/general/metre"
             },
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/general/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/general/second"
             }
         ],
         "base-units-expression": "m^2*s^-2"
     },
     "x-optimade-definition": {
+        "label": "sievert_si_general",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

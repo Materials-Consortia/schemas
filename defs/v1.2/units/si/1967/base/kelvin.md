@@ -2,11 +2,11 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1967/base/kelvin`](https://schemas.optimade.org/defs/v1.2/units/si/1967/base/kelvin)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1967/base/kelvin`](https://schemas.optimade.org/defs/v1.2/units/si/1967/base/kelvin.md)**  
 **Definition name:** `kelvin`
 
 **Unit name:** kelvin  
-**Latin symbol:** kelvin  
+**Latin symbol:** K  
 **Display symbol:** K  
   
 **Description:** The kelvin is the SI base unit of thermodynamic temperature defined from the triple point of water at the 13th CGPM Meeting in 1967, resolution 3 and 4 and clarified at the 23rd CGPM Meeting in 2007, resolution 10.
@@ -34,11 +34,11 @@ The 23th CGPM meeting in 2007, resolution 10, approved to append a clarification
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/kelvin",
     "title": "kelvin",
-    "symbol": "kelvin",
+    "symbol": "K",
     "display-symbol": "K",
     "description": "The kelvin is the SI base unit of thermodynamic temperature defined from the triple point of water at the 13th CGPM Meeting in 1967, resolution 3 and 4 and clarified at the 23rd CGPM Meeting in 2007, resolution 10.\n\nThe definition is functionally the same as the prior definition of degree Kelvin from the 10th CGPM meeting in 1954.\nHowever, at the 13th CGPM Meeting in 1967, resolution 4, the definition was rephrased as: \"The kelvin, unit of thermodynamic temperature, is the fraction 1/273.16 of the thermodynamic temperature of the triple point of water.\"\nIn this defining text, and as decided in resolution 3, the unit is named kelvin with the symbol K, replacing the prior use of degree Kelvin and variations.\n\nThe 23th CGPM meeting in 2007, resolution 10, approved to append a clarification to the above definition: \"This definition refers to water having the isotopic composition defined by the following amount-of-substance ratios: 0.00015576 mole of \u00b2H per mole of \u00b9H, 0.0003799 mole of \u00b9\u2077O per mole of \u00b9\u2076O and 0.0020052 mole of \u00b9\u2078O per mole of \u00b9\u2076O.\"",
     "compatibility": [
-        "https://schemas.optimade.org/units/v1.2/si/1960/base/degreekelvin"
+        "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/degreekelvin"
     ],
     "resources": [
         {
@@ -58,7 +58,14 @@ The 23th CGPM meeting in 2007, resolution 10, approved to append a clarification
             "resource-id": "https://en.wikipedia.org/wiki/Kelvin"
         }
     ],
+    "standard": {
+        "name": "si",
+        "year": 1967,
+        "category": "base",
+        "symbol": "K"
+    },
     "x-optimade-definition": {
+        "label": "kelvin_si_1967_base",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/common/species_name`](https://schemas.optimade.org/defs/v1.2/properties/optimade/common/species_name)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/common/species_name`](https://schemas.optimade.org/defs/v1.2/properties/optimade/common/species_name.md)**  
 **Definition name:** `species_name`
 
 **Property name:** Name of the species  
@@ -28,6 +28,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "Name of the species",
     "x-optimade-type": "string",
     "x-optimade-definition": {
+        "label": "species_name_optimade_common",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",

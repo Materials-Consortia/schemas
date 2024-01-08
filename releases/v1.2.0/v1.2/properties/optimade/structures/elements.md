@@ -38,6 +38,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "Elements",
     "x-optimade-type": "list",
     "x-optimade-definition": {
+        "label": "elements_optimade_structures",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",
@@ -69,6 +70,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
         "title": "Element",
         "x-optimade-type": "string",
         "x-optimade-definition": {
+            "label": "element_optimade_common",
             "kind": "property",
             "version": "1.2.0",
             "format": "1.2",

@@ -57,11 +57,11 @@ The knot was implicitly redefined via the redefinition of the metre at the 17th 
         "base-units": [
             {
                 "symbol": "m",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
             },
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
             }
         ],
         "base-units-expression": "ms^-1",
@@ -71,6 +71,7 @@ The knot was implicitly redefined via the redefinition of the metre at the 17th 
         }
     },
     "x-optimade-definition": {
+        "label": "knot_si_1983_temporary",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

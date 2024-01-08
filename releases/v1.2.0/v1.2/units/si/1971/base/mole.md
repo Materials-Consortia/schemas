@@ -48,7 +48,14 @@ The 69th CIPM meeting in 1980 approved to append a clarification to the above de
             "resource-id": "https://en.wikipedia.org/wiki/Mole_(unit)"
         }
     ],
+    "standard": {
+        "name": "si",
+        "year": 1971,
+        "category": "base",
+        "symbol": "mol"
+    },
     "x-optimade-definition": {
+        "label": "mole_si_1971_base",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

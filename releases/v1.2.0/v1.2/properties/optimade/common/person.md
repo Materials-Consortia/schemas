@@ -32,6 +32,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "Person",
     "x-optimade-type": "dictionary",
     "x-optimade-definition": {
+        "label": "person_optimade_common",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",

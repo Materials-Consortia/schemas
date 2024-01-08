@@ -51,7 +51,14 @@ Furthermore, the SI 1967 definition of the candela references:
             "resource-id": "https://en.wikipedia.org/wiki/Candela"
         }
     ],
+    "standard": {
+        "name": "si",
+        "year": 1967,
+        "category": "base",
+        "symbol": "cd"
+    },
     "x-optimade-definition": {
+        "label": "candela_si_1967_base",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

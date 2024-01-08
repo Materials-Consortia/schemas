@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/minute`](https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/minute)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/minute`](https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/minute.md)**  
 **Definition name:** `minute`
 
 **Unit name:** minute  
@@ -13,8 +13,8 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
 
 The minute appear in the International System of Units (SI), 1th ed. (1970) defined as "1 min = 60 s".
 
-The International System of Units (SI), 1th ed. (1970) categorizes the unit as "Units in use with the International System."
-The International System of Units (SI), 7th ed. (1998) changes the categorization to "Non-SI units accepted for use with the International System."
+- The International System of Units (SI), 1th ed. (1970) categorizes the unit as "Units in use with the International System."
+- The International System of Units (SI), 7th ed. (1998) changes the categorization to "Non-SI units accepted for use with the International System."
 
 **Resources:**
 
@@ -33,12 +33,7 @@ The International System of Units (SI), 7th ed. (1998) changes the categorizatio
     "title": "minute",
     "symbol": "min",
     "display-symbol": "min",
-    "description": "A unit of time that is equal to 60 seconds, using the 1967 base SI units.\n\nThe minute appear in the International System of Units (SI), 1th ed. (1970) defined as \"1 min = 60 s\".\n\nThe International System of Units (SI), 1th ed. (1970) categorizes the unit as \"Units in use with the International System.\"\nThe International System of Units (SI), 7th ed. (1998) changes the categorization to \"Non-SI units accepted for use with the International System.\"",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "minute"
-    },
+    "description": "A unit of time that is equal to 60 seconds, using the 1967 base SI units.\n\nThe minute appear in the International System of Units (SI), 1th ed. (1970) defined as \"1 min = 60 s\".\n\n- The International System of Units (SI), 1th ed. (1970) categorizes the unit as \"Units in use with the International System.\"\n- The International System of Units (SI), 7th ed. (1998) changes the categorization to \"Non-SI units accepted for use with the International System.\"",
     "resources": [
         {
             "relation": "Definition in the International System of Units (SI), 1st Edition",
@@ -53,7 +48,7 @@ The International System of Units (SI), 7th ed. (1998) changes the categorizatio
         "base-units": [
             {
                 "symbol": "s",
-                "id": "https://schema.optimade.org/units/si/1967/base/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/second"
             }
         ],
         "base-units-expression": "s",
@@ -62,6 +57,7 @@ The International System of Units (SI), 7th ed. (1998) changes the categorizatio
         }
     },
     "x-optimade-definition": {
+        "label": "minute_si_1970_accepted",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

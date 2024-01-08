@@ -38,6 +38,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "Dimension types",
     "x-optimade-type": "list",
     "x-optimade-definition": {
+        "label": "dimension_types_optimade_structures",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",

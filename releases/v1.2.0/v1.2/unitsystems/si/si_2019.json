@@ -4,6 +4,7 @@
     "title": "SI 2019",
     "description": "The SI 2019 unit system as represented in the 9th edition (v1.06) of The International System of Units.\n\nThe International System of Units (SI) is established and maintained by the General Conference on Weights and Measures (CGPM).\nIn the redefinition of the SI unit system in 2019 the magnitudes of all SI units are defined from declaring exact numerical values for seven defining constants when expressed in terms of their SI units.\n\nThe SI 2019 unit system represents the original publication of the 9th edition of the The International System of Units in march 2019 (marked v1.06).\nThe 9th edition was later updated in 2022 with new SI prefixes defined at the 27th CGPM meeting in 2022.\nThese prefixes are not included.",
     "x-optimade-definition": {
+        "label": "si_2019_unitsystem",
         "kind": "unitsystem",
         "format": "1.2",
         "version": "1.2.0",
@@ -30,7 +31,14 @@
                     "resource-id": "https://en.wikipedia.org/wiki/Second"
                 }
             ],
+            "standard": {
+                "name": "si",
+                "year": 1967,
+                "category": "base",
+                "symbol": "s"
+            },
             "x-optimade-definition": {
+                "label": "second_si_1967_base",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -57,7 +65,14 @@
                     "resource-id": "https://en.wikipedia.org/wiki/Metre"
                 }
             ],
+            "standard": {
+                "name": "si",
+                "year": 1983,
+                "category": "base",
+                "symbol": "m"
+            },
             "x-optimade-definition": {
+                "label": "metre_si_1983_base",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -84,7 +99,14 @@
                     "resource-id": "https://en.wikipedia.org/wiki/Kilogram"
                 }
             ],
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "base",
+                "symbol": "kg"
+            },
             "x-optimade-definition": {
+                "label": "kilogram_si_2019_base",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -111,7 +133,14 @@
                     "resource-id": "https://en.wikipedia.org/wiki/Ampere"
                 }
             ],
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "base",
+                "symbol": "A"
+            },
             "x-optimade-definition": {
+                "label": "ampere_si_2019_base",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -138,7 +167,14 @@
                     "resource-id": "https://en.wikipedia.org/wiki/Kelvin"
                 }
             ],
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "base",
+                "symbol": "K"
+            },
             "x-optimade-definition": {
+                "label": "kelvin_si_2019_base",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -165,7 +201,14 @@
                     "resource-id": "https://en.wikipedia.org/wiki/Mole_(unit)"
                 }
             ],
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "base",
+                "symbol": "mol"
+            },
             "x-optimade-definition": {
+                "label": "mole_si_2019_base",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -192,7 +235,14 @@
                     "resource-id": "https://en.wikipedia.org/wiki/Candela"
                 }
             ],
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "base",
+                "symbol": "cd"
+            },
             "x-optimade-definition": {
+                "label": "candela_si_2019_base",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -227,7 +277,14 @@
                     "resource-id": "https://en.wikipedia.org/wiki/Radian"
                 }
             ],
+            "standard": {
+                "name": "si",
+                "year": 1960,
+                "category": "supplementary",
+                "symbol": "rad"
+            },
             "x-optimade-definition": {
+                "label": "radian_si_1960_supplementary",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -261,7 +318,14 @@
                     "resource-id": "https://en.wikipedia.org/wiki/Radian"
                 }
             ],
+            "standard": {
+                "name": "si",
+                "year": 1960,
+                "category": "supplementary",
+                "symbol": "sr"
+            },
             "x-optimade-definition": {
+                "label": "steradian_si_1960_supplementary",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -288,12 +352,19 @@
                 "base-units": [
                     {
                         "symbol": "s",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     }
                 ],
                 "base-units-expression": "s^-1"
             },
+            "standard": {
+                "name": "si",
+                "year": 1975,
+                "category": "named",
+                "symbol": "Bq"
+            },
             "x-optimade-definition": {
+                "label": "becquerel_si_1975_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -303,7 +374,7 @@
         "C": {
             "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/coulomb",
             "title": "coulomb",
-            "symbol": "coulomb",
+            "symbol": "C",
             "display-symbol": "C",
             "description": "A derived SI unit for electric charge equal to s\u00b7A in the 1983 SI base units.\n\n\"The coulomb is the amount of electricity transported in one second by a current of one ampere.\" [9th CGPM meeting in 1946]\n\nThe coulomb was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12, implicitly redefined via the redefinitions of the second at the 13th CGPM Meeting in 1967, resolution 1; the metre at the 17th CGPM meeting (1983), resolution 1; and the kilogram at the 26th CGPM Meeting (2018), resolution 1.",
             "resources": [
@@ -332,16 +403,23 @@
                 "base-units": [
                     {
                         "symbol": "s",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     },
                     {
                         "symbol": "A",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/2019/base/ampere"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/ampere"
                     }
                 ],
                 "base-units-expression": "A*s"
             },
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "named",
+                "symbol": "C"
+            },
             "x-optimade-definition": {
+                "label": "coulomb_si_2019_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -379,7 +457,7 @@
                 "base-units": [
                     {
                         "symbol": "K",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/2019/base/kelvin"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kelvin"
                     }
                 ],
                 "base-units-expression": "K",
@@ -388,7 +466,14 @@
                     "denominator": 100
                 }
             },
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "named",
+                "symbol": "degC"
+            },
             "x-optimade-definition": {
+                "label": "degcelsius_si_2019_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -423,24 +508,31 @@
                 "base-units": [
                     {
                         "symbol": "A",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/2019/base/ampere"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/ampere"
                     },
                     {
                         "symbol": "kg",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/2019/base/kilogram"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram"
                     },
                     {
                         "symbol": "m",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/metre"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
                     },
                     {
                         "symbol": "s",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     }
                 ],
                 "base-units-expression": "A^2*kg^-1*m^-2*s^4"
             },
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "named",
+                "symbol": "F"
+            },
             "x-optimade-definition": {
+                "label": "farad_si_2019_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -471,16 +563,23 @@
                 "base-units": [
                     {
                         "symbol": "m",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/metre"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
                     },
                     {
                         "symbol": "s",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     }
                 ],
                 "base-units-expression": "m^2*s^-2"
             },
+            "standard": {
+                "name": "si",
+                "year": 1983,
+                "category": "named",
+                "symbol": "Gy"
+            },
             "x-optimade-definition": {
+                "label": "gray_si_1983_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -519,24 +618,31 @@
                 "base-units": [
                     {
                         "symbol": "A",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/2019/base/ampere"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/ampere"
                     },
                     {
                         "symbol": "kg",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/2019/base/kilogram"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram"
                     },
                     {
                         "symbol": "m",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/metre"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
                     },
                     {
                         "symbol": "s",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     }
                 ],
                 "base-units-expression": "A^-2*kg*m^2*s^-2"
             },
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "named",
+                "symbol": "H"
+            },
             "x-optimade-definition": {
+                "label": "henry_si_2019_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -546,7 +652,7 @@
         "Hz": {
             "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/named/hertz",
             "title": "hertz",
-            "symbol": "hertz",
+            "symbol": "Hz",
             "display-symbol": "Hz",
             "description": "A derived SI unit for frequency equal to s\u207b\u00b9 in the 1967 SI units.\n\n\"The frequency of a periodic phenomenon is expressed in hertz, as the inverse of its period expressed in seconds.\" [9th CGPM meeting in 1946]\n\nThe hertz was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12 and implicitly redefined via the redefinition of the second at the 13th CGPM Meeting in 1967, resolution 1.",
             "resources": [
@@ -571,12 +677,19 @@
                 "base-units": [
                     {
                         "symbol": "s",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     }
                 ],
                 "base-units-expression": "s^-1"
             },
+            "standard": {
+                "name": "si",
+                "year": 1967,
+                "category": "named",
+                "symbol": "Hz"
+            },
             "x-optimade-definition": {
+                "label": "hertz_si_1967_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -619,20 +732,27 @@
                 "base-units": [
                     {
                         "symbol": "kg",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/2019/base/kilogram"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram"
                     },
                     {
                         "symbol": "m",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/metre"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
                     },
                     {
                         "symbol": "s",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     }
                 ],
                 "base-units-expression": "kg*m^2*s^-2"
             },
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "named",
+                "symbol": "J"
+            },
             "x-optimade-definition": {
+                "label": "joule_si_2019_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -655,16 +775,23 @@
                 "base-units": [
                     {
                         "symbol": "mol",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/2019/base/mole"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/mole"
                     },
                     {
                         "symbol": "s",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     }
                 ],
                 "base-units-expression": "mol*s^-1"
             },
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "named",
+                "symbol": "kat"
+            },
             "x-optimade-definition": {
+                "label": "katal_si_2019_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -707,16 +834,23 @@
                 "base-units": [
                     {
                         "symbol": "cd",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/2019/base/candela"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/candela"
                     },
                     {
                         "symbol": "sr",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1960/supplementary/steradian"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/steradian"
                     }
                 ],
                 "base-units-expression": "cd*sr"
             },
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "named",
+                "symbol": "lm"
+            },
             "x-optimade-definition": {
+                "label": "lumen_si_2019_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -763,20 +897,27 @@
                 "base-units": [
                     {
                         "symbol": "cd",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/2019/base/candela"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/candela"
                     },
                     {
                         "symbol": "sr",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1960/supplementary/steradian"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/steradian"
                     },
                     {
                         "symbol": "m",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/metre"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
                     }
                 ],
                 "base-units-expression": "cd*m^-2*sr"
             },
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "named",
+                "symbol": "lx"
+            },
             "x-optimade-definition": {
+                "label": "lux_si_2019_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -786,7 +927,7 @@
         "N": {
             "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/newton",
             "title": "newton",
-            "symbol": "newton",
+            "symbol": "N",
             "display-symbol": "N",
             "description": "A derived SI unit for force and weight equal to kg\u00b7m\u00b7s\u207b\u00b2 in 2019 SI units.\n\n\"The newton is the force that, in one second, imparts to a mass equal to one kilogram an increase in speed of one meter per second.\" [9th CGPM meeting in 1946]\n\nThe newton was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12, implicitly redefined via the redefinitions of the second at the 13th CGPM Meeting in 1967, resolution 1, the metre at the 17th CGPM meeting (1983), resolution 1, and the kilogram at the 26th CGPM Meeting (2018), resolution 1.",
             "resources": [
@@ -815,20 +956,27 @@
                 "base-units": [
                     {
                         "symbol": "kg",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/2019/base/kilogram"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram"
                     },
                     {
                         "symbol": "m",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/metre"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
                     },
                     {
                         "symbol": "s",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     }
                 ],
                 "base-units-expression": "kg*m*s^-2"
             },
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "named",
+                "symbol": "N"
+            },
             "x-optimade-definition": {
+                "label": "newton_si_2019_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -871,24 +1019,31 @@
                 "base-units": [
                     {
                         "symbol": "A",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/2019/base/ampere"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/ampere"
                     },
                     {
                         "symbol": "kg",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/2019/base/kilogram"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram"
                     },
                     {
                         "symbol": "m",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/metre"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
                     },
                     {
                         "symbol": "s",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     }
                 ],
                 "base-units-expression": "A^-2*kg*m^2*s^-3"
             },
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "named",
+                "symbol": "ohm"
+            },
             "x-optimade-definition": {
+                "label": "ohm_si_2019_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -923,20 +1078,27 @@
                 "base-units": [
                     {
                         "symbol": "kg",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/2019/base/kilogram"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram"
                     },
                     {
                         "symbol": "m",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/metre"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
                     },
                     {
                         "symbol": "s",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     }
                 ],
                 "base-units-expression": "kg*m^-1*s^-2"
             },
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "named",
+                "symbol": "Pa"
+            },
             "x-optimade-definition": {
+                "label": "pascal_si_2019_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -971,24 +1133,31 @@
                 "base-units": [
                     {
                         "symbol": "A",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/2019/base/ampere"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/ampere"
                     },
                     {
                         "symbol": "kg",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/2019/base/kilogram"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram"
                     },
                     {
                         "symbol": "m",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/metre"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
                     },
                     {
                         "symbol": "s",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     }
                 ],
                 "base-units-expression": "A^2*kg^-1*m^-2*s^3"
             },
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "named",
+                "symbol": "S"
+            },
             "x-optimade-definition": {
+                "label": "siemens_si_2019_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1019,16 +1188,23 @@
                 "base-units": [
                     {
                         "symbol": "m",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/metre"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre"
                     },
                     {
                         "symbol": "s",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     }
                 ],
                 "base-units-expression": "m^2*s^-2"
             },
+            "standard": {
+                "name": "si",
+                "year": 1983,
+                "category": "named",
+                "symbol": "Sv"
+            },
             "x-optimade-definition": {
+                "label": "sievert_si_1983_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1038,7 +1214,7 @@
         "T": {
             "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/tesla",
             "title": "tesla",
-            "symbol": "tesla",
+            "symbol": "T",
             "display-symbol": "T",
             "description": "A derived SI unit for magnetic flux density equal to kg\u00b7s\u207b\u00b2\u00b7A\u207b\u00b9 in the 2019 SI units.\n\nThe tesla was defined as 1 Wb/m in the introduction of the SI unit system the 11th CGPM Meeting in 1960, resolution 12, implicitly redefined via the redefinitions of the second at the 13th CGPM Meeting in 1967, resolution 1, the ampere (implcitly via the redefinition of the metre) at the 17th CGPM Meeting in 1983, resolution 1, and the kilogram and ampere at the 26th CGPM Meeting (2018), resolution 1.",
             "resources": [
@@ -1063,20 +1239,27 @@
                 "base-units": [
                     {
                         "symbol": "A",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/2019/base/ampere"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/ampere"
                     },
                     {
                         "symbol": "kg",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/2019/base/kilogram"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram"
                     },
                     {
                         "symbol": "s",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     }
                 ],
                 "base-units-expression": "A^-1*kg*s^-2"
             },
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "named",
+                "symbol": "T"
+            },
             "x-optimade-definition": {
+                "label": "tesla_si_2019_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1086,7 +1269,7 @@
         "V": {
             "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/volt",
             "title": "volt",
-            "symbol": "volt",
+            "symbol": "V",
             "display-symbol": "V",
             "description": "A derived SI unit for electric potential, voltage, and electromotive force equal to kg\u00b7m\u00b2\u00b7s\u207b\u00b3\u00b7A\u207b\u00b9 in the 2019 SI units.\n\n\"The volt is the electric potential difference that exists between two points of a conducting wire carrying a constant current of one ampere when the power dissipated between these points is equal to one watt.\" [9th CGPM meeting in 1946]\n\nThe volt was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12 and implicitly redefined via the redefinitions of the second at the 13th CGPM Meeting in 1967, resolution 1, the metre at the 17th CGPM Meeting in 1983, resolution 1, and the kilogram at the 26th CGPM Meeting (2018), resolution 1.",
             "resources": [
@@ -1115,24 +1298,31 @@
                 "base-units": [
                     {
                         "symbol": "kg",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/2019/base/kilogram"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram"
                     },
                     {
                         "symbol": "m",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/metre"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
                     },
                     {
                         "symbol": "s",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     },
                     {
                         "symbol": "A",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/2019/base/ampere"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/ampere"
                     }
                 ],
                 "base-units-expression": "A^-1*kg*m^2*s^-3"
             },
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "named",
+                "symbol": "V"
+            },
             "x-optimade-definition": {
+                "label": "volt_si_2019_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1171,20 +1361,27 @@
                 "base-units": [
                     {
                         "symbol": "kg",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/2019/base/kilogram"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram"
                     },
                     {
                         "symbol": "m",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/meter"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
                     },
                     {
                         "symbol": "s",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     }
                 ],
                 "base-units-expression": "kg*m^2*s^-3"
             },
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "named",
+                "symbol": "W"
+            },
             "x-optimade-definition": {
+                "label": "watt_si_2019_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1194,7 +1391,7 @@
         "Wb": {
             "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/weber",
             "title": "weber",
-            "symbol": "weber",
+            "symbol": "Wb",
             "display-symbol": "Wb",
             "description": "A derived SI unit for magnetic flux equal to kg\u00b7m\u00b2\u00b7s\u207b\u00b3\u00b7A\u207b\u00b9 in the 2019 SI units.\n\n\"The weber is the magnetic induction flux that, passing through a single-turn circuit, produces an electromotive force of one volt if it is reduced to zero in one second by uniform decay.\" [9th CGPM meeting in 1946]\n\nThe weber was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12, implicitly redefined via the redefinitions of the second at the 13th CGPM Meeting in 1967, resolution 1; the metre at the 17th CGPM meeting (1983), resolution 1; and the kilogram at the 26th CGPM Meeting (2018), resolution 1.",
             "resources": [
@@ -1219,24 +1416,31 @@
                 "base-units": [
                     {
                         "symbol": "A",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/2019/base/ampere"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/ampere"
                     },
                     {
                         "symbol": "kg",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/2019/base/kilogram"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram"
                     },
                     {
                         "symbol": "m",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/metre"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
                     },
                     {
                         "symbol": "s",
-                        "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     }
                 ],
                 "base-units-expression": "A^-1*kg*m^2*s^-3"
             },
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "named",
+                "symbol": "Wb"
+            },
             "x-optimade-definition": {
+                "label": "weber_si_2019_named",
                 "kind": "unit",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1269,6 +1473,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "yotta_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1299,6 +1504,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "zetta_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1329,6 +1535,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "exa_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1359,6 +1566,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "peta_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1389,6 +1597,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "tera_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1419,6 +1628,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "giga_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1449,6 +1659,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "mega_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1479,6 +1690,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "kilo_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1509,6 +1721,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "hecto_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1539,6 +1752,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "deca_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1569,6 +1783,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "deci_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1599,6 +1814,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "centi_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1629,6 +1845,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "milli_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1663,6 +1880,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "micro_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1693,6 +1911,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "nano_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1723,6 +1942,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "pico_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1753,6 +1973,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "femto_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1783,6 +2004,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "atto_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1813,6 +2035,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "zepto_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",
@@ -1843,6 +2066,7 @@
                 }
             },
             "x-optimade-definition": {
+                "label": "yocto_prefix_si",
                 "kind": "prefix",
                 "format": "1.2",
                 "version": "1.2.0",

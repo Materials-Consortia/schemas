@@ -19,15 +19,15 @@
         "base-units": [
             {
                 "symbol": "kg",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/kilogram"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram"
             },
             {
                 "symbol": "m",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre"
             },
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
             }
         ],
         "base-units-expression": "kg*m^2*s^-2",
@@ -36,6 +36,7 @@
         }
     },
     "x-optimade-definition": {
+        "label": "rem_si_1981_temporary",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

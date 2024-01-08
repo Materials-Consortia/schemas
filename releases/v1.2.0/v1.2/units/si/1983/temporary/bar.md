@@ -53,15 +53,15 @@ The bar was implicitly redefined via the redefinition of the metre at the 17th C
         "base-units": [
             {
                 "symbol": "kg",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/kilogram"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram"
             },
             {
                 "symbol": "m",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
             },
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
             }
         ],
         "base-units-expression": "kg*m^-1*s^-2",
@@ -70,6 +70,7 @@ The bar was implicitly redefined via the redefinition of the metre at the 17th C
         }
     },
     "x-optimade-definition": {
+        "label": "bar_si_1983_temporary",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

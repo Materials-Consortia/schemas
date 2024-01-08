@@ -50,7 +50,7 @@ The are appear in the International System of Units (SI), 1th ed. (1970) defined
         "base-units": [
             {
                 "symbol": "m",
-                "id": "https://schema.optimade.org/units/si/2019/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
             }
         ],
         "base-units-expression": "m^2",
@@ -59,6 +59,7 @@ The are appear in the International System of Units (SI), 1th ed. (1970) defined
         }
     },
     "x-optimade-definition": {
+        "label": "are_si_1970_temporary",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

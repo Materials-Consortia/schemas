@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/prefixes/si/mega`](https://schemas.optimade.org/defs/v1.2/prefixes/si/mega)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/prefixes/si/mega`](https://schemas.optimade.org/defs/v1.2/prefixes/si/mega.md)**  
 **Definition name:** `mega`
 
 **Prefix name:** mega  
@@ -31,11 +31,6 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
     "symbol": "M",
     "display-symbol": "M",
     "description": "The mega SI prefix defined as a dimensionless multiple of 10\u2076, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "mega"
-    },
     "resources": [
         {
             "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
@@ -54,6 +49,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
         }
     },
     "x-optimade-definition": {
+        "label": "mega_prefix_si",
         "kind": "prefix",
         "format": "1.2",
         "version": "1.2.0",

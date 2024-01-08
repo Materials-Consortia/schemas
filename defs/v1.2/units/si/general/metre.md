@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/general/metre`](https://schemas.optimade.org/defs/v1.2/units/si/general/metre)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/general/metre`](https://schemas.optimade.org/defs/v1.2/units/si/general/metre.md)**  
 **Definition name:** `metre`
 
 **Unit name:** metre  
@@ -44,14 +44,9 @@ This definition is intended for situations when it is not possible to be more pr
     ],
     "description": "The metre, or meter, is a unit of length using the current, or one of the historical, definitions of the SI units.\n\nThe current definition in its most recent phrasing at the 26th CGPM Meeting in 2018, resolution 1 is: \"The metre, symbol m, is the SI unit of length. It is defined by taking the fixed numerical value of the speed of light in vacuum \\(c\\) to be 299792458 when expressed in the unit m\u22c5s\u207b\u00b9, where the second is defined in terms of the caesium frequency \\(\\Delta \\nu_\\textrm{Cs}\\).\"\n\nThis is a rephrasing of a definition at the 17th CGPM Meeting (1983), resolution 1: \"The metre is the length of the path travelled by light in vacuum during a time interval of 1/299792458 of a second.\" [17th CGPM Meeting (1983), resolution 1].\n\nThe prior definition at the 11th CGPM meeting (1960), resolution 6 was: \"The metre is the length equal to 1650763.73 wavelengths in vacuum of the radiation corresponding to the transition between the levels 2p\u2081\u2080 and 5d\u2085 of the krypton 86 atom.\"\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
     "compatibility": [
-        "https://schemas.optimade.org/units/v1.2/si/1960/base/metre",
-        "https://schemas.optimade.org/units/v1.2/si/1983/base/metre"
+        "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre",
+        "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
     ],
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "metre"
-    },
     "resources": [
         {
             "relation": "Definition at the 17th CGPM meeting (1983), resolution 1",
@@ -67,6 +62,7 @@ This definition is intended for situations when it is not possible to be more pr
         }
     ],
     "x-optimade-definition": {
+        "label": "metre_si_general",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

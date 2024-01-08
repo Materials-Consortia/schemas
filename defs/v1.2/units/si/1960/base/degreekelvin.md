@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1960/base/degreekelvin`](https://schemas.optimade.org/defs/v1.2/units/si/1960/base/degreekelvin)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1960/base/degreekelvin`](https://schemas.optimade.org/defs/v1.2/units/si/1960/base/degreekelvin.md)**  
 **Definition name:** `degreekelvin`
 
 **Unit name:** degree Kelvin  
@@ -47,7 +47,14 @@ The degree Kelvin was adopted into SI at the 11th CGPM Meeting in 1960, resoluti
             "resource-id": "https://en.wikipedia.org/wiki/Kelvin"
         }
     ],
+    "standard": {
+        "name": "si",
+        "year": 1960,
+        "category": "base",
+        "symbol": "degK"
+    },
     "x-optimade-definition": {
+        "label": "degreekelvin_si_1960_base",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

@@ -67,16 +67,23 @@ The lumen was defined at the 9th CGPM meeting in 1946, implicitly redefined via 
         "base-units": [
             {
                 "symbol": "cd",
-                "id": "https://schemas.optimade.org/units/v1.2/si/2019/base/candela"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/candela"
             },
             {
                 "symbol": "sr",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/supplementary/steradian"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/steradian"
             }
         ],
         "base-units-expression": "cd*sr"
     },
+    "standard": {
+        "name": "si",
+        "year": 2019,
+        "category": "named",
+        "symbol": "lm"
+    },
     "x-optimade-definition": {
+        "label": "lumen_si_2019_named",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

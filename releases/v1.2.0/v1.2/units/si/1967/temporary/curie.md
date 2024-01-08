@@ -60,16 +60,17 @@ Implicitly redefined via the redefinition of the second at the 13th CGPM Meeting
         "base-units": [
             {
                 "symbol": "s",
-                "id": "https://schema.optimade.org/units/si/1967/named/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
             }
         ],
         "base-units-expression": "s^-1",
         "scale": {
-            "nominator": 37,
+            "numerator": 37,
             "exponent": -11
         }
     },
     "x-optimade-definition": {
+        "label": "curie_si_1967_temporary",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

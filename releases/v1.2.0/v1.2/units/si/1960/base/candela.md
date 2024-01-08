@@ -55,7 +55,14 @@ Furthermore, in the definition SI 1960 definition of the candela the centimeter 
             "resource-id": "https://en.wikipedia.org/wiki/Candela"
         }
     ],
+    "standard": {
+        "name": "si",
+        "year": 1960,
+        "category": "base",
+        "symbol": "cd"
+    },
     "x-optimade-definition": {
+        "label": "candela_si_1960_base",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

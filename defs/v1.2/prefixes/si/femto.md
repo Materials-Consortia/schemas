@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/prefixes/si/femto`](https://schemas.optimade.org/defs/v1.2/prefixes/si/femto)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/prefixes/si/femto`](https://schemas.optimade.org/defs/v1.2/prefixes/si/femto.md)**  
 **Definition name:** `femto`
 
 **Prefix name:** femto  
@@ -31,11 +31,6 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
     "symbol": "f",
     "display-symbol": "f",
     "description": "The femto SI prefix defined as a dimensionless multiple of 10\u207b\u00b9\u2075, defined at the 12:th CGPM Meeting in 1964, resolution 8.",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "femto"
-    },
     "resources": [
         {
             "relation": "Definition in the 12th CGPM Meeting in 1964, resolution 8",
@@ -54,6 +49,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
         }
     },
     "x-optimade-definition": {
+        "label": "femto_prefix_si",
         "kind": "prefix",
         "format": "1.2",
         "version": "1.2.0",

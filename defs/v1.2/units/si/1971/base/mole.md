@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1971/base/mole`](https://schemas.optimade.org/defs/v1.2/units/si/1971/base/mole)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1971/base/mole`](https://schemas.optimade.org/defs/v1.2/units/si/1971/base/mole.md)**  
 **Definition name:** `mole`
 
 **Unit name:** mole  
@@ -48,7 +48,14 @@ The 69th CIPM meeting in 1980 approved to append a clarification to the above de
             "resource-id": "https://en.wikipedia.org/wiki/Mole_(unit)"
         }
     ],
+    "standard": {
+        "name": "si",
+        "year": 1971,
+        "category": "base",
+        "symbol": "mol"
+    },
     "x-optimade-definition": {
+        "label": "mole_si_1971_base",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

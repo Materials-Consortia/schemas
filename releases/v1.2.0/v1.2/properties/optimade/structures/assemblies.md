@@ -127,6 +127,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "Assemblies",
     "x-optimade-type": "dictionary",
     "x-optimade-definition": {
+        "label": "assemblies_optimade_structures",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",

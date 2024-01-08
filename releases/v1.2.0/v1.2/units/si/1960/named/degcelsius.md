@@ -43,7 +43,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
         "base-units": [
             {
                 "symbol": "degK",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/kelvin"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/degreekelvin"
             }
         ],
         "base-units-expression": "degK",
@@ -52,7 +52,14 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
             "denominator": 100
         }
     },
+    "standard": {
+        "name": "si",
+        "year": 1960,
+        "category": "named",
+        "symbol": "degC"
+    },
     "x-optimade-definition": {
+        "label": "degcelsius_si_1960_named",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

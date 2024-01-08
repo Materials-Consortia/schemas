@@ -52,7 +52,14 @@ Furthermore, the SI 1960 definition of the ampere depend on:
             "resource-id": "https://en.wikipedia.org/wiki/Ampere"
         }
     ],
+    "standard": {
+        "name": "si",
+        "year": 1960,
+        "category": "base",
+        "symbol": "A"
+    },
     "x-optimade-definition": {
+        "label": "ampere_si_1960_base",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

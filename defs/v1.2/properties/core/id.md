@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/properties/core/id`](https://schemas.optimade.org/defs/v1.2/properties/core/id)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/properties/core/id`](https://schemas.optimade.org/defs/v1.2/properties/core/id.md)**  
 **Definition name:** `id`
 
 **Property name:** ID  
@@ -34,6 +34,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "ID",
     "x-optimade-type": "string",
     "x-optimade-definition": {
+        "label": "id_core",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",

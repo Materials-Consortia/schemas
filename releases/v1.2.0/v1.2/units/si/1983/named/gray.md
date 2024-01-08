@@ -52,16 +52,23 @@ The gray was defined at the 15th CGPM Meeting in 1975, and implicitly redefined 
         "base-units": [
             {
                 "symbol": "m",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
             },
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
             }
         ],
         "base-units-expression": "m^2*s^-2"
     },
+    "standard": {
+        "name": "si",
+        "year": 1983,
+        "category": "named",
+        "symbol": "Gy"
+    },
     "x-optimade-definition": {
+        "label": "gray_si_1983_named",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

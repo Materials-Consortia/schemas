@@ -67,20 +67,27 @@ The lux was defined at the 9th CGPM meeting in 1946, and implicitly redefined vi
         "base-units": [
             {
                 "symbol": "cd",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/candela"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/candela"
             },
             {
                 "symbol": "sr",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/supplementary/steradian"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/steradian"
             },
             {
                 "symbol": "m",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
             }
         ],
         "base-units-expression": "cd*m^-2*sr"
     },
+    "standard": {
+        "name": "si",
+        "year": 1983,
+        "category": "named",
+        "symbol": "lx"
+    },
     "x-optimade-definition": {
+        "label": "lux_si_1983_named",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

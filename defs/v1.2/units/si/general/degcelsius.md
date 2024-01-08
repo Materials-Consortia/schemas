@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/general/degcelsius`](https://schemas.optimade.org/defs/v1.2/units/si/general/degcelsius)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/general/degcelsius`](https://schemas.optimade.org/defs/v1.2/units/si/general/degcelsius.md)**  
 **Definition name:** `degcelsius`
 
 **Unit name:** Degree Celsius  
@@ -42,15 +42,10 @@ This definition is intended for situations when it is not possible to be more pr
     ],
     "description": "A unit of temperature, defined as kelvin offset with +273.15 using the current, or one of the historical, definitions of the SI units.\n\n\"If we add to the practical international Celsius temperatures defined above T\u2080 = 273.15 degrees, we obtain the practical international Kelvin temperatures. By subtracting T\u2080 from the thermodynamic temperatures, we obtain the thermodynamic Celsius temperatures.\" [11th CGPM meeting (1960)]\n\nThe degree Celsius was defined and included in SI at the 11th CGPM meeting in 1960, resolution 12 and implicitly redefined via the redefinitions of the kelvin at the 13th CGPM Meeting in 1967, resolution 4 and at the 26th CGPM Meeting (2018), resolution 1.\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
     "compatibility": [
-        "https://schemas.optimade.org/units/v1.2/si/1960/named/degcelsius",
-        "https://schemas.optimade.org/units/v1.2/si/1967/named/degcelsius",
-        "https://schemas.optimade.org/units/v1.2/si/2019/named/degcelsius"
+        "https://schemas.optimade.org/defs/v1.2/units/si/1960/named/degcelsius",
+        "https://schemas.optimade.org/defs/v1.2/units/si/1967/named/degcelsius",
+        "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/degcelsius"
     ],
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "degcelsius"
-    },
     "resources": [
         {
             "relation": "Definition at the 11th CGPM meeting (1960)",
@@ -73,7 +68,7 @@ This definition is intended for situations when it is not possible to be more pr
         "base-units": [
             {
                 "symbol": "K",
-                "id": "https://schemas.optimade.org/units/v1.2/si/general/kelvin"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/general/kelvin"
             }
         ],
         "base-units-expression": "K",
@@ -83,6 +78,7 @@ This definition is intended for situations when it is not possible to be more pr
         }
     },
     "x-optimade-definition": {
+        "label": "degcelsius_si_general",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

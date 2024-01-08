@@ -52,7 +52,7 @@ The International System of Units (SI), 1st ed. (1970) defines the tonne as "1 t
         "base-units": [
             {
                 "symbol": "kg",
-                "id": "https://schema.optimade.org/units/si/1960/base/kilogram"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram"
             }
         ],
         "base-units-expression": "kg",
@@ -61,6 +61,7 @@ The International System of Units (SI), 1st ed. (1970) defines the tonne as "1 t
         }
     },
     "x-optimade-definition": {
+        "label": "tonne_si_1970_accepted",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

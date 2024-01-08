@@ -50,11 +50,11 @@ The knot appear in the International System of Units (SI), 1th ed. (1970) define
         "base-units": [
             {
                 "symbol": "m",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre"
             },
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
             }
         ],
         "base-units-expression": "ms^-1",
@@ -64,6 +64,7 @@ The knot appear in the International System of Units (SI), 1th ed. (1970) define
         }
     },
     "x-optimade-definition": {
+        "label": "knot_si_1970_temporary",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

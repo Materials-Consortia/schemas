@@ -48,7 +48,14 @@ At the 26th CGPM Meeting (2018), resolution 1 the definition was rephrased to: "
             "resource-id": "https://en.wikipedia.org/wiki/Second"
         }
     ],
+    "standard": {
+        "name": "si",
+        "year": 1967,
+        "category": "base",
+        "symbol": "s"
+    },
     "x-optimade-definition": {
+        "label": "second_si_1967_base",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

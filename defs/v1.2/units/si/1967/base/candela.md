@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1967/base/candela`](https://schemas.optimade.org/defs/v1.2/units/si/1967/base/candela)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1967/base/candela`](https://schemas.optimade.org/defs/v1.2/units/si/1967/base/candela.md)**  
 **Definition name:** `candela`
 
 **Unit name:** candela  
@@ -51,7 +51,14 @@ Furthermore, the SI 1967 definition of the candela references:
             "resource-id": "https://en.wikipedia.org/wiki/Candela"
         }
     ],
+    "standard": {
+        "name": "si",
+        "year": 1967,
+        "category": "base",
+        "symbol": "cd"
+    },
     "x-optimade-definition": {
+        "label": "candela_si_1967_base",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

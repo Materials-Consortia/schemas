@@ -49,7 +49,14 @@ This definition references the SI 1967 second (https://schemas.optimade.org/unit
             "resource-id": "https://en.wikipedia.org/wiki/Metre"
         }
     ],
+    "standard": {
+        "name": "si",
+        "year": 1983,
+        "category": "base",
+        "symbol": "m"
+    },
     "x-optimade-definition": {
+        "label": "metre_si_1983_base",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

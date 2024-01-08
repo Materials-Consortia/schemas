@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1970/temporary/knot`](https://schemas.optimade.org/defs/v1.2/units/si/1970/temporary/knot)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1970/temporary/knot`](https://schemas.optimade.org/defs/v1.2/units/si/1970/temporary/knot.md)**  
 **Definition name:** `knot`
 
 **Unit name:** knot  
@@ -13,10 +13,10 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
 
 The knot appear in the International System of Units (SI), 1th ed. (1970) defined as "1 nautical mile per hour = (1852/3600) m/s."
 
-The International System of Units (SI), 1th ed. (1970) categorizes the unit as "Units in use temporarily with the International System."
-The International System of Units (SI), 7th ed. (1998) changes the categorization to "Other non-SI units currently accepted for use with the International System."
-The International System of Units (SI), 8th ed. (2006) changes the categorization to "Other non-SI units."
-The knot is omitted in the International System of Units (SI), 9th Edition (2019).
+- The International System of Units (SI), 1th ed. (1970) categorizes the unit as "Units in use temporarily with the International System."
+- The International System of Units (SI), 7th ed. (1998) changes the categorization to "Other non-SI units currently accepted for use with the International System."
+- The International System of Units (SI), 8th ed. (2006) changes the categorization to "Other non-SI units."
+- The knot is omitted in the International System of Units (SI), 9th Edition (2019).
 
 **Resources:**
 
@@ -35,12 +35,7 @@ The knot is omitted in the International System of Units (SI), 9th Edition (2019
     "title": "knot",
     "symbol": "knot",
     "display-symbol": "knot",
-    "description": "A unit of speed primarily used in navigation defined as 1 nautical mile per hour which is equal to (1852/3600) m/s using the 1967 SI units.\n\nThe knot appear in the International System of Units (SI), 1th ed. (1970) defined as \"1 nautical mile per hour = (1852/3600) m/s.\"\n\nThe International System of Units (SI), 1th ed. (1970) categorizes the unit as \"Units in use temporarily with the International System.\"\nThe International System of Units (SI), 7th ed. (1998) changes the categorization to \"Other non-SI units currently accepted for use with the International System.\"\nThe International System of Units (SI), 8th ed. (2006) changes the categorization to \"Other non-SI units.\"\nThe knot is omitted in the International System of Units (SI), 9th Edition (2019).",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "knot"
-    },
+    "description": "A unit of speed primarily used in navigation defined as 1 nautical mile per hour which is equal to (1852/3600) m/s using the 1967 SI units.\n\nThe knot appear in the International System of Units (SI), 1th ed. (1970) defined as \"1 nautical mile per hour = (1852/3600) m/s.\"\n\n- The International System of Units (SI), 1th ed. (1970) categorizes the unit as \"Units in use temporarily with the International System.\"\n- The International System of Units (SI), 7th ed. (1998) changes the categorization to \"Other non-SI units currently accepted for use with the International System.\"\n- The International System of Units (SI), 8th ed. (2006) changes the categorization to \"Other non-SI units.\"\n- The knot is omitted in the International System of Units (SI), 9th Edition (2019).",
     "resources": [
         {
             "relation": "Definition in the International System of Units (SI), 1st Edition",
@@ -55,11 +50,11 @@ The knot is omitted in the International System of Units (SI), 9th Edition (2019
         "base-units": [
             {
                 "symbol": "m",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre"
             },
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
             }
         ],
         "base-units-expression": "ms^-1",
@@ -69,6 +64,7 @@ The knot is omitted in the International System of Units (SI), 9th Edition (2019
         }
     },
     "x-optimade-definition": {
+        "label": "knot_si_1970_temporary",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

@@ -48,7 +48,14 @@ This definition references the 2019 SI derived joule unit (https://schemas.optim
             "resource-id": "https://en.wikipedia.org/wiki/Kelvin"
         }
     ],
+    "standard": {
+        "name": "si",
+        "year": 2019,
+        "category": "base",
+        "symbol": "K"
+    },
     "x-optimade-definition": {
+        "label": "kelvin_si_2019_base",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

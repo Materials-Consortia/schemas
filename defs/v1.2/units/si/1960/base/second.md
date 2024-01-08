@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1960/base/second`](https://schemas.optimade.org/defs/v1.2/units/si/1960/base/second)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1960/base/second`](https://schemas.optimade.org/defs/v1.2/units/si/1960/base/second.md)**  
 **Definition name:** `second`
 
 **Unit name:** second  
@@ -47,7 +47,14 @@ The second was included into SI at the 11th CGPM Meeting in 1960 in resolution 1
             "resource-id": "https://en.wikipedia.org/wiki/Second"
         }
     ],
+    "standard": {
+        "name": "si",
+        "year": 1960,
+        "category": "base",
+        "symbol": "s"
+    },
     "x-optimade-definition": {
+        "label": "second_si_1960_base",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

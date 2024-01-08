@@ -35,7 +35,7 @@ This definition is intended for situations when it is not possible to be more pr
     "display-symbol": "Bq",
     "description": "A unit for radioactivity, defined as s\u207b\u00b9 using the current, or one of the historical, definitions of the SI units.\n\n\"The 15th Conf\u00e9rence G\u00e9n\u00e9rale des Poids et Mesures, [...] adopts the following special name for the SI unit of activity: becquerel, symbol Bq, equal to one reciprocal second.\" [15th CGPM Meeting (1975)]\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
     "compatibility": [
-        "https://schemas.optimade.org/units/v1.2/si/1975/named/becquerel"
+        "https://schemas.optimade.org/defs/v1.2/units/si/1975/named/becquerel"
     ],
     "resources": [
         {
@@ -51,12 +51,13 @@ This definition is intended for situations when it is not possible to be more pr
         "base-units": [
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/general/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/general/second"
             }
         ],
         "base-units-expression": "s^-1"
     },
     "x-optimade-definition": {
+        "label": "becquerel_si_general",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

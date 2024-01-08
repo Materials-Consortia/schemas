@@ -6,7 +6,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
 **Definition name:** `coulomb`
 
 **Unit name:** coulomb  
-**Latin symbol:** coulomb  
+**Latin symbol:** C  
 **Display symbol:** C  
   
 **Description:** A unit for electric charge equal to s·A using the current, or one of the historical, definitions of the SI units.
@@ -36,14 +36,14 @@ This definition is intended for situations when it is not possible to be more pr
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/coulomb",
     "title": "coulomb",
-    "symbol": "coulomb",
+    "symbol": "C",
     "display-symbol": "C",
     "description": "A unit for electric charge equal to s\u00b7A using the current, or one of the historical, definitions of the SI units.\n\n\"The coulomb is the amount of electricity transported in one second by a current of one ampere.\" [9th CGPM meeting in 1946]\n\nThe coulomb was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12, implicitly redefined via the redefinitions of the second at the 13th CGPM Meeting in 1967, resolution 1; the metre at the 17th CGPM meeting (1983), resolution 1; and the kilogram at the 26th CGPM Meeting (2018), resolution 1.\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
     "compatibility": [
-        "https://schemas.optimade.org/units/v1.2/si/1960/named/coulomb",
-        "https://schemas.optimade.org/units/v1.2/si/1967/named/coulomb",
-        "https://schemas.optimade.org/units/v1.2/si/1983/named/coulomb",
-        "https://schemas.optimade.org/units/v1.2/si/2019/named/coulomb"
+        "https://schemas.optimade.org/defs/v1.2/units/si/1960/named/coulomb",
+        "https://schemas.optimade.org/defs/v1.2/units/si/1967/named/coulomb",
+        "https://schemas.optimade.org/defs/v1.2/units/si/1983/named/coulomb",
+        "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/coulomb"
     ],
     "resources": [
         {
@@ -71,16 +71,17 @@ This definition is intended for situations when it is not possible to be more pr
         "base-units": [
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/general/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/general/second"
             },
             {
                 "symbol": "A",
-                "id": "https://schemas.optimade.org/units/v1.2/si/general/ampere"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/general/ampere"
             }
         ],
         "base-units-expression": "A*s"
     },
     "x-optimade-definition": {
+        "label": "coulomb_si_general",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

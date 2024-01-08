@@ -56,7 +56,7 @@ The hectare was implicitly redefined via the redefinition of the metre at the 17
         "base-units": [
             {
                 "symbol": "m",
-                "id": "https://schema.optimade.org/units/si/1983/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
             }
         ],
         "base-units-expression": "m^2",
@@ -65,6 +65,7 @@ The hectare was implicitly redefined via the redefinition of the metre at the 17
         }
     },
     "x-optimade-definition": {
+        "label": "hectare_si_1983_temporary",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

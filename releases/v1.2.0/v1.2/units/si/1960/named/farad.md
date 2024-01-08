@@ -6,7 +6,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
 **Definition name:** `farad`
 
 **Unit name:** farad  
-**Latin symbol:** farad  
+**Latin symbol:** F  
 **Display symbol:** F  
   
 **Description:** A derived SI unit for electrical capacitance equal to kg⁻¹·m⁻²·s⁴·A² in the 1960 SI base units.
@@ -29,7 +29,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/named/farad",
     "title": "farad",
-    "symbol": "farad",
+    "symbol": "F",
     "display-symbol": "F",
     "description": "A derived SI unit for electrical capacitance equal to kg\u207b\u00b9\u00b7m\u207b\u00b2\u00b7s\u2074\u00b7A\u00b2 in the 1960 SI base units.\n\n\"The farad is the capacitance of an electric capacitor between whose plates an electric potential difference of one volt appears when it is charged with an amount of electricity equal to one coulomb.\" [9th CGPM meeting in 1946]",
     "resources": [
@@ -50,24 +50,31 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
         "base-units": [
             {
                 "symbol": "A",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/ampere"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/ampere"
             },
             {
                 "symbol": "kg",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/kilogram"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram"
             },
             {
                 "symbol": "m",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre"
             },
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/second"
             }
         ],
         "base-units-expression": "A^2*kg^-1*m^-2*s^4"
     },
+    "standard": {
+        "name": "si",
+        "year": 1960,
+        "category": "named",
+        "symbol": "F"
+    },
     "x-optimade-definition": {
+        "label": "farad_si_1960_named",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

@@ -54,7 +54,7 @@ In the 2019 implicit redefinition of the tonne, the kilogram in the definition r
         "base-units": [
             {
                 "symbol": "kg",
-                "id": "https://schema.optimade.org/units/si/2019/base/kilogram"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram"
             }
         ],
         "base-units-expression": "kg",
@@ -63,6 +63,7 @@ In the 2019 implicit redefinition of the tonne, the kilogram in the definition r
         }
     },
     "x-optimade-definition": {
+        "label": "tonne_si_2019_accepted",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

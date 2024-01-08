@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/general/gal`](https://schemas.optimade.org/defs/v1.2/units/si/general/gal)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/general/gal`](https://schemas.optimade.org/defs/v1.2/units/si/general/gal.md)**  
 **Definition name:** `gal`
 
 **Unit name:** gal  
@@ -13,10 +13,10 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
 
 The gal appear in the International System of Units (SI), 1th ed. (1970) defined as "1 Gal = 1 cm/s² = 10⁻² m/s²" with the footnote "The gal is a special unit of acceleration employed in geodesy and geophysics to express acceleration due to gravity."
 
-The International System of Units (SI), 1th ed. (1970) categorizes the unit as "units in use temporarily".
-The International System of Units (SI), 7th ed. (1998) changes the categorisation to "derived CGS units with special names".
-The International System of Units (SI), 9th ed. (2019) moves the unit definition to the margin aside the table for Non-SI units accepted for use with the SI units.
-It is not clear how to interprete the categorization intended with this placement of the unit.
+- The International System of Units (SI), 1th ed. (1970) categorizes the unit as "units in use temporarily".
+- The International System of Units (SI), 7th ed. (1998) changes the categorisation to "derived CGS units with special names".
+- The International System of Units (SI), 9th ed. (2019) moves the unit definition to the margin aside the table for Non-SI units accepted for use with the SI units.
+  It is not clear how to interprete the categorization intended with this placement of the unit.
 
 The galileo was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.
 
@@ -41,16 +41,11 @@ This definition is intended for situations when it is not possible to be more pr
     "title": "gal",
     "symbol": "Gal",
     "display-symbol": "Gal",
-    "description": "A unit of acceleration equal to 1 centimeter per second squared (1 cm/s\u00b2), using the current, or one of the historical, definitions of the SI units.\n\nThe gal appear in the International System of Units (SI), 1th ed. (1970) defined as \"1 Gal = 1 cm/s\u00b2 = 10\u207b\u00b2 m/s\u00b2\" with the footnote \"The gal is a special unit of acceleration employed in geodesy and geophysics to express acceleration due to gravity.\"\n\nThe International System of Units (SI), 1th ed. (1970) categorizes the unit as \"units in use temporarily\".\nThe International System of Units (SI), 7th ed. (1998) changes the categorisation to \"derived CGS units with special names\".\nThe International System of Units (SI), 9th ed. (2019) moves the unit definition to the margin aside the table for Non-SI units accepted for use with the SI units.\nIt is not clear how to interprete the categorization intended with this placement of the unit.\n\nThe galileo was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
+    "description": "A unit of acceleration equal to 1 centimeter per second squared (1 cm/s\u00b2), using the current, or one of the historical, definitions of the SI units.\n\nThe gal appear in the International System of Units (SI), 1th ed. (1970) defined as \"1 Gal = 1 cm/s\u00b2 = 10\u207b\u00b2 m/s\u00b2\" with the footnote \"The gal is a special unit of acceleration employed in geodesy and geophysics to express acceleration due to gravity.\"\n\n- The International System of Units (SI), 1th ed. (1970) categorizes the unit as \"units in use temporarily\".\n- The International System of Units (SI), 7th ed. (1998) changes the categorisation to \"derived CGS units with special names\".\n- The International System of Units (SI), 9th ed. (2019) moves the unit definition to the margin aside the table for Non-SI units accepted for use with the SI units.\n  It is not clear how to interprete the categorization intended with this placement of the unit.\n\nThe galileo was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
     "compatibility": [
-        "https://schemas.optimade.org/units/v1.2/si/1970/temporary/gal",
-        "https://schemas.optimade.org/units/v1.2/si/1983/temporary/gal"
+        "https://schemas.optimade.org/defs/v1.2/units/si/1970/temporary/gal",
+        "https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/gal"
     ],
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "galileo"
-    },
     "resources": [
         {
             "relation": "Definition in the International System of Units (SI), 1st Edition",
@@ -69,7 +64,7 @@ This definition is intended for situations when it is not possible to be more pr
         "base-units": [
             {
                 "symbol": "m",
-                "id": "https://schema.optimade.org/units/si/general/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/general/metre"
             }
         ],
         "base-units-expression": "m^2",
@@ -78,6 +73,7 @@ This definition is intended for situations when it is not possible to be more pr
         }
     },
     "x-optimade-definition": {
+        "label": "gal_si_general",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

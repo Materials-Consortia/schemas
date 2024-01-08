@@ -57,24 +57,31 @@ The farad was defined at the 9th CGPM Meeting in 1946, included in SI at the 11t
         "base-units": [
             {
                 "symbol": "A",
-                "id": "https://schemas.optimade.org/units/v1.2/si/2019/base/ampere"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/ampere"
             },
             {
                 "symbol": "kg",
-                "id": "https://schemas.optimade.org/units/v1.2/si/2019/base/kilogram"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram"
             },
             {
                 "symbol": "m",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
             },
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
             }
         ],
         "base-units-expression": "A^2*kg^-1*m^-2*s^4"
     },
+    "standard": {
+        "name": "si",
+        "year": 2019,
+        "category": "named",
+        "symbol": "F"
+    },
     "x-optimade-definition": {
+        "label": "farad_si_2019_named",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

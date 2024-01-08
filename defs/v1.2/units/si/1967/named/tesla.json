@@ -2,14 +2,9 @@
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/named/tesla",
     "title": "tesla",
-    "symbol": "tesla",
+    "symbol": "T",
     "display-symbol": "T",
     "description": "A derived SI unit for magnetic flux density equal to kg\u00b7s\u207b\u00b2\u00b7A\u207b\u00b9 in the 1967 SI units.\n\nThe tesla was defined as 1 Wb/m in the introduction of the SI unit system the 11th CGPM Meeting in 1960, resolution 12 and implicitly redefined via the redefinition of the second at the 13th CGPM Meeting in 1967, resolution 1.",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "tesla"
-    },
     "resources": [
         {
             "relation": "Definition and establishment of the SI unit system at the 11th CGPM meeting (1960), resolution 12.",
@@ -24,20 +19,27 @@
         "base-units": [
             {
                 "symbol": "A",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/ampere"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/ampere"
             },
             {
                 "symbol": "kg",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/kilogram"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram"
             },
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
             }
         ],
         "base-units-expression": "A^-1*kg*s^-2"
     },
+    "standard": {
+        "name": "si",
+        "year": 1967,
+        "category": "named",
+        "symbol": "T"
+    },
     "x-optimade-definition": {
+        "label": "tesla_si_1967_named",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

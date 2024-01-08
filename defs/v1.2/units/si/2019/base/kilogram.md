@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram`](https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram`](https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram.md)**  
 **Definition name:** `kilogram`
 
 **Unit name:** kilogram  
@@ -37,11 +37,6 @@ This definition references:
     "symbol": "kg",
     "display-symbol": "kg",
     "description": "The SI base unit of mass defined by fixing the value of the Planck constant as defined at the 26th CGPM Meeting (2018) and adopted into SI in 2019.\n\n\"The kilogram, symbol kg, is the SI unit of mass. It is defined by taking the fixed numerical value of the Planck constant \\(h\\) to be 6.62607015\u00d710\u207b\u00b3\u2074 when expressed in the unit J\u22c5s, which is equal to kg\u22c5m\u00b2\u22c5s\u207b\u00b9, where the metre and the second are defined in terms of \\(c\\) and \\(\\Delta \\nu_\\textrm{Cs}\\).\" [26th CGPM Meeting (2018), resolution 1].\n\nThis definition references:\n\n- The 2019 SI derived joule unit (https://schemas.optimade.org/units/v1.2/si/2019/named/joule).\n- The 1967 SI base second unit (https://schemas.optimade.org/units/v1.2/si/1967/base/second).",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "kilogram"
-    },
     "resources": [
         {
             "relation": "Definition in the 26th CGPM Meeting in 2018, resolution 1",
@@ -56,7 +51,14 @@ This definition references:
             "resource-id": "https://en.wikipedia.org/wiki/Kilogram"
         }
     ],
+    "standard": {
+        "name": "si",
+        "year": 2019,
+        "category": "base",
+        "symbol": "kg"
+    },
     "x-optimade-definition": {
+        "label": "kilogram_si_2019_base",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

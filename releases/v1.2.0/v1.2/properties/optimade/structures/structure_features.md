@@ -38,6 +38,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/structure_features",
     "title": "Structure features",
     "x-optimade-definition": {
+        "label": "structure_features_optimade_structures",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",

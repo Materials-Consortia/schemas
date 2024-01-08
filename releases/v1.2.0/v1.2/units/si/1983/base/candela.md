@@ -62,7 +62,14 @@ Following the redefinition of the metre at the 17th CGPM Meeting in 1983, resolu
             "resource-id": "https://en.wikipedia.org/wiki/Candela"
         }
     ],
+    "standard": {
+        "name": "si",
+        "year": 1983,
+        "category": "base",
+        "symbol": "cd"
+    },
     "x-optimade-definition": {
+        "label": "candela_si_1983_base",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

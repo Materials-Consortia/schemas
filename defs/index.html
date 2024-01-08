@@ -122,9 +122,12 @@ overflow-wrap: break-word;
 <li>
 <p><strong>math</strong></p>
 <ul>
+<li><strong>basic</strong><ul>
 <li>
-<p><strong><a href="v1.2/constants/math/pi">pi</a></strong> (constant) - <a href="https://schemas.optimade.org/defs/v1.2/constants/math/pi"><code>https://schemas.optimade.org/defs/v1.2/constants/math/pi</code></a></p>
+<p><strong><a href="v1.2/constants/math/basic/pi">pi</a></strong> (constant) - <a href="https://schemas.optimade.org/defs/v1.2/constants/math/basic/pi"><code>https://schemas.optimade.org/defs/v1.2/constants/math/basic/pi</code></a></p>
 <p>The ratio of a circle's circumference to its diameter. Approximately equal to 3.1415926.</p>
+</li>
+</ul>
 </li>
 </ul>
 </li>
@@ -358,16 +361,20 @@ overflow-wrap: break-word;
 <p>The chemical symbol of an element</p>
 </li>
 <li>
-<p><strong><a href="v1.2/properties/optimade/common/element_list">Elements</a></strong> (property) - <a href="https://schemas.optimade.org/defs/v1.2/properties/optimade/common/element_list"><code>https://schemas.optimade.org/defs/v1.2/properties/optimade/common/element_list</code></a></p>
-<p>A list of elements.</p>
+<p><strong><a href="v1.2/properties/optimade/common/person">Person</a></strong> (property) - <a href="https://schemas.optimade.org/defs/v1.2/properties/optimade/common/person"><code>https://schemas.optimade.org/defs/v1.2/properties/optimade/common/person</code></a></p>
+<p>A dictionary with name information about a person.</p>
 </li>
 <li>
-<p><strong><a href="v1.2/properties/optimade/common/person">authors</a></strong> (property) - <a href="https://schemas.optimade.org/defs/v1.2/properties/optimade/common/person"><code>https://schemas.optimade.org/defs/v1.2/properties/optimade/common/person</code></a></p>
-<p>A dictionary with name information about a person.</p>
+<p><strong><a href="v1.2/properties/optimade/common/space_group_symmetry_operation_xyz">Space group symmetry operation</a></strong> (property) - <a href="https://schemas.optimade.org/defs/v1.2/properties/optimade/common/space_group_symmetry_operation_xyz"><code>https://schemas.optimade.org/defs/v1.2/properties/optimade/common/space_group_symmetry_operation_xyz</code></a></p>
+<p>A single symmetry operation.</p>
 </li>
 <li>
 <p><strong><a href="v1.2/properties/optimade/common/species_name">Name of the species</a></strong> (property) - <a href="https://schemas.optimade.org/defs/v1.2/properties/optimade/common/species_name"><code>https://schemas.optimade.org/defs/v1.2/properties/optimade/common/species_name</code></a></p>
 <p>The name of the species.</p>
+</li>
+<li>
+<p><strong><a href="v1.2/properties/optimade/common/symmetry_operation_xyz">Symmetry operation</a></strong> (property) - <a href="https://schemas.optimade.org/defs/v1.2/properties/optimade/common/symmetry_operation_xyz"><code>https://schemas.optimade.org/defs/v1.2/properties/optimade/common/symmetry_operation_xyz</code></a></p>
+<p>A symmetry operation given as general position x, y, z coordinates in algebraic form.</p>
 </li>
 </ul>
 </li>
@@ -633,12 +640,24 @@ overflow-wrap: break-word;
 <p>An integer specifying the length of the <code>cartesian_site_positions</code> property.</p>
 </li>
 <li>
-<p><strong><a href="v1.2/properties/optimade/structures/space_group_hall">Hall space group</a></strong> (property) - <a href="https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_hall"><code>https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_hall</code></a></p>
+<p><strong><a href="v1.2/properties/optimade/structures/space_group_it_number">Space group IT number</a></strong> (property) - <a href="https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_it_number"><code>https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_it_number</code></a></p>
+<p>Space group number for the structure assigned by the International Tables for Crystallography Vol. A.</p>
+</li>
+<li>
+<p><strong><a href="v1.2/properties/optimade/structures/space_group_symbol_hall">Hall space group symbol</a></strong> (property) - <a href="https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hall"><code>https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hall</code></a></p>
 <p>A Hall space group symbol representing the symmetry of the structure as defined in Hall, S. R. (1981), Acta Cryst. A37, 517-525 and erratum (1981), A37, 921.</p>
 </li>
 <li>
-<p><strong><a href="v1.2/properties/optimade/structures/space_group_it_number">Space group IT number</a></strong> (property) - <a href="https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_it_number"><code>https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_it_number</code></a></p>
-<p>Space group number for the structure assigned by the International Tables for Crystallography Vol. A.</p>
+<p><strong><a href="v1.2/properties/optimade/structures/space_group_symbol_hermann_mauguin">Hermann-Mauguin space group symbol</a></strong> (property) - <a href="https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hermann_mauguin"><code>https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hermann_mauguin</code></a></p>
+<p>A human- and machine-readable string containing the short Hermann-Mauguin (H-M) symbol which specifies the space group of the structure in the response.</p>
+</li>
+<li>
+<p><strong><a href="v1.2/properties/optimade/structures/space_group_symbol_hermann_mauguin_extended">Extended Hermann-Mauguin space group symbol</a></strong> (property) - <a href="https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hermann_mauguin_extended"><code>https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hermann_mauguin_extended</code></a></p>
+<p>A human- and machine-readable string containing the extended Hermann-Mauguin (H-M) symbol which specifies the space group of the structure in the response.</p>
+</li>
+<li>
+<p><strong><a href="v1.2/properties/optimade/structures/space_group_symmetry_operations_xyz">Space group symmetry operations</a></strong> (property) - <a href="https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symmetry_operations_xyz"><code>https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symmetry_operations_xyz</code></a></p>
+<p>A list of symmetry operations given as general position x, y and z coordinates in algebraic form.</p>
 </li>
 <li>
 <p><strong><a href="v1.2/properties/optimade/structures/species">Species</a></strong> (property) - <a href="https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/species"><code>https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/species</code></a></p>
@@ -1651,139 +1670,6 @@ overflow-wrap: break-word;
 <li>
 <p><strong><a href="v1.2/units/si/general/weber">weber</a></strong> (unit) - <a href="https://schemas.optimade.org/defs/v1.2/units/si/general/weber"><code>https://schemas.optimade.org/defs/v1.2/units/si/general/weber</code></a></p>
 <p>A unit for magnetic flux equal to kg·m²·s⁻³·A⁻¹ using the current, or one of the historical, definitions of the SI units.</p>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>prefixes</strong></p>
-<ul>
-<li>
-<p><strong><a href="v1.2/units/si/prefixes/atto">atto</a></strong> (prefix) - <a href="https://schemas.optimade.org/defs/v1.2/units/si/prefixes/atto"><code>https://schemas.optimade.org/defs/v1.2/units/si/prefixes/atto</code></a></p>
-<p>The atto SI prefix defined as a dimensionless multiple of 10⁻¹⁸, defined at the 12:th CGPM Meeting in 1964, resolution 8.</p>
-</li>
-<li>
-<p><strong><a href="v1.2/units/si/prefixes/centi">centi</a></strong> (prefix) - <a href="https://schemas.optimade.org/defs/v1.2/units/si/prefixes/centi"><code>https://schemas.optimade.org/defs/v1.2/units/si/prefixes/centi</code></a></p>
-<p>The centi SI prefix defined as a dimensionless multiple of 10⁻², adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.</p>
-</li>
-<li>
-<p><strong><a href="v1.2/units/si/prefixes/deca">deca</a></strong> (prefix) - <a href="https://schemas.optimade.org/defs/v1.2/units/si/prefixes/deca"><code>https://schemas.optimade.org/defs/v1.2/units/si/prefixes/deca</code></a></p>
-<p>The deca SI prefix defined as a dimensionless multiple of 10, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.</p>
-</li>
-<li>
-<p><strong><a href="v1.2/units/si/prefixes/deci">deci</a></strong> (prefix) - <a href="https://schemas.optimade.org/defs/v1.2/units/si/prefixes/deci"><code>https://schemas.optimade.org/defs/v1.2/units/si/prefixes/deci</code></a></p>
-<p>The deci SI prefix defined as a dimensionless multiple of 10⁻¹, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.</p>
-</li>
-<li>
-<p><strong><a href="v1.2/units/si/prefixes/exa">exa</a></strong> (prefix) - <a href="https://schemas.optimade.org/defs/v1.2/units/si/prefixes/exa"><code>https://schemas.optimade.org/defs/v1.2/units/si/prefixes/exa</code></a></p>
-<p>The exa SI prefix defined as a dimensionless multiple of 10¹⁸, defined at the 15th CGPM Meeting in 1975, resolution 10.</p>
-</li>
-<li>
-<p><strong><a href="v1.2/units/si/prefixes/exbi">exbi</a></strong> (prefix) - <a href="https://schemas.optimade.org/defs/v1.2/units/si/prefixes/exbi"><code>https://schemas.optimade.org/defs/v1.2/units/si/prefixes/exbi</code></a></p>
-<p>The exbi prefix as a dimensionless multiple of 2⁶⁰ is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for refering to powers of 2.</p>
-</li>
-<li>
-<p><strong><a href="v1.2/units/si/prefixes/femto">femto</a></strong> (prefix) - <a href="https://schemas.optimade.org/defs/v1.2/units/si/prefixes/femto"><code>https://schemas.optimade.org/defs/v1.2/units/si/prefixes/femto</code></a></p>
-<p>The femto SI prefix defined as a dimensionless multiple of 10⁻¹⁵, defined at the 12:th CGPM Meeting in 1964, resolution 8.</p>
-</li>
-<li>
-<p><strong><a href="v1.2/units/si/prefixes/gibi">gibi</a></strong> (prefix) - <a href="https://schemas.optimade.org/defs/v1.2/units/si/prefixes/gibi"><code>https://schemas.optimade.org/defs/v1.2/units/si/prefixes/gibi</code></a></p>
-<p>The gibi prefix as a dimensionless multiple of 2³⁰ is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for refering to powers of 2.</p>
-</li>
-<li>
-<p><strong><a href="v1.2/units/si/prefixes/giga">giga</a></strong> (prefix) - <a href="https://schemas.optimade.org/defs/v1.2/units/si/prefixes/giga"><code>https://schemas.optimade.org/defs/v1.2/units/si/prefixes/giga</code></a></p>
-<p>The giga SI prefix defined as a dimensionless multiple of 10⁹, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.</p>
-</li>
-<li>
-<p><strong><a href="v1.2/units/si/prefixes/hecto">hecto</a></strong> (prefix) - <a href="https://schemas.optimade.org/defs/v1.2/units/si/prefixes/hecto"><code>https://schemas.optimade.org/defs/v1.2/units/si/prefixes/hecto</code></a></p>
-<p>The hecto SI prefix defined as a dimensionless multiple of 10², adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.</p>
-</li>
-<li>
-<p><strong><a href="v1.2/units/si/prefixes/kibi">kibi</a></strong> (prefix) - <a href="https://schemas.optimade.org/defs/v1.2/units/si/prefixes/kibi"><code>https://schemas.optimade.org/defs/v1.2/units/si/prefixes/kibi</code></a></p>
-<p>The kibi prefix as a dimensionless multiple of 2¹⁰ = 1024 is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for refering to powers of 2.</p>
-</li>
-<li>
-<p><strong><a href="v1.2/units/si/prefixes/kilo">kilo</a></strong> (prefix) - <a href="https://schemas.optimade.org/defs/v1.2/units/si/prefixes/kilo"><code>https://schemas.optimade.org/defs/v1.2/units/si/prefixes/kilo</code></a></p>
-<p>The kilo SI prefix defined as a dimensionless multiple of 10³, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.</p>
-</li>
-<li>
-<p><strong><a href="v1.2/units/si/prefixes/mebi">mebi</a></strong> (prefix) - <a href="https://schemas.optimade.org/defs/v1.2/units/si/prefixes/mebi"><code>https://schemas.optimade.org/defs/v1.2/units/si/prefixes/mebi</code></a></p>
-<p>The mebi prefix as a dimensionless multiple of 2²⁰ is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for refering to powers of 2.</p>
-</li>
-<li>
-<p><strong><a href="v1.2/units/si/prefixes/mega">mega</a></strong> (prefix) - <a href="https://schemas.optimade.org/defs/v1.2/units/si/prefixes/mega"><code>https://schemas.optimade.org/defs/v1.2/units/si/prefixes/mega</code></a></p>
-<p>The mega SI prefix defined as a dimensionless multiple of 10⁶, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.</p>
-</li>
-<li>
-<p><strong><a href="v1.2/units/si/prefixes/micro">micro</a></strong> (prefix) - <a href="https://schemas.optimade.org/defs/v1.2/units/si/prefixes/micro"><code>https://schemas.optimade.org/defs/v1.2/units/si/prefixes/micro</code></a></p>
-<p>The micro SI prefix defined as a dimensionless multiple of 10⁻⁶, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.</p>
-</li>
-<li>
-<p><strong><a href="v1.2/units/si/prefixes/milli">milli</a></strong> (prefix) - <a href="https://schemas.optimade.org/defs/v1.2/units/si/prefixes/milli"><code>https://schemas.optimade.org/defs/v1.2/units/si/prefixes/milli</code></a></p>
-<p>The milli SI prefix defined as a dimensionless multiple of 10⁻³, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.</p>
-</li>
-<li>
-<p><strong><a href="v1.2/units/si/prefixes/nano">nano</a></strong> (prefix) - <a href="https://schemas.optimade.org/defs/v1.2/units/si/prefixes/nano"><code>https://schemas.optimade.org/defs/v1.2/units/si/prefixes/nano</code></a></p>
-<p>The nano SI prefix defined as a dimensionless multiple of 10⁻⁹, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.</p>
-</li>
-<li>
-<p><strong><a href="v1.2/units/si/prefixes/pebi">pebi</a></strong> (prefix) - <a href="https://schemas.optimade.org/defs/v1.2/units/si/prefixes/pebi"><code>https://schemas.optimade.org/defs/v1.2/units/si/prefixes/pebi</code></a></p>
-<p>The pebi prefix as a dimensionless multiple of 2⁵⁰ is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for refering to powers of 2.</p>
-</li>
-<li>
-<p><strong><a href="v1.2/units/si/prefixes/peta">peta</a></strong> (prefix) - <a href="https://schemas.optimade.org/defs/v1.2/units/si/prefixes/peta"><code>https://schemas.optimade.org/defs/v1.2/units/si/prefixes/peta</code></a></p>
-<p>The peta SI prefix defined as a dimensionless multiple of 10¹⁵, defined at the 15th CGPM Meeting in 1975, resolution 10.</p>
-</li>
-<li>
-<p><strong><a href="v1.2/units/si/prefixes/pico">pico</a></strong> (prefix) - <a href="https://schemas.optimade.org/defs/v1.2/units/si/prefixes/pico"><code>https://schemas.optimade.org/defs/v1.2/units/si/prefixes/pico</code></a></p>
-<p>The pico SI prefix defined as a dimensionless multiple of 10⁻¹², adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.</p>
-</li>
-<li>
-<p><strong><a href="v1.2/units/si/prefixes/quecto">quecto</a></strong> (prefix) - <a href="https://schemas.optimade.org/defs/v1.2/units/si/prefixes/quecto"><code>https://schemas.optimade.org/defs/v1.2/units/si/prefixes/quecto</code></a></p>
-<p>The quecto SI prefix defined as a dimensionless multiple of 10⁻³⁰, defined at the 27:th CGPM Meeting in 2022, resolution 3.</p>
-</li>
-<li>
-<p><strong><a href="v1.2/units/si/prefixes/quetta">quetta</a></strong> (prefix) - <a href="https://schemas.optimade.org/defs/v1.2/units/si/prefixes/quetta"><code>https://schemas.optimade.org/defs/v1.2/units/si/prefixes/quetta</code></a></p>
-<p>The quetta SI prefix defined as a dimensionless multiple of 10³⁰, defined at the 27:th CGPM Meeting in 2022, resolution 3.</p>
-</li>
-<li>
-<p><strong><a href="v1.2/units/si/prefixes/ronna">ronna</a></strong> (prefix) - <a href="https://schemas.optimade.org/defs/v1.2/units/si/prefixes/ronna"><code>https://schemas.optimade.org/defs/v1.2/units/si/prefixes/ronna</code></a></p>
-<p>The ronna SI prefix defined as a dimensionless multiple of 10²⁷, defined at the 27:th CGPM Meeting in 2022, resolution 3.</p>
-</li>
-<li>
-<p><strong><a href="v1.2/units/si/prefixes/ronto">ronto</a></strong> (prefix) - <a href="https://schemas.optimade.org/defs/v1.2/units/si/prefixes/ronto"><code>https://schemas.optimade.org/defs/v1.2/units/si/prefixes/ronto</code></a></p>
-<p>The ronto SI prefix defined as a dimensionless multiple of 10^⁻²⁷, defined at the 27:th CGPM Meeting in 2022, resolution 3.</p>
-</li>
-<li>
-<p><strong><a href="v1.2/units/si/prefixes/tebi">tebi</a></strong> (prefix) - <a href="https://schemas.optimade.org/defs/v1.2/units/si/prefixes/tebi"><code>https://schemas.optimade.org/defs/v1.2/units/si/prefixes/tebi</code></a></p>
-<p>The tebi prefix as a dimensionless multiple of 2⁴⁰ is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for refering to powers of 2.</p>
-</li>
-<li>
-<p><strong><a href="v1.2/units/si/prefixes/tera">tera</a></strong> (prefix) - <a href="https://schemas.optimade.org/defs/v1.2/units/si/prefixes/tera"><code>https://schemas.optimade.org/defs/v1.2/units/si/prefixes/tera</code></a></p>
-<p>The tera SI prefix defined as a dimensionless multiple of 10¹², adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.</p>
-</li>
-<li>
-<p><strong><a href="v1.2/units/si/prefixes/yobi">yobi</a></strong> (prefix) - <a href="https://schemas.optimade.org/defs/v1.2/units/si/prefixes/yobi"><code>https://schemas.optimade.org/defs/v1.2/units/si/prefixes/yobi</code></a></p>
-<p>The yobi prefix as a dimensionless multiple of 2⁸⁰ is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for refering to powers of 2.</p>
-</li>
-<li>
-<p><strong><a href="v1.2/units/si/prefixes/yocto">yocto</a></strong> (prefix) - <a href="https://schemas.optimade.org/defs/v1.2/units/si/prefixes/yocto"><code>https://schemas.optimade.org/defs/v1.2/units/si/prefixes/yocto</code></a></p>
-<p>The yocto SI prefix defined as a dimensionless multiple of 10⁻²⁴, defined at the 19:th CGPM Meeting in 1991, resolution 4.</p>
-</li>
-<li>
-<p><strong><a href="v1.2/units/si/prefixes/yotta">yotta</a></strong> (prefix) - <a href="https://schemas.optimade.org/defs/v1.2/units/si/prefixes/yotta"><code>https://schemas.optimade.org/defs/v1.2/units/si/prefixes/yotta</code></a></p>
-<p>The yotta SI prefix defined as a dimensionless multiple of 10²⁴, defined at the 19:th CGPM Meeting in 1991, resolution 4.</p>
-</li>
-<li>
-<p><strong><a href="v1.2/units/si/prefixes/zebi">zebi</a></strong> (prefix) - <a href="https://schemas.optimade.org/defs/v1.2/units/si/prefixes/zebi"><code>https://schemas.optimade.org/defs/v1.2/units/si/prefixes/zebi</code></a></p>
-<p>The zebi prefix as a dimensionless multiple of 2⁷⁰ is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for refering to powers of 2.</p>
-</li>
-<li>
-<p><strong><a href="v1.2/units/si/prefixes/zepto">zepto</a></strong> (prefix) - <a href="https://schemas.optimade.org/defs/v1.2/units/si/prefixes/zepto"><code>https://schemas.optimade.org/defs/v1.2/units/si/prefixes/zepto</code></a></p>
-<p>The zepto SI prefix defined as a dimensionless multiple of 10⁻²¹, defined at the 19:th CGPM Meeting in 1991, resolution 4.</p>
-</li>
-<li>
-<p><strong><a href="v1.2/units/si/prefixes/zetta">zetta</a></strong> (prefix) - <a href="https://schemas.optimade.org/defs/v1.2/units/si/prefixes/zetta"><code>https://schemas.optimade.org/defs/v1.2/units/si/prefixes/zetta</code></a></p>
-<p>The zetta SI prefix defined as a dimensionless multiple of 10²¹, defined at the 19:th CGPM Meeting in 1991, resolution 4.</p>
 </li>
 </ul>
 </li>

@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/radian`](https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/radian)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/radian`](https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/radian.md)**  
 **Definition name:** `radian`
 
 **Unit name:** radian  
@@ -61,7 +61,14 @@ At the 20th CGPM meeting in 1995, resolution 8 the categorization was changed to
             "resource-id": "https://en.wikipedia.org/wiki/Radian"
         }
     ],
+    "standard": {
+        "name": "si",
+        "year": 1960,
+        "category": "supplementary",
+        "symbol": "rad"
+    },
     "x-optimade-definition": {
+        "label": "radian_si_1960_supplementary",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

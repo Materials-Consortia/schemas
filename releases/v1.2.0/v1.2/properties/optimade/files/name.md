@@ -32,6 +32,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "Name",
     "x-optimade-type": "string",
     "x-optimade-definition": {
+        "label": "name_optimade_files",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",

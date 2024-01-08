@@ -26,6 +26,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "booktitle",
     "x-optimade-type": "string",
     "x-optimade-definition": {
+        "label": "booktitle_optimade_references",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",

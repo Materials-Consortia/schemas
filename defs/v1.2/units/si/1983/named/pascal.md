@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1983/named/pascal`](https://schemas.optimade.org/defs/v1.2/units/si/1983/named/pascal)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1983/named/pascal`](https://schemas.optimade.org/defs/v1.2/units/si/1983/named/pascal.md)**  
 **Definition name:** `pascal`
 
 **Unit name:** pascal  
@@ -34,11 +34,6 @@ The pascal was defined at the 14th CGPM Meeting in 1971 and implicitly redefined
     "symbol": "Pa",
     "display-symbol": "Pa",
     "description": "A derived SI unit for pressure and stress equal to kg\u00b7m\u207b\u00b9\u00b7s\u207b\u00b2 using the 1983 SI units.\n\n\"The International Committee will ask the General Conference to approve two special names: pascal (symbol Pa) for the SI unit of pressure (N/m\u00b2), [...]\" [14th CGPM Meeting (1971)].\n\nThe pascal was defined at the 14th CGPM Meeting in 1971 and implicitly redefined via the redefinition of the metre at the 17th CGPM Meeting in 1983, resolution 1.",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "pascal"
-    },
     "resources": [
         {
             "relation": "Definition at the 14th CGPM Meeting (1971)",
@@ -57,20 +52,27 @@ The pascal was defined at the 14th CGPM Meeting in 1971 and implicitly redefined
         "base-units": [
             {
                 "symbol": "kg",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/kilogram"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram"
             },
             {
                 "symbol": "m",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
             },
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
             }
         ],
         "base-units-expression": "kg*m^-1*s^-2"
     },
+    "standard": {
+        "name": "si",
+        "year": 1983,
+        "category": "named",
+        "symbol": "Pa"
+    },
     "x-optimade-definition": {
+        "label": "pascal_si_1983_named",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

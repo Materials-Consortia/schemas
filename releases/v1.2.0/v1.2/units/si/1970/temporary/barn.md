@@ -49,7 +49,7 @@ The International System of Units (SI), 1th ed. (1970) states: "1 b = 100 fm² =
         "base-units": [
             {
                 "symbol": "m",
-                "id": "https://schema.optimade.org/units/si/1960/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre"
             }
         ],
         "scale": {
@@ -58,6 +58,7 @@ The International System of Units (SI), 1th ed. (1970) states: "1 b = 100 fm² =
         "base-units-expression": "m^2"
     },
     "x-optimade-definition": {
+        "label": "barn_si_1970_temporary",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

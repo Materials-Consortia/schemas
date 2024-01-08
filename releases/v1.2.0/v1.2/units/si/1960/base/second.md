@@ -47,7 +47,14 @@ The second was included into SI at the 11th CGPM Meeting in 1960 in resolution 1
             "resource-id": "https://en.wikipedia.org/wiki/Second"
         }
     ],
+    "standard": {
+        "name": "si",
+        "year": 1960,
+        "category": "base",
+        "symbol": "s"
+    },
     "x-optimade-definition": {
+        "label": "second_si_1960_base",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

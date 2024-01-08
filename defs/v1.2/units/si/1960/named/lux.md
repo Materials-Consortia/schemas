@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1960/named/lux`](https://schemas.optimade.org/defs/v1.2/units/si/1960/named/lux)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1960/named/lux`](https://schemas.optimade.org/defs/v1.2/units/si/1960/named/lux.md)**  
 **Definition name:** `lux`
 
 **Unit name:** lux  
@@ -32,11 +32,6 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
     "symbol": "lx",
     "display-symbol": "lx",
     "description": "A derived SI unit for illuminance equal to cd\u22c5sr\u22c5m\u207b\u00b2 in the 1960 SI base units.\n\n\"The lux is the illuminance of a surface that receives a uniformly distributed luminous flux of one lumen per square meter.\" [9th CGPM meeting in 1946]",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "lux"
-    },
     "resources": [
         {
             "relation": "Definition at the 9st CGPM meeting (1948)",
@@ -55,20 +50,27 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
         "base-units": [
             {
                 "symbol": "cd",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/candela"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/candela"
             },
             {
                 "symbol": "sr",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/named/steradian"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/steradian"
             },
             {
                 "symbol": "m",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre"
             }
         ],
         "base-units-expression": "cd*m^-2*sr"
     },
+    "standard": {
+        "name": "si",
+        "year": 1960,
+        "category": "named",
+        "symbol": "lx"
+    },
     "x-optimade-definition": {
+        "label": "lux_si_1960_named",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1983/named/ohm`](https://schemas.optimade.org/defs/v1.2/units/si/1983/named/ohm)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1983/named/ohm`](https://schemas.optimade.org/defs/v1.2/units/si/1983/named/ohm.md)**  
 **Definition name:** `ohm`
 
 **Unit name:** ohm  
@@ -36,11 +36,6 @@ The ohm was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th 
     "symbol": "ohm",
     "display-symbol": "\u03a9",
     "description": "A derived SI unit for electrical resistance equal to kg\u00b7m\u00b2\u00b7s\u207b\u00b3\u00b7A\u207b\u00b2 in the 1983 SI units.\n\n\"The ohm is the electrical resistance that exists between two points of a conductor when a constant potential difference of one volt, applied between these two points, produces a current of one ampere in the conductor, provided that the conductor is not the seat of any electromotive force.\" [9th CGPM meeting in 1946]\n\nThe ohm was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12, implicitly redefined via the redefinition of the second at the 13th CGPM Meeting in 1967, resolution 1, and again implicity redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "ohm"
-    },
     "resources": [
         {
             "relation": "Definition at the 9st CGPM meeting (1948)",
@@ -67,24 +62,31 @@ The ohm was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th 
         "base-units": [
             {
                 "symbol": "A",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/ampere"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/ampere"
             },
             {
                 "symbol": "kg",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/kilogram"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram"
             },
             {
                 "symbol": "m",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1983/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
             },
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
             }
         ],
         "base-units-expression": "A^-2*kg*m^2*s^-3"
     },
+    "standard": {
+        "name": "si",
+        "year": 1983,
+        "category": "named",
+        "symbol": "ohm"
+    },
     "x-optimade-definition": {
+        "label": "ohm_si_1983_named",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

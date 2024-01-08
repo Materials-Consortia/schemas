@@ -5,9 +5,15 @@
     "required": [
         "kind",
         "format",
-        "name"
+        "name",
+        "label"
     ],
     "properties": {
+        "label": {
+            "type": "string",
+            "description": "An expanded version of the name that clarifies its context sufficiently to be unique within definitions issued together as a set.",
+            "pattern": "^[a-z_][a-z_0-9]*$"
+        },
         "name": {
             "type": "string",
             "description": "Gives the definition a short name.",

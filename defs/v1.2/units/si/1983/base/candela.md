@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1983/base/candela`](https://schemas.optimade.org/defs/v1.2/units/si/1983/base/candela)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1983/base/candela`](https://schemas.optimade.org/defs/v1.2/units/si/1983/base/candela.md)**  
 **Definition name:** `candela`
 
 **Unit name:** candela  
@@ -40,11 +40,6 @@ Following the redefinition of the metre at the 17th CGPM Meeting in 1983, resolu
     "symbol": "cd",
     "display-symbol": "cd",
     "description": "The candela is the SI base unit of luminous intensity in a given direction defined from the luminous intensity of monocromatic radiation at a specific frequency and radiant intensity at the 16th CGPM Meeting in 1979; implicitly redefined via the redefinition of the metre at the 17th CGPM Meeting in 1983.\n\n\"The candela is the luminous intensity, in a given direction, of a source that emits monochromatic radiation of frequency 540\u00d710\u00b9\u00b2 hertz and that has a radiant intensity in that direction of 1/683 watt per steradian.\" [16th CGPM Meeting (1979), resolution 3].\n\nFollowing the redefinition of the metre at the 17th CGPM Meeting in 1983, resolution 1, the implicitly redefined candela references:\n\n- the SI 1967 derived hertz unit (https://schemas.optimade.org/units/v1.2/si/1967/named/hertz).\n- the SI 1983 derived watt unit (https://schemas.optimade.org/units/v1.2/si/1983/named/watt).\n- the SI 1960 supplementary unit steradian (https://schemas.optimade.org/units/v1.2/si/1960/supplementary/steradian).",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "cd"
-    },
     "resources": [
         {
             "relation": "Definition at the 41st CIPM meeting (1946), resolution 2",
@@ -67,7 +62,14 @@ Following the redefinition of the metre at the 17th CGPM Meeting in 1983, resolu
             "resource-id": "https://en.wikipedia.org/wiki/Candela"
         }
     ],
+    "standard": {
+        "name": "si",
+        "year": 1983,
+        "category": "base",
+        "symbol": "cd"
+    },
     "x-optimade-definition": {
+        "label": "candela_si_1983_base",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

@@ -42,8 +42,8 @@ This definition is intended for situations when it is not possible to be more pr
     "display-symbol": "he",
     "description": "A unit of area equal to 1000 square meters (1 hm\u00b2), using the current, or one of the historical, definitions of the SI units.\n\nThe hectare appear in the International System of Units (SI), 1th ed. (1970) defined as \"1 ha = 1 hm\u00b2 = 10\u2074 m\u00b2\" with the footnote \"This unit and its symbol were adopted by the International Committee in 1879 (Proces-Verbaux C.I.P.M., 1879, p. 41).\n\n- The International System of Units (SI), 1th ed. (1970) categorizes the unit as \"units in use temporarily\".\n- The International System of Units (SI), 5th ed. (1985) add the clarification that the unit is \"used to express agricultural areas.\"\n- The International System of Units (SI), 7th ed. (1998) changes the categorisation to \"Other non-SI units currently accepted for use with the International System.\"\n\nThe hectare was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
     "compatibility": [
-        "https://schemas.optimade.org/units/v1.2/si/1970/temporary/hectare",
-        "https://schemas.optimade.org/units/v1.2/si/1983/temporary/hectare"
+        "https://schemas.optimade.org/defs/v1.2/units/si/1970/temporary/hectare",
+        "https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/hectare"
     ],
     "resources": [
         {
@@ -63,7 +63,7 @@ This definition is intended for situations when it is not possible to be more pr
         "base-units": [
             {
                 "symbol": "m",
-                "id": "https://schema.optimade.org/units/si/general/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/general/metre"
             }
         ],
         "base-units-expression": "m^2",
@@ -72,6 +72,7 @@ This definition is intended for situations when it is not possible to be more pr
         }
     },
     "x-optimade-definition": {
+        "label": "hectare_si_general",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

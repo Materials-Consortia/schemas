@@ -56,7 +56,7 @@ Historically, the nautical mile was defined as the meridian arc length correspon
         "base-units": [
             {
                 "symbol": "m",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre"
             }
         ],
         "base-units-expression": "m",
@@ -65,6 +65,7 @@ Historically, the nautical mile was defined as the meridian arc length correspon
         }
     },
     "x-optimade-definition": {
+        "label": "nauticalmile_si_1970_temporary",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

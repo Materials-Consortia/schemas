@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1960/base/candela`](https://schemas.optimade.org/defs/v1.2/units/si/1960/base/candela)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1960/base/candela`](https://schemas.optimade.org/defs/v1.2/units/si/1960/base/candela.md)**  
 **Definition name:** `candela`
 
 **Unit name:** candela  
@@ -55,7 +55,14 @@ Furthermore, in the definition SI 1960 definition of the candela the centimeter 
             "resource-id": "https://en.wikipedia.org/wiki/Candela"
         }
     ],
+    "standard": {
+        "name": "si",
+        "year": 1960,
+        "category": "base",
+        "symbol": "cd"
+    },
     "x-optimade-definition": {
+        "label": "candela_si_1960_base",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

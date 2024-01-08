@@ -4,10 +4,16 @@
     "title": "Elements ratios",
     "x-optimade-type": "list",
     "x-optimade-definition": {
+        "label": "elements_ratios_optimade_structures",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",
-        "name": "element_ratios"
+        "name": "elements_ratios"
+    },
+    "x-optimade-dimensions": {
+        "names": [
+            "dim_elements"
+        ]
     },
     "type": [
         "array",

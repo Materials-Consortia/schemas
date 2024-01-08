@@ -1,11 +1,11 @@
-# authors (property)
+# Person (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/common/person`](https://schemas.optimade.org/defs/v1.2/properties/optimade/common/person)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/common/person`](https://schemas.optimade.org/defs/v1.2/properties/optimade/common/person.md)**  
 **Definition name:** `person`
 
-**Property name:** authors  
+**Property name:** Person  
 **Description:** A dictionary with name information about a person.  
 **Type:** dictionary  
 
@@ -29,9 +29,10 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 {
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/person",
-    "title": "authors",
+    "title": "Person",
     "x-optimade-type": "dictionary",
     "x-optimade-definition": {
+        "label": "person_optimade_common",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",

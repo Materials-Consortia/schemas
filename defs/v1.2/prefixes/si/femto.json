@@ -5,11 +5,6 @@
     "symbol": "f",
     "display-symbol": "f",
     "description": "The femto SI prefix defined as a dimensionless multiple of 10\u207b\u00b9\u2075, defined at the 12:th CGPM Meeting in 1964, resolution 8.",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "femto"
-    },
     "resources": [
         {
             "relation": "Definition in the 12th CGPM Meeting in 1964, resolution 8",
@@ -28,6 +23,7 @@
         }
     },
     "x-optimade-definition": {
+        "label": "femto_prefix_si",
         "kind": "prefix",
         "format": "1.2",
         "version": "1.2.0",

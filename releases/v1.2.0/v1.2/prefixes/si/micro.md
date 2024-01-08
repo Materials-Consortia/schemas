@@ -55,6 +55,7 @@ Based on the recommendation of the ISMP List of Error-Prone Abbreviations, Symbo
         }
     },
     "x-optimade-definition": {
+        "label": "micro_prefix_si",
         "kind": "prefix",
         "format": "1.2",
         "version": "1.2.0",

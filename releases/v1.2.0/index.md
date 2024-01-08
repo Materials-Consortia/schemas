@@ -14,9 +14,10 @@
                         The CODATA 2018 value for the absolute value of the charge of the electron.
 
         * **math**
-            * **[pi](v1.2/constants/math/pi.md)** (constant) - [`https://schemas.optimade.org/defs/v1.2/constants/math/pi`](https://schemas.optimade.org/defs/v1.2/constants/math/pi.md)
-                
-                The ratio of a circle's circumference to its diameter. Approximately equal to 3.1415926.
+            * **basic**
+                * **[pi](v1.2/constants/math/basic/pi.md)** (constant) - [`https://schemas.optimade.org/defs/v1.2/constants/math/basic/pi`](https://schemas.optimade.org/defs/v1.2/constants/math/basic/pi.md)
+                    
+                    The ratio of a circle's circumference to its diameter. Approximately equal to 3.1415926.
 
     * **entrytypes**
         * **optimade**
@@ -219,9 +220,17 @@
                     
                     A dictionary with name information about a person.
 
+                * **[Space group symmetry operation](v1.2/properties/optimade/common/space_group_symmetry_operation_xyz.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/common/space_group_symmetry_operation_xyz`](https://schemas.optimade.org/defs/v1.2/properties/optimade/common/space_group_symmetry_operation_xyz.md)
+                    
+                    A single symmetry operation.
+
                 * **[Name of the species](v1.2/properties/optimade/common/species_name.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/common/species_name`](https://schemas.optimade.org/defs/v1.2/properties/optimade/common/species_name.md)
                     
                     The name of the species.
+
+                * **[Symmetry operation](v1.2/properties/optimade/common/symmetry_operation_xyz.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/common/symmetry_operation_xyz`](https://schemas.optimade.org/defs/v1.2/properties/optimade/common/symmetry_operation_xyz.md)
+                    
+                    A symmetry operation given as general position x, y, z coordinates in algebraic form.
 
             * **files**
                 * **[Access time](v1.2/properties/optimade/files/atime.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/atime`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/atime.md)
@@ -474,13 +483,25 @@
                     
                     An integer specifying the length of the `cartesian_site_positions` property.
 
-                * **[Hall space group](v1.2/properties/optimade/structures/space_group_hall.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_hall`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_hall.md)
-                    
-                    A Hall space group symbol representing the symmetry of the structure as defined in Hall, S. R. (1981), Acta Cryst. A37, 517-525 and erratum (1981), A37, 921.
-
                 * **[Space group IT number](v1.2/properties/optimade/structures/space_group_it_number.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_it_number`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_it_number.md)
                     
                     Space group number for the structure assigned by the International Tables for Crystallography Vol. A.
+
+                * **[Hall space group symbol](v1.2/properties/optimade/structures/space_group_symbol_hall.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hall`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hall.md)
+                    
+                    A Hall space group symbol representing the symmetry of the structure as defined in Hall, S. R. (1981), Acta Cryst. A37, 517-525 and erratum (1981), A37, 921.
+
+                * **[Hermann-Mauguin space group symbol](v1.2/properties/optimade/structures/space_group_symbol_hermann_mauguin.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hermann_mauguin`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hermann_mauguin.md)
+                    
+                    A human- and machine-readable string containing the short Hermann-Mauguin (H-M) symbol which specifies the space group of the structure in the response.
+
+                * **[Extended Hermann-Mauguin space group symbol](v1.2/properties/optimade/structures/space_group_symbol_hermann_mauguin_extended.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hermann_mauguin_extended`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hermann_mauguin_extended.md)
+                    
+                    A human- and machine-readable string containing the extended Hermann-Mauguin (H-M) symbol which specifies the space group of the structure in the response.
+
+                * **[Space group symmetry operations](v1.2/properties/optimade/structures/space_group_symmetry_operations_xyz.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symmetry_operations_xyz`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symmetry_operations_xyz.md)
+                    
+                    A list of symmetry operations given as general position x, y and z coordinates in algebraic form.
 
                 * **[Species](v1.2/properties/optimade/structures/species.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/species`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/species.md)
                     

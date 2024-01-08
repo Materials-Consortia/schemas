@@ -2,8 +2,8 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nperiodic_dimensions`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nperiodic_dimensions)**  
-**Definition name:** `nelements`
+**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nperiodic_dimensions`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nperiodic_dimensions.md)**  
+**Definition name:** `nperiodic_dimensions`
 
 **Property name:** Number of periodic dimensions  
 **Description:** An integer specifying the number of periodic dimensions in the structure, equivalent to the number of non-zero entries in `dimension_types`.  
@@ -39,10 +39,11 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "Number of periodic dimensions",
     "x-optimade-type": "integer",
     "x-optimade-definition": {
+        "label": "nperiodic_dimensions_optimade_structures",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",
-        "name": "nelements"
+        "name": "nperiodic_dimensions"
     },
     "type": [
         "integer",

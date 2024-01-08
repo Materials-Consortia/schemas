@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1960/named/henry`](https://schemas.optimade.org/defs/v1.2/units/si/1960/named/henry)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1960/named/henry`](https://schemas.optimade.org/defs/v1.2/units/si/1960/named/henry.md)**  
 **Definition name:** `henry`
 
 **Unit name:** henry  
@@ -32,11 +32,6 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
     "symbol": "H",
     "display-symbol": "H",
     "description": "A derived SI unit for inductance equal to kg\u00b7m\u00b2\u00b7s\u207b\u00b2\u00b7A\u207b\u00b2 in the 1960 SI base units.\n\n\"The henry is the inductance of a closed circuit in which an electromotive force of one volt is produced when the electric current passing through the circuit varies uniformly at a rate of one ampere per second.\" [9th CGPM meeting in 1946]",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "henry"
-    },
     "resources": [
         {
             "relation": "Definition at the 9st CGPM meeting (1948)",
@@ -55,24 +50,31 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
         "base-units": [
             {
                 "symbol": "A",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/ampere"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/ampere"
             },
             {
                 "symbol": "kg",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/kilogram"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram"
             },
             {
                 "symbol": "m",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre"
             },
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/second"
             }
         ],
         "base-units-expression": "A^-2*kg*m^2*s^-2"
     },
+    "standard": {
+        "name": "si",
+        "year": 1960,
+        "category": "named",
+        "symbol": "H"
+    },
     "x-optimade-definition": {
+        "label": "henry_si_1960_named",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

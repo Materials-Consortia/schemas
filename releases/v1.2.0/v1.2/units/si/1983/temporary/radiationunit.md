@@ -59,11 +59,11 @@ The roentgen was implicitly redefined via the redefinition of the metre at the 1
         "base-units": [
             {
                 "symbol": "J",
-                "id": "https://schema.optimade.org/units/si/1983/named/joule"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/named/joule"
             },
             {
                 "symbol": "kg",
-                "id": "https://schema.optimade.org/units/si/1960/base/kilogram"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram"
             }
         ],
         "base-units-expression": "J*kg^-1",
@@ -72,6 +72,7 @@ The roentgen was implicitly redefined via the redefinition of the metre at the 1
         }
     },
     "x-optimade-definition": {
+        "label": "radiationunit_si_1983_temporary",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

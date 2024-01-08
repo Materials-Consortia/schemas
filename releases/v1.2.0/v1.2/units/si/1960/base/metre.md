@@ -51,7 +51,14 @@ The metre was adopted into SI at the 11th CGPM Meeting in 1960, resolution 12.
             "resource-id": "https://en.wikipedia.org/wiki/Metre"
         }
     ],
+    "standard": {
+        "name": "si",
+        "year": 1960,
+        "category": "base",
+        "symbol": "m"
+    },
     "x-optimade-definition": {
+        "label": "metre_si_1960_base",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

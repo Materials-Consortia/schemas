@@ -26,6 +26,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "Access time",
     "x-optimade-type": "timestamp",
     "x-optimade-definition": {
+        "label": "atime_optimade_files",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",

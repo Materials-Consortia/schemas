@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre`](https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre`](https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre.md)**  
 **Definition name:** `metre`
 
 **Unit name:** metre  
@@ -51,7 +51,14 @@ The metre was adopted into SI at the 11th CGPM Meeting in 1960, resolution 12.
             "resource-id": "https://en.wikipedia.org/wiki/Metre"
         }
     ],
+    "standard": {
+        "name": "si",
+        "year": 1960,
+        "category": "base",
+        "symbol": "m"
+    },
     "x-optimade-definition": {
+        "label": "metre_si_1960_base",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

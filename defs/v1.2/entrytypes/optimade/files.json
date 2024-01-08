@@ -4,6 +4,7 @@
     "title": "Files",
     "description": "The files entry type describes a file with metadata and an URL to retrive it",
     "x-optimade-definition": {
+        "label": "files_entrytype_optimade",
         "kind": "entrytype",
         "format": "1.2",
         "version": "1.2.0",
@@ -22,6 +23,7 @@
             "title": "ID",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "id_core",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -51,6 +53,7 @@
             "title": "Type",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "type_core",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -76,6 +79,7 @@
             "title": "Immutable ID",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "immutable_id_core",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -103,6 +107,7 @@
             "title": "Last modified",
             "x-optimade-type": "timestamp",
             "x-optimade-definition": {
+                "label": "last_modified_core",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -130,6 +135,7 @@
             "title": "URL",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "url_optimade_files",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -155,6 +161,7 @@
             "title": "URL stable until",
             "x-optimade-type": "timestamp",
             "x-optimade-definition": {
+                "label": "url_stable_until_optimade_files",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -182,6 +189,7 @@
             "title": "Name",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "name_optimade_files",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -207,6 +215,7 @@
             "title": "Size",
             "x-optimade-type": "integer",
             "x-optimade-definition": {
+                "label": "size_optimade_files",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -219,11 +228,6 @@
                     "symbol": "B",
                     "display-symbol": "B",
                     "description": "A unit of digital information representing eight bits, defined in the International System of Quantities in ISO/IEC 80000-13 (2008).\n\n\"In English, the name byte, symbol B, is used as a synonym for octet. Here byte means an eight-bit byte.\" [ISO/IEC 80000-13 (2008)]",
-                    "standard": {
-                        "name": "gnu units",
-                        "version": "3.15",
-                        "symbol": "byte"
-                    },
                     "resources": [
                         {
                             "relation": "Defining standard",
@@ -238,7 +242,7 @@
                         "base-units": [
                             {
                                 "symbol": "bit",
-                                "id": "https://schemas.optimade.org/units/v1.2/information/bit"
+                                "id": "https://schemas.optimade.org/defs/v1.2/units/independent/1948/information/bit"
                             }
                         ],
                         "base-units-expression": "bit",
@@ -246,7 +250,14 @@
                             "numerator": 8
                         }
                     },
+                    "standard": {
+                        "name": "iso-iec-80000",
+                        "year": 2008,
+                        "category": "information_science_and_technology",
+                        "symbol": "B"
+                    },
                     "x-optimade-definition": {
+                        "label": "byte_iso_iec_80000_2008_information_science_and_technology",
                         "kind": "unit",
                         "format": "1.2",
                         "version": "1.2.0",
@@ -275,6 +286,7 @@
             "title": "Media type",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "media_type_optimade_files",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -301,6 +313,7 @@
             "title": "Version",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "version_optimade_files",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -327,6 +340,7 @@
             "title": "Modification timestamp",
             "x-optimade-type": "timestamp",
             "x-optimade-definition": {
+                "label": "modification_timestamp_optimade_files",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -353,6 +367,7 @@
             "title": "Description",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "description_optimade_files",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -379,6 +394,7 @@
             "title": "Checksums",
             "x-optimade-type": "dictionary",
             "x-optimade-definition": {
+                "label": "checksums_optimade_files",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -444,6 +460,7 @@
             "title": "Access time",
             "x-optimade-type": "timestamp",
             "x-optimade-definition": {
+                "label": "atime_optimade_files",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -471,6 +488,7 @@
             "title": "Change time",
             "x-optimade-type": "timestamp",
             "x-optimade-definition": {
+                "label": "ctime_optimade_files",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -498,6 +516,7 @@
             "title": "Modification time",
             "x-optimade-type": "timestamp",
             "x-optimade-definition": {
+                "label": "mtime_optimade_files",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",

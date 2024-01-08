@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/name`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/name)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/name`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/name.md)**  
 **Definition name:** `name`
 
 **Property name:** Name  
@@ -32,6 +32,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "Name",
     "x-optimade-type": "string",
     "x-optimade-definition": {
+        "label": "name_optimade_files",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",

@@ -26,6 +26,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "crossref",
     "x-optimade-type": "string",
     "x-optimade-definition": {
+        "label": "crossref_optimade_references",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",

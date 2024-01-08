@@ -46,10 +46,11 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
         "base-units-expression": "",
         "scale": {
             "base": 2,
-            "nominator": 80
+            "numerator": 80
         }
     },
     "x-optimade-definition": {
+        "label": "yobi_prefix_si",
         "kind": "prefix",
         "format": "1.2",
         "version": "1.2.0",

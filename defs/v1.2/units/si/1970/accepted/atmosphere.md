@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/atmosphere`](https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/atmosphere)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/atmosphere`](https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/atmosphere.md)**  
 **Definition name:** `atmosphere`
 
 **Unit name:** standard atmosphere  
@@ -14,11 +14,11 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
 The standard atmosphere appear in the International System of Units (SI), 1th ed. (1970) defined as "1 atm = 101325 Pa" with the footnote "Resolution 4 at the 10th C.G.P.M. (1954)."
 (While the pascal appear in the 1st ed. as a symbol for N·s/m², it was adopted into SI at the 14th CGPM meeting in 1971.)
 
-In the International System of Units (SI), 1th ed. (1970) it is categorized as "temporarily admitted" for use with the SI units.
-The International System of Units (SI), 4th ed. (1981) changes the categorization to "Other units generally deprecated" and adds to the footnote that: "The designation "standard atmosphere" for a reference pressure of 101 325 Pa is still acceptable."
-The International System of Units (SI), 7th ed. (1998) changes the categorization to "Examples of other non-SI units."
-The International System of Units (SI), 8th ed. (2006) omits the unit, but uses the term in a footnote to the definition of the unit bar to clarify that prior to 1982 the standard pressure used to tabulate thermodynamical data was teh standard atmosphere.
-The International System of Units (SI), 9th ed. (2006) no longer references the unit or designation.
+- In the International System of Units (SI), 1th ed. (1970) it is categorized as "temporarily admitted" for use with the SI units.
+- The International System of Units (SI), 4th ed. (1981) changes the categorization to "Other units generally deprecated" and adds to the footnote that: "The designation "standard atmosphere" for a reference pressure of 101 325 Pa is still acceptable."
+- The International System of Units (SI), 7th ed. (1998) changes the categorization to "Examples of other non-SI units."
+- The International System of Units (SI), 8th ed. (2006) omits the unit, but uses the term in a footnote to the definition of the unit bar to clarify that prior to 1982 the standard pressure used to tabulate thermodynamical data was teh standard atmosphere.
+- The International System of Units (SI), 9th ed. (2006) no longer references the unit or designation.
 
 **Resources:**
 
@@ -38,12 +38,7 @@ The International System of Units (SI), 9th ed. (2006) no longer references the 
     "title": "standard atmosphere",
     "symbol": "atm",
     "display-symbol": "atm",
-    "description": "A pressure approximately equal to the average atmospheric pressure at sea level on Earth, defined as 101325 Pa using the 1967 SI units.\n\nThe standard atmosphere appear in the International System of Units (SI), 1th ed. (1970) defined as \"1 atm = 101325 Pa\" with the footnote \"Resolution 4 at the 10th C.G.P.M. (1954).\"\n(While the pascal appear in the 1st ed. as a symbol for N\u00b7s/m\u00b2, it was adopted into SI at the 14th CGPM meeting in 1971.)\n\nIn the International System of Units (SI), 1th ed. (1970) it is categorized as \"temporarily admitted\" for use with the SI units.\nThe International System of Units (SI), 4th ed. (1981) changes the categorization to \"Other units generally deprecated\" and adds to the footnote that: \"The designation \"standard atmosphere\" for a reference pressure of 101 325 Pa is still acceptable.\"\nThe International System of Units (SI), 7th ed. (1998) changes the categorization to \"Examples of other non-SI units.\"\nThe International System of Units (SI), 8th ed. (2006) omits the unit, but uses the term in a footnote to the definition of the unit bar to clarify that prior to 1982 the standard pressure used to tabulate thermodynamical data was teh standard atmosphere.\nThe International System of Units (SI), 9th ed. (2006) no longer references the unit or designation.",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "atmosphere"
-    },
+    "description": "A pressure approximately equal to the average atmospheric pressure at sea level on Earth, defined as 101325 Pa using the 1967 SI units.\n\nThe standard atmosphere appear in the International System of Units (SI), 1th ed. (1970) defined as \"1 atm = 101325 Pa\" with the footnote \"Resolution 4 at the 10th C.G.P.M. (1954).\"\n(While the pascal appear in the 1st ed. as a symbol for N\u00b7s/m\u00b2, it was adopted into SI at the 14th CGPM meeting in 1971.)\n\n- In the International System of Units (SI), 1th ed. (1970) it is categorized as \"temporarily admitted\" for use with the SI units.\n- The International System of Units (SI), 4th ed. (1981) changes the categorization to \"Other units generally deprecated\" and adds to the footnote that: \"The designation \"standard atmosphere\" for a reference pressure of 101 325 Pa is still acceptable.\"\n- The International System of Units (SI), 7th ed. (1998) changes the categorization to \"Examples of other non-SI units.\"\n- The International System of Units (SI), 8th ed. (2006) omits the unit, but uses the term in a footnote to the definition of the unit bar to clarify that prior to 1982 the standard pressure used to tabulate thermodynamical data was teh standard atmosphere.\n- The International System of Units (SI), 9th ed. (2006) no longer references the unit or designation.",
     "resources": [
         {
             "relation": "Definition in the International System of Units (SI), 9th Edition",
@@ -62,15 +57,15 @@ The International System of Units (SI), 9th ed. (2006) no longer references the 
         "base-units": [
             {
                 "symbol": "kg",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/kilogram"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram"
             },
             {
                 "symbol": "m",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre"
             },
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
             }
         ],
         "base-units-expression": "kg*m^-1*s^-2",
@@ -79,6 +74,7 @@ The International System of Units (SI), 9th ed. (2006) no longer references the 
         }
     },
     "x-optimade-definition": {
+        "label": "atmosphere_si_1970_accepted",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

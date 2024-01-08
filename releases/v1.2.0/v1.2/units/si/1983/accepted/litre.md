@@ -6,7 +6,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
 **Definition name:** `litre`
 
 **Unit name:** litre  
-**Latin symbol:** litre  
+**Latin symbol:** l  
 **Display symbol:** l  
   
 **Description:** The litre, or liter is a unit of volume equal to a cubic decimetre (1 dm³) implicitly redefined via the redefinition of the meter at the 17th CGPM Meeting in 1983, resolution 1.
@@ -31,7 +31,7 @@ The litre was defined at the 12th CGPM meeting in 1964, resolution 6, and implic
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/accepted/litre",
     "title": "litre",
-    "symbol": "litre",
+    "symbol": "l",
     "display-symbol": "l",
     "alternate-symbols": [
         "L",
@@ -56,7 +56,7 @@ The litre was defined at the 12th CGPM meeting in 1964, resolution 6, and implic
         "base-units": [
             {
                 "symbol": "m",
-                "id": "https://schema.optimade.org/units/si/1983/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
             }
         ],
         "base-units-expression": "m^3",
@@ -65,6 +65,7 @@ The litre was defined at the 12th CGPM meeting in 1964, resolution 6, and implic
         }
     },
     "x-optimade-definition": {
+        "label": "litre_si_1983_accepted",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

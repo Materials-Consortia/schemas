@@ -44,7 +44,7 @@ This definition is intended for situations when it is not possible to be more pr
     "display-symbol": "\u00b0",
     "description": "A unit of plane and phase angle representing 1/360 of a full circle, equal to \u03c0/180 rad using the current, or one of the historical, definitions of the SI units.\n\nWith the current definition of raidan in the SI system, the degree is equal to 1/360 of a circle.\n\nThe degree appear in the International System of Units (SI), 1th ed. (1970) defined as \"1\u00b0 = (pi/180) rad\".\n\n- The International System of Units (SI), 1th ed. (1970) categorizes the unit as \"Units in use with the International System.\"\n- The International System of Units (SI), 7th ed. (1998) adds as a footnote: \"ISO 31 recommends that the degree be subdivided decimally rather than using the minute and second.\"\n- The International System of Units (SI), 8th ed. (2006) further adds to that footnote: \"For navigation and surveying, however, the minute has the advantage that one minute of latitude on the surface of the Earth corresponds (approximately) to one nautical mile.\"\n- The International System of Units (SI), 9th ed. (2019) replaces the footnote with: \"For some applications such as in astronomy, small angles are measured in arcseconds (i.e. seconds of plane angle), denoted as or \u2032\u2032, or milliarcseconds, microarcseconds and picoarcseconds, denoted mas, \u03bcas and pas, respectively, where arcsecond is an alternative name for second of plane angle.\"\n  The formulation \"denoted as or \u2033\" is reproduced here faithfully from the source and suggests an alternate symbol may have been omitted due to a typographical error.\n  It is not clear what alternate symbol was intended to be referenced.\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
     "compatibility": [
-        "https://schemas.optimade.org/units/v1.2/si/1970/accepted/degree"
+        "https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/degree"
     ],
     "resources": [
         {
@@ -60,19 +60,20 @@ This definition is intended for situations when it is not possible to be more pr
         "base-units": [
             {
                 "symbol": "pi",
-                "id": "https://schema.optimade.org/units/constants/math/pi"
+                "id": "https://schemas.optimade.org/defs/v1.2/constants/math/basic/pi"
             },
             {
                 "symbol": "rad",
-                "id": "https://schema.optimade.org/units/si/general/radian"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/general/radian"
             }
         ],
         "base-units-expression": "pi*rad",
         "scale": {
-            "denomenator": 180
+            "denominator": 180
         }
     },
     "x-optimade-definition": {
+        "label": "degree_si_general",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

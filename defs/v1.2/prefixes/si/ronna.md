@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/prefixes/si/ronna`](https://schemas.optimade.org/defs/v1.2/prefixes/si/ronna)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/prefixes/si/ronna`](https://schemas.optimade.org/defs/v1.2/prefixes/si/ronna.md)**  
 **Definition name:** `ronna`
 
 **Prefix name:** ronna  
@@ -31,11 +31,6 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
     "symbol": "R",
     "display-symbol": "R",
     "description": "The ronna SI prefix defined as a dimensionless multiple of 10\u00b2\u2077, defined at the 27:th CGPM Meeting in 2022, resolution 3.",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "ronna"
-    },
     "resources": [
         {
             "relation": "Definition in the 27:th CGPM Meeting in 2022, resolution 3",
@@ -54,6 +49,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
         }
     },
     "x-optimade-definition": {
+        "label": "ronna_prefix_si",
         "kind": "prefix",
         "format": "1.2",
         "version": "1.2.0",

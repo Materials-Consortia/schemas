@@ -38,8 +38,8 @@ This definition is intended for situations when it is not possible to be more pr
     "display-symbol": "Gy",
     "description": "A unit for absorbed dose of ionizing radiation equal to m\u00b2\u00b7s\u207b\u00b2 using the current, or one of the historical, definitions of the SI units.\n\n\"The 15th Conf\u00e9rence G\u00e9n\u00e9rale des Poids et Mesures, [...] adopts the following special name for the SI unit of ionizing radiation: gray, symbol Gy, equal to one joule per kilogram.\" [15th CGPM Meeting (1975)]\n\nThe gray was defined at the 15th CGPM Meeting in 1975, and implicitly redefined via the redefinition of the meter at the 17th CGPM Meeting in 1983, resolution 1.\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
     "compatibility": [
-        "https://schemas.optimade.org/units/v1.2/si/1975/named/gray",
-        "https://schemas.optimade.org/units/v1.2/si/1983/named/gray"
+        "https://schemas.optimade.org/defs/v1.2/units/si/1975/named/gray",
+        "https://schemas.optimade.org/defs/v1.2/units/si/1983/named/gray"
     ],
     "resources": [
         {
@@ -59,16 +59,17 @@ This definition is intended for situations when it is not possible to be more pr
         "base-units": [
             {
                 "symbol": "m",
-                "id": "https://schemas.optimade.org/units/v1.2/si/general/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/general/metre"
             },
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/general/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/general/second"
             }
         ],
         "base-units-expression": "m^2*s^-2"
     },
     "x-optimade-definition": {
+        "label": "gray_si_general",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

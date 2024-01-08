@@ -1,13 +1,13 @@
-# Bohr magneton, \(mu_B\) (unit)
+# Bohr magneton, \(\mu_B\) (unit)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/bohrmagneton`](https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/bohrmagneton)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/bohrmagneton`](https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/bohrmagneton.md)**  
 **Definition name:** `bohrmagneton`
 
 **Unit name:** Bohr magneton  
 **Latin symbol:** bohrmagneton  
-**Display symbol:** \(mu_B\)  
+**Display symbol:** \(\mu_B\)  
   
 **Description:** The 2018 CODATA Bohr magneton constant is defined as "1 mu_B = 9.274 010 0783(28)·10^-24 J·T^-1" with joule and tesla conforming to the 2019 redefinition of the SI derived units.
 
@@ -29,7 +29,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
     "$id": "https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/bohrmagneton",
     "title": "Bohr magneton",
     "symbol": "bohrmagneton",
-    "display-symbol": "\\(mu_B\\)",
+    "display-symbol": "\\(\\mu_B\\)",
     "description": "The 2018 CODATA Bohr magneton constant is defined as \"1 mu_B = 9.274 010 0783(28)\u00b710^-24 J\u00b7T^-1\" with joule and tesla conforming to the 2019 redefinition of the SI derived units.",
     "resources": [
         {
@@ -59,7 +59,14 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
             "standard_uncertainty": 2.8e-34
         }
     },
+    "standard": {
+        "name": "codata",
+        "year": 2018,
+        "category": "electromagnetic",
+        "symbol": "\\(\\mu_B\\)"
+    },
     "x-optimade-definition": {
+        "label": "bohrmagneton_constant_codata_2018_electromagnetic",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

@@ -50,11 +50,11 @@ The roentgen appear in the International System of Units (SI), 1th ed. (1970) de
         "base-units": [
             {
                 "symbol": "C",
-                "id": "https://schema.optimade.org/units/si/1976/named/coulomb"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/named/coulomb"
             },
             {
                 "symbol": "kg",
-                "id": "https://schema.optimade.org/units/si/1976/named/kilogram"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram"
             }
         ],
         "base-units-expression": "C*kg^-1",
@@ -63,6 +63,7 @@ The roentgen appear in the International System of Units (SI), 1th ed. (1970) de
         }
     },
     "x-optimade-definition": {
+        "label": "roentgen_si_1970_temporary",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

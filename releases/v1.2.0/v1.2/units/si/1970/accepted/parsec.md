@@ -50,7 +50,7 @@ The parsec appear in the International System of Units (SI), 1th ed. (1970) defi
             "base-units": [
                 {
                     "symbol": "m",
-                    "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/metre"
+                    "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre"
                 }
             ],
             "scale": {
@@ -59,6 +59,7 @@ The parsec appear in the International System of Units (SI), 1th ed. (1970) defi
         }
     ],
     "x-optimade-definition": {
+        "label": "parsec_si_1970_accepted",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

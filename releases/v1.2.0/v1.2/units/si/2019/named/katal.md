@@ -42,16 +42,23 @@ The katal was implicitly redefined via the redefinition of the mole at the 26th 
         "base-units": [
             {
                 "symbol": "mol",
-                "id": "https://schemas.optimade.org/units/v1.2/si/2019/base/mole"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/mole"
             },
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
             }
         ],
         "base-units-expression": "mol*s^-1"
     },
+    "standard": {
+        "name": "si",
+        "year": 2019,
+        "category": "named",
+        "symbol": "kat"
+    },
     "x-optimade-definition": {
+        "label": "katal_si_2019_named",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

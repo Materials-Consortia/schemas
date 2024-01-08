@@ -52,7 +52,14 @@ The hertz, watt, and steradian units referenced in this definition are:
             "resource-id": "https://en.wikipedia.org/wiki/Candela"
         }
     ],
+    "standard": {
+        "name": "si",
+        "year": 1979,
+        "category": "base",
+        "symbol": "cd"
+    },
     "x-optimade-definition": {
+        "label": "candela_si_1979_base",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

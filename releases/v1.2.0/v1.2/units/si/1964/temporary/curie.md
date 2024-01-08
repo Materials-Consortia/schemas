@@ -54,16 +54,17 @@ Defined as outside the SI at the 12th CGPM meeting in 1964, resolution 7.
         "base-units": [
             {
                 "symbol": "s",
-                "id": "https://schema.optimade.org/units/si/1960/named/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/second"
             }
         ],
         "base-units-expression": "s^-1",
         "scale": {
-            "nominator": 37,
+            "numerator": 37,
             "exponent": -11
         }
     },
     "x-optimade-definition": {
+        "label": "curie_si_1964_temporary",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

@@ -23,20 +23,27 @@
         "base-units": [
             {
                 "symbol": "cd",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/candela"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/candela"
             },
             {
                 "symbol": "sr",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/named/steradian"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/steradian"
             },
             {
                 "symbol": "m",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre"
             }
         ],
         "base-units-expression": "cd*m^-2*sr"
     },
+    "standard": {
+        "name": "si",
+        "year": 1960,
+        "category": "named",
+        "symbol": "lx"
+    },
     "x-optimade-definition": {
+        "label": "lux_si_1960_named",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

@@ -6,7 +6,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
 **Definition name:** `astronomicalunit`
 
 **Unit name:** astronomical unit  
-**Latin symbol:** astronomicalunit  
+**Latin symbol:** au  
 **Display symbol:** au  
   
 **Description:** A length representing the mean distance between the Earth and the Sun defined via the circular orbit radius for a body with a specific angular velocity.
@@ -41,7 +41,7 @@ This definition interpretes the definition to be the expression in radians and s
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/astronomicalunit",
     "title": "astronomical unit",
-    "symbol": "astronomicalunit",
+    "symbol": "au",
     "display-symbol": "au",
     "alternate-symbols": [
         "AU"
@@ -62,7 +62,7 @@ This definition interpretes the definition to be the expression in radians and s
             "base-units": [
                 {
                     "symbol": "m",
-                    "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/metre"
+                    "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre"
                 }
             ],
             "base-units-expression": "m",
@@ -73,6 +73,7 @@ This definition interpretes the definition to be the expression in radians and s
         }
     ],
     "x-optimade-definition": {
+        "label": "astronomicalunit_si_1970_accepted",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

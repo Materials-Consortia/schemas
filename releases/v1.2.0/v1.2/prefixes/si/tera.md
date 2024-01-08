@@ -49,6 +49,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
         }
     },
     "x-optimade-definition": {
+        "label": "tera_prefix_si",
         "kind": "prefix",
         "format": "1.2",
         "version": "1.2.0",

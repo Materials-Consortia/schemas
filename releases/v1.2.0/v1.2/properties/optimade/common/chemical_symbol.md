@@ -32,6 +32,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "Chemical symbol",
     "x-optimade-type": "string",
     "x-optimade-definition": {
+        "label": "chemical_symbol_optimade_common",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",

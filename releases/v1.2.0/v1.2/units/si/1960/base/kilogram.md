@@ -47,7 +47,14 @@ The kilogram was adopted into SI at the 11th CGPM Meeting in 1960, resolution 12
             "resource-id": "https://en.wikipedia.org/wiki/Kilogram"
         }
     ],
+    "standard": {
+        "name": "si",
+        "year": 1960,
+        "category": "base",
+        "symbol": "kg"
+    },
     "x-optimade-definition": {
+        "label": "kilogram_si_1960_base",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

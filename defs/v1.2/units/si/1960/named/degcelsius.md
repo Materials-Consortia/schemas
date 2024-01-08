@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1960/named/degcelsius`](https://schemas.optimade.org/defs/v1.2/units/si/1960/named/degcelsius)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1960/named/degcelsius`](https://schemas.optimade.org/defs/v1.2/units/si/1960/named/degcelsius.md)**  
 **Definition name:** `degcelsius`
 
 **Unit name:** Degree Celsius  
@@ -33,11 +33,6 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
         "degreecelsius"
     ],
     "description": "A derived SI unit of temperature, defined as degree kelvin offset with +273.15 in the SI base units adopted at the 11th CGPM Meeting in 1960.\n\n\"If we add to the practical international Celsius temperatures defined above T\u2080 = 273.15 degrees, we obtain the practical international Kelvin temperatures. By subtracting T\u2080 from the thermodynamic temperatures, we obtain the thermodynamic Celsius temperatures.\" [11th CGPM meeting (1960)]",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "degcelsius"
-    },
     "resources": [
         {
             "relation": "Wikipedia article describing the unit",
@@ -48,7 +43,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
         "base-units": [
             {
                 "symbol": "degK",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/kelvin"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/degreekelvin"
             }
         ],
         "base-units-expression": "degK",
@@ -57,7 +52,14 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
             "denominator": 100
         }
     },
+    "standard": {
+        "name": "si",
+        "year": 1960,
+        "category": "named",
+        "symbol": "degC"
+    },
     "x-optimade-definition": {
+        "label": "degcelsius_si_1960_named",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

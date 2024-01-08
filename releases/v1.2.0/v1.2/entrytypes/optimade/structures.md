@@ -12,7 +12,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Entrytype Definiti
 
 This entrytype defines the following properties:
 
-* **[ID](../../properties/core/id.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/id`](https://schemas.optimade.org/defs/v1.2/properties/core/id.md)  
+* **[ID](id.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/id`](https://schemas.optimade.org/defs/v1.2/properties/core/id.md)  
   A unique string referencing a specific entry in the database.
 
     **Requirements/Conventions:**  
@@ -25,7 +25,7 @@ This entrytype defines the following properties:
     - IDs MAY change over time.
 
 
-* **[Type](../../properties/core/type.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/type`](https://schemas.optimade.org/defs/v1.2/properties/core/type.md)  
+* **[Type](type.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/type`](https://schemas.optimade.org/defs/v1.2/properties/core/type.md)  
   The name of the type of an entry.
 
     **Requirements/Conventions:**  
@@ -37,7 +37,7 @@ This entrytype defines the following properties:
     - The entry of type <type> and ID <id> MUST be returned in response to a request for /<type>/<id> under the versioned or unversioned base URL serving the API.
 
 
-* **[Immutable ID (immutable_id)](../../properties/core/immutable_id.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id`](https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id.md)  
+* **[Immutable ID (immutable_id)](immutable_id.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id`](https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id.md)  
   The entry's immutable ID (e.g., a UUID).
 
     **Requirements/Conventions:**  
@@ -49,7 +49,7 @@ This entrytype defines the following properties:
     - This ID maps to the version-specific record, in case it changes in the future.
 
 
-* **[Last modified (last_modified)](../../properties/core/last_modified.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/last_modified`](https://schemas.optimade.org/defs/v1.2/properties/core/last_modified.md)  
+* **[Last modified (last_modified)](last_modified.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/last_modified`](https://schemas.optimade.org/defs/v1.2/properties/core/last_modified.md)  
   Date and time representing when the entry was last modified.
 
     **Requirements/Conventions:**  
@@ -58,7 +58,7 @@ This entrytype defines the following properties:
     - **Query:** MUST be a queryable property with support for all mandatory filter features.
     - **Response:** MUST be included by default in the response.
 
-* **[Elements](../../properties/optimade/structures/elements.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/elements`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/elements.md)  
+* **[Elements](elements.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/elements`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/elements.md)  
   The chemical symbols of the different elements present in the structure.
 
     **Requirements/Conventions:**  
@@ -78,7 +78,7 @@ This entrytype defines the following properties:
     - Note: length queries on this property can be equivalently formulated by filtering on the `nelements` property directly.
 
 
-* **[Number of elements (nelements)](../../properties/optimade/structures/nelements.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nelements`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nelements.md)  
+* **[Number of elements (nelements)](nelements.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nelements`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nelements.md)  
   Number of different elements in the structure as an integer.
 
     **Requirements/Conventions:**  
@@ -95,7 +95,7 @@ This entrytype defines the following properties:
     - A filter that matches structures that have between 2 and 7 elements: `nelements>=2 AND nelements<=7`.
 
 
-* **[Elements ratios (elements_ratios)](../../properties/optimade/structures/elements_ratios.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/elements_ratios`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/elements_ratios.md)  
+* **[Elements ratios (elements_ratios)](elements_ratios.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/elements_ratios`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/elements_ratios.md)  
   Relative proportions of different elements in the structure.
 
     **Requirements/Conventions:**  
@@ -114,7 +114,7 @@ This entrytype defines the following properties:
     - OPTIONAL: a filter that matches structures where approximately 1/3 of the atoms in the structure are the element Al is: `elements:elements_ratios HAS ALL "Al":>0.3333, "Al":<0.3334`.
 
 
-* **[Descriptive chemical formula (chemical_formula_descriptive)](../../properties/optimade/structures/chemical_formula_descriptive.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_descriptive`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_descriptive.md)  
+* **[Descriptive chemical formula (chemical_formula_descriptive)](chemical_formula_descriptive.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_descriptive`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_descriptive.md)  
   The chemical formula for a structure as a string in a form chosen by the API implementation.
 
     **Requirements/Conventions:**  
@@ -136,7 +136,7 @@ This entrytype defines the following properties:
     - A filter that does a partial match: `chemical_formula_descriptive CONTAINS "H2O"`.
 
 
-* **[Reduced chemical formula (chemical_formula_reduced)](../../properties/optimade/structures/chemical_formula_reduced.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_reduced`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_reduced.md)  
+* **[Reduced chemical formula (chemical_formula_reduced)](chemical_formula_reduced.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_reduced`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_reduced.md)  
   The reduced chemical formula for a structure as a string with element symbols and integer chemical proportion numbers.
 
     **Requirements/Conventions:**  
@@ -156,7 +156,7 @@ This entrytype defines the following properties:
     - A filter that matches an exactly given formula is `chemical_formula_reduced="H2NaO"`.
 
 
-* **[Hill chemical formula (chemical_formula_hill)](../../properties/optimade/structures/chemical_formula_hill.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_hill`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_hill.md)  
+* **[Hill chemical formula (chemical_formula_hill)](chemical_formula_hill.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_hill`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_hill.md)  
   The chemical formula for a structure in [Hill form](https://dx.doi.org/10.1021/ja02046a005) with element symbols followed by integer chemical proportion numbers. The proportion number MUST be omitted if it is 1.
 
     **Requirements/Conventions:**  
@@ -180,7 +180,7 @@ This entrytype defines the following properties:
     - A filter that matches an exactly given formula is `chemical_formula_hill="H2O2"`.
 
 
-* **[Anonymous chemical formula (chemical_formula_anonymous)](../../properties/optimade/structures/chemical_formula_anonymous.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_anonymous`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_anonymous.md)  
+* **[Anonymous chemical formula (chemical_formula_anonymous)](chemical_formula_anonymous.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_anonymous`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_anonymous.md)  
   The anonymous formula is the chemical_formula_reduced, but where the elements are instead first ordered by their chemical proportion number, and then, in order left to right, replaced by anonymous symbols A, B, C, ..., Z, Aa, Ba, ..., Za, Ab, Bb, ... and so on.
 
     **Requirements/Conventions:**  
@@ -189,7 +189,7 @@ This entrytype defines the following properties:
     - **Query:** MUST be queryable using the OPTIMADE filter language equality and inequality operators. Other filter language features do not need to be available.
     - **Response:** MAY be included by default in the response.
 
-* **[Dimension types (dimension_types)](../../properties/optimade/structures/dimension_types.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/dimension_types`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/dimension_types.md)  
+* **[Dimension types (dimension_types)](dimension_types.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/dimension_types`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/dimension_types.md)  
   List of three integers describing the periodicity of the boundaries of the unit cell. For each direction indicated by the three lattice_vectors, this list indicates if the direction is periodic (value 1) or non-periodic (value 0). Note: the elements in this list each refer to the direction of the corresponding entry in lattice_vectors and not the Cartesian x, y, z directions.
 
     **Requirements/Conventions:**  
@@ -208,7 +208,7 @@ This entrytype defines the following properties:
     - For a bulk 3D system with a unit cell that is periodic in all directions: `[1, 1, 1]`
 
 
-* **[Number of periodic dimensions (nperiodic_dimensions)](../../properties/optimade/structures/nperiodic_dimensions.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nperiodic_dimensions`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nperiodic_dimensions.md)  
+* **[Number of periodic dimensions (nperiodic_dimensions)](nperiodic_dimensions.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nperiodic_dimensions`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nperiodic_dimensions.md)  
   An integer specifying the number of periodic dimensions in the structure, equivalent to the number of non-zero entries in `dimension_types`.
 
     **Requirements/Conventions:**  
@@ -230,7 +230,7 @@ This entrytype defines the following properties:
     - Match all structures with 2 or fewer periodic dimensions: `nperiodic_dimensions<=2`
 
 
-* **[Lattice vectors (lattice_vectors)](../../properties/optimade/structures/lattice_vectors.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/lattice_vectors`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/lattice_vectors.md)  
+* **[Lattice vectors (lattice_vectors)](lattice_vectors.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/lattice_vectors`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/lattice_vectors.md)  
   The three lattice vectors in Cartesian coordinates, in ångström (Å).
 
     **Requirements/Conventions:**  
@@ -252,7 +252,43 @@ This entrytype defines the following properties:
     - `[[4.0,0.0,0.0],[0.0,4.0,0.0],[0.0,1.0,4.0]]` represents a cell, where the first vector is (4, 0, 0), i.e., a vector aligned along the x axis of length 4 Å; the second vector is (0, 4, 0); and the third vector is (0, 1, 4).
 
 
-* **[Hall space group (space_group_hall)](../../properties/optimade/structures/space_group_hall.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_hall`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_hall.md)  
+* **[Space group symmetry operations (space_group_symmetry_operations_xyz)](space_group_symmetry_operations_xyz.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symmetry_operations_xyz`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symmetry_operations_xyz.md)  
+  A list of symmetry operations given as general position x, y and z coordinates in algebraic form.
+
+    **Requirements/Conventions:**  
+
+    - **Support:** OPTIONAL support in implementations, i.e., MAY be `null`.
+    - **Query:** Support for queries on this property is OPTIONAL.
+    - **Response:** MAY be included by default in the response.
+    - MUST be `null` if the property `nperiodic_dimensions` is equal to 0.
+    - Each symmetry operation is described by a string that gives that symmetry operation in Jones' faithful representation (Bradley & Cracknell, 1972: pp. 35-37), adapted for computer string notation.
+    - The letters `x`, `y` and `z` that are typesetted with overbars in printed text represent coordinate values multiplied by -1 and are encoded as `-x`, `-y` and `-z`, respectively.
+    - The syntax of the strings representing symmetry operations MUST conform to regular expressions given in OPTIMADE specification appendix The Symmetry Operation String Regular Expressions.
+    - The interpretation of the strings MUST follow the conventions of the IUCr CIF core dictionary (IUCr, 2023).
+    - In particular, this property MUST explicitly provide all symmetry operations needed to generate all the atoms in the unit cell from the atoms in the asymmetric unit, for the setting used.
+    - This symmetry operation set MUST always include the `x,y,z` identity operation.
+    - The symmetry operations are to be applied to fractional atom coordinates.
+    - In case only Cartesian coordinates are available, these Cartesian coordinates must be converted to fractional coordinates before the application of the provided symmetry operations.
+    - If the symmetry operation list is present, it MUST be compatible with other space group specifications (e.g. the ITC space group number, the Hall symbol, the Hermann-Mauguin symbol) if these are present.
+    
+    **Notes**:
+    
+    - The list of space group symmetry operations applies to the whole periodic array of atoms and together with the lattice translations given in the :property:`lattice\_vectors` property provides the necessary information to reconstruct all atom site positions of the periodic material.
+    - Thus, the symmetry operations described in this property are only applicable to material models with at least one periodic dimension.
+    - This property is not meant to represent arbitrary symmetries of molecules, non-periodic (finite) collections of atoms or non-crystallographic symmetry.
+    
+    **Explained examples**:
+    
+    - Space group operations for the space group with ITC number 3 (H-M symbol `P 2`, extended H-M symbol `P 1 2 1`, Hall symbol `P 2y`): `["x,y,z", "-x,y,-z"]`
+    - Space group operations for the space group with ITC number 5 (H-M symbol `C 2`, extended H-M symbol `C 1 2 1`, Hall symbol `C 2y`): `["x,y,z", "-x,y,-z", "x+1/2,y+1/2,z", "-x+1/2,y+1/2,-z"]`
+    
+    **Bibliographic References**
+    
+    - Bradley, C. J. and Cracknell, A. P. (1972) The Mathematical Theory of Symmetry in Solids. Oxford, Clarendon Press (paperback edition 2010) 745 p. ISBN `978-0-19-958258-7 <https://isbnsearch.org/isbn/9780199582587>`__.
+    - IUCr (2023) Core dictionary (coreCIF) version 2.4.5; data name `\_space\_group\_symop\_operation\_xyz`. Available from: https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Ispace_group_symop_operation_xyz.html [Accessed 2023-06-18T16:46+03:00].
+
+
+* **[Hall space group symbol (space_group_symbol_hall)](space_group_symbol_hall.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hall`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hall.md)  
   A Hall space group symbol representing the symmetry of the structure as defined in Hall, S. R. (1981), Acta Cryst. A37, 517-525 and erratum (1981), A37, 921.
 
     **Requirements/Conventions:**  
@@ -260,12 +296,74 @@ This entrytype defines the following properties:
     - **Support:** OPTIONAL support in implementations, i.e., MAY be `null`.
     - **Query:** Support for queries on this property is OPTIONAL.
     - **Response:** MAY be included by default in the response.
+    - The change-of-basis operations are used as defined in the International Tables of Crystallography (ITC) Vol. B, Sect. 1.4, Appendix A1.4.2 (IUCr, 2001).
     - Each component of the Hall symbol MUST be separated by a single space symbol.
     - If there exists a standard Hall symbol which represents the symmetry it SHOULD be used.
-    - MUST be null if n`periodic_dimensions` is not equal to 3.
+    - MUST be `null` if `nperiodic_dimensions` is not equal to 3.
+    
+    **Explained examples**:
+    
+    - Space group symbols with explicit origin (the Hall symbols):
+    
+      - `P 2c -2ac`
+      - `-I 4bd 2ab 3`
+    
+    - Space group symbols with change-of-basis operations:
+    
+      - `P 2yb (-1/2*x+z,1/2*x,y)`
+      - `-I 4 2 (1/2*x+1/2*y,-1/2*x+1/2*y,z)`
+    
+    **Bibliographic References**
+    
+    - Hall, S. R. (1981) Space-group notation with an explicit origin. Acta Crystallographica Section A, 37, 517-525, International Union of Crystallography (IUCr), DOI: https://doi.org/10.1107/s0567739481001228
+    - Hall, S. R. (1981a) Space-group notation with an explicit origin; erratum. Acta Crystallographica Section A, 37, 921-921, International Union of Crystallography (IUCr), DOI: https://doi.org/10.1107/s0567739481001976
+    - IUCr (2001). International Tables for Crystallography vol. B. Reciprocal Space. Ed. U. Shmueli. 2-nd edition. Dordrecht/Boston/London, Kluwer Academic Publishers.
 
 
-* **[Space group IT number (space_group_it_number)](../../properties/optimade/structures/space_group_it_number.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_it_number`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_it_number.md)  
+* **[Hermann-Mauguin space group symbol (space_group_symbol_hermann_mauguin)](space_group_symbol_hermann_mauguin.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hermann_mauguin`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hermann_mauguin.md)  
+  A human- and machine-readable string containing the short Hermann-Mauguin (H-M) symbol which specifies the space group of the structure in the response.
+
+    **Requirements/Conventions:**  
+
+    - **Support:** OPTIONAL support in implementations, i.e., MAY be `null`.
+    - **Query:** Support for queries on this property is OPTIONAL.
+    - **Response:** MAY be included by default in the response.
+    - The H-M symbol SHOULD aim to convey the closest representation of the symmetry information that can be specified using the short format used in the International Tables for Crystallography vol. A (IUCr, 2005), Table 4.3.2.1 as described in the accompanying text.
+    - The symbol MAY be a non-standard short H-M symbol.
+    - The H-M symbol does not unambiguously communicate the axis, cell, and origin choice, and the given symbol SHOULD NOT be amended to convey this information.
+    - To encode as character strings, the following adaptations MUST be made when representing H-M symbols given in their typesetted form:
+    
+      - the overbar above the numbers MUST be changed to the minus sign in front of the digit (e.g. '-2');
+      - subscripts that denote screw axes are written as digits immediately after the axis designator without a space (e.g. 'P 32');
+      - the space group generators MUST be separated by a single space (e.g. 'P 21 21 2');
+      - there MUST be no spaces in the space group generator designation (i.e. use 'P 21/m', not the 'P 21 / m');
+    
+    **Bibliographic References**
+    
+    - IUCr (2005). International Tables for Crystallography vol. A. Space-Group Symmetry. Ed. Theo Hahn. 5-th edition. Dordrecht, Springer.
+
+
+* **[Extended Hermann-Mauguin space group symbol (space_group_symbol_hermann_mauguin_extended)](space_group_symbol_hermann_mauguin_extended.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hermann_mauguin_extended`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hermann_mauguin_extended.md)  
+  A human- and machine-readable string containing the extended Hermann-Mauguin (H-M) symbol which specifies the space group of the structure in the response.
+
+    **Requirements/Conventions:**  
+
+    - **Support:** OPTIONAL support in implementations, i.e., MAY be `null`.
+    - **Query:** Support for queries on this property is OPTIONAL.
+    - **Response:** MAY be included by default in the response.
+    - The H-M symbols SHOULD be given as specified in the International Tables for Crystallography vol. A (IUCr, 2005), Table 4.3.2.1.
+    - The change-of-basis operation SHOULD be provided for the non-standard axis and cell choices.
+    - The extended H-M symbol does not unambiguously communicate the origin choice, and the given symbol SHOULD NOT be amended to convey this information.
+    - The description of the change-of-basis SHOULD follow conventions of the ITC Vol. B, Sect. 1.4, Appendix A1.4.2 (IUCr, 2001).
+    - The same character string encoding conventions MUST be used as for the specification of the `space_group_symbol_hermann_mauguin` property.
+    
+    **Bibliographic References**
+    
+    - IUCr (2001). International Tables for Crystallography vol. B. Reciprocal Space. Ed. U. Shmueli. 2-nd edition. Dordrecht/Boston/London, Kluwer Academic Publishers.
+    - IUCr (2005). International Tables for Crystallography vol. A. Space-Group Symmetry. Ed. Theo Hahn. 5-th edition. Dordrecht, Springer.
+
+
+* **[Space group IT number (space_group_it_number)](space_group_it_number.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_it_number`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_it_number.md)  
   Space group number for the structure assigned by the International Tables for Crystallography Vol. A.
 
     **Requirements/Conventions:**  
@@ -274,10 +372,10 @@ This entrytype defines the following properties:
     - **Query:** Support for queries on this property is OPTIONAL.
     - **Response:** MAY be included by default in the response.
     - The integer value MUST be between 1 and 230.
-    - MUST be null if `nperiodic_dimensions` is not equal to 3.
+    - MUST be `null` if `nperiodic_dimensions` is not equal to 3.
 
 
-* **[Cartesian site positions (cartesian_site_positions)](../../properties/optimade/structures/cartesian_site_positions.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/cartesian_site_positions`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/cartesian_site_positions.md)  
+* **[Cartesian site positions (cartesian_site_positions)](cartesian_site_positions.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/cartesian_site_positions`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/cartesian_site_positions.md)  
   Cartesian positions of each site in the structure.
 
     **Requirements/Conventions:**  
@@ -297,7 +395,7 @@ This entrytype defines the following properties:
     - `[[0,0,0],[0,0,2]]` indicates a structure with two sites, one sitting at the origin and one along the (positive) *z*-axis, 2 Å away from the origin.
 
 
-* **[Number of sites (nsites)](../../properties/optimade/structures/nsites.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nsites`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nsites.md)  
+* **[Number of sites (nsites)](nsites.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nsites`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nsites.md)  
   An integer specifying the length of the `cartesian_site_positions` property.
 
     **Requirements/Conventions:**  
@@ -313,7 +411,7 @@ This entrytype defines the following properties:
     - Match structures that have between 2 and 7 sites: `nsites>=2 AND nsites<=7`
 
 
-* **[Species at sites (species_at_sites)](../../properties/optimade/structures/species_at_sites.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/species_at_sites`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/species_at_sites.md)  
+* **[Species at sites (species_at_sites)](species_at_sites.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/species_at_sites`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/species_at_sites.md)  
   Name of the species at each site (where values for sites are specified with the same order of the property `cartesian_site_positions`). The properties of the species are found in the property `species`.
 
     **Requirements/Conventions:**  
@@ -333,7 +431,7 @@ This entrytype defines the following properties:
     - `["Ac", "Ac", "Ag", "Ir"]` indicates that the first two sites contain the `"Ac"` species, while the third and fourth sites contain the `"Ag"` and `"Ir"` species, respectively.
 
 
-* **[Species](../../properties/optimade/structures/species.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/species`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/species.md)  
+* **[Species](species.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/species`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/species.md)  
   A list describing the species of the sites of this structure. Species can represent pure chemical elements, virtual-crystal atoms representing a statistical occupation of a given site by multiple chemical elements, and/or a location to which there are attached atoms, i.e., atoms whose precise location are unknown beyond that they are attached to that position (frequently used to indicate hydrogen atoms attached to another element, e.g., a carbon with three attached hydrogens might represent a methyl group, -CH3).
 
     **Requirements/Conventions:**  
@@ -389,7 +487,7 @@ This entrytype defines the following properties:
     - `[ {"name": "CH3", "chemical_symbols": ["C"], "concentration": [1.0], "attached": ["H"], "nattached": [3]} ]`: any site with this species is occupied by a methyl group, -CH3, which is represented without specifying precise positions of the hydrogen atoms.
 
 
-* **[Assemblies](../../properties/optimade/structures/assemblies.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/assemblies`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/assemblies.md)  
+* **[Assemblies](assemblies.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/assemblies`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/assemblies.md)  
   A description of groups of sites that are statistically correlated.
 
     **Requirements/Conventions:**  
@@ -498,7 +596,7 @@ This entrytype defines the following properties:
         However, the presence or absence of sites 0 and 1 is not correlated with the presence or absence of sites 2 and 3 (in the specific example, the pair of sites (0, 2) can occur with 0.2*0.3 = 6 % probability; the pair (0, 3) with 0.2*0.7 = 14 % probability; the pair (1, 2) with 0.8*0.3 = 24 % probability; and the pair (1, 3) with 0.8*0.7 = 56 % probability).
 
 
-* **[Structure features (structure_features)](../../properties/optimade/structures/structure_features.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/structure_features`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/structure_features.md)  
+* **[Structure features (structure_features)](structure_features.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/structure_features`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/structure_features.md)  
   A list of strings that flag which special features are used by the structure.
 
     **Requirements/Conventions:**  
@@ -530,6 +628,7 @@ This entrytype defines the following properties:
     "title": "Structures",
     "description": "The structures entry type describes a crystal structure via its unit cell",
     "x-optimade-definition": {
+        "label": "structures_entrytype_optimade",
         "kind": "entrytype",
         "format": "1.2",
         "version": "1.2.0",
@@ -548,6 +647,7 @@ This entrytype defines the following properties:
             "title": "ID",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "id_core",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -577,6 +677,7 @@ This entrytype defines the following properties:
             "title": "Type",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "type_core",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -602,6 +703,7 @@ This entrytype defines the following properties:
             "title": "Immutable ID",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "immutable_id_core",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -629,6 +731,7 @@ This entrytype defines the following properties:
             "title": "Last modified",
             "x-optimade-type": "timestamp",
             "x-optimade-definition": {
+                "label": "last_modified_core",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -656,6 +759,7 @@ This entrytype defines the following properties:
             "title": "Elements",
             "x-optimade-type": "list",
             "x-optimade-definition": {
+                "label": "elements_optimade_structures",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -687,6 +791,7 @@ This entrytype defines the following properties:
                 "title": "Element",
                 "x-optimade-type": "string",
                 "x-optimade-definition": {
+                    "label": "element_optimade_common",
                     "kind": "property",
                     "version": "1.2.0",
                     "format": "1.2",
@@ -838,6 +943,7 @@ This entrytype defines the following properties:
             "title": "Number of elements",
             "x-optimade-type": "integer",
             "x-optimade-definition": {
+                "label": "nelements_optimade_structures",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -864,6 +970,7 @@ This entrytype defines the following properties:
             "title": "Elements ratios",
             "x-optimade-type": "list",
             "x-optimade-definition": {
+                "label": "elements_ratios_optimade_structures",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -911,6 +1018,7 @@ This entrytype defines the following properties:
             "title": "Descriptive chemical formula",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "chemical_formula_descriptive_optimade_structures",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -942,6 +1050,7 @@ This entrytype defines the following properties:
             "title": "Reduced chemical formula",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "chemical_formula_reduced_optimade_structures",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -970,6 +1079,7 @@ This entrytype defines the following properties:
             "title": "Hill chemical formula",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "chemical_formula_hill_optimade_structures",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -997,6 +1107,7 @@ This entrytype defines the following properties:
             "title": "Anonymous chemical formula",
             "x-optimade-type": "string",
             "x-optimade-definition": {
+                "label": "chemical_formula_anonymous_optimade_structures",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -1024,6 +1135,7 @@ This entrytype defines the following properties:
             "title": "Dimension types",
             "x-optimade-type": "list",
             "x-optimade-definition": {
+                "label": "dimension_types_optimade_structures",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -1081,6 +1193,7 @@ This entrytype defines the following properties:
             "title": "Number of periodic dimensions",
             "x-optimade-type": "integer",
             "x-optimade-definition": {
+                "label": "nperiodic_dimensions_optimade_structures",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -1106,6 +1219,7 @@ This entrytype defines the following properties:
             },
             "title": "Lattice vectors",
             "x-optimade-definition": {
+                "label": "lattice_vectors_optimade_structures",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -1130,8 +1244,8 @@ This entrytype defines the following properties:
                     "display-symbol": "\u00c5",
                     "description": "A unit of length equal to 10\u207b\u00b9\u2070 meter, using the current, or one of the historical, definitions of the SI units.\n\nThe \u00e5ngstr\u00f6m appear in the International System of Units (SI), 1th ed. (1970) defined as \"1 \u00c5 = 0.1 nm = 10\u207b\u00b9\u2070 m\".\n\nThe \u00e5ngstr\u00f6m was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.\n\n- The International System of Units (SI), 1th ed. (1970) categorizes the unit as \"temporarily admitted\" for use with the SI units.\n- The International System of Units (SI), 7th ed. (1998) changes the categorisation to \"Other non-SI units currently accepted for use with the International System.\"\n- The International System of Units (SI), 8th ed. (2006) changes the categorization to \"Other non-SI units\" and adds as a clarifying footnote \"The \u00e5ngstr\u00f6m is widely used by x-ray crystallographers and structural chemists because all chemical bonds lie in the range 1 to 3 \u00e5ngstr\u00f6ms. However it has no official sanction from the CIPM or the CGPM.\"\n- The \u00e5ngstr\u00f6m is omitted in the International System of Units (SI), 9th Edition (2019).\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
                     "compatibility": [
-                        "https://schemas.optimade.org/units/v1.2/si/1970/temporary/angstrom",
-                        "https://schemas.optimade.org/units/v1.2/si/1983/temporary/angstrom"
+                        "https://schemas.optimade.org/defs/v1.2/units/si/1970/temporary/angstrom",
+                        "https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/angstrom"
                     ],
                     "resources": [
                         {
@@ -1151,7 +1265,7 @@ This entrytype defines the following properties:
                         "base-units": [
                             {
                                 "symbol": "m",
-                                "id": "https://schema.optimade.org/units/si/general/metre"
+                                "id": "https://schemas.optimade.org/defs/v1.2/units/si/general/metre"
                             }
                         ],
                         "base-units-expression": "m",
@@ -1160,6 +1274,7 @@ This entrytype defines the following properties:
                         }
                     },
                     "x-optimade-definition": {
+                        "label": "angstrom_si_general",
                         "kind": "unit",
                         "format": "1.2",
                         "version": "1.2.0",
@@ -1215,30 +1330,145 @@ This entrytype defines the following properties:
                 }
             }
         },
-        "space_group_hall": {
-            "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_hall",
+        "space_group_symmetry_operations_xyz": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symmetry_operations_xyz",
             "x-optimade-requirements": {
                 "support": "may",
                 "sortable": false,
                 "response-level": "may",
                 "query-support": "none"
             },
-            "title": "Hall space group",
-            "x-optimade-type": "string",
+            "title": "Space group symmetry operations",
+            "x-optimade-type": "list",
             "x-optimade-definition": {
+                "label": "space_group_symmetry_operations_xyz_optimade_structures",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
-                "name": "space_group_hall"
+                "name": "space_group_symmetry_operations_xyz"
+            },
+            "type": [
+                "array",
+                "null"
+            ],
+            "description": "A list of symmetry operations given as general position x, y and z coordinates in algebraic form.\n\n**Requirements/Conventions**:\n\n- MUST be `null` if the property `nperiodic_dimensions` is equal to 0.\n- Each symmetry operation is described by a string that gives that symmetry operation in Jones' faithful representation (Bradley & Cracknell, 1972: pp. 35-37), adapted for computer string notation.\n- The letters `x`, `y` and `z` that are typesetted with overbars in printed text represent coordinate values multiplied by -1 and are encoded as `-x`, `-y` and `-z`, respectively.\n- The syntax of the strings representing symmetry operations MUST conform to regular expressions given in OPTIMADE specification appendix The Symmetry Operation String Regular Expressions.\n- The interpretation of the strings MUST follow the conventions of the IUCr CIF core dictionary (IUCr, 2023).\n- In particular, this property MUST explicitly provide all symmetry operations needed to generate all the atoms in the unit cell from the atoms in the asymmetric unit, for the setting used.\n- This symmetry operation set MUST always include the `x,y,z` identity operation.\n- The symmetry operations are to be applied to fractional atom coordinates.\n- In case only Cartesian coordinates are available, these Cartesian coordinates must be converted to fractional coordinates before the application of the provided symmetry operations.\n- If the symmetry operation list is present, it MUST be compatible with other space group specifications (e.g. the ITC space group number, the Hall symbol, the Hermann-Mauguin symbol) if these are present.\n\n**Notes**:\n\n- The list of space group symmetry operations applies to the whole periodic array of atoms and together with the lattice translations given in the :property:`lattice\\_vectors` property provides the necessary information to reconstruct all atom site positions of the periodic material.\n- Thus, the symmetry operations described in this property are only applicable to material models with at least one periodic dimension.\n- This property is not meant to represent arbitrary symmetries of molecules, non-periodic (finite) collections of atoms or non-crystallographic symmetry.\n\n**Explained examples**:\n\n- Space group operations for the space group with ITC number 3 (H-M symbol `P 2`, extended H-M symbol `P 1 2 1`, Hall symbol `P 2y`): `[\"x,y,z\", \"-x,y,-z\"]`\n- Space group operations for the space group with ITC number 5 (H-M symbol `C 2`, extended H-M symbol `C 1 2 1`, Hall symbol `C 2y`): `[\"x,y,z\", \"-x,y,-z\", \"x+1/2,y+1/2,z\", \"-x+1/2,y+1/2,-z\"]`\n\n**Bibliographic References**\n\n- Bradley, C. J. and Cracknell, A. P. (1972) The Mathematical Theory of Symmetry in Solids. Oxford, Clarendon Press (paperback edition 2010) 745 p. ISBN `978-0-19-958258-7 <https://isbnsearch.org/isbn/9780199582587>`__.\n- IUCr (2023) Core dictionary (coreCIF) version 2.4.5; data name `\\_space\\_group\\_symop\\_operation\\_xyz`. Available from: https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Ispace_group_symop_operation_xyz.html [Accessed 2023-06-18T16:46+03:00].",
+            "examples": [
+                [
+                    "x,y,z",
+                    "-x,y,-z"
+                ],
+                [
+                    "x,y,z",
+                    "-x,y,-z",
+                    "x+1/2,y+1/2,z",
+                    "-x+1/2,y+1/2,-z"
+                ]
+            ],
+            "x-optimade-unit": "unapplicable",
+            "items": {
+                "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/space_group_symmetry_operation_xyz",
+                "title": "Space group symmetry operation",
+                "x-optimade-type": "string",
+                "x-optimade-definition": {
+                    "label": "space_group_symmetry_operation_xyz_optimade_common",
+                    "kind": "property",
+                    "version": "1.2.0",
+                    "format": "1.2",
+                    "name": "space_group_symmetry_operation_xyz"
+                },
+                "type": [
+                    "string"
+                ],
+                "description": "A single symmetry operation.\n\n**Requirements/Conventions**:\n\n- The symmetry operation is described in Jones' faithful representation (Bradley & Cracknell, 1972: pp. 35-37), adapted for computer string notation.\n\n- The letters `x`, `y` and `z` that are typesetted with overbars in printed text represent coordinate values multiplied by -1 and are encoded as `-x`, `-y` and `-z`, respectively.\n- The syntax of the string representing a symmetry operation MUST conform to regular expressions given in appendix `The Symmetry Operation String Regular Expressions`_.\n\n**Bibliographic References**\n\n- Bradley, C. J. and Cracknell, A. P. (1972) The Mathematical Theory of Symmetry in Solids. Oxford, Clarendon Press (paperback edition 2010) 745 p. ISBN `978-0-19-958258-7 <https://isbnsearch.org/isbn/9780199582587>`__.\n- IUCr (2023) Core dictionary (coreCIF) version 2.4.5; data name `\\_space\\_group\\_symop\\_operation\\_xyz`. Available from: https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Ispace_group_symop_operation_xyz.html [Accessed 2023-06-18T16:46+03:00].",
+                "examples": [
+                    "x,y,z",
+                    "-x,y,-z"
+                ],
+                "x-optimade-unit": "inapplicable"
+            }
+        },
+        "space_group_symbol_hall": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hall",
+            "x-optimade-requirements": {
+                "support": "may",
+                "sortable": false,
+                "response-level": "may",
+                "query-support": "none"
+            },
+            "title": "Hall space group symbol",
+            "x-optimade-type": "string",
+            "x-optimade-definition": {
+                "label": "space_group_symbol_hall_optimade_structures",
+                "kind": "property",
+                "version": "1.2.0",
+                "format": "1.2",
+                "name": "space_group_symbol_hall"
             },
             "type": [
                 "string",
                 "null"
             ],
-            "description": "A Hall space group symbol representing the symmetry of the structure as defined in Hall, S. R. (1981), Acta Cryst. A37, 517-525 and erratum (1981), A37, 921.\n\n**Requirements/Conventions**:\n\n- Each component of the Hall symbol MUST be separated by a single space symbol.\n- If there exists a standard Hall symbol which represents the symmetry it SHOULD be used.\n- MUST be null if n`periodic_dimensions` is not equal to 3.",
+            "description": "A Hall space group symbol representing the symmetry of the structure as defined in Hall, S. R. (1981), Acta Cryst. A37, 517-525 and erratum (1981), A37, 921.\n\n**Requirements/Conventions**:\n\n- The change-of-basis operations are used as defined in the International Tables of Crystallography (ITC) Vol. B, Sect. 1.4, Appendix A1.4.2 (IUCr, 2001).\n- Each component of the Hall symbol MUST be separated by a single space symbol.\n- If there exists a standard Hall symbol which represents the symmetry it SHOULD be used.\n- MUST be `null` if `nperiodic_dimensions` is not equal to 3.\n\n**Explained examples**:\n\n- Space group symbols with explicit origin (the Hall symbols):\n\n  - `P 2c -2ac`\n  - `-I 4bd 2ab 3`\n\n- Space group symbols with change-of-basis operations:\n\n  - `P 2yb (-1/2*x+z,1/2*x,y)`\n  - `-I 4 2 (1/2*x+1/2*y,-1/2*x+1/2*y,z)`\n\n**Bibliographic References**\n\n- Hall, S. R. (1981) Space-group notation with an explicit origin. Acta Crystallographica Section A, 37, 517-525, International Union of Crystallography (IUCr), DOI: https://doi.org/10.1107/s0567739481001228\n- Hall, S. R. (1981a) Space-group notation with an explicit origin; erratum. Acta Crystallographica Section A, 37, 921-921, International Union of Crystallography (IUCr), DOI: https://doi.org/10.1107/s0567739481001976\n- IUCr (2001). International Tables for Crystallography vol. B. Reciprocal Space. Ed. U. Shmueli. 2-nd edition. Dordrecht/Boston/London, Kluwer Academic Publishers.",
             "examples": [
                 "P 2c -2ac",
-                "-I 4db 2ab 3"
+                "-I 4db 2ab 3",
+                "P 2yb (-1/2*x+z,1/2*x,y)",
+                "-I 4 2 (1/2*x+1/2*y,-1/2*x+1/2*y,z)"
+            ],
+            "x-optimade-unit": "unapplicable"
+        },
+        "space_group_symbol_hermann_mauguin": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hermann_mauguin",
+            "x-optimade-requirements": {
+                "support": "may",
+                "sortable": false,
+                "response-level": "may",
+                "query-support": "none"
+            },
+            "title": "Hermann-Mauguin space group symbol",
+            "x-optimade-type": "string",
+            "x-optimade-definition": {
+                "label": "space_group_symbol_hermann_mauguin_optimade_structures",
+                "kind": "property",
+                "version": "1.2.0",
+                "format": "1.2",
+                "name": "space_group_symbol_hermann_mauguin"
+            },
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "A human- and machine-readable string containing the short Hermann-Mauguin (H-M) symbol which specifies the space group of the structure in the response.\n\n**Requirements/Conventions**:\n\n- The H-M symbol SHOULD aim to convey the closest representation of the symmetry information that can be specified using the short format used in the International Tables for Crystallography vol. A (IUCr, 2005), Table 4.3.2.1 as described in the accompanying text.\n- The symbol MAY be a non-standard short H-M symbol.\n- The H-M symbol does not unambiguously communicate the axis, cell, and origin choice, and the given symbol SHOULD NOT be amended to convey this information.\n- To encode as character strings, the following adaptations MUST be made when representing H-M symbols given in their typesetted form:\n\n  - the overbar above the numbers MUST be changed to the minus sign in front of the digit (e.g. '-2');\n  - subscripts that denote screw axes are written as digits immediately after the axis designator without a space (e.g. 'P 32');\n  - the space group generators MUST be separated by a single space (e.g. 'P 21 21 2');\n  - there MUST be no spaces in the space group generator designation (i.e. use 'P 21/m', not the 'P 21 / m');\n\n**Bibliographic References**\n\n- IUCr (2005). International Tables for Crystallography vol. A. Space-Group Symmetry. Ed. Theo Hahn. 5-th edition. Dordrecht, Springer.",
+            "examples": [
+                "C 2",
+                "P 21 21 21"
+            ],
+            "x-optimade-unit": "unapplicable"
+        },
+        "space_group_symbol_hermann_mauguin_extended": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hermann_mauguin_extended",
+            "x-optimade-requirements": {
+                "support": "may",
+                "sortable": false,
+                "response-level": "may",
+                "query-support": "none"
+            },
+            "title": "Extended Hermann-Mauguin space group symbol",
+            "x-optimade-type": "string",
+            "x-optimade-definition": {
+                "label": "space_group_symbol_hermann_mauguin_extended_optimade_structures",
+                "kind": "property",
+                "version": "1.2.0",
+                "format": "1.2",
+                "name": "space_group_symbol_hermann_mauguin_extended"
+            },
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "A human- and machine-readable string containing the extended Hermann-Mauguin (H-M) symbol which specifies the space group of the structure in the response.\n\n**Requirements/Conventions**:\n\n- The H-M symbols SHOULD be given as specified in the International Tables for Crystallography vol. A (IUCr, 2005), Table 4.3.2.1.\n- The change-of-basis operation SHOULD be provided for the non-standard axis and cell choices.\n- The extended H-M symbol does not unambiguously communicate the origin choice, and the given symbol SHOULD NOT be amended to convey this information.\n- The description of the change-of-basis SHOULD follow conventions of the ITC Vol. B, Sect. 1.4, Appendix A1.4.2 (IUCr, 2001).\n- The same character string encoding conventions MUST be used as for the specification of the `space_group_symbol_hermann_mauguin` property.\n\n**Bibliographic References**\n\n- IUCr (2001). International Tables for Crystallography vol. B. Reciprocal Space. Ed. U. Shmueli. 2-nd edition. Dordrecht/Boston/London, Kluwer Academic Publishers.\n- IUCr (2005). International Tables for Crystallography vol. A. Space-Group Symmetry. Ed. Theo Hahn. 5-th edition. Dordrecht, Springer.",
+            "examples": [
+                "C 1 2 1"
             ],
             "x-optimade-unit": "unapplicable"
         },
@@ -1253,6 +1483,7 @@ This entrytype defines the following properties:
             "title": "Space group IT number",
             "x-optimade-type": "integer",
             "x-optimade-definition": {
+                "label": "space_group_it_number_optimade_structures",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -1262,7 +1493,7 @@ This entrytype defines the following properties:
                 "integer",
                 "null"
             ],
-            "description": "Space group number for the structure assigned by the International Tables for Crystallography Vol. A.\n\n**Requirements/Conventions**:\n\n- The integer value MUST be between 1 and 230.\n- MUST be null if `nperiodic_dimensions` is not equal to 3.",
+            "description": "Space group number for the structure assigned by the International Tables for Crystallography Vol. A.\n\n**Requirements/Conventions**:\n\n- The integer value MUST be between 1 and 230.\n- MUST be `null` if `nperiodic_dimensions` is not equal to 3.",
             "examples": [
                 42
             ],
@@ -1279,6 +1510,7 @@ This entrytype defines the following properties:
             "title": "Cartesian site positions",
             "x-optimade-type": "list",
             "x-optimade-definition": {
+                "label": "cartesian_site_positions_optimade_structures",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -1292,8 +1524,8 @@ This entrytype defines the following properties:
                     "display-symbol": "\u00c5",
                     "description": "A unit of length equal to 10\u207b\u00b9\u2070 meter, using the current, or one of the historical, definitions of the SI units.\n\nThe \u00e5ngstr\u00f6m appear in the International System of Units (SI), 1th ed. (1970) defined as \"1 \u00c5 = 0.1 nm = 10\u207b\u00b9\u2070 m\".\n\nThe \u00e5ngstr\u00f6m was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.\n\n- The International System of Units (SI), 1th ed. (1970) categorizes the unit as \"temporarily admitted\" for use with the SI units.\n- The International System of Units (SI), 7th ed. (1998) changes the categorisation to \"Other non-SI units currently accepted for use with the International System.\"\n- The International System of Units (SI), 8th ed. (2006) changes the categorization to \"Other non-SI units\" and adds as a clarifying footnote \"The \u00e5ngstr\u00f6m is widely used by x-ray crystallographers and structural chemists because all chemical bonds lie in the range 1 to 3 \u00e5ngstr\u00f6ms. However it has no official sanction from the CIPM or the CGPM.\"\n- The \u00e5ngstr\u00f6m is omitted in the International System of Units (SI), 9th Edition (2019).\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
                     "compatibility": [
-                        "https://schemas.optimade.org/units/v1.2/si/1970/temporary/angstrom",
-                        "https://schemas.optimade.org/units/v1.2/si/1983/temporary/angstrom"
+                        "https://schemas.optimade.org/defs/v1.2/units/si/1970/temporary/angstrom",
+                        "https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/angstrom"
                     ],
                     "resources": [
                         {
@@ -1313,7 +1545,7 @@ This entrytype defines the following properties:
                         "base-units": [
                             {
                                 "symbol": "m",
-                                "id": "https://schema.optimade.org/units/si/general/metre"
+                                "id": "https://schemas.optimade.org/defs/v1.2/units/si/general/metre"
                             }
                         ],
                         "base-units-expression": "m",
@@ -1322,6 +1554,7 @@ This entrytype defines the following properties:
                         }
                     },
                     "x-optimade-definition": {
+                        "label": "angstrom_si_general",
                         "kind": "unit",
                         "format": "1.2",
                         "version": "1.2.0",
@@ -1393,6 +1626,7 @@ This entrytype defines the following properties:
             "title": "Number of sites",
             "x-optimade-type": "integer",
             "x-optimade-definition": {
+                "label": "nsites_optimade_structures",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -1419,6 +1653,7 @@ This entrytype defines the following properties:
             "title": "Species at sites",
             "x-optimade-type": "list",
             "x-optimade-definition": {
+                "label": "species_at_sites_optimade_structures",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -1452,6 +1687,7 @@ This entrytype defines the following properties:
                 "title": "Name of the species",
                 "x-optimade-type": "string",
                 "x-optimade-definition": {
+                    "label": "species_name_optimade_common",
                     "kind": "property",
                     "version": "1.2.0",
                     "format": "1.2",
@@ -1480,6 +1716,7 @@ This entrytype defines the following properties:
             "title": "Species",
             "x-optimade-type": "list",
             "x-optimade-definition": {
+                "label": "species_optimade_structures",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -1502,9 +1739,9 @@ This entrytype defines the following properties:
                     ],
                     "description": "A unit of mass representing 1/12 of the mass of a free carbon 12 atom (i.e., a typical value of the mass of a nucleon in an atom) using the current, or one of the historical, definitions given in the editions of The International System of Units (SI).\n\nThe International System of Units (SI), 1st ed. (1970) defines the atomic mass unit in the section \"Units used with the International System\" (known as \"Non-SI units accepted for use with the SI units\" in later editions).\nThe unit is defined in a footnote as: \"The atomic mass unit (unified) is equal to 1/12 of the mass of an atom of the nuclide \u00b9\u00b2C; 1 u = 1.66053 x 10\u207b\u00b2\u2077 kg approximately.\"\n\nThe definition is retained in The International System of Units up to the 7th edition (1998), where the conditions are slightly clarified and dalton (Da) is introduced as an alternative name: \"The unified atomic mass unit is equal to 1/12 of the mass of an unbound atom of the nuclide \u00b9\u00b2C, at rest, and in its ground state. In the field of biochemistry, the unified atomic mass unit is also called the dalton, symbol Da.\"\nIn the 8th ed. (2006) the definition is slightly adjusted, replacing \"unbound\" with \"free\": \"The dalton (Da) and the unified atomic mass unit (u) are alternative names (and symbols) for the same unit, equal to 1/12 times the mass of a free carbon 12 atom, at rest and in its ground state.\"\n\nAll editions of The International System of Units note approximate relationships to the kilogram.\nThe 9th ed. states \"1 Da = 1.660 539 066 60(50)\u00d710\u207b\u00b2\u2077 kg\", where the 2018 CODATA value has been used and the 2019 SI kilogram is referenced (https://schemas.optimade.org/units/v1.2/si/2019/base/kilogram).\n\nIn the 2019 redefinition of the SI units, the atomic mass unit is the only unit listed as accepted for use with SI that has an experimental relationship to the base SI units.\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
                     "compatibility": [
-                        "https://schemas.optimade.org/units/v1.2/si/1970/accepted/atomicmassunit",
-                        "https://schemas.optimade.org/units/v1.2/si/1998/accepted/dalton",
-                        "https://schemas.optimade.org/units/v1.2/si/general/dalton"
+                        "https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/atomicmassunit",
+                        "https://schemas.optimade.org/defs/v1.2/units/si/1998/accepted/dalton",
+                        "https://schemas.optimade.org/defs/v1.2/units/si/general/dalton"
                     ],
                     "resources": [
                         {
@@ -1525,18 +1762,18 @@ This entrytype defines the following properties:
                             "base-units": [
                                 {
                                     "symbol": "kg",
-                                    "id": "https://schema.optimade.org/units/si/general/kilogram"
+                                    "id": "https://schemas.optimade.org/defs/v1.2/units/si/general/kilogram"
                                 }
                             ],
                             "base-units-expression": "kg",
                             "scale": {
                                 "value": 1.6605390666e-27,
-                                "standard_uncertainty": 5e-37,
-                                "relative_standard_uncertainty": 3e-10
+                                "standard_uncertainty": 5e-37
                             }
                         }
                     ],
                     "x-optimade-definition": {
+                        "label": "atomicmassunit_si_general",
                         "kind": "unit",
                         "format": "1.2",
                         "version": "1.2.0",
@@ -1655,6 +1892,7 @@ This entrytype defines the following properties:
                         "title": "Name of the species",
                         "x-optimade-type": "string",
                         "x-optimade-definition": {
+                            "label": "species_name_optimade_common",
                             "kind": "property",
                             "version": "1.2.0",
                             "format": "1.2",
@@ -1701,6 +1939,7 @@ This entrytype defines the following properties:
                             "title": "Chemical symbol or vacancy",
                             "x-optimade-type": "string",
                             "x-optimade-definition": {
+                                "label": "chemical_symbol_or_vacancy_optimade_common",
                                 "kind": "property",
                                 "version": "1.2.0",
                                 "format": "1.2",
@@ -1907,6 +2146,7 @@ This entrytype defines the following properties:
                             "title": "Chemical symbol",
                             "x-optimade-type": "string",
                             "x-optimade-definition": {
+                                "label": "chemical_symbol_optimade_common",
                                 "kind": "property",
                                 "version": "1.2.0",
                                 "format": "1.2",
@@ -2139,6 +2379,7 @@ This entrytype defines the following properties:
             "title": "Assemblies",
             "x-optimade-type": "dictionary",
             "x-optimade-definition": {
+                "label": "assemblies_optimade_structures",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",
@@ -2299,6 +2540,7 @@ This entrytype defines the following properties:
             },
             "title": "Structure features",
             "x-optimade-definition": {
+                "label": "structure_features_optimade_structures",
                 "kind": "property",
                 "version": "1.2.0",
                 "format": "1.2",

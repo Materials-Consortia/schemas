@@ -47,20 +47,23 @@ The unit is categorized in The International System of Units (SI), 9th ed. (2019
             "resource-id": "https://en.wikipedia.org/wiki/Electronvolt"
         }
     ],
-    "defining-relation": {
-        "base-units": [
-            {
-                "symbol": "V",
-                "id": "https://schema.optimade.org/units/si/2019/named/volt"
-            },
-            {
-                "symbol": "e",
-                "id": "https://schema.optimade.org/constants/codata/2018/electromagnetic/elementarycharge"
-            }
-        ],
-        "base-units-expression": "e*V"
-    },
+    "approximate-relations": [
+        {
+            "base-units": [
+                {
+                    "symbol": "V",
+                    "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/volt"
+                },
+                {
+                    "symbol": "e",
+                    "id": "https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/elementarycharge"
+                }
+            ],
+            "base-units-expression": "e*V"
+        }
+    ],
     "x-optimade-definition": {
+        "label": "electronvolt_si_2019_accepted",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

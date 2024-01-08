@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1960/named/joule`](https://schemas.optimade.org/defs/v1.2/units/si/1960/named/joule)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1960/named/joule`](https://schemas.optimade.org/defs/v1.2/units/si/1960/named/joule.md)**  
 **Definition name:** `joule`
 
 **Unit name:** joule  
@@ -32,11 +32,6 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
     "symbol": "J",
     "display-symbol": "J",
     "description": "A derived SI unit for energy, work, and heat equal to kg\u00b7m\u00b2\u00b7s\u207b\u00b2 in the 1960 SI base units.\n\n\"The joule is the work produced by a newton whose point of application moves one meter in the direction of the force.\" [9th CGPM meeting in 1946]",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "joule"
-    },
     "resources": [
         {
             "relation": "Definition at the 9st CGPM meeting (1948)",
@@ -55,20 +50,27 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
         "base-units": [
             {
                 "symbol": "kg",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/kilogram"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram"
             },
             {
                 "symbol": "m",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre"
             },
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/second"
             }
         ],
         "base-units-expression": "kg*m^2*s^-2"
     },
+    "standard": {
+        "name": "si",
+        "year": 1960,
+        "category": "named",
+        "symbol": "J"
+    },
     "x-optimade-definition": {
+        "label": "joule_si_1960_named",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

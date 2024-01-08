@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/2019/base/ampere`](https://schemas.optimade.org/defs/v1.2/units/si/2019/base/ampere)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/2019/base/ampere`](https://schemas.optimade.org/defs/v1.2/units/si/2019/base/ampere.md)**  
 **Definition name:** `ampere`
 
 **Unit name:** ampere  
@@ -34,11 +34,6 @@ This definition references the 1976 SI base second unit (https://schemas.optimad
     "symbol": "A",
     "display-symbol": "A",
     "description": "The SI base unit of electric current defined by fixing the value of the elementary charge as defined at the 26th CGPM Meeting (2018) and adopted into SI in 2019.\n\n\"The ampere, symbol A, is the SI unit of electric current. It is defined by taking the fixed numerical value of the elementary charge \\(e\\) to be 1.602176634\u00d710\u207b\u00b9\u2079 when expressed in the unit C, which is equal to A\u22c5s, where the second is defined in terms of \\(\\Delta \\nu_\\textrm{Cs}\\).\" [26th CGPM Meeting (2018), resolution 1].\n\nThis definition references the 1976 SI base second unit (https://schemas.optimade.org/units/v1.2/si/1976/base/second).",
-    "standard": {
-        "name": "gnu units",
-        "version": "3.15",
-        "symbol": "ampere"
-    },
     "resources": [
         {
             "relation": "Definition in the 26th CGPM Meeting in 2018, resolution 1",
@@ -53,7 +48,14 @@ This definition references the 1976 SI base second unit (https://schemas.optimad
             "resource-id": "https://en.wikipedia.org/wiki/Ampere"
         }
     ],
+    "standard": {
+        "name": "si",
+        "year": 2019,
+        "category": "base",
+        "symbol": "A"
+    },
     "x-optimade-definition": {
+        "label": "ampere_si_2019_base",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

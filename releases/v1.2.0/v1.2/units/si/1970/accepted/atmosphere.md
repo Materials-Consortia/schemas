@@ -57,15 +57,15 @@ The standard atmosphere appear in the International System of Units (SI), 1th ed
         "base-units": [
             {
                 "symbol": "kg",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/kilogram"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram"
             },
             {
                 "symbol": "m",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre"
             },
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
             }
         ],
         "base-units-expression": "kg*m^-1*s^-2",
@@ -74,6 +74,7 @@ The standard atmosphere appear in the International System of Units (SI), 1th ed
         }
     },
     "x-optimade-definition": {
+        "label": "atmosphere_si_1970_accepted",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

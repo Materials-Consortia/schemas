@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/version`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/version)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/version`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/version.md)**  
 **Definition name:** `version`
 
 **Property name:** Version  
@@ -28,6 +28,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "Version",
     "x-optimade-type": "string",
     "x-optimade-definition": {
+        "label": "version_optimade_files",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",

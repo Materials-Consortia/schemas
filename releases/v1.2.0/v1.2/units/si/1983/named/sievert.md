@@ -52,16 +52,23 @@ The sievert was defined at the 16th CGPM meeting in 1979 and implicitly redefine
         "base-units": [
             {
                 "symbol": "m",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1960/base/metre"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre"
             },
             {
                 "symbol": "s",
-                "id": "https://schemas.optimade.org/units/v1.2/si/1967/base/second"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
             }
         ],
         "base-units-expression": "m^2*s^-2"
     },
+    "standard": {
+        "name": "si",
+        "year": 1983,
+        "category": "named",
+        "symbol": "Sv"
+    },
     "x-optimade-definition": {
+        "label": "sievert_si_1983_named",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

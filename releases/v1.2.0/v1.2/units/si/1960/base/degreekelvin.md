@@ -47,7 +47,14 @@ The degree Kelvin was adopted into SI at the 11th CGPM Meeting in 1960, resoluti
             "resource-id": "https://en.wikipedia.org/wiki/Kelvin"
         }
     ],
+    "standard": {
+        "name": "si",
+        "year": 1960,
+        "category": "base",
+        "symbol": "degK"
+    },
     "x-optimade-definition": {
+        "label": "degreekelvin_si_1960_base",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

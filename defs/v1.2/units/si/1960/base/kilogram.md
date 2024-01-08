@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram`](https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram`](https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram.md)**  
 **Definition name:** `kilogram`
 
 **Unit name:** kilogram  
@@ -47,7 +47,14 @@ The kilogram was adopted into SI at the 11th CGPM Meeting in 1960, resolution 12
             "resource-id": "https://en.wikipedia.org/wiki/Kilogram"
         }
     ],
+    "standard": {
+        "name": "si",
+        "year": 1960,
+        "category": "base",
+        "symbol": "kg"
+    },
     "x-optimade-definition": {
+        "label": "kilogram_si_1960_base",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

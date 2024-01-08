@@ -51,7 +51,14 @@ This definition references:
             "resource-id": "https://en.wikipedia.org/wiki/Kilogram"
         }
     ],
+    "standard": {
+        "name": "si",
+        "year": 2019,
+        "category": "base",
+        "symbol": "kg"
+    },
     "x-optimade-definition": {
+        "label": "kilogram_si_2019_base",
         "kind": "unit",
         "format": "1.2",
         "version": "1.2.0",

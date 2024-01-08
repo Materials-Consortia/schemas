@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/structure_features`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/structure_features)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/structure_features`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/structure_features.md)**  
 **Definition name:** `structure_features`
 
 **Property name:** Structure features  
@@ -38,6 +38,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/structure_features",
     "title": "Structure features",
     "x-optimade-definition": {
+        "label": "structure_features_optimade_structures",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",
@@ -54,6 +55,11 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "type": [
         "array"
     ],
+    "x-optimade-dimensions": {
+        "names": [
+            "dim_features"
+        ]
+    },
     "x-optimade-unit": "inapplicable",
     "items": {
         "type": [

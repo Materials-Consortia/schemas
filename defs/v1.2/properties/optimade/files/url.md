@@ -2,7 +2,7 @@
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
-**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/url`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/url)**  
+**ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/url`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/url.md)**  
 **Definition name:** `url`
 
 **Property name:** URL  
@@ -28,6 +28,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "title": "URL",
     "x-optimade-type": "string",
     "x-optimade-definition": {
+        "label": "url_optimade_files",
         "kind": "property",
         "version": "1.2.0",
         "format": "1.2",
