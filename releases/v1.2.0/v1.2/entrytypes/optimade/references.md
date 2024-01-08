@@ -12,7 +12,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Entrytype Definiti
 
 This entrytype defines the following properties:
 
-* **[ID](id.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/id`](https://schemas.optimade.org/defs/v1.2/properties/core/id.md)  
+* **[ID](../../properties/core/id.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/id`](https://schemas.optimade.org/defs/v1.2/properties/core/id.md)  
   A unique string referencing a specific entry in the database.
 
     **Requirements/Conventions:**  
@@ -25,7 +25,7 @@ This entrytype defines the following properties:
     - IDs MAY change over time.
 
 
-* **[Type](type.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/type`](https://schemas.optimade.org/defs/v1.2/properties/core/type.md)  
+* **[Type](../../properties/core/type.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/type`](https://schemas.optimade.org/defs/v1.2/properties/core/type.md)  
   The name of the type of an entry.
 
     **Requirements/Conventions:**  
@@ -37,7 +37,7 @@ This entrytype defines the following properties:
     - The entry of type <type> and ID <id> MUST be returned in response to a request for /<type>/<id> under the versioned or unversioned base URL serving the API.
 
 
-* **[Immutable ID (immutable_id)](immutable_id.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id`](https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id.md)  
+* **[Immutable ID (immutable_id)](../../properties/core/immutable_id.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id`](https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id.md)  
   The entry's immutable ID (e.g., a UUID).
 
     **Requirements/Conventions:**  
@@ -49,7 +49,7 @@ This entrytype defines the following properties:
     - This ID maps to the version-specific record, in case it changes in the future.
 
 
-* **[Last modified (last_modified)](last_modified.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/last_modified`](https://schemas.optimade.org/defs/v1.2/properties/core/last_modified.md)  
+* **[Last modified (last_modified)](../../properties/core/last_modified.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/last_modified`](https://schemas.optimade.org/defs/v1.2/properties/core/last_modified.md)  
   Date and time representing when the entry was last modified.
 
     **Requirements/Conventions:**  
@@ -58,7 +58,7 @@ This entrytype defines the following properties:
     - **Query:** MUST be a queryable property with support for all mandatory filter features.
     - **Response:** MUST be included by default in the response.
 
-* **[address](address.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/address`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/address.md)  
+* **[address](../../properties/optimade/references/address.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/address`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/address.md)  
   Typically the location of the publisher or institution (the address field in the BibTeX specification).
 
     **Requirements/Conventions:**  
@@ -67,7 +67,7 @@ This entrytype defines the following properties:
     - **Query:** Support for queries on this property is OPTIONAL.
     - **Response:** MAY be included by default in the response.
 
-* **[annote](annote.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/annote`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/annote.md)  
+* **[annote](../../properties/optimade/references/annote.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/annote`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/annote.md)  
   Additional notes or comments on the reference (the annote field in the BibTeX specification).
 
     **Requirements/Conventions:**  
@@ -76,7 +76,7 @@ This entrytype defines the following properties:
     - **Query:** Support for queries on this property is OPTIONAL.
     - **Response:** MAY be included by default in the response.
 
-* **[booktitle](booktitle.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/booktitle`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/booktitle.md)  
+* **[booktitle](../../properties/optimade/references/booktitle.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/booktitle`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/booktitle.md)  
   The title of a book being cited; for parts of a book, use the title field instead (the booktitle field in the BibTeX specification).
 
     **Requirements/Conventions:**  
@@ -85,7 +85,7 @@ This entrytype defines the following properties:
     - **Query:** Support for queries on this property is OPTIONAL.
     - **Response:** MAY be included by default in the response.
 
-* **[chapter](chapter.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/chapter`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/chapter.md)  
+* **[chapter](../../properties/optimade/references/chapter.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/chapter`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/chapter.md)  
   The chapter, section, or similar part number (the chapter field in the BibTeX specification).
 
     **Requirements/Conventions:**  
@@ -94,7 +94,7 @@ This entrytype defines the following properties:
     - **Query:** Support for queries on this property is OPTIONAL.
     - **Response:** MAY be included by default in the response.
 
-* **[crossref](crossref.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/crossref`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/crossref.md)  
+* **[crossref](../../properties/optimade/references/crossref.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/crossref`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/crossref.md)  
   The database key of the entry being cross referenced (the crossref field in the BibTeX specification).
 
     **Requirements/Conventions:**  
@@ -103,7 +103,7 @@ This entrytype defines the following properties:
     - **Query:** Support for queries on this property is OPTIONAL.
     - **Response:** MAY be included by default in the response.
 
-* **[edition](edition.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/edition`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/edition.md)  
+* **[edition](../../properties/optimade/references/edition.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/edition`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/edition.md)  
   The edition of a book (the edition field in the BibTeX specification).
 
     **Requirements/Conventions:**  
@@ -112,7 +112,7 @@ This entrytype defines the following properties:
     - **Query:** Support for queries on this property is OPTIONAL.
     - **Response:** MAY be included by default in the response.
 
-* **[howpublished](howpublished.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/howpublished`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/howpublished.md)  
+* **[howpublished](../../properties/optimade/references/howpublished.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/howpublished`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/howpublished.md)  
   The method of publication (the howpublished field in the BibTeX specification)
 
     **Requirements/Conventions:**  
@@ -121,7 +121,7 @@ This entrytype defines the following properties:
     - **Query:** Support for queries on this property is OPTIONAL.
     - **Response:** MAY be included by default in the response.
 
-* **[institution](institution.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/institution`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/institution.md)  
+* **[institution](../../properties/optimade/references/institution.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/institution`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/institution.md)  
   The sponsoring institution of a technical report (the institution field in the BibTeX specification).
 
     **Requirements/Conventions:**  
@@ -130,7 +130,7 @@ This entrytype defines the following properties:
     - **Query:** Support for queries on this property is OPTIONAL.
     - **Response:** MAY be included by default in the response.
 
-* **[journal](journal.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/journal`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/journal.md)  
+* **[journal](../../properties/optimade/references/journal.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/journal`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/journal.md)  
   The name of a journal (the journal field in the BibTeX specification).
 
     **Requirements/Conventions:**  
@@ -139,7 +139,7 @@ This entrytype defines the following properties:
     - **Query:** Support for queries on this property is OPTIONAL.
     - **Response:** MAY be included by default in the response.
 
-* **[key](key.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/key`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/key.md)  
+* **[key](../../properties/optimade/references/key.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/key`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/key.md)  
   Used for alphabetizing, cross-referencing, and creating a label (the key field in the BibTeX specification).
 
     **Requirements/Conventions:**  
@@ -148,7 +148,7 @@ This entrytype defines the following properties:
     - **Query:** Support for queries on this property is OPTIONAL.
     - **Response:** MAY be included by default in the response.
 
-* **[month](month.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/month`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/month.md)  
+* **[month](../../properties/optimade/references/month.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/month`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/month.md)  
   The three letter abbreviation of the month of publication or writing (the month field in the BibTeX specification).
 
     **Requirements/Conventions:**  
@@ -157,7 +157,7 @@ This entrytype defines the following properties:
     - **Query:** Support for queries on this property is OPTIONAL.
     - **Response:** MAY be included by default in the response.
 
-* **[note](note.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/note`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/note.md)  
+* **[note](../../properties/optimade/references/note.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/note`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/note.md)  
   Additional information about the reference (the note field in the BibTeX specification).
 
     **Requirements/Conventions:**  
@@ -166,7 +166,7 @@ This entrytype defines the following properties:
     - **Query:** Support for queries on this property is OPTIONAL.
     - **Response:** MAY be included by default in the response.
 
-* **[number](number.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/number`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/number.md)  
+* **[number](../../properties/optimade/references/number.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/number`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/number.md)  
   The number of a journal, magazine, technical report, or work in a series (the number field in the BibTeX specification).
 
     **Requirements/Conventions:**  
@@ -175,7 +175,7 @@ This entrytype defines the following properties:
     - **Query:** Support for queries on this property is OPTIONAL.
     - **Response:** MAY be included by default in the response.
 
-* **[organization](organization.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/organization`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/organization.md)  
+* **[organization](../../properties/optimade/references/organization.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/organization`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/organization.md)  
   The organization sponsoring a conference or publishing a manual (the organization field in the BibTeX specification)
 
     **Requirements/Conventions:**  
@@ -184,7 +184,7 @@ This entrytype defines the following properties:
     - **Query:** Support for queries on this property is OPTIONAL.
     - **Response:** MAY be included by default in the response.
 
-* **[pages](pages.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/pages`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/pages.md)  
+* **[pages](../../properties/optimade/references/pages.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/pages`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/pages.md)  
   The page number(s) of the reference (the pages field in the BibTeX specification).
 
     **Requirements/Conventions:**  
@@ -193,7 +193,7 @@ This entrytype defines the following properties:
     - **Query:** Support for queries on this property is OPTIONAL.
     - **Response:** MAY be included by default in the response.
 
-* **[publisher](publisher.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/publisher`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/publisher.md)  
+* **[publisher](../../properties/optimade/references/publisher.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/publisher`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/publisher.md)  
   The name of the publisher (the publisher field in the BibTeX specification).
 
     **Requirements/Conventions:**  
@@ -202,7 +202,7 @@ This entrytype defines the following properties:
     - **Query:** Support for queries on this property is OPTIONAL.
     - **Response:** MAY be included by default in the response.
 
-* **[school](school.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/school`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/school.md)  
+* **[school](../../properties/optimade/references/school.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/school`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/school.md)  
   The name of the school where a thesis was written (the school field in the BibTeX specification).
 
     **Requirements/Conventions:**  
@@ -211,7 +211,7 @@ This entrytype defines the following properties:
     - **Query:** Support for queries on this property is OPTIONAL.
     - **Response:** MAY be included by default in the response.
 
-* **[series](series.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/series`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/series.md)  
+* **[series](../../properties/optimade/references/series.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/series`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/series.md)  
   The name of a series or set of books (the series field in the BibTeX specification).
 
     **Requirements/Conventions:**  
@@ -220,7 +220,7 @@ This entrytype defines the following properties:
     - **Query:** Support for queries on this property is OPTIONAL.
     - **Response:** MAY be included by default in the response.
 
-* **[title](title.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/title`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/title.md)  
+* **[title](../../properties/optimade/references/title.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/title`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/title.md)  
   The title of the work (the title field in the BibTeX specification).
 
     **Requirements/Conventions:**  
@@ -229,7 +229,7 @@ This entrytype defines the following properties:
     - **Query:** Support for queries on this property is OPTIONAL.
     - **Response:** MAY be included by default in the response.
 
-* **[volume](volume.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/volume`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/volume.md)  
+* **[volume](../../properties/optimade/references/volume.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/volume`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/volume.md)  
   The volume number of a journal or multivolume book (the volume field in the BibTeX specification).
 
     **Requirements/Conventions:**  
@@ -238,7 +238,7 @@ This entrytype defines the following properties:
     - **Query:** Support for queries on this property is OPTIONAL.
     - **Response:** MAY be included by default in the response.
 
-* **[year](year.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/year`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/year.md)  
+* **[year](../../properties/optimade/references/year.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/year`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/year.md)  
   The year of publication or writing.
 
     **Requirements/Conventions:**  
@@ -247,7 +247,7 @@ This entrytype defines the following properties:
     - **Query:** Support for queries on this property is OPTIONAL.
     - **Response:** MAY be included by default in the response.
 
-* **[bibliographic type (bib_type)](bib_type.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/bib_type`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/bib_type.md)  
+* **[bibliographic type (bib_type)](../../properties/optimade/references/bib_type.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/bib_type`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/bib_type.md)  
   Type of the reference (the type field in the BibTeX specification).
 
     **Requirements/Conventions:**  
@@ -256,7 +256,7 @@ This entrytype defines the following properties:
     - **Query:** Support for queries on this property is OPTIONAL.
     - **Response:** MAY be included by default in the response.
 
-* **[authors](authors.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/authors`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/authors.md)  
+* **[authors](../../properties/optimade/references/authors.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/authors`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/authors.md)  
   A list of dictionaries with names of the authors.
 
     **Requirements/Conventions:**  
@@ -270,7 +270,7 @@ This entrytype defines the following properties:
       - **firstname**, **lastname**: Parts of the person's name, OPTIONAL.
 
 
-* **[editors](editors.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/editors`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/editors.md)  
+* **[editors](../../properties/optimade/references/editors.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/editors`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/editors.md)  
   A list of dictionaries with names of the editors.
 
     **Requirements/Conventions:**  
@@ -284,7 +284,7 @@ This entrytype defines the following properties:
       - **firstname**, **lastname**: Parts of the person's name, OPTIONAL.
 
 
-* **[doi](doi.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/doi`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/doi.md)  
+* **[doi](../../properties/optimade/references/doi.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/doi`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/doi.md)  
   The doi identifier of the object being referenced.
 
     **Requirements/Conventions:**  
@@ -293,7 +293,7 @@ This entrytype defines the following properties:
     - **Query:** Support for queries on this property is OPTIONAL.
     - **Response:** MAY be included by default in the response.
 
-* **[url](url.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/url`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/url.md)  
+* **[url](../../properties/optimade/references/url.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/url`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/url.md)  
   The URL of the object being referenced.
 
     **Requirements/Conventions:**  
