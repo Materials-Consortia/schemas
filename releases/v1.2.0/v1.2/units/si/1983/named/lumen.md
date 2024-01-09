@@ -62,7 +62,7 @@ The lumen was defined at the 9th CGPM meeting in 1946, implicitly redefined via 
         "base-units": [
             {
                 "symbol": "cd",
-                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/candela"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/candela"
             },
             {
                 "symbol": "sr",

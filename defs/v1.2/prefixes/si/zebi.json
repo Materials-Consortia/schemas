@@ -4,7 +4,7 @@
     "title": "zebi",
     "symbol": "Zi",
     "display-symbol": "Zi",
-    "description": "The zebi prefix as a dimensionless multiple of 2\u2077\u2070 is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for refering to powers of 2.",
+    "description": "The zebi prefix as a dimensionless multiple of 2\u2077\u2070 is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for referring to powers of 2.",
     "resources": [
         {
             "relation": "Definition in the International System of Units (SI), 9th Edition",
@@ -20,7 +20,7 @@
         "base-units-expression": "",
         "scale": {
             "base": 2,
-            "numerator": 70
+            "exponent": 70
         }
     },
     "x-optimade-definition": {

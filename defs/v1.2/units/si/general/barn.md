@@ -11,9 +11,9 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
   
 **Description:** A unit of area used in nuclear physics to express cross sections equal to 100 fm² using the current, or one of the historical, definitions of the SI units.
 
-The International System of Units (SI), 1th ed. (1970) states: "1 b = 100 fm² = 10⁻²⁸ m" with a footnote "The barn is a special unit used in nuclear physics to express cross sections."
+The International System of Units (SI), 1st ed. (1970) states: "1 b = 100 fm² = 10⁻²⁸ m" with a footnote "The barn is a special unit used in nuclear physics to express cross sections."
 
-- The International System of Units (SI), 1th ed. (1970) categorizes the unit as "Units in use temporarily with the International System."
+- The International System of Units (SI), 1st ed. (1970) categorizes the unit as "Units in use temporarily with the International System."
 - The International System of Units (SI), 8th ed. (2006) categorizes the unit as "Other non-SI units currently accepted for use with the International System."
 - The International System of Units (SI), 9th ed. (2019) categorizes the unit as "Other non-SI units."
 
@@ -40,7 +40,7 @@ This definition is intended for situations when it is not possible to be more pr
     "title": "barn",
     "symbol": "b",
     "display-symbol": "b",
-    "description": "A unit of area used in nuclear physics to express cross sections equal to 100 fm\u00b2 using the current, or one of the historical, definitions of the SI units.\n\nThe International System of Units (SI), 1th ed. (1970) states: \"1 b = 100 fm\u00b2 = 10\u207b\u00b2\u2078 m\" with a footnote \"The barn is a special unit used in nuclear physics to express cross sections.\"\n\n- The International System of Units (SI), 1th ed. (1970) categorizes the unit as \"Units in use temporarily with the International System.\"\n- The International System of Units (SI), 8th ed. (2006) categorizes the unit as \"Other non-SI units currently accepted for use with the International System.\"\n- The International System of Units (SI), 9th ed. (2019) categorizes the unit as \"Other non-SI units.\"\n\nThe barn was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
+    "description": "A unit of area used in nuclear physics to express cross sections equal to 100 fm\u00b2 using the current, or one of the historical, definitions of the SI units.\n\nThe International System of Units (SI), 1st ed. (1970) states: \"1 b = 100 fm\u00b2 = 10\u207b\u00b2\u2078 m\" with a footnote \"The barn is a special unit used in nuclear physics to express cross sections.\"\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \"Units in use temporarily with the International System.\"\n- The International System of Units (SI), 8th ed. (2006) categorizes the unit as \"Other non-SI units currently accepted for use with the International System.\"\n- The International System of Units (SI), 9th ed. (2019) categorizes the unit as \"Other non-SI units.\"\n\nThe barn was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
     "compatibility": [
         "https://schemas.optimade.org/defs/v1.2/units/si/1970/temporary/barn",
         "https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/barn"

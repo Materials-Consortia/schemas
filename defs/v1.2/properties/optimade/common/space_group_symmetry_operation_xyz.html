@@ -99,18 +99,15 @@ overflow-wrap: break-word;
 <strong>Type:</strong> string  </p>
 <p><strong>Requirements/Conventions</strong>:</p>
 <ul>
-<li>
-<p>The symmetry operation is described in Jones' faithful representation (Bradley &amp; Cracknell, 1972: pp. 35-37), adapted for computer string notation.</p>
-</li>
-<li>
-<p>The letters <code>x</code>, <code>y</code> and <code>z</code> that are typesetted with overbars in printed text represent coordinate values multiplied by -1 and are encoded as <code>-x</code>, <code>-y</code> and <code>-z</code>, respectively.</p>
-</li>
-<li>The syntax of the string representing a symmetry operation MUST conform to regular expressions given in appendix <code>The Symmetry Operation String Regular Expressions</code>_.</li>
+<li>The symmetry operation is described in Jones' faithful representation (Bradley &amp; Cracknell, 1972: pp. 35-37), adapted for computer string notation.</li>
+<li>The interpretation of the string MUST follow the conventions of the IUCr CIF core dictionary (IUCr, 2023).</li>
+<li>The letters <code>x</code>, <code>y</code> and <code>z</code> that are typesetted with overbars in printed text represent coordinate values multiplied by -1 and are encoded as <code>-x</code>, <code>-y</code> and <code>-z</code>, respectively.</li>
+<li>The syntax of the string representing a symmetry operation MUST conform to regular expressions given in the OPTIMADE specification appendix 'The Symmetry Operation String Regular Expressions'.</li>
 </ul>
 <p><strong>Bibliographic References</strong></p>
 <ul>
-<li>Bradley, C. J. and Cracknell, A. P. (1972) The Mathematical Theory of Symmetry in Solids. Oxford, Clarendon Press (paperback edition 2010) 745 p. ISBN <code>978-0-19-958258-7 &lt;https://isbnsearch.org/isbn/9780199582587&gt;</code>__.</li>
-<li>IUCr (2023) Core dictionary (coreCIF) version 2.4.5; data name <code>\_space\_group\_symop\_operation\_xyz</code>. Available from: https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Ispace_group_symop_operation_xyz.html [Accessed 2023-06-18T16:46+03:00].</li>
+<li>Bradley, C. J. and Cracknell, A. P. (1972) The Mathematical Theory of Symmetry in Solids. Oxford, Clarendon Press (paperback edition 2010) 745 p. <a href="https://isbnsearch.org/isbn/9780199582587&gt;">ISBN 978-0-19-958258-7</a>.</li>
+<li>IUCr (2023) Core dictionary (coreCIF) version 2.4.5; data name <code>_space_group_symop_operation_xyz</code>. Available from: <a href="https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Ispace_group_symop_operation_xyz.html">https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Ispace_group_symop_operation_xyz.html</a> [Accessed 2023-06-18T16:46+03:00].</li>
 </ul>
 <p><strong>Examples:</strong></p>
 <ul>
@@ -134,7 +131,7 @@ overflow-wrap: break-word;
 <span class="w">    </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
 <span class="w">        </span><span class="s2">&quot;string&quot;</span><span class="w"></span>
 <span class="w">    </span><span class="p">],</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A single symmetry operation.\n\n**Requirements/Conventions**:\n\n- The symmetry operation is described in Jones&#39; faithful representation (Bradley &amp; Cracknell, 1972: pp. 35-37), adapted for computer string notation.\n\n- The letters `x`, `y` and `z` that are typesetted with overbars in printed text represent coordinate values multiplied by -1 and are encoded as `-x`, `-y` and `-z`, respectively.\n- The syntax of the string representing a symmetry operation MUST conform to regular expressions given in appendix `The Symmetry Operation String Regular Expressions`_.\n\n**Bibliographic References**\n\n- Bradley, C. J. and Cracknell, A. P. (1972) The Mathematical Theory of Symmetry in Solids. Oxford, Clarendon Press (paperback edition 2010) 745 p. ISBN `978-0-19-958258-7 &lt;https://isbnsearch.org/isbn/9780199582587&gt;`__.\n- IUCr (2023) Core dictionary (coreCIF) version 2.4.5; data name `\\_space\\_group\\_symop\\_operation\\_xyz`. Available from: https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Ispace_group_symop_operation_xyz.html [Accessed 2023-06-18T16:46+03:00].&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A single symmetry operation.\n\n**Requirements/Conventions**:\n\n- The symmetry operation is described in Jones&#39; faithful representation (Bradley &amp; Cracknell, 1972: pp. 35-37), adapted for computer string notation.\n- The interpretation of the string MUST follow the conventions of the IUCr CIF core dictionary (IUCr, 2023).\n- The letters `x`, `y` and `z` that are typesetted with overbars in printed text represent coordinate values multiplied by -1 and are encoded as `-x`, `-y` and `-z`, respectively.\n- The syntax of the string representing a symmetry operation MUST conform to regular expressions given in the OPTIMADE specification appendix &#39;The Symmetry Operation String Regular Expressions&#39;.\n\n**Bibliographic References**\n\n- Bradley, C. J. and Cracknell, A. P. (1972) The Mathematical Theory of Symmetry in Solids. Oxford, Clarendon Press (paperback edition 2010) 745 p. [ISBN 978-0-19-958258-7](https://isbnsearch.org/isbn/9780199582587&gt;).\n- IUCr (2023) Core dictionary (coreCIF) version 2.4.5; data name `_space_group_symop_operation_xyz`. Available from: [https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Ispace_group_symop_operation_xyz.html](https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Ispace_group_symop_operation_xyz.html) [Accessed 2023-06-18T16:46+03:00].&quot;</span><span class="p">,</span><span class="w"></span>
 <span class="w">    </span><span class="nt">&quot;examples&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
 <span class="w">        </span><span class="s2">&quot;x,y,z&quot;</span><span class="p">,</span><span class="w"></span>
 <span class="w">        </span><span class="s2">&quot;-x,y,-z&quot;</span><span class="w"></span>

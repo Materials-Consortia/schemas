@@ -9,7 +9,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
 **Latin symbol:** Ti  
 **Display symbol:** Ti  
   
-**Description:** The tebi prefix as a dimensionless multiple of 2⁴⁰ is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for refering to powers of 2.
+**Description:** The tebi prefix as a dimensionless multiple of 2⁴⁰ is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for referring to powers of 2.
 
 
 
@@ -30,7 +30,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
     "title": "tebi",
     "symbol": "Ti",
     "display-symbol": "Ti",
-    "description": "The tebi prefix as a dimensionless multiple of 2\u2074\u2070 is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for refering to powers of 2.",
+    "description": "The tebi prefix as a dimensionless multiple of 2\u2074\u2070 is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for referring to powers of 2.",
     "resources": [
         {
             "relation": "Definition in the International System of Units (SI), 9th Edition",
@@ -46,7 +46,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
         "base-units-expression": "",
         "scale": {
             "base": 2,
-            "numerator": 40
+            "exponent": 40
         }
     },
     "x-optimade-definition": {

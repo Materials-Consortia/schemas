@@ -916,7 +916,7 @@
                         "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
                     }
                 ],
-                "base-units-expression": "ampere^-1*kg*m^2*s^-3"
+                "base-units-expression": "A^-1*kg*m^2*s^-3"
             },
             "standard": {
                 "name": "si",

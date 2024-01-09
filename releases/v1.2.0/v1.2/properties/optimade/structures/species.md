@@ -307,7 +307,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
                         "format": "1.2",
                         "name": "chemical_symbol_or_vacancy"
                     },
-                    "description": "A chemical symbol refering to an element, a non-chemical element, or a vacancy.\n\n**Requirements/Conventions:**\n\n- Must be one of the following:\n\n  - a valid chemical-element symbol, or\n  - the special value `\"X\"` to represent a non-chemical element, or\n  - the special value `\"vacancy\"` to represent that this site has a non-zero probability of having a vacancy (the respective probability is indicated in the `concentration` list, see below).",
+                    "description": "A chemical symbol referring to an element, a non-chemical element, or a vacancy.\n\n**Requirements/Conventions:**\n\n- Must be one of the following:\n\n  - a valid chemical-element symbol, or\n  - the special value `\"X\"` to represent a non-chemical element, or\n  - the special value `\"vacancy\"` to represent that this site has a non-zero probability of having a vacancy.",
                     "x-optimade-unit": "inapplicable",
                     "examples": [
                         "He",
@@ -514,7 +514,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
                         "format": "1.2",
                         "name": "chemical_symbol"
                     },
-                    "description": "A chemical symbol refering to an element or a non-chemical element.\n\n**Requirements/Conventions:**\n\n- Must be one of the following:\n\n  - a valid chemical-element symbol, or\n  - the special value `\"X\"` to represent a non-chemical element.",
+                    "description": "A chemical symbol referring to an element or a non-chemical element.\n\n**Requirements/Conventions:**\n\n- Must be one of the following:\n\n  - a valid chemical-element symbol, or\n  - the special value `\"X\"` to represent a non-chemical element.",
                     "x-optimade-unit": "inapplicable",
                     "examples": [
                         "He",

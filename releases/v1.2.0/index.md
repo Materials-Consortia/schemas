@@ -57,7 +57,7 @@
 
             * **[exbi](v1.2/prefixes/si/exbi.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/exbi`](https://schemas.optimade.org/defs/v1.2/prefixes/si/exbi.md)
                 
-                The exbi prefix as a dimensionless multiple of 2⁶⁰ is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for refering to powers of 2.
+                The exbi prefix as a dimensionless multiple of 2⁶⁰ is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for referring to powers of 2.
 
             * **[femto](v1.2/prefixes/si/femto.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/femto`](https://schemas.optimade.org/defs/v1.2/prefixes/si/femto.md)
                 
@@ -65,7 +65,7 @@
 
             * **[gibi](v1.2/prefixes/si/gibi.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/gibi`](https://schemas.optimade.org/defs/v1.2/prefixes/si/gibi.md)
                 
-                The gibi prefix as a dimensionless multiple of 2³⁰ is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for refering to powers of 2.
+                The gibi prefix as a dimensionless multiple of 2³⁰ is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for referring to powers of 2.
 
             * **[giga](v1.2/prefixes/si/giga.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/giga`](https://schemas.optimade.org/defs/v1.2/prefixes/si/giga.md)
                 
@@ -77,7 +77,7 @@
 
             * **[kibi](v1.2/prefixes/si/kibi.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/kibi`](https://schemas.optimade.org/defs/v1.2/prefixes/si/kibi.md)
                 
-                The kibi prefix as a dimensionless multiple of 2¹⁰ = 1024 is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for refering to powers of 2.
+                The kibi prefix as a dimensionless multiple of 2¹⁰ = 1024 is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for referring to powers of 2.
 
             * **[kilo](v1.2/prefixes/si/kilo.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/kilo`](https://schemas.optimade.org/defs/v1.2/prefixes/si/kilo.md)
                 
@@ -85,7 +85,7 @@
 
             * **[mebi](v1.2/prefixes/si/mebi.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/mebi`](https://schemas.optimade.org/defs/v1.2/prefixes/si/mebi.md)
                 
-                The mebi prefix as a dimensionless multiple of 2²⁰ is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for refering to powers of 2.
+                The mebi prefix as a dimensionless multiple of 2²⁰ is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for referring to powers of 2.
 
             * **[mega](v1.2/prefixes/si/mega.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/mega`](https://schemas.optimade.org/defs/v1.2/prefixes/si/mega.md)
                 
@@ -105,7 +105,7 @@
 
             * **[pebi](v1.2/prefixes/si/pebi.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/pebi`](https://schemas.optimade.org/defs/v1.2/prefixes/si/pebi.md)
                 
-                The pebi prefix as a dimensionless multiple of 2⁵⁰ is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for refering to powers of 2.
+                The pebi prefix as a dimensionless multiple of 2⁵⁰ is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for referring to powers of 2.
 
             * **[peta](v1.2/prefixes/si/peta.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/peta`](https://schemas.optimade.org/defs/v1.2/prefixes/si/peta.md)
                 
@@ -133,7 +133,7 @@
 
             * **[tebi](v1.2/prefixes/si/tebi.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/tebi`](https://schemas.optimade.org/defs/v1.2/prefixes/si/tebi.md)
                 
-                The tebi prefix as a dimensionless multiple of 2⁴⁰ is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for refering to powers of 2.
+                The tebi prefix as a dimensionless multiple of 2⁴⁰ is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for referring to powers of 2.
 
             * **[tera](v1.2/prefixes/si/tera.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/tera`](https://schemas.optimade.org/defs/v1.2/prefixes/si/tera.md)
                 
@@ -141,7 +141,7 @@
 
             * **[yobi](v1.2/prefixes/si/yobi.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/yobi`](https://schemas.optimade.org/defs/v1.2/prefixes/si/yobi.md)
                 
-                The yobi prefix as a dimensionless multiple of 2⁸⁰ is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for refering to powers of 2.
+                The yobi prefix as a dimensionless multiple of 2⁸⁰ is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for referring to powers of 2.
 
             * **[yocto](v1.2/prefixes/si/yocto.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/yocto`](https://schemas.optimade.org/defs/v1.2/prefixes/si/yocto.md)
                 
@@ -153,7 +153,7 @@
 
             * **[zebi](v1.2/prefixes/si/zebi.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/zebi`](https://schemas.optimade.org/defs/v1.2/prefixes/si/zebi.md)
                 
-                The zebi prefix as a dimensionless multiple of 2⁷⁰ is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for refering to powers of 2.
+                The zebi prefix as a dimensionless multiple of 2⁷⁰ is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for referring to powers of 2.
 
             * **[zepto](v1.2/prefixes/si/zepto.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/zepto`](https://schemas.optimade.org/defs/v1.2/prefixes/si/zepto.md)
                 
@@ -206,11 +206,11 @@
             * **common**
                 * **[Chemical symbol](v1.2/properties/optimade/common/chemical_symbol.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/common/chemical_symbol`](https://schemas.optimade.org/defs/v1.2/properties/optimade/common/chemical_symbol.md)
                     
-                    A chemical symbol refering to an element or a non-chemical element.
+                    A chemical symbol referring to an element or a non-chemical element.
 
                 * **[Chemical symbol or vacancy](v1.2/properties/optimade/common/chemical_symbol_or_vacancy.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/common/chemical_symbol_or_vacancy`](https://schemas.optimade.org/defs/v1.2/properties/optimade/common/chemical_symbol_or_vacancy.md)
                     
-                    A chemical symbol refering to an element, a non-chemical element, or a vacancy.
+                    A chemical symbol referring to an element, a non-chemical element, or a vacancy.
 
                 * **[Element](v1.2/properties/optimade/common/element.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/common/element`](https://schemas.optimade.org/defs/v1.2/properties/optimade/common/element.md)
                     
@@ -774,7 +774,7 @@
 
                     * **[parsec](v1.2/units/si/1970/accepted/parsec.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/parsec`](https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/parsec.md)
                         
-                        The distance at which 1 astronomical unit subtends an angle of 1 arcsecond using the definition of the astronomical unit and arcsecond appearing in the International System of Units (SI), 1th ed. (1970)
+                        The distance at which 1 astronomical unit subtends an angle of 1 arcsecond using the definition of the astronomical unit and arcsecond appearing in the International System of Units (SI), 1st ed. (1970)
 
                     * **[tonne](v1.2/units/si/1970/accepted/tonne.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/tonne`](https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/tonne.md)
                         

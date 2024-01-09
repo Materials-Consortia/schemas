@@ -57,7 +57,7 @@ The lux was defined at the 9th CGPM meeting in 1946, and implicitly redefined vi
         "base-units": [
             {
                 "symbol": "cd",
-                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/candela"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1979/base/candela"
             },
             {
                 "symbol": "sr",

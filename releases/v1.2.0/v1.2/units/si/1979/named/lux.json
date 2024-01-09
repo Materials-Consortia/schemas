@@ -27,7 +27,7 @@
         "base-units": [
             {
                 "symbol": "cd",
-                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/candela"
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1979/base/candela"
             },
             {
                 "symbol": "sr",

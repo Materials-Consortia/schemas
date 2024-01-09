@@ -14,7 +14,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
 Defined as outside the SI at the 12th CGPM meeting in 1964, resolution 7.
 Implicitly redefined via the redefinition of the second at the 13th CGPM Meeting in 1967, resolution 1.
 
-- The International System of Units (SI), 1th ed. (1970) categorizes the unit as "Units in use temporarily with the International System."
+- The International System of Units (SI), 1st ed. (1970) categorizes the unit as "Units in use temporarily with the International System."
 - The International System of Units (SI), 7th ed. (1998) changes the categorization to "Other non-SI units".
 - The curie is omitted in the International System of Units (SI), 8th Edition (2006).
 
@@ -37,7 +37,7 @@ Implicitly redefined via the redefinition of the second at the 13th CGPM Meeting
     "title": "curie",
     "symbol": "Ci",
     "display-symbol": "Ci",
-    "description": "A non-SI unit of activity with the value 3.7\u00b710\u207b\u00b9\u2070 s\u207b\u00b9 in the 1967 SI units.\n\nDefined as outside the SI at the 12th CGPM meeting in 1964, resolution 7.\nImplicitly redefined via the redefinition of the second at the 13th CGPM Meeting in 1967, resolution 1.\n\n- The International System of Units (SI), 1th ed. (1970) categorizes the unit as \"Units in use temporarily with the International System.\"\n- The International System of Units (SI), 7th ed. (1998) changes the categorization to \"Other non-SI units\".\n- The curie is omitted in the International System of Units (SI), 8th Edition (2006).",
+    "description": "A non-SI unit of activity with the value 3.7\u00b710\u207b\u00b9\u2070 s\u207b\u00b9 in the 1967 SI units.\n\nDefined as outside the SI at the 12th CGPM meeting in 1964, resolution 7.\nImplicitly redefined via the redefinition of the second at the 13th CGPM Meeting in 1967, resolution 1.\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \"Units in use temporarily with the International System.\"\n- The International System of Units (SI), 7th ed. (1998) changes the categorization to \"Other non-SI units\".\n- The curie is omitted in the International System of Units (SI), 8th Edition (2006).",
     "resources": [
         {
             "relation": "Definition at the 12th CGPM meeting (1964), resolution 3",

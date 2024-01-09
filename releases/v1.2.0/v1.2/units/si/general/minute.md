@@ -11,9 +11,9 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
   
 **Description:** A unit of time that is equal to 60 seconds, using the current, or one of the historical, definitions of the SI units.
 
-The minute appear in the International System of Units (SI), 1th ed. (1970) defined as "1 min = 60 s".
+The minute appear in the International System of Units (SI), 1st ed. (1970) defined as "1 min = 60 s".
 
-- The International System of Units (SI), 1th ed. (1970) categorizes the unit as "Units in use with the International System."
+- The International System of Units (SI), 1st ed. (1970) categorizes the unit as "Units in use with the International System."
 - The International System of Units (SI), 7th ed. (1998) changes the categorization to "Non-SI units accepted for use with the International System."
 
 This is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.
@@ -36,7 +36,7 @@ This definition is intended for situations when it is not possible to be more pr
     "title": "minute",
     "symbol": "min",
     "display-symbol": "min",
-    "description": "A unit of time that is equal to 60 seconds, using the current, or one of the historical, definitions of the SI units.\n\nThe minute appear in the International System of Units (SI), 1th ed. (1970) defined as \"1 min = 60 s\".\n\n- The International System of Units (SI), 1th ed. (1970) categorizes the unit as \"Units in use with the International System.\"\n- The International System of Units (SI), 7th ed. (1998) changes the categorization to \"Non-SI units accepted for use with the International System.\"\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
+    "description": "A unit of time that is equal to 60 seconds, using the current, or one of the historical, definitions of the SI units.\n\nThe minute appear in the International System of Units (SI), 1st ed. (1970) defined as \"1 min = 60 s\".\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \"Units in use with the International System.\"\n- The International System of Units (SI), 7th ed. (1998) changes the categorization to \"Non-SI units accepted for use with the International System.\"\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
     "compatibility": [
         "https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/minute"
     ],

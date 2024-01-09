@@ -72,7 +72,7 @@ The weber was defined at the 9th CGPM Meeting in 1946, included in SI at the 11t
                 "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
             }
         ],
-        "base-units-expression": "ampere^-1*kg*m^2*s^-3"
+        "base-units-expression": "A^-1*kg*m^2*s^-3"
     },
     "standard": {
         "name": "si",

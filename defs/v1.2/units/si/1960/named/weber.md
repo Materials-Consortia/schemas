@@ -65,7 +65,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
                 "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/second"
             }
         ],
-        "base-units-expression": "ampere^-1*kg*m^2*s^-3"
+        "base-units-expression": "A^-1*kg*m^2*s^-3"
     },
     "standard": {
         "name": "si",

@@ -8,8 +8,12 @@
             "description": "A normalized URI for a meta-schema that validates the definition.\nThis SHOULD be https://schemas.optimade.org/meta/{OPTIMADE_VERSION}/optimade/prefix_definition plus a relevant extension for the schema format."
         },
         "$id": {
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "$id": "https://schemas.optimade.org/meta/v1.2/common/id",
             "description": "A static IRI identifier that is a URN or URL representing the specific version of the definition.\n\n(If it is a URL, clients SHOULD NOT assign any interpretation to the response when resolving that URL.)\nIt SHOULD NOT be changed as long as the definition functionally remains identical, and SHOULD be changed when the definition changes.\nFor example, definitions SHOULD be regarded as the same if they only differ by, e.g.:\n\n- Additions or corrections of clarifying or historical notes to the `description` field.\n- Changes to the fields `deprecated` and `$comment` on any level.\n\nNote that this means that the version number part of the URL is *retained* even in newer releases of the OPTIMADE standard as long as the definition remains functionally identical.",
-            "type": "string"
+            "title": "ID",
+            "type": "string",
+            "format": "iri"
         },
         "$comment": {
             "type": "string"
@@ -22,16 +26,24 @@
                 "additionalProperties": false,
                 "properties": {
                     "base-units": {
+                        "$schema": "https://json-schema.org/draft/2020-12/schema",
+                        "$id": "https://schemas.optimade.org/meta/v1.2/common/symbol_list",
                         "items": {
-                            "additionalProperties": false,
                             "properties": {
                                 "id": {
+                                    "description": "The IRI of one of the units referenced in the dimensional formula for the defining relation.",
                                     "format": "uri",
                                     "type": "string"
                                 },
                                 "symbol": {
+                                    "description": "The symbol used to reference this unit in the dimensional formula.",
+                                    "pattern": "^[a-zA-Z_][a-zA-Z_0-9]*$",
                                     "type": "string"
                                 }
+                            },
+                            "additionalProperties": false,
+                            "patternProperties": {
+                                "^_": {}
                             },
                             "required": [
                                 "symbol",
@@ -39,6 +51,8 @@
                             ],
                             "type": "object"
                         },
+                        "title": "Symbol List",
+                        "description": "A list of dictionaries that associate and id with a symbol",
                         "type": "array"
                     },
                     "base-units-expression": {
@@ -88,7 +102,12 @@
         "compatibility": {
             "type": "array",
             "items": {
-                "type": "string"
+                "$schema": "https://json-schema.org/draft/2020-12/schema",
+                "$id": "https://schemas.optimade.org/meta/v1.2/common/id",
+                "title": "ID",
+                "description": "An IRI that is an ID",
+                "type": "string",
+                "format": "iri"
             }
         },
         "defining-relation": {
@@ -99,11 +118,9 @@
             },
             "properties": {
                 "base-units": {
+                    "$schema": "https://json-schema.org/draft/2020-12/schema",
+                    "$id": "https://schemas.optimade.org/meta/v1.2/common/symbol_list",
                     "items": {
-                        "additionalProperties": false,
-                        "patternProperties": {
-                            "^_": {}
-                        },
                         "properties": {
                             "id": {
                                 "description": "The IRI of one of the units referenced in the dimensional formula for the defining relation.",
@@ -112,8 +129,13 @@
                             },
                             "symbol": {
                                 "description": "The symbol used to reference this unit in the dimensional formula.",
+                                "pattern": "^[a-zA-Z_][a-zA-Z_0-9]*$",
                                 "type": "string"
                             }
+                        },
+                        "additionalProperties": false,
+                        "patternProperties": {
+                            "^_": {}
                         },
                         "required": [
                             "symbol",
@@ -121,6 +143,8 @@
                         ],
                         "type": "object"
                     },
+                    "title": "Symbol List",
+                    "description": "A list of dictionaries that associate and id with a symbol",
                     "type": "array"
                 },
                 "base-units-expression": {
@@ -185,20 +209,25 @@
             "type": "string"
         },
         "resources": {
-            "description": "A list of dictionaries that reference remote resources that describe the defined entity.",
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "$id": "https://schemas.optimade.org/meta/v1.2/common/resource_list",
+            "title": "Resource List",
+            "description": "A list of dictionaries that describe and reference remote resources.",
+            "type": "array",
             "items": {
                 "patternProperties": {
-                    "^_": {}
+                    "^x-(?!optimade-)": {}
                 },
                 "additionalProperties": false,
                 "properties": {
                     "relation": {
-                        "description": "A human-readable description of the relationship between the defined entity and the remote resource.",
+                        "description": "A human-readable description of the resource and what is being referenced in the resource, e.g., a \"natural language description\".",
                         "type": "string"
                     },
                     "resource-id": {
-                        "description": "A IRI of the external resource (which MAY be a resolvable URL).",
-                        "type": "string"
+                        "description": "An IRI of the external resource (which MAY be a resolvable URL).",
+                        "type": "string",
+                        "format": "iri"
                     }
                 },
                 "required": [
@@ -206,8 +235,7 @@
                     "resource-id"
                 ],
                 "type": "object"
-            },
-            "type": "array"
+            }
         },
         "standard": {
             "description": "This field is used to reference a preexisting standard for the defined entity.",
@@ -316,29 +344,32 @@
                     "type": "string"
                 },
                 "resources": {
+                    "$schema": "https://json-schema.org/draft/2020-12/schema",
+                    "$id": "https://schemas.optimade.org/meta/v1.2/common/resource_list",
+                    "title": "Resource List",
+                    "description": "A list of dictionaries that describe and reference remote resources.",
                     "type": "array",
-                    "description": "A list of dictionaries that reference remote resources that describe the unit.",
                     "items": {
-                        "type": "object",
+                        "patternProperties": {
+                            "^x-(?!optimade-)": {}
+                        },
+                        "additionalProperties": false,
                         "properties": {
                             "relation": {
-                                "description": "A human-readable description of the relationship between the unit and the remote resource, e.g., a \"natural language description\".",
+                                "description": "A human-readable description of the resource and what is being referenced in the resource, e.g., a \"natural language description\".",
                                 "type": "string"
                             },
                             "resource-id": {
                                 "description": "An IRI of the external resource (which MAY be a resolvable URL).",
-                                "format": "iri",
-                                "type": "string"
+                                "type": "string",
+                                "format": "iri"
                             }
                         },
                         "required": [
                             "relation",
                             "resource-id"
                         ],
-                        "patternProperties": {
-                            "^x-(?!optimade-)": {}
-                        },
-                        "additionalProperties": false
+                        "type": "object"
                     }
                 }
             },

@@ -11,9 +11,9 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
   
 **Description:** A unit of acceleration equal to 1 centimeter per second squared (1 cm/s²), defined according to the 1983 SI units.
 
-The gal appear in the International System of Units (SI), 1th ed. (1970) defined as "1 Gal = 1 cm/s² = 10⁻² m/s²" with the footnote "The gal is a special unit of acceleration employed in geodesy and geophysics to express acceleration due to gravity."
+The gal appear in the International System of Units (SI), 1st ed. (1970) defined as "1 Gal = 1 cm/s² = 10⁻² m/s²" with the footnote "The gal is a special unit of acceleration employed in geodesy and geophysics to express acceleration due to gravity."
 
-- The International System of Units (SI), 1th ed. (1970) categorizes the unit as "units in use temporarily".
+- The International System of Units (SI), 1st ed. (1970) categorizes the unit as "units in use temporarily".
 - The International System of Units (SI), 7th ed. (1998) changes the categorisation to "derived CGS units with special names".
 - The International System of Units (SI), 9th ed. (2019) moves the unit definition to the margin aside the table for Non-SI units accepted for use with the SI units.
   It is not clear how to interprete the categorization intended with this placement of the unit.
@@ -38,7 +38,7 @@ The gal was implicitly redefined via the redefinition of the metre at the 17th C
     "title": "gal",
     "symbol": "Gal",
     "display-symbol": "Gal",
-    "description": "A unit of acceleration equal to 1 centimeter per second squared (1 cm/s\u00b2), defined according to the 1983 SI units.\n\nThe gal appear in the International System of Units (SI), 1th ed. (1970) defined as \"1 Gal = 1 cm/s\u00b2 = 10\u207b\u00b2 m/s\u00b2\" with the footnote \"The gal is a special unit of acceleration employed in geodesy and geophysics to express acceleration due to gravity.\"\n\n- The International System of Units (SI), 1th ed. (1970) categorizes the unit as \"units in use temporarily\".\n- The International System of Units (SI), 7th ed. (1998) changes the categorisation to \"derived CGS units with special names\".\n- The International System of Units (SI), 9th ed. (2019) moves the unit definition to the margin aside the table for Non-SI units accepted for use with the SI units.\n  It is not clear how to interprete the categorization intended with this placement of the unit.\n\nThe gal was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.",
+    "description": "A unit of acceleration equal to 1 centimeter per second squared (1 cm/s\u00b2), defined according to the 1983 SI units.\n\nThe gal appear in the International System of Units (SI), 1st ed. (1970) defined as \"1 Gal = 1 cm/s\u00b2 = 10\u207b\u00b2 m/s\u00b2\" with the footnote \"The gal is a special unit of acceleration employed in geodesy and geophysics to express acceleration due to gravity.\"\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \"units in use temporarily\".\n- The International System of Units (SI), 7th ed. (1998) changes the categorisation to \"derived CGS units with special names\".\n- The International System of Units (SI), 9th ed. (2019) moves the unit definition to the margin aside the table for Non-SI units accepted for use with the SI units.\n  It is not clear how to interprete the categorization intended with this placement of the unit.\n\nThe gal was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.",
     "resources": [
         {
             "relation": "Definition in the International System of Units (SI), 1st Edition",
@@ -58,11 +58,15 @@ The gal was implicitly redefined via the redefinition of the metre at the 17th C
             {
                 "symbol": "m",
                 "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
+            },
+            {
+                "symbol": "s",
+                "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
             }
         ],
-        "base-units-expression": "m^2",
+        "base-units-expression": "m*s^-2",
         "scale": {
-            "exponent": 4
+            "exponent": -2
         }
     },
     "x-optimade-definition": {

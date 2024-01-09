@@ -11,9 +11,9 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
   
 **Description:** A unit of time equal to 60 minutes, or 3600 seconds, using the 1967 base SI units.
 
-The hour appear in the International System of Units (SI), 1th ed. (1970) defined as "1 h = 60 min = 3600 s".
+The hour appear in the International System of Units (SI), 1st ed. (1970) defined as "1 h = 60 min = 3600 s".
 
-- The International System of Units (SI), 1th ed. (1970) categorizes the unit as "Units in use with the International System."
+- The International System of Units (SI), 1st ed. (1970) categorizes the unit as "Units in use with the International System."
 - The International System of Units (SI), 7th ed. (1998) changes the categorization to "Non-SI units accepted for use with the International System."
 
 **Resources:**
@@ -33,7 +33,7 @@ The hour appear in the International System of Units (SI), 1th ed. (1970) define
     "title": "hour",
     "symbol": "h",
     "display-symbol": "h",
-    "description": "A unit of time equal to 60 minutes, or 3600 seconds, using the 1967 base SI units.\n\nThe hour appear in the International System of Units (SI), 1th ed. (1970) defined as \"1 h = 60 min = 3600 s\".\n\n- The International System of Units (SI), 1th ed. (1970) categorizes the unit as \"Units in use with the International System.\"\n- The International System of Units (SI), 7th ed. (1998) changes the categorization to \"Non-SI units accepted for use with the International System.\"",
+    "description": "A unit of time equal to 60 minutes, or 3600 seconds, using the 1967 base SI units.\n\nThe hour appear in the International System of Units (SI), 1st ed. (1970) defined as \"1 h = 60 min = 3600 s\".\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \"Units in use with the International System.\"\n- The International System of Units (SI), 7th ed. (1998) changes the categorization to \"Non-SI units accepted for use with the International System.\"",
     "resources": [
         {
             "relation": "Definition in the International System of Units (SI), 1st Edition",

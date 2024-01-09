@@ -11,9 +11,9 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
   
 **Description:** A unit of time equal to 86 400 seconds, using the 1967 base SI units.
 
-The day appear in the International System of Units (SI), 1th ed. (1970) defined as "1 d = 24 h = 86400 s".
+The day appear in the International System of Units (SI), 1st ed. (1970) defined as "1 d = 24 h = 86400 s".
 
-- The International System of Units (SI), 1th ed. (1970) categorizes the unit as "Units in use with the International System."
+- The International System of Units (SI), 1st ed. (1970) categorizes the unit as "Units in use with the International System."
 - The International System of Units (SI), 7th ed. (1998) changes the categorization to "Non-SI units accepted for use with the International System."
 
 **Resources:**
@@ -36,7 +36,7 @@ The day appear in the International System of Units (SI), 1th ed. (1970) defined
     "alternate-symbols": [
         "d"
     ],
-    "description": "A unit of time equal to 86 400 seconds, using the 1967 base SI units.\n\nThe day appear in the International System of Units (SI), 1th ed. (1970) defined as \"1 d = 24 h = 86400 s\".\n\n- The International System of Units (SI), 1th ed. (1970) categorizes the unit as \"Units in use with the International System.\"\n- The International System of Units (SI), 7th ed. (1998) changes the categorization to \"Non-SI units accepted for use with the International System.\"",
+    "description": "A unit of time equal to 86 400 seconds, using the 1967 base SI units.\n\nThe day appear in the International System of Units (SI), 1st ed. (1970) defined as \"1 d = 24 h = 86400 s\".\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \"Units in use with the International System.\"\n- The International System of Units (SI), 7th ed. (1998) changes the categorization to \"Non-SI units accepted for use with the International System.\"",
     "resources": [
         {
             "relation": "Definition in the International System of Units (SI), 1st Edition",

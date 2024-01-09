@@ -9,7 +9,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
 **Latin symbol:** Ki  
 **Display symbol:** Ki  
   
-**Description:** The kibi prefix as a dimensionless multiple of 2¹⁰ = 1024 is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for refering to powers of 2.
+**Description:** The kibi prefix as a dimensionless multiple of 2¹⁰ = 1024 is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for referring to powers of 2.
 
 
 
@@ -30,7 +30,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
     "title": "kibi",
     "symbol": "Ki",
     "display-symbol": "Ki",
-    "description": "The kibi prefix as a dimensionless multiple of 2\u00b9\u2070 = 1024 is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for refering to powers of 2.",
+    "description": "The kibi prefix as a dimensionless multiple of 2\u00b9\u2070 = 1024 is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for referring to powers of 2.",
     "resources": [
         {
             "relation": "Definition in the International System of Units (SI), 9th Edition",
@@ -46,7 +46,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
         "base-units-expression": "",
         "scale": {
             "base": 2,
-            "numerator": 10
+            "exponent": 10
         }
     },
     "x-optimade-definition": {

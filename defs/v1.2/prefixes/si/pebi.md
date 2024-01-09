@@ -1,4 +1,4 @@
-# pebi, Ei (prefix)
+# pebi, Pi (prefix)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
@@ -6,10 +6,10 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
 **Definition name:** `pebi`
 
 **Prefix name:** pebi  
-**Latin symbol:** Ei  
-**Display symbol:** Ei  
+**Latin symbol:** Pi  
+**Display symbol:** Pi  
   
-**Description:** The pebi prefix as a dimensionless multiple of 2⁵⁰ is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for refering to powers of 2.
+**Description:** The pebi prefix as a dimensionless multiple of 2⁵⁰ is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for referring to powers of 2.
 
 
 
@@ -28,9 +28,9 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/prefix_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/pebi",
     "title": "pebi",
-    "symbol": "Ei",
-    "display-symbol": "Ei",
-    "description": "The pebi prefix as a dimensionless multiple of 2\u2075\u2070 is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for refering to powers of 2.",
+    "symbol": "Pi",
+    "display-symbol": "Pi",
+    "description": "The pebi prefix as a dimensionless multiple of 2\u2075\u2070 is one of a set of recommended prefixes in the International System of Units (SI), 9th Edition for referring to powers of 2.",
     "resources": [
         {
             "relation": "Definition in the International System of Units (SI), 9th Edition",
@@ -46,7 +46,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
         "base-units-expression": "",
         "scale": {
             "base": 2,
-            "numerator": 50
+            "exponent": 50
         }
     },
     "x-optimade-definition": {

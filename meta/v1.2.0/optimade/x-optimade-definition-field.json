@@ -43,29 +43,32 @@
             "type": "string"
         },
         "resources": {
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "$id": "https://schemas.optimade.org/meta/v1.2/common/resource_list",
+            "title": "Resource List",
+            "description": "A list of dictionaries that describe and reference remote resources.",
             "type": "array",
-            "description": "A list of dictionaries that reference remote resources that describe the unit.",
             "items": {
-                "type": "object",
+                "patternProperties": {
+                    "^x-(?!optimade-)": {}
+                },
+                "additionalProperties": false,
                 "properties": {
                     "relation": {
-                        "description": "A human-readable description of the relationship between the unit and the remote resource, e.g., a \"natural language description\".",
+                        "description": "A human-readable description of the resource and what is being referenced in the resource, e.g., a \"natural language description\".",
                         "type": "string"
                     },
                     "resource-id": {
                         "description": "An IRI of the external resource (which MAY be a resolvable URL).",
-                        "format": "iri",
-                        "type": "string"
+                        "type": "string",
+                        "format": "iri"
                     }
                 },
                 "required": [
                     "relation",
                     "resource-id"
                 ],
-                "patternProperties": {
-                    "^x-(?!optimade-)": {}
-                },
-                "additionalProperties": false
+                "type": "object"
             }
         }
     },
