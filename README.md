@@ -56,7 +56,7 @@ We also provide, generated from the definitons:
 
 The exact state of the definition files at the time of a patch release of OPTIMADE are placed at URLs with the format `https://schemas.optimade.org/releases/vMAJOR.MINOR.PATCH/vMAJOR.MINOR/...` and indexed at `https://schemas.optimade.org/releases/vMAJOR.MINOR.PATCH/vMAJOR.MINOR/index.html`.
 The double URL segments for versions may look redundant, however, they take this form to keep a complete historical record that preserves amendments and clarifications that may have altered older definition files even after the entity has been redefined.
-Hence, for the v1.2.0 the Index URLs are:
 
-- [releases/v1.2.0/v1.2/index](releases/v1.2.0/v1.2/index.md)
+For the v1.2.0 patch release the complete index is available here:
 
+- [releases/v1.2.0/index](releases/v1.2.0/index.md)
