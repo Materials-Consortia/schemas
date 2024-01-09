@@ -30,8 +30,8 @@ The roentgen appear in the International System of Units (SI), 1st ed. (1970) de
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1970/temporary/roentgen",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "roentgen",
     "symbol": "R",
     "display-symbol": "R",

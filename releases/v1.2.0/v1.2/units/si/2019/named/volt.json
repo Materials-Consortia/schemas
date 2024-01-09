@@ -1,6 +1,6 @@
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/volt",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "volt",
     "symbol": "V",
     "display-symbol": "V",

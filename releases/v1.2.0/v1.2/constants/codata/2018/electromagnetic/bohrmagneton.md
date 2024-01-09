@@ -9,7 +9,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
 **Latin symbol:** bohrmagneton  
 **Display symbol:** \(\mu_B\)  
   
-**Description:** The 2018 CODATA Bohr magneton constant is defined as "1 mu_B = 9.274 010 0783(28)·10^-24 J·T^-1" with joule and tesla conforming to the 2019 redefinition of the SI derived units.
+**Description:** The 2018 CODATA Bohr magneton constant is defined as "1 \(\mu_B\) = 9.274 010 0783(28)·10^-24 J·T^-1" with joule and tesla conforming to the 2019 redefinition of the SI derived units.
 
 
 
@@ -25,12 +25,12 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/constant_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/bohrmagneton",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/constant_definition.json",
     "title": "Bohr magneton",
     "symbol": "bohrmagneton",
     "display-symbol": "\\(\\mu_B\\)",
-    "description": "The 2018 CODATA Bohr magneton constant is defined as \"1 mu_B = 9.274 010 0783(28)\u00b710^-24 J\u00b7T^-1\" with joule and tesla conforming to the 2019 redefinition of the SI derived units.",
+    "description": "The 2018 CODATA Bohr magneton constant is defined as \"1 \\(\\mu_B\\) = 9.274 010 0783(28)\u00b710^-24 J\u00b7T^-1\" with joule and tesla conforming to the 2019 redefinition of the SI derived units.",
     "resources": [
         {
             "relation": "2018 CODATA value Bohr magneton: source for relationship to joules*tesla^-1",

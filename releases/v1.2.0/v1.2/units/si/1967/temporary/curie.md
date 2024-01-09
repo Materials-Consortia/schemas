@@ -32,8 +32,8 @@ Implicitly redefined via the redefinition of the second at the 13th CGPM Meeting
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/temporary/curie",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "curie",
     "symbol": "Ci",
     "display-symbol": "Ci",

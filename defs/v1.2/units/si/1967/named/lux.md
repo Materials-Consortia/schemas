@@ -29,8 +29,8 @@ The lux was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th 
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/named/lux",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "lux",
     "symbol": "lx",
     "display-symbol": "lx",

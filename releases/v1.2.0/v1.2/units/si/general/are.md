@@ -29,14 +29,20 @@ This definition is intended for situations when it is not possible to be more pr
 - [Wikipedia article describing the unit](https://en.wikipedia.org/wiki/Hectare#Are)
 
 
+**Compatibility:** (other definitions that are covered by the above definition)
+
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1970/temporary/are`](https://schemas.optimade.org/defs/v1.2/units/si/1970/temporary/are.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/are`](https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/are.md)
+
+
 **Formats:** [[JSON](are.json)] [[MD](are.md)]
 
 **JSON definition:**
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/are",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "are",
     "symbol": "a",
     "display-symbol": "a",

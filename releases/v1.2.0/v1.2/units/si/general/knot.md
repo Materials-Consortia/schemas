@@ -30,14 +30,20 @@ This definition is intended for situations when it is not possible to be more pr
 - [Wikipedia article describing the unit](https://en.wikipedia.org/wiki/Knot_(unit))
 
 
+**Compatibility:** (other definitions that are covered by the above definition)
+
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1970/temporary/knot`](https://schemas.optimade.org/defs/v1.2/units/si/1970/temporary/knot.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/knot`](https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/knot.md)
+
+
 **Formats:** [[JSON](knot.json)] [[MD](knot.md)]
 
 **JSON definition:**
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/knot",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "knot",
     "symbol": "knot",
     "display-symbol": "knot",

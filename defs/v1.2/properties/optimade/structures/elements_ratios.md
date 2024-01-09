@@ -32,8 +32,8 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/elements_ratios",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
     "title": "Elements ratios",
     "x-optimade-type": "list",
     "x-optimade-definition": {

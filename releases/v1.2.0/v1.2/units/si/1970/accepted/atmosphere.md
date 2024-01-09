@@ -33,8 +33,8 @@ The standard atmosphere appear in the International System of Units (SI), 1st ed
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/atmosphere",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "standard atmosphere",
     "symbol": "atm",
     "display-symbol": "atm",

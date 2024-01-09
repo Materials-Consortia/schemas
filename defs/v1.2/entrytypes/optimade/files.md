@@ -195,8 +195,8 @@ This entrytype defines the following properties:
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/entrytype_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/files",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/entrytype_definition.json",
     "title": "Files",
     "description": "The files entry type describes a file with metadata and an URL to retrive it",
     "x-optimade-definition": {

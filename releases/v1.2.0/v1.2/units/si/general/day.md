@@ -25,14 +25,19 @@ This definition is intended for situations when it is not possible to be more pr
 - [Wikipedia article describing the unit](https://en.wikipedia.org/wiki/Day)
 
 
+**Compatibility:** (other definitions that are covered by the above definition)
+
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/day`](https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/day.md)
+
+
 **Formats:** [[JSON](day.json)] [[MD](day.md)]
 
 **JSON definition:**
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/day",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "day",
     "symbol": "day",
     "display-symbol": "day",

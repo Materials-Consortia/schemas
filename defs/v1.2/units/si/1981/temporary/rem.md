@@ -25,8 +25,8 @@ The rem appear in the International System of Units (SI), 4th ed. (1981) defined
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1981/temporary/rem",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "Roentgen equivalent man",
     "symbol": "rem",
     "display-symbol": "rem",

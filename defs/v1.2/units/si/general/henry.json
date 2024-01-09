@@ -1,6 +1,6 @@
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/henry",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "henry",
     "symbol": "H",
     "display-symbol": "H",

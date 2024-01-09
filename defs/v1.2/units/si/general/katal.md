@@ -23,14 +23,20 @@ This definition is intended for situations when it is not possible to be more pr
 - [Wikipedia article describing the unit](https://en.wikipedia.org/wiki/Katal)
 
 
+**Compatibility:** (other definitions that are covered by the above definition)
+
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1999/named/katal`](https://schemas.optimade.org/defs/v1.2/units/si/1999/named/katal.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/katal`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/katal.md)
+
+
 **Formats:** [[JSON](katal.json)] [[MD](katal.md)]
 
 **JSON definition:**
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/katal",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "katal",
     "symbol": "kat",
     "display-symbol": "kat",

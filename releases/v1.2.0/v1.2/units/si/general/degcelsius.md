@@ -26,14 +26,21 @@ This definition is intended for situations when it is not possible to be more pr
 - [Wikipedia article describing the unit](https://en.wikipedia.org/wiki/Celsius)
 
 
+**Compatibility:** (other definitions that are covered by the above definition)
+
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1960/named/degcelsius`](https://schemas.optimade.org/defs/v1.2/units/si/1960/named/degcelsius.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1967/named/degcelsius`](https://schemas.optimade.org/defs/v1.2/units/si/1967/named/degcelsius.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/degcelsius`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/degcelsius.md)
+
+
 **Formats:** [[JSON](degcelsius.json)] [[MD](degcelsius.md)]
 
 **JSON definition:**
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/degcelsius",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "Degree Celsius",
     "symbol": "degC",
     "display-symbol": "\u00b0C",

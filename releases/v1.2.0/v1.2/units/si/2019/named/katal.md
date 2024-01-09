@@ -26,8 +26,8 @@ The katal was implicitly redefined via the redefinition of the mole at the 26th 
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/katal",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "katal",
     "symbol": "kat",
     "display-symbol": "kat",

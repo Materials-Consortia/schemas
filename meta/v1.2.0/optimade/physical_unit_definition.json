@@ -8,7 +8,6 @@
             "description": "A normalized URI for a meta-schema that validates the definition.\nThis SHOULD be https://schemas.optimade.org/meta/{OPTIMADE_VERSION}/optimade/physical_unit_definition plus a relevant extension for the schema format."
         },
         "$id": {
-            "$schema": "https://json-schema.org/draft/2020-12/schema",
             "$id": "https://schemas.optimade.org/meta/v1.2/common/id",
             "description": "A static IRI identifier that is a URN or URL representing the specific version of the definition.\n\n(If it is a URL, clients SHOULD NOT assign any interpretation to the response when resolving that URL.)\nIt SHOULD NOT be changed as long as the definition functionally remains identical, and SHOULD be changed when the definition changes.\nFor example, definitions SHOULD be regarded as the same if they only differ by, e.g.:\n\n- Additions or corrections of clarifying or historical notes to the `description` field.\n- Changes to the fields `deprecated` and `$comment` on any level.\n\nNote that this means that the version number part of the URL is *retained* even in newer releases of the OPTIMADE standard as long as the definition remains functionally identical.",
             "title": "ID",
@@ -26,7 +25,6 @@
                 "additionalProperties": false,
                 "properties": {
                     "base-units": {
-                        "$schema": "https://json-schema.org/draft/2020-12/schema",
                         "$id": "https://schemas.optimade.org/meta/v1.2/common/symbol_list",
                         "items": {
                             "properties": {
@@ -102,7 +100,6 @@
         "compatibility": {
             "type": "array",
             "items": {
-                "$schema": "https://json-schema.org/draft/2020-12/schema",
                 "$id": "https://schemas.optimade.org/meta/v1.2/common/id",
                 "title": "ID",
                 "description": "An IRI that is an ID",
@@ -118,7 +115,6 @@
             },
             "properties": {
                 "base-units": {
-                    "$schema": "https://json-schema.org/draft/2020-12/schema",
                     "$id": "https://schemas.optimade.org/meta/v1.2/common/symbol_list",
                     "items": {
                         "properties": {
@@ -209,7 +205,6 @@
             "type": "string"
         },
         "resources": {
-            "$schema": "https://json-schema.org/draft/2020-12/schema",
             "$id": "https://schemas.optimade.org/meta/v1.2/common/resource_list",
             "title": "Resource List",
             "description": "A list of dictionaries that describe and reference remote resources.",
@@ -300,7 +295,6 @@
             "type": "string"
         },
         "x-optimade-definition": {
-            "$schema": "https://json-schema.org/draft/2020-12/schema",
             "$id": "https://schemas.optimade.org/meta/v1.2/optimade/x-optimade-definition-field",
             "type": "object",
             "required": [
@@ -344,7 +338,6 @@
                     "type": "string"
                 },
                 "resources": {
-                    "$schema": "https://json-schema.org/draft/2020-12/schema",
                     "$id": "https://schemas.optimade.org/meta/v1.2/common/resource_list",
                     "title": "Resource List",
                     "description": "A list of dictionaries that describe and reference remote resources.",

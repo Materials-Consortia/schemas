@@ -31,8 +31,8 @@ The unit is categorized in The International System of Units (SI), 9th ed. (2019
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/accepted/electronvolt",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "electron volt",
     "symbol": "eV",
     "display-symbol": "eV",

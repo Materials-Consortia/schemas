@@ -30,8 +30,8 @@ The gal appear in the International System of Units (SI), 1st ed. (1970) defined
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1970/temporary/gal",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "gal",
     "symbol": "Gal",
     "display-symbol": "Gal",

@@ -24,14 +24,22 @@ This definition is intended for situations when it is not possible to be more pr
 - [Wikipedia article describing the unit](https://en.wikipedia.org/wiki/Tesla_(unit))
 
 
+**Compatibility:** (other definitions that are covered by the above definition)
+
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1960/named/tesla`](https://schemas.optimade.org/defs/v1.2/units/si/1960/named/tesla.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1967/named/tesla`](https://schemas.optimade.org/defs/v1.2/units/si/1967/named/tesla.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1983/named/tesla`](https://schemas.optimade.org/defs/v1.2/units/si/1983/named/tesla.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/tesla`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/tesla.md)
+
+
 **Formats:** [[JSON](tesla.json)] [[MD](tesla.md)]
 
 **JSON definition:**
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/tesla",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "tesla",
     "symbol": "T",
     "display-symbol": "T",

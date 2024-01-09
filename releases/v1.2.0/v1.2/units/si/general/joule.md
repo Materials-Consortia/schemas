@@ -28,14 +28,22 @@ This definition is intended for situations when it is not possible to be more pr
 - [Wikipedia article describing the unit](https://en.wikipedia.org/wiki/Joule)
 
 
+**Compatibility:** (other definitions that are covered by the above definition)
+
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1960/named/joule`](https://schemas.optimade.org/defs/v1.2/units/si/1960/named/joule.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1967/named/joule`](https://schemas.optimade.org/defs/v1.2/units/si/1967/named/joule.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1983/named/joule`](https://schemas.optimade.org/defs/v1.2/units/si/1983/named/joule.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/joule`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/joule.md)
+
+
 **Formats:** [[JSON](joule.json)] [[MD](joule.md)]
 
 **JSON definition:**
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/joule",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "joule",
     "symbol": "J",
     "display-symbol": "J",

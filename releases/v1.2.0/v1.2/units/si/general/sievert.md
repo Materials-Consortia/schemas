@@ -25,14 +25,20 @@ This definition is intended for situations when it is not possible to be more pr
 - [Wikipedia article describing the unit](https://en.wikipedia.org/wiki/Sievert)
 
 
+**Compatibility:** (other definitions that are covered by the above definition)
+
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1979/named/sievert`](https://schemas.optimade.org/defs/v1.2/units/si/1979/named/sievert.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1983/named/sievert`](https://schemas.optimade.org/defs/v1.2/units/si/1983/named/sievert.md)
+
+
 **Formats:** [[JSON](sievert.json)] [[MD](sievert.md)]
 
 **JSON definition:**
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/sievert",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "sievert",
     "symbol": "Sv",
     "display-symbol": "Sv",

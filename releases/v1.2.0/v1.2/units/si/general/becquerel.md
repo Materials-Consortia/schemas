@@ -22,14 +22,19 @@ This definition is intended for situations when it is not possible to be more pr
 - [Wikipedia article describing the unit](https://en.wikipedia.org/wiki/Becquerel)
 
 
+**Compatibility:** (other definitions that are covered by the above definition)
+
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1975/named/becquerel`](https://schemas.optimade.org/defs/v1.2/units/si/1975/named/becquerel.md)
+
+
 **Formats:** [[JSON](becquerel.json)] [[MD](becquerel.md)]
 
 **JSON definition:**
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/becquerel",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "becquerel",
     "symbol": "Bq",
     "display-symbol": "Bq",

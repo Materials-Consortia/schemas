@@ -26,8 +26,8 @@ The tesla was defined as 1 Wb/m in the introduction of the SI unit system the 11
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/named/tesla",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "tesla",
     "symbol": "T",
     "display-symbol": "T",

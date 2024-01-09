@@ -1,6 +1,6 @@
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/files/ctime",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
     "title": "Change time",
     "x-optimade-type": "timestamp",
     "x-optimade-definition": {

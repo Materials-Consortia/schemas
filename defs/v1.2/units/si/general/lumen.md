@@ -28,14 +28,23 @@ This definition is intended for situations when it is not possible to be more pr
 - [Wikipedia article describing the unit](https://en.wikipedia.org/wiki/Lumen_(unit))
 
 
+**Compatibility:** (other definitions that are covered by the above definition)
+
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1960/named/lumen`](https://schemas.optimade.org/defs/v1.2/units/si/1960/named/lumen.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1967/named/lumen`](https://schemas.optimade.org/defs/v1.2/units/si/1967/named/lumen.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1979/named/lumen`](https://schemas.optimade.org/defs/v1.2/units/si/1979/named/lumen.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1983/named/lumen`](https://schemas.optimade.org/defs/v1.2/units/si/1983/named/lumen.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/lumen`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/lumen.md)
+
+
 **Formats:** [[JSON](lumen.json)] [[MD](lumen.md)]
 
 **JSON definition:**
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/lumen",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "lumen",
     "symbol": "lm",
     "display-symbol": "lm",

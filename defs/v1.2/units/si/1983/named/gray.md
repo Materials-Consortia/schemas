@@ -28,8 +28,8 @@ The gray was defined at the 15th CGPM Meeting in 1975, and implicitly redefined 
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/named/gray",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "gray",
     "symbol": "Gy",
     "display-symbol": "Gy",

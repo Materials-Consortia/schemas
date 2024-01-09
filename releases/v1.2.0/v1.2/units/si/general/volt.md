@@ -27,14 +27,22 @@ This definition is intended for situations when it is not possible to be more pr
 - [Wikipedia article describing the unit](https://en.wikipedia.org/wiki/Volt)
 
 
+**Compatibility:** (other definitions that are covered by the above definition)
+
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1960/named/volt`](https://schemas.optimade.org/defs/v1.2/units/si/1960/named/volt.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1967/named/volt`](https://schemas.optimade.org/defs/v1.2/units/si/1967/named/volt.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1983/named/volt`](https://schemas.optimade.org/defs/v1.2/units/si/1983/named/volt.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/volt`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/volt.md)
+
+
 **Formats:** [[JSON](volt.json)] [[MD](volt.md)]
 
 **JSON definition:**
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/volt",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "volt",
     "symbol": "V",
     "display-symbol": "V",

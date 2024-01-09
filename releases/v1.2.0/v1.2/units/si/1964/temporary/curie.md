@@ -30,8 +30,8 @@ Defined as outside the SI at the 12th CGPM meeting in 1964, resolution 7.
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1964/temporary/curie",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "curie",
     "symbol": "Ci",
     "display-symbol": "Ci",

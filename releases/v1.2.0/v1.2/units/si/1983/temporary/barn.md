@@ -32,8 +32,8 @@ The are was implicitly redefined via the redefinition of the metre at the 17th C
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/barn",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "barn",
     "symbol": "b",
     "display-symbol": "b",

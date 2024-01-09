@@ -30,14 +30,20 @@ This definition is intended for situations when it is not possible to be more pr
 - [Wikipedia article describing the unit](https://en.wikipedia.org/wiki/Bar_(unit))
 
 
+**Compatibility:** (other definitions that are covered by the above definition)
+
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1970/temporary/bar`](https://schemas.optimade.org/defs/v1.2/units/si/1970/temporary/bar.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/bar`](https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/bar.md)
+
+
 **Formats:** [[JSON](bar.json)] [[MD](bar.md)]
 
 **JSON definition:**
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/bar",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "bar",
     "symbol": "bar",
     "display-symbol": "bar",

@@ -1,6 +1,6 @@
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/prefix_definition.json",
     "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/yobi",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/prefix_definition.json",
     "title": "yobi",
     "symbol": "Yi",
     "display-symbol": "Yi",

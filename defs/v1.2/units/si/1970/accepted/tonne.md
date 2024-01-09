@@ -29,8 +29,8 @@ The International System of Units (SI), 1st ed. (1970) defines the tonne as "1 t
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/tonne",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "tonne",
     "symbol": "t",
     "display-symbol": "t",

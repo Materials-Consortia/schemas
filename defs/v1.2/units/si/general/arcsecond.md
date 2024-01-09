@@ -30,14 +30,19 @@ This definition is intended for situations when it is not possible to be more pr
 - [Wikipedia article describing the unit](https://en.wikipedia.org/wiki/Minute_and_second_of_arc)
 
 
+**Compatibility:** (other definitions that are covered by the above definition)
+
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/arcsecond`](https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/arcsecond.md)
+
+
 **Formats:** [[JSON](arcsecond.json)] [[MD](arcsecond.md)]
 
 **JSON definition:**
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/arcsecond",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "arcsecond",
     "symbol": "arcsec",
     "display-symbol": "\u2033",

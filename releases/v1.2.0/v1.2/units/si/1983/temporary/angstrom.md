@@ -33,8 +33,8 @@ The ångström was implicitly redefined via the redefinition of the metre at the
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/angstrom",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "\u00e5ngstr\u00f6m",
     "symbol": "angstrom",
     "display-symbol": "\u00c5",

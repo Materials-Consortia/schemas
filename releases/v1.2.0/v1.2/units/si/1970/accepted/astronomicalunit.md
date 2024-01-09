@@ -38,8 +38,8 @@ This definition interpretes the definition to be the expression in radians and s
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/astronomicalunit",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "astronomical unit",
     "symbol": "au",
     "display-symbol": "au",

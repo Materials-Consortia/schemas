@@ -25,14 +25,20 @@ This definition is intended for situations when it is not possible to be more pr
 - [Wikipedia article describing the unit](https://en.wikipedia.org/wiki/Gray_(unit))
 
 
+**Compatibility:** (other definitions that are covered by the above definition)
+
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1975/named/gray`](https://schemas.optimade.org/defs/v1.2/units/si/1975/named/gray.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1983/named/gray`](https://schemas.optimade.org/defs/v1.2/units/si/1983/named/gray.md)
+
+
 **Formats:** [[JSON](gray.json)] [[MD](gray.md)]
 
 **JSON definition:**
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/gray",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "gray",
     "symbol": "Gy",
     "display-symbol": "Gy",

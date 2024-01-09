@@ -30,14 +30,23 @@ This definition is intended for situations when it is not possible to be more pr
 - [Wikipedia article describing the unit](https://en.wikipedia.org/wiki/Candela)
 
 
+**Compatibility:** (other definitions that are covered by the above definition)
+
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1960/base/candela`](https://schemas.optimade.org/defs/v1.2/units/si/1960/base/candela.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1967/base/candela`](https://schemas.optimade.org/defs/v1.2/units/si/1967/base/candela.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1979/base/candela`](https://schemas.optimade.org/defs/v1.2/units/si/1979/base/candela.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1983/base/candela`](https://schemas.optimade.org/defs/v1.2/units/si/1983/base/candela.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/2019/base/candela`](https://schemas.optimade.org/defs/v1.2/units/si/2019/base/candela.md)
+
+
 **Formats:** [[JSON](candela.json)] [[MD](candela.md)]
 
 **JSON definition:**
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/candela",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "candela",
     "symbol": "cd",
     "display-symbol": "cd",

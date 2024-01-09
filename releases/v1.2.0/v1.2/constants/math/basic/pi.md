@@ -25,8 +25,8 @@ An early definition of π as the symbol for the ratio of a circle's circumferenc
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/constant_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/constants/math/basic/pi",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/constant_definition.json",
     "title": "pi",
     "symbol": "pi",
     "display-symbol": "\u03c0",

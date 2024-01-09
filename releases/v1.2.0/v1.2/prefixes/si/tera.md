@@ -25,8 +25,8 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/prefix_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/tera",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/prefix_definition.json",
     "title": "tera",
     "symbol": "T",
     "display-symbol": "T",

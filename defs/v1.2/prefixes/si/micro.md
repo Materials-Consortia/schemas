@@ -27,8 +27,8 @@ Based on the recommendation of the ISMP List of Error-Prone Abbreviations, Symbo
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/prefix_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/micro",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/prefix_definition.json",
     "title": "micro",
     "symbol": "mc",
     "display-symbol": "\u03bc",

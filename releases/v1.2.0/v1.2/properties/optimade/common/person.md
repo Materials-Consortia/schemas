@@ -27,8 +27,8 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/person",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
     "title": "Person",
     "x-optimade-type": "dictionary",
     "x-optimade-definition": {

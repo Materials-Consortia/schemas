@@ -33,8 +33,8 @@ The unit appear under the name second (with symbol ″) in the International Sys
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/arcsecond",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "arcsecond",
     "symbol": "arcsec",
     "display-symbol": "\u2033",

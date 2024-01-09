@@ -31,14 +31,19 @@ This definition is intended for situations when it is not possible to be more pr
 - [Wikipedia article describing the unit](https://en.wikipedia.org/wiki/Degree_(angle))
 
 
+**Compatibility:** (other definitions that are covered by the above definition)
+
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/degree`](https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/degree.md)
+
+
 **Formats:** [[JSON](degree.json)] [[MD](degree.md)]
 
 **JSON definition:**
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/degree",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "degree",
     "symbol": "degree",
     "display-symbol": "\u00b0",

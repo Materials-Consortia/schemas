@@ -30,14 +30,20 @@ This definition is intended for situations when it is not possible to be more pr
 - [Wikipedia article describing the unit](https://en.wikipedia.org/wiki/Roentgen_(unit))
 
 
+**Compatibility:** (other definitions that are covered by the above definition)
+
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1970/temporary/roentgen`](https://schemas.optimade.org/defs/v1.2/units/si/1970/temporary/roentgen.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/roentgen`](https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/roentgen.md)
+
+
 **Formats:** [[JSON](roentgen.json)] [[MD](roentgen.md)]
 
 **JSON definition:**
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/roentgen",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "roentgen",
     "symbol": "R",
     "display-symbol": "R",

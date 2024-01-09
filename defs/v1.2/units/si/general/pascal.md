@@ -26,14 +26,21 @@ This definition is intended for situations when it is not possible to be more pr
 - [Redefinition of the kilogram at the 26th CGPM Meeting (2018), resolution 1](https://www.bipm.org/en/committees/cg/cgpm/26-2018/resolution-1)
 
 
+**Compatibility:** (other definitions that are covered by the above definition)
+
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1971/named/pascal`](https://schemas.optimade.org/defs/v1.2/units/si/1971/named/pascal.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1983/named/pascal`](https://schemas.optimade.org/defs/v1.2/units/si/1983/named/pascal.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/pascal`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/pascal.md)
+
+
 **Formats:** [[JSON](pascal.json)] [[MD](pascal.md)]
 
 **JSON definition:**
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/pascal",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "pascal",
     "symbol": "Pa",
     "display-symbol": "Pa",

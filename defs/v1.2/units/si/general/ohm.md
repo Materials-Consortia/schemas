@@ -28,14 +28,22 @@ This definition is intended for situations when it is not possible to be more pr
 - [Wikipedia article describing the unit](https://en.wikipedia.org/wiki/Ohm)
 
 
+**Compatibility:** (other definitions that are covered by the above definition)
+
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1960/named/ohm`](https://schemas.optimade.org/defs/v1.2/units/si/1960/named/ohm.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1967/named/ohm`](https://schemas.optimade.org/defs/v1.2/units/si/1967/named/ohm.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1983/named/ohm`](https://schemas.optimade.org/defs/v1.2/units/si/1983/named/ohm.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/ohm`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/ohm.md)
+
+
 **Formats:** [[JSON](ohm.json)] [[MD](ohm.md)]
 
 **JSON definition:**
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/ohm",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "ohm",
     "symbol": "ohm",
     "display-symbol": "\u03a9",

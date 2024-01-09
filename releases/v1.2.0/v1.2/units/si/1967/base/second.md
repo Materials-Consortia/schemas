@@ -28,8 +28,8 @@ At the 26th CGPM Meeting (2018), resolution 1 the definition was rephrased to: "
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "second",
     "symbol": "s",
     "display-symbol": "s",

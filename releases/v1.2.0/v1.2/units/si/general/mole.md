@@ -27,14 +27,20 @@ This definition is intended for situations when it is not possible to be more pr
 - [Wikipedia article describing the unit](https://en.wikipedia.org/wiki/Mole_(unit))
 
 
+**Compatibility:** (other definitions that are covered by the above definition)
+
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1971/base/mole`](https://schemas.optimade.org/defs/v1.2/units/si/1971/base/mole.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/2019/base/mole`](https://schemas.optimade.org/defs/v1.2/units/si/2019/base/mole.md)
+
+
 **Formats:** [[JSON](mole.json)] [[MD](mole.md)]
 
 **JSON definition:**
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/mole",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "mole",
     "symbol": "mol",
     "display-symbol": "mol",

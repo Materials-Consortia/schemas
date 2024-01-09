@@ -27,14 +27,22 @@ This definition is intended for situations when it is not possible to be more pr
 - [Wikipedia article describing the unit](https://en.wikipedia.org/wiki/Newton_(unit))
 
 
+**Compatibility:** (other definitions that are covered by the above definition)
+
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1960/named/newton`](https://schemas.optimade.org/defs/v1.2/units/si/1960/named/newton.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1967/named/newton`](https://schemas.optimade.org/defs/v1.2/units/si/1967/named/newton.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1983/named/newton`](https://schemas.optimade.org/defs/v1.2/units/si/1983/named/newton.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/newton`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/newton.md)
+
+
 **Formats:** [[JSON](newton.json)] [[MD](newton.md)]
 
 **JSON definition:**
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/newton",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "newton",
     "symbol": "N",
     "display-symbol": "N",

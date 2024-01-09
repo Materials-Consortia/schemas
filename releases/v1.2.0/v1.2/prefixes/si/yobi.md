@@ -25,8 +25,8 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/prefix_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/yobi",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/prefix_definition.json",
     "title": "yobi",
     "symbol": "Yi",
     "display-symbol": "Yi",

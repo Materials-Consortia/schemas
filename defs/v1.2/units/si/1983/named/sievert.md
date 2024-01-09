@@ -28,8 +28,8 @@ The sievert was defined at the 16th CGPM meeting in 1979 and implicitly redefine
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/named/sievert",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "sievert",
     "symbol": "Sv",
     "display-symbol": "Sv",

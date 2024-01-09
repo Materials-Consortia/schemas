@@ -15,9 +15,9 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
 
 The hertz, watt, and steradian units referenced in this definition are:
 
-- the SI 1967 derived hertz unit (https://schemas.optimade.org/units/v1.2/si/1967/named/hertz) equal to second⁻¹, referencing the SI 1967 base unit second (https://schemas.optimade.org/units/v1.2/si/1967/base/second).
-- the SI 1967 derived watt unit (https://schemas.optimade.org/units/v1.2/si/1967/named/watt) equal to kilogram·meter²·second⁻³, referencing the SI 1960 base unit kilogram (https://schemas.optimade.org/units/v1.2/si/1960/base/kilogram) and metre (https://schemas.optimade.org/units/v1.2/si/1960/base/metre); and the 1967 base unit second (https://schemas.optimade.org/units/v1.2/si/1967/base/second).
-- the SI 1960 supplementary unit steradian (https://schemas.optimade.org/units/v1.2/si/1960/supplementary/steradian).
+- the SI 1967 derived hertz unit (https://schemas.optimade.org/defs/v1.2/units/si/1967/named/hertz) equal to second⁻¹, referencing the SI 1967 base unit second (https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second).
+- the SI 1967 derived watt unit (https://schemas.optimade.org/defs/v1.2/units/si/1967/named/watt) equal to kilogram·meter²·second⁻³, referencing the SI 1960 base unit kilogram (https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram) and metre (https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre); and the 1967 base unit second (https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second).
+- the SI 1960 supplementary unit steradian (https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/steradian).
 
 **Resources:**
 
@@ -32,12 +32,12 @@ The hertz, watt, and steradian units referenced in this definition are:
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1979/base/candela",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "candela",
     "symbol": "cd",
     "display-symbol": "cd",
-    "description": "The SI base unit of luminous intensity in a given direction defined from the luminous intensity of monocromatic radiation at a specific frequency and radiant intensity at the 16th CGPM Meeting in 1979.\n\n\"The candela is the luminous intensity, in a given direction, of a source that emits monochromatic radiation of frequency 540\u00d710\u00b9\u00b2 hertz and that has a radiant intensity in that direction of 1/683 watt per steradian.\" [16th CGPM Meeting (1979), resolution 3].\n\nThe hertz, watt, and steradian units referenced in this definition are:\n\n- the SI 1967 derived hertz unit (https://schemas.optimade.org/units/v1.2/si/1967/named/hertz) equal to second\u207b\u00b9, referencing the SI 1967 base unit second (https://schemas.optimade.org/units/v1.2/si/1967/base/second).\n- the SI 1967 derived watt unit (https://schemas.optimade.org/units/v1.2/si/1967/named/watt) equal to kilogram\u00b7meter\u00b2\u00b7second\u207b\u00b3, referencing the SI 1960 base unit kilogram (https://schemas.optimade.org/units/v1.2/si/1960/base/kilogram) and metre (https://schemas.optimade.org/units/v1.2/si/1960/base/metre); and the 1967 base unit second (https://schemas.optimade.org/units/v1.2/si/1967/base/second).\n- the SI 1960 supplementary unit steradian (https://schemas.optimade.org/units/v1.2/si/1960/supplementary/steradian).",
+    "description": "The SI base unit of luminous intensity in a given direction defined from the luminous intensity of monocromatic radiation at a specific frequency and radiant intensity at the 16th CGPM Meeting in 1979.\n\n\"The candela is the luminous intensity, in a given direction, of a source that emits monochromatic radiation of frequency 540\u00d710\u00b9\u00b2 hertz and that has a radiant intensity in that direction of 1/683 watt per steradian.\" [16th CGPM Meeting (1979), resolution 3].\n\nThe hertz, watt, and steradian units referenced in this definition are:\n\n- the SI 1967 derived hertz unit (https://schemas.optimade.org/defs/v1.2/units/si/1967/named/hertz) equal to second\u207b\u00b9, referencing the SI 1967 base unit second (https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second).\n- the SI 1967 derived watt unit (https://schemas.optimade.org/defs/v1.2/units/si/1967/named/watt) equal to kilogram\u00b7meter\u00b2\u00b7second\u207b\u00b3, referencing the SI 1960 base unit kilogram (https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram) and metre (https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre); and the 1967 base unit second (https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second).\n- the SI 1960 supplementary unit steradian (https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/steradian).",
     "resources": [
         {
             "relation": "Redefinition of the candela at the 16th CGPM Meeting in 1979, resolution 3.",

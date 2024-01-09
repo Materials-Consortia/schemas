@@ -30,8 +30,8 @@ A site is usually used to describe positions of atoms; what atoms can be encount
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/cartesian_site_positions",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
     "title": "Cartesian site positions",
     "x-optimade-type": "list",
     "x-optimade-definition": {

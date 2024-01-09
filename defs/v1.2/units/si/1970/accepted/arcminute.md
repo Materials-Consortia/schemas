@@ -37,8 +37,8 @@ The unit appear under the name minute (with symbol ′) in the International Sys
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/arcminute",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "arcminute",
     "symbol": "arcmin",
     "display-symbol": "\u2032",

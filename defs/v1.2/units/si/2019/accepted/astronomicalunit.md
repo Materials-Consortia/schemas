@@ -27,8 +27,8 @@ The International System of Units (SI), 9th ed. (2019) categorizes the astronomi
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/accepted/astronomicalunit",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "astronomical unit",
     "symbol": "au",
     "display-symbol": "au",

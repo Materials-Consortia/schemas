@@ -26,14 +26,21 @@ This definition is intended for situations when it is not possible to be more pr
 - [Wikipedia article describing the unit](https://en.wikipedia.org/wiki/Siemens_(unit))
 
 
+**Compatibility:** (other definitions that are covered by the above definition)
+
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1971/named/siemens`](https://schemas.optimade.org/defs/v1.2/units/si/1971/named/siemens.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1983/named/siemens`](https://schemas.optimade.org/defs/v1.2/units/si/1983/named/siemens.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/siemens`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/siemens.md)
+
+
 **Formats:** [[JSON](siemens.json)] [[MD](siemens.md)]
 
 **JSON definition:**
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/siemens",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "siemens",
     "symbol": "S",
     "display-symbol": "S",

@@ -29,8 +29,8 @@ The hectare appear in the International System of Units (SI), 1st ed. (1970) def
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1970/temporary/hectare",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "hectare",
     "symbol": "he",
     "display-symbol": "he",

@@ -32,8 +32,8 @@ At the 20th CGPM meeting in 1995, resolution 8 the categorization was changed to
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/steradian",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "steradian",
     "symbol": "sr",
     "display-symbol": "sr",

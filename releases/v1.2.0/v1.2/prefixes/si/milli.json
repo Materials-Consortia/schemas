@@ -1,6 +1,6 @@
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/prefix_definition.json",
     "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/milli",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/prefix_definition.json",
     "title": "milli",
     "symbol": "m",
     "display-symbol": "m",

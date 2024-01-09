@@ -27,8 +27,8 @@ The degree Kelvin was adopted into SI at the 11th CGPM Meeting in 1960, resoluti
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/degreekelvin",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "degree Kelvin",
     "symbol": "degK",
     "display-symbol": "\u00b0K",

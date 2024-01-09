@@ -34,8 +34,8 @@ In the 1970 definition, the volt refers to the 1967 volt derived named SI unit (
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/electronvolt",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "electron volt",
     "symbol": "eV",
     "display-symbol": "eV",

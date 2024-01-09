@@ -307,8 +307,8 @@ This entrytype defines the following properties:
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/entrytype_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/references",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/entrytype_definition.json",
     "title": "References",
     "description": "The references entry type describes a reference",
     "x-optimade-definition": {

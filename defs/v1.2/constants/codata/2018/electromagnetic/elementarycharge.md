@@ -26,8 +26,8 @@ It is exactly 1.602176634·10⁻¹⁹ C following the 2019 redefinition of the S
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/constant_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/elementarycharge",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/constant_definition.json",
     "title": "Elementary charge",
     "symbol": "e",
     "display-symbol": "\\(e\\)",

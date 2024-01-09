@@ -32,14 +32,20 @@ This definition is intended for situations when it is not possible to be more pr
 - [Wikipedia article describing the unit](https://en.wikipedia.org/wiki/Rad_(radiation_unit))
 
 
+**Compatibility:** (other definitions that are covered by the above definition)
+
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1970/temporary/radiationunit`](https://schemas.optimade.org/defs/v1.2/units/si/1970/temporary/radiationunit.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/radiationunit`](https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/radiationunit.md)
+
+
 **Formats:** [[JSON](radiationunit.json)] [[MD](radiationunit.md)]
 
 **JSON definition:**
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/radiationunit",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "radiation unit",
     "symbol": "radiationunit",
     "display-symbol": "rad",

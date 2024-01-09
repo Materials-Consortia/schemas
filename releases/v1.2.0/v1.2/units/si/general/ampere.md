@@ -25,14 +25,22 @@ This definition is intended for situations when it is not possible to be more pr
 - [Wikipedia article describing the unit](https://en.wikipedia.org/wiki/Ampere)
 
 
+**Compatibility:** (other definitions that are covered by the above definition)
+
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1960/base/ampere`](https://schemas.optimade.org/defs/v1.2/units/si/1960/base/ampere.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1967/base/ampere`](https://schemas.optimade.org/defs/v1.2/units/si/1967/base/ampere.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1983/base/ampere`](https://schemas.optimade.org/defs/v1.2/units/si/1983/base/ampere.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/2019/base/ampere`](https://schemas.optimade.org/defs/v1.2/units/si/2019/base/ampere.md)
+
+
 **Formats:** [[JSON](ampere.json)] [[MD](ampere.md)]
 
 **JSON definition:**
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/ampere",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "ampere",
     "symbol": "A",
     "display-symbol": "A",

@@ -26,14 +26,20 @@ This definition is intended for situations when it is not possible to be more pr
 - [Wikipedia article describing the unit](https://en.wikipedia.org/wiki/Hertz)
 
 
+**Compatibility:** (other definitions that are covered by the above definition)
+
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1960/named/hertz`](https://schemas.optimade.org/defs/v1.2/units/si/1960/named/hertz.md)
+- [`https://schemas.optimade.org/defs/v1.2/units/si/1967/named/hertz`](https://schemas.optimade.org/defs/v1.2/units/si/1967/named/hertz.md)
+
+
 **Formats:** [[JSON](hertz.json)] [[MD](hertz.md)]
 
 **JSON definition:**
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/hertz",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "hertz",
     "symbol": "Hz",
     "display-symbol": "Hz",

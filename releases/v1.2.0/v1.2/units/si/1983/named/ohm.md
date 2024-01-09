@@ -30,8 +30,8 @@ The ohm was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th 
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/named/ohm",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "ohm",
     "symbol": "ohm",
     "display-symbol": "\u03a9",

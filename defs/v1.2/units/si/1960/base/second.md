@@ -27,8 +27,8 @@ The second was included into SI at the 11th CGPM Meeting in 1960 in resolution 1
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/second",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "second",
     "symbol": "s",
     "display-symbol": "s",

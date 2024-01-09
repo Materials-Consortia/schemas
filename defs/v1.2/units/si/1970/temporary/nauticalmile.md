@@ -31,8 +31,8 @@ Historically, the nautical mile was defined as the meridian arc length correspon
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1970/temporary/nauticalmile",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "nautical mile",
     "symbol": "M",
     "display-symbol": "M",

@@ -15,7 +15,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
 This was a ratification of a definition of a definition at the 41st CIPM meeting in 1946, resolution 1, with a different phrasing: "The value of the new candle is such that the brightness of the full radiator at the temperature of solidification of platinum is 60 new candles per square centimetre."
 The candela was adopted into SI at the 11th CGPM Meeting in 1960, resolution 12.
 
-Furthermore, in the definition SI 1960 definition of the candela the centimeter in the definition references 10⁻² times the SI 1960 metre (https://schemas.optimade.org/units/v1.2/si/1960/base/metre).
+Furthermore, in the definition SI 1960 definition of the candela the centimeter in the definition references 10⁻² times the SI 1960 metre (https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre).
 
 **Resources:**
 
@@ -31,12 +31,12 @@ Furthermore, in the definition SI 1960 definition of the candela the centimeter 
 
 ``` json
 {
-    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.md",
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/candela",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
     "title": "candela",
     "symbol": "cd",
     "display-symbol": "cd",
-    "description": "The SI base unit of luminous intensity in a given direction defined from the radiation of a black body at the solidification temperature of platinum, which was included into SI at the 11th CGPM Meeting in 1960.\n\n\"The candela is the sixtieth of the luminous intensity emitted perpendicularly by one square centimeter of a perfect radiator (black body) at the solidification temperature of platinum.\" [9th CGPM meeting (1948)].\nThis was a ratification of a definition of a definition at the 41st CIPM meeting in 1946, resolution 1, with a different phrasing: \"The value of the new candle is such that the brightness of the full radiator at the temperature of solidification of platinum is 60 new candles per square centimetre.\"\nThe candela was adopted into SI at the 11th CGPM Meeting in 1960, resolution 12.\n\nFurthermore, in the definition SI 1960 definition of the candela the centimeter in the definition references 10\u207b\u00b2 times the SI 1960 metre (https://schemas.optimade.org/units/v1.2/si/1960/base/metre).",
+    "description": "The SI base unit of luminous intensity in a given direction defined from the radiation of a black body at the solidification temperature of platinum, which was included into SI at the 11th CGPM Meeting in 1960.\n\n\"The candela is the sixtieth of the luminous intensity emitted perpendicularly by one square centimeter of a perfect radiator (black body) at the solidification temperature of platinum.\" [9th CGPM meeting (1948)].\nThis was a ratification of a definition of a definition at the 41st CIPM meeting in 1946, resolution 1, with a different phrasing: \"The value of the new candle is such that the brightness of the full radiator at the temperature of solidification of platinum is 60 new candles per square centimetre.\"\nThe candela was adopted into SI at the 11th CGPM Meeting in 1960, resolution 12.\n\nFurthermore, in the definition SI 1960 definition of the candela the centimeter in the definition references 10\u207b\u00b2 times the SI 1960 metre (https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre).",
     "resources": [
         {
             "relation": "Definition at the 9st CGPM meeting (1948)",
