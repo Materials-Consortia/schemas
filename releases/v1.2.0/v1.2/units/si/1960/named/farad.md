@@ -15,7 +15,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
 
 **Resources:**
 
-- [Definition at the 9st CGPM meeting (1948)](https://www.bipm.org/en/committees/cg/cgpm/9-1948)
+- [Definition at the 9th CGPM meeting (1948)](https://www.bipm.org/en/committees/cg/cgpm/9-1948)
 - [Definition and establishment of the SI unit system at the 11th CGPM meeting (1960), resolution 12.](https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12)
 - [Wikipedia article describing the unit](https://en.wikipedia.org/wiki/Farad)
 
@@ -34,7 +34,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
     "description": "A derived SI unit for electrical capacitance equal to kg\u207b\u00b9\u00b7m\u207b\u00b2\u00b7s\u2074\u00b7A\u00b2 in the 1960 SI base units.\n\n\"The farad is the capacitance of an electric capacitor between whose plates an electric potential difference of one volt appears when it is charged with an amount of electricity equal to one coulomb.\" [9th CGPM meeting in 1946]",
     "resources": [
         {
-            "relation": "Definition at the 9st CGPM meeting (1948)",
+            "relation": "Definition at the 9th CGPM meeting (1948)",
             "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/9-1948"
         },
         {

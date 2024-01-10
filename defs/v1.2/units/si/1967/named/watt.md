@@ -17,7 +17,7 @@ The watt was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th
 
 **Resources:**
 
-- [Definition at the 9st CGPM meeting (1948)](https://www.bipm.org/en/committees/cg/cgpm/9-1948)
+- [Definition at the 9th CGPM meeting (1948)](https://www.bipm.org/en/committees/cg/cgpm/9-1948)
 - [Definition and establishment of the SI unit system at the 11th CGPM meeting (1960), resolution 12.](https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12)
 - [Redefinition of the second in the 13th CGPM Meeting (1967), resolution 1](https://www.bipm.org/en/committees/cg/cgpm/13-1967/resolution-1)
 - [Wikipedia article describing the unit](https://en.wikipedia.org/wiki/Watt)
@@ -37,7 +37,7 @@ The watt was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th
     "description": "A derived SI unit for power and radiant flux equal to kg\u00b7m\u00b2\u00b7s\u207b\u00b3 in the 1967 SI units.\n\n\"The watt is the power that produces one joule per second.\" [9th CGPM meeting in 1946]\n\nThe watt was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12 and implicitly redefined via the redefinition of the second at the 13th CGPM Meeting in 1967, resolution 1.",
     "resources": [
         {
-            "relation": "Definition at the 9st CGPM meeting (1948)",
+            "relation": "Definition at the 9th CGPM meeting (1948)",
             "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/9-1948"
         },
         {

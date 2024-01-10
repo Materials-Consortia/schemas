@@ -15,7 +15,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
 
 **Resources:**
 
-- [Definition at the 9st CGPM meeting (1948)](https://www.bipm.org/en/committees/cg/cgpm/9-1948)
+- [Definition at the 9th CGPM meeting (1948)](https://www.bipm.org/en/committees/cg/cgpm/9-1948)
 - [Definition and establishment of the SI unit system at the 11th CGPM meeting (1960), resolution 12.](https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12)
 - [Wikipedia article describing the unit](https://en.wikipedia.org/wiki/Lumen_(unit))
 
@@ -34,7 +34,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
     "description": "A derived SI unit for luminous flux equal to cd\u00b7sr in the 1960 SI base units.\n\n\"The lumen is the luminous flux emitted in a steradian by a uniform point source with a luminous intensity of one candela.\" [9th CGPM meeting in 1946]",
     "resources": [
         {
-            "relation": "Definition at the 9st CGPM meeting (1948)",
+            "relation": "Definition at the 9th CGPM meeting (1948)",
             "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/9-1948"
         },
         {

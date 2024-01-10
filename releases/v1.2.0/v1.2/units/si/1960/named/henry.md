@@ -15,7 +15,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
 
 **Resources:**
 
-- [Definition at the 9st CGPM meeting (1948)](https://www.bipm.org/en/committees/cg/cgpm/9-1948)
+- [Definition at the 9th CGPM meeting (1948)](https://www.bipm.org/en/committees/cg/cgpm/9-1948)
 - [Definition and establishment of the SI unit system at the 11th CGPM meeting (1960), resolution 12.](https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12)
 - [Wikipedia article describing the unit](https://en.wikipedia.org/wiki/Henry_(unit))
 
@@ -34,7 +34,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
     "description": "A derived SI unit for inductance equal to kg\u00b7m\u00b2\u00b7s\u207b\u00b2\u00b7A\u207b\u00b2 in the 1960 SI base units.\n\n\"The henry is the inductance of a closed circuit in which an electromotive force of one volt is produced when the electric current passing through the circuit varies uniformly at a rate of one ampere per second.\" [9th CGPM meeting in 1946]",
     "resources": [
         {
-            "relation": "Definition at the 9st CGPM meeting (1948)",
+            "relation": "Definition at the 9th CGPM meeting (1948)",
             "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/9-1948"
         },
         {

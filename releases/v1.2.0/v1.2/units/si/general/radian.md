@@ -23,7 +23,7 @@ This definition is intended for situations when it is not possible to be more pr
 
 **Resources:**
 
-- [Definition at the 9st CGPM meeting (1948)](https://www.bipm.org/en/committees/cg/cgpm/9-1948)
+- [Definition at the 9th CGPM meeting (1948)](https://www.bipm.org/en/committees/cg/cgpm/9-1948)
 - [Definition in the International System of Units (SI), 9th Edition](https://www.bipm.org/en/publications/si-brochure)
 - [Establishment of the SI unit system at the 11th CGPM meeting (1960), resolution 12.](https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12)
 - [Reclassification at the 20th CGPM meeting (1995)](https://www.bipm.org/en/committees/cg/cgpm/20-1995/resolution-8)
@@ -55,7 +55,7 @@ This definition is intended for situations when it is not possible to be more pr
     ],
     "resources": [
         {
-            "relation": "Definition at the 9st CGPM meeting (1948)",
+            "relation": "Definition at the 9th CGPM meeting (1948)",
             "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/9-1948"
         },
         {

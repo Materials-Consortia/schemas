@@ -11,9 +11,9 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
   
 **Description:** A derived SI unit for catalytic activity, defined as mol·s⁻¹ using the current, or one of the historical, definitions of the SI units.
 
-"The 21st Conférence Générale des Poids et Mesures, [...] decides to adopt the special name katal, symbol kat, for the SI unit mole per second to express catalytic activity, especially in the fields of medicine and biochemistry, and recommends that when the katal is used, the measurand be specified by reference to the measurement procedure; the measurement procedure must identify the indicator reaction." [21th CGPM meeting (1999), resolution 12]
+"The 21st Conférence Générale des Poids et Mesures, [...] decides to adopt the special name katal, symbol kat, for the SI unit mole per second to express catalytic activity, especially in the fields of medicine and biochemistry, and recommends that when the katal is used, the measurand be specified by reference to the measurement procedure; the measurement procedure must identify the indicator reaction." [21st CGPM meeting (1999), resolution 12]
 
-The katal was implicitly redefined via the redefinition of the mole at the 26th CGPM Meeting (2018), resolution 1.
+The katal unit was implicitly redefined via the redefinition of the mole at the 26th CGPM Meeting (2018), resolution 1.
 
 This is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.
 This definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.
@@ -40,7 +40,7 @@ This definition is intended for situations when it is not possible to be more pr
     "title": "katal",
     "symbol": "kat",
     "display-symbol": "kat",
-    "description": "A derived SI unit for catalytic activity, defined as mol\u00b7s\u207b\u00b9 using the current, or one of the historical, definitions of the SI units.\n\n\"The 21st Conf\u00e9rence G\u00e9n\u00e9rale des Poids et Mesures, [...] decides to adopt the special name katal, symbol kat, for the SI unit mole per second to express catalytic activity, especially in the fields of medicine and biochemistry, and recommends that when the katal is used, the measurand be specified by reference to the measurement procedure; the measurement procedure must identify the indicator reaction.\" [21th CGPM meeting (1999), resolution 12]\n\nThe katal was implicitly redefined via the redefinition of the mole at the 26th CGPM Meeting (2018), resolution 1.\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
+    "description": "A derived SI unit for catalytic activity, defined as mol\u00b7s\u207b\u00b9 using the current, or one of the historical, definitions of the SI units.\n\n\"The 21st Conf\u00e9rence G\u00e9n\u00e9rale des Poids et Mesures, [...] decides to adopt the special name katal, symbol kat, for the SI unit mole per second to express catalytic activity, especially in the fields of medicine and biochemistry, and recommends that when the katal is used, the measurand be specified by reference to the measurement procedure; the measurement procedure must identify the indicator reaction.\" [21st CGPM meeting (1999), resolution 12]\n\nThe katal unit was implicitly redefined via the redefinition of the mole at the 26th CGPM Meeting (2018), resolution 1.\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
     "compatibility": [
         "https://schemas.optimade.org/defs/v1.2/units/si/1999/named/katal",
         "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/katal"

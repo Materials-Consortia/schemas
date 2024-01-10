@@ -20,7 +20,7 @@ At the 20th CGPM meeting in 1995, resolution 8 the categorization was changed to
 
 **Resources:**
 
-- [Definition at the 9st CGPM meeting (1948)](https://www.bipm.org/en/committees/cg/cgpm/9-1948)
+- [Definition at the 9th CGPM meeting (1948)](https://www.bipm.org/en/committees/cg/cgpm/9-1948)
 - [Definition in the International System of Units (SI), 9th Edition](https://www.bipm.org/en/publications/si-brochure)
 - [Establishment of the SI unit system at the 11th CGPM meeting (1960), resolution 12.](https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12)
 - [Reclassification at the 20th CGPM meeting (1995)](https://www.bipm.org/en/committees/cg/cgpm/20-1995/resolution-8)
@@ -41,7 +41,7 @@ At the 20th CGPM meeting in 1995, resolution 8 the categorization was changed to
     "description": "An SI unit of plane angle defined from the relation of the arc length on a circle intercepted at a given radius so that the full circle has an angle of 4\u03c0 radians.\n\nThe radian is defined at the 9th CGPM Meeting in 1948 as: \"The radian is the angle with its vertex at the center of a circle that intercepts an arc of length equal to the radius on the circumference of that circle.\"\n\nThe International System of Units (SI), 9th ed. (2019) has a longer but equivalent definition: \"The plane angle, expressed in radian, between two lines originating from a common point is the length of circular arc \\(s\\), swept out between the lines by a radius vector of length \\(r\\) from the common point divided by the length of the radius vector, \\(\\theta\\) = \\(s/r\\) rad. The phase angle (often just referred to as the \u201cphase\u201d) is the argument of any complex number. It is the angle between the positive real axis and the radius of the polar representation of the complex number in the complex plane. One radian corresponds to the angle for which \\(s = r\\), thus 1 rad = 1. The measure of the right angle is exactly equal to the number \u03c0/2.\"\n\nThe radian is categorized in the International System of Units (SI), 1st Edition as a supplementary SI unit.\nAt the 20th CGPM meeting in 1995, resolution 8 the categorization was changed to a dimensionless derived SI unit.",
     "resources": [
         {
-            "relation": "Definition at the 9st CGPM meeting (1948)",
+            "relation": "Definition at the 9th CGPM meeting (1948)",
             "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/9-1948"
         },
         {

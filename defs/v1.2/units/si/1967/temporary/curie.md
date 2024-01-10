@@ -23,7 +23,7 @@ Implicitly redefined via the redefinition of the second at the 13th CGPM Meeting
 - [Definition at the 12th CGPM meeting (1964), resolution 3](https://www.bipm.org/en/committees/cg/cgpm/12-1964/resolution-3)
 - [Redefinition of the second in the 13th CGPM Meeting (1967), resolution 1](https://www.bipm.org/en/committees/cg/cgpm/13-1967/resolution-1)
 - [Le Système International d'Unités (SI) (1970)](https://www.bipm.org/en/publications/si-brochure)
-- [Wikipedia article describing the unit](https://en.wikipedia.org/wiki/Electronvolt)
+- [Wikipedia article describing the unit](https://en.wikipedia.org/wiki/Curie_(unit))
 
 
 **Formats:** [[JSON](curie.json)] [[MD](curie.md)]
@@ -53,7 +53,7 @@ Implicitly redefined via the redefinition of the second at the 13th CGPM Meeting
         },
         {
             "relation": "Wikipedia article describing the unit",
-            "resource-id": "https://en.wikipedia.org/wiki/Electronvolt"
+            "resource-id": "https://en.wikipedia.org/wiki/Curie_(unit)"
         }
     ],
     "defining-relation": {

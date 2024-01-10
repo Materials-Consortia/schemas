@@ -11,7 +11,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
   
 **Description:** The "roentgen equivalent man" (rem) is a unit used in radioprotection meant to represent a dose of any ionizing radiation comparable in effect to one roentgen of high-voltage x-radiation, taken to be equal to 10⁻² Sv using the 1967 SI units.
 
-The rem appear in the International System of Units (SI), 4th ed. (1981) defined as "1 rem = 1 cSv = 10⁻² Sv" with the footnote: "The rem is a special unit used in radioprotection to express the equivalent dose."
+The rem unit appears in the International System of Units (SI), 4th ed. (1981) defined as "1 rem = 1 cSv = 10⁻² Sv" with the footnote: "The rem is a special unit used in radioprotection to express the equivalent dose."
 
 **Resources:**
 
@@ -30,7 +30,7 @@ The rem appear in the International System of Units (SI), 4th ed. (1981) defined
     "title": "Roentgen equivalent man",
     "symbol": "rem",
     "display-symbol": "rem",
-    "description": "The \"roentgen equivalent man\" (rem) is a unit used in radioprotection meant to represent a dose of any ionizing radiation comparable in effect to one roentgen of high-voltage x-radiation, taken to be equal to 10\u207b\u00b2 Sv using the 1967 SI units.\n\nThe rem appear in the International System of Units (SI), 4th ed. (1981) defined as \"1 rem = 1 cSv = 10\u207b\u00b2 Sv\" with the footnote: \"The rem is a special unit used in radioprotection to express the equivalent dose.\"",
+    "description": "The \"roentgen equivalent man\" (rem) is a unit used in radioprotection meant to represent a dose of any ionizing radiation comparable in effect to one roentgen of high-voltage x-radiation, taken to be equal to 10\u207b\u00b2 Sv using the 1967 SI units.\n\nThe rem unit appears in the International System of Units (SI), 4th ed. (1981) defined as \"1 rem = 1 cSv = 10\u207b\u00b2 Sv\" with the footnote: \"The rem is a special unit used in radioprotection to express the equivalent dose.\"",
     "resources": [
         {
             "relation": "Definition in the International System of Units (SI), 4th Edition",

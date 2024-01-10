@@ -26,7 +26,7 @@ This definition is intended for situations when it is not possible to be more pr
 
 **Resources:**
 
-- [Definition in the International System of Units (SI), 1th Edition](https://www.bipm.org/en/publications/si-brochure)
+- [Definition in the International System of Units (SI), 1st Edition](https://www.bipm.org/en/publications/si-brochure)
 - [Wikipedia article describing the unit](https://en.wikipedia.org/wiki/Minute_and_second_of_arc)
 
 
@@ -57,7 +57,7 @@ This definition is intended for situations when it is not possible to be more pr
     ],
     "resources": [
         {
-            "relation": "Definition in the International System of Units (SI), 1th Edition",
+            "relation": "Definition in the International System of Units (SI), 1st Edition",
             "resource-id": "https://www.bipm.org/en/publications/si-brochure"
         },
         {

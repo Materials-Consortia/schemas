@@ -557,7 +557,7 @@
                                 "type": "string"
                             },
                             "description": {
-                                "description": "A human-readable multi-line description that explains the purpose, requirements, and conventions of the defined property.\nThe format SHOULD be a one-line description, followed by a new paragraph (two newlines), followed by a more detailed description of all the requirements and conventions of the defined property.\nFormatting in the text SHOULD use Markdown in the CommonMark v0.3 format format, with mathematical expressions written to render correctly with the LaTeX mode of Mathjax 3.2 <https://docs.mathjax.org/en/v3.2-latest/>.\nWhen possible, it is preferable for mathematical expressions to use as straightforward notation as possible to make them readable also when not rendered.\n\nAdditions appended to the end of the description field that are clearly marked as notes that clarify the definition without changing it are viewed as annotations to the Property Definition rather than an integral part of it.\nSuch annotations SHOULD only be added to the end of an otherwise unmodified description and MUST NOT change the meaning or interpretation of the text above them.\nThe purpose is to provide a way to add explanations and clarifications to a definition without having to regard it as a new definition.\nFor example, these annotations to the description MAY be used to explain why a definition has been deprecated.",
+                                "description": "A human-readable multi-line description that explains the purpose, requirements, and conventions of the defined property.\nThe format SHOULD be a one-line description, followed by a new paragraph (two newlines), followed by a more detailed description of all the requirements and conventions of the defined property.\nFormatting in the text SHOULD use Markdown in the CommonMark v0.3 format, with mathematical expressions written to render correctly with the LaTeX mode of Mathjax 3.2 <https://docs.mathjax.org/en/v3.2-latest/>.\nWhen possible, it is preferable for mathematical expressions to use as straightforward notation as possible to make them readable also when not rendered.\n\nAdditions appended to the end of the description field that are clearly marked as notes that clarify the definition without changing it are viewed as annotations to the Property Definition rather than an integral part of it.\nSuch annotations SHOULD only be added to the end of an otherwise unmodified description and MUST NOT change the meaning or interpretation of the text above them.\nThe purpose is to provide a way to add explanations and clarifications to a definition without having to regard it as a new definition.\nFor example, these annotations to the description MAY be used to explain why a definition has been deprecated.",
                                 "type": "string"
                             },
                             "x-optimade-definition": {
@@ -645,14 +645,14 @@
                                 },
                                 "properties": {
                                     "names": {
-                                        "description": "A list of names of the dimensions of the underlying one or multi-dimensionsional data represented as mutiple levels of lists.\nThe order is that the the first name applies to the outermost list, the next name to the lists embedded in that list, etc.",
+                                        "description": "A list of names of the dimensions of the underlying one or multi-dimensionsional data represented as mutiple levels of lists.\nThe order is that the first name applies to the outermost list, the next name to the lists embedded in that list, etc.",
                                         "type": "array",
                                         "items": {
                                             "type": "string"
                                         }
                                     },
                                     "sizes": {
-                                        "description": "A list of fixed length requirements on the underlying one or multi-dimensionsional data represented as mutiple levels of lists.\nThe order is that the the first name applies to the outermost list, the next name to the lists embedded in that list, etc.\nThe data only validates if the respective level consists of lists of exactly this length.\nA value of `null` allows arbitrary-length lists at the corresponding level.",
+                                        "description": "A list of fixed length requirements on the underlying one or multi-dimensionsional data represented as mutiple levels of lists.\nThe order is that the first name applies to the outermost list, the next name to the lists embedded in that list, etc.\nThe data only validates if the respective level consists of lists of exactly this length.\nA value of `null` allows arbitrary-length lists at the corresponding level.",
                                         "type": "array",
                                         "items": {
                                             "type": [
@@ -1206,11 +1206,11 @@
                                 ]
                             },
                             "$comment": {
-                                "description": "A human-readable comment relevant in the context of the raw definition data.\nThese comments should normally not be shown to the end users.\nComments pertaining to the Property Definition that are relevant to end users should go into the field description.\nFormatting in the text SHOULD use Markdown using the format described in the definition of the description field.\n\nThis fields is an annotation rather than an integral part of the Property Definition.\nProperty Definitions that only differ by fields that are considered annotations are to be considered the same, and as explained in the definition of the $id field SHOULD share the same $id.",
+                                "description": "A human-readable comment relevant in the context of the raw definition data.\nThese comments should normally not be shown to the end users.\nComments pertaining to the Property Definition that are relevant to end users should go into the field description.\nFormatting in the text SHOULD use Markdown using the format described in the definition of the description field.\n\nThis field is an annotation rather than an integral part of the Property Definition.\nProperty Definitions that only differ by fields that are considered annotations are to be considered the same, and as explained in the definition of the $id field SHOULD share the same $id.",
                                 "type": "string"
                             },
                             "deprecated": {
-                                "description": "If TRUE, implementations SHOULD not use the defined property, and it MAY be removed in the future.\nIf FALSE, the defined property is not deprecated. The field not being present means FALSE.\n\nThis fields is an annotation rather than an integral part of the Property Definition.\nProperty Definitions that only differ by fields that are considered annotations are to be considered the same, and as explained in the definition of the $id field SHOULD share the same $id.",
+                                "description": "If TRUE, implementations SHOULD not use the defined property, and it MAY be removed in the future.\nIf FALSE, the defined property is not deprecated. The field not being present means FALSE.\n\nThis field is an annotation rather than an integral part of the Property Definition.\nProperty Definitions that only differ by fields that are considered annotations are to be considered the same, and as explained in the definition of the $id field SHOULD share the same $id.",
                                 "type": "boolean"
                             }
                         },
@@ -1638,7 +1638,7 @@
                     "type": "string"
                 },
                 "description": {
-                    "description": "A human-readable multi-line description that explains the purpose, requirements, and conventions of the defined property.\nThe format SHOULD be a one-line description, followed by a new paragraph (two newlines), followed by a more detailed description of all the requirements and conventions of the defined property.\nFormatting in the text SHOULD use Markdown in the CommonMark v0.3 format format, with mathematical expressions written to render correctly with the LaTeX mode of Mathjax 3.2 <https://docs.mathjax.org/en/v3.2-latest/>.\nWhen possible, it is preferable for mathematical expressions to use as straightforward notation as possible to make them readable also when not rendered.\n\nAdditions appended to the end of the description field that are clearly marked as notes that clarify the definition without changing it are viewed as annotations to the Property Definition rather than an integral part of it.\nSuch annotations SHOULD only be added to the end of an otherwise unmodified description and MUST NOT change the meaning or interpretation of the text above them.\nThe purpose is to provide a way to add explanations and clarifications to a definition without having to regard it as a new definition.\nFor example, these annotations to the description MAY be used to explain why a definition has been deprecated.",
+                    "description": "A human-readable multi-line description that explains the purpose, requirements, and conventions of the defined property.\nThe format SHOULD be a one-line description, followed by a new paragraph (two newlines), followed by a more detailed description of all the requirements and conventions of the defined property.\nFormatting in the text SHOULD use Markdown in the CommonMark v0.3 format, with mathematical expressions written to render correctly with the LaTeX mode of Mathjax 3.2 <https://docs.mathjax.org/en/v3.2-latest/>.\nWhen possible, it is preferable for mathematical expressions to use as straightforward notation as possible to make them readable also when not rendered.\n\nAdditions appended to the end of the description field that are clearly marked as notes that clarify the definition without changing it are viewed as annotations to the Property Definition rather than an integral part of it.\nSuch annotations SHOULD only be added to the end of an otherwise unmodified description and MUST NOT change the meaning or interpretation of the text above them.\nThe purpose is to provide a way to add explanations and clarifications to a definition without having to regard it as a new definition.\nFor example, these annotations to the description MAY be used to explain why a definition has been deprecated.",
                     "type": "string"
                 },
                 "x-optimade-definition": {
@@ -1726,14 +1726,14 @@
                     },
                     "properties": {
                         "names": {
-                            "description": "A list of names of the dimensions of the underlying one or multi-dimensionsional data represented as mutiple levels of lists.\nThe order is that the the first name applies to the outermost list, the next name to the lists embedded in that list, etc.",
+                            "description": "A list of names of the dimensions of the underlying one or multi-dimensionsional data represented as mutiple levels of lists.\nThe order is that the first name applies to the outermost list, the next name to the lists embedded in that list, etc.",
                             "type": "array",
                             "items": {
                                 "type": "string"
                             }
                         },
                         "sizes": {
-                            "description": "A list of fixed length requirements on the underlying one or multi-dimensionsional data represented as mutiple levels of lists.\nThe order is that the the first name applies to the outermost list, the next name to the lists embedded in that list, etc.\nThe data only validates if the respective level consists of lists of exactly this length.\nA value of `null` allows arbitrary-length lists at the corresponding level.",
+                            "description": "A list of fixed length requirements on the underlying one or multi-dimensionsional data represented as mutiple levels of lists.\nThe order is that the first name applies to the outermost list, the next name to the lists embedded in that list, etc.\nThe data only validates if the respective level consists of lists of exactly this length.\nA value of `null` allows arbitrary-length lists at the corresponding level.",
                             "type": "array",
                             "items": {
                                 "type": [
@@ -2287,11 +2287,11 @@
                     ]
                 },
                 "$comment": {
-                    "description": "A human-readable comment relevant in the context of the raw definition data.\nThese comments should normally not be shown to the end users.\nComments pertaining to the Property Definition that are relevant to end users should go into the field description.\nFormatting in the text SHOULD use Markdown using the format described in the definition of the description field.\n\nThis fields is an annotation rather than an integral part of the Property Definition.\nProperty Definitions that only differ by fields that are considered annotations are to be considered the same, and as explained in the definition of the $id field SHOULD share the same $id.",
+                    "description": "A human-readable comment relevant in the context of the raw definition data.\nThese comments should normally not be shown to the end users.\nComments pertaining to the Property Definition that are relevant to end users should go into the field description.\nFormatting in the text SHOULD use Markdown using the format described in the definition of the description field.\n\nThis field is an annotation rather than an integral part of the Property Definition.\nProperty Definitions that only differ by fields that are considered annotations are to be considered the same, and as explained in the definition of the $id field SHOULD share the same $id.",
                     "type": "string"
                 },
                 "deprecated": {
-                    "description": "If TRUE, implementations SHOULD not use the defined property, and it MAY be removed in the future.\nIf FALSE, the defined property is not deprecated. The field not being present means FALSE.\n\nThis fields is an annotation rather than an integral part of the Property Definition.\nProperty Definitions that only differ by fields that are considered annotations are to be considered the same, and as explained in the definition of the $id field SHOULD share the same $id.",
+                    "description": "If TRUE, implementations SHOULD not use the defined property, and it MAY be removed in the future.\nIf FALSE, the defined property is not deprecated. The field not being present means FALSE.\n\nThis field is an annotation rather than an integral part of the Property Definition.\nProperty Definitions that only differ by fields that are considered annotations are to be considered the same, and as explained in the definition of the $id field SHOULD share the same $id.",
                     "type": "boolean"
                 }
             },

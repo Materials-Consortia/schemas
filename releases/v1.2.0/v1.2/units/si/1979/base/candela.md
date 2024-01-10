@@ -22,7 +22,7 @@ The hertz, watt, and steradian units referenced in this definition are:
 **Resources:**
 
 - [Redefinition of the candela at the 16th CGPM Meeting in 1979, resolution 3.](https://www.bipm.org/en/committees/cg/cgpm/16-1979/resolution-3)
-- [Previous definition at the 13st CGPM meeting (1967)](https://www.bipm.org/en/committees/cg/cgpm/13-1967/resolution-5)
+- [Previous definition at the 13th CGPM meeting (1967)](https://www.bipm.org/en/committees/cg/cgpm/13-1967/resolution-5)
 - [Wikipedia article describing the unit](https://en.wikipedia.org/wiki/Candela)
 
 
@@ -44,7 +44,7 @@ The hertz, watt, and steradian units referenced in this definition are:
             "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/16-1979/resolution-3"
         },
         {
-            "relation": "Previous definition at the 13st CGPM meeting (1967)",
+            "relation": "Previous definition at the 13th CGPM meeting (1967)",
             "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/13-1967/resolution-5"
         },
         {

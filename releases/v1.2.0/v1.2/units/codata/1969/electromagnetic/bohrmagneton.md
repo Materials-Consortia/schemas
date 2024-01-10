@@ -46,7 +46,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
             "base-units": [
                 {
                     "symbol": "bohrmagneton",
-                    "id": "https://schema.optimade.org/defs/v1.2/units/codata/2018/electromagnetic/bohrmagneton"
+                    "id": "https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/bohrmagneton"
                 }
             ],
             "base-units-expression": "bohrmagneton"

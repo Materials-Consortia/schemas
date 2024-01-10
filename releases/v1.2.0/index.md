@@ -1010,7 +1010,7 @@
                 * **named**
                     * **[katal](v1.2/units/si/1999/named/katal.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1999/named/katal`](https://schemas.optimade.org/defs/v1.2/units/si/1999/named/katal.md)
                         
-                        A derived SI unit for catalytic activity, defined as mol·s⁻¹ defined at the 21th CGPM meeting in 1999.
+                        A derived SI unit for catalytic activity, defined as mol·s⁻¹ defined at the 21st CGPM meeting in 1999.
 
             * **2019**
                 * **accepted**
@@ -1135,7 +1135,7 @@
 
                 * **[astronomical unit](v1.2/units/si/general/astronomicalunit.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/general/astronomicalunit`](https://schemas.optimade.org/defs/v1.2/units/si/general/astronomicalunit.md)
                     
-                    A unit of length representing the mean distance between the Earth and the Sun, using the current, or one of the historical, definitions given in the editions of The International System of Units (SI).
+                    A unit of length representing the mean distance between the Earth and the Sun, using the current, or one of the historical, definitions given in the editions of the International System of Units (SI).
 
                 * **[standard atmosphere](v1.2/units/si/general/atmosphere.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/general/atmosphere`](https://schemas.optimade.org/defs/v1.2/units/si/general/atmosphere.md)
                     
@@ -1143,7 +1143,7 @@
 
                 * **[atomic mass unit](v1.2/units/si/general/atomicmassunit.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/general/atomicmassunit`](https://schemas.optimade.org/defs/v1.2/units/si/general/atomicmassunit.md)
                     
-                    A unit of mass representing 1/12 of the mass of a free carbon 12 atom (i.e., a typical value of the mass of a nucleon in an atom) using the current, or one of the historical, definitions given in the editions of The International System of Units (SI).
+                    A unit of mass representing 1/12 of the mass of a free carbon 12 atom (i.e., a typical value of the mass of a nucleon in an atom) using the current, or one of the historical, definitions given in the editions of the International System of Units (SI).
 
                 * **[bar](v1.2/units/si/general/bar.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/general/bar`](https://schemas.optimade.org/defs/v1.2/units/si/general/bar.md)
                     
@@ -1171,7 +1171,7 @@
 
                 * **[dalton](v1.2/units/si/general/dalton.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/general/dalton`](https://schemas.optimade.org/defs/v1.2/units/si/general/dalton.md)
                     
-                    A unit of mass intended to represent a typical mass of a nucleon in an atom using the current, or one of the historical, definitions given in the editions of The International System of Units (SI).
+                    A unit of mass intended to represent a typical mass of a nucleon in an atom using the current, or one of the historical, definitions given in the editions of the International System of Units (SI).
 
                 * **[day](v1.2/units/si/general/day.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/general/day`](https://schemas.optimade.org/defs/v1.2/units/si/general/day.md)
                     
@@ -1187,7 +1187,7 @@
 
                 * **[electron volt](v1.2/units/si/general/electronvolt.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/general/electronvolt`](https://schemas.optimade.org/defs/v1.2/units/si/general/electronvolt.md)
                     
-                    A unit of energy that representing the kinetic energy acquired by an electron as it accelerates through a 1 volt potential difference in a vacuum using the current, or one of the historical, definitions given in the editions of The International System of Units (SI).
+                    A unit of energy that representing the kinetic energy acquired by an electron as it accelerates through a 1 volt potential difference in a vacuum using the current, or one of the historical, definitions given in the editions of the International System of Units (SI).
 
                 * **[farad](v1.2/units/si/general/farad.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/general/farad`](https://schemas.optimade.org/defs/v1.2/units/si/general/farad.md)
                     
@@ -1342,39 +1342,39 @@
         * **si**
             * **[SI 1970](v1.2/unitsystems/si/si_1970.md)** (unitsystem) - [`https://schemas.optimade.org/defs/v1.2/unitsystems/si/si_1970`](https://schemas.optimade.org/defs/v1.2/unitsystems/si/si_1970.md)
                 
-                The SI unit system as represented in the 2nd edition of The International System of Units.
+                The SI unit system as represented in the 1st edition of the International System of Units.
 
             * **[SI 1973](v1.2/unitsystems/si/si_1973.md)** (unitsystem) - [`https://schemas.optimade.org/defs/v1.2/unitsystems/si/si_1973`](https://schemas.optimade.org/defs/v1.2/unitsystems/si/si_1973.md)
                 
-                The SI unit system as represented in the 3rd edition of The International System of Units.
+                The SI unit system as represented in the 2nd edition of the International System of Units.
 
             * **[SI 1977](v1.2/unitsystems/si/si_1977.md)** (unitsystem) - [`https://schemas.optimade.org/defs/v1.2/unitsystems/si/si_1977`](https://schemas.optimade.org/defs/v1.2/unitsystems/si/si_1977.md)
                 
-                The SI unit system as represented in the 3rd edition of The International System of Units.
+                The SI unit system as represented in the 3rd edition of the International System of Units.
 
             * **[SI 1981](v1.2/unitsystems/si/si_1981.md)** (unitsystem) - [`https://schemas.optimade.org/defs/v1.2/unitsystems/si/si_1981`](https://schemas.optimade.org/defs/v1.2/unitsystems/si/si_1981.md)
                 
-                The SI unit system as represented in the 4th edition of The International System of Units.
+                The SI unit system as represented in the 4th edition of the International System of Units.
 
             * **[SI 1985](v1.2/unitsystems/si/si_1985.md)** (unitsystem) - [`https://schemas.optimade.org/defs/v1.2/unitsystems/si/si_1985`](https://schemas.optimade.org/defs/v1.2/unitsystems/si/si_1985.md)
                 
-                The SI unit system as represented in the 5th edition of The International System of Units.
+                The SI unit system as represented in the 5th edition of the International System of Units.
 
             * **[SI 1991](v1.2/unitsystems/si/si_1991.md)** (unitsystem) - [`https://schemas.optimade.org/defs/v1.2/unitsystems/si/si_1991`](https://schemas.optimade.org/defs/v1.2/unitsystems/si/si_1991.md)
                 
-                The SI unit system as represented in the 6th edition of The International System of Units.
+                The SI unit system as represented in the 6th edition of the International System of Units.
 
             * **[SI 1998](v1.2/unitsystems/si/si_1998.md)** (unitsystem) - [`https://schemas.optimade.org/defs/v1.2/unitsystems/si/si_1998`](https://schemas.optimade.org/defs/v1.2/unitsystems/si/si_1998.md)
                 
-                The SI unit system as represented in the 7th edition of The International System of Units.
+                The SI unit system as represented in the 7th edition of the International System of Units.
 
             * **[SI 2006](v1.2/unitsystems/si/si_2006.md)** (unitsystem) - [`https://schemas.optimade.org/defs/v1.2/unitsystems/si/si_2006`](https://schemas.optimade.org/defs/v1.2/unitsystems/si/si_2006.md)
                 
-                The SI unit system as represented in the 8th edition of The International System of Units.
+                The SI unit system as represented in the 8th edition of the International System of Units.
 
             * **[SI 2019](v1.2/unitsystems/si/si_2019.md)** (unitsystem) - [`https://schemas.optimade.org/defs/v1.2/unitsystems/si/si_2019`](https://schemas.optimade.org/defs/v1.2/unitsystems/si/si_2019.md)
                 
-                The SI 2019 unit system as represented in the 9th edition (v1.06) of The International System of Units.
+                The SI 2019 unit system as represented in the 9th edition (v1.06) of the International System of Units.
 
             * **[SI accepted 2019](v1.2/unitsystems/si/si_accepted_2019.md)** (unitsystem) - [`https://schemas.optimade.org/defs/v1.2/unitsystems/si/si_accepted_2019`](https://schemas.optimade.org/defs/v1.2/unitsystems/si/si_accepted_2019.md)
                 
@@ -1382,5 +1382,5 @@
 
             * **[SI general](v1.2/unitsystems/si/si_general.md)** (unitsystem) - [`https://schemas.optimade.org/defs/v1.2/unitsystems/si/si_general`](https://schemas.optimade.org/defs/v1.2/unitsystems/si/si_general.md)
                 
-                The SI unit system, using of current or historical definitions of the SI units.
+                The SI unit system, using current or historical definitions of the SI units.
 

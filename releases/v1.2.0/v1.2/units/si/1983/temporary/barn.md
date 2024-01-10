@@ -17,7 +17,7 @@ The International System of Units (SI), 1st ed. (1970) states: "1 b = 100 fm² =
 - The International System of Units (SI), 8th ed. (2006) categorizes the unit as "Other non-SI units currently accepted for use with the International System."
 - The International System of Units (SI), 9th ed. (2019) categorizes the unit as "Other non-SI units."
 
-The are was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.
+The are unit was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.
 
 **Resources:**
 
@@ -37,7 +37,7 @@ The are was implicitly redefined via the redefinition of the metre at the 17th C
     "title": "barn",
     "symbol": "b",
     "display-symbol": "b",
-    "description": "A unit of area used in nuclear physics to express cross sections equal to 100 fm\u00b2, with meter defined according to the 1983 SI units.\n\nThe International System of Units (SI), 1st ed. (1970) states: \"1 b = 100 fm\u00b2 = 10\u207b\u00b2\u2078 m\" with a footnote \"The barn is a special unit used in nuclear physics to express cross sections.\"\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \"Units in use temporarily with the International System.\"\n- The International System of Units (SI), 8th ed. (2006) categorizes the unit as \"Other non-SI units currently accepted for use with the International System.\"\n- The International System of Units (SI), 9th ed. (2019) categorizes the unit as \"Other non-SI units.\"\n\nThe are was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.",
+    "description": "A unit of area used in nuclear physics to express cross sections equal to 100 fm\u00b2, with meter defined according to the 1983 SI units.\n\nThe International System of Units (SI), 1st ed. (1970) states: \"1 b = 100 fm\u00b2 = 10\u207b\u00b2\u2078 m\" with a footnote \"The barn is a special unit used in nuclear physics to express cross sections.\"\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \"Units in use temporarily with the International System.\"\n- The International System of Units (SI), 8th ed. (2006) categorizes the unit as \"Other non-SI units currently accepted for use with the International System.\"\n- The International System of Units (SI), 9th ed. (2019) categorizes the unit as \"Other non-SI units.\"\n\nThe are unit was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.",
     "resources": [
         {
             "relation": "Definition in the International System of Units (SI), 9th Edition",

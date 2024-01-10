@@ -11,7 +11,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
   
 **Description:** A unit of time that is equal to 60 seconds, using the 1967 base SI units.
 
-The minute appear in the International System of Units (SI), 1st ed. (1970) defined as "1 min = 60 s".
+The minute unit appears in the International System of Units (SI), 1st ed. (1970) defined as "1 min = 60 s".
 
 - The International System of Units (SI), 1st ed. (1970) categorizes the unit as "Units in use with the International System."
 - The International System of Units (SI), 7th ed. (1998) changes the categorization to "Non-SI units accepted for use with the International System."
@@ -33,7 +33,7 @@ The minute appear in the International System of Units (SI), 1st ed. (1970) defi
     "title": "minute",
     "symbol": "min",
     "display-symbol": "min",
-    "description": "A unit of time that is equal to 60 seconds, using the 1967 base SI units.\n\nThe minute appear in the International System of Units (SI), 1st ed. (1970) defined as \"1 min = 60 s\".\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \"Units in use with the International System.\"\n- The International System of Units (SI), 7th ed. (1998) changes the categorization to \"Non-SI units accepted for use with the International System.\"",
+    "description": "A unit of time that is equal to 60 seconds, using the 1967 base SI units.\n\nThe minute unit appears in the International System of Units (SI), 1st ed. (1970) defined as \"1 min = 60 s\".\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \"Units in use with the International System.\"\n- The International System of Units (SI), 7th ed. (1998) changes the categorization to \"Non-SI units accepted for use with the International System.\"",
     "resources": [
         {
             "relation": "Definition in the International System of Units (SI), 1st Edition",

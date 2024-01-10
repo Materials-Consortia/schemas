@@ -15,11 +15,11 @@ The International System of Units (SI), 1st ed. (1970) defines the tonne as "1 t
 
 - The International System of Units (SI), 1st ed. (1970) categorizes the unit as "Units used with the International System"
 - The International System of Units (SI), 3rd ed. (19) changes the reference of the definition to the 1879 meeting of the CIPM page 41.
-- The International System of Units (SI), 6st ed. (1991) further adds "In some English-speaking countries this unit is called ≪metric ton≫."
+- The International System of Units (SI), 6th ed. (1991) further adds "In some English-speaking countries this unit is called ≪metric ton≫."
 
 **Resources:**
 
-- [Definition in the International System of Units (SI), 1th Edition](https://www.bipm.org/en/publications/si-brochure)
+- [Definition in the International System of Units (SI), 1st Edition](https://www.bipm.org/en/publications/si-brochure)
 - [Wikipedia article describing the unit](https://en.wikipedia.org/wiki/Tonne)
 
 
@@ -37,10 +37,10 @@ The International System of Units (SI), 1st ed. (1970) defines the tonne as "1 t
     "alternate-symbols": [
         "t"
     ],
-    "description": "A unit of mass defined as 1000 kg, with kilogram defined according to the 1960 SI units.\n\nThe International System of Units (SI), 1st ed. (1970) defines the tonne as \"1 t = 10\u00b3 kg\" with the footnote \"The symbol and the unit was defined in resolution 7 at the 9:th meeting of the C.G.P.M. (1948).\"\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \"Units used with the International System\"\n- The International System of Units (SI), 3rd ed. (19) changes the reference of the definition to the 1879 meeting of the CIPM page 41.\n- The International System of Units (SI), 6st ed. (1991) further adds \"In some English-speaking countries this unit is called \u226ametric ton\u226b.\"",
+    "description": "A unit of mass defined as 1000 kg, with kilogram defined according to the 1960 SI units.\n\nThe International System of Units (SI), 1st ed. (1970) defines the tonne as \"1 t = 10\u00b3 kg\" with the footnote \"The symbol and the unit was defined in resolution 7 at the 9:th meeting of the C.G.P.M. (1948).\"\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \"Units used with the International System\"\n- The International System of Units (SI), 3rd ed. (19) changes the reference of the definition to the 1879 meeting of the CIPM page 41.\n- The International System of Units (SI), 6th ed. (1991) further adds \"In some English-speaking countries this unit is called \u226ametric ton\u226b.\"",
     "resources": [
         {
-            "relation": "Definition in the International System of Units (SI), 1th Edition",
+            "relation": "Definition in the International System of Units (SI), 1st Edition",
             "resource-id": "https://www.bipm.org/en/publications/si-brochure"
         },
         {
