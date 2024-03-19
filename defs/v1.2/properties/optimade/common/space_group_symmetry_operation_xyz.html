@@ -116,28 +116,28 @@ overflow-wrap: break-word;
 </ul>
 <p><strong>Formats:</strong> [<a href="space_group_symmetry_operation_xyz.json">JSON</a>] [<a href="space_group_symmetry_operation_xyz.md">MD</a>]</p>
 <p><strong>JSON definition:</strong></p>
-<div class="codehilite"><pre><span></span><code><span class="p">{</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;$id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schemas.optimade.org/defs/v1.2/properties/optimade/common/space_group_symmetry_operation_xyz&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;$schema&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Space group symmetry operation&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;x-optimade-type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;string&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;x-optimade-definition&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;space_group_symmetry_operation_xyz_optimade_common&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;kind&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;property&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.2.0&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;format&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.2&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;space_group_symmetry_operation_xyz&quot;</span><span class="w"></span>
-<span class="w">    </span><span class="p">},</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="w">        </span><span class="s2">&quot;string&quot;</span><span class="w"></span>
-<span class="w">    </span><span class="p">],</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A single symmetry operation.\n\n**Requirements/Conventions**:\n\n- The symmetry operation is described in Jones&#39; faithful representation (Bradley &amp; Cracknell, 1972: pp. 35-37), adapted for computer string notation.\n- The interpretation of the string MUST follow the conventions of the IUCr CIF core dictionary (IUCr, 2023).\n- The letters `x`, `y` and `z` that are typesetted with overbars in printed text represent coordinate values multiplied by -1 and are encoded as `-x`, `-y` and `-z`, respectively.\n- The syntax of the string representing a symmetry operation MUST conform to regular expressions given in the OPTIMADE specification appendix &#39;The Symmetry Operation String Regular Expressions&#39;.\n\n**Bibliographic References**\n\n- Bradley, C. J. and Cracknell, A. P. (1972) The Mathematical Theory of Symmetry in Solids. Oxford, Clarendon Press (paperback edition 2010) 745 p. [ISBN 978-0-19-958258-7](https://isbnsearch.org/isbn/9780199582587&gt;).\n- IUCr (2023) Core dictionary (coreCIF) version 2.4.5; data name `_space_group_symop_operation_xyz`. Available from: [https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Ispace_group_symop_operation_xyz.html](https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Ispace_group_symop_operation_xyz.html) [Accessed 2023-06-18T16:46+03:00].&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;examples&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="w">        </span><span class="s2">&quot;x,y,z&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="s2">&quot;-x,y,-z&quot;</span><span class="w"></span>
-<span class="w">    </span><span class="p">],</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;x-optimade-unit&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;inapplicable&quot;</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
+<div class="codehilite"><pre><span></span><code><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;$id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schemas.optimade.org/defs/v1.2/properties/optimade/common/space_group_symmetry_operation_xyz&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;$schema&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Space group symmetry operation&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;x-optimade-type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;string&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;x-optimade-definition&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;space_group_symmetry_operation_xyz_optimade_common&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;kind&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;property&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.2.0&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;format&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.2&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;space_group_symmetry_operation_xyz&quot;</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="s2">&quot;string&quot;</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A single symmetry operation.\n\n**Requirements/Conventions**:\n\n- The symmetry operation is described in Jones&#39; faithful representation (Bradley &amp; Cracknell, 1972: pp. 35-37), adapted for computer string notation.\n- The interpretation of the string MUST follow the conventions of the IUCr CIF core dictionary (IUCr, 2023).\n- The letters `x`, `y` and `z` that are typesetted with overbars in printed text represent coordinate values multiplied by -1 and are encoded as `-x`, `-y` and `-z`, respectively.\n- The syntax of the string representing a symmetry operation MUST conform to regular expressions given in the OPTIMADE specification appendix &#39;The Symmetry Operation String Regular Expressions&#39;.\n\n**Bibliographic References**\n\n- Bradley, C. J. and Cracknell, A. P. (1972) The Mathematical Theory of Symmetry in Solids. Oxford, Clarendon Press (paperback edition 2010) 745 p. [ISBN 978-0-19-958258-7](https://isbnsearch.org/isbn/9780199582587&gt;).\n- IUCr (2023) Core dictionary (coreCIF) version 2.4.5; data name `_space_group_symop_operation_xyz`. Available from: [https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Ispace_group_symop_operation_xyz.html](https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Ispace_group_symop_operation_xyz.html) [Accessed 2023-06-18T16:46+03:00].&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;examples&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="s2">&quot;x,y,z&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;-x,y,-z&quot;</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;x-optimade-unit&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;inapplicable&quot;</span>
+<span class="p">}</span>
 </code></pre></div>
 </body>
 </html>

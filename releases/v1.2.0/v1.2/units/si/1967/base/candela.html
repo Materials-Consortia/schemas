@@ -112,41 +112,41 @@ overflow-wrap: break-word;
 </ul>
 <p><strong>Formats:</strong> [<a href="candela.json">JSON</a>] [<a href="candela.md">MD</a>]</p>
 <p><strong>JSON definition:</strong></p>
-<div class="codehilite"><pre><span></span><code><span class="p">{</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;$id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schemas.optimade.org/defs/v1.2/units/si/1967/base/candela&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;$schema&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;candela&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;symbol&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;cd&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;display-symbol&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;cd&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;The candela is the SI base unit of luminous intensity in a given direction defined in from the radiation of a black body at the temperature of freezing platinum as defined at the 9th CGPM meeting in 1948, clarifed at the 13th CGPM Meeting in 1967, resolution 5; and implicitly redefined due to the 1967 SI redefinition of the second.\n\nAt the 13th CGPM Meeting in 1967, resolution 5 the previous definition from the 9th CGPM meeting in 1948 was rephrased to be more clear: \&quot;The candela is the luminous intensity, in the perpendicular direction, of a surface of 1/600000 square metre of a black body at the temperature of freezing platinum under a pressure of 101325 newtons per square metre.\&quot;\n\nFurthermore, the SI 1967 definition of the candela references:\n\n- the SI 1960 metre (https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre).\n- the SI 1967 derived newton unit (https://schemas.optimade.org/defs/v1.2/units/si/1967/named/newton) equal to kilogram\u00b7metre\u00b7second\u207b\u00b2, referencing the SI 1960 kilogram (https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram) and metre (https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre); and the 1967 definition of the second (https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second).&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;resources&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="w">        </span><span class="p">{</span><span class="w"></span>
-<span class="w">            </span><span class="nt">&quot;relation&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Definition at the 13th CGPM meeting (1967)&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">            </span><span class="nt">&quot;resource-id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.bipm.org/en/committees/cg/cgpm/13-1967/resolution-5&quot;</span><span class="w"></span>
-<span class="w">        </span><span class="p">},</span><span class="w"></span>
-<span class="w">        </span><span class="p">{</span><span class="w"></span>
-<span class="w">            </span><span class="nt">&quot;relation&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Previous definition at the 9th CGPM meeting (1948)&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">            </span><span class="nt">&quot;resource-id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.bipm.org/en/committees/cg/cgpm/9-1948&quot;</span><span class="w"></span>
-<span class="w">        </span><span class="p">},</span><span class="w"></span>
-<span class="w">        </span><span class="p">{</span><span class="w"></span>
-<span class="w">            </span><span class="nt">&quot;relation&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Wikipedia article describing the unit&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">            </span><span class="nt">&quot;resource-id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://en.wikipedia.org/wiki/Candela&quot;</span><span class="w"></span>
-<span class="w">        </span><span class="p">}</span><span class="w"></span>
-<span class="w">    </span><span class="p">],</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;standard&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;si&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;year&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1967</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;category&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;base&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;symbol&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;cd&quot;</span><span class="w"></span>
-<span class="w">    </span><span class="p">},</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;x-optimade-definition&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;candela_si_1967_base&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;kind&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;unit&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;format&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.2&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.2.0&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;candela&quot;</span><span class="w"></span>
-<span class="w">    </span><span class="p">}</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
+<div class="codehilite"><pre><span></span><code><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;$id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schemas.optimade.org/defs/v1.2/units/si/1967/base/candela&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;$schema&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;candela&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;symbol&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;cd&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;display-symbol&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;cd&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;The candela is the SI base unit of luminous intensity in a given direction defined in from the radiation of a black body at the temperature of freezing platinum as defined at the 9th CGPM meeting in 1948, clarifed at the 13th CGPM Meeting in 1967, resolution 5; and implicitly redefined due to the 1967 SI redefinition of the second.\n\nAt the 13th CGPM Meeting in 1967, resolution 5 the previous definition from the 9th CGPM meeting in 1948 was rephrased to be more clear: \&quot;The candela is the luminous intensity, in the perpendicular direction, of a surface of 1/600000 square metre of a black body at the temperature of freezing platinum under a pressure of 101325 newtons per square metre.\&quot;\n\nFurthermore, the SI 1967 definition of the candela references:\n\n- the SI 1960 metre (https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre).\n- the SI 1967 derived newton unit (https://schemas.optimade.org/defs/v1.2/units/si/1967/named/newton) equal to kilogram\u00b7metre\u00b7second\u207b\u00b2, referencing the SI 1960 kilogram (https://schemas.optimade.org/defs/v1.2/units/si/1960/base/kilogram) and metre (https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre); and the 1967 definition of the second (https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second).&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;resources&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;relation&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Definition at the 13th CGPM meeting (1967)&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;resource-id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.bipm.org/en/committees/cg/cgpm/13-1967/resolution-5&quot;</span>
+<span class="w">        </span><span class="p">},</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;relation&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Previous definition at the 9th CGPM meeting (1948)&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;resource-id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.bipm.org/en/committees/cg/cgpm/9-1948&quot;</span>
+<span class="w">        </span><span class="p">},</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;relation&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Wikipedia article describing the unit&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;resource-id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://en.wikipedia.org/wiki/Candela&quot;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;standard&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;si&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;year&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1967</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;category&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;base&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;symbol&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;cd&quot;</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;x-optimade-definition&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;candela_si_1967_base&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;kind&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;unit&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;format&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.2&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.2.0&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;candela&quot;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
 </code></pre></div>
 </body>
 </html>

@@ -117,47 +117,47 @@ This definition is intended for situations when it is not possible to be more pr
 </ul>
 <p><strong>Formats:</strong> [<a href="parsec.json">JSON</a>] [<a href="parsec.md">MD</a>]</p>
 <p><strong>JSON definition:</strong></p>
-<div class="codehilite"><pre><span></span><code><span class="p">{</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;$id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schemas.optimade.org/defs/v1.2/units/si/general/parsec&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;$schema&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;parsec&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;symbol&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;pc&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;display-symbol&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;pc&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A unit of length representing the distance at which 1 astronomical unit subtends an angle of 1 arcsecond using the current, or one of the historical, definitions of the SI units.\n\nThe parsec unit appears in the International System of Units (SI), 1st ed. (1970) defined in a footnote as \&quot;1 parsec is the distance at which 1 astronomical unit subtends an angle of 1 arcsecond; therefore, approximately, 1 pc = 206 265 AU = 30 857 x 10\u00b9\u00b2 m.\&quot;\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \&quot;units for use with the SI in specific domains.\&quot;\n- The International System of Units (SI), 2nd ed. (1973) categorizes the unit as \&quot;Non-SI units accepted for use with the International System, whose values in SI units are obtained experimentally.\&quot;\n- The International System of Units (SI), 4th ed. (1981) and later editions omit the unit.\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;compatibility&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="w">        </span><span class="s2">&quot;https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/parsec&quot;</span><span class="w"></span>
-<span class="w">    </span><span class="p">],</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;resources&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="w">        </span><span class="p">{</span><span class="w"></span>
-<span class="w">            </span><span class="nt">&quot;relation&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Definition in the International System of Units (SI), 1st Edition&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">            </span><span class="nt">&quot;resource-id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.bipm.org/en/publications/si-brochure&quot;</span><span class="w"></span>
-<span class="w">        </span><span class="p">},</span><span class="w"></span>
-<span class="w">        </span><span class="p">{</span><span class="w"></span>
-<span class="w">            </span><span class="nt">&quot;relation&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Wikipedia article describing the unit&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">            </span><span class="nt">&quot;resource-id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://en.wikipedia.org/wiki/Parsec&quot;</span><span class="w"></span>
-<span class="w">        </span><span class="p">}</span><span class="w"></span>
-<span class="w">    </span><span class="p">],</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;approximate-relations&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="w">        </span><span class="p">{</span><span class="w"></span>
-<span class="w">            </span><span class="nt">&quot;base-units&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="w">                </span><span class="p">{</span><span class="w"></span>
-<span class="w">                    </span><span class="nt">&quot;symbol&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;m&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">                    </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schemas.optimade.org/defs/v1.2/units/si/general/metre&quot;</span><span class="w"></span>
-<span class="w">                </span><span class="p">}</span><span class="w"></span>
-<span class="w">            </span><span class="p">],</span><span class="w"></span>
-<span class="w">            </span><span class="nt">&quot;scale&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<span class="w">                </span><span class="nt">&quot;value&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">3.0857e+16</span><span class="w"></span>
-<span class="w">            </span><span class="p">}</span><span class="w"></span>
-<span class="w">        </span><span class="p">}</span><span class="w"></span>
-<span class="w">    </span><span class="p">],</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;x-optimade-definition&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;parsec_si_general&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;kind&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;unit&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;format&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.2&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.2.0&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;parsec&quot;</span><span class="w"></span>
-<span class="w">    </span><span class="p">}</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
+<div class="codehilite"><pre><span></span><code><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;$id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schemas.optimade.org/defs/v1.2/units/si/general/parsec&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;$schema&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;parsec&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;symbol&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;pc&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;display-symbol&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;pc&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A unit of length representing the distance at which 1 astronomical unit subtends an angle of 1 arcsecond using the current, or one of the historical, definitions of the SI units.\n\nThe parsec unit appears in the International System of Units (SI), 1st ed. (1970) defined in a footnote as \&quot;1 parsec is the distance at which 1 astronomical unit subtends an angle of 1 arcsecond; therefore, approximately, 1 pc = 206 265 AU = 30 857 x 10\u00b9\u00b2 m.\&quot;\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \&quot;units for use with the SI in specific domains.\&quot;\n- The International System of Units (SI), 2nd ed. (1973) categorizes the unit as \&quot;Non-SI units accepted for use with the International System, whose values in SI units are obtained experimentally.\&quot;\n- The International System of Units (SI), 4th ed. (1981) and later editions omit the unit.\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;compatibility&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="s2">&quot;https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/parsec&quot;</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;resources&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;relation&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Definition in the International System of Units (SI), 1st Edition&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;resource-id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.bipm.org/en/publications/si-brochure&quot;</span>
+<span class="w">        </span><span class="p">},</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;relation&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Wikipedia article describing the unit&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;resource-id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://en.wikipedia.org/wiki/Parsec&quot;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;approximate-relations&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;base-units&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                </span><span class="p">{</span>
+<span class="w">                    </span><span class="nt">&quot;symbol&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;m&quot;</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schemas.optimade.org/defs/v1.2/units/si/general/metre&quot;</span>
+<span class="w">                </span><span class="p">}</span>
+<span class="w">            </span><span class="p">],</span>
+<span class="w">            </span><span class="nt">&quot;scale&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="nt">&quot;value&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">3.0857e+16</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;x-optimade-definition&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;parsec_si_general&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;kind&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;unit&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;format&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.2&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.2.0&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;parsec&quot;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
 </code></pre></div>
 </body>
 </html>

@@ -112,28 +112,28 @@ overflow-wrap: break-word;
 </ul>
 <p><strong>Formats:</strong> [<a href="nsites.json">JSON</a>] [<a href="nsites.md">MD</a>]</p>
 <p><strong>JSON definition:</strong></p>
-<div class="codehilite"><pre><span></span><code><span class="p">{</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;$id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nsites&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;$schema&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Number of sites&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;x-optimade-type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;integer&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;x-optimade-definition&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;nsites_optimade_structures&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;kind&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;property&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.2.0&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;format&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.2&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;nsites&quot;</span><span class="w"></span>
-<span class="w">    </span><span class="p">},</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="w">        </span><span class="s2">&quot;integer&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="s2">&quot;null&quot;</span><span class="w"></span>
-<span class="w">    </span><span class="p">],</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;An integer specifying the length of the `cartesian_site_positions` property.\n\n**Requirements/Conventions**:\n\n- MUST be equal to the lengths of the list properties elements and elements_ratios, if they are provided.\n\n**Query examples**:\n\n- Match only structures with exactly 4 sites: `nsites=4`\n- Match structures that have between 2 and 7 sites: `nsites&gt;=2 AND nsites&lt;=7`&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;examples&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="w">        </span><span class="mi">42</span><span class="w"></span>
-<span class="w">    </span><span class="p">],</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;x-optimade-unit&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;dimensionless&quot;</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
+<div class="codehilite"><pre><span></span><code><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;$id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nsites&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;$schema&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Number of sites&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;x-optimade-type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;integer&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;x-optimade-definition&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;nsites_optimade_structures&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;kind&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;property&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.2.0&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;format&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.2&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;nsites&quot;</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="s2">&quot;integer&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;null&quot;</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;An integer specifying the length of the `cartesian_site_positions` property.\n\n**Requirements/Conventions**:\n\n- MUST be equal to the lengths of the list properties elements and elements_ratios, if they are provided.\n\n**Query examples**:\n\n- Match only structures with exactly 4 sites: `nsites=4`\n- Match structures that have between 2 and 7 sites: `nsites&gt;=2 AND nsites&lt;=7`&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;examples&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="mi">42</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;x-optimade-unit&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;dimensionless&quot;</span>
+<span class="p">}</span>
 </code></pre></div>
 </body>
 </html>

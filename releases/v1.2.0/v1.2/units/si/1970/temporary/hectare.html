@@ -111,43 +111,43 @@ overflow-wrap: break-word;
 </ul>
 <p><strong>Formats:</strong> [<a href="hectare.json">JSON</a>] [<a href="hectare.md">MD</a>]</p>
 <p><strong>JSON definition:</strong></p>
-<div class="codehilite"><pre><span></span><code><span class="p">{</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;$id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schemas.optimade.org/defs/v1.2/units/si/1970/temporary/hectare&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;$schema&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;hectare&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;symbol&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;ha&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;display-symbol&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;ha&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A unit of area equal to 1000 square meters (1 hm\u00b2), with meter defined according to the 1960 SI base unit.\n\nThe hectare unit appears in the International System of Units (SI), 1st ed. (1970) defined as \&quot;1 ha = 1 hm\u00b2 = 10\u2074 m\u00b2\&quot; with the footnote \&quot;This unit and its symbol were adopted by the International Committee in 1879 (Proces-Verbaux C.I.P.M., 1879, p. 41).\&quot;\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \&quot;units in use temporarily\&quot;.\n- The International System of Units (SI), 5th ed. (1985) add the clarification that the unit is \&quot;used to express agrarian areas.\&quot;\n- The International System of Units (SI), 7th ed. (1998) changes the categorisation to \&quot;Other non-SI units currently accepted for use with the International System.\&quot;&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;resources&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="w">        </span><span class="p">{</span><span class="w"></span>
-<span class="w">            </span><span class="nt">&quot;relation&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Definition in the International System of Units (SI), 9th Edition&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">            </span><span class="nt">&quot;resource-id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.bipm.org/en/publications/si-brochure&quot;</span><span class="w"></span>
-<span class="w">        </span><span class="p">},</span><span class="w"></span>
-<span class="w">        </span><span class="p">{</span><span class="w"></span>
-<span class="w">            </span><span class="nt">&quot;relation&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Wikipedia article describing the unit&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">            </span><span class="nt">&quot;resource-id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://en.wikipedia.org/wiki/Hectare&quot;</span><span class="w"></span>
-<span class="w">        </span><span class="p">}</span><span class="w"></span>
-<span class="w">    </span><span class="p">],</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;defining-relation&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;base-units&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="w">            </span><span class="p">{</span><span class="w"></span>
-<span class="w">                </span><span class="nt">&quot;symbol&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;m&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">                </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre&quot;</span><span class="w"></span>
-<span class="w">            </span><span class="p">}</span><span class="w"></span>
-<span class="w">        </span><span class="p">],</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;base-units-expression&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;m^2&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;scale&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<span class="w">            </span><span class="nt">&quot;exponent&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">4</span><span class="w"></span>
-<span class="w">        </span><span class="p">}</span><span class="w"></span>
-<span class="w">    </span><span class="p">},</span><span class="w"></span>
-<span class="w">    </span><span class="nt">&quot;x-optimade-definition&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;hectare_si_1970_temporary&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;kind&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;unit&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;format&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.2&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.2.0&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;hectare&quot;</span><span class="w"></span>
-<span class="w">    </span><span class="p">}</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
+<div class="codehilite"><pre><span></span><code><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;$id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schemas.optimade.org/defs/v1.2/units/si/1970/temporary/hectare&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;$schema&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;hectare&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;symbol&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;ha&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;display-symbol&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;ha&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A unit of area equal to 1000 square meters (1 hm\u00b2), with meter defined according to the 1960 SI base unit.\n\nThe hectare unit appears in the International System of Units (SI), 1st ed. (1970) defined as \&quot;1 ha = 1 hm\u00b2 = 10\u2074 m\u00b2\&quot; with the footnote \&quot;This unit and its symbol were adopted by the International Committee in 1879 (Proces-Verbaux C.I.P.M., 1879, p. 41).\&quot;\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \&quot;units in use temporarily\&quot;.\n- The International System of Units (SI), 5th ed. (1985) add the clarification that the unit is \&quot;used to express agrarian areas.\&quot;\n- The International System of Units (SI), 7th ed. (1998) changes the categorisation to \&quot;Other non-SI units currently accepted for use with the International System.\&quot;&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;resources&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;relation&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Definition in the International System of Units (SI), 9th Edition&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;resource-id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.bipm.org/en/publications/si-brochure&quot;</span>
+<span class="w">        </span><span class="p">},</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;relation&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Wikipedia article describing the unit&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;resource-id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://en.wikipedia.org/wiki/Hectare&quot;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;defining-relation&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;base-units&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">            </span><span class="p">{</span>
+<span class="w">                </span><span class="nt">&quot;symbol&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;m&quot;</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre&quot;</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">        </span><span class="p">],</span>
+<span class="w">        </span><span class="nt">&quot;base-units-expression&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;m^2&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;scale&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;exponent&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">4</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;x-optimade-definition&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;hectare_si_1970_temporary&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;kind&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;unit&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;format&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.2&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.2.0&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;hectare&quot;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
 </code></pre></div>
 </body>
 </html>
