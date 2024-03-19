@@ -1,11 +1,11 @@
-# Elementary charge, \(e\) (unit)
+# Elementary charge, \(e\) (constant)
 
-This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
+This page documents an [OPTIMADE](https://www.optimade.org/) [Constant Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/elementarycharge`](https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/elementarycharge.md)**  
 **Definition name:** `elementarycharge`
 
-**Unit name:** Elementary charge  
+**Constant name:** Elementary charge  
 **Latin symbol:** e  
 **Display symbol:** \(e\)  
   
@@ -63,7 +63,7 @@ It is exactly 1.602176634·10⁻¹⁹ C following the 2019 redefinition of the S
     },
     "x-optimade-definition": {
         "label": "elementary_charge_constant_codata_2019_electromagnetic",
-        "kind": "unit",
+        "kind": "constant",
         "format": "1.2",
         "version": "1.2.0",
         "name": "elementarycharge"

@@ -1,11 +1,11 @@
-# Bohr magneton, \(\mu_B\) (unit)
+# Bohr magneton, \(\mu_B\) (constant)
 
-This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
+This page documents an [OPTIMADE](https://www.optimade.org/) [Constant Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/bohrmagneton`](https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/bohrmagneton.md)**  
 **Definition name:** `bohrmagneton`
 
-**Unit name:** Bohr magneton  
+**Constant name:** Bohr magneton  
 **Latin symbol:** bohrmagneton  
 **Display symbol:** \(\mu_B\)  
   
@@ -67,7 +67,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
     },
     "x-optimade-definition": {
         "label": "bohrmagneton_constant_codata_2018_electromagnetic",
-        "kind": "unit",
+        "kind": "constant",
         "format": "1.2",
         "version": "1.2.0",
         "name": "bohrmagneton"
