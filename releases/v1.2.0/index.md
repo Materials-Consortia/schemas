@@ -5,11 +5,11 @@
         * **codata**
             * **2018**
                 * **electromagnetic**
-                    * **[Bohr magneton](v1.2/constants/codata/2018/electromagnetic/bohrmagneton.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/bohrmagneton`](https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/bohrmagneton.md)
+                    * **[Bohr magneton](v1.2/constants/codata/2018/electromagnetic/bohrmagneton.md)** (constant) - [`https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/bohrmagneton`](https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/bohrmagneton.md)
                         
                         The 2018 CODATA Bohr magneton constant is defined as "1 \(\mu_B\) = 9.274 010 0783(28)·10^-24 J·T^-1" with joule and tesla conforming to the 2019 redefinition of the SI derived units.
 
-                    * **[Elementary charge](v1.2/constants/codata/2018/electromagnetic/elementarycharge.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/elementarycharge`](https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/elementarycharge.md)
+                    * **[Elementary charge](v1.2/constants/codata/2018/electromagnetic/elementarycharge.md)** (constant) - [`https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/elementarycharge`](https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/elementarycharge.md)
                         
                         The CODATA 2018 value for the absolute value of the charge of the electron.
 
