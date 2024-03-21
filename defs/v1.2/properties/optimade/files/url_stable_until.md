@@ -11,7 +11,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Requirements/Conventions:**
 
-- `null` means that there is no stability guarantee for the URL in url.
+- `null` means that there is no stability guarantee for the URL in `url`.
   Indefinite support could be communicated by providing a date sufficiently far in the future, for example, 9999-12-31.
 
 **Examples:**
@@ -39,7 +39,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
         "string",
         "null"
     ],
-    "description": "Point in time until which the URL in `url` is guaranteed to stay stable.\n\n**Requirements/Conventions:**\n\n- `null` means that there is no stability guarantee for the URL in url.\n  Indefinite support could be communicated by providing a date sufficiently far in the future, for example, 9999-12-31.",
+    "description": "Point in time until which the URL in `url` is guaranteed to stay stable.\n\n**Requirements/Conventions:**\n\n- `null` means that there is no stability guarantee for the URL in `url`.\n  Indefinite support could be communicated by providing a date sufficiently far in the future, for example, 9999-12-31.",
     "examples": [
         "2052-04-05T14:30:20Z"
     ],

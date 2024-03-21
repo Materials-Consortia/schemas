@@ -1,11 +1,11 @@
-# Checksums (property)
+# checksums (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/checksums`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/checksums.md)**  
 **Definition name:** `checksums`
 
-**Property name:** Checksums  
+**Property name:** checksums  
 **Description:** Dictionary providing checksums of file contents.  
 **Type:** dictionary  
 
@@ -28,7 +28,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/files/checksums",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "Checksums",
+    "title": "checksums",
     "x-optimade-type": "dictionary",
     "x-optimade-definition": {
         "label": "checksums_optimade_files",

@@ -1,11 +1,11 @@
-# Type (property)
+# type (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/properties/core/type`](https://schemas.optimade.org/defs/v1.2/properties/core/type.md)**  
 **Definition name:** `type`
 
-**Property name:** Type  
+**Property name:** type  
 **Description:** The name of the type of an entry.  
 **Type:** string  
 
@@ -26,7 +26,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/core/type",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "Type",
+    "title": "type",
     "x-optimade-type": "string",
     "x-optimade-definition": {
         "label": "type_core",

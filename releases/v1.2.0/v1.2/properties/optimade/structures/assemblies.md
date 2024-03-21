@@ -1,11 +1,11 @@
-# Assemblies (property)
+# assemblies (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/assemblies`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/assemblies.md)**  
 **Definition name:** `assemblies`
 
-**Property name:** Assemblies  
+**Property name:** assemblies  
 **Description:** A description of groups of sites that are statistically correlated.  
 **Type:** dictionary  
 
@@ -124,7 +124,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/assemblies",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "Assemblies",
+    "title": "assemblies",
     "x-optimade-type": "dictionary",
     "x-optimade-definition": {
         "label": "assemblies_optimade_structures",
@@ -265,7 +265,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
                 "type": [
                     "number"
                 ],
-                "description": "An float that specifies the statistical probability of a group in the description of assemblies.",
+                "description": "A float that specifies the statistical probability of a group in the description of assemblies.",
                 "examples": [
                     0.4
                 ],

@@ -9,7 +9,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
 **Latin symbol:** f  
 **Display symbol:** f  
   
-**Description:** The femto SI prefix defined as a dimensionless multiple of 10⁻¹⁵, defined at the 12:th CGPM Meeting in 1964, resolution 8.
+**Description:** The femto SI prefix defined as a dimensionless multiple of 10⁻¹⁵, defined at the 12th CGPM Meeting in 1964, resolution 8.
 
 
 
@@ -30,7 +30,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
     "title": "femto",
     "symbol": "f",
     "display-symbol": "f",
-    "description": "The femto SI prefix defined as a dimensionless multiple of 10\u207b\u00b9\u2075, defined at the 12:th CGPM Meeting in 1964, resolution 8.",
+    "description": "The femto SI prefix defined as a dimensionless multiple of 10\u207b\u00b9\u2075, defined at the 12th CGPM Meeting in 1964, resolution 8.",
     "resources": [
         {
             "relation": "Definition in the 12th CGPM Meeting in 1964, resolution 8",

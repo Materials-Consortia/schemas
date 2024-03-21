@@ -1,7 +1,7 @@
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/structure_features",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "Structure features",
+    "title": "structure features",
     "x-optimade-definition": {
         "label": "structure_features_optimade_structures",
         "kind": "property",

@@ -1,11 +1,11 @@
-# Elements (property)
+# elements (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/elements`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/elements.md)**  
 **Definition name:** `elements`
 
-**Property name:** Elements  
+**Property name:** elements  
 **Description:** The chemical symbols of the different elements present in the structure.  
 **Type:** list  
 
@@ -35,7 +35,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/elements",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "Elements",
+    "title": "elements",
     "x-optimade-type": "list",
     "x-optimade-definition": {
         "label": "elements_optimade_structures",
@@ -67,7 +67,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "x-optimade-unit": "inapplicable",
     "items": {
         "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/element",
-        "title": "Element",
+        "title": "element",
         "x-optimade-type": "string",
         "x-optimade-definition": {
             "label": "element_optimade_common",

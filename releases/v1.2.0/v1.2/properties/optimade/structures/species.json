@@ -1,7 +1,7 @@
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/species",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "Species",
+    "title": "species",
     "x-optimade-type": "list",
     "x-optimade-definition": {
         "label": "species_optimade_structures",
@@ -177,7 +177,7 @@
         "properties": {
             "name": {
                 "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/species_name",
-                "title": "Name of the species",
+                "title": "name of the species",
                 "x-optimade-type": "string",
                 "x-optimade-definition": {
                     "label": "species_name_optimade_common",
@@ -224,7 +224,7 @@
                 "x-optimade-unit": "inapplicable",
                 "items": {
                     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/chemical_symbol_or_vacancy",
-                    "title": "Chemical symbol or vacancy",
+                    "title": "chemical symbol or vacancy",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
                         "label": "chemical_symbol_or_vacancy_optimade_common",
@@ -431,7 +431,7 @@
                 "x-optimade-unit": "inapplicable",
                 "items": {
                     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/chemical_symbol",
-                    "title": "Chemical symbol",
+                    "title": "chemical symbol",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
                         "label": "chemical_symbol_optimade_common",

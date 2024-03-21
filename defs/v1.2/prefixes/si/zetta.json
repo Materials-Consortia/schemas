@@ -4,10 +4,10 @@
     "title": "zetta",
     "symbol": "Z",
     "display-symbol": "Z",
-    "description": "The zetta SI prefix defined as a dimensionless multiple of 10\u00b2\u00b9, defined at the 19:th CGPM Meeting in 1991, resolution 4.",
+    "description": "The zetta SI prefix defined as a dimensionless multiple of 10\u00b2\u00b9, defined at the 19th CGPM Meeting in 1991, resolution 4.",
     "resources": [
         {
-            "relation": "Definition in the 19:th CGPM Meeting in 1991, resolution 4",
+            "relation": "Definition in the 19th CGPM Meeting in 1991, resolution 4",
             "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/19-1991/resolution-4"
         },
         {

@@ -1,11 +1,11 @@
-# Dimension types (property)
+# dimension types (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/dimension_types`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/dimension_types.md)**  
 **Definition name:** `dimension_types`
 
-**Property name:** Dimension types  
+**Property name:** dimension types  
 **Description:** List of three integers describing the periodicity of the boundaries of the unit cell. For each direction indicated by the three lattice_vectors, this list indicates if the direction is periodic (value 1) or non-periodic (value 0). Note: the elements in this list each refer to the direction of the corresponding entry in lattice_vectors and not the Cartesian x, y, z directions.  
 **Type:** list  
 
@@ -35,7 +35,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/dimension_types",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "Dimension types",
+    "title": "dimension types",
     "x-optimade-type": "list",
     "x-optimade-definition": {
         "label": "dimension_types_optimade_structures",

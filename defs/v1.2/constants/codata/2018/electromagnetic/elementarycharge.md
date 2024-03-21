@@ -1,11 +1,11 @@
-# Elementary charge, \(e\) (constant)
+# elementary charge, \(e\) (constant)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Constant Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/elementarycharge`](https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/elementarycharge.md)**  
 **Definition name:** `elementarycharge`
 
-**Constant name:** Elementary charge  
+**Constant name:** elementary charge  
 **Latin symbol:** e  
 **Display symbol:** \(e\)  
   
@@ -28,7 +28,7 @@ It is exactly 1.602176634·10⁻¹⁹ C following the 2019 redefinition of the S
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/elementarycharge",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/constant_definition.json",
-    "title": "Elementary charge",
+    "title": "elementary charge",
     "symbol": "e",
     "display-symbol": "\\(e\\)",
     "description": "The CODATA 2018 value for the absolute value of the charge of the electron.\n\nThis constant is described in Rev. Mod. Phys. 93, 025010 (2021) as \"Absolute value of the charge of the electron and one of the seven defining constants of the SI\".\nIt is exactly 1.602176634\u00b710\u207b\u00b9\u2079 C following the 2019 redefinition of the SI base units.",

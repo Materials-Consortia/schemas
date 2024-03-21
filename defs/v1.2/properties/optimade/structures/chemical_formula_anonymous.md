@@ -1,11 +1,11 @@
-# Anonymous chemical formula (property)
+# anonymous chemical formula (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_anonymous`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_anonymous.md)**  
 **Definition name:** `chemical_formula_anonymous`
 
-**Property name:** Anonymous chemical formula  
+**Property name:** anonymous chemical formula  
 **Description:** The anonymous formula is the chemical_formula_reduced, but where the elements are instead first ordered by their chemical proportion number, and then, in order left to right, replaced by anonymous symbols A, B, C, ..., Z, Aa, Ba, ..., Za, Ab, Bb, ... and so on.  
 **Type:** string  
 
@@ -24,7 +24,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_anonymous",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "Anonymous chemical formula",
+    "title": "anonymous chemical formula",
     "x-optimade-type": "string",
     "x-optimade-definition": {
         "label": "chemical_formula_anonymous_optimade_structures",

@@ -1,7 +1,7 @@
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/assemblies",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "Assemblies",
+    "title": "assemblies",
     "x-optimade-type": "dictionary",
     "x-optimade-definition": {
         "label": "assemblies_optimade_structures",
@@ -142,7 +142,7 @@
                 "type": [
                     "number"
                 ],
-                "description": "An float that specifies the statistical probability of a group in the description of assemblies.",
+                "description": "A float that specifies the statistical probability of a group in the description of assemblies.",
                 "examples": [
                     0.4
                 ],

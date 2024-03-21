@@ -1,11 +1,11 @@
-# Name (property)
+# name (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/name`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/name.md)**  
 **Definition name:** `name`
 
-**Property name:** Name  
+**Property name:** name  
 **Description:** Base name of a file.  
 **Type:** string  
 **Implementation requirements:**  
@@ -29,7 +29,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/files/name",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "Name",
+    "title": "name",
     "x-optimade-type": "string",
     "x-optimade-definition": {
         "label": "name_optimade_files",

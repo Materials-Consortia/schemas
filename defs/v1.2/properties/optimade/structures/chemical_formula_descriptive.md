@@ -1,11 +1,11 @@
-# Descriptive chemical formula (property)
+# descriptive chemical formula (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_descriptive`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_descriptive.md)**  
 **Definition name:** `chemical_formula_descriptive`
 
-**Property name:** Descriptive chemical formula  
+**Property name:** descriptive chemical formula  
 **Description:** The chemical formula for a structure as a string in a form chosen by the API implementation.  
 **Type:** string  
 
@@ -40,7 +40,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_descriptive",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "Descriptive chemical formula",
+    "title": "descriptive chemical formula",
     "x-optimade-type": "string",
     "x-optimade-definition": {
         "label": "chemical_formula_descriptive_optimade_structures",

@@ -1,11 +1,11 @@
-# Reduced chemical formula (property)
+# reduced chemical formula (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_reduced`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_reduced.md)**  
 **Definition name:** `chemical_formula_reduced`
 
-**Property name:** Reduced chemical formula  
+**Property name:** reduced chemical formula  
 **Description:** The reduced chemical formula for a structure as a string with element symbols and integer chemical proportion numbers.  
 **Type:** string  
 
@@ -36,7 +36,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_reduced",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "Reduced chemical formula",
+    "title": "reduced chemical formula",
     "x-optimade-type": "string",
     "x-optimade-definition": {
         "label": "chemical_formula_reduced_optimade_structures",

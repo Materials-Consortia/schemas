@@ -12,7 +12,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Standard Definitio
 
 This standard defines the following entrytypes:
 
-* **[Structures](../entrytypes/optimade/structures.md)** (entrytype) - [`https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/structures`](https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/structures.md)  
+* **[structures](../entrytypes/optimade/structures.md)** (entrytype) - [`https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/structures`](https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/structures.md)  
   The structures entry type describes a crystal structure via its unit cell
 
     **Requirements/Conventions:**  
@@ -20,15 +20,15 @@ This standard defines the following entrytypes:
     - **Support:** MUST be implemented.  
 
 
-* **[Files](../entrytypes/optimade/files.md)** (entrytype) - [`https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/files`](https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/files.md)  
-  The files entry type describes a file with metadata and an URL to retrive it
+* **[files](../entrytypes/optimade/files.md)** (entrytype) - [`https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/files`](https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/files.md)  
+  The files entry type describes a file with metadata and a URL to retrieve it
 
     **Requirements/Conventions:**  
 
     - **Support:** OPTIONAL.  
 
 
-* **[References](../entrytypes/optimade/references.md)** (entrytype) - [`https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/references`](https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/references.md)  
+* **[references](../entrytypes/optimade/references.md)** (entrytype) - [`https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/references`](https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/references.md)  
   The references entry type describes a reference
 
     **Requirements/Conventions:**  
@@ -58,7 +58,7 @@ This standard defines the following entrytypes:
             "x-optimade-requirements": {
                 "support": "must"
             },
-            "title": "Structures",
+            "title": "structures",
             "description": "The structures entry type describes a crystal structure via its unit cell",
             "x-optimade-definition": {
                 "label": "structures_entrytype_optimade",
@@ -107,7 +107,7 @@ This standard defines the following entrytypes:
                         "query-support": "all mandatory",
                         "response-level": "always"
                     },
-                    "title": "Type",
+                    "title": "type",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
                         "label": "type_core",
@@ -133,7 +133,7 @@ This standard defines the following entrytypes:
                         "query-support": "all mandatory",
                         "response-level": "may"
                     },
-                    "title": "Immutable ID",
+                    "title": "immutable ID",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
                         "label": "immutable_id_core",
@@ -161,7 +161,7 @@ This standard defines the following entrytypes:
                         "query-support": "all mandatory",
                         "response-level": "must"
                     },
-                    "title": "Last modified",
+                    "title": "last modified",
                     "x-optimade-type": "timestamp",
                     "x-optimade-definition": {
                         "label": "last_modified_core",
@@ -189,7 +189,7 @@ This standard defines the following entrytypes:
                         "query-support": "all mandatory",
                         "response-level": "may"
                     },
-                    "title": "Elements",
+                    "title": "elements",
                     "x-optimade-type": "list",
                     "x-optimade-definition": {
                         "label": "elements_optimade_structures",
@@ -221,7 +221,7 @@ This standard defines the following entrytypes:
                     "x-optimade-unit": "inapplicable",
                     "items": {
                         "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/element",
-                        "title": "Element",
+                        "title": "element",
                         "x-optimade-type": "string",
                         "x-optimade-definition": {
                             "label": "element_optimade_common",
@@ -373,7 +373,7 @@ This standard defines the following entrytypes:
                         "query-support": "all mandatory",
                         "response-level": "may"
                     },
-                    "title": "Number of elements",
+                    "title": "number of elements",
                     "x-optimade-type": "integer",
                     "x-optimade-definition": {
                         "label": "nelements_optimade_structures",
@@ -400,7 +400,7 @@ This standard defines the following entrytypes:
                         "query-support": "all mandatory",
                         "response-level": "may"
                     },
-                    "title": "Elements ratios",
+                    "title": "elements ratios",
                     "x-optimade-type": "list",
                     "x-optimade-definition": {
                         "label": "elements_ratios_optimade_structures",
@@ -448,7 +448,7 @@ This standard defines the following entrytypes:
                         "query-support": "all mandatory",
                         "response-level": "may"
                     },
-                    "title": "Descriptive chemical formula",
+                    "title": "descriptive chemical formula",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
                         "label": "chemical_formula_descriptive_optimade_structures",
@@ -480,7 +480,7 @@ This standard defines the following entrytypes:
                         "response-level": "may",
                         "$comment": "If the database store chemical formulas in another format, it may not be possible to search efficiently for anything except equality."
                     },
-                    "title": "Reduced chemical formula",
+                    "title": "reduced chemical formula",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
                         "label": "chemical_formula_reduced_optimade_structures",
@@ -537,7 +537,7 @@ This standard defines the following entrytypes:
                         "response-level": "may",
                         "$comment": "If the database store chemical formulas in another format, it may not be possible to search efficiently for anything except equality."
                     },
-                    "title": "Anonymous chemical formula",
+                    "title": "anonymous chemical formula",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
                         "label": "chemical_formula_anonymous_optimade_structures",
@@ -565,7 +565,7 @@ This standard defines the following entrytypes:
                         "response-level": "may",
                         "query-support": "none"
                     },
-                    "title": "Dimension types",
+                    "title": "dimension types",
                     "x-optimade-type": "list",
                     "x-optimade-definition": {
                         "label": "dimension_types_optimade_structures",
@@ -623,7 +623,7 @@ This standard defines the following entrytypes:
                         "response-level": "may",
                         "query-support": "all mandatory"
                     },
-                    "title": "Number of periodic dimensions",
+                    "title": "number of periodic dimensions",
                     "x-optimade-type": "integer",
                     "x-optimade-definition": {
                         "label": "nperiodic_dimensions_optimade_structures",
@@ -650,7 +650,7 @@ This standard defines the following entrytypes:
                         "response-level": "may",
                         "query-support": "none"
                     },
-                    "title": "Lattice vectors",
+                    "title": "lattice vectors",
                     "x-optimade-definition": {
                         "label": "lattice_vectors_optimade_structures",
                         "kind": "property",
@@ -675,7 +675,7 @@ This standard defines the following entrytypes:
                             "title": "\u00e5ngstr\u00f6m",
                             "symbol": "angstrom",
                             "display-symbol": "\u00c5",
-                            "description": "A unit of length equal to 10\u207b\u00b9\u2070 meter, using the current, or one of the historical, definitions of the SI units.\n\nThe \u00e5ngstr\u00f6m unit appears in the International System of Units (SI), 1st ed. (1970) defined as \"1 \u00c5 = 0.1 nm = 10\u207b\u00b9\u2070 m\".\n\nThe \u00e5ngstr\u00f6m unit was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \"temporarily admitted\" for use with the SI units.\n- The International System of Units (SI), 7th ed. (1998) changes the categorisation to \"Other non-SI units currently accepted for use with the International System.\"\n- The International System of Units (SI), 8th ed. (2006) changes the categorization to \"Other non-SI units\" and adds as a clarifying footnote \"The \u00e5ngstr\u00f6m is widely used by x-ray crystallographers and structural chemists because all chemical bonds lie in the range 1 to 3 \u00e5ngstr\u00f6ms. However it has no official sanction from the CIPM or the CGPM.\"\n- The \u00e5ngstr\u00f6m is omitted in the International System of Units (SI), 9th Edition (2019).\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
+                            "description": "A unit of length equal to 10\u207b\u00b9\u2070 meter, using the current, or one of the historical, definitions of the SI units.\n\nThe \u00e5ngstr\u00f6m unit appears in the International System of Units (SI), 1st ed. (1970) defined as \"1 \u00c5 = 0.1 nm = 10\u207b\u00b9\u2070 m\".\n\nThe \u00e5ngstr\u00f6m unit was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \"temporarily admitted\" for use with the SI units.\n- The International System of Units (SI), 7th ed. (1998) changes the categorization to \"Other non-SI units currently accepted for use with the International System.\"\n- The International System of Units (SI), 8th ed. (2006) changes the categorization to \"Other non-SI units\" and adds as a clarifying footnote \"The \u00e5ngstr\u00f6m is widely used by x-ray crystallographers and structural chemists because all chemical bonds lie in the range 1 to 3 \u00e5ngstr\u00f6ms. However it has no official sanction from the CIPM or the CGPM.\"\n- The \u00e5ngstr\u00f6m is omitted in the International System of Units (SI), 9th Edition (2019).\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
                             "compatibility": [
                                 "https://schemas.optimade.org/defs/v1.2/units/si/1970/temporary/angstrom",
                                 "https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/angstrom"
@@ -771,7 +771,7 @@ This standard defines the following entrytypes:
                         "response-level": "may",
                         "query-support": "none"
                     },
-                    "title": "Space group symmetry operations",
+                    "title": "space group symmetry operations",
                     "x-optimade-type": "list",
                     "x-optimade-definition": {
                         "label": "space_group_symmetry_operations_xyz_optimade_structures",
@@ -800,7 +800,7 @@ This standard defines the following entrytypes:
                     "x-optimade-unit": "unapplicable",
                     "items": {
                         "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/space_group_symmetry_operation_xyz",
-                        "title": "Space group symmetry operation",
+                        "title": "space group symmetry operation",
                         "x-optimade-type": "string",
                         "x-optimade-definition": {
                             "label": "space_group_symmetry_operation_xyz_optimade_common",
@@ -828,7 +828,7 @@ This standard defines the following entrytypes:
                         "response-level": "may",
                         "query-support": "none"
                     },
-                    "title": "Hall space group symbol",
+                    "title": "hall space group symbol",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
                         "label": "space_group_symbol_hall_optimade_structures",
@@ -886,7 +886,7 @@ This standard defines the following entrytypes:
                         "response-level": "may",
                         "query-support": "none"
                     },
-                    "title": "Extended Hermann-Mauguin space group symbol",
+                    "title": "extended Hermann-Mauguin space group symbol",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
                         "label": "space_group_symbol_hermann_mauguin_extended_optimade_structures",
@@ -913,7 +913,7 @@ This standard defines the following entrytypes:
                         "response-level": "may",
                         "query-support": "none"
                     },
-                    "title": "Space group IT number",
+                    "title": "space group IT number",
                     "x-optimade-type": "integer",
                     "x-optimade-definition": {
                         "label": "space_group_it_number_optimade_structures",
@@ -940,7 +940,7 @@ This standard defines the following entrytypes:
                         "response-level": "may",
                         "query-support": "none"
                     },
-                    "title": "Cartesian site positions",
+                    "title": "cartesian site positions",
                     "x-optimade-type": "list",
                     "x-optimade-definition": {
                         "label": "cartesian_site_positions_optimade_structures",
@@ -955,7 +955,7 @@ This standard defines the following entrytypes:
                             "title": "\u00e5ngstr\u00f6m",
                             "symbol": "angstrom",
                             "display-symbol": "\u00c5",
-                            "description": "A unit of length equal to 10\u207b\u00b9\u2070 meter, using the current, or one of the historical, definitions of the SI units.\n\nThe \u00e5ngstr\u00f6m unit appears in the International System of Units (SI), 1st ed. (1970) defined as \"1 \u00c5 = 0.1 nm = 10\u207b\u00b9\u2070 m\".\n\nThe \u00e5ngstr\u00f6m unit was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \"temporarily admitted\" for use with the SI units.\n- The International System of Units (SI), 7th ed. (1998) changes the categorisation to \"Other non-SI units currently accepted for use with the International System.\"\n- The International System of Units (SI), 8th ed. (2006) changes the categorization to \"Other non-SI units\" and adds as a clarifying footnote \"The \u00e5ngstr\u00f6m is widely used by x-ray crystallographers and structural chemists because all chemical bonds lie in the range 1 to 3 \u00e5ngstr\u00f6ms. However it has no official sanction from the CIPM or the CGPM.\"\n- The \u00e5ngstr\u00f6m is omitted in the International System of Units (SI), 9th Edition (2019).\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
+                            "description": "A unit of length equal to 10\u207b\u00b9\u2070 meter, using the current, or one of the historical, definitions of the SI units.\n\nThe \u00e5ngstr\u00f6m unit appears in the International System of Units (SI), 1st ed. (1970) defined as \"1 \u00c5 = 0.1 nm = 10\u207b\u00b9\u2070 m\".\n\nThe \u00e5ngstr\u00f6m unit was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \"temporarily admitted\" for use with the SI units.\n- The International System of Units (SI), 7th ed. (1998) changes the categorization to \"Other non-SI units currently accepted for use with the International System.\"\n- The International System of Units (SI), 8th ed. (2006) changes the categorization to \"Other non-SI units\" and adds as a clarifying footnote \"The \u00e5ngstr\u00f6m is widely used by x-ray crystallographers and structural chemists because all chemical bonds lie in the range 1 to 3 \u00e5ngstr\u00f6ms. However it has no official sanction from the CIPM or the CGPM.\"\n- The \u00e5ngstr\u00f6m is omitted in the International System of Units (SI), 9th Edition (2019).\n\nThis is a generalized definition taken to reference the current, or one of the historical, SI unit definitions.\nThis definition is intended for situations when it is not possible to be more precise, e.g., in contexts where data have been collected that uses different historical SI definitions.",
                             "compatibility": [
                                 "https://schemas.optimade.org/defs/v1.2/units/si/1970/temporary/angstrom",
                                 "https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/angstrom"
@@ -1056,7 +1056,7 @@ This standard defines the following entrytypes:
                         "response-level": "may",
                         "query-support": "all mandatory"
                     },
-                    "title": "Number of sites",
+                    "title": "number of sites",
                     "x-optimade-type": "integer",
                     "x-optimade-definition": {
                         "label": "nsites_optimade_structures",
@@ -1083,7 +1083,7 @@ This standard defines the following entrytypes:
                         "response-level": "may",
                         "query-support": "none"
                     },
-                    "title": "Species at sites",
+                    "title": "species at sites",
                     "x-optimade-type": "list",
                     "x-optimade-definition": {
                         "label": "species_at_sites_optimade_structures",
@@ -1117,7 +1117,7 @@ This standard defines the following entrytypes:
                     "x-optimade-unit": "inapplicable",
                     "items": {
                         "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/species_name",
-                        "title": "Name of the species",
+                        "title": "name of the species",
                         "x-optimade-type": "string",
                         "x-optimade-definition": {
                             "label": "species_name_optimade_common",
@@ -1146,7 +1146,7 @@ This standard defines the following entrytypes:
                         "response-level": "may",
                         "query-support": "none"
                     },
-                    "title": "Species",
+                    "title": "species",
                     "x-optimade-type": "list",
                     "x-optimade-definition": {
                         "label": "species_optimade_structures",
@@ -1322,7 +1322,7 @@ This standard defines the following entrytypes:
                         "properties": {
                             "name": {
                                 "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/species_name",
-                                "title": "Name of the species",
+                                "title": "name of the species",
                                 "x-optimade-type": "string",
                                 "x-optimade-definition": {
                                     "label": "species_name_optimade_common",
@@ -1369,7 +1369,7 @@ This standard defines the following entrytypes:
                                 "x-optimade-unit": "inapplicable",
                                 "items": {
                                     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/chemical_symbol_or_vacancy",
-                                    "title": "Chemical symbol or vacancy",
+                                    "title": "chemical symbol or vacancy",
                                     "x-optimade-type": "string",
                                     "x-optimade-definition": {
                                         "label": "chemical_symbol_or_vacancy_optimade_common",
@@ -1576,7 +1576,7 @@ This standard defines the following entrytypes:
                                 "x-optimade-unit": "inapplicable",
                                 "items": {
                                     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/chemical_symbol",
-                                    "title": "Chemical symbol",
+                                    "title": "chemical symbol",
                                     "x-optimade-type": "string",
                                     "x-optimade-definition": {
                                         "label": "chemical_symbol_optimade_common",
@@ -1809,7 +1809,7 @@ This standard defines the following entrytypes:
                         "response-level": "may",
                         "query-support": "none"
                     },
-                    "title": "Assemblies",
+                    "title": "assemblies",
                     "x-optimade-type": "dictionary",
                     "x-optimade-definition": {
                         "label": "assemblies_optimade_structures",
@@ -1950,7 +1950,7 @@ This standard defines the following entrytypes:
                                 "type": [
                                     "number"
                                 ],
-                                "description": "An float that specifies the statistical probability of a group in the description of assemblies.",
+                                "description": "A float that specifies the statistical probability of a group in the description of assemblies.",
                                 "examples": [
                                     0.4
                                 ],
@@ -1971,7 +1971,7 @@ This standard defines the following entrytypes:
                         "response-level": "may",
                         "query-support": "all mandatory"
                     },
-                    "title": "Structure features",
+                    "title": "structure features",
                     "x-optimade-definition": {
                         "label": "structure_features_optimade_structures",
                         "kind": "property",
@@ -2011,8 +2011,8 @@ This standard defines the following entrytypes:
             "x-optimade-requirements": {
                 "support": "may"
             },
-            "title": "Files",
-            "description": "The files entry type describes a file with metadata and an URL to retrive it",
+            "title": "files",
+            "description": "The files entry type describes a file with metadata and a URL to retrieve it",
             "x-optimade-definition": {
                 "label": "files_entrytype_optimade",
                 "kind": "entrytype",
@@ -2060,7 +2060,7 @@ This standard defines the following entrytypes:
                         "query-support": "all mandatory",
                         "response-level": "always"
                     },
-                    "title": "Type",
+                    "title": "type",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
                         "label": "type_core",
@@ -2086,7 +2086,7 @@ This standard defines the following entrytypes:
                         "query-support": "all mandatory",
                         "response-level": "may"
                     },
-                    "title": "Immutable ID",
+                    "title": "immutable ID",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
                         "label": "immutable_id_core",
@@ -2114,7 +2114,7 @@ This standard defines the following entrytypes:
                         "query-support": "all mandatory",
                         "response-level": "must"
                     },
-                    "title": "Last modified",
+                    "title": "last modified",
                     "x-optimade-type": "timestamp",
                     "x-optimade-definition": {
                         "label": "last_modified_core",
@@ -2181,7 +2181,7 @@ This standard defines the following entrytypes:
                         "string",
                         "null"
                     ],
-                    "description": "Point in time until which the URL in `url` is guaranteed to stay stable.\n\n**Requirements/Conventions:**\n\n- `null` means that there is no stability guarantee for the URL in url.\n  Indefinite support could be communicated by providing a date sufficiently far in the future, for example, 9999-12-31.",
+                    "description": "Point in time until which the URL in `url` is guaranteed to stay stable.\n\n**Requirements/Conventions:**\n\n- `null` means that there is no stability guarantee for the URL in `url`.\n  Indefinite support could be communicated by providing a date sufficiently far in the future, for example, 9999-12-31.",
                     "examples": [
                         "2052-04-05T14:30:20Z"
                     ],
@@ -2196,7 +2196,7 @@ This standard defines the following entrytypes:
                         "query-support": "none",
                         "response-level": "may"
                     },
-                    "title": "Name",
+                    "title": "name",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
                         "label": "name_optimade_files",
@@ -2222,7 +2222,7 @@ This standard defines the following entrytypes:
                         "query-support": "none",
                         "response-level": "may"
                     },
-                    "title": "Size",
+                    "title": "size",
                     "x-optimade-type": "integer",
                     "x-optimade-definition": {
                         "label": "size_optimade_files",
@@ -2293,7 +2293,7 @@ This standard defines the following entrytypes:
                         "query-support": "none",
                         "response-level": "may"
                     },
-                    "title": "Media type",
+                    "title": "media type",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
                         "label": "media_type_optimade_files",
@@ -2320,7 +2320,7 @@ This standard defines the following entrytypes:
                         "query-support": "none",
                         "response-level": "may"
                     },
-                    "title": "Version",
+                    "title": "version",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
                         "label": "version_optimade_files",
@@ -2333,7 +2333,7 @@ This standard defines the following entrytypes:
                         "string",
                         "null"
                     ],
-                    "description": "Version information of a file (e.g. commit, revision, timestamp).\n\n**Requirements/Conventions:**\n\n- If provided, it MUST be guaranteed that file contents pertaining to the same combination of id and version are the same.",
+                    "description": "Version information of a file (e.g., commit, revision, timestamp).\n\n**Requirements/Conventions:**\n\n- If provided, it MUST be guaranteed that file contents pertaining to the same combination of id and version are the same.",
                     "examples": [
                         "3.2.6"
                     ],
@@ -2347,7 +2347,7 @@ This standard defines the following entrytypes:
                         "query-support": "none",
                         "response-level": "may"
                     },
-                    "title": "Modification timestamp",
+                    "title": "modification timestamp",
                     "x-optimade-type": "timestamp",
                     "x-optimade-definition": {
                         "label": "modification_timestamp_optimade_files",
@@ -2374,7 +2374,7 @@ This standard defines the following entrytypes:
                         "query-support": "none",
                         "response-level": "may"
                     },
-                    "title": "Description",
+                    "title": "description",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
                         "label": "description_optimade_files",
@@ -2401,7 +2401,7 @@ This standard defines the following entrytypes:
                         "query-support": "none",
                         "response-level": "may"
                     },
-                    "title": "Checksums",
+                    "title": "checksums",
                     "x-optimade-type": "dictionary",
                     "x-optimade-definition": {
                         "label": "checksums_optimade_files",
@@ -2467,7 +2467,7 @@ This standard defines the following entrytypes:
                         "query-support": "none",
                         "response-level": "may"
                     },
-                    "title": "Access time",
+                    "title": "access time",
                     "x-optimade-type": "timestamp",
                     "x-optimade-definition": {
                         "label": "atime_optimade_files",
@@ -2495,7 +2495,7 @@ This standard defines the following entrytypes:
                         "query-support": "none",
                         "response-level": "may"
                     },
-                    "title": "Change time",
+                    "title": "change time",
                     "x-optimade-type": "timestamp",
                     "x-optimade-definition": {
                         "label": "ctime_optimade_files",
@@ -2523,7 +2523,7 @@ This standard defines the following entrytypes:
                         "query-support": "none",
                         "response-level": "may"
                     },
-                    "title": "Modification time",
+                    "title": "modification time",
                     "x-optimade-type": "timestamp",
                     "x-optimade-definition": {
                         "label": "mtime_optimade_files",
@@ -2550,7 +2550,7 @@ This standard defines the following entrytypes:
             "x-optimade-requirements": {
                 "support": "may"
             },
-            "title": "References",
+            "title": "references",
             "description": "The references entry type describes a reference",
             "x-optimade-definition": {
                 "label": "references_entrytype_optimade",
@@ -2599,7 +2599,7 @@ This standard defines the following entrytypes:
                         "query-support": "all mandatory",
                         "response-level": "always"
                     },
-                    "title": "Type",
+                    "title": "type",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
                         "label": "type_core",
@@ -2625,7 +2625,7 @@ This standard defines the following entrytypes:
                         "query-support": "all mandatory",
                         "response-level": "may"
                     },
-                    "title": "Immutable ID",
+                    "title": "immutable ID",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
                         "label": "immutable_id_core",
@@ -2653,7 +2653,7 @@ This standard defines the following entrytypes:
                         "query-support": "all mandatory",
                         "response-level": "must"
                     },
-                    "title": "Last modified",
+                    "title": "last modified",
                     "x-optimade-type": "timestamp",
                     "x-optimade-definition": {
                         "label": "last_modified_core",
@@ -2843,7 +2843,7 @@ This standard defines the following entrytypes:
                         "query-support": "none",
                         "response-level": "may"
                     },
-                    "title": "howpublished",
+                    "title": "how published",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
                         "label": "howpublished_optimade_references",
@@ -2964,7 +2964,7 @@ This standard defines the following entrytypes:
                         "string",
                         "null"
                     ],
-                    "description": "The three letter abbreviation of the month of publication or writing (the month field in the BibTeX specification).",
+                    "description": "The three-letter abbreviation of the month of publication or writing (the month field in the BibTeX specification).",
                     "examples": [
                         "jul"
                     ],
@@ -3296,7 +3296,7 @@ This standard defines the following entrytypes:
                     "description": "A list of dictionaries with names of the authors.\n\n**Requirements/Conventions**:\n\n- Each list member MUST be a dictionary with the following keys:\n\n  - **name**: Full name of the person, REQUIRED.\n  - **firstname**, **lastname**: Parts of the person's name, OPTIONAL.",
                     "items": {
                         "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/person",
-                        "title": "Person",
+                        "title": "person",
                         "x-optimade-type": "dictionary",
                         "x-optimade-definition": {
                             "label": "person_optimade_common",
@@ -3391,7 +3391,7 @@ This standard defines the following entrytypes:
                     "description": "A list of dictionaries with names of the editors.\n\n**Requirements/Conventions**:\n\n- Each list member MUST be a dictionary with the following keys:\n\n  - **name**: Full name of the person, REQUIRED.\n  - **firstname**, **lastname**: Parts of the person's name, OPTIONAL.",
                     "items": {
                         "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/person",
-                        "title": "Person",
+                        "title": "person",
                         "x-optimade-type": "dictionary",
                         "x-optimade-definition": {
                             "label": "person_optimade_common",
@@ -3492,7 +3492,7 @@ This standard defines the following entrytypes:
                         "query-support": "none",
                         "response-level": "may"
                     },
-                    "title": "url",
+                    "title": "URL",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
                         "label": "url_optimade_references",

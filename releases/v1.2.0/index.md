@@ -9,7 +9,7 @@
                         
                         The 2018 CODATA Bohr magneton constant is defined as "1 \(\mu_B\) = 9.274 010 0783(28)·10^-24 J·T^-1" with joule and tesla conforming to the 2019 redefinition of the SI derived units.
 
-                    * **[Elementary charge](v1.2/constants/codata/2018/electromagnetic/elementarycharge.md)** (constant) - [`https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/elementarycharge`](https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/elementarycharge.md)
+                    * **[elementary charge](v1.2/constants/codata/2018/electromagnetic/elementarycharge.md)** (constant) - [`https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/elementarycharge`](https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/elementarycharge.md)
                         
                         The CODATA 2018 value for the absolute value of the charge of the electron.
 
@@ -21,15 +21,15 @@
 
     * **entrytypes**
         * **optimade**
-            * **[Files](v1.2/entrytypes/optimade/files.md)** (entrytype) - [`https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/files`](https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/files.md)
+            * **[files](v1.2/entrytypes/optimade/files.md)** (entrytype) - [`https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/files`](https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/files.md)
                 
-                The files entry type describes a file with metadata and an URL to retrive it
+                The files entry type describes a file with metadata and a URL to retrieve it
 
-            * **[References](v1.2/entrytypes/optimade/references.md)** (entrytype) - [`https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/references`](https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/references.md)
+            * **[references](v1.2/entrytypes/optimade/references.md)** (entrytype) - [`https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/references`](https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/references.md)
                 
                 The references entry type describes a reference
 
-            * **[Structures](v1.2/entrytypes/optimade/structures.md)** (entrytype) - [`https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/structures`](https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/structures.md)
+            * **[structures](v1.2/entrytypes/optimade/structures.md)** (entrytype) - [`https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/structures`](https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/structures.md)
                 
                 The structures entry type describes a crystal structure via its unit cell
 
@@ -37,7 +37,7 @@
         * **si**
             * **[atto](v1.2/prefixes/si/atto.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/atto`](https://schemas.optimade.org/defs/v1.2/prefixes/si/atto.md)
                 
-                The atto SI prefix defined as a dimensionless multiple of 10⁻¹⁸, defined at the 12:th CGPM Meeting in 1964, resolution 8.
+                The atto SI prefix defined as a dimensionless multiple of 10⁻¹⁸, defined at the 12th CGPM Meeting in 1964, resolution 8.
 
             * **[centi](v1.2/prefixes/si/centi.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/centi`](https://schemas.optimade.org/defs/v1.2/prefixes/si/centi.md)
                 
@@ -61,7 +61,7 @@
 
             * **[femto](v1.2/prefixes/si/femto.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/femto`](https://schemas.optimade.org/defs/v1.2/prefixes/si/femto.md)
                 
-                The femto SI prefix defined as a dimensionless multiple of 10⁻¹⁵, defined at the 12:th CGPM Meeting in 1964, resolution 8.
+                The femto SI prefix defined as a dimensionless multiple of 10⁻¹⁵, defined at the 12th CGPM Meeting in 1964, resolution 8.
 
             * **[gibi](v1.2/prefixes/si/gibi.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/gibi`](https://schemas.optimade.org/defs/v1.2/prefixes/si/gibi.md)
                 
@@ -117,19 +117,19 @@
 
             * **[quecto](v1.2/prefixes/si/quecto.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/quecto`](https://schemas.optimade.org/defs/v1.2/prefixes/si/quecto.md)
                 
-                The quecto SI prefix defined as a dimensionless multiple of 10⁻³⁰, defined at the 27:th CGPM Meeting in 2022, resolution 3.
+                The quecto SI prefix defined as a dimensionless multiple of 10⁻³⁰, defined at the 27th CGPM Meeting in 2022, resolution 3.
 
             * **[quetta](v1.2/prefixes/si/quetta.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/quetta`](https://schemas.optimade.org/defs/v1.2/prefixes/si/quetta.md)
                 
-                The quetta SI prefix defined as a dimensionless multiple of 10³⁰, defined at the 27:th CGPM Meeting in 2022, resolution 3.
+                The quetta SI prefix defined as a dimensionless multiple of 10³⁰, defined at the 27th CGPM Meeting in 2022, resolution 3.
 
             * **[ronna](v1.2/prefixes/si/ronna.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/ronna`](https://schemas.optimade.org/defs/v1.2/prefixes/si/ronna.md)
                 
-                The ronna SI prefix defined as a dimensionless multiple of 10²⁷, defined at the 27:th CGPM Meeting in 2022, resolution 3.
+                The ronna SI prefix defined as a dimensionless multiple of 10²⁷, defined at the 27th CGPM Meeting in 2022, resolution 3.
 
             * **[ronto](v1.2/prefixes/si/ronto.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/ronto`](https://schemas.optimade.org/defs/v1.2/prefixes/si/ronto.md)
                 
-                The ronto SI prefix defined as a dimensionless multiple of 10^⁻²⁷, defined at the 27:th CGPM Meeting in 2022, resolution 3.
+                The ronto SI prefix defined as a dimensionless multiple of 10^⁻²⁷, defined at the 27th CGPM Meeting in 2022, resolution 3.
 
             * **[tebi](v1.2/prefixes/si/tebi.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/tebi`](https://schemas.optimade.org/defs/v1.2/prefixes/si/tebi.md)
                 
@@ -145,11 +145,11 @@
 
             * **[yocto](v1.2/prefixes/si/yocto.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/yocto`](https://schemas.optimade.org/defs/v1.2/prefixes/si/yocto.md)
                 
-                The yocto SI prefix defined as a dimensionless multiple of 10⁻²⁴, defined at the 19:th CGPM Meeting in 1991, resolution 4.
+                The yocto SI prefix defined as a dimensionless multiple of 10⁻²⁴, defined at the 19th CGPM Meeting in 1991, resolution 4.
 
             * **[yotta](v1.2/prefixes/si/yotta.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/yotta`](https://schemas.optimade.org/defs/v1.2/prefixes/si/yotta.md)
                 
-                The yotta SI prefix defined as a dimensionless multiple of 10²⁴, defined at the 19:th CGPM Meeting in 1991, resolution 4.
+                The yotta SI prefix defined as a dimensionless multiple of 10²⁴, defined at the 19th CGPM Meeting in 1991, resolution 4.
 
             * **[zebi](v1.2/prefixes/si/zebi.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/zebi`](https://schemas.optimade.org/defs/v1.2/prefixes/si/zebi.md)
                 
@@ -157,15 +157,15 @@
 
             * **[zepto](v1.2/prefixes/si/zepto.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/zepto`](https://schemas.optimade.org/defs/v1.2/prefixes/si/zepto.md)
                 
-                The zepto SI prefix defined as a dimensionless multiple of 10⁻²¹, defined at the 19:th CGPM Meeting in 1991, resolution 4.
+                The zepto SI prefix defined as a dimensionless multiple of 10⁻²¹, defined at the 19th CGPM Meeting in 1991, resolution 4.
 
             * **[zetta](v1.2/prefixes/si/zetta.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/zetta`](https://schemas.optimade.org/defs/v1.2/prefixes/si/zetta.md)
                 
-                The zetta SI prefix defined as a dimensionless multiple of 10²¹, defined at the 19:th CGPM Meeting in 1991, resolution 4.
+                The zetta SI prefix defined as a dimensionless multiple of 10²¹, defined at the 19th CGPM Meeting in 1991, resolution 4.
 
     * **properties**
         * **core**
-            * **[Features](v1.2/properties/core/features.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/features`](https://schemas.optimade.org/defs/v1.2/properties/core/features.md)
+            * **[features](v1.2/properties/core/features.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/features`](https://schemas.optimade.org/defs/v1.2/properties/core/features.md)
                 
                 A list of strings that flag which special features are used by the entry.
 
@@ -173,15 +173,15 @@
                 
                 A unique string referencing a specific entry in the database.
 
-            * **[Immutable ID](v1.2/properties/core/immutable_id.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id`](https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id.md)
+            * **[immutable ID](v1.2/properties/core/immutable_id.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id`](https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id.md)
                 
                 The entry's immutable ID (e.g., a UUID).
 
-            * **[Last modified](v1.2/properties/core/last_modified.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/last_modified`](https://schemas.optimade.org/defs/v1.2/properties/core/last_modified.md)
+            * **[last modified](v1.2/properties/core/last_modified.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/last_modified`](https://schemas.optimade.org/defs/v1.2/properties/core/last_modified.md)
                 
                 Date and time representing when the entry was last modified.
 
-            * **[Type](v1.2/properties/core/type.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/type`](https://schemas.optimade.org/defs/v1.2/properties/core/type.md)
+            * **[type](v1.2/properties/core/type.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/type`](https://schemas.optimade.org/defs/v1.2/properties/core/type.md)
                 
                 The name of the type of an entry.
 
@@ -191,61 +191,61 @@
                     
                     A unique string referencing a specific entry in the database.
 
-                * **[Immutable ID](v1.2/properties/optimade/calculations/immutable_id.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id`](https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id.md)
+                * **[immutable ID](v1.2/properties/optimade/calculations/immutable_id.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id`](https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id.md)
                     
                     The entry's immutable ID (e.g., a UUID).
 
-                * **[Last modified](v1.2/properties/optimade/calculations/last_modified.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/last_modified`](https://schemas.optimade.org/defs/v1.2/properties/core/last_modified.md)
+                * **[last modified](v1.2/properties/optimade/calculations/last_modified.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/last_modified`](https://schemas.optimade.org/defs/v1.2/properties/core/last_modified.md)
                     
                     Date and time representing when the entry was last modified.
 
-                * **[Type](v1.2/properties/optimade/calculations/type.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/type`](https://schemas.optimade.org/defs/v1.2/properties/core/type.md)
+                * **[type](v1.2/properties/optimade/calculations/type.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/type`](https://schemas.optimade.org/defs/v1.2/properties/core/type.md)
                     
                     The name of the type of an entry.
 
             * **common**
-                * **[Chemical symbol](v1.2/properties/optimade/common/chemical_symbol.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/common/chemical_symbol`](https://schemas.optimade.org/defs/v1.2/properties/optimade/common/chemical_symbol.md)
+                * **[chemical symbol](v1.2/properties/optimade/common/chemical_symbol.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/common/chemical_symbol`](https://schemas.optimade.org/defs/v1.2/properties/optimade/common/chemical_symbol.md)
                     
                     A chemical symbol referring to an element or a non-chemical element.
 
-                * **[Chemical symbol or vacancy](v1.2/properties/optimade/common/chemical_symbol_or_vacancy.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/common/chemical_symbol_or_vacancy`](https://schemas.optimade.org/defs/v1.2/properties/optimade/common/chemical_symbol_or_vacancy.md)
+                * **[chemical symbol or vacancy](v1.2/properties/optimade/common/chemical_symbol_or_vacancy.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/common/chemical_symbol_or_vacancy`](https://schemas.optimade.org/defs/v1.2/properties/optimade/common/chemical_symbol_or_vacancy.md)
                     
                     A chemical symbol referring to an element, a non-chemical element, or a vacancy.
 
-                * **[Element](v1.2/properties/optimade/common/element.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/common/element`](https://schemas.optimade.org/defs/v1.2/properties/optimade/common/element.md)
+                * **[element](v1.2/properties/optimade/common/element.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/common/element`](https://schemas.optimade.org/defs/v1.2/properties/optimade/common/element.md)
                     
                     The chemical symbol of an element
 
-                * **[Person](v1.2/properties/optimade/common/person.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/common/person`](https://schemas.optimade.org/defs/v1.2/properties/optimade/common/person.md)
+                * **[person](v1.2/properties/optimade/common/person.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/common/person`](https://schemas.optimade.org/defs/v1.2/properties/optimade/common/person.md)
                     
                     A dictionary with name information about a person.
 
-                * **[Space group symmetry operation](v1.2/properties/optimade/common/space_group_symmetry_operation_xyz.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/common/space_group_symmetry_operation_xyz`](https://schemas.optimade.org/defs/v1.2/properties/optimade/common/space_group_symmetry_operation_xyz.md)
+                * **[space group symmetry operation](v1.2/properties/optimade/common/space_group_symmetry_operation_xyz.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/common/space_group_symmetry_operation_xyz`](https://schemas.optimade.org/defs/v1.2/properties/optimade/common/space_group_symmetry_operation_xyz.md)
                     
                     A single symmetry operation.
 
-                * **[Name of the species](v1.2/properties/optimade/common/species_name.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/common/species_name`](https://schemas.optimade.org/defs/v1.2/properties/optimade/common/species_name.md)
+                * **[name of the species](v1.2/properties/optimade/common/species_name.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/common/species_name`](https://schemas.optimade.org/defs/v1.2/properties/optimade/common/species_name.md)
                     
                     The name of the species.
 
-                * **[Symmetry operation](v1.2/properties/optimade/common/symmetry_operation_xyz.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/common/symmetry_operation_xyz`](https://schemas.optimade.org/defs/v1.2/properties/optimade/common/symmetry_operation_xyz.md)
+                * **[symmetry operation](v1.2/properties/optimade/common/symmetry_operation_xyz.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/common/symmetry_operation_xyz`](https://schemas.optimade.org/defs/v1.2/properties/optimade/common/symmetry_operation_xyz.md)
                     
                     A symmetry operation given as general position x, y, z coordinates in algebraic form.
 
             * **files**
-                * **[Access time](v1.2/properties/optimade/files/atime.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/atime`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/atime.md)
+                * **[access time](v1.2/properties/optimade/files/atime.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/atime`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/atime.md)
                     
                     Time of last access of a file as per POSIX standard.
 
-                * **[Checksums](v1.2/properties/optimade/files/checksums.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/checksums`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/checksums.md)
+                * **[checksums](v1.2/properties/optimade/files/checksums.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/checksums`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/checksums.md)
                     
                     Dictionary providing checksums of file contents.
 
-                * **[Change time](v1.2/properties/optimade/files/ctime.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/ctime`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/ctime.md)
+                * **[change time](v1.2/properties/optimade/files/ctime.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/ctime`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/ctime.md)
                     
                     Time of last status change of a file as per POSIX standard.
 
-                * **[Description](v1.2/properties/optimade/files/description.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/description`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/description.md)
+                * **[description](v1.2/properties/optimade/files/description.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/description`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/description.md)
                     
                     Free-form description of a file.
 
@@ -253,35 +253,35 @@
                     
                     A unique string referencing a specific entry in the database.
 
-                * **[Immutable ID](v1.2/properties/optimade/files/immutable_id.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id`](https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id.md)
+                * **[immutable ID](v1.2/properties/optimade/files/immutable_id.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id`](https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id.md)
                     
                     The entry's immutable ID (e.g., a UUID).
 
-                * **[Last modified](v1.2/properties/optimade/files/last_modified.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/last_modified`](https://schemas.optimade.org/defs/v1.2/properties/core/last_modified.md)
+                * **[last modified](v1.2/properties/optimade/files/last_modified.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/last_modified`](https://schemas.optimade.org/defs/v1.2/properties/core/last_modified.md)
                     
                     Date and time representing when the entry was last modified.
 
-                * **[Media type](v1.2/properties/optimade/files/media_type.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/media_type`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/media_type.md)
+                * **[media type](v1.2/properties/optimade/files/media_type.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/media_type`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/media_type.md)
                     
                     Media type identifier (also known as MIME type), for a file as per [RFC 6838 Media Type Specifications and Registration Procedures](https://datatracker.ietf.org/doc/html/rfc6838).
 
-                * **[Modification timestamp](v1.2/properties/optimade/files/modification_timestamp.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/modification_timestamp`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/modification_timestamp.md)
+                * **[modification timestamp](v1.2/properties/optimade/files/modification_timestamp.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/modification_timestamp`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/modification_timestamp.md)
                     
                     Timestamp of the last modification of file contents. A modification is understood as an addition, change or deletion of one or more bytes, resulting in file contents different from the previous.
 
-                * **[Modification time](v1.2/properties/optimade/files/mtime.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/mtime`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/mtime.md)
+                * **[modification time](v1.2/properties/optimade/files/mtime.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/mtime`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/mtime.md)
                     
                     Time of last modification of a file as per POSIX standard.
 
-                * **[Name](v1.2/properties/optimade/files/name.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/name`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/name.md)
+                * **[name](v1.2/properties/optimade/files/name.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/name`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/name.md)
                     
                     Base name of a file.
 
-                * **[Size](v1.2/properties/optimade/files/size.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/size`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/size.md)
+                * **[size](v1.2/properties/optimade/files/size.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/size`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/size.md)
                     
                     Size of a file in bytes.
 
-                * **[Type](v1.2/properties/optimade/files/type.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/type`](https://schemas.optimade.org/defs/v1.2/properties/core/type.md)
+                * **[type](v1.2/properties/optimade/files/type.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/type`](https://schemas.optimade.org/defs/v1.2/properties/core/type.md)
                     
                     The name of the type of an entry.
 
@@ -293,9 +293,9 @@
                     
                     Point in time until which the URL in `url` is guaranteed to stay stable.
 
-                * **[Version](v1.2/properties/optimade/files/version.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/version`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/version.md)
+                * **[version](v1.2/properties/optimade/files/version.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/version`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/version.md)
                     
-                    Version information of a file (e.g. commit, revision, timestamp).
+                    Version information of a file (e.g., commit, revision, timestamp).
 
             * **references**
                 * **[address](v1.2/properties/optimade/references/address.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/address`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/address.md)
@@ -338,7 +338,7 @@
                     
                     A list of dictionaries with names of the editors.
 
-                * **[howpublished](v1.2/properties/optimade/references/howpublished.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/howpublished`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/howpublished.md)
+                * **[how published](v1.2/properties/optimade/references/howpublished.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/howpublished`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/howpublished.md)
                     
                     The method of publication (the howpublished field in the BibTeX specification)
 
@@ -346,7 +346,7 @@
                     
                     A unique string referencing a specific entry in the database.
 
-                * **[Immutable ID](v1.2/properties/optimade/references/immutable_id.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id`](https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id.md)
+                * **[immutable ID](v1.2/properties/optimade/references/immutable_id.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id`](https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id.md)
                     
                     The entry's immutable ID (e.g., a UUID).
 
@@ -362,13 +362,13 @@
                     
                     Used for alphabetizing, cross-referencing, and creating a label (the key field in the BibTeX specification).
 
-                * **[Last modified](v1.2/properties/optimade/references/last_modified.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/last_modified`](https://schemas.optimade.org/defs/v1.2/properties/core/last_modified.md)
+                * **[last modified](v1.2/properties/optimade/references/last_modified.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/last_modified`](https://schemas.optimade.org/defs/v1.2/properties/core/last_modified.md)
                     
                     Date and time representing when the entry was last modified.
 
                 * **[month](v1.2/properties/optimade/references/month.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/month`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/month.md)
                     
-                    The three letter abbreviation of the month of publication or writing (the month field in the BibTeX specification).
+                    The three-letter abbreviation of the month of publication or writing (the month field in the BibTeX specification).
 
                 * **[note](v1.2/properties/optimade/references/note.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/note`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/note.md)
                     
@@ -402,11 +402,11 @@
                     
                     The title of the work (the title field in the BibTeX specification).
 
-                * **[Type](v1.2/properties/optimade/references/type.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/type`](https://schemas.optimade.org/defs/v1.2/properties/core/type.md)
+                * **[type](v1.2/properties/optimade/references/type.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/type`](https://schemas.optimade.org/defs/v1.2/properties/core/type.md)
                     
                     The name of the type of an entry.
 
-                * **[url](v1.2/properties/optimade/references/url.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/url`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/url.md)
+                * **[URL](v1.2/properties/optimade/references/url.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/url`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/url.md)
                     
                     The URL of the object being referenced.
 
@@ -419,19 +419,19 @@
                     The year of publication or writing.
 
             * **structures**
-                * **[Assemblies](v1.2/properties/optimade/structures/assemblies.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/assemblies`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/assemblies.md)
+                * **[assemblies](v1.2/properties/optimade/structures/assemblies.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/assemblies`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/assemblies.md)
                     
                     A description of groups of sites that are statistically correlated.
 
-                * **[Cartesian site positions](v1.2/properties/optimade/structures/cartesian_site_positions.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/cartesian_site_positions`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/cartesian_site_positions.md)
+                * **[cartesian site positions](v1.2/properties/optimade/structures/cartesian_site_positions.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/cartesian_site_positions`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/cartesian_site_positions.md)
                     
                     Cartesian positions of each site in the structure.
 
-                * **[Anonymous chemical formula](v1.2/properties/optimade/structures/chemical_formula_anonymous.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_anonymous`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_anonymous.md)
+                * **[anonymous chemical formula](v1.2/properties/optimade/structures/chemical_formula_anonymous.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_anonymous`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_anonymous.md)
                     
                     The anonymous formula is the chemical_formula_reduced, but where the elements are instead first ordered by their chemical proportion number, and then, in order left to right, replaced by anonymous symbols A, B, C, ..., Z, Aa, Ba, ..., Za, Ab, Bb, ... and so on.
 
-                * **[Descriptive chemical formula](v1.2/properties/optimade/structures/chemical_formula_descriptive.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_descriptive`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_descriptive.md)
+                * **[descriptive chemical formula](v1.2/properties/optimade/structures/chemical_formula_descriptive.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_descriptive`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_descriptive.md)
                     
                     The chemical formula for a structure as a string in a form chosen by the API implementation.
 
@@ -439,19 +439,19 @@
                     
                     The chemical formula for a structure in [Hill form](https://dx.doi.org/10.1021/ja02046a005) with element symbols followed by integer chemical proportion numbers. The proportion number MUST be omitted if it is 1.
 
-                * **[Reduced chemical formula](v1.2/properties/optimade/structures/chemical_formula_reduced.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_reduced`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_reduced.md)
+                * **[reduced chemical formula](v1.2/properties/optimade/structures/chemical_formula_reduced.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_reduced`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/chemical_formula_reduced.md)
                     
                     The reduced chemical formula for a structure as a string with element symbols and integer chemical proportion numbers.
 
-                * **[Dimension types](v1.2/properties/optimade/structures/dimension_types.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/dimension_types`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/dimension_types.md)
+                * **[dimension types](v1.2/properties/optimade/structures/dimension_types.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/dimension_types`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/dimension_types.md)
                     
                     List of three integers describing the periodicity of the boundaries of the unit cell. For each direction indicated by the three lattice_vectors, this list indicates if the direction is periodic (value 1) or non-periodic (value 0). Note: the elements in this list each refer to the direction of the corresponding entry in lattice_vectors and not the Cartesian x, y, z directions.
 
-                * **[Elements](v1.2/properties/optimade/structures/elements.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/elements`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/elements.md)
+                * **[elements](v1.2/properties/optimade/structures/elements.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/elements`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/elements.md)
                     
                     The chemical symbols of the different elements present in the structure.
 
-                * **[Elements ratios](v1.2/properties/optimade/structures/elements_ratios.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/elements_ratios`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/elements_ratios.md)
+                * **[elements ratios](v1.2/properties/optimade/structures/elements_ratios.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/elements_ratios`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/elements_ratios.md)
                     
                     Relative proportions of different elements in the structure.
 
@@ -459,35 +459,35 @@
                     
                     A unique string referencing a specific entry in the database.
 
-                * **[Immutable ID](v1.2/properties/optimade/structures/immutable_id.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id`](https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id.md)
+                * **[immutable ID](v1.2/properties/optimade/structures/immutable_id.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id`](https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id.md)
                     
                     The entry's immutable ID (e.g., a UUID).
 
-                * **[Last modified](v1.2/properties/optimade/structures/last_modified.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/last_modified`](https://schemas.optimade.org/defs/v1.2/properties/core/last_modified.md)
+                * **[last modified](v1.2/properties/optimade/structures/last_modified.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/last_modified`](https://schemas.optimade.org/defs/v1.2/properties/core/last_modified.md)
                     
                     Date and time representing when the entry was last modified.
 
-                * **[Lattice vectors](v1.2/properties/optimade/structures/lattice_vectors.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/lattice_vectors`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/lattice_vectors.md)
+                * **[lattice vectors](v1.2/properties/optimade/structures/lattice_vectors.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/lattice_vectors`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/lattice_vectors.md)
                     
                     The three lattice vectors in Cartesian coordinates, in ångström (Å).
 
-                * **[Number of elements](v1.2/properties/optimade/structures/nelements.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nelements`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nelements.md)
+                * **[number of elements](v1.2/properties/optimade/structures/nelements.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nelements`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nelements.md)
                     
                     Number of different elements in the structure as an integer.
 
-                * **[Number of periodic dimensions](v1.2/properties/optimade/structures/nperiodic_dimensions.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nperiodic_dimensions`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nperiodic_dimensions.md)
+                * **[number of periodic dimensions](v1.2/properties/optimade/structures/nperiodic_dimensions.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nperiodic_dimensions`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nperiodic_dimensions.md)
                     
                     An integer specifying the number of periodic dimensions in the structure, equivalent to the number of non-zero entries in `dimension_types`.
 
-                * **[Number of sites](v1.2/properties/optimade/structures/nsites.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nsites`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nsites.md)
+                * **[number of sites](v1.2/properties/optimade/structures/nsites.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nsites`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nsites.md)
                     
                     An integer specifying the length of the `cartesian_site_positions` property.
 
-                * **[Space group IT number](v1.2/properties/optimade/structures/space_group_it_number.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_it_number`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_it_number.md)
+                * **[space group IT number](v1.2/properties/optimade/structures/space_group_it_number.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_it_number`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_it_number.md)
                     
                     Space group number for the structure assigned by the International Tables for Crystallography Vol. A.
 
-                * **[Hall space group symbol](v1.2/properties/optimade/structures/space_group_symbol_hall.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hall`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hall.md)
+                * **[hall space group symbol](v1.2/properties/optimade/structures/space_group_symbol_hall.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hall`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hall.md)
                     
                     A Hall space group symbol representing the symmetry of the structure as defined in Hall, S. R. (1981), Acta Cryst. A37, 517-525 and erratum (1981), A37, 921.
 
@@ -495,27 +495,27 @@
                     
                     A human- and machine-readable string containing the short Hermann-Mauguin (H-M) symbol which specifies the space group of the structure in the response.
 
-                * **[Extended Hermann-Mauguin space group symbol](v1.2/properties/optimade/structures/space_group_symbol_hermann_mauguin_extended.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hermann_mauguin_extended`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hermann_mauguin_extended.md)
+                * **[extended Hermann-Mauguin space group symbol](v1.2/properties/optimade/structures/space_group_symbol_hermann_mauguin_extended.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hermann_mauguin_extended`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hermann_mauguin_extended.md)
                     
                     A human- and machine-readable string containing the extended Hermann-Mauguin (H-M) symbol which specifies the space group of the structure in the response.
 
-                * **[Space group symmetry operations](v1.2/properties/optimade/structures/space_group_symmetry_operations_xyz.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symmetry_operations_xyz`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symmetry_operations_xyz.md)
+                * **[space group symmetry operations](v1.2/properties/optimade/structures/space_group_symmetry_operations_xyz.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symmetry_operations_xyz`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symmetry_operations_xyz.md)
                     
                     A list of symmetry operations given as general position x, y and z coordinates in algebraic form.
 
-                * **[Species](v1.2/properties/optimade/structures/species.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/species`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/species.md)
+                * **[species](v1.2/properties/optimade/structures/species.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/species`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/species.md)
                     
                     A list describing the species of the sites of this structure. Species can represent pure chemical elements, virtual-crystal atoms representing a statistical occupation of a given site by multiple chemical elements, and/or a location to which there are attached atoms, i.e., atoms whose precise location are unknown beyond that they are attached to that position (frequently used to indicate hydrogen atoms attached to another element, e.g., a carbon with three attached hydrogens might represent a methyl group, -CH3).
 
-                * **[Species at sites](v1.2/properties/optimade/structures/species_at_sites.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/species_at_sites`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/species_at_sites.md)
+                * **[species at sites](v1.2/properties/optimade/structures/species_at_sites.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/species_at_sites`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/species_at_sites.md)
                     
                     Name of the species at each site (where values for sites are specified with the same order of the property `cartesian_site_positions`). The properties of the species are found in the property `species`.
 
-                * **[Structure features](v1.2/properties/optimade/structures/structure_features.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/structure_features`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/structure_features.md)
+                * **[structure features](v1.2/properties/optimade/structures/structure_features.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/structure_features`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/structure_features.md)
                     
                     A list of strings that flag which special features are used by the structure.
 
-                * **[Type](v1.2/properties/optimade/structures/type.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/type`](https://schemas.optimade.org/defs/v1.2/properties/core/type.md)
+                * **[type](v1.2/properties/optimade/structures/type.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/type`](https://schemas.optimade.org/defs/v1.2/properties/core/type.md)
                     
                     The name of the type of an entry.
 
@@ -578,7 +578,7 @@
                         
                         A derived SI unit for electric charge, equal to s·A in the 1960 SI base units.
 
-                    * **[Degree Celsius](v1.2/units/si/1960/named/degcelsius.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1960/named/degcelsius`](https://schemas.optimade.org/defs/v1.2/units/si/1960/named/degcelsius.md)
+                    * **[degree Celsius](v1.2/units/si/1960/named/degcelsius.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1960/named/degcelsius`](https://schemas.optimade.org/defs/v1.2/units/si/1960/named/degcelsius.md)
                         
                         A derived SI unit of temperature, defined as degree kelvin offset with +273.15 in the SI base units adopted at the 11th CGPM Meeting in 1960.
 
@@ -658,7 +658,7 @@
 
                     * **[candela](v1.2/units/si/1967/base/candela.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1967/base/candela`](https://schemas.optimade.org/defs/v1.2/units/si/1967/base/candela.md)
                         
-                        The candela is the SI base unit of luminous intensity in a given direction defined in from the radiation of a black body at the temperature of freezing platinum as defined at the 9th CGPM meeting in 1948, clarifed at the 13th CGPM Meeting in 1967, resolution 5; and implicitly redefined due to the 1967 SI redefinition of the second.
+                        The candela is the SI base unit of luminous intensity in a given direction defined in from the radiation of a black body at the temperature of freezing platinum as defined at the 9th CGPM meeting in 1948, clarified at the 13th CGPM Meeting in 1967, resolution 5; and implicitly redefined due to the 1967 SI redefinition of the second.
 
                     * **[kelvin](v1.2/units/si/1967/base/kelvin.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1967/base/kelvin`](https://schemas.optimade.org/defs/v1.2/units/si/1967/base/kelvin.md)
                         
@@ -673,7 +673,7 @@
                         
                         A derived SI unit for electric charge equal to s·A in the 1967 SI base units.
 
-                    * **[Degree Celsius](v1.2/units/si/1967/named/degcelsius.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1967/named/degcelsius`](https://schemas.optimade.org/defs/v1.2/units/si/1967/named/degcelsius.md)
+                    * **[degree Celsius](v1.2/units/si/1967/named/degcelsius.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1967/named/degcelsius`](https://schemas.optimade.org/defs/v1.2/units/si/1967/named/degcelsius.md)
                         
                         A derived SI unit of temperature, defined as degree kelvin offset with +273.15 in 1967 SI units.
 
@@ -850,7 +850,7 @@
                 * **base**
                     * **[candela](v1.2/units/si/1979/base/candela.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1979/base/candela`](https://schemas.optimade.org/defs/v1.2/units/si/1979/base/candela.md)
                         
-                        The SI base unit of luminous intensity in a given direction defined from the luminous intensity of monocromatic radiation at a specific frequency and radiant intensity at the 16th CGPM Meeting in 1979.
+                        The SI base unit of luminous intensity in a given direction defined from the luminous intensity of monochromatic radiation at a specific frequency and radiant intensity at the 16th CGPM Meeting in 1979.
 
                 * **named**
                     * **[lumen](v1.2/units/si/1979/named/lumen.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1979/named/lumen`](https://schemas.optimade.org/defs/v1.2/units/si/1979/named/lumen.md)
@@ -867,7 +867,7 @@
 
             * **1981**
                 * **temporary**
-                    * **[Roentgen equivalent man](v1.2/units/si/1981/temporary/rem.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1981/temporary/rem`](https://schemas.optimade.org/defs/v1.2/units/si/1981/temporary/rem.md)
+                    * **[roentgen equivalent man](v1.2/units/si/1981/temporary/rem.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1981/temporary/rem`](https://schemas.optimade.org/defs/v1.2/units/si/1981/temporary/rem.md)
                         
                         The "roentgen equivalent man" (rem) is a unit used in radioprotection meant to represent a dose of any ionizing radiation comparable in effect to one roentgen of high-voltage x-radiation, taken to be equal to 10⁻² Sv using the 1967 SI units.
 
@@ -888,11 +888,11 @@
 
                     * **[candela](v1.2/units/si/1983/base/candela.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1983/base/candela`](https://schemas.optimade.org/defs/v1.2/units/si/1983/base/candela.md)
                         
-                        The candela is the SI base unit of luminous intensity in a given direction defined from the luminous intensity of monocromatic radiation at a specific frequency and radiant intensity at the 16th CGPM Meeting in 1979; implicitly redefined via the redefinition of the metre at the 17th CGPM Meeting in 1983.
+                        The candela is the SI base unit of luminous intensity in a given direction defined from the luminous intensity of monochromatic radiation at a specific frequency and radiant intensity at the 16th CGPM Meeting in 1979; implicitly redefined via the redefinition of the metre at the 17th CGPM Meeting in 1983.
 
                     * **[metre](v1.2/units/si/1983/base/metre.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre`](https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre.md)
                         
-                        The metre, or meter, is the SI base unit of length defined via the distance light travels in vaccum during a fixed time interval after the redefinition at the 17th CGPM Meeting in 1983.
+                        The metre, or meter, is the SI base unit of length defined via the distance light travels in vacuum during a fixed time interval after the redefinition at the 17th CGPM Meeting in 1983.
 
                 * **named**
                     * **[coulomb](v1.2/units/si/1983/named/coulomb.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1983/named/coulomb`](https://schemas.optimade.org/defs/v1.2/units/si/1983/named/coulomb.md)
@@ -1052,7 +1052,7 @@
                         
                         A derived SI unit for electric charge equal to s·A in the 1983 SI base units.
 
-                    * **[Degree Celsius](v1.2/units/si/2019/named/degcelsius.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/degcelsius`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/degcelsius.md)
+                    * **[degree Celsius](v1.2/units/si/2019/named/degcelsius.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/degcelsius`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/degcelsius.md)
                         
                         A derived SI unit of temperature, defined as kelvin offset with +273.15 in the 2019 SI units.
 
@@ -1177,7 +1177,7 @@
                     
                     A unit of time equal to 86 400 seconds using the current, or one of the historical, definitions of the SI units.
 
-                * **[Degree Celsius](v1.2/units/si/general/degcelsius.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/general/degcelsius`](https://schemas.optimade.org/defs/v1.2/units/si/general/degcelsius.md)
+                * **[degree Celsius](v1.2/units/si/general/degcelsius.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/general/degcelsius`](https://schemas.optimade.org/defs/v1.2/units/si/general/degcelsius.md)
                     
                     A unit of temperature, defined as kelvin offset with +273.15 using the current, or one of the historical, definitions of the SI units.
 
@@ -1289,7 +1289,7 @@
                     
                     A unit used to express the absorbed dose of ionizing radiation defined as 10⁻² J/kg using the current, or one of the historical, definitions of the SI units.
 
-                * **[Roentgen equivalent man](v1.2/units/si/general/rem.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/general/rem`](https://schemas.optimade.org/defs/v1.2/units/si/general/rem.md)
+                * **[roentgen equivalent man](v1.2/units/si/general/rem.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/general/rem`](https://schemas.optimade.org/defs/v1.2/units/si/general/rem.md)
                     
                     The "roentgen equivalent man" (rem) is a unit used in radioprotection meant to represent a dose of any ionizing radiation comparable in effect to one roentgen of high-voltage x-radiation, taken to be equal to 10⁻² Sv using the current, or one of the historical, definitions of the SI units.
 

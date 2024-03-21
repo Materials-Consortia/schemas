@@ -1,11 +1,11 @@
-# References (entrytype)
+# references (entrytype)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Entrytype Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/references`](https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/references.md)**  
 **Definition name:** `references`
 
-**Entrytype name:** References  
+**Entrytype name:** references  
 **Description:** The references entry type describes a reference  
 
 **Formats:** [[JSON](references.json)] [[MD](references.md)]
@@ -25,7 +25,7 @@ This entrytype defines the following properties:
     - IDs MAY change over time.
 
 
-* **[Type](../../properties/core/type.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/type`](https://schemas.optimade.org/defs/v1.2/properties/core/type.md)  
+* **[type](../../properties/core/type.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/type`](https://schemas.optimade.org/defs/v1.2/properties/core/type.md)  
   The name of the type of an entry.
 
     **Requirements/Conventions:**  
@@ -37,7 +37,7 @@ This entrytype defines the following properties:
     - The entry of type <type> and ID <id> MUST be returned in response to a request for /<type>/<id> under the versioned or unversioned base URL serving the API.
 
 
-* **[Immutable ID (immutable_id)](../../properties/core/immutable_id.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id`](https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id.md)  
+* **[immutable ID (immutable_id)](../../properties/core/immutable_id.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id`](https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id.md)  
   The entry's immutable ID (e.g., a UUID).
 
     **Requirements/Conventions:**  
@@ -49,7 +49,7 @@ This entrytype defines the following properties:
     - This ID maps to the version-specific record, in case it changes in the future.
 
 
-* **[Last modified (last_modified)](../../properties/core/last_modified.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/last_modified`](https://schemas.optimade.org/defs/v1.2/properties/core/last_modified.md)  
+* **[last modified (last_modified)](../../properties/core/last_modified.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/last_modified`](https://schemas.optimade.org/defs/v1.2/properties/core/last_modified.md)  
   Date and time representing when the entry was last modified.
 
     **Requirements/Conventions:**  
@@ -112,7 +112,7 @@ This entrytype defines the following properties:
     - **Query:** Support for queries on this property is OPTIONAL.
     - **Response:** MAY be included by default in the response.
 
-* **[howpublished](../../properties/optimade/references/howpublished.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/howpublished`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/howpublished.md)  
+* **[how published (howpublished)](../../properties/optimade/references/howpublished.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/howpublished`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/howpublished.md)  
   The method of publication (the howpublished field in the BibTeX specification)
 
     **Requirements/Conventions:**  
@@ -149,7 +149,7 @@ This entrytype defines the following properties:
     - **Response:** MAY be included by default in the response.
 
 * **[month](../../properties/optimade/references/month.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/month`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/month.md)  
-  The three letter abbreviation of the month of publication or writing (the month field in the BibTeX specification).
+  The three-letter abbreviation of the month of publication or writing (the month field in the BibTeX specification).
 
     **Requirements/Conventions:**  
 
@@ -293,7 +293,7 @@ This entrytype defines the following properties:
     - **Query:** Support for queries on this property is OPTIONAL.
     - **Response:** MAY be included by default in the response.
 
-* **[url](../../properties/optimade/references/url.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/url`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/url.md)  
+* **[URL](../../properties/optimade/references/url.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/url`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/url.md)  
   The URL of the object being referenced.
 
     **Requirements/Conventions:**  
@@ -309,7 +309,7 @@ This entrytype defines the following properties:
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/references",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/entrytype_definition.json",
-    "title": "References",
+    "title": "references",
     "description": "The references entry type describes a reference",
     "x-optimade-definition": {
         "label": "references_entrytype_optimade",
@@ -358,7 +358,7 @@ This entrytype defines the following properties:
                 "query-support": "all mandatory",
                 "response-level": "always"
             },
-            "title": "Type",
+            "title": "type",
             "x-optimade-type": "string",
             "x-optimade-definition": {
                 "label": "type_core",
@@ -384,7 +384,7 @@ This entrytype defines the following properties:
                 "query-support": "all mandatory",
                 "response-level": "may"
             },
-            "title": "Immutable ID",
+            "title": "immutable ID",
             "x-optimade-type": "string",
             "x-optimade-definition": {
                 "label": "immutable_id_core",
@@ -412,7 +412,7 @@ This entrytype defines the following properties:
                 "query-support": "all mandatory",
                 "response-level": "must"
             },
-            "title": "Last modified",
+            "title": "last modified",
             "x-optimade-type": "timestamp",
             "x-optimade-definition": {
                 "label": "last_modified_core",
@@ -602,7 +602,7 @@ This entrytype defines the following properties:
                 "query-support": "none",
                 "response-level": "may"
             },
-            "title": "howpublished",
+            "title": "how published",
             "x-optimade-type": "string",
             "x-optimade-definition": {
                 "label": "howpublished_optimade_references",
@@ -723,7 +723,7 @@ This entrytype defines the following properties:
                 "string",
                 "null"
             ],
-            "description": "The three letter abbreviation of the month of publication or writing (the month field in the BibTeX specification).",
+            "description": "The three-letter abbreviation of the month of publication or writing (the month field in the BibTeX specification).",
             "examples": [
                 "jul"
             ],
@@ -1055,7 +1055,7 @@ This entrytype defines the following properties:
             "description": "A list of dictionaries with names of the authors.\n\n**Requirements/Conventions**:\n\n- Each list member MUST be a dictionary with the following keys:\n\n  - **name**: Full name of the person, REQUIRED.\n  - **firstname**, **lastname**: Parts of the person's name, OPTIONAL.",
             "items": {
                 "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/person",
-                "title": "Person",
+                "title": "person",
                 "x-optimade-type": "dictionary",
                 "x-optimade-definition": {
                     "label": "person_optimade_common",
@@ -1150,7 +1150,7 @@ This entrytype defines the following properties:
             "description": "A list of dictionaries with names of the editors.\n\n**Requirements/Conventions**:\n\n- Each list member MUST be a dictionary with the following keys:\n\n  - **name**: Full name of the person, REQUIRED.\n  - **firstname**, **lastname**: Parts of the person's name, OPTIONAL.",
             "items": {
                 "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/person",
-                "title": "Person",
+                "title": "person",
                 "x-optimade-type": "dictionary",
                 "x-optimade-definition": {
                     "label": "person_optimade_common",
@@ -1251,7 +1251,7 @@ This entrytype defines the following properties:
                 "query-support": "none",
                 "response-level": "may"
             },
-            "title": "url",
+            "title": "URL",
             "x-optimade-type": "string",
             "x-optimade-definition": {
                 "label": "url_optimade_references",

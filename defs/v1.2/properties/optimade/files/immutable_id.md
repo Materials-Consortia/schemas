@@ -1,11 +1,11 @@
-# Immutable ID (property)
+# immutable ID (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id`](https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id.md)**  
 **Definition name:** `immutable_id`
 
-**Property name:** Immutable ID  
+**Property name:** immutable ID  
 **Description:** The entry's immutable ID (e.g., a UUID).  
 **Type:** string  
 
@@ -27,7 +27,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "Immutable ID",
+    "title": "immutable ID",
     "x-optimade-type": "string",
     "x-optimade-definition": {
         "label": "immutable_id_core",

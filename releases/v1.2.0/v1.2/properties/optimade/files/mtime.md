@@ -1,11 +1,11 @@
-# Modification time (property)
+# modification time (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/mtime`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/mtime.md)**  
 **Definition name:** `mtime`
 
-**Property name:** Modification time  
+**Property name:** modification time  
 **Description:** Time of last modification of a file as per POSIX standard.  
 **Type:** timestamp  
 
@@ -27,7 +27,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/files/mtime",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "Modification time",
+    "title": "modification time",
     "x-optimade-type": "timestamp",
     "x-optimade-definition": {
         "label": "mtime_optimade_files",

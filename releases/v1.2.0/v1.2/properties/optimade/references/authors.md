@@ -49,7 +49,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "description": "A list of dictionaries with names of the authors.\n\n**Requirements/Conventions**:\n\n- Each list member MUST be a dictionary with the following keys:\n\n  - **name**: Full name of the person, REQUIRED.\n  - **firstname**, **lastname**: Parts of the person's name, OPTIONAL.",
     "items": {
         "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/person",
-        "title": "Person",
+        "title": "person",
         "x-optimade-type": "dictionary",
         "x-optimade-definition": {
             "label": "person_optimade_common",

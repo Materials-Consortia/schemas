@@ -9,7 +9,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
 **Latin symbol:** a  
 **Display symbol:** a  
   
-**Description:** The atto SI prefix defined as a dimensionless multiple of 10⁻¹⁸, defined at the 12:th CGPM Meeting in 1964, resolution 8.
+**Description:** The atto SI prefix defined as a dimensionless multiple of 10⁻¹⁸, defined at the 12th CGPM Meeting in 1964, resolution 8.
 
 
 
@@ -30,7 +30,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
     "title": "atto",
     "symbol": "a",
     "display-symbol": "a",
-    "description": "The atto SI prefix defined as a dimensionless multiple of 10\u207b\u00b9\u2078, defined at the 12:th CGPM Meeting in 1964, resolution 8.",
+    "description": "The atto SI prefix defined as a dimensionless multiple of 10\u207b\u00b9\u2078, defined at the 12th CGPM Meeting in 1964, resolution 8.",
     "resources": [
         {
             "relation": "Definition in the 12th CGPM Meeting in 1964, resolution 8",

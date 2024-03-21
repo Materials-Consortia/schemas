@@ -1,11 +1,11 @@
-# Structure features (property)
+# structure features (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/structure_features`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/structure_features.md)**  
 **Definition name:** `structure_features`
 
-**Property name:** Structure features  
+**Property name:** structure features  
 **Description:** A list of strings that flag which special features are used by the structure.  
 **Type:** list  
 
@@ -36,7 +36,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/structure_features",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "Structure features",
+    "title": "structure features",
     "x-optimade-definition": {
         "label": "structure_features_optimade_structures",
         "kind": "property",

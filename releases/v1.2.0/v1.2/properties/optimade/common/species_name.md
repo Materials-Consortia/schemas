@@ -1,11 +1,11 @@
-# Name of the species (property)
+# name of the species (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/common/species_name`](https://schemas.optimade.org/defs/v1.2/properties/optimade/common/species_name.md)**  
 **Definition name:** `species_name`
 
-**Property name:** Name of the species  
+**Property name:** name of the species  
 **Description:** The name of the species.  
 **Type:** string  
 
@@ -25,7 +25,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/species_name",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "Name of the species",
+    "title": "name of the species",
     "x-optimade-type": "string",
     "x-optimade-definition": {
         "label": "species_name_optimade_common",

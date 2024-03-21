@@ -10,7 +10,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unitsystem Definit
 
 The International System of Units (SI) is established and maintained by the General Conference on Weights and Measures (CGPM).
 In the redefinition of the SI unit system in 2019 the magnitudes of all SI units are defined from declaring exact numerical values for seven defining constants when expressed in terms of their SI units.
-The si_extra_2019 unit system includes the prefixes and the units designated in the International System of Units (SI), 9th ed. (2019) as "non-SI units that are accepted for use with the SI."
+The si_extra_2019 unit system includes the prefixes and the units designated in the International System of Units (SI), 9th ed. (2019) as "Non-SI units that are accepted for use with the SI."
 (The general logarithmic ratio quantities, B and dB are not included.)
 
 **Formats:** [[JSON](si_accepted_2019.json)] [[MD](si_accepted_2019.md)]
@@ -44,7 +44,7 @@ This unitsystem defines the following units:
 * **[second (s)](../../units/si/1967/base/second.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second`](https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second.md)  
   The SI base unit of time defined via the periods of transitions between levels in the caesium 133 atom after the redefinition at the 13th CGPM Meeting in 1967.
 * **[metre (m)](../../units/si/1983/base/metre.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre`](https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre.md)  
-  The metre, or meter, is the SI base unit of length defined via the distance light travels in vaccum during a fixed time interval after the redefinition at the 17th CGPM Meeting in 1983.
+  The metre, or meter, is the SI base unit of length defined via the distance light travels in vacuum during a fixed time interval after the redefinition at the 17th CGPM Meeting in 1983.
 * **[kilogram (kg)](../../units/si/2019/base/kilogram.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram`](https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram.md)  
   The SI base unit of mass defined by fixing the value of the Planck constant as defined at the 26th CGPM Meeting (2018) and adopted into SI in 2019.
 * **[ampere (A)](../../units/si/2019/base/ampere.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/base/ampere`](https://schemas.optimade.org/defs/v1.2/units/si/2019/base/ampere.md)  
@@ -63,7 +63,7 @@ This unitsystem defines the following units:
   A derived SI unit for radioactivity, defined as s⁻¹ using the 1967 SI second, defined at the 15th CGPM Meeting in 1975.
 * **[coulomb (C)](../../units/si/2019/named/coulomb.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/coulomb`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/coulomb.md)  
   A derived SI unit for electric charge equal to s·A in the 1983 SI base units.
-* **[Degree Celsius (degC)](../../units/si/2019/named/degcelsius.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/degcelsius`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/degcelsius.md)  
+* **[degree Celsius (degC)](../../units/si/2019/named/degcelsius.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/degcelsius`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/degcelsius.md)  
   A derived SI unit of temperature, defined as kelvin offset with +273.15 in the 2019 SI units.
 * **[farad (F)](../../units/si/2019/named/farad.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/farad`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/farad.md)  
   A derived SI unit for electrical capacitance equal to kg⁻¹·m⁻²·s⁴·A² in the 2019 SI units.
@@ -103,9 +103,9 @@ This unitsystem defines the following units:
 This unitsystem defines the following prefixes:
 
 * **[yotta (Y)](../../prefixes/si/yotta.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/yotta`](https://schemas.optimade.org/defs/v1.2/prefixes/si/yotta.md)  
-  The yotta SI prefix defined as a dimensionless multiple of 10²⁴, defined at the 19:th CGPM Meeting in 1991, resolution 4.
+  The yotta SI prefix defined as a dimensionless multiple of 10²⁴, defined at the 19th CGPM Meeting in 1991, resolution 4.
 * **[zetta (Z)](../../prefixes/si/zetta.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/zetta`](https://schemas.optimade.org/defs/v1.2/prefixes/si/zetta.md)  
-  The zetta SI prefix defined as a dimensionless multiple of 10²¹, defined at the 19:th CGPM Meeting in 1991, resolution 4.
+  The zetta SI prefix defined as a dimensionless multiple of 10²¹, defined at the 19th CGPM Meeting in 1991, resolution 4.
 * **[exa (E)](../../prefixes/si/exa.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/exa`](https://schemas.optimade.org/defs/v1.2/prefixes/si/exa.md)  
   The exa SI prefix defined as a dimensionless multiple of 10¹⁸, defined at the 15th CGPM Meeting in 1975, resolution 10.
 * **[peta (P)](../../prefixes/si/peta.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/peta`](https://schemas.optimade.org/defs/v1.2/prefixes/si/peta.md)  
@@ -135,13 +135,13 @@ This unitsystem defines the following prefixes:
 * **[pico (p)](../../prefixes/si/pico.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/pico`](https://schemas.optimade.org/defs/v1.2/prefixes/si/pico.md)  
   The pico SI prefix defined as a dimensionless multiple of 10⁻¹², adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.
 * **[femto (f)](../../prefixes/si/femto.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/femto`](https://schemas.optimade.org/defs/v1.2/prefixes/si/femto.md)  
-  The femto SI prefix defined as a dimensionless multiple of 10⁻¹⁵, defined at the 12:th CGPM Meeting in 1964, resolution 8.
+  The femto SI prefix defined as a dimensionless multiple of 10⁻¹⁵, defined at the 12th CGPM Meeting in 1964, resolution 8.
 * **[atto (a)](../../prefixes/si/atto.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/atto`](https://schemas.optimade.org/defs/v1.2/prefixes/si/atto.md)  
-  The atto SI prefix defined as a dimensionless multiple of 10⁻¹⁸, defined at the 12:th CGPM Meeting in 1964, resolution 8.
+  The atto SI prefix defined as a dimensionless multiple of 10⁻¹⁸, defined at the 12th CGPM Meeting in 1964, resolution 8.
 * **[zepto (z)](../../prefixes/si/zepto.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/zepto`](https://schemas.optimade.org/defs/v1.2/prefixes/si/zepto.md)  
-  The zepto SI prefix defined as a dimensionless multiple of 10⁻²¹, defined at the 19:th CGPM Meeting in 1991, resolution 4.
+  The zepto SI prefix defined as a dimensionless multiple of 10⁻²¹, defined at the 19th CGPM Meeting in 1991, resolution 4.
 * **[yocto (y)](../../prefixes/si/yocto.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/yocto`](https://schemas.optimade.org/defs/v1.2/prefixes/si/yocto.md)  
-  The yocto SI prefix defined as a dimensionless multiple of 10⁻²⁴, defined at the 19:th CGPM Meeting in 1991, resolution 4.
+  The yocto SI prefix defined as a dimensionless multiple of 10⁻²⁴, defined at the 19th CGPM Meeting in 1991, resolution 4.
 
 **JSON definition:**
 
@@ -150,7 +150,7 @@ This unitsystem defines the following prefixes:
     "$id": "https://schemas.optimade.org/defs/v1.2/unitsystems/si/si_accepted_2019",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/unitsystem_definition.json",
     "title": "SI accepted 2019",
-    "description": "The SI 2019 unit system and units accepted to be used with the SI.\n\nThe International System of Units (SI) is established and maintained by the General Conference on Weights and Measures (CGPM).\nIn the redefinition of the SI unit system in 2019 the magnitudes of all SI units are defined from declaring exact numerical values for seven defining constants when expressed in terms of their SI units.\nThe si_extra_2019 unit system includes the prefixes and the units designated in the International System of Units (SI), 9th ed. (2019) as \"non-SI units that are accepted for use with the SI.\"\n(The general logarithmic ratio quantities, B and dB are not included.)",
+    "description": "The SI 2019 unit system and units accepted to be used with the SI.\n\nThe International System of Units (SI) is established and maintained by the General Conference on Weights and Measures (CGPM).\nIn the redefinition of the SI unit system in 2019 the magnitudes of all SI units are defined from declaring exact numerical values for seven defining constants when expressed in terms of their SI units.\nThe si_extra_2019 unit system includes the prefixes and the units designated in the International System of Units (SI), 9th ed. (2019) as \"Non-SI units that are accepted for use with the SI.\"\n(The general logarithmic ratio quantities, B and dB are not included.)",
     "x-optimade-definition": {
         "label": "si_accepted_2019_unitsystem",
         "kind": "unitsystem",
@@ -357,7 +357,7 @@ This unitsystem defines the following prefixes:
                 "MOA",
                 "'"
             ],
-            "description": "A unit of plane and phase angle equal to 1/60 of a degree which is 1/21600 of a circle and equivalent to pi/10800 rad, with rad defined according to the 1960 supplementary SI unit.\n\nThis definition uses \"arcminute\" as the unit name to distingush it from the time unit named minute.\nA footnote in the International System of Units, 9th ed. (2019) note that \"arcsecond is an alternative name for second of plane angle\".\nHowever, \"arcminute\" and \"arcmin\" have so far not been mentioned in any of the editions of the International System of Units.\nThey are defined in the GNU Units 3.15 unit database as 1/60 degree.\n\nThe unit appear under the name minute (with symbol \u2032) in the International System of Units (SI), 1st ed. (1970) defined as \"1\u2032 = (1/60)\u00b0 = (\u03c0/10800) rad\".\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \"Units in use with the International System.\"\n- The International System of Units (SI), 7th ed. (1998) adds as a footnote: \"ISO 31 recommends that the degree be subdivided decimally rather than using the minute and second.\"\n- The International System of Units (SI), 8th ed. (2006) further adds to that footnote: \"For navigation and surveying, however, the minute has the advantage that one minute of latitude on the surface of the Earth corresponds (approximately) to one nautical mile.\"\n- The International System of Units (SI), 9th ed. (2019) replaces the footnote with: \"For some applications such as in astronomy, small angles are measured in arcseconds (i.e. seconds of plane angle), denoted as or \u2032\u2032, or milliarcseconds, microarcseconds and picoarcseconds, denoted mas, \u03bcas and pas, respectively, where arcsecond is an alternative name for second of plane angle.\"\n- The formulation \"denoted as or \u2033\" is reproduced here faithfully from the source and suggests an alternate symbol may have been omitted due to a typographical error.\n  It is not clear what alternate symbol was intended to be referenced.",
+            "description": "A unit of plane and phase angle equal to 1/60 of a degree which is 1/21600 of a circle and equivalent to pi/10800 rad, with rad defined according to the 1960 supplementary SI unit.\n\nThis definition uses \"arcminute\" as the unit name to distinguish it from the time unit named minute.\nA footnote in the International System of Units, 9th ed. (2019) note that \"arcsecond is an alternative name for second of plane angle\".\nHowever, \"arcminute\" and \"arcmin\" have so far not been mentioned in any of the editions of the International System of Units.\nThey are defined in the GNU Units 3.15 unit database as 1/60 degree.\n\nThe unit appear under the name minute (with symbol \u2032) in the International System of Units (SI), 1st ed. (1970) defined as \"1\u2032 = (1/60)\u00b0 = (\u03c0/10800) rad\".\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \"Units in use with the International System.\"\n- The International System of Units (SI), 7th ed. (1998) adds as a footnote: \"ISO 31 recommends that the degree be subdivided decimally rather than using the minute and second.\"\n- The International System of Units (SI), 8th ed. (2006) further adds to that footnote: \"For navigation and surveying, however, the minute has the advantage that one minute of latitude on the surface of the Earth corresponds (approximately) to one nautical mile.\"\n- The International System of Units (SI), 9th ed. (2019) replaces the footnote with: \"For some applications such as in astronomy, small angles are measured in arcseconds (i.e. seconds of plane angle), denoted as or \u2032\u2032, or milliarcseconds, microarcseconds and picoarcseconds, denoted mas, \u03bcas and pas, respectively, where arcsecond is an alternative name for second of plane angle.\"\n- The formulation \"denoted as or \u2033\" is reproduced here faithfully from the source and suggests an alternate symbol may have been omitted due to a typographical error.\n  It is not clear what alternate symbol was intended to be referenced.",
             "resources": [
                 {
                     "relation": "Definition in the International System of Units (SI), 1st Edition",
@@ -402,7 +402,7 @@ This unitsystem defines the following prefixes:
                 "second of arc",
                 "\""
             ],
-            "description": "A unit of plane and phase angle equal to 1/60 of an arcminute, which is 1/1296000 of a circle and equivalent to pi/648000 rad, with rad defined according to the 1960 supplementary SI unit.\n\nThis definition uses \"arcsecond\" as the unit name to distingush it from the time unit named minute.\nThe unit appear under the name second (with symbol \u2033) in the International System of Units (SI), 1st ed. (1970) defined as \"1\u2033 = (1/60)\u2032 = (\u03c0/648 000) rad.\"\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \"Units in use with the International System.\"\n- The International System of Units (SI), 7th ed. (1998) adds as a footnote: \"ISO 31 recommends that the degree be subdivided decimally rather than using the minute and second.\"\n- The International System of Units (SI), 8th ed. (2006) further adds to that footnote: \"For navigation and surveying, however, the minute has the advantage that one minute of latitude on the surface of the Earth corresponds (approximately) to one nautical mile.\"\n- The International System of Units (SI), 9th ed. (2019) replaces the footnote with: \"For some applications such as in astronomy, small angles are measured in arcseconds (i.e. seconds of plane angle), denoted as or \u2032\u2032, or milliarcseconds, microarcseconds and picoarcseconds, denoted mas, \u03bcas and pas, respectively, where arcsecond is an alternative name for second of plane angle.\"\n  The formulation \"denoted as or \u2033\" is reproduced here faithfully from the source and suggests an alternate symbol may have been omitted due to a typographical error.\n  It is not clear what alternate symbol was intended to be referenced.",
+            "description": "A unit of plane and phase angle equal to 1/60 of an arcminute, which is 1/1296000 of a circle and equivalent to pi/648000 rad, with rad defined according to the 1960 supplementary SI unit.\n\nThis definition uses \"arcsecond\" as the unit name to distinguish it from the time unit named minute.\nThe unit appear under the name second (with symbol \u2033) in the International System of Units (SI), 1st ed. (1970) defined as \"1\u2033 = (1/60)\u2032 = (\u03c0/648 000) rad.\"\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \"Units in use with the International System.\"\n- The International System of Units (SI), 7th ed. (1998) adds as a footnote: \"ISO 31 recommends that the degree be subdivided decimally rather than using the minute and second.\"\n- The International System of Units (SI), 8th ed. (2006) further adds to that footnote: \"For navigation and surveying, however, the minute has the advantage that one minute of latitude on the surface of the Earth corresponds (approximately) to one nautical mile.\"\n- The International System of Units (SI), 9th ed. (2019) replaces the footnote with: \"For some applications such as in astronomy, small angles are measured in arcseconds (i.e. seconds of plane angle), denoted as or \u2032\u2032, or milliarcseconds, microarcseconds and picoarcseconds, denoted mas, \u03bcas and pas, respectively, where arcsecond is an alternative name for second of plane angle.\"\n  The formulation \"denoted as or \u2033\" is reproduced here faithfully from the source and suggests an alternate symbol may have been omitted due to a typographical error.\n  It is not clear what alternate symbol was intended to be referenced.",
             "resources": [
                 {
                     "relation": "Definition in the International System of Units (SI), 1st Edition",
@@ -442,7 +442,7 @@ This unitsystem defines the following prefixes:
             "title": "hectare",
             "symbol": "ha",
             "display-symbol": "ha",
-            "description": "A unit of area equal to 1000 square meters (1 hm\u00b2), with meter defined according to the 1983 SI base unit.\n\nThe hectare unit appears in the International System of Units (SI), 1st ed. (1970) defined as \"1 ha = 1 hm\u00b2 = 10\u2074 m\u00b2\" with the footnote \"This unit and its symbol were adopted by the International Committee in 1879 (Proces-Verbaux C.I.P.M., 1879, p. 41).\"\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \"units in use temporarily\".\n- The International System of Units (SI), 5th ed. (1985) add the clarification that the unit is \"used to express agrarian areas.\"\n- The International System of Units (SI), 7th ed. (1998) changes the categorisation to \"Other non-SI units currently accepted for use with the International System.\"\n\nThe hectare unit was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.",
+            "description": "A unit of area equal to 1000 square meters (1 hm\u00b2), with meter defined according to the 1983 SI base unit.\n\nThe hectare unit appears in the International System of Units (SI), 1st ed. (1970) defined as \"1 ha = 1 hm\u00b2 = 10\u2074 m\u00b2\" with the footnote \"This unit and its symbol were adopted by the International Committee in 1879 (Proces-Verbaux C.I.P.M., 1879, p. 41).\"\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \"units in use temporarily\".\n- The International System of Units (SI), 5th ed. (1985) add the clarification that the unit is \"used to express agrarian areas.\"\n- The International System of Units (SI), 7th ed. (1998) changes the categorization to \"Other non-SI units currently accepted for use with the International System.\"\n\nThe hectare unit was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.",
             "resources": [
                 {
                     "relation": "Definition in the International System of Units (SI), 9th Edition",
@@ -529,7 +529,7 @@ This unitsystem defines the following prefixes:
             "alternate-symbols": [
                 "t"
             ],
-            "description": "A unit of mass defined as 1000 kg, with kilogram defined according to the 2019 SI units.\n\nThe International System of Units (SI), 1st ed. (1970) defines the tonne as \"1 t = 10\u00b3 kg\" with the footnote \"The symbol and the unit was defined in resolution 7 at the 9:th meeting of the C.G.P.M. (1948).\"\n\nIn the 2019 implicit redefinition of the tonne, the kilogram in the definition refers to the 2019 kilogram SI base unit (https://schema.optimade.org/units/si/2019/named/kilogram).\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \"Units used with the International System\"\n- The International System of Units (SI), 3rd ed. (19) changes the reference of the definition to the 1879 meeting of the CIPM page 41.\n- The International System of Units (SI), 6th ed. (1991) further adds \"In some English-speaking countries this unit is called \u226ametric ton\u226b.\"",
+            "description": "A unit of mass defined as 1000 kg, with kilogram defined according to the 2019 SI units.\n\nThe International System of Units (SI), 1st ed. (1970) defines the tonne as \"1 t = 10\u00b3 kg\" with the footnote \"The symbol and the unit was defined in resolution 7 at the 9th meeting of the C.G.P.M. (1948).\"\n\nIn the 2019 implicit redefinition of the tonne, the kilogram in the definition refers to the 2019 kilogram SI base unit (https://schema.optimade.org/units/si/2019/named/kilogram).\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \"Units used with the International System\"\n- The International System of Units (SI), 3rd ed. (19) changes the reference of the definition to the 1879 meeting of the CIPM page 41.\n- The International System of Units (SI), 6th ed. (1991) further adds \"In some English-speaking countries this unit is called \u226ametric ton\u226b.\"",
             "resources": [
                 {
                     "relation": "Definition in the International System of Units (SI), 9th Edition",
@@ -691,7 +691,7 @@ This unitsystem defines the following prefixes:
                 "metre",
                 "meter"
             ],
-            "description": "The metre, or meter, is the SI base unit of length defined via the distance light travels in vaccum during a fixed time interval after the redefinition at the 17th CGPM Meeting in 1983.\n\n\"The metre is the length of the path travelled by light in vacuum during a time interval of 1/299792458 of a second.\" [17th CGPM Meeting (1983), resolution 1].\n\nAt the 26th CGPM Meeting (2018), resolution 1 the definition was rephrased to: \"The metre, symbol m, is the SI unit of length. It is defined by taking the fixed numerical value of the speed of light in vacuum \\(c\\) to be 299792458 when expressed in the unit m\u22c5s\u207b\u00b9, where the second is defined in terms of the caesium frequency \\(\\Delta \\nu_\\textrm{Cs}\\).\"\n\nThis definition references the SI 1967 second (https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second).",
+            "description": "The metre, or meter, is the SI base unit of length defined via the distance light travels in vacuum during a fixed time interval after the redefinition at the 17th CGPM Meeting in 1983.\n\n\"The metre is the length of the path travelled by light in vacuum during a time interval of 1/299792458 of a second.\" [17th CGPM Meeting (1983), resolution 1].\n\nAt the 26th CGPM Meeting (2018), resolution 1 the definition was rephrased to: \"The metre, symbol m, is the SI unit of length. It is defined by taking the fixed numerical value of the speed of light in vacuum \\(c\\) to be 299792458 when expressed in the unit m\u22c5s\u207b\u00b9, where the second is defined in terms of the caesium frequency \\(\\Delta \\nu_\\textrm{Cs}\\).\"\n\nThis definition references the SI 1967 second (https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second).",
             "resources": [
                 {
                     "relation": "Definition at the 17th CGPM meeting (1983), resolution 1",
@@ -1065,7 +1065,7 @@ This unitsystem defines the following prefixes:
         },
         "degC": {
             "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/degcelsius",
-            "title": "Degree Celsius",
+            "title": "degree Celsius",
             "symbol": "degC",
             "display-symbol": "\u00b0C",
             "alternate-symbols": [
@@ -1853,7 +1853,7 @@ This unitsystem defines the following prefixes:
             "title": "tesla",
             "symbol": "T",
             "display-symbol": "T",
-            "description": "A derived SI unit for magnetic flux density equal to kg\u00b7s\u207b\u00b2\u00b7A\u207b\u00b9 in the 2019 SI units.\n\nThe tesla was defined as 1 Wb/m in the introduction of the SI unit system the 11th CGPM Meeting in 1960, resolution 12, implicitly redefined via the redefinitions of the second at the 13th CGPM Meeting in 1967, resolution 1, the ampere (implcitly via the redefinition of the metre) at the 17th CGPM Meeting in 1983, resolution 1, and the kilogram and ampere at the 26th CGPM Meeting (2018), resolution 1.",
+            "description": "A derived SI unit for magnetic flux density equal to kg\u00b7s\u207b\u00b2\u00b7A\u207b\u00b9 in the 2019 SI units.\n\nThe tesla was defined as 1 Wb/m in the introduction of the SI unit system the 11th CGPM Meeting in 1960, resolution 12, implicitly redefined via the redefinitions of the second at the 13th CGPM Meeting in 1967, resolution 1, the ampere (implicitly via the redefinition of the metre) at the 17th CGPM Meeting in 1983, resolution 1, and the kilogram and ampere at the 26th CGPM Meeting (2018), resolution 1.",
             "resources": [
                 {
                     "relation": "Definition and establishment of the SI unit system at the 11th CGPM meeting (1960), resolution 12.",
@@ -2091,10 +2091,10 @@ This unitsystem defines the following prefixes:
             "title": "yotta",
             "symbol": "Y",
             "display-symbol": "Y",
-            "description": "The yotta SI prefix defined as a dimensionless multiple of 10\u00b2\u2074, defined at the 19:th CGPM Meeting in 1991, resolution 4.",
+            "description": "The yotta SI prefix defined as a dimensionless multiple of 10\u00b2\u2074, defined at the 19th CGPM Meeting in 1991, resolution 4.",
             "resources": [
                 {
-                    "relation": "Definition in the 19:th CGPM Meeting in 1991, resolution 4",
+                    "relation": "Definition in the 19th CGPM Meeting in 1991, resolution 4",
                     "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/19-1991/resolution-4"
                 },
                 {
@@ -2122,10 +2122,10 @@ This unitsystem defines the following prefixes:
             "title": "zetta",
             "symbol": "Z",
             "display-symbol": "Z",
-            "description": "The zetta SI prefix defined as a dimensionless multiple of 10\u00b2\u00b9, defined at the 19:th CGPM Meeting in 1991, resolution 4.",
+            "description": "The zetta SI prefix defined as a dimensionless multiple of 10\u00b2\u00b9, defined at the 19th CGPM Meeting in 1991, resolution 4.",
             "resources": [
                 {
-                    "relation": "Definition in the 19:th CGPM Meeting in 1991, resolution 4",
+                    "relation": "Definition in the 19th CGPM Meeting in 1991, resolution 4",
                     "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/19-1991/resolution-4"
                 },
                 {
@@ -2218,7 +2218,7 @@ This unitsystem defines the following prefixes:
             "description": "The tera SI prefix defined as a dimensionless multiple of 10\u00b9\u00b2, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
             "resources": [
                 {
-                    "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
                     "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
                 },
                 {
@@ -2249,7 +2249,7 @@ This unitsystem defines the following prefixes:
             "description": "The giga SI prefix defined as a dimensionless multiple of 10\u2079, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
             "resources": [
                 {
-                    "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
                     "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
                 },
                 {
@@ -2280,7 +2280,7 @@ This unitsystem defines the following prefixes:
             "description": "The mega SI prefix defined as a dimensionless multiple of 10\u2076, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
             "resources": [
                 {
-                    "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
                     "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
                 },
                 {
@@ -2311,7 +2311,7 @@ This unitsystem defines the following prefixes:
             "description": "The kilo SI prefix defined as a dimensionless multiple of 10\u00b3, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
             "resources": [
                 {
-                    "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
                     "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
                 },
                 {
@@ -2342,7 +2342,7 @@ This unitsystem defines the following prefixes:
             "description": "The hecto SI prefix defined as a dimensionless multiple of 10\u00b2, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
             "resources": [
                 {
-                    "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
                     "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
                 },
                 {
@@ -2373,7 +2373,7 @@ This unitsystem defines the following prefixes:
             "description": "The deca SI prefix defined as a dimensionless multiple of 10, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
             "resources": [
                 {
-                    "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
                     "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
                 },
                 {
@@ -2404,7 +2404,7 @@ This unitsystem defines the following prefixes:
             "description": "The deci SI prefix defined as a dimensionless multiple of 10\u207b\u00b9, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
             "resources": [
                 {
-                    "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
                     "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
                 },
                 {
@@ -2435,7 +2435,7 @@ This unitsystem defines the following prefixes:
             "description": "The centi SI prefix defined as a dimensionless multiple of 10\u207b\u00b2, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
             "resources": [
                 {
-                    "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
                     "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
                 },
                 {
@@ -2466,7 +2466,7 @@ This unitsystem defines the following prefixes:
             "description": "The milli SI prefix defined as a dimensionless multiple of 10\u207b\u00b3, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
             "resources": [
                 {
-                    "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
                     "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
                 },
                 {
@@ -2494,10 +2494,10 @@ This unitsystem defines the following prefixes:
             "title": "micro",
             "symbol": "mc",
             "display-symbol": "\u03bc",
-            "description": "The micro SI prefix defined as a dimensionless multiple of 10\u207b\u2076, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.\n\nThe micro SI prefix is the only one using a non Latin symbol.\nBased on the recommendation of the ISMP List of Error-Prone Abbreviations, Symbols, and Dose Designations to use mcg in place of \u03bcg, i.e., mc is used as the symbol for micro using the Latin alphabet.",
+            "description": "The micro SI prefix defined as a dimensionless multiple of 10\u207b\u2076, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.\n\nThe micro SI prefix is the only one not using a Latin symbol.\nBased on the recommendation of the ISMP List of Error-Prone Abbreviations, Symbols, and Dose Designations to use mcg in place of \u03bcg, i.e., mc is used as the symbol for micro using the Latin alphabet.",
             "resources": [
                 {
-                    "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
                     "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
                 },
                 {
@@ -2532,7 +2532,7 @@ This unitsystem defines the following prefixes:
             "description": "The nano SI prefix defined as a dimensionless multiple of 10\u207b\u2079, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
             "resources": [
                 {
-                    "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
                     "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
                 },
                 {
@@ -2563,7 +2563,7 @@ This unitsystem defines the following prefixes:
             "description": "The pico SI prefix defined as a dimensionless multiple of 10\u207b\u00b9\u00b2, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
             "resources": [
                 {
-                    "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
                     "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
                 },
                 {
@@ -2591,7 +2591,7 @@ This unitsystem defines the following prefixes:
             "title": "femto",
             "symbol": "f",
             "display-symbol": "f",
-            "description": "The femto SI prefix defined as a dimensionless multiple of 10\u207b\u00b9\u2075, defined at the 12:th CGPM Meeting in 1964, resolution 8.",
+            "description": "The femto SI prefix defined as a dimensionless multiple of 10\u207b\u00b9\u2075, defined at the 12th CGPM Meeting in 1964, resolution 8.",
             "resources": [
                 {
                     "relation": "Definition in the 12th CGPM Meeting in 1964, resolution 8",
@@ -2622,7 +2622,7 @@ This unitsystem defines the following prefixes:
             "title": "atto",
             "symbol": "a",
             "display-symbol": "a",
-            "description": "The atto SI prefix defined as a dimensionless multiple of 10\u207b\u00b9\u2078, defined at the 12:th CGPM Meeting in 1964, resolution 8.",
+            "description": "The atto SI prefix defined as a dimensionless multiple of 10\u207b\u00b9\u2078, defined at the 12th CGPM Meeting in 1964, resolution 8.",
             "resources": [
                 {
                     "relation": "Definition in the 12th CGPM Meeting in 1964, resolution 8",
@@ -2653,10 +2653,10 @@ This unitsystem defines the following prefixes:
             "title": "zepto",
             "symbol": "z",
             "display-symbol": "z",
-            "description": "The zepto SI prefix defined as a dimensionless multiple of 10\u207b\u00b2\u00b9, defined at the 19:th CGPM Meeting in 1991, resolution 4.",
+            "description": "The zepto SI prefix defined as a dimensionless multiple of 10\u207b\u00b2\u00b9, defined at the 19th CGPM Meeting in 1991, resolution 4.",
             "resources": [
                 {
-                    "relation": "Definition in the 19:th CGPM Meeting in 1991, resolution 4",
+                    "relation": "Definition in the 19th CGPM Meeting in 1991, resolution 4",
                     "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/19-1991/resolution-4"
                 },
                 {
@@ -2684,10 +2684,10 @@ This unitsystem defines the following prefixes:
             "title": "yocto",
             "symbol": "y",
             "display-symbol": "y",
-            "description": "The yocto SI prefix defined as a dimensionless multiple of 10\u207b\u00b2\u2074, defined at the 19:th CGPM Meeting in 1991, resolution 4.",
+            "description": "The yocto SI prefix defined as a dimensionless multiple of 10\u207b\u00b2\u2074, defined at the 19th CGPM Meeting in 1991, resolution 4.",
             "resources": [
                 {
-                    "relation": "Definition in the 19:th CGPM Meeting in 1991, resolution 4",
+                    "relation": "Definition in the 19th CGPM Meeting in 1991, resolution 4",
                     "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/19-1991/resolution-4"
                 },
                 {

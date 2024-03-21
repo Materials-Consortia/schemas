@@ -54,7 +54,7 @@
                 "metre",
                 "meter"
             ],
-            "description": "The metre, or meter, is the SI base unit of length defined via the distance light travels in vaccum during a fixed time interval after the redefinition at the 17th CGPM Meeting in 1983.\n\n\"The metre is the length of the path travelled by light in vacuum during a time interval of 1/299792458 of a second.\" [17th CGPM Meeting (1983), resolution 1].\n\nAt the 26th CGPM Meeting (2018), resolution 1 the definition was rephrased to: \"The metre, symbol m, is the SI unit of length. It is defined by taking the fixed numerical value of the speed of light in vacuum \\(c\\) to be 299792458 when expressed in the unit m\u22c5s\u207b\u00b9, where the second is defined in terms of the caesium frequency \\(\\Delta \\nu_\\textrm{Cs}\\).\"\n\nThis definition references the SI 1967 second (https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second).",
+            "description": "The metre, or meter, is the SI base unit of length defined via the distance light travels in vacuum during a fixed time interval after the redefinition at the 17th CGPM Meeting in 1983.\n\n\"The metre is the length of the path travelled by light in vacuum during a time interval of 1/299792458 of a second.\" [17th CGPM Meeting (1983), resolution 1].\n\nAt the 26th CGPM Meeting (2018), resolution 1 the definition was rephrased to: \"The metre, symbol m, is the SI unit of length. It is defined by taking the fixed numerical value of the speed of light in vacuum \\(c\\) to be 299792458 when expressed in the unit m\u22c5s\u207b\u00b9, where the second is defined in terms of the caesium frequency \\(\\Delta \\nu_\\textrm{Cs}\\).\"\n\nThis definition references the SI 1967 second (https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second).",
             "resources": [
                 {
                     "relation": "Definition at the 17th CGPM meeting (1983), resolution 1",
@@ -428,7 +428,7 @@
         },
         "degC": {
             "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/degcelsius",
-            "title": "Degree Celsius",
+            "title": "degree Celsius",
             "symbol": "degC",
             "display-symbol": "\u00b0C",
             "alternate-symbols": [
@@ -1216,7 +1216,7 @@
             "title": "tesla",
             "symbol": "T",
             "display-symbol": "T",
-            "description": "A derived SI unit for magnetic flux density equal to kg\u00b7s\u207b\u00b2\u00b7A\u207b\u00b9 in the 2019 SI units.\n\nThe tesla was defined as 1 Wb/m in the introduction of the SI unit system the 11th CGPM Meeting in 1960, resolution 12, implicitly redefined via the redefinitions of the second at the 13th CGPM Meeting in 1967, resolution 1, the ampere (implcitly via the redefinition of the metre) at the 17th CGPM Meeting in 1983, resolution 1, and the kilogram and ampere at the 26th CGPM Meeting (2018), resolution 1.",
+            "description": "A derived SI unit for magnetic flux density equal to kg\u00b7s\u207b\u00b2\u00b7A\u207b\u00b9 in the 2019 SI units.\n\nThe tesla was defined as 1 Wb/m in the introduction of the SI unit system the 11th CGPM Meeting in 1960, resolution 12, implicitly redefined via the redefinitions of the second at the 13th CGPM Meeting in 1967, resolution 1, the ampere (implicitly via the redefinition of the metre) at the 17th CGPM Meeting in 1983, resolution 1, and the kilogram and ampere at the 26th CGPM Meeting (2018), resolution 1.",
             "resources": [
                 {
                     "relation": "Definition and establishment of the SI unit system at the 11th CGPM meeting (1960), resolution 12.",
@@ -1454,10 +1454,10 @@
             "title": "yotta",
             "symbol": "Y",
             "display-symbol": "Y",
-            "description": "The yotta SI prefix defined as a dimensionless multiple of 10\u00b2\u2074, defined at the 19:th CGPM Meeting in 1991, resolution 4.",
+            "description": "The yotta SI prefix defined as a dimensionless multiple of 10\u00b2\u2074, defined at the 19th CGPM Meeting in 1991, resolution 4.",
             "resources": [
                 {
-                    "relation": "Definition in the 19:th CGPM Meeting in 1991, resolution 4",
+                    "relation": "Definition in the 19th CGPM Meeting in 1991, resolution 4",
                     "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/19-1991/resolution-4"
                 },
                 {
@@ -1485,10 +1485,10 @@
             "title": "zetta",
             "symbol": "Z",
             "display-symbol": "Z",
-            "description": "The zetta SI prefix defined as a dimensionless multiple of 10\u00b2\u00b9, defined at the 19:th CGPM Meeting in 1991, resolution 4.",
+            "description": "The zetta SI prefix defined as a dimensionless multiple of 10\u00b2\u00b9, defined at the 19th CGPM Meeting in 1991, resolution 4.",
             "resources": [
                 {
-                    "relation": "Definition in the 19:th CGPM Meeting in 1991, resolution 4",
+                    "relation": "Definition in the 19th CGPM Meeting in 1991, resolution 4",
                     "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/19-1991/resolution-4"
                 },
                 {
@@ -1581,7 +1581,7 @@
             "description": "The tera SI prefix defined as a dimensionless multiple of 10\u00b9\u00b2, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
             "resources": [
                 {
-                    "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
                     "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
                 },
                 {
@@ -1612,7 +1612,7 @@
             "description": "The giga SI prefix defined as a dimensionless multiple of 10\u2079, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
             "resources": [
                 {
-                    "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
                     "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
                 },
                 {
@@ -1643,7 +1643,7 @@
             "description": "The mega SI prefix defined as a dimensionless multiple of 10\u2076, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
             "resources": [
                 {
-                    "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
                     "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
                 },
                 {
@@ -1674,7 +1674,7 @@
             "description": "The kilo SI prefix defined as a dimensionless multiple of 10\u00b3, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
             "resources": [
                 {
-                    "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
                     "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
                 },
                 {
@@ -1705,7 +1705,7 @@
             "description": "The hecto SI prefix defined as a dimensionless multiple of 10\u00b2, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
             "resources": [
                 {
-                    "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
                     "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
                 },
                 {
@@ -1736,7 +1736,7 @@
             "description": "The deca SI prefix defined as a dimensionless multiple of 10, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
             "resources": [
                 {
-                    "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
                     "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
                 },
                 {
@@ -1767,7 +1767,7 @@
             "description": "The deci SI prefix defined as a dimensionless multiple of 10\u207b\u00b9, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
             "resources": [
                 {
-                    "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
                     "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
                 },
                 {
@@ -1798,7 +1798,7 @@
             "description": "The centi SI prefix defined as a dimensionless multiple of 10\u207b\u00b2, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
             "resources": [
                 {
-                    "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
                     "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
                 },
                 {
@@ -1829,7 +1829,7 @@
             "description": "The milli SI prefix defined as a dimensionless multiple of 10\u207b\u00b3, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
             "resources": [
                 {
-                    "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
                     "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
                 },
                 {
@@ -1857,10 +1857,10 @@
             "title": "micro",
             "symbol": "mc",
             "display-symbol": "\u03bc",
-            "description": "The micro SI prefix defined as a dimensionless multiple of 10\u207b\u2076, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.\n\nThe micro SI prefix is the only one using a non Latin symbol.\nBased on the recommendation of the ISMP List of Error-Prone Abbreviations, Symbols, and Dose Designations to use mcg in place of \u03bcg, i.e., mc is used as the symbol for micro using the Latin alphabet.",
+            "description": "The micro SI prefix defined as a dimensionless multiple of 10\u207b\u2076, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.\n\nThe micro SI prefix is the only one not using a Latin symbol.\nBased on the recommendation of the ISMP List of Error-Prone Abbreviations, Symbols, and Dose Designations to use mcg in place of \u03bcg, i.e., mc is used as the symbol for micro using the Latin alphabet.",
             "resources": [
                 {
-                    "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
                     "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
                 },
                 {
@@ -1895,7 +1895,7 @@
             "description": "The nano SI prefix defined as a dimensionless multiple of 10\u207b\u2079, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
             "resources": [
                 {
-                    "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
                     "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
                 },
                 {
@@ -1926,7 +1926,7 @@
             "description": "The pico SI prefix defined as a dimensionless multiple of 10\u207b\u00b9\u00b2, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
             "resources": [
                 {
-                    "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
                     "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
                 },
                 {
@@ -1954,7 +1954,7 @@
             "title": "femto",
             "symbol": "f",
             "display-symbol": "f",
-            "description": "The femto SI prefix defined as a dimensionless multiple of 10\u207b\u00b9\u2075, defined at the 12:th CGPM Meeting in 1964, resolution 8.",
+            "description": "The femto SI prefix defined as a dimensionless multiple of 10\u207b\u00b9\u2075, defined at the 12th CGPM Meeting in 1964, resolution 8.",
             "resources": [
                 {
                     "relation": "Definition in the 12th CGPM Meeting in 1964, resolution 8",
@@ -1985,7 +1985,7 @@
             "title": "atto",
             "symbol": "a",
             "display-symbol": "a",
-            "description": "The atto SI prefix defined as a dimensionless multiple of 10\u207b\u00b9\u2078, defined at the 12:th CGPM Meeting in 1964, resolution 8.",
+            "description": "The atto SI prefix defined as a dimensionless multiple of 10\u207b\u00b9\u2078, defined at the 12th CGPM Meeting in 1964, resolution 8.",
             "resources": [
                 {
                     "relation": "Definition in the 12th CGPM Meeting in 1964, resolution 8",
@@ -2016,10 +2016,10 @@
             "title": "zepto",
             "symbol": "z",
             "display-symbol": "z",
-            "description": "The zepto SI prefix defined as a dimensionless multiple of 10\u207b\u00b2\u00b9, defined at the 19:th CGPM Meeting in 1991, resolution 4.",
+            "description": "The zepto SI prefix defined as a dimensionless multiple of 10\u207b\u00b2\u00b9, defined at the 19th CGPM Meeting in 1991, resolution 4.",
             "resources": [
                 {
-                    "relation": "Definition in the 19:th CGPM Meeting in 1991, resolution 4",
+                    "relation": "Definition in the 19th CGPM Meeting in 1991, resolution 4",
                     "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/19-1991/resolution-4"
                 },
                 {
@@ -2047,10 +2047,10 @@
             "title": "yocto",
             "symbol": "y",
             "display-symbol": "y",
-            "description": "The yocto SI prefix defined as a dimensionless multiple of 10\u207b\u00b2\u2074, defined at the 19:th CGPM Meeting in 1991, resolution 4.",
+            "description": "The yocto SI prefix defined as a dimensionless multiple of 10\u207b\u00b2\u2074, defined at the 19th CGPM Meeting in 1991, resolution 4.",
             "resources": [
                 {
-                    "relation": "Definition in the 19:th CGPM Meeting in 1991, resolution 4",
+                    "relation": "Definition in the 19th CGPM Meeting in 1991, resolution 4",
                     "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/19-1991/resolution-4"
                 },
                 {

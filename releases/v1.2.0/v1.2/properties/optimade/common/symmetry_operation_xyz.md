@@ -1,11 +1,11 @@
-# Symmetry operation (property)
+# symmetry operation (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/common/symmetry_operation_xyz`](https://schemas.optimade.org/defs/v1.2/properties/optimade/common/symmetry_operation_xyz.md)**  
 **Definition name:** `symmetry_operation_xyz`
 
-**Property name:** Symmetry operation  
+**Property name:** symmetry operation  
 **Description:** A symmetry operation given as general position x, y, z coordinates in algebraic form.  
 **Type:** string  
 
@@ -27,7 +27,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/symmetry_operation_xyz",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "Symmetry operation",
+    "title": "symmetry operation",
     "x-optimade-type": "string",
     "x-optimade-definition": {
         "label": "symmetry_operation_xyz_optimade_common",

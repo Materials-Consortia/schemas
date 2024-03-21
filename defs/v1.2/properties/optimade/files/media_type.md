@@ -1,11 +1,11 @@
-# Media type (property)
+# media type (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/media_type`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/media_type.md)**  
 **Definition name:** `media_type`
 
-**Property name:** Media type  
+**Property name:** media type  
 **Description:** Media type identifier (also known as MIME type), for a file as per [RFC 6838 Media Type Specifications and Registration Procedures](https://datatracker.ietf.org/doc/html/rfc6838).  
 **Type:** string  
 
@@ -23,7 +23,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/files/media_type",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "Media type",
+    "title": "media type",
     "x-optimade-type": "string",
     "x-optimade-definition": {
         "label": "media_type_optimade_files",

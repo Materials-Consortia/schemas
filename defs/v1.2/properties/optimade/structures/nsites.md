@@ -1,11 +1,11 @@
-# Number of sites (property)
+# number of sites (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nsites`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nsites.md)**  
 **Definition name:** `nsites`
 
-**Property name:** Number of sites  
+**Property name:** number of sites  
 **Description:** An integer specifying the length of the `cartesian_site_positions` property.  
 **Type:** integer  
 
@@ -30,7 +30,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nsites",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "Number of sites",
+    "title": "number of sites",
     "x-optimade-type": "integer",
     "x-optimade-definition": {
         "label": "nsites_optimade_structures",

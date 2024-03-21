@@ -1,11 +1,11 @@
-# Elements ratios (property)
+# elements ratios (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/elements_ratios`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/elements_ratios.md)**  
 **Definition name:** `elements_ratios`
 
-**Property name:** Elements ratios  
+**Property name:** elements ratios  
 **Description:** Relative proportions of different elements in the structure.  
 **Type:** list  
 
@@ -34,7 +34,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/elements_ratios",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "Elements ratios",
+    "title": "elements ratios",
     "x-optimade-type": "list",
     "x-optimade-definition": {
         "label": "elements_ratios_optimade_structures",

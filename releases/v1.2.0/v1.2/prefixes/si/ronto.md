@@ -9,13 +9,13 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
 **Latin symbol:** r  
 **Display symbol:** r  
   
-**Description:** The ronto SI prefix defined as a dimensionless multiple of 10^⁻²⁷, defined at the 27:th CGPM Meeting in 2022, resolution 3.
+**Description:** The ronto SI prefix defined as a dimensionless multiple of 10^⁻²⁷, defined at the 27th CGPM Meeting in 2022, resolution 3.
 
 
 
 **Resources:**
 
-- [Definition in the 27:th CGPM Meeting in 2022, resolution 3](https://www.bipm.org/en/cgpm-2022/resolution-3)
+- [Definition in the 27th CGPM Meeting in 2022, resolution 3](https://www.bipm.org/en/cgpm-2022/resolution-3)
 - [Wikipedia article describing SI prefixes](https://en.wikipedia.org/wiki/Metric_prefix)
 
 
@@ -30,10 +30,10 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
     "title": "ronto",
     "symbol": "r",
     "display-symbol": "r",
-    "description": "The ronto SI prefix defined as a dimensionless multiple of 10^\u207b\u00b2\u2077, defined at the 27:th CGPM Meeting in 2022, resolution 3.",
+    "description": "The ronto SI prefix defined as a dimensionless multiple of 10^\u207b\u00b2\u2077, defined at the 27th CGPM Meeting in 2022, resolution 3.",
     "resources": [
         {
-            "relation": "Definition in the 27:th CGPM Meeting in 2022, resolution 3",
+            "relation": "Definition in the 27th CGPM Meeting in 2022, resolution 3",
             "resource-id": "https://www.bipm.org/en/cgpm-2022/resolution-3"
         },
         {

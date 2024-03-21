@@ -1,11 +1,11 @@
-# Extended Hermann-Mauguin space group symbol (property)
+# extended Hermann-Mauguin space group symbol (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hermann_mauguin_extended`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hermann_mauguin_extended.md)**  
 **Definition name:** `space_group_symbol_hermann_mauguin_extended`
 
-**Property name:** Extended Hermann-Mauguin space group symbol  
+**Property name:** extended Hermann-Mauguin space group symbol  
 **Description:** A human- and machine-readable string containing the extended Hermann-Mauguin (H-M) symbol which specifies the space group of the structure in the response.  
 **Type:** string  
 
@@ -34,7 +34,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hermann_mauguin_extended",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "Extended Hermann-Mauguin space group symbol",
+    "title": "extended Hermann-Mauguin space group symbol",
     "x-optimade-type": "string",
     "x-optimade-definition": {
         "label": "space_group_symbol_hermann_mauguin_extended_optimade_structures",

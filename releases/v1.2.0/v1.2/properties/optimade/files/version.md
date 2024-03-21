@@ -1,12 +1,12 @@
-# Version (property)
+# version (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/version`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/version.md)**  
 **Definition name:** `version`
 
-**Property name:** Version  
-**Description:** Version information of a file (e.g. commit, revision, timestamp).  
+**Property name:** version  
+**Description:** Version information of a file (e.g., commit, revision, timestamp).  
 **Type:** string  
 
 **Requirements/Conventions:**
@@ -25,7 +25,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/files/version",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "Version",
+    "title": "version",
     "x-optimade-type": "string",
     "x-optimade-definition": {
         "label": "version_optimade_files",
@@ -38,7 +38,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
         "string",
         "null"
     ],
-    "description": "Version information of a file (e.g. commit, revision, timestamp).\n\n**Requirements/Conventions:**\n\n- If provided, it MUST be guaranteed that file contents pertaining to the same combination of id and version are the same.",
+    "description": "Version information of a file (e.g., commit, revision, timestamp).\n\n**Requirements/Conventions:**\n\n- If provided, it MUST be guaranteed that file contents pertaining to the same combination of id and version are the same.",
     "examples": [
         "3.2.6"
     ],

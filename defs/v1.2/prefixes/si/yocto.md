@@ -9,13 +9,13 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
 **Latin symbol:** y  
 **Display symbol:** y  
   
-**Description:** The yocto SI prefix defined as a dimensionless multiple of 10⁻²⁴, defined at the 19:th CGPM Meeting in 1991, resolution 4.
+**Description:** The yocto SI prefix defined as a dimensionless multiple of 10⁻²⁴, defined at the 19th CGPM Meeting in 1991, resolution 4.
 
 
 
 **Resources:**
 
-- [Definition in the 19:th CGPM Meeting in 1991, resolution 4](https://www.bipm.org/en/committees/cg/cgpm/19-1991/resolution-4)
+- [Definition in the 19th CGPM Meeting in 1991, resolution 4](https://www.bipm.org/en/committees/cg/cgpm/19-1991/resolution-4)
 - [Wikipedia article describing SI prefixes](https://en.wikipedia.org/wiki/Metric_prefix)
 
 
@@ -30,10 +30,10 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
     "title": "yocto",
     "symbol": "y",
     "display-symbol": "y",
-    "description": "The yocto SI prefix defined as a dimensionless multiple of 10\u207b\u00b2\u2074, defined at the 19:th CGPM Meeting in 1991, resolution 4.",
+    "description": "The yocto SI prefix defined as a dimensionless multiple of 10\u207b\u00b2\u2074, defined at the 19th CGPM Meeting in 1991, resolution 4.",
     "resources": [
         {
-            "relation": "Definition in the 19:th CGPM Meeting in 1991, resolution 4",
+            "relation": "Definition in the 19th CGPM Meeting in 1991, resolution 4",
             "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/19-1991/resolution-4"
         },
         {

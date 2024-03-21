@@ -44,7 +44,7 @@
         },
         "resources": {
             "$id": "https://schemas.optimade.org/meta/v1.2/common/resource_list",
-            "title": "Resource List",
+            "title": "resource list",
             "description": "A list of dictionaries that describe and reference remote resources.",
             "type": "array",
             "items": {

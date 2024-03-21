@@ -1,11 +1,11 @@
-# Species at sites (property)
+# species at sites (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/species_at_sites`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/species_at_sites.md)**  
 **Definition name:** `species_at_sites`
 
-**Property name:** Species at sites  
+**Property name:** species at sites  
 **Description:** Name of the species at each site (where values for sites are specified with the same order of the property `cartesian_site_positions`). The properties of the species are found in the property `species`.  
 **Type:** list  
 
@@ -35,7 +35,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/species_at_sites",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "Species at sites",
+    "title": "species at sites",
     "x-optimade-type": "list",
     "x-optimade-definition": {
         "label": "species_at_sites_optimade_structures",
@@ -69,7 +69,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "x-optimade-unit": "inapplicable",
     "items": {
         "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/species_name",
-        "title": "Name of the species",
+        "title": "name of the species",
         "x-optimade-type": "string",
         "x-optimade-definition": {
             "label": "species_name_optimade_common",

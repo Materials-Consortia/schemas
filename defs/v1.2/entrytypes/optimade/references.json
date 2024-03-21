@@ -1,7 +1,7 @@
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/references",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/entrytype_definition.json",
-    "title": "References",
+    "title": "references",
     "description": "The references entry type describes a reference",
     "x-optimade-definition": {
         "label": "references_entrytype_optimade",
@@ -50,7 +50,7 @@
                 "query-support": "all mandatory",
                 "response-level": "always"
             },
-            "title": "Type",
+            "title": "type",
             "x-optimade-type": "string",
             "x-optimade-definition": {
                 "label": "type_core",
@@ -76,7 +76,7 @@
                 "query-support": "all mandatory",
                 "response-level": "may"
             },
-            "title": "Immutable ID",
+            "title": "immutable ID",
             "x-optimade-type": "string",
             "x-optimade-definition": {
                 "label": "immutable_id_core",
@@ -104,7 +104,7 @@
                 "query-support": "all mandatory",
                 "response-level": "must"
             },
-            "title": "Last modified",
+            "title": "last modified",
             "x-optimade-type": "timestamp",
             "x-optimade-definition": {
                 "label": "last_modified_core",
@@ -294,7 +294,7 @@
                 "query-support": "none",
                 "response-level": "may"
             },
-            "title": "howpublished",
+            "title": "how published",
             "x-optimade-type": "string",
             "x-optimade-definition": {
                 "label": "howpublished_optimade_references",
@@ -415,7 +415,7 @@
                 "string",
                 "null"
             ],
-            "description": "The three letter abbreviation of the month of publication or writing (the month field in the BibTeX specification).",
+            "description": "The three-letter abbreviation of the month of publication or writing (the month field in the BibTeX specification).",
             "examples": [
                 "jul"
             ],
@@ -747,7 +747,7 @@
             "description": "A list of dictionaries with names of the authors.\n\n**Requirements/Conventions**:\n\n- Each list member MUST be a dictionary with the following keys:\n\n  - **name**: Full name of the person, REQUIRED.\n  - **firstname**, **lastname**: Parts of the person's name, OPTIONAL.",
             "items": {
                 "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/person",
-                "title": "Person",
+                "title": "person",
                 "x-optimade-type": "dictionary",
                 "x-optimade-definition": {
                     "label": "person_optimade_common",
@@ -842,7 +842,7 @@
             "description": "A list of dictionaries with names of the editors.\n\n**Requirements/Conventions**:\n\n- Each list member MUST be a dictionary with the following keys:\n\n  - **name**: Full name of the person, REQUIRED.\n  - **firstname**, **lastname**: Parts of the person's name, OPTIONAL.",
             "items": {
                 "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/person",
-                "title": "Person",
+                "title": "person",
                 "x-optimade-type": "dictionary",
                 "x-optimade-definition": {
                     "label": "person_optimade_common",
@@ -943,7 +943,7 @@
                 "query-support": "none",
                 "response-level": "may"
             },
-            "title": "url",
+            "title": "URL",
             "x-optimade-type": "string",
             "x-optimade-definition": {
                 "label": "url_optimade_references",

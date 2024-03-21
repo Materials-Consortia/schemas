@@ -1,11 +1,11 @@
-# Degree Celsius, °C (unit)
+# degree Celsius, °C (unit)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/degcelsius`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/degcelsius.md)**  
 **Definition name:** `degcelsius`
 
-**Unit name:** Degree Celsius  
+**Unit name:** degree Celsius  
 **Latin symbol:** degC  
 **Display symbol:** °C  
   
@@ -31,7 +31,7 @@ The degree Celsius was defined and included in SI at the 11th CGPM meeting in 19
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/degcelsius",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json",
-    "title": "Degree Celsius",
+    "title": "degree Celsius",
     "symbol": "degC",
     "display-symbol": "\u00b0C",
     "alternate-symbols": [

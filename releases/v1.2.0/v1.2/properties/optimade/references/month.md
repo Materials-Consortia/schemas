@@ -6,7 +6,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 **Definition name:** `month`
 
 **Property name:** month  
-**Description:** The three letter abbreviation of the month of publication or writing (the month field in the BibTeX specification).  
+**Description:** The three-letter abbreviation of the month of publication or writing (the month field in the BibTeX specification).  
 **Type:** string  
 
 
@@ -36,7 +36,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
         "string",
         "null"
     ],
-    "description": "The three letter abbreviation of the month of publication or writing (the month field in the BibTeX specification).",
+    "description": "The three-letter abbreviation of the month of publication or writing (the month field in the BibTeX specification).",
     "examples": [
         "jul"
     ],

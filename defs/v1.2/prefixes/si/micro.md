@@ -11,12 +11,12 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
   
 **Description:** The micro SI prefix defined as a dimensionless multiple of 10⁻⁶, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.
 
-The micro SI prefix is the only one using a non Latin symbol.
+The micro SI prefix is the only one not using a Latin symbol.
 Based on the recommendation of the ISMP List of Error-Prone Abbreviations, Symbols, and Dose Designations to use mcg in place of μg, i.e., mc is used as the symbol for micro using the Latin alphabet.
 
 **Resources:**
 
-- [Definition in the 11:th CGPM Meeting in 1960, resolution 12](https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12)
+- [Definition in the 11th CGPM Meeting in 1960, resolution 12](https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12)
 - [Use of mc to represent micro in the ISMP List of Error-Prone Abbreviations, Symbols, and Dose Designations](https://www.ismp.org/recommendations/error-prone-abbreviations-list)
 - [Wikipedia article describing the prefix](https://en.wikipedia.org/wiki/Micro-)
 
@@ -32,10 +32,10 @@ Based on the recommendation of the ISMP List of Error-Prone Abbreviations, Symbo
     "title": "micro",
     "symbol": "mc",
     "display-symbol": "\u03bc",
-    "description": "The micro SI prefix defined as a dimensionless multiple of 10\u207b\u2076, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.\n\nThe micro SI prefix is the only one using a non Latin symbol.\nBased on the recommendation of the ISMP List of Error-Prone Abbreviations, Symbols, and Dose Designations to use mcg in place of \u03bcg, i.e., mc is used as the symbol for micro using the Latin alphabet.",
+    "description": "The micro SI prefix defined as a dimensionless multiple of 10\u207b\u2076, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.\n\nThe micro SI prefix is the only one not using a Latin symbol.\nBased on the recommendation of the ISMP List of Error-Prone Abbreviations, Symbols, and Dose Designations to use mcg in place of \u03bcg, i.e., mc is used as the symbol for micro using the Latin alphabet.",
     "resources": [
         {
-            "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
+            "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
             "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
         },
         {

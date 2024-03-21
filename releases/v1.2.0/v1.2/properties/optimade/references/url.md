@@ -1,11 +1,11 @@
-# url (property)
+# URL (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/url`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/url.md)**  
 **Definition name:** `url`
 
-**Property name:** url  
+**Property name:** URL  
 **Description:** The URL of the object being referenced.  
 **Type:** string  
 
@@ -23,7 +23,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/references/url",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "url",
+    "title": "URL",
     "x-optimade-type": "string",
     "x-optimade-definition": {
         "label": "url_optimade_references",

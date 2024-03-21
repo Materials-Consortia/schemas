@@ -1,11 +1,11 @@
-# Modification timestamp (property)
+# modification timestamp (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/modification_timestamp`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/modification_timestamp.md)**  
 **Definition name:** `modification_timestamp`
 
-**Property name:** Modification timestamp  
+**Property name:** modification timestamp  
 **Description:** Timestamp of the last modification of file contents. A modification is understood as an addition, change or deletion of one or more bytes, resulting in file contents different from the previous.  
 **Type:** timestamp  
 
@@ -25,7 +25,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/files/modification_timestamp",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "Modification timestamp",
+    "title": "modification timestamp",
     "x-optimade-type": "timestamp",
     "x-optimade-definition": {
         "label": "modification_timestamp_optimade_files",

@@ -1,7 +1,7 @@
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/files/version",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "Version",
+    "title": "version",
     "x-optimade-type": "string",
     "x-optimade-definition": {
         "label": "version_optimade_files",
@@ -14,7 +14,7 @@
         "string",
         "null"
     ],
-    "description": "Version information of a file (e.g. commit, revision, timestamp).\n\n**Requirements/Conventions:**\n\n- If provided, it MUST be guaranteed that file contents pertaining to the same combination of id and version are the same.",
+    "description": "Version information of a file (e.g., commit, revision, timestamp).\n\n**Requirements/Conventions:**\n\n- If provided, it MUST be guaranteed that file contents pertaining to the same combination of id and version are the same.",
     "examples": [
         "3.2.6"
     ],

@@ -13,7 +13,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Unit Definition](h
 
 "The weber is the magnetic induction flux that, passing through a single-turn circuit, produces an electromotive force of one volt if it is reduced to zero in one second by uniform decay." [9th CGPM meeting in 1946]
 
-The weber was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12, implicitly redefined via the redefinition of the second at the 13th CGPM Meeting in 1967, resolution 1, and again implicity redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.
+The weber was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12, implicitly redefined via the redefinition of the second at the 13th CGPM Meeting in 1967, resolution 1, and again implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.
 
 **Resources:**
 
@@ -35,7 +35,7 @@ The weber was defined at the 9th CGPM Meeting in 1946, included in SI at the 11t
     "title": "weber",
     "symbol": "Wb",
     "display-symbol": "Wb",
-    "description": "A derived SI unit for magnetic flux equal to kg\u00b7m\u00b2\u00b7s\u207b\u00b3\u00b7A\u207b\u00b9 in the 1983 SI units.\n\n\"The weber is the magnetic induction flux that, passing through a single-turn circuit, produces an electromotive force of one volt if it is reduced to zero in one second by uniform decay.\" [9th CGPM meeting in 1946]\n\nThe weber was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12, implicitly redefined via the redefinition of the second at the 13th CGPM Meeting in 1967, resolution 1, and again implicity redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.",
+    "description": "A derived SI unit for magnetic flux equal to kg\u00b7m\u00b2\u00b7s\u207b\u00b3\u00b7A\u207b\u00b9 in the 1983 SI units.\n\n\"The weber is the magnetic induction flux that, passing through a single-turn circuit, produces an electromotive force of one volt if it is reduced to zero in one second by uniform decay.\" [9th CGPM meeting in 1946]\n\nThe weber was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12, implicitly redefined via the redefinition of the second at the 13th CGPM Meeting in 1967, resolution 1, and again implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.",
     "resources": [
         {
             "relation": "Definition at the 41st CIPM meeting (1946), resolution 2",

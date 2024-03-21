@@ -1,8 +1,8 @@
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/files",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/entrytype_definition.json",
-    "title": "Files",
-    "description": "The files entry type describes a file with metadata and an URL to retrive it",
+    "title": "files",
+    "description": "The files entry type describes a file with metadata and a URL to retrieve it",
     "x-optimade-definition": {
         "label": "files_entrytype_optimade",
         "kind": "entrytype",
@@ -50,7 +50,7 @@
                 "query-support": "all mandatory",
                 "response-level": "always"
             },
-            "title": "Type",
+            "title": "type",
             "x-optimade-type": "string",
             "x-optimade-definition": {
                 "label": "type_core",
@@ -76,7 +76,7 @@
                 "query-support": "all mandatory",
                 "response-level": "may"
             },
-            "title": "Immutable ID",
+            "title": "immutable ID",
             "x-optimade-type": "string",
             "x-optimade-definition": {
                 "label": "immutable_id_core",
@@ -104,7 +104,7 @@
                 "query-support": "all mandatory",
                 "response-level": "must"
             },
-            "title": "Last modified",
+            "title": "last modified",
             "x-optimade-type": "timestamp",
             "x-optimade-definition": {
                 "label": "last_modified_core",
@@ -171,7 +171,7 @@
                 "string",
                 "null"
             ],
-            "description": "Point in time until which the URL in `url` is guaranteed to stay stable.\n\n**Requirements/Conventions:**\n\n- `null` means that there is no stability guarantee for the URL in url.\n  Indefinite support could be communicated by providing a date sufficiently far in the future, for example, 9999-12-31.",
+            "description": "Point in time until which the URL in `url` is guaranteed to stay stable.\n\n**Requirements/Conventions:**\n\n- `null` means that there is no stability guarantee for the URL in `url`.\n  Indefinite support could be communicated by providing a date sufficiently far in the future, for example, 9999-12-31.",
             "examples": [
                 "2052-04-05T14:30:20Z"
             ],
@@ -186,7 +186,7 @@
                 "query-support": "none",
                 "response-level": "may"
             },
-            "title": "Name",
+            "title": "name",
             "x-optimade-type": "string",
             "x-optimade-definition": {
                 "label": "name_optimade_files",
@@ -212,7 +212,7 @@
                 "query-support": "none",
                 "response-level": "may"
             },
-            "title": "Size",
+            "title": "size",
             "x-optimade-type": "integer",
             "x-optimade-definition": {
                 "label": "size_optimade_files",
@@ -283,7 +283,7 @@
                 "query-support": "none",
                 "response-level": "may"
             },
-            "title": "Media type",
+            "title": "media type",
             "x-optimade-type": "string",
             "x-optimade-definition": {
                 "label": "media_type_optimade_files",
@@ -310,7 +310,7 @@
                 "query-support": "none",
                 "response-level": "may"
             },
-            "title": "Version",
+            "title": "version",
             "x-optimade-type": "string",
             "x-optimade-definition": {
                 "label": "version_optimade_files",
@@ -323,7 +323,7 @@
                 "string",
                 "null"
             ],
-            "description": "Version information of a file (e.g. commit, revision, timestamp).\n\n**Requirements/Conventions:**\n\n- If provided, it MUST be guaranteed that file contents pertaining to the same combination of id and version are the same.",
+            "description": "Version information of a file (e.g., commit, revision, timestamp).\n\n**Requirements/Conventions:**\n\n- If provided, it MUST be guaranteed that file contents pertaining to the same combination of id and version are the same.",
             "examples": [
                 "3.2.6"
             ],
@@ -337,7 +337,7 @@
                 "query-support": "none",
                 "response-level": "may"
             },
-            "title": "Modification timestamp",
+            "title": "modification timestamp",
             "x-optimade-type": "timestamp",
             "x-optimade-definition": {
                 "label": "modification_timestamp_optimade_files",
@@ -364,7 +364,7 @@
                 "query-support": "none",
                 "response-level": "may"
             },
-            "title": "Description",
+            "title": "description",
             "x-optimade-type": "string",
             "x-optimade-definition": {
                 "label": "description_optimade_files",
@@ -391,7 +391,7 @@
                 "query-support": "none",
                 "response-level": "may"
             },
-            "title": "Checksums",
+            "title": "checksums",
             "x-optimade-type": "dictionary",
             "x-optimade-definition": {
                 "label": "checksums_optimade_files",
@@ -457,7 +457,7 @@
                 "query-support": "none",
                 "response-level": "may"
             },
-            "title": "Access time",
+            "title": "access time",
             "x-optimade-type": "timestamp",
             "x-optimade-definition": {
                 "label": "atime_optimade_files",
@@ -485,7 +485,7 @@
                 "query-support": "none",
                 "response-level": "may"
             },
-            "title": "Change time",
+            "title": "change time",
             "x-optimade-type": "timestamp",
             "x-optimade-definition": {
                 "label": "ctime_optimade_files",
@@ -513,7 +513,7 @@
                 "query-support": "none",
                 "response-level": "may"
             },
-            "title": "Modification time",
+            "title": "modification time",
             "x-optimade-type": "timestamp",
             "x-optimade-definition": {
                 "label": "mtime_optimade_files",

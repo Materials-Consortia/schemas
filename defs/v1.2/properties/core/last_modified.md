@@ -1,11 +1,11 @@
-# Last modified (property)
+# last modified (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/properties/core/last_modified`](https://schemas.optimade.org/defs/v1.2/properties/core/last_modified.md)**  
 **Definition name:** `last_modified`
 
-**Property name:** Last modified  
+**Property name:** last modified  
 **Description:** Date and time representing when the entry was last modified.  
 **Type:** timestamp  
 
@@ -23,7 +23,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/core/last_modified",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "Last modified",
+    "title": "last modified",
     "x-optimade-type": "timestamp",
     "x-optimade-definition": {
         "label": "last_modified_core",

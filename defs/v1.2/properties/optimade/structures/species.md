@@ -1,11 +1,11 @@
-# Species (property)
+# species (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/species`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/species.md)**  
 **Definition name:** `species`
 
-**Property name:** Species  
+**Property name:** species  
 **Description:** A list describing the species of the sites of this structure. Species can represent pure chemical elements, virtual-crystal atoms representing a statistical occupation of a given site by multiple chemical elements, and/or a location to which there are attached atoms, i.e., atoms whose precise location are unknown beyond that they are attached to that position (frequently used to indicate hydrogen atoms attached to another element, e.g., a carbon with three attached hydrogens might represent a methyl group, -CH3).  
 **Type:** list  
 
@@ -75,7 +75,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/species",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "Species",
+    "title": "species",
     "x-optimade-type": "list",
     "x-optimade-definition": {
         "label": "species_optimade_structures",
@@ -251,7 +251,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
         "properties": {
             "name": {
                 "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/species_name",
-                "title": "Name of the species",
+                "title": "name of the species",
                 "x-optimade-type": "string",
                 "x-optimade-definition": {
                     "label": "species_name_optimade_common",
@@ -298,7 +298,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
                 "x-optimade-unit": "inapplicable",
                 "items": {
                     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/chemical_symbol_or_vacancy",
-                    "title": "Chemical symbol or vacancy",
+                    "title": "chemical symbol or vacancy",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
                         "label": "chemical_symbol_or_vacancy_optimade_common",
@@ -505,7 +505,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
                 "x-optimade-unit": "inapplicable",
                 "items": {
                     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/chemical_symbol",
-                    "title": "Chemical symbol",
+                    "title": "chemical symbol",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
                         "label": "chemical_symbol_optimade_common",

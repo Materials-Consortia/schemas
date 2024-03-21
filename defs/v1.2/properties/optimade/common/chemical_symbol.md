@@ -1,11 +1,11 @@
-# Chemical symbol (property)
+# chemical symbol (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/common/chemical_symbol`](https://schemas.optimade.org/defs/v1.2/properties/optimade/common/chemical_symbol.md)**  
 **Definition name:** `chemical_symbol`
 
-**Property name:** Chemical symbol  
+**Property name:** chemical symbol  
 **Description:** A chemical symbol referring to an element or a non-chemical element.  
 **Type:** string  
 
@@ -29,7 +29,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/chemical_symbol",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "Chemical symbol",
+    "title": "chemical symbol",
     "x-optimade-type": "string",
     "x-optimade-definition": {
         "label": "chemical_symbol_optimade_common",

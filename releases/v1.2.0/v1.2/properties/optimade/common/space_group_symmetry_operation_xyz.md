@@ -1,11 +1,11 @@
-# Space group symmetry operation (property)
+# space group symmetry operation (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/common/space_group_symmetry_operation_xyz`](https://schemas.optimade.org/defs/v1.2/properties/optimade/common/space_group_symmetry_operation_xyz.md)**  
 **Definition name:** `space_group_symmetry_operation_xyz`
 
-**Property name:** Space group symmetry operation  
+**Property name:** space group symmetry operation  
 **Description:** A single symmetry operation.  
 **Type:** string  
 
@@ -34,7 +34,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/space_group_symmetry_operation_xyz",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "Space group symmetry operation",
+    "title": "space group symmetry operation",
     "x-optimade-type": "string",
     "x-optimade-definition": {
         "label": "space_group_symmetry_operation_xyz_optimade_common",

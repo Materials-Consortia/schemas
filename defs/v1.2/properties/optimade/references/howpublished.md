@@ -1,11 +1,11 @@
-# howpublished (property)
+# how published (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/howpublished`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/howpublished.md)**  
 **Definition name:** `howpublished`
 
-**Property name:** howpublished  
+**Property name:** how published  
 **Description:** The method of publication (the howpublished field in the BibTeX specification)  
 **Type:** string  
 
@@ -23,7 +23,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/references/howpublished",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "howpublished",
+    "title": "how published",
     "x-optimade-type": "string",
     "x-optimade-definition": {
         "label": "howpublished_optimade_references",

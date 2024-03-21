@@ -1,11 +1,11 @@
-# Space group IT number (property)
+# space group IT number (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_it_number`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_it_number.md)**  
 **Definition name:** `space_group_it_number`
 
-**Property name:** Space group IT number  
+**Property name:** space group IT number  
 **Description:** Space group number for the structure assigned by the International Tables for Crystallography Vol. A.  
 **Type:** integer  
 
@@ -26,7 +26,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_it_number",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "Space group IT number",
+    "title": "space group IT number",
     "x-optimade-type": "integer",
     "x-optimade-definition": {
         "label": "space_group_it_number_optimade_structures",

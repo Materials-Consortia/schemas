@@ -1,11 +1,11 @@
-# Size (property)
+# size (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/size`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/size.md)**  
 **Definition name:** `size`
 
-**Property name:** Size  
+**Property name:** size  
 **Description:** Size of a file in bytes.  
 **Type:** integer  
 
@@ -27,7 +27,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/files/size",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "Size",
+    "title": "size",
     "x-optimade-type": "integer",
     "x-optimade-definition": {
         "label": "size_optimade_files",

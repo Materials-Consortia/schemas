@@ -9,13 +9,13 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
 **Latin symbol:** q  
 **Display symbol:** q  
   
-**Description:** The quecto SI prefix defined as a dimensionless multiple of 10⁻³⁰, defined at the 27:th CGPM Meeting in 2022, resolution 3.
+**Description:** The quecto SI prefix defined as a dimensionless multiple of 10⁻³⁰, defined at the 27th CGPM Meeting in 2022, resolution 3.
 
 
 
 **Resources:**
 
-- [Definition in the 27:th CGPM Meeting in 2022, resolution 3](https://www.bipm.org/en/cgpm-2022/resolution-3)
+- [Definition in the 27th CGPM Meeting in 2022, resolution 3](https://www.bipm.org/en/cgpm-2022/resolution-3)
 - [Wikipedia article describing SI prefixes](https://en.wikipedia.org/wiki/Metric_prefix)
 
 
@@ -30,10 +30,10 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
     "title": "quecto",
     "symbol": "q",
     "display-symbol": "q",
-    "description": "The quecto SI prefix defined as a dimensionless multiple of 10\u207b\u00b3\u2070, defined at the 27:th CGPM Meeting in 2022, resolution 3.",
+    "description": "The quecto SI prefix defined as a dimensionless multiple of 10\u207b\u00b3\u2070, defined at the 27th CGPM Meeting in 2022, resolution 3.",
     "resources": [
         {
-            "relation": "Definition in the 27:th CGPM Meeting in 2022, resolution 3",
+            "relation": "Definition in the 27th CGPM Meeting in 2022, resolution 3",
             "resource-id": "https://www.bipm.org/en/cgpm-2022/resolution-3"
         },
         {

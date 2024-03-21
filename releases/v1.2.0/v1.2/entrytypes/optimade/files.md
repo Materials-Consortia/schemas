@@ -1,12 +1,12 @@
-# Files (entrytype)
+# files (entrytype)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Entrytype Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/files`](https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/files.md)**  
 **Definition name:** `files`
 
-**Entrytype name:** Files  
-**Description:** The files entry type describes a file with metadata and an URL to retrive it  
+**Entrytype name:** files  
+**Description:** The files entry type describes a file with metadata and a URL to retrieve it  
 
 **Formats:** [[JSON](files.json)] [[MD](files.md)]
 
@@ -25,7 +25,7 @@ This entrytype defines the following properties:
     - IDs MAY change over time.
 
 
-* **[Type](../../properties/core/type.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/type`](https://schemas.optimade.org/defs/v1.2/properties/core/type.md)  
+* **[type](../../properties/core/type.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/type`](https://schemas.optimade.org/defs/v1.2/properties/core/type.md)  
   The name of the type of an entry.
 
     **Requirements/Conventions:**  
@@ -37,7 +37,7 @@ This entrytype defines the following properties:
     - The entry of type <type> and ID <id> MUST be returned in response to a request for /<type>/<id> under the versioned or unversioned base URL serving the API.
 
 
-* **[Immutable ID (immutable_id)](../../properties/core/immutable_id.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id`](https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id.md)  
+* **[immutable ID (immutable_id)](../../properties/core/immutable_id.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id`](https://schemas.optimade.org/defs/v1.2/properties/core/immutable_id.md)  
   The entry's immutable ID (e.g., a UUID).
 
     **Requirements/Conventions:**  
@@ -49,7 +49,7 @@ This entrytype defines the following properties:
     - This ID maps to the version-specific record, in case it changes in the future.
 
 
-* **[Last modified (last_modified)](../../properties/core/last_modified.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/last_modified`](https://schemas.optimade.org/defs/v1.2/properties/core/last_modified.md)  
+* **[last modified (last_modified)](../../properties/core/last_modified.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/core/last_modified`](https://schemas.optimade.org/defs/v1.2/properties/core/last_modified.md)  
   Date and time representing when the entry was last modified.
 
     **Requirements/Conventions:**  
@@ -77,11 +77,11 @@ This entrytype defines the following properties:
     - **Support:** OPTIONAL support in implementations, i.e., MAY be `null`.
     - **Query:** Support for queries on this property is OPTIONAL.
     - **Response:** MAY be included by default in the response.
-    - `null` means that there is no stability guarantee for the URL in url.
+    - `null` means that there is no stability guarantee for the URL in `url`.
       Indefinite support could be communicated by providing a date sufficiently far in the future, for example, 9999-12-31.
 
 
-* **[Name](../../properties/optimade/files/name.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/name`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/name.md)  
+* **[name](../../properties/optimade/files/name.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/name`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/name.md)  
   Base name of a file.
 
     **Requirements/Conventions:**  
@@ -92,7 +92,7 @@ This entrytype defines the following properties:
     - File name extension is an integral part of a file name and, if available, MUST be included.
 
 
-* **[Size](../../properties/optimade/files/size.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/size`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/size.md)  
+* **[size](../../properties/optimade/files/size.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/size`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/size.md)  
   Size of a file in bytes.
 
     **Requirements/Conventions:**  
@@ -105,7 +105,7 @@ This entrytype defines the following properties:
       Such provision is included to allow the providers to serve on-the-fly compressed files.
 
 
-* **[Media type (media_type)](../../properties/optimade/files/media_type.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/media_type`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/media_type.md)  
+* **[media type (media_type)](../../properties/optimade/files/media_type.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/media_type`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/media_type.md)  
   Media type identifier (also known as MIME type), for a file as per [RFC 6838 Media Type Specifications and Registration Procedures](https://datatracker.ietf.org/doc/html/rfc6838).
 
     **Requirements/Conventions:**  
@@ -114,8 +114,8 @@ This entrytype defines the following properties:
     - **Query:** Support for queries on this property is OPTIONAL.
     - **Response:** MAY be included by default in the response.
 
-* **[Version](../../properties/optimade/files/version.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/version`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/version.md)  
-  Version information of a file (e.g. commit, revision, timestamp).
+* **[version](../../properties/optimade/files/version.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/version`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/version.md)  
+  Version information of a file (e.g., commit, revision, timestamp).
 
     **Requirements/Conventions:**  
 
@@ -125,7 +125,7 @@ This entrytype defines the following properties:
     - If provided, it MUST be guaranteed that file contents pertaining to the same combination of id and version are the same.
 
 
-* **[Modification timestamp (modification_timestamp)](../../properties/optimade/files/modification_timestamp.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/modification_timestamp`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/modification_timestamp.md)  
+* **[modification timestamp (modification_timestamp)](../../properties/optimade/files/modification_timestamp.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/modification_timestamp`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/modification_timestamp.md)  
   Timestamp of the last modification of file contents. A modification is understood as an addition, change or deletion of one or more bytes, resulting in file contents different from the previous.
 
     **Requirements/Conventions:**  
@@ -136,7 +136,7 @@ This entrytype defines the following properties:
     - Timestamps of subsequent file modifications SHOULD be increasing (not earlier than previous timestamps).
 
 
-* **[Description](../../properties/optimade/files/description.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/description`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/description.md)  
+* **[description](../../properties/optimade/files/description.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/description`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/description.md)  
   Free-form description of a file.
 
     **Requirements/Conventions:**  
@@ -145,7 +145,7 @@ This entrytype defines the following properties:
     - **Query:** Support for queries on this property is OPTIONAL.
     - **Response:** MAY be included by default in the response.
 
-* **[Checksums](../../properties/optimade/files/checksums.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/checksums`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/checksums.md)  
+* **[checksums](../../properties/optimade/files/checksums.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/checksums`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/checksums.md)  
   Dictionary providing checksums of file contents.
 
     **Requirements/Conventions:**  
@@ -159,7 +159,7 @@ This entrytype defines the following properties:
       Checksums outside this list MAY be used, but their names MUST be prefixed by database-provider-specific namespace prefix.
 
 
-* **[Access time (atime)](../../properties/optimade/files/atime.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/atime`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/atime.md)  
+* **[access time (atime)](../../properties/optimade/files/atime.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/atime`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/atime.md)  
   Time of last access of a file as per POSIX standard.
 
     **Requirements/Conventions:**  
@@ -168,7 +168,7 @@ This entrytype defines the following properties:
     - **Query:** Support for queries on this property is OPTIONAL.
     - **Response:** MAY be included by default in the response.
 
-* **[Change time (ctime)](../../properties/optimade/files/ctime.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/ctime`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/ctime.md)  
+* **[change time (ctime)](../../properties/optimade/files/ctime.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/ctime`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/ctime.md)  
   Time of last status change of a file as per POSIX standard.
 
     **Requirements/Conventions:**  
@@ -177,7 +177,7 @@ This entrytype defines the following properties:
     - **Query:** Support for queries on this property is OPTIONAL.
     - **Response:** MAY be included by default in the response.
 
-* **[Modification time (mtime)](../../properties/optimade/files/mtime.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/mtime`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/mtime.md)  
+* **[modification time (mtime)](../../properties/optimade/files/mtime.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/files/mtime`](https://schemas.optimade.org/defs/v1.2/properties/optimade/files/mtime.md)  
   Time of last modification of a file as per POSIX standard.
 
     **Requirements/Conventions:**  
@@ -197,8 +197,8 @@ This entrytype defines the following properties:
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/entrytypes/optimade/files",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/entrytype_definition.json",
-    "title": "Files",
-    "description": "The files entry type describes a file with metadata and an URL to retrive it",
+    "title": "files",
+    "description": "The files entry type describes a file with metadata and a URL to retrieve it",
     "x-optimade-definition": {
         "label": "files_entrytype_optimade",
         "kind": "entrytype",
@@ -246,7 +246,7 @@ This entrytype defines the following properties:
                 "query-support": "all mandatory",
                 "response-level": "always"
             },
-            "title": "Type",
+            "title": "type",
             "x-optimade-type": "string",
             "x-optimade-definition": {
                 "label": "type_core",
@@ -272,7 +272,7 @@ This entrytype defines the following properties:
                 "query-support": "all mandatory",
                 "response-level": "may"
             },
-            "title": "Immutable ID",
+            "title": "immutable ID",
             "x-optimade-type": "string",
             "x-optimade-definition": {
                 "label": "immutable_id_core",
@@ -300,7 +300,7 @@ This entrytype defines the following properties:
                 "query-support": "all mandatory",
                 "response-level": "must"
             },
-            "title": "Last modified",
+            "title": "last modified",
             "x-optimade-type": "timestamp",
             "x-optimade-definition": {
                 "label": "last_modified_core",
@@ -367,7 +367,7 @@ This entrytype defines the following properties:
                 "string",
                 "null"
             ],
-            "description": "Point in time until which the URL in `url` is guaranteed to stay stable.\n\n**Requirements/Conventions:**\n\n- `null` means that there is no stability guarantee for the URL in url.\n  Indefinite support could be communicated by providing a date sufficiently far in the future, for example, 9999-12-31.",
+            "description": "Point in time until which the URL in `url` is guaranteed to stay stable.\n\n**Requirements/Conventions:**\n\n- `null` means that there is no stability guarantee for the URL in `url`.\n  Indefinite support could be communicated by providing a date sufficiently far in the future, for example, 9999-12-31.",
             "examples": [
                 "2052-04-05T14:30:20Z"
             ],
@@ -382,7 +382,7 @@ This entrytype defines the following properties:
                 "query-support": "none",
                 "response-level": "may"
             },
-            "title": "Name",
+            "title": "name",
             "x-optimade-type": "string",
             "x-optimade-definition": {
                 "label": "name_optimade_files",
@@ -408,7 +408,7 @@ This entrytype defines the following properties:
                 "query-support": "none",
                 "response-level": "may"
             },
-            "title": "Size",
+            "title": "size",
             "x-optimade-type": "integer",
             "x-optimade-definition": {
                 "label": "size_optimade_files",
@@ -479,7 +479,7 @@ This entrytype defines the following properties:
                 "query-support": "none",
                 "response-level": "may"
             },
-            "title": "Media type",
+            "title": "media type",
             "x-optimade-type": "string",
             "x-optimade-definition": {
                 "label": "media_type_optimade_files",
@@ -506,7 +506,7 @@ This entrytype defines the following properties:
                 "query-support": "none",
                 "response-level": "may"
             },
-            "title": "Version",
+            "title": "version",
             "x-optimade-type": "string",
             "x-optimade-definition": {
                 "label": "version_optimade_files",
@@ -519,7 +519,7 @@ This entrytype defines the following properties:
                 "string",
                 "null"
             ],
-            "description": "Version information of a file (e.g. commit, revision, timestamp).\n\n**Requirements/Conventions:**\n\n- If provided, it MUST be guaranteed that file contents pertaining to the same combination of id and version are the same.",
+            "description": "Version information of a file (e.g., commit, revision, timestamp).\n\n**Requirements/Conventions:**\n\n- If provided, it MUST be guaranteed that file contents pertaining to the same combination of id and version are the same.",
             "examples": [
                 "3.2.6"
             ],
@@ -533,7 +533,7 @@ This entrytype defines the following properties:
                 "query-support": "none",
                 "response-level": "may"
             },
-            "title": "Modification timestamp",
+            "title": "modification timestamp",
             "x-optimade-type": "timestamp",
             "x-optimade-definition": {
                 "label": "modification_timestamp_optimade_files",
@@ -560,7 +560,7 @@ This entrytype defines the following properties:
                 "query-support": "none",
                 "response-level": "may"
             },
-            "title": "Description",
+            "title": "description",
             "x-optimade-type": "string",
             "x-optimade-definition": {
                 "label": "description_optimade_files",
@@ -587,7 +587,7 @@ This entrytype defines the following properties:
                 "query-support": "none",
                 "response-level": "may"
             },
-            "title": "Checksums",
+            "title": "checksums",
             "x-optimade-type": "dictionary",
             "x-optimade-definition": {
                 "label": "checksums_optimade_files",
@@ -653,7 +653,7 @@ This entrytype defines the following properties:
                 "query-support": "none",
                 "response-level": "may"
             },
-            "title": "Access time",
+            "title": "access time",
             "x-optimade-type": "timestamp",
             "x-optimade-definition": {
                 "label": "atime_optimade_files",
@@ -681,7 +681,7 @@ This entrytype defines the following properties:
                 "query-support": "none",
                 "response-level": "may"
             },
-            "title": "Change time",
+            "title": "change time",
             "x-optimade-type": "timestamp",
             "x-optimade-definition": {
                 "label": "ctime_optimade_files",
@@ -709,7 +709,7 @@ This entrytype defines the following properties:
                 "query-support": "none",
                 "response-level": "may"
             },
-            "title": "Modification time",
+            "title": "modification time",
             "x-optimade-type": "timestamp",
             "x-optimade-definition": {
                 "label": "mtime_optimade_files",

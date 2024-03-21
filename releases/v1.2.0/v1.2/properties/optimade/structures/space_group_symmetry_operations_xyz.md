@@ -1,11 +1,11 @@
-# Space group symmetry operations (property)
+# space group symmetry operations (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symmetry_operations_xyz`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symmetry_operations_xyz.md)**  
 **Definition name:** `space_group_symmetry_operations_xyz`
 
-**Property name:** Space group symmetry operations  
+**Property name:** space group symmetry operations  
 **Description:** A list of symmetry operations given as general position x, y and z coordinates in algebraic form.  
 **Type:** list  
 
@@ -51,7 +51,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symmetry_operations_xyz",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "Space group symmetry operations",
+    "title": "space group symmetry operations",
     "x-optimade-type": "list",
     "x-optimade-definition": {
         "label": "space_group_symmetry_operations_xyz_optimade_structures",
@@ -80,7 +80,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "x-optimade-unit": "unapplicable",
     "items": {
         "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/space_group_symmetry_operation_xyz",
-        "title": "Space group symmetry operation",
+        "title": "space group symmetry operation",
         "x-optimade-type": "string",
         "x-optimade-definition": {
             "label": "space_group_symmetry_operation_xyz_optimade_common",

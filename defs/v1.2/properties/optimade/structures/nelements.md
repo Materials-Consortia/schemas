@@ -1,11 +1,11 @@
-# Number of elements (property)
+# number of elements (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nelements`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nelements.md)**  
 **Definition name:** `nelements`
 
-**Property name:** Number of elements  
+**Property name:** number of elements  
 **Description:** Number of different elements in the structure as an integer.  
 **Type:** integer  
 **Implementation requirements:**  
@@ -35,7 +35,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/nelements",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "Number of elements",
+    "title": "number of elements",
     "x-optimade-type": "integer",
     "x-optimade-definition": {
         "label": "nelements_optimade_structures",

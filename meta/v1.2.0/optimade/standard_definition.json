@@ -1,7 +1,7 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "$id": "https://schemas.optimade.org/meta/v1.2/optimade/standard_definition",
-    "title": "OPTIMADE Endpoint Definition schema",
+    "title": "OPTIMADE standard definition schema",
     "type": "object",
     "allOf": [
         {
@@ -82,7 +82,7 @@
                         },
                         "resources": {
                             "$id": "https://schemas.optimade.org/meta/v1.2/common/resource_list",
-                            "title": "Resource List",
+                            "title": "resource list",
                             "description": "A list of dictionaries that describe and reference remote resources.",
                             "type": "array",
                             "items": {
@@ -195,7 +195,7 @@
                         },
                         "resources": {
                             "$id": "https://schemas.optimade.org/meta/v1.2/common/resource_list",
-                            "title": "Resource List",
+                            "title": "resource list",
                             "description": "A list of dictionaries that describe and reference remote resources.",
                             "type": "array",
                             "items": {
@@ -732,7 +732,7 @@
                         },
                         "resources": {
                             "$id": "https://schemas.optimade.org/meta/v1.2/common/resource_list",
-                            "title": "Resource List",
+                            "title": "resource list",
                             "description": "A list of dictionaries that describe and reference remote resources.",
                             "type": "array",
                             "items": {
@@ -978,7 +978,7 @@
         },
         "symbol_list": {
             "$id": "https://schemas.optimade.org/meta/v1.2/common/symbol_list",
-            "title": "Symbol List",
+            "title": "symbol list",
             "description": "A list of dictionaries that associate and id with a symbol",
             "items": {
                 "additionalProperties": false,
@@ -1007,7 +1007,7 @@
         },
         "resource_list": {
             "$id": "https://schemas.optimade.org/meta/v1.2/common/resource_list",
-            "title": "Resource List",
+            "title": "resource list",
             "description": "A list of dictionaries that describe and reference remote resources.",
             "type": "array",
             "items": {
@@ -1221,7 +1221,7 @@
                     "type": "object"
                 },
                 "description": {
-                    "description": "A human-readable multiple-line detailed description of the defined entity.",
+                    "description": "A human-readable multiline detailed description of the defined entity.",
                     "type": "string"
                 },
                 "resources": {
@@ -1334,7 +1334,7 @@
                         },
                         "resources": {
                             "$id": "https://schemas.optimade.org/meta/v1.2/common/resource_list",
-                            "title": "Resource List",
+                            "title": "resource list",
                             "description": "A list of dictionaries that describe and reference remote resources.",
                             "type": "array",
                             "items": {

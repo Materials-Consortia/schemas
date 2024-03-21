@@ -15,7 +15,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
 
 **Resources:**
 
-- [Definition in the 11:th CGPM Meeting in 1960, resolution 12](https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12)
+- [Definition in the 11th CGPM Meeting in 1960, resolution 12](https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12)
 - [Wikipedia article describing the prefix](https://en.wikipedia.org/wiki/Kilo-)
 
 
@@ -33,7 +33,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Prefix Definition]
     "description": "The kilo SI prefix defined as a dimensionless multiple of 10\u00b3, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
     "resources": [
         {
-            "relation": "Definition in the 11:th CGPM Meeting in 1960, resolution 12",
+            "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
             "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
         },
         {
