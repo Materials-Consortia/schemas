@@ -13,7 +13,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `Lecture Notes in Computer Science`
+- `"Lecture Notes in Computer Science"`
 
 **Formats:** [[JSON](series.json)] [[MD](series.md)]
 

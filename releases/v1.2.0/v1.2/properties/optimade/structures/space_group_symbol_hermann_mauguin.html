@@ -104,13 +104,13 @@ overflow-wrap: break-word;
 <li>The H-M symbol does not unambiguously communicate the axis, cell, and origin choice, and the given symbol SHOULD NOT be amended to convey this information.</li>
 <li>
 <p>To encode as character strings, the following adaptations MUST be made when representing H-M symbols given in their typesetted form:</p>
-</li>
-<li>
-<p>the overbar above the numbers MUST be changed to the minus sign in front of the digit (e.g. <code>-2</code>);</p>
-</li>
+<ul>
+<li>the overbar above the numbers MUST be changed to the minus sign in front of the digit (e.g. <code>-2</code>);</li>
 <li>subscripts that denote screw axes are written as digits immediately after the axis designator without a space (e.g. <code>P 32</code>);</li>
 <li>the space group generators MUST be separated by a single space (e.g. <code>P 21 21 2</code>);</li>
 <li>there MUST be no spaces in the space group generator designation (i.e. use <code>P 21/m</code>, not the <code>P 21 / m</code>);</li>
+</ul>
+</li>
 </ul>
 <p><strong>Bibliographic References</strong></p>
 <ul>
@@ -118,8 +118,8 @@ overflow-wrap: break-word;
 </ul>
 <p><strong>Examples:</strong></p>
 <ul>
-<li><code>C 2</code></li>
-<li><code>P 21 21 21</code></li>
+<li><code>"C 2"</code></li>
+<li><code>"P 21 21 21"</code></li>
 </ul>
 <p><strong>Formats:</strong> [<a href="space_group_symbol_hermann_mauguin.json">JSON</a>] [<a href="space_group_symbol_hermann_mauguin.md">MD</a>]</p>
 <p><strong>JSON definition:</strong></p>
@@ -139,7 +139,7 @@ overflow-wrap: break-word;
 <span class="w">        </span><span class="s2">&quot;string&quot;</span><span class="p">,</span>
 <span class="w">        </span><span class="s2">&quot;null&quot;</span>
 <span class="w">    </span><span class="p">],</span>
-<span class="w">    </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A human- and machine-readable string containing the short Hermann-Mauguin (H-M) symbol which specifies the space group of the structure in the response.\n\n**Requirements/Conventions**:\n\n- The H-M symbol SHOULD aim to convey the closest representation of the symmetry information that can be specified using the short format used in the International Tables for Crystallography vol. A (IUCr, 2005), Table 4.3.2.1 as described in the accompanying text.\n- The symbol MAY be a non-standard short H-M symbol.\n- The H-M symbol does not unambiguously communicate the axis, cell, and origin choice, and the given symbol SHOULD NOT be amended to convey this information.\n- To encode as character strings, the following adaptations MUST be made when representing H-M symbols given in their typesetted form:\n\n  - the overbar above the numbers MUST be changed to the minus sign in front of the digit (e.g. `-2`);\n  - subscripts that denote screw axes are written as digits immediately after the axis designator without a space (e.g. `P 32`);\n  - the space group generators MUST be separated by a single space (e.g. `P 21 21 2`);\n  - there MUST be no spaces in the space group generator designation (i.e. use `P 21/m`, not the `P 21 / m`);\n\n**Bibliographic References**\n\n- IUCr (2005). International Tables for Crystallography vol. A. Space-Group Symmetry. Ed. Theo Hahn. 5-th edition. Dordrecht, Springer.&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A human- and machine-readable string containing the short Hermann-Mauguin (H-M) symbol which specifies the space group of the structure in the response.\n\n**Requirements/Conventions**:\n\n- The H-M symbol SHOULD aim to convey the closest representation of the symmetry information that can be specified using the short format used in the International Tables for Crystallography vol. A (IUCr, 2005), Table 4.3.2.1 as described in the accompanying text.\n- The symbol MAY be a non-standard short H-M symbol.\n- The H-M symbol does not unambiguously communicate the axis, cell, and origin choice, and the given symbol SHOULD NOT be amended to convey this information.\n- To encode as character strings, the following adaptations MUST be made when representing H-M symbols given in their typesetted form:\n\n    - the overbar above the numbers MUST be changed to the minus sign in front of the digit (e.g. `-2`);\n    - subscripts that denote screw axes are written as digits immediately after the axis designator without a space (e.g. `P 32`);\n    - the space group generators MUST be separated by a single space (e.g. `P 21 21 2`);\n    - there MUST be no spaces in the space group generator designation (i.e. use `P 21/m`, not the `P 21 / m`);\n\n**Bibliographic References**\n\n- IUCr (2005). International Tables for Crystallography vol. A. Space-Group Symmetry. Ed. Theo Hahn. 5-th edition. Dordrecht, Springer.&quot;</span><span class="p">,</span>
 <span class="w">    </span><span class="nt">&quot;examples&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
 <span class="w">        </span><span class="s2">&quot;C 2&quot;</span><span class="p">,</span>
 <span class="w">        </span><span class="s2">&quot;P 21 21 21&quot;</span>

@@ -15,7 +15,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `https://example.org/files/cifs/1000000.cif`
+- `"https://example.org/files/cifs/1000000.cif"`
 
 **Formats:** [[JSON](url.json)] [[MD](url.md)]
 

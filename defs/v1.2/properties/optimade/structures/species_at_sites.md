@@ -24,8 +24,8 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `['Ti', 'O2']`
-- `['Ac', 'Ac', 'Ag', 'Ir']`
+- `["Ti", "O2"]`
+- `["Ac", "Ac", "Ag", "Ir"]`
 
 **Formats:** [[JSON](species_at_sites.json)] [[MD](species_at_sites.md)]
 

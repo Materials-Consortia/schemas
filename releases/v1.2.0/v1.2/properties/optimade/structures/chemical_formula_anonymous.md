@@ -13,8 +13,8 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `A2B`
-- `A42B42C16D12E10F9G5`
+- `"A2B"`
+- `"A42B42C16D12E10F9G5"`
 
 **Formats:** [[JSON](chemical_formula_anonymous.json)] [[MD](chemical_formula_anonymous.md)]
 

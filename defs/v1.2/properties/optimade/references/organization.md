@@ -13,7 +13,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `International Association of Engineers`
+- `"International Association of Engineers"`
 
 **Formats:** [[JSON](organization.json)] [[MD](organization.md)]
 

@@ -13,7 +13,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `2007-04-05T14:30:20Z`
+- `"2007-04-05T14:30:20Z"`
 
 **Formats:** [[JSON](ctime.json)] [[MD](ctime.md)]
 

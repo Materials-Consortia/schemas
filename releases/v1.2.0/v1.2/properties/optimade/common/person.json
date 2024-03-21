@@ -14,7 +14,7 @@
         "object",
         "null"
     ],
-    "description": "A dictionary with name information about a person.\n\n**Requirements/Conventions**:\n\n- The dictionary MUST adhere to the following format:\n\n  - **name**: Full name of the person, REQUIRED.\n  - **firstname**, **lastname**: Parts of the person's name, OPTIONAL.",
+    "description": "A dictionary with name information about a person.\n\n**Requirements/Conventions**:\n\n- The dictionary MUST adhere to the following format:\n\n    - **name**: Full name of the person, REQUIRED.\n    - **firstname**, **lastname**: Parts of the person's name, OPTIONAL.",
     "required": [
         "name"
     ],

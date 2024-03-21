@@ -28,7 +28,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `H2O2`
+- `"H2O2"`
 
 **Formats:** [[JSON](chemical_formula_hill.json)] [[MD](chemical_formula_hill.md)]
 

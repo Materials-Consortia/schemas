@@ -23,8 +23,8 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `x,y,z`
-- `-x,y,-z`
+- `"x,y,z"`
+- `"-x,y,-z"`
 
 **Formats:** [[JSON](space_group_symmetry_operation_xyz.json)] [[MD](space_group_symmetry_operation_xyz.md)]
 

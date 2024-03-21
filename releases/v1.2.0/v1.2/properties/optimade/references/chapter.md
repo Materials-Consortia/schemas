@@ -13,7 +13,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `5`
+- `"5"`
 
 **Formats:** [[JSON](chapter.json)] [[MD](chapter.md)]
 

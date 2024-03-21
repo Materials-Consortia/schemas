@@ -16,7 +16,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `2052-04-05T14:30:20Z`
+- `"2052-04-05T14:30:20Z"`
 
 **Formats:** [[JSON](url_stable_until.json)] [[MD](url_stable_until.md)]
 

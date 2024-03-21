@@ -13,13 +13,13 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 - The dictionary MUST adhere to the following format:
 
-  - **name**: Full name of the person, REQUIRED.
-  - **firstname**, **lastname**: Parts of the person's name, OPTIONAL.
+    - **name**: Full name of the person, REQUIRED.
+    - **firstname**, **lastname**: Parts of the person's name, OPTIONAL.
 
 **Examples:**
 
-- `OrderedDict([('name', 'John Smith')])`
-- `OrderedDict([('name', 'Arthur Dent'), ('firstname', 'Arthur'), ('lastname', 'Dent')])`
+- `{"name": "John Smith"}`
+- `{"name": "Arthur Dent", "firstname": "Arthur", "lastname": "Dent"}`
 
 **Formats:** [[JSON](person.json)] [[MD](person.md)]
 
@@ -42,7 +42,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
         "object",
         "null"
     ],
-    "description": "A dictionary with name information about a person.\n\n**Requirements/Conventions**:\n\n- The dictionary MUST adhere to the following format:\n\n  - **name**: Full name of the person, REQUIRED.\n  - **firstname**, **lastname**: Parts of the person's name, OPTIONAL.",
+    "description": "A dictionary with name information about a person.\n\n**Requirements/Conventions**:\n\n- The dictionary MUST adhere to the following format:\n\n    - **name**: Full name of the person, REQUIRED.\n    - **firstname**, **lastname**: Parts of the person's name, OPTIONAL.",
     "required": [
         "name"
     ],

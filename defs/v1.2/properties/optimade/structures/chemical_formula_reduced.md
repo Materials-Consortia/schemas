@@ -24,9 +24,9 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `H2NaO`
-- `ClNa`
-- `CCaO3`
+- `"H2NaO"`
+- `"ClNa"`
+- `"CCaO3"`
 
 **Formats:** [[JSON](chemical_formula_reduced.json)] [[MD](chemical_formula_reduced.md)]
 

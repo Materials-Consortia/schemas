@@ -18,7 +18,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `OrderedDict([('sha1', '8072f787eada2c50b60a27f3f098fbac7eea08cf')])`
+- `{"sha1": "8072f787eada2c50b60a27f3f098fbac7eea08cf"}`
 
 **Formats:** [[JSON](checksums.json)] [[MD](checksums.md)]
 

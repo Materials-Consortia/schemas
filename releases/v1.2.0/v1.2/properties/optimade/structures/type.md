@@ -16,7 +16,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `structures`
+- `"structures"`
 
 **Formats:** [[JSON](type.json)] [[MD](type.md)]
 

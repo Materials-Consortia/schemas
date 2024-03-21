@@ -13,7 +13,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `3`
+- `"3"`
 
 **Formats:** [[JSON](number.json)] [[MD](number.md)]
 

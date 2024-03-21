@@ -13,7 +13,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `jul`
+- `"jul"`
 
 **Formats:** [[JSON](month.json)] [[MD](month.md)]
 

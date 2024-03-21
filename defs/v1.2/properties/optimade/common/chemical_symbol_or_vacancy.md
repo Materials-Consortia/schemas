@@ -13,15 +13,15 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 - Must be one of the following:
 
-  - a valid chemical-element symbol, or
-  - the special value `"X"` to represent a non-chemical element, or
-  - the special value `"vacancy"` to represent that this site has a non-zero probability of having a vacancy.
+    - a valid chemical-element symbol, or
+    - the special value `"X"` to represent a non-chemical element, or
+    - the special value `"vacancy"` to represent that this site has a non-zero probability of having a vacancy.
 
 **Examples:**
 
-- `He`
-- `X`
-- `vacancy`
+- `"He"`
+- `"X"`
+- `"vacancy"`
 
 **Formats:** [[JSON](chemical_symbol_or_vacancy.json)] [[MD](chemical_symbol_or_vacancy.md)]
 
@@ -40,7 +40,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
         "format": "1.2",
         "name": "chemical_symbol_or_vacancy"
     },
-    "description": "A chemical symbol referring to an element, a non-chemical element, or a vacancy.\n\n**Requirements/Conventions:**\n\n- Must be one of the following:\n\n  - a valid chemical-element symbol, or\n  - the special value `\"X\"` to represent a non-chemical element, or\n  - the special value `\"vacancy\"` to represent that this site has a non-zero probability of having a vacancy.",
+    "description": "A chemical symbol referring to an element, a non-chemical element, or a vacancy.\n\n**Requirements/Conventions:**\n\n- Must be one of the following:\n\n    - a valid chemical-element symbol, or\n    - the special value `\"X\"` to represent a non-chemical element, or\n    - the special value `\"vacancy\"` to represent that this site has a non-zero probability of having a vacancy.",
     "x-optimade-unit": "inapplicable",
     "examples": [
         "He",

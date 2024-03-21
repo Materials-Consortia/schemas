@@ -19,7 +19,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `['feature1', 'feature2']`
+- `["feature1", "feature2"]`
 
 **Formats:** [[JSON](features.json)] [[MD](features.md)]
 

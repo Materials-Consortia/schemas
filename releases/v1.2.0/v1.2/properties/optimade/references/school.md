@@ -13,7 +13,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `Stanford University`
+- `"Stanford University"`
 
 **Formats:** [[JSON](school.json)] [[MD](school.md)]
 

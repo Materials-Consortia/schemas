@@ -19,7 +19,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `1000000.cif`
+- `"1000000.cif"`
 
 **Formats:** [[JSON](name.json)] [[MD](name.md)]
 

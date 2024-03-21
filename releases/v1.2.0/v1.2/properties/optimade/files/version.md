@@ -15,7 +15,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `3.2.6`
+- `"3.2.6"`
 
 **Formats:** [[JSON](version.json)] [[MD](version.md)]
 

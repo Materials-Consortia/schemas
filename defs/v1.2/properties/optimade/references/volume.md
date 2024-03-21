@@ -13,7 +13,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `14`
+- `"14"`
 
 **Formats:** [[JSON](volume.json)] [[MD](volume.md)]
 

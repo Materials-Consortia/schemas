@@ -13,7 +13,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `Massachusetts Institute of Technology`
+- `"Massachusetts Institute of Technology"`
 
 **Formats:** [[JSON](institution.json)] [[MD](institution.md)]
 

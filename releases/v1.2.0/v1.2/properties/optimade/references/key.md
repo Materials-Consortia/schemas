@@ -13,7 +13,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `smith2022`
+- `"smith2022"`
 
 **Formats:** [[JSON](key.json)] [[MD](key.md)]
 

@@ -13,7 +13,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `\url{https://www.example.com/papers/example_paper}`
+- `"\\url{https://www.example.com/papers/example_paper}"`
 
 **Formats:** [[JSON](howpublished.json)] [[MD](howpublished.md)]
 

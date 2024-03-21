@@ -13,7 +13,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `Accessed: 2022-11-04`
+- `"Accessed: 2022-11-04"`
 
 **Formats:** [[JSON](note.json)] [[MD](note.md)]
 

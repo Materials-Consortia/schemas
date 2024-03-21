@@ -13,7 +13,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `A Study on the Effects of Sleep Deprivation on Cognitive Performance`
+- `"A Study on the Effects of Sleep Deprivation on Cognitive Performance"`
 
 **Formats:** [[JSON](title.json)] [[MD](title.md)]
 

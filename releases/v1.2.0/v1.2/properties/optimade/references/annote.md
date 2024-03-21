@@ -13,7 +13,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `This article obtains structures via density-functional theory.`
+- `"This article obtains structures via density-functional theory."`
 
 **Formats:** [[JSON](annote.json)] [[MD](annote.md)]
 

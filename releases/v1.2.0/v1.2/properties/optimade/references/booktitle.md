@@ -13,7 +13,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `Density-functional Theory of Atoms and Molecules`
+- `"Density-functional Theory of Atoms and Molecules"`
 
 **Formats:** [[JSON](booktitle.json)] [[MD](booktitle.md)]
 

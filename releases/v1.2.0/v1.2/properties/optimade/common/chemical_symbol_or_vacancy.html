@@ -101,18 +101,18 @@ overflow-wrap: break-word;
 <ul>
 <li>
 <p>Must be one of the following:</p>
-</li>
-<li>
-<p>a valid chemical-element symbol, or</p>
-</li>
+<ul>
+<li>a valid chemical-element symbol, or</li>
 <li>the special value <code>"X"</code> to represent a non-chemical element, or</li>
 <li>the special value <code>"vacancy"</code> to represent that this site has a non-zero probability of having a vacancy.</li>
 </ul>
+</li>
+</ul>
 <p><strong>Examples:</strong></p>
 <ul>
-<li><code>He</code></li>
-<li><code>X</code></li>
-<li><code>vacancy</code></li>
+<li><code>"He"</code></li>
+<li><code>"X"</code></li>
+<li><code>"vacancy"</code></li>
 </ul>
 <p><strong>Formats:</strong> [<a href="chemical_symbol_or_vacancy.json">JSON</a>] [<a href="chemical_symbol_or_vacancy.md">MD</a>]</p>
 <p><strong>JSON definition:</strong></p>
@@ -128,7 +128,7 @@ overflow-wrap: break-word;
 <span class="w">        </span><span class="nt">&quot;format&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.2&quot;</span><span class="p">,</span>
 <span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;chemical_symbol_or_vacancy&quot;</span>
 <span class="w">    </span><span class="p">},</span>
-<span class="w">    </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A chemical symbol referring to an element, a non-chemical element, or a vacancy.\n\n**Requirements/Conventions:**\n\n- Must be one of the following:\n\n  - a valid chemical-element symbol, or\n  - the special value `\&quot;X\&quot;` to represent a non-chemical element, or\n  - the special value `\&quot;vacancy\&quot;` to represent that this site has a non-zero probability of having a vacancy.&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A chemical symbol referring to an element, a non-chemical element, or a vacancy.\n\n**Requirements/Conventions:**\n\n- Must be one of the following:\n\n    - a valid chemical-element symbol, or\n    - the special value `\&quot;X\&quot;` to represent a non-chemical element, or\n    - the special value `\&quot;vacancy\&quot;` to represent that this site has a non-zero probability of having a vacancy.&quot;</span><span class="p">,</span>
 <span class="w">    </span><span class="nt">&quot;x-optimade-unit&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;inapplicable&quot;</span><span class="p">,</span>
 <span class="w">    </span><span class="nt">&quot;examples&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
 <span class="w">        </span><span class="s2">&quot;He&quot;</span><span class="p">,</span>

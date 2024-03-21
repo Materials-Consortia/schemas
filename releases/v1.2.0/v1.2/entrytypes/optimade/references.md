@@ -266,8 +266,8 @@ This entrytype defines the following properties:
     - **Response:** MAY be included by default in the response.
     - Each list member MUST be a dictionary with the following keys:
     
-      - **name**: Full name of the person, REQUIRED.
-      - **firstname**, **lastname**: Parts of the person's name, OPTIONAL.
+        - **name**: Full name of the person, REQUIRED.
+        - **firstname**, **lastname**: Parts of the person's name, OPTIONAL.
 
 
 * **[editors](../../properties/optimade/references/editors.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/editors`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/editors.md)  
@@ -280,8 +280,8 @@ This entrytype defines the following properties:
     - **Response:** MAY be included by default in the response.
     - Each list member MUST be a dictionary with the following keys:
     
-      - **name**: Full name of the person, REQUIRED.
-      - **firstname**, **lastname**: Parts of the person's name, OPTIONAL.
+        - **name**: Full name of the person, REQUIRED.
+        - **firstname**, **lastname**: Parts of the person's name, OPTIONAL.
 
 
 * **[doi](../../properties/optimade/references/doi.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/references/doi`](https://schemas.optimade.org/defs/v1.2/properties/optimade/references/doi.md)  
@@ -1052,7 +1052,7 @@ This entrytype defines the following properties:
                 "array",
                 "null"
             ],
-            "description": "A list of dictionaries with names of the authors.\n\n**Requirements/Conventions**:\n\n- Each list member MUST be a dictionary with the following keys:\n\n  - **name**: Full name of the person, REQUIRED.\n  - **firstname**, **lastname**: Parts of the person's name, OPTIONAL.",
+            "description": "A list of dictionaries with names of the authors.\n\n**Requirements/Conventions**:\n\n- Each list member MUST be a dictionary with the following keys:\n\n    - **name**: Full name of the person, REQUIRED.\n    - **firstname**, **lastname**: Parts of the person's name, OPTIONAL.",
             "items": {
                 "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/person",
                 "title": "person",
@@ -1068,7 +1068,7 @@ This entrytype defines the following properties:
                     "object",
                     "null"
                 ],
-                "description": "A dictionary with name information about a person.\n\n**Requirements/Conventions**:\n\n- The dictionary MUST adhere to the following format:\n\n  - **name**: Full name of the person, REQUIRED.\n  - **firstname**, **lastname**: Parts of the person's name, OPTIONAL.",
+                "description": "A dictionary with name information about a person.\n\n**Requirements/Conventions**:\n\n- The dictionary MUST adhere to the following format:\n\n    - **name**: Full name of the person, REQUIRED.\n    - **firstname**, **lastname**: Parts of the person's name, OPTIONAL.",
                 "required": [
                     "name"
                 ],
@@ -1147,7 +1147,7 @@ This entrytype defines the following properties:
                 "array",
                 "null"
             ],
-            "description": "A list of dictionaries with names of the editors.\n\n**Requirements/Conventions**:\n\n- Each list member MUST be a dictionary with the following keys:\n\n  - **name**: Full name of the person, REQUIRED.\n  - **firstname**, **lastname**: Parts of the person's name, OPTIONAL.",
+            "description": "A list of dictionaries with names of the editors.\n\n**Requirements/Conventions**:\n\n- Each list member MUST be a dictionary with the following keys:\n\n    - **name**: Full name of the person, REQUIRED.\n    - **firstname**, **lastname**: Parts of the person's name, OPTIONAL.",
             "items": {
                 "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/common/person",
                 "title": "person",
@@ -1163,7 +1163,7 @@ This entrytype defines the following properties:
                     "object",
                     "null"
                 ],
-                "description": "A dictionary with name information about a person.\n\n**Requirements/Conventions**:\n\n- The dictionary MUST adhere to the following format:\n\n  - **name**: Full name of the person, REQUIRED.\n  - **firstname**, **lastname**: Parts of the person's name, OPTIONAL.",
+                "description": "A dictionary with name information about a person.\n\n**Requirements/Conventions**:\n\n- The dictionary MUST adhere to the following format:\n\n    - **name**: Full name of the person, REQUIRED.\n    - **firstname**, **lastname**: Parts of the person's name, OPTIONAL.",
                 "required": [
                     "name"
                 ],

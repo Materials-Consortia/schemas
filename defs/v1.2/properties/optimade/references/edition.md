@@ -13,7 +13,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `Second`
+- `"Second"`
 
 **Formats:** [[JSON](edition.json)] [[MD](edition.md)]
 

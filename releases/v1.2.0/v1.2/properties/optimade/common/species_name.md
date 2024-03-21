@@ -13,9 +13,9 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `Na`
-- `Si[32982]`
-- `quop`
+- `"Na"`
+- `"Si[32982]"`
+- `"quop"`
 
 **Formats:** [[JSON](species_name.json)] [[MD](species_name.md)]
 

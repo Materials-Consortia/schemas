@@ -13,7 +13,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `POSCAR format file`
+- `"POSCAR format file"`
 
 **Formats:** [[JSON](description.json)] [[MD](description.md)]
 

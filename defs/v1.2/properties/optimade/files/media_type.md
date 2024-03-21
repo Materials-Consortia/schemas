@@ -13,7 +13,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `chemical/x-cif`
+- `"chemical/x-cif"`
 
 **Formats:** [[JSON](media_type.json)] [[MD](media_type.md)]
 

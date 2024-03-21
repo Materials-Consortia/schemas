@@ -13,7 +13,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `1984`
+- `"1984"`
 
 **Formats:** [[JSON](year.json)] [[MD](year.md)]
 

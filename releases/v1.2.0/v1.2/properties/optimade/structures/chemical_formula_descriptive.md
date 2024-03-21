@@ -26,11 +26,11 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `(H2O)2 Na`
-- `NaCl`
-- `CaCO3`
-- `CCaO3`
-- `(CH3)3N+ - [CH2]2-OH = Me3N+ - CH2 - CH2OH`
+- `"(H2O)2 Na"`
+- `"NaCl"`
+- `"CaCO3"`
+- `"CCaO3"`
+- `"(CH3)3N+ - [CH2]2-OH = Me3N+ - CH2 - CH2OH"`
 
 **Formats:** [[JSON](chemical_formula_descriptive.json)] [[MD](chemical_formula_descriptive.md)]
 

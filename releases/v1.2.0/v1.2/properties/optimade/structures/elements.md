@@ -24,8 +24,8 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `['Al', 'Si', 'O']`
-- `['He']`
+- `["Al", "Si", "O"]`
+- `["He"]`
 
 **Formats:** [[JSON](elements.json)] [[MD](elements.md)]
 

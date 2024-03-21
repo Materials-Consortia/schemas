@@ -36,10 +36,10 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `P 2c -2ac`
-- `-I 4db 2ab 3`
-- `P 2yb (-1/2*x+z,1/2*x,y)`
-- `-I 4 2 (1/2*x+1/2*y,-1/2*x+1/2*y,z)`
+- `"P 2c -2ac"`
+- `"-I 4db 2ab 3"`
+- `"P 2yb (-1/2*x+z,1/2*x,y)"`
+- `"-I 4 2 (1/2*x+1/2*y,-1/2*x+1/2*y,z)"`
 
 **Formats:** [[JSON](space_group_symbol_hall.json)] [[MD](space_group_symbol_hall.md)]
 

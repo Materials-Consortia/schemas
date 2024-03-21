@@ -16,8 +16,8 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `8bd3e750-b477-41a0-9b11-3a799f21b44f`
-- `fjeiwoj,54;@=%<>#32`
+- `"8bd3e750-b477-41a0-9b11-3a799f21b44f"`
+- `"fjeiwoj,54;@=%<>#32"`
 
 **Formats:** [[JSON](immutable_id.json)] [[MD](immutable_id.md)]
 

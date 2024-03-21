@@ -17,11 +17,11 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `db/1234567`
-- `cod/2000000`
-- `cod/2000000@1234567`
-- `nomad/L1234567890`
-- `42`
+- `"db/1234567"`
+- `"cod/2000000"`
+- `"cod/2000000@1234567"`
+- `"nomad/L1234567890"`
+- `"42"`
 
 **Formats:** [[JSON](id.json)] [[MD](id.md)]
 

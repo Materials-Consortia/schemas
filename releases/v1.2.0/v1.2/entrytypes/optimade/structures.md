@@ -333,10 +333,10 @@ This entrytype defines the following properties:
     - The H-M symbol does not unambiguously communicate the axis, cell, and origin choice, and the given symbol SHOULD NOT be amended to convey this information.
     - To encode as character strings, the following adaptations MUST be made when representing H-M symbols given in their typesetted form:
     
-      - the overbar above the numbers MUST be changed to the minus sign in front of the digit (e.g. `-2`);
-      - subscripts that denote screw axes are written as digits immediately after the axis designator without a space (e.g. `P 32`);
-      - the space group generators MUST be separated by a single space (e.g. `P 21 21 2`);
-      - there MUST be no spaces in the space group generator designation (i.e. use `P 21/m`, not the `P 21 / m`);
+        - the overbar above the numbers MUST be changed to the minus sign in front of the digit (e.g. `-2`);
+        - subscripts that denote screw axes are written as digits immediately after the axis designator without a space (e.g. `P 32`);
+        - the space group generators MUST be separated by a single space (e.g. `P 21 21 2`);
+        - there MUST be no spaces in the space group generator designation (i.e. use `P 21/m`, not the `P 21 / m`);
     
     **Bibliographic References**
     
@@ -441,36 +441,36 @@ This entrytype defines the following properties:
     - **Response:** MAY be included by default in the response.
     - Each list member MUST be a dictionary with the following keys:
     
-      - **name**: REQUIRED; gives the name of the species; the **name** value MUST be unique in the `species` list;
+        - **name**: REQUIRED; gives the name of the species; the **name** value MUST be unique in the `species` list;
     
-      - **chemical\_symbols**: REQUIRED; MUST be a list of strings of all chemical elements composing this species. Each item of the list MUST be one of the following:
+        - **chemical\_symbols**: REQUIRED; MUST be a list of strings of all chemical elements composing this species. Each item of the list MUST be one of the following:
     
-        - a valid chemical-element symbol, or
-        - the special value `"X"` to represent a non-chemical element, or
-        - the special value `"vacancy"` to represent that this site has a non-zero probability of having a vacancy (the respective probability is indicated in the `concentration` list, see below).
+            - a valid chemical-element symbol, or
+            - the special value `"X"` to represent a non-chemical element, or
+            - the special value `"vacancy"` to represent that this site has a non-zero probability of having a vacancy (the respective probability is indicated in the `concentration` list, see below).
     
-        If any one entry in the `species` list has a `chemical_symbols` list that is longer than 1 element, the correct flag MUST be set in the list `structure_features` (see property `structure_features`).
+          If any one entry in the `species` list has a `chemical_symbols` list that is longer than 1 element, the correct flag MUST be set in the list `structure_features` (see property `structure_features`).
     
-      - **concentration**: REQUIRED; MUST be a list of floats, with same length as `chemical_symbols`. The numbers represent the relative concentration of the corresponding chemical symbol in this species.
-        The numbers SHOULD sum to one. Cases in which the numbers do not sum to one typically fall only in the following two categories:
+        - **concentration**: REQUIRED; MUST be a list of floats, with same length as `chemical_symbols`. The numbers represent the relative concentration of the corresponding chemical symbol in this species.
+          The numbers SHOULD sum to one. Cases in which the numbers do not sum to one typically fall only in the following two categories:
     
-        - Numerical errors when representing float numbers in fixed precision, e.g. for two chemical symbols with concentrations `1/3` and `2/3`, the concentration might look something like `[0.33333333333, 0.66666666666]`. If the client is aware that the sum is not one because of numerical precision, it can renormalize the values so that the sum is exactly one.
-        - Experimental errors in the data present in the database. In this case, it is the responsibility of the client to decide how to process the data.
+            - Numerical errors when representing float numbers in fixed precision, e.g. for two chemical symbols with concentrations `1/3` and `2/3`, the concentration might look something like `[0.33333333333, 0.66666666666]`. If the client is aware that the sum is not one because of numerical precision, it can renormalize the values so that the sum is exactly one.
+            - Experimental errors in the data present in the database. In this case, it is the responsibility of the client to decide how to process the data.
     
-        Note that concentrations are uncorrelated between different sites (even of the same species).
+          Note that concentrations are uncorrelated between different sites (even of the same species).
     
-      - **attached**: OPTIONAL; if provided MUST be a list of length 1 or more of strings of chemical symbols for the elements attached to this site, or "X" for a non-chemical element.
-      - **nattached**: OPTIONAL; if provided MUST be a list of length 1 or more of integers indicating the number of attached atoms of the kind specified in the value of the `attached` key.
+        - **attached**: OPTIONAL; if provided MUST be a list of length 1 or more of strings of chemical symbols for the elements attached to this site, or "X" for a non-chemical element.
+        - **nattached**: OPTIONAL; if provided MUST be a list of length 1 or more of integers indicating the number of attached atoms of the kind specified in the value of the `attached` key.
     
-        The implementation MUST include either both or none of the `attached` and `nattached` keys, and if they are provided, they MUST be of the same length.
-        Furthermore, if they are provided, the `structure_features` property MUST include the string `site_attachments`.
+          The implementation MUST include either both or none of the `attached` and `nattached` keys, and if they are provided, they MUST be of the same length.
+          Furthermore, if they are provided, the `structure_features` property MUST include the string `site_attachments`.
     
-      - **mass**: OPTIONAL. If present MUST be a list of floats, with the same length as `chemical_symbols`, providing element masses expressed in a.m.u.
-        Elements denoting vacancies MUST have masses equal to 0.
-      - **original\_name**: OPTIONAL. Can be any valid Unicode string, and SHOULD contain (if specified) the name of the species that is used internally in the source database.
+        - **mass**: OPTIONAL. If present MUST be a list of floats, with the same length as `chemical_symbols`, providing element masses expressed in a.m.u.
+          Elements denoting vacancies MUST have masses equal to 0.
+        - **original\_name**: OPTIONAL. Can be any valid Unicode string, and SHOULD contain (if specified) the name of the species that is used internally in the source database.
     
-            **Note**: With regard to "source database", we refer to the immediate source being queried via the OPTIMADE API implementation.
-            The main use of this field is for source databases that use species names, containing characters that are not allowed (see description of the list property `species_at_sites`).
+              **Note**: With regard to "source database", we refer to the immediate source being queried via the OPTIMADE API implementation.
+              The main use of this field is for source databases that use species names, containing characters that are not allowed (see description of the list property `species_at_sites`).
     
     - For systems that have only species formed by a single chemical symbol, and that have at most one species per chemical symbol, SHOULD use the chemical symbol as species name (e.g., `"Ti"` for titanium, `"O"` for oxygen, etc.)
       However, note that this is OPTIONAL, and client implementations MUST NOT assume that the key corresponds to a chemical symbol, nor assume that if the species name is a valid chemical symbol, that it represents a species with that chemical symbol.
@@ -500,15 +500,15 @@ This entrytype defines the following properties:
     - Client implementations MUST check its presence (as its presence changes the interpretation of the structure).
     - If present, it MUST be a list of dictionaries, each of which represents an assembly and MUST have the following two keys:
     
-      - **sites_in_groups**: Index of the sites (0-based) that belong to each group for each assembly.
+        - **sites_in_groups**: Index of the sites (0-based) that belong to each group for each assembly.
     
-        Example: `[[1], [2]]`: two groups, one with the second site, one with the third.
-        Example: `[[1,2], [3]]`: one group with the second and third site, one with the fourth.
+          Example: `[[1], [2]]`: two groups, one with the second site, one with the third.
+          Example: `[[1,2], [3]]`: one group with the second and third site, one with the fourth.
     
-      - **group_probabilities**: Statistical probability of each group. It MUST have the same length as `sites_in_groups`.
-        It SHOULD sum to one.
-        See below for examples of how to specify the probability of the occurrence of a vacancy.
-        The possible reasons for the values not to sum to one are the same as already specified above for the `concentration` of each `species`, see property `species`.
+        - **group_probabilities**: Statistical probability of each group. It MUST have the same length as `sites_in_groups`.
+          It SHOULD sum to one.
+          See below for examples of how to specify the probability of the occurrence of a vacancy.
+          The possible reasons for the values not to sum to one are the same as already specified above for the `concentration` of each `species`, see property `species`.
     
     - If a site is not present in any group, it means that it is present with 100 % probability (as if no assembly was specified).
     - A site MUST NOT appear in more than one group.
@@ -522,60 +522,53 @@ This entrytype defines the following properties:
       Sites of the first group (the second and the third) are never present at the same time as the fourth site.
       30 % of times sites 1 and 2 are present (and site 3 is absent); 70 % of times site 3 is present (and sites 1 and 2 are absent).
     
-    - **Notes**:
+    **Notes**:
     
-      - Assemblies are essential to represent, for instance, the situation where an atom can statistically occupy two different positions (sites).
-      - By defining groups, it is possible to represent, e.g., the case where a functional molecule (and not just one atom) is either present or absent (or the case where it is present in two conformations).
-      - Considerations on virtual alloys and on vacancies: In the special case of a virtual alloy, these specifications allow two different, equivalent ways of specifying them.
-        For instance, for a site at the origin with 30 % probability of being occupied by Si, 50 % probability of being occupied by Ge, and 20 % of being a vacancy, the following two representations are possible:
+    - Assemblies are essential to represent, for instance, the situation where an atom can statistically occupy two different positions (sites).
+    - By defining groups, it is possible to represent, e.g., the case where a functional molecule (and not just one atom) is either present or absent (or the case where it is present in two conformations).
+    - Considerations on virtual alloys and on vacancies: In the special case of a virtual alloy, these specifications allow two different, equivalent ways of specifying them.
+      For instance, for a site at the origin with 30 % probability of being occupied by Si, 50 % probability of being occupied by Ge, and 20 % of being a vacancy, the following two representations are possible:
     
         - Using a single species:
     
-          ```
+                 {
+                   "cartesian_site_positions": [[0,0,0]],
+                   "species_at_sites": ["SiGe-vac"],
+                   "species": [
+                     {
+                       "name": "SiGe-vac",
+                       "chemical_symbols": ["Si", "Ge", "vacancy"],
+                       "concentration": [0.3, 0.5, 0.2]
+                     }
+                   ]
+                   // ...
+                 }
     
-               {
-                 "cartesian_site_positions": [[0,0,0]],
-                 "species_at_sites": ["SiGe-vac"],
-                 "species": [
-                   {
-                     "name": "SiGe-vac",
-                     "chemical_symbols": ["Si", "Ge", "vacancy"],
-                     "concentration": [0.3, 0.5, 0.2]
-                   }
-                 ]
-                 // ...
-               }
-          ```
     
     
         - Using multiple species and the assemblies:
     
-          ```
+                 {
+                   "cartesian_site_positions": [ [0,0,0], [0,0,0], [0,0,0] ],
+                   "species_at_sites": ["Si", "Ge", "vac"],
+                   "species": [
+                     { "name": "Si", "chemical_symbols": ["Si"], "concentration": [1.0] },
+                     { "name": "Ge", "chemical_symbols": ["Ge"], "concentration": [1.0] },
+                     { "name": "vac", "chemical_symbols": ["vacancy"], "concentration": [1.0] }
+                   ],
+                   "assemblies": [
+                     {
+                       "sites_in_groups": [ [0], [1], [2] ],
+                       "group_probabilities": [0.3, 0.5, 0.2]
+                     }
+                   ]
+                   // ...
+                 }
     
-               {
-                 "cartesian_site_positions": [ [0,0,0], [0,0,0], [0,0,0] ],
-                 "species_at_sites": ["Si", "Ge", "vac"],
-                 "species": [
-                   { "name": "Si", "chemical_symbols": ["Si"], "concentration": [1.0] },
-                   { "name": "Ge", "chemical_symbols": ["Ge"], "concentration": [1.0] },
-                   { "name": "vac", "chemical_symbols": ["vacancy"], "concentration": [1.0] }
-                 ],
-                 "assemblies": [
-                   {
-                     "sites_in_groups": [ [0], [1], [2] ],
-                     "group_probabilities": [0.3, 0.5, 0.2]
-                   }
-                 ]
-                 // ...
-               }
-          ```
-    
-      - It is up to the database provider to decide which representation to use, typically depending on the internal format in which the structure is stored.
-        However, given a structure identified by a unique ID, the API implementation MUST always provide the same representation for it.
-      - The probabilities of occurrence of different assemblies are uncorrelated.
-        So, for instance in the following case with two assemblies:
-    
-        ```
+    - It is up to the database provider to decide which representation to use, typically depending on the internal format in which the structure is stored.
+      However, given a structure identified by a unique ID, the API implementation MUST always provide the same representation for it.
+    - The probabilities of occurrence of different assemblies are uncorrelated.
+      So, for instance in the following case with two assemblies:
     
              {
                "assemblies": [
@@ -589,11 +582,10 @@ This entrytype defines the following properties:
                  }
                ]
              }
-        ```
     
         Site 0 is present with a probability of 20 % and site 1 with a probability of 80 %. These two sites are correlated (either site 0 or 1 is present). Similarly, site 2 is present with a probability of 30 % and site 3 with a probability of 70 %.
         These two sites are correlated (either site 2 or 3 is present).
-        However, the presence or absence of sites 0 and 1 is not correlated with the presence or absence of sites 2 and 3 (in the specific example, the pair of sites (0, 2) can occur with 0.2*0.3 = 6 % probability; the pair (0, 3) with 0.2*0.7 = 14 % probability; the pair (1, 2) with 0.8*0.3 = 24 % probability; and the pair (1, 3) with 0.8*0.7 = 56 % probability).
+        However, the presence or absence of sites 0 and 1 is not correlated with the presence or absence of sites 2 and 3 (in the specific example, the pair of sites (0, 2) can occur with 0.2·0.3 = 6% probability; the pair (0, 3) with 0.2·0.7 = 14% probability; the pair (1, 2) with 0.8·0.3 = 24 % probability; and the pair (1, 3) with 0.8·0.7 = 56 % probability).
 
 
 * **[structure features (structure_features)](../../properties/optimade/structures/structure_features.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/structure_features`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/structure_features.md)  
@@ -609,13 +601,15 @@ This entrytype defines the following properties:
     - If a special feature listed below is used, the list MUST contain the corresponding string.
     - If a special feature listed below is not used, the list MUST NOT contain the corresponding string.
     - **List of strings used to indicate special structure features:**
-      - `disorder`: this flag MUST be present if any one entry in the species list has a `chemical_symbols` list that is longer than 1 element.
-      - `implicit_atoms`: this flag MUST be present if the structure contains atoms that are not assigned to sites via the property `species_at_sites` (e.g., because their positions are unknown). When this flag is present, the properties related to the chemical formula will likely not match the type and count of atoms represented by the `species_at_sites`, `species`, and `assemblies` properties.
-      - `site_attachments`: this flag MUST be present if any one entry in the species list includes `attached` and `nattached`.
-      - `assemblies`: this flag MUST be present if the property assemblies is present.
     
-      **Explained examples**:
-      - A structure having implicit atoms and using assemblies: `["assemblies", "implicit_atoms"]`
+        - `disorder`: this flag MUST be present if any one entry in the species list has a `chemical_symbols` list that is longer than 1 element.
+        - `implicit_atoms`: this flag MUST be present if the structure contains atoms that are not assigned to sites via the property `species_at_sites` (e.g., because their positions are unknown). When this flag is present, the properties related to the chemical formula will likely not match the type and count of atoms represented by the `species_at_sites`, `species`, and `assemblies` properties.
+        - `site_attachments`: this flag MUST be present if any one entry in the species list includes `attached` and `nattached`.
+        - `assemblies`: this flag MUST be present if the property assemblies is present.
+    
+    **Explained examples**:
+    
+    - A structure having implicit atoms and using assemblies: `["assemblies", "implicit_atoms"]`
 
 
 
@@ -1438,7 +1432,7 @@ This entrytype defines the following properties:
                 "string",
                 "null"
             ],
-            "description": "A human- and machine-readable string containing the short Hermann-Mauguin (H-M) symbol which specifies the space group of the structure in the response.\n\n**Requirements/Conventions**:\n\n- The H-M symbol SHOULD aim to convey the closest representation of the symmetry information that can be specified using the short format used in the International Tables for Crystallography vol. A (IUCr, 2005), Table 4.3.2.1 as described in the accompanying text.\n- The symbol MAY be a non-standard short H-M symbol.\n- The H-M symbol does not unambiguously communicate the axis, cell, and origin choice, and the given symbol SHOULD NOT be amended to convey this information.\n- To encode as character strings, the following adaptations MUST be made when representing H-M symbols given in their typesetted form:\n\n  - the overbar above the numbers MUST be changed to the minus sign in front of the digit (e.g. `-2`);\n  - subscripts that denote screw axes are written as digits immediately after the axis designator without a space (e.g. `P 32`);\n  - the space group generators MUST be separated by a single space (e.g. `P 21 21 2`);\n  - there MUST be no spaces in the space group generator designation (i.e. use `P 21/m`, not the `P 21 / m`);\n\n**Bibliographic References**\n\n- IUCr (2005). International Tables for Crystallography vol. A. Space-Group Symmetry. Ed. Theo Hahn. 5-th edition. Dordrecht, Springer.",
+            "description": "A human- and machine-readable string containing the short Hermann-Mauguin (H-M) symbol which specifies the space group of the structure in the response.\n\n**Requirements/Conventions**:\n\n- The H-M symbol SHOULD aim to convey the closest representation of the symmetry information that can be specified using the short format used in the International Tables for Crystallography vol. A (IUCr, 2005), Table 4.3.2.1 as described in the accompanying text.\n- The symbol MAY be a non-standard short H-M symbol.\n- The H-M symbol does not unambiguously communicate the axis, cell, and origin choice, and the given symbol SHOULD NOT be amended to convey this information.\n- To encode as character strings, the following adaptations MUST be made when representing H-M symbols given in their typesetted form:\n\n    - the overbar above the numbers MUST be changed to the minus sign in front of the digit (e.g. `-2`);\n    - subscripts that denote screw axes are written as digits immediately after the axis designator without a space (e.g. `P 32`);\n    - the space group generators MUST be separated by a single space (e.g. `P 21 21 2`);\n    - there MUST be no spaces in the space group generator designation (i.e. use `P 21/m`, not the `P 21 / m`);\n\n**Bibliographic References**\n\n- IUCr (2005). International Tables for Crystallography vol. A. Space-Group Symmetry. Ed. Theo Hahn. 5-th edition. Dordrecht, Springer.",
             "examples": [
                 "C 2",
                 "P 21 21 21"
@@ -1785,7 +1779,7 @@ This entrytype defines the following properties:
                 "array",
                 "null"
             ],
-            "description": "A list describing the species of the sites of this structure. Species can represent pure chemical elements, virtual-crystal atoms representing a statistical occupation of a given site by multiple chemical elements, and/or a location to which there are attached atoms, i.e., atoms whose precise location are unknown beyond that they are attached to that position (frequently used to indicate hydrogen atoms attached to another element, e.g., a carbon with three attached hydrogens might represent a methyl group, -CH3).\n\n**Requirements/Conventions**:\n\n- Each list member MUST be a dictionary with the following keys:\n\n  - **name**: REQUIRED; gives the name of the species; the **name** value MUST be unique in the `species` list;\n\n  - **chemical\\_symbols**: REQUIRED; MUST be a list of strings of all chemical elements composing this species. Each item of the list MUST be one of the following:\n\n    - a valid chemical-element symbol, or\n    - the special value `\"X\"` to represent a non-chemical element, or\n    - the special value `\"vacancy\"` to represent that this site has a non-zero probability of having a vacancy (the respective probability is indicated in the `concentration` list, see below).\n\n    If any one entry in the `species` list has a `chemical_symbols` list that is longer than 1 element, the correct flag MUST be set in the list `structure_features` (see property `structure_features`).\n\n  - **concentration**: REQUIRED; MUST be a list of floats, with same length as `chemical_symbols`. The numbers represent the relative concentration of the corresponding chemical symbol in this species.\n    The numbers SHOULD sum to one. Cases in which the numbers do not sum to one typically fall only in the following two categories:\n\n    - Numerical errors when representing float numbers in fixed precision, e.g. for two chemical symbols with concentrations `1/3` and `2/3`, the concentration might look something like `[0.33333333333, 0.66666666666]`. If the client is aware that the sum is not one because of numerical precision, it can renormalize the values so that the sum is exactly one.\n    - Experimental errors in the data present in the database. In this case, it is the responsibility of the client to decide how to process the data.\n\n    Note that concentrations are uncorrelated between different sites (even of the same species).\n\n  - **attached**: OPTIONAL; if provided MUST be a list of length 1 or more of strings of chemical symbols for the elements attached to this site, or \"X\" for a non-chemical element.\n  - **nattached**: OPTIONAL; if provided MUST be a list of length 1 or more of integers indicating the number of attached atoms of the kind specified in the value of the `attached` key.\n\n    The implementation MUST include either both or none of the `attached` and `nattached` keys, and if they are provided, they MUST be of the same length.\n    Furthermore, if they are provided, the `structure_features` property MUST include the string `site_attachments`.\n\n  - **mass**: OPTIONAL. If present MUST be a list of floats, with the same length as `chemical_symbols`, providing element masses expressed in a.m.u.\n    Elements denoting vacancies MUST have masses equal to 0.\n  - **original\\_name**: OPTIONAL. Can be any valid Unicode string, and SHOULD contain (if specified) the name of the species that is used internally in the source database.\n\n        **Note**: With regard to \"source database\", we refer to the immediate source being queried via the OPTIMADE API implementation.\n        The main use of this field is for source databases that use species names, containing characters that are not allowed (see description of the list property `species_at_sites`).\n\n- For systems that have only species formed by a single chemical symbol, and that have at most one species per chemical symbol, SHOULD use the chemical symbol as species name (e.g., `\"Ti\"` for titanium, `\"O\"` for oxygen, etc.)\n  However, note that this is OPTIONAL, and client implementations MUST NOT assume that the key corresponds to a chemical symbol, nor assume that if the species name is a valid chemical symbol, that it represents a species with that chemical symbol.\n  This means that a species `{\"name\": \"C\", \"chemical_symbols\": [\"Ti\"], \"concentration\": [1.0]}` is valid and represents a titanium species (and *not* a carbon species).\n- It is NOT RECOMMENDED that a structure includes species that do not have at least one corresponding site.\n\n**Explained examples**:\n\n- `[ {\"name\": \"Ti\", \"chemical_symbols\": [\"Ti\"], \"concentration\": [1.0]} ]`: any site with this species is occupied by a Ti atom.\n- `[ {\"name\": \"Ti\", \"chemical_symbols\": [\"Ti\", \"vacancy\"], \"concentration\": [0.9, 0.1]} ]`: any site with this species is occupied by a Ti atom with 90 % probability, and has a vacancy with 10 % probability.\n- `[ {\"name\": \"BaCa\", \"chemical_symbols\": [\"vacancy\", \"Ba\", \"Ca\"], \"concentration\": [0.05, 0.45, 0.5], \"mass\": [0.0, 137.327, 40.078]} ]`: any site with this species is occupied by a Ba atom with 45 % probability, a Ca atom with 50 % probability, and by a vacancy with 5 % probability.\n- `[ {\"name\": \"C12\", \"chemical_symbols\": [\"C\"], \"concentration\": [1.0], \"mass\": [12.0]} ]`: any site with this species is occupied by a carbon isotope with mass 12.\n- `[ {\"name\": \"C13\", \"chemical_symbols\": [\"C\"], \"concentration\": [1.0], \"mass\": [13.0]} ]`: any site with this species is occupied by a carbon isotope with mass 13.\n- `[ {\"name\": \"CH3\", \"chemical_symbols\": [\"C\"], \"concentration\": [1.0], \"attached\": [\"H\"], \"nattached\": [3]} ]`: any site with this species is occupied by a methyl group, -CH3, which is represented without specifying precise positions of the hydrogen atoms.",
+            "description": "A list describing the species of the sites of this structure. Species can represent pure chemical elements, virtual-crystal atoms representing a statistical occupation of a given site by multiple chemical elements, and/or a location to which there are attached atoms, i.e., atoms whose precise location are unknown beyond that they are attached to that position (frequently used to indicate hydrogen atoms attached to another element, e.g., a carbon with three attached hydrogens might represent a methyl group, -CH3).\n\n**Requirements/Conventions**:\n\n- Each list member MUST be a dictionary with the following keys:\n\n    - **name**: REQUIRED; gives the name of the species; the **name** value MUST be unique in the `species` list;\n\n    - **chemical\\_symbols**: REQUIRED; MUST be a list of strings of all chemical elements composing this species. Each item of the list MUST be one of the following:\n\n        - a valid chemical-element symbol, or\n        - the special value `\"X\"` to represent a non-chemical element, or\n        - the special value `\"vacancy\"` to represent that this site has a non-zero probability of having a vacancy (the respective probability is indicated in the `concentration` list, see below).\n\n      If any one entry in the `species` list has a `chemical_symbols` list that is longer than 1 element, the correct flag MUST be set in the list `structure_features` (see property `structure_features`).\n\n    - **concentration**: REQUIRED; MUST be a list of floats, with same length as `chemical_symbols`. The numbers represent the relative concentration of the corresponding chemical symbol in this species.\n      The numbers SHOULD sum to one. Cases in which the numbers do not sum to one typically fall only in the following two categories:\n\n        - Numerical errors when representing float numbers in fixed precision, e.g. for two chemical symbols with concentrations `1/3` and `2/3`, the concentration might look something like `[0.33333333333, 0.66666666666]`. If the client is aware that the sum is not one because of numerical precision, it can renormalize the values so that the sum is exactly one.\n        - Experimental errors in the data present in the database. In this case, it is the responsibility of the client to decide how to process the data.\n\n      Note that concentrations are uncorrelated between different sites (even of the same species).\n\n    - **attached**: OPTIONAL; if provided MUST be a list of length 1 or more of strings of chemical symbols for the elements attached to this site, or \"X\" for a non-chemical element.\n    - **nattached**: OPTIONAL; if provided MUST be a list of length 1 or more of integers indicating the number of attached atoms of the kind specified in the value of the `attached` key.\n\n      The implementation MUST include either both or none of the `attached` and `nattached` keys, and if they are provided, they MUST be of the same length.\n      Furthermore, if they are provided, the `structure_features` property MUST include the string `site_attachments`.\n\n    - **mass**: OPTIONAL. If present MUST be a list of floats, with the same length as `chemical_symbols`, providing element masses expressed in a.m.u.\n      Elements denoting vacancies MUST have masses equal to 0.\n    - **original\\_name**: OPTIONAL. Can be any valid Unicode string, and SHOULD contain (if specified) the name of the species that is used internally in the source database.\n\n          **Note**: With regard to \"source database\", we refer to the immediate source being queried via the OPTIMADE API implementation.\n          The main use of this field is for source databases that use species names, containing characters that are not allowed (see description of the list property `species_at_sites`).\n\n- For systems that have only species formed by a single chemical symbol, and that have at most one species per chemical symbol, SHOULD use the chemical symbol as species name (e.g., `\"Ti\"` for titanium, `\"O\"` for oxygen, etc.)\n  However, note that this is OPTIONAL, and client implementations MUST NOT assume that the key corresponds to a chemical symbol, nor assume that if the species name is a valid chemical symbol, that it represents a species with that chemical symbol.\n  This means that a species `{\"name\": \"C\", \"chemical_symbols\": [\"Ti\"], \"concentration\": [1.0]}` is valid and represents a titanium species (and *not* a carbon species).\n- It is NOT RECOMMENDED that a structure includes species that do not have at least one corresponding site.\n\n**Explained examples**:\n\n- `[ {\"name\": \"Ti\", \"chemical_symbols\": [\"Ti\"], \"concentration\": [1.0]} ]`: any site with this species is occupied by a Ti atom.\n- `[ {\"name\": \"Ti\", \"chemical_symbols\": [\"Ti\", \"vacancy\"], \"concentration\": [0.9, 0.1]} ]`: any site with this species is occupied by a Ti atom with 90 % probability, and has a vacancy with 10 % probability.\n- `[ {\"name\": \"BaCa\", \"chemical_symbols\": [\"vacancy\", \"Ba\", \"Ca\"], \"concentration\": [0.05, 0.45, 0.5], \"mass\": [0.0, 137.327, 40.078]} ]`: any site with this species is occupied by a Ba atom with 45 % probability, a Ca atom with 50 % probability, and by a vacancy with 5 % probability.\n- `[ {\"name\": \"C12\", \"chemical_symbols\": [\"C\"], \"concentration\": [1.0], \"mass\": [12.0]} ]`: any site with this species is occupied by a carbon isotope with mass 12.\n- `[ {\"name\": \"C13\", \"chemical_symbols\": [\"C\"], \"concentration\": [1.0], \"mass\": [13.0]} ]`: any site with this species is occupied by a carbon isotope with mass 13.\n- `[ {\"name\": \"CH3\", \"chemical_symbols\": [\"C\"], \"concentration\": [1.0], \"attached\": [\"H\"], \"nattached\": [3]} ]`: any site with this species is occupied by a methyl group, -CH3, which is represented without specifying precise positions of the hydrogen atoms.",
             "examples": [
                 [
                     {
@@ -1920,7 +1914,7 @@ This entrytype defines the following properties:
                         "type": [
                             "array"
                         ],
-                        "description": "The chemical symbols for the elements composing this species.\n\n**Requirements/Conventions**:\n\n- MUST be a list of strings of all chemical elements composing this species.\n  Each item of the list MUST be one of the following:\n\n  - a valid chemical-element symbol, or\n  - the special value `\"X\"` to represent a non-chemical element, or\n  - the special value `\"vacancy\"` to represent that this site has a non-zero probability of having a vacancy (the respective probability is indicated in the `concentration` list, see below).\n\nIf any one entry in the `species` list has a `chemical_symbols` list that is longer than 1 element, the correct flag MUST be set in the list `structure_features` (see property `structure_features`).",
+                        "description": "The chemical symbols for the elements composing this species.\n\n**Requirements/Conventions**:\n\n- MUST be a list of strings of all chemical elements composing this species.\n  Each item of the list MUST be one of the following:\n\n    - a valid chemical-element symbol, or\n    - the special value `\"X\"` to represent a non-chemical element, or\n    - the special value `\"vacancy\"` to represent that this site has a non-zero probability of having a vacancy (the respective probability is indicated in the `concentration` list, see below).\n\nIf any one entry in the `species` list has a `chemical_symbols` list that is longer than 1 element, the correct flag MUST be set in the list `structure_features` (see property `structure_features`).",
                         "examples": [
                             [
                                 "Na",
@@ -1945,7 +1939,7 @@ This entrytype defines the following properties:
                                 "format": "1.2",
                                 "name": "chemical_symbol_or_vacancy"
                             },
-                            "description": "A chemical symbol referring to an element, a non-chemical element, or a vacancy.\n\n**Requirements/Conventions:**\n\n- Must be one of the following:\n\n  - a valid chemical-element symbol, or\n  - the special value `\"X\"` to represent a non-chemical element, or\n  - the special value `\"vacancy\"` to represent that this site has a non-zero probability of having a vacancy.",
+                            "description": "A chemical symbol referring to an element, a non-chemical element, or a vacancy.\n\n**Requirements/Conventions:**\n\n- Must be one of the following:\n\n    - a valid chemical-element symbol, or\n    - the special value `\"X\"` to represent a non-chemical element, or\n    - the special value `\"vacancy\"` to represent that this site has a non-zero probability of having a vacancy.",
                             "x-optimade-unit": "inapplicable",
                             "examples": [
                                 "He",
@@ -2095,7 +2089,7 @@ This entrytype defines the following properties:
                         "type": [
                             "array"
                         ],
-                        "description": "A list of the relative concentrations of the elements composing this species.\n\n**Requirements/Conventions**:\n\n- MUST be a list of floats, with same length as `chemical_symbols`. The numbers represent the relative concentration of the corresponding chemical symbol in this species.\n- The numbers SHOULD sum to one. Cases in which the numbers do not sum to one typically fall only in the following two categories:\n\n  - Numerical errors when representing float numbers in fixed precision, e.g. for two chemical symbols with concentrations `1/3` and `2/3`, the concentration might look something like `[0.33333333333, 0.66666666666]`. If the client is aware that the sum is not one because of numerical precision, it can renormalize the values so that the sum is exactly one.\n  - Experimental errors in the data present in the database. In this case, it is the responsibility of the client to decide how to process the data.\n\nNote that concentrations are uncorrelated between different sites (even of the same species).",
+                        "description": "A list of the relative concentrations of the elements composing this species.\n\n**Requirements/Conventions**:\n\n- MUST be a list of floats, with same length as `chemical_symbols`. The numbers represent the relative concentration of the corresponding chemical symbol in this species.\n- The numbers SHOULD sum to one. Cases in which the numbers do not sum to one typically fall only in the following two categories:\n\n    - Numerical errors when representing float numbers in fixed precision, e.g. for two chemical symbols with concentrations `1/3` and `2/3`, the concentration might look something like `[0.33333333333, 0.66666666666]`. If the client is aware that the sum is not one because of numerical precision, it can renormalize the values so that the sum is exactly one.\n    - Experimental errors in the data present in the database. In this case, it is the responsibility of the client to decide how to process the data.\n\nNote that concentrations are uncorrelated between different sites (even of the same species).",
                         "examples": [
                             [
                                 1.0
@@ -2128,7 +2122,7 @@ This entrytype defines the following properties:
                         "type": [
                             "array"
                         ],
-                        "description": "The chemical symbols of the elements or non-chemical elements attached to a site that has been assinged this species.\n\n**Requirements/Conventions**:\n\n- MUST be a list of strings of all chemical elements composing this species.\n  Each item of the list MUST be one of the following:\n\n  - a valid chemical-element symbol, or\n  - the special value `\"X\"` to represent a non-chemical element, or\n\nIf any one entry in the `species` list has a `attached` list that is longer than 1 element, the correct flag MUST be set in the list `structure_features` (see property `structure_features`).",
+                        "description": "The chemical symbols of the elements or non-chemical elements attached to a site that has been assinged this species.\n\n**Requirements/Conventions**:\n\n- MUST be a list of strings of all chemical elements composing this species.\n  Each item of the list MUST be one of the following:\n\n    - a valid chemical-element symbol.\n    - the special value `\"X\"` to represent a non-chemical element.\n\nIf any one entry in the `species` list has a `attached` list that is longer than 1 element, the correct flag MUST be set in the list `structure_features` (see property `structure_features`).",
                         "examples": [
                             [
                                 "Na",
@@ -2152,7 +2146,7 @@ This entrytype defines the following properties:
                                 "format": "1.2",
                                 "name": "chemical_symbol"
                             },
-                            "description": "A chemical symbol referring to an element or a non-chemical element.\n\n**Requirements/Conventions:**\n\n- Must be one of the following:\n\n  - a valid chemical-element symbol, or\n  - the special value `\"X\"` to represent a non-chemical element.",
+                            "description": "A chemical symbol referring to an element or a non-chemical element.\n\n**Requirements/Conventions:**\n\n- Must be one of the following:\n\n    - a valid chemical-element symbol, or\n    - the special value `\"X\"` to represent a non-chemical element.",
                             "x-optimade-unit": "inapplicable",
                             "examples": [
                                 "He",
@@ -2389,7 +2383,7 @@ This entrytype defines the following properties:
                 "object",
                 "null"
             ],
-            "description": "A description of groups of sites that are statistically correlated.\n\n**Requirements/Conventions**:\n\n- The property SHOULD be `null` for entries that have no partial occupancies.\n- If present, the correct flag MUST be set in the list `structure_features` (see property `structure_features`).\n- Client implementations MUST check its presence (as its presence changes the interpretation of the structure).\n- If present, it MUST be a list of dictionaries, each of which represents an assembly and MUST have the following two keys:\n\n  - **sites_in_groups**: Index of the sites (0-based) that belong to each group for each assembly.\n\n    Example: `[[1], [2]]`: two groups, one with the second site, one with the third.\n    Example: `[[1,2], [3]]`: one group with the second and third site, one with the fourth.\n\n  - **group_probabilities**: Statistical probability of each group. It MUST have the same length as `sites_in_groups`.\n    It SHOULD sum to one.\n    See below for examples of how to specify the probability of the occurrence of a vacancy.\n    The possible reasons for the values not to sum to one are the same as already specified above for the `concentration` of each `species`, see property `species`.\n\n- If a site is not present in any group, it means that it is present with 100 % probability (as if no assembly was specified).\n- A site MUST NOT appear in more than one group.\n\n**Explained examples**:\n\n- `{\"sites_in_groups\": [[0], [1]], \"group_probabilities\": [0.3, 0.7]}`: the first site and the second site never occur at the same time in the unit cell.\n  Statistically, 30 % of the times the first site is present, while 70 % of the times the second site is present.\n- `{\"sites_in_groups\": [[1,2], [3]], \"group_probabilities\": [0.3, 0.7]}`: the second and third sites are either present together or not present; they form the first group of atoms for this assembly.\n  The second group is formed by the fourth site.\n  Sites of the first group (the second and the third) are never present at the same time as the fourth site.\n  30 % of times sites 1 and 2 are present (and site 3 is absent); 70 % of times site 3 is present (and sites 1 and 2 are absent).\n\n- **Notes**:\n\n  - Assemblies are essential to represent, for instance, the situation where an atom can statistically occupy two different positions (sites).\n  - By defining groups, it is possible to represent, e.g., the case where a functional molecule (and not just one atom) is either present or absent (or the case where it is present in two conformations).\n  - Considerations on virtual alloys and on vacancies: In the special case of a virtual alloy, these specifications allow two different, equivalent ways of specifying them.\n    For instance, for a site at the origin with 30 % probability of being occupied by Si, 50 % probability of being occupied by Ge, and 20 % of being a vacancy, the following two representations are possible:\n\n    - Using a single species:\n\n      ```\n\n           {\n             \"cartesian_site_positions\": [[0,0,0]],\n             \"species_at_sites\": [\"SiGe-vac\"],\n             \"species\": [\n               {\n                 \"name\": \"SiGe-vac\",\n                 \"chemical_symbols\": [\"Si\", \"Ge\", \"vacancy\"],\n                 \"concentration\": [0.3, 0.5, 0.2]\n               }\n             ]\n             // ...\n           }\n      ```\n\n\n    - Using multiple species and the assemblies:\n\n      ```\n\n           {\n             \"cartesian_site_positions\": [ [0,0,0], [0,0,0], [0,0,0] ],\n             \"species_at_sites\": [\"Si\", \"Ge\", \"vac\"],\n             \"species\": [\n               { \"name\": \"Si\", \"chemical_symbols\": [\"Si\"], \"concentration\": [1.0] },\n               { \"name\": \"Ge\", \"chemical_symbols\": [\"Ge\"], \"concentration\": [1.0] },\n               { \"name\": \"vac\", \"chemical_symbols\": [\"vacancy\"], \"concentration\": [1.0] }\n             ],\n             \"assemblies\": [\n               {\n                 \"sites_in_groups\": [ [0], [1], [2] ],\n                 \"group_probabilities\": [0.3, 0.5, 0.2]\n               }\n             ]\n             // ...\n           }\n      ```\n\n  - It is up to the database provider to decide which representation to use, typically depending on the internal format in which the structure is stored.\n    However, given a structure identified by a unique ID, the API implementation MUST always provide the same representation for it.\n  - The probabilities of occurrence of different assemblies are uncorrelated.\n    So, for instance in the following case with two assemblies:\n\n    ```\n\n         {\n           \"assemblies\": [\n             {\n               \"sites_in_groups\": [ [0], [1] ],\n               \"group_probabilities\": [0.2, 0.8]\n             },\n             {\n               \"sites_in_groups\": [ [2], [3] ],\n               \"group_probabilities\": [0.3, 0.7]\n             }\n           ]\n         }\n    ```\n\n    Site 0 is present with a probability of 20 % and site 1 with a probability of 80 %. These two sites are correlated (either site 0 or 1 is present). Similarly, site 2 is present with a probability of 30 % and site 3 with a probability of 70 %.\n    These two sites are correlated (either site 2 or 3 is present).\n    However, the presence or absence of sites 0 and 1 is not correlated with the presence or absence of sites 2 and 3 (in the specific example, the pair of sites (0, 2) can occur with 0.2*0.3 = 6 % probability; the pair (0, 3) with 0.2*0.7 = 14 % probability; the pair (1, 2) with 0.8*0.3 = 24 % probability; and the pair (1, 3) with 0.8*0.7 = 56 % probability).",
+            "description": "A description of groups of sites that are statistically correlated.\n\n**Requirements/Conventions**:\n\n- The property SHOULD be `null` for entries that have no partial occupancies.\n- If present, the correct flag MUST be set in the list `structure_features` (see property `structure_features`).\n- Client implementations MUST check its presence (as its presence changes the interpretation of the structure).\n- If present, it MUST be a list of dictionaries, each of which represents an assembly and MUST have the following two keys:\n\n    - **sites_in_groups**: Index of the sites (0-based) that belong to each group for each assembly.\n\n      Example: `[[1], [2]]`: two groups, one with the second site, one with the third.\n      Example: `[[1,2], [3]]`: one group with the second and third site, one with the fourth.\n\n    - **group_probabilities**: Statistical probability of each group. It MUST have the same length as `sites_in_groups`.\n      It SHOULD sum to one.\n      See below for examples of how to specify the probability of the occurrence of a vacancy.\n      The possible reasons for the values not to sum to one are the same as already specified above for the `concentration` of each `species`, see property `species`.\n\n- If a site is not present in any group, it means that it is present with 100 % probability (as if no assembly was specified).\n- A site MUST NOT appear in more than one group.\n\n**Explained examples**:\n\n- `{\"sites_in_groups\": [[0], [1]], \"group_probabilities\": [0.3, 0.7]}`: the first site and the second site never occur at the same time in the unit cell.\n  Statistically, 30 % of the times the first site is present, while 70 % of the times the second site is present.\n- `{\"sites_in_groups\": [[1,2], [3]], \"group_probabilities\": [0.3, 0.7]}`: the second and third sites are either present together or not present; they form the first group of atoms for this assembly.\n  The second group is formed by the fourth site.\n  Sites of the first group (the second and the third) are never present at the same time as the fourth site.\n  30 % of times sites 1 and 2 are present (and site 3 is absent); 70 % of times site 3 is present (and sites 1 and 2 are absent).\n\n**Notes**:\n\n- Assemblies are essential to represent, for instance, the situation where an atom can statistically occupy two different positions (sites).\n- By defining groups, it is possible to represent, e.g., the case where a functional molecule (and not just one atom) is either present or absent (or the case where it is present in two conformations).\n- Considerations on virtual alloys and on vacancies: In the special case of a virtual alloy, these specifications allow two different, equivalent ways of specifying them.\n  For instance, for a site at the origin with 30 % probability of being occupied by Si, 50 % probability of being occupied by Ge, and 20 % of being a vacancy, the following two representations are possible:\n\n    - Using a single species:\n\n             {\n               \"cartesian_site_positions\": [[0,0,0]],\n               \"species_at_sites\": [\"SiGe-vac\"],\n               \"species\": [\n                 {\n                   \"name\": \"SiGe-vac\",\n                   \"chemical_symbols\": [\"Si\", \"Ge\", \"vacancy\"],\n                   \"concentration\": [0.3, 0.5, 0.2]\n                 }\n               ]\n               // ...\n             }\n\n\n\n    - Using multiple species and the assemblies:\n\n             {\n               \"cartesian_site_positions\": [ [0,0,0], [0,0,0], [0,0,0] ],\n               \"species_at_sites\": [\"Si\", \"Ge\", \"vac\"],\n               \"species\": [\n                 { \"name\": \"Si\", \"chemical_symbols\": [\"Si\"], \"concentration\": [1.0] },\n                 { \"name\": \"Ge\", \"chemical_symbols\": [\"Ge\"], \"concentration\": [1.0] },\n                 { \"name\": \"vac\", \"chemical_symbols\": [\"vacancy\"], \"concentration\": [1.0] }\n               ],\n               \"assemblies\": [\n                 {\n                   \"sites_in_groups\": [ [0], [1], [2] ],\n                   \"group_probabilities\": [0.3, 0.5, 0.2]\n                 }\n               ]\n               // ...\n             }\n\n- It is up to the database provider to decide which representation to use, typically depending on the internal format in which the structure is stored.\n  However, given a structure identified by a unique ID, the API implementation MUST always provide the same representation for it.\n- The probabilities of occurrence of different assemblies are uncorrelated.\n  So, for instance in the following case with two assemblies:\n\n         {\n           \"assemblies\": [\n             {\n               \"sites_in_groups\": [ [0], [1] ],\n               \"group_probabilities\": [0.2, 0.8]\n             },\n             {\n               \"sites_in_groups\": [ [2], [3] ],\n               \"group_probabilities\": [0.3, 0.7]\n             }\n           ]\n         }\n\n    Site 0 is present with a probability of 20 % and site 1 with a probability of 80 %. These two sites are correlated (either site 0 or 1 is present). Similarly, site 2 is present with a probability of 30 % and site 3 with a probability of 70 %.\n    These two sites are correlated (either site 2 or 3 is present).\n    However, the presence or absence of sites 0 and 1 is not correlated with the presence or absence of sites 2 and 3 (in the specific example, the pair of sites (0, 2) can occur with 0.2\u00b70.3 = 6% probability; the pair (0, 3) with 0.2\u00b70.7 = 14% probability; the pair (1, 2) with 0.8\u00b70.3 = 24 % probability; and the pair (1, 3) with 0.8\u00b70.7 = 56 % probability).",
             "examples": [
                 {
                     "sites_in_groups": [
@@ -2546,7 +2540,7 @@ This entrytype defines the following properties:
                 "format": "1.2",
                 "name": "structure_features"
             },
-            "description": "A list of strings that flag which special features are used by the structure.\n\n**Requirements/Conventions:**\n\n- MUST be an empty list if no special features are used.\n- MUST be sorted alphabetically.\n- If a special feature listed below is used, the list MUST contain the corresponding string.\n- If a special feature listed below is not used, the list MUST NOT contain the corresponding string.\n- **List of strings used to indicate special structure features:**\n  - `disorder`: this flag MUST be present if any one entry in the species list has a `chemical_symbols` list that is longer than 1 element.\n  - `implicit_atoms`: this flag MUST be present if the structure contains atoms that are not assigned to sites via the property `species_at_sites` (e.g., because their positions are unknown). When this flag is present, the properties related to the chemical formula will likely not match the type and count of atoms represented by the `species_at_sites`, `species`, and `assemblies` properties.\n  - `site_attachments`: this flag MUST be present if any one entry in the species list includes `attached` and `nattached`.\n  - `assemblies`: this flag MUST be present if the property assemblies is present.\n\n  **Explained examples**:\n  - A structure having implicit atoms and using assemblies: `[\"assemblies\", \"implicit_atoms\"]`",
+            "description": "A list of strings that flag which special features are used by the structure.\n\n**Requirements/Conventions:**\n\n- MUST be an empty list if no special features are used.\n- MUST be sorted alphabetically.\n- If a special feature listed below is used, the list MUST contain the corresponding string.\n- If a special feature listed below is not used, the list MUST NOT contain the corresponding string.\n- **List of strings used to indicate special structure features:**\n\n    - `disorder`: this flag MUST be present if any one entry in the species list has a `chemical_symbols` list that is longer than 1 element.\n    - `implicit_atoms`: this flag MUST be present if the structure contains atoms that are not assigned to sites via the property `species_at_sites` (e.g., because their positions are unknown). When this flag is present, the properties related to the chemical formula will likely not match the type and count of atoms represented by the `species_at_sites`, `species`, and `assemblies` properties.\n    - `site_attachments`: this flag MUST be present if any one entry in the species list includes `attached` and `nattached`.\n    - `assemblies`: this flag MUST be present if the property assemblies is present.\n\n**Explained examples**:\n\n- A structure having implicit atoms and using assemblies: `[\"assemblies\", \"implicit_atoms\"]`",
             "examples": [
                 [
                     "assemblies",

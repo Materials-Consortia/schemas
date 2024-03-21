@@ -13,7 +13,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `10.1103/PhysRev.136.B864`
+- `"10.1103/PhysRev.136.B864"`
 
 **Formats:** [[JSON](doi.json)] [[MD](doi.md)]
 

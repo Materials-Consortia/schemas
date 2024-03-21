@@ -13,13 +13,13 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 - Must be one of the following:
 
-  - a valid chemical-element symbol, or
-  - the special value `"X"` to represent a non-chemical element.
+    - a valid chemical-element symbol, or
+    - the special value `"X"` to represent a non-chemical element.
 
 **Examples:**
 
-- `He`
-- `X`
+- `"He"`
+- `"X"`
 
 **Formats:** [[JSON](chemical_symbol.json)] [[MD](chemical_symbol.md)]
 
@@ -38,7 +38,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
         "format": "1.2",
         "name": "chemical_symbol"
     },
-    "description": "A chemical symbol referring to an element or a non-chemical element.\n\n**Requirements/Conventions:**\n\n- Must be one of the following:\n\n  - a valid chemical-element symbol, or\n  - the special value `\"X\"` to represent a non-chemical element.",
+    "description": "A chemical symbol referring to an element or a non-chemical element.\n\n**Requirements/Conventions:**\n\n- Must be one of the following:\n\n    - a valid chemical-element symbol, or\n    - the special value `\"X\"` to represent a non-chemical element.",
     "x-optimade-unit": "inapplicable",
     "examples": [
         "He",

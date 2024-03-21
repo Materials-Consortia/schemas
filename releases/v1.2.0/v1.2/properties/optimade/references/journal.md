@@ -13,7 +13,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `Journal of Environmental Science`
+- `"Journal of Environmental Science"`
 
 **Formats:** [[JSON](journal.json)] [[MD](journal.md)]
 

@@ -15,7 +15,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `2020-04-05T14:30:20Z`
+- `"2020-04-05T14:30:20Z"`
 
 **Formats:** [[JSON](modification_timestamp.json)] [[MD](modification_timestamp.md)]
 

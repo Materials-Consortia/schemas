@@ -13,7 +13,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `ACM`
+- `"ACM"`
 
 **Formats:** [[JSON](publisher.json)] [[MD](publisher.md)]
 

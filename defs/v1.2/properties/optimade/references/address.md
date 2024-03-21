@@ -13,7 +13,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `New York, NY`
+- `"New York, NY"`
 
 **Formats:** [[JSON](address.json)] [[MD](address.md)]
 

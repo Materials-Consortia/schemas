@@ -13,7 +13,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `Research Note`
+- `"Research Note"`
 
 **Formats:** [[JSON](bib_type.json)] [[MD](bib_type.md)]
 

@@ -40,8 +40,8 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `['x,y,z', '-x,y,-z']`
-- `['x,y,z', '-x,y,-z', 'x+1/2,y+1/2,z', '-x+1/2,y+1/2,-z']`
+- `["x,y,z", "-x,y,-z"]`
+- `["x,y,z", "-x,y,-z", "x+1/2,y+1/2,z", "-x+1/2,y+1/2,-z"]`
 
 **Formats:** [[JSON](space_group_symmetry_operations_xyz.json)] [[MD](space_group_symmetry_operations_xyz.md)]
 

@@ -13,7 +13,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `147--154`
+- `"147--154"`
 
 **Formats:** [[JSON](pages.json)] [[MD](pages.md)]
 

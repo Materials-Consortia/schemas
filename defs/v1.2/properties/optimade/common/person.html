@@ -101,16 +101,16 @@ overflow-wrap: break-word;
 <ul>
 <li>
 <p>The dictionary MUST adhere to the following format:</p>
-</li>
-<li>
-<p><strong>name</strong>: Full name of the person, REQUIRED.</p>
-</li>
+<ul>
+<li><strong>name</strong>: Full name of the person, REQUIRED.</li>
 <li><strong>firstname</strong>, <strong>lastname</strong>: Parts of the person's name, OPTIONAL.</li>
+</ul>
+</li>
 </ul>
 <p><strong>Examples:</strong></p>
 <ul>
-<li><code>OrderedDict([('name', 'John Smith')])</code></li>
-<li><code>OrderedDict([('name', 'Arthur Dent'), ('firstname', 'Arthur'), ('lastname', 'Dent')])</code></li>
+<li><code>{"name": "John Smith"}</code></li>
+<li><code>{"name": "Arthur Dent", "firstname": "Arthur", "lastname": "Dent"}</code></li>
 </ul>
 <p><strong>Formats:</strong> [<a href="person.json">JSON</a>] [<a href="person.md">MD</a>]</p>
 <p><strong>JSON definition:</strong></p>
@@ -130,7 +130,7 @@ overflow-wrap: break-word;
 <span class="w">        </span><span class="s2">&quot;object&quot;</span><span class="p">,</span>
 <span class="w">        </span><span class="s2">&quot;null&quot;</span>
 <span class="w">    </span><span class="p">],</span>
-<span class="w">    </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A dictionary with name information about a person.\n\n**Requirements/Conventions**:\n\n- The dictionary MUST adhere to the following format:\n\n  - **name**: Full name of the person, REQUIRED.\n  - **firstname**, **lastname**: Parts of the person&#39;s name, OPTIONAL.&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A dictionary with name information about a person.\n\n**Requirements/Conventions**:\n\n- The dictionary MUST adhere to the following format:\n\n    - **name**: Full name of the person, REQUIRED.\n    - **firstname**, **lastname**: Parts of the person&#39;s name, OPTIONAL.&quot;</span><span class="p">,</span>
 <span class="w">    </span><span class="nt">&quot;required&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
 <span class="w">        </span><span class="s2">&quot;name&quot;</span>
 <span class="w">    </span><span class="p">],</span>

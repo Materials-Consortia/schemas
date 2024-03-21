@@ -24,7 +24,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 
 **Examples:**
 
-- `C 1 2 1`
+- `"C 1 2 1"`
 
 **Formats:** [[JSON](space_group_symbol_hermann_mauguin_extended.json)] [[MD](space_group_symbol_hermann_mauguin_extended.md)]
 
