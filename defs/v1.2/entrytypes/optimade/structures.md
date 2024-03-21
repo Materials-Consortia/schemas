@@ -288,7 +288,7 @@ This entrytype defines the following properties:
     - IUCr (2023) Core dictionary (coreCIF) version 2.4.5; data name `_space_group_symop_operation_xyz`. Available from: [https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Ispace_group_symop_operation_xyz.html](https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Ispace_group_symop_operation_xyz.html) [Accessed 2023-06-18T16:46+03:00].
 
 
-* **[hall space group symbol (space_group_symbol_hall)](../../properties/optimade/structures/space_group_symbol_hall.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hall`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hall.md)  
+* **[Hall space group symbol (space_group_symbol_hall)](../../properties/optimade/structures/space_group_symbol_hall.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hall`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hall.md)  
   A Hall space group symbol representing the symmetry of the structure as defined in Hall, S. R. (1981), Acta Cryst. A37, 517-525 and erratum (1981), A37, 921.
 
     **Requirements/Conventions:**  
@@ -375,7 +375,7 @@ This entrytype defines the following properties:
     - MUST be `null` if `nperiodic_dimensions` is not equal to 3.
 
 
-* **[cartesian site positions (cartesian_site_positions)](../../properties/optimade/structures/cartesian_site_positions.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/cartesian_site_positions`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/cartesian_site_positions.md)  
+* **[Cartesian site positions (cartesian_site_positions)](../../properties/optimade/structures/cartesian_site_positions.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/cartesian_site_positions`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/cartesian_site_positions.md)  
   Cartesian positions of each site in the structure.
 
     **Requirements/Conventions:**  
@@ -1389,7 +1389,7 @@ This entrytype defines the following properties:
                 "response-level": "may",
                 "query-support": "none"
             },
-            "title": "hall space group symbol",
+            "title": "Hall space group symbol",
             "x-optimade-type": "string",
             "x-optimade-definition": {
                 "label": "space_group_symbol_hall_optimade_structures",
@@ -1501,7 +1501,7 @@ This entrytype defines the following properties:
                 "response-level": "may",
                 "query-support": "none"
             },
-            "title": "cartesian site positions",
+            "title": "Cartesian site positions",
             "x-optimade-type": "list",
             "x-optimade-definition": {
                 "label": "cartesian_site_positions_optimade_structures",
@@ -1873,7 +1873,7 @@ This entrytype defines the following properties:
             ],
             "x-optimade-unit": "inapplicable",
             "items": {
-                "title": "Species declaration",
+                "title": "species declaration",
                 "x-optimade-type": "dictionary",
                 "description": "A declaration of a species of the sites of this structure. Species can represent pure chemical elements, virtual-crystal atoms representing a statistical occupation of a given site by multiple chemical elements, and/or a location to which there are attached atoms, i.e., atoms whose precise location are unknown beyond that they are attached to that position (frequently used to indicate hydrogen atoms attached to another element, e.g., a carbon with three attached hydrogens might represent a methyl group, -CH3).",
                 "x-optimade-unit": "inapplicable",
@@ -1904,7 +1904,7 @@ This entrytype defines the following properties:
                         "x-optimade-unit": "inapplicable"
                     },
                     "chemical_symbols": {
-                        "title": "Chemical symbols",
+                        "title": "chemical symbols",
                         "x-optimade-type": "list",
                         "x-optimade-dimensions": {
                             "names": [
@@ -2079,7 +2079,7 @@ This entrytype defines the following properties:
                         }
                     },
                     "concentration": {
-                        "title": "Concentration",
+                        "title": "concentration",
                         "x-optimade-type": "list",
                         "x-optimade-dimensions": {
                             "names": [
@@ -2112,7 +2112,7 @@ This entrytype defines the following properties:
                         }
                     },
                     "attached": {
-                        "title": "Attached chemical symbols",
+                        "title": "attached chemical symbols",
                         "x-optimade-type": "list",
                         "x-optimade-dimensions": {
                             "names": [
@@ -2285,7 +2285,7 @@ This entrytype defines the following properties:
                         }
                     },
                     "nattached": {
-                        "title": "Number of attached entities",
+                        "title": "number of attached entities",
                         "x-optimade-type": "list",
                         "x-optimade-dimensions": {
                             "names": [
@@ -2315,7 +2315,7 @@ This entrytype defines the following properties:
                         }
                     },
                     "mass": {
-                        "title": "Masses of the entities composing the species",
+                        "title": "masses of the entities composing the species",
                         "x-optimade-type": "list",
                         "x-optimade-dimensions": {
                             "names": [
@@ -2343,7 +2343,7 @@ This entrytype defines the following properties:
                         }
                     },
                     "original_name": {
-                        "title": "Original name",
+                        "title": "original name",
                         "x-optimade-type": "string",
                         "type": [
                             "string"
@@ -2418,7 +2418,7 @@ This entrytype defines the following properties:
             "x-optimade-unit": "inapplicable",
             "properties": {
                 "sites_in_groups": {
-                    "title": "Sites in groups",
+                    "title": "sites in groups",
                     "x-optimade-type": "list",
                     "x-optimade-dimensions": {
                         "names": [
@@ -2451,7 +2451,7 @@ This entrytype defines the following properties:
                     ],
                     "x-optimade-unit": "inapplicable",
                     "items": {
-                        "title": "Group of sites",
+                        "title": "group of sites",
                         "x-optimade-type": "list",
                         "x-optimade-dimensions": {
                             "names": [
@@ -2473,7 +2473,7 @@ This entrytype defines the following properties:
                         ],
                         "x-optimade-unit": "inapplicable",
                         "items": {
-                            "title": "A site reference",
+                            "title": "a site reference",
                             "x-optimade-type": "integer",
                             "type": [
                                 "integer"
@@ -2487,7 +2487,7 @@ This entrytype defines the following properties:
                     }
                 },
                 "group_probabilities": {
-                    "title": "Group probabilities",
+                    "title": "group probabilities",
                     "x-optimade-type": "list",
                     "x-optimade-dimensions": {
                         "names": [
@@ -2506,7 +2506,7 @@ This entrytype defines the following properties:
                     ],
                     "x-optimade-unit": "inapplicable",
                     "items": {
-                        "title": "A concentration",
+                        "title": "a concentration",
                         "x-optimade-type": "float",
                         "type": [
                             "number"

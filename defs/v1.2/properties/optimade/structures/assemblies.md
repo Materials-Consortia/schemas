@@ -164,7 +164,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     "x-optimade-unit": "inapplicable",
     "properties": {
         "sites_in_groups": {
-            "title": "Sites in groups",
+            "title": "sites in groups",
             "x-optimade-type": "list",
             "x-optimade-dimensions": {
                 "names": [
@@ -197,7 +197,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
             ],
             "x-optimade-unit": "inapplicable",
             "items": {
-                "title": "Group of sites",
+                "title": "group of sites",
                 "x-optimade-type": "list",
                 "x-optimade-dimensions": {
                     "names": [
@@ -219,7 +219,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
                 ],
                 "x-optimade-unit": "inapplicable",
                 "items": {
-                    "title": "A site reference",
+                    "title": "a site reference",
                     "x-optimade-type": "integer",
                     "type": [
                         "integer"
@@ -233,7 +233,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
             }
         },
         "group_probabilities": {
-            "title": "Group probabilities",
+            "title": "group probabilities",
             "x-optimade-type": "list",
             "x-optimade-dimensions": {
                 "names": [
@@ -252,7 +252,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
             ],
             "x-optimade-unit": "inapplicable",
             "items": {
-                "title": "A concentration",
+                "title": "a concentration",
                 "x-optimade-type": "float",
                 "type": [
                     "number"

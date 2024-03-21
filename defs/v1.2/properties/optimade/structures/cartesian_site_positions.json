@@ -1,7 +1,7 @@
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/cartesian_site_positions",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "cartesian site positions",
+    "title": "Cartesian site positions",
     "x-optimade-type": "list",
     "x-optimade-definition": {
         "label": "cartesian_site_positions_optimade_structures",

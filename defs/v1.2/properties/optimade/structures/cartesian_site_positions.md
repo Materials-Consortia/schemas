@@ -1,11 +1,11 @@
-# cartesian site positions (property)
+# Cartesian site positions (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/cartesian_site_positions`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/cartesian_site_positions.md)**  
 **Definition name:** `cartesian_site_positions`
 
-**Property name:** cartesian site positions  
+**Property name:** Cartesian site positions  
 **Description:** Cartesian positions of each site in the structure.  
 **Type:** list  
 
@@ -32,7 +32,7 @@ A site is usually used to describe positions of atoms; what atoms can be encount
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/cartesian_site_positions",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "cartesian site positions",
+    "title": "Cartesian site positions",
     "x-optimade-type": "list",
     "x-optimade-definition": {
         "label": "cartesian_site_positions_optimade_structures",

@@ -1,11 +1,11 @@
-# hall space group symbol (property)
+# Hall space group symbol (property)
 
 This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
 
 **ID: [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hall`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hall.md)**  
 **Definition name:** `space_group_symbol_hall`
 
-**Property name:** hall space group symbol  
+**Property name:** Hall space group symbol  
 **Description:** A Hall space group symbol representing the symmetry of the structure as defined in Hall, S. R. (1981), Acta Cryst. A37, 517-525 and erratum (1981), A37, 921.  
 **Type:** string  
 
@@ -49,7 +49,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
 {
     "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hall",
     "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
-    "title": "hall space group symbol",
+    "title": "Hall space group symbol",
     "x-optimade-type": "string",
     "x-optimade-definition": {
         "label": "space_group_symbol_hall_optimade_structures",

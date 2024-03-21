@@ -241,7 +241,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
     ],
     "x-optimade-unit": "inapplicable",
     "items": {
-        "title": "Species declaration",
+        "title": "species declaration",
         "x-optimade-type": "dictionary",
         "description": "A declaration of a species of the sites of this structure. Species can represent pure chemical elements, virtual-crystal atoms representing a statistical occupation of a given site by multiple chemical elements, and/or a location to which there are attached atoms, i.e., atoms whose precise location are unknown beyond that they are attached to that position (frequently used to indicate hydrogen atoms attached to another element, e.g., a carbon with three attached hydrogens might represent a methyl group, -CH3).",
         "x-optimade-unit": "inapplicable",
@@ -272,7 +272,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
                 "x-optimade-unit": "inapplicable"
             },
             "chemical_symbols": {
-                "title": "Chemical symbols",
+                "title": "chemical symbols",
                 "x-optimade-type": "list",
                 "x-optimade-dimensions": {
                     "names": [
@@ -447,7 +447,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
                 }
             },
             "concentration": {
-                "title": "Concentration",
+                "title": "concentration",
                 "x-optimade-type": "list",
                 "x-optimade-dimensions": {
                     "names": [
@@ -480,7 +480,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
                 }
             },
             "attached": {
-                "title": "Attached chemical symbols",
+                "title": "attached chemical symbols",
                 "x-optimade-type": "list",
                 "x-optimade-dimensions": {
                     "names": [
@@ -653,7 +653,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
                 }
             },
             "nattached": {
-                "title": "Number of attached entities",
+                "title": "number of attached entities",
                 "x-optimade-type": "list",
                 "x-optimade-dimensions": {
                     "names": [
@@ -683,7 +683,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
                 }
             },
             "mass": {
-                "title": "Masses of the entities composing the species",
+                "title": "masses of the entities composing the species",
                 "x-optimade-type": "list",
                 "x-optimade-dimensions": {
                     "names": [
@@ -711,7 +711,7 @@ This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definitio
                 }
             },
             "original_name": {
-                "title": "Original name",
+                "title": "original name",
                 "x-optimade-type": "string",
                 "type": [
                     "string"

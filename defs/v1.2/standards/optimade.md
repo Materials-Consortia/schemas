@@ -828,7 +828,7 @@ This standard defines the following entrytypes:
                         "response-level": "may",
                         "query-support": "none"
                     },
-                    "title": "hall space group symbol",
+                    "title": "Hall space group symbol",
                     "x-optimade-type": "string",
                     "x-optimade-definition": {
                         "label": "space_group_symbol_hall_optimade_structures",
@@ -940,7 +940,7 @@ This standard defines the following entrytypes:
                         "response-level": "may",
                         "query-support": "none"
                     },
-                    "title": "cartesian site positions",
+                    "title": "Cartesian site positions",
                     "x-optimade-type": "list",
                     "x-optimade-definition": {
                         "label": "cartesian_site_positions_optimade_structures",
@@ -1312,7 +1312,7 @@ This standard defines the following entrytypes:
                     ],
                     "x-optimade-unit": "inapplicable",
                     "items": {
-                        "title": "Species declaration",
+                        "title": "species declaration",
                         "x-optimade-type": "dictionary",
                         "description": "A declaration of a species of the sites of this structure. Species can represent pure chemical elements, virtual-crystal atoms representing a statistical occupation of a given site by multiple chemical elements, and/or a location to which there are attached atoms, i.e., atoms whose precise location are unknown beyond that they are attached to that position (frequently used to indicate hydrogen atoms attached to another element, e.g., a carbon with three attached hydrogens might represent a methyl group, -CH3).",
                         "x-optimade-unit": "inapplicable",
@@ -1343,7 +1343,7 @@ This standard defines the following entrytypes:
                                 "x-optimade-unit": "inapplicable"
                             },
                             "chemical_symbols": {
-                                "title": "Chemical symbols",
+                                "title": "chemical symbols",
                                 "x-optimade-type": "list",
                                 "x-optimade-dimensions": {
                                     "names": [
@@ -1518,7 +1518,7 @@ This standard defines the following entrytypes:
                                 }
                             },
                             "concentration": {
-                                "title": "Concentration",
+                                "title": "concentration",
                                 "x-optimade-type": "list",
                                 "x-optimade-dimensions": {
                                     "names": [
@@ -1551,7 +1551,7 @@ This standard defines the following entrytypes:
                                 }
                             },
                             "attached": {
-                                "title": "Attached chemical symbols",
+                                "title": "attached chemical symbols",
                                 "x-optimade-type": "list",
                                 "x-optimade-dimensions": {
                                     "names": [
@@ -1724,7 +1724,7 @@ This standard defines the following entrytypes:
                                 }
                             },
                             "nattached": {
-                                "title": "Number of attached entities",
+                                "title": "number of attached entities",
                                 "x-optimade-type": "list",
                                 "x-optimade-dimensions": {
                                     "names": [
@@ -1754,7 +1754,7 @@ This standard defines the following entrytypes:
                                 }
                             },
                             "mass": {
-                                "title": "Masses of the entities composing the species",
+                                "title": "masses of the entities composing the species",
                                 "x-optimade-type": "list",
                                 "x-optimade-dimensions": {
                                     "names": [
@@ -1782,7 +1782,7 @@ This standard defines the following entrytypes:
                                 }
                             },
                             "original_name": {
-                                "title": "Original name",
+                                "title": "original name",
                                 "x-optimade-type": "string",
                                 "type": [
                                     "string"
@@ -1857,7 +1857,7 @@ This standard defines the following entrytypes:
                     "x-optimade-unit": "inapplicable",
                     "properties": {
                         "sites_in_groups": {
-                            "title": "Sites in groups",
+                            "title": "sites in groups",
                             "x-optimade-type": "list",
                             "x-optimade-dimensions": {
                                 "names": [
@@ -1890,7 +1890,7 @@ This standard defines the following entrytypes:
                             ],
                             "x-optimade-unit": "inapplicable",
                             "items": {
-                                "title": "Group of sites",
+                                "title": "group of sites",
                                 "x-optimade-type": "list",
                                 "x-optimade-dimensions": {
                                     "names": [
@@ -1912,7 +1912,7 @@ This standard defines the following entrytypes:
                                 ],
                                 "x-optimade-unit": "inapplicable",
                                 "items": {
-                                    "title": "A site reference",
+                                    "title": "a site reference",
                                     "x-optimade-type": "integer",
                                     "type": [
                                         "integer"
@@ -1926,7 +1926,7 @@ This standard defines the following entrytypes:
                             }
                         },
                         "group_probabilities": {
-                            "title": "Group probabilities",
+                            "title": "group probabilities",
                             "x-optimade-type": "list",
                             "x-optimade-dimensions": {
                                 "names": [
@@ -1945,7 +1945,7 @@ This standard defines the following entrytypes:
                             ],
                             "x-optimade-unit": "inapplicable",
                             "items": {
-                                "title": "A concentration",
+                                "title": "a concentration",
                                 "x-optimade-type": "float",
                                 "type": [
                                     "number"

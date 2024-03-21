@@ -423,7 +423,7 @@
                     
                     A description of groups of sites that are statistically correlated.
 
-                * **[cartesian site positions](v1.2/properties/optimade/structures/cartesian_site_positions.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/cartesian_site_positions`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/cartesian_site_positions.md)
+                * **[Cartesian site positions](v1.2/properties/optimade/structures/cartesian_site_positions.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/cartesian_site_positions`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/cartesian_site_positions.md)
                     
                     Cartesian positions of each site in the structure.
 
@@ -487,7 +487,7 @@
                     
                     Space group number for the structure assigned by the International Tables for Crystallography Vol. A.
 
-                * **[hall space group symbol](v1.2/properties/optimade/structures/space_group_symbol_hall.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hall`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hall.md)
+                * **[Hall space group symbol](v1.2/properties/optimade/structures/space_group_symbol_hall.md)** (property) - [`https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hall`](https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symbol_hall.md)
                     
                     A Hall space group symbol representing the symmetry of the structure as defined in Hall, S. R. (1981), Acta Cryst. A37, 517-525 and erratum (1981), A37, 921.
 
