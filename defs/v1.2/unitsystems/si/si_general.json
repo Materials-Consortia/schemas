@@ -186,7 +186,7 @@
                 "name": "arcsecond"
             }
         },
-        "are": {
+        "a": {
             "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/are",
             "title": "are",
             "symbol": "a",
@@ -639,7 +639,7 @@
                 "name": "curie"
             }
         },
-        "da": {
+        "Da": {
             "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/dalton",
             "title": "dalton",
             "symbol": "Da",
@@ -783,7 +783,7 @@
                 "name": "degcelsius"
             }
         },
-        "deg": {
+        "degree": {
             "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/degree",
             "title": "degree",
             "symbol": "degree",
@@ -1718,7 +1718,7 @@
                 "name": "mole"
             }
         },
-        "nauticalmile": {
+        "M": {
             "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/nauticalmile",
             "title": "nautical mile",
             "symbol": "M",
@@ -3322,7 +3322,7 @@
             "title": "ronto",
             "symbol": "r",
             "display-symbol": "r",
-            "description": "The ronto SI prefix defined as a dimensionless multiple of 10^\u207b\u00b2\u2077, defined at the 27th CGPM Meeting in 2022, resolution 3.",
+            "description": "The ronto SI prefix defined as a dimensionless multiple of 10\u207b\u00b2\u2077, defined at the 27th CGPM Meeting in 2022, resolution 3.",
             "resources": [
                 {
                     "relation": "Definition in the 27th CGPM Meeting in 2022, resolution 3",

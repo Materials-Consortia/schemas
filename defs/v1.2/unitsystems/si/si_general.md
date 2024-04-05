@@ -23,7 +23,7 @@ This unitsystem defines the following units:
   A unit of plane and phase angle equal to 1/60 of a degree representing 1/21600 of a circle, equal to π/10800 rad, using the current, or one of the historical, definitions of the SI units.
 * **[arcsecond (arcsec)](../../units/si/general/arcsecond.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/general/arcsecond`](https://schemas.optimade.org/defs/v1.2/units/si/general/arcsecond.md)  
   A unit of plane and phase angle equal to 1/60 of an arcminute representing 1/1296000 of a circle, equal to π/648000 rad, using the current, or one of the historical, definitions of the SI units.
-* **[are](../../units/si/general/are.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/general/are`](https://schemas.optimade.org/defs/v1.2/units/si/general/are.md)  
+* **[are (a)](../../units/si/general/are.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/general/are`](https://schemas.optimade.org/defs/v1.2/units/si/general/are.md)  
   A unit of area equal to 100 square meters (10² m²) using the current, or one of the historical, definitions of the SI units.
 * **[astronomical unit (au)](../../units/si/general/astronomicalunit.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/general/astronomicalunit`](https://schemas.optimade.org/defs/v1.2/units/si/general/astronomicalunit.md)  
   A unit of length representing the mean distance between the Earth and the Sun, using the current, or one of the historical, definitions given in the editions of the International System of Units (SI).
@@ -43,13 +43,13 @@ This unitsystem defines the following units:
   A unit for electric charge equal to s·A using the current, or one of the historical, definitions of the SI units.
 * **[curie (Ci)](../../units/si/general/curie.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/general/curie`](https://schemas.optimade.org/defs/v1.2/units/si/general/curie.md)  
   A unit of activity with the value 3.7·10⁻¹⁰ s⁻¹ using the current, or one of the historical, definitions of the SI units.
-* **[dalton (da)](../../units/si/general/dalton.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/general/dalton`](https://schemas.optimade.org/defs/v1.2/units/si/general/dalton.md)  
+* **[dalton (Da)](../../units/si/general/dalton.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/general/dalton`](https://schemas.optimade.org/defs/v1.2/units/si/general/dalton.md)  
   A unit of mass intended to represent a typical mass of a nucleon in an atom using the current, or one of the historical, definitions given in the editions of the International System of Units (SI).
 * **[day](../../units/si/general/day.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/general/day`](https://schemas.optimade.org/defs/v1.2/units/si/general/day.md)  
   A unit of time equal to 86 400 seconds using the current, or one of the historical, definitions of the SI units.
 * **[degree Celsius (degC)](../../units/si/general/degcelsius.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/general/degcelsius`](https://schemas.optimade.org/defs/v1.2/units/si/general/degcelsius.md)  
   A unit of temperature, defined as kelvin offset with +273.15 using the current, or one of the historical, definitions of the SI units.
-* **[degree (deg)](../../units/si/general/degree.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/general/degree`](https://schemas.optimade.org/defs/v1.2/units/si/general/degree.md)  
+* **[degree](../../units/si/general/degree.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/general/degree`](https://schemas.optimade.org/defs/v1.2/units/si/general/degree.md)  
   A unit of plane and phase angle representing 1/360 of a full circle, equal to π/180 rad using the current, or one of the historical, definitions of the SI units.
 * **[electron volt (eV)](../../units/si/general/electronvolt.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/general/electronvolt`](https://schemas.optimade.org/defs/v1.2/units/si/general/electronvolt.md)  
   A unit of energy that representing the kinetic energy acquired by an electron as it accelerates through a 1 volt potential difference in a vacuum using the current, or one of the historical, definitions given in the editions of the International System of Units (SI).
@@ -89,7 +89,7 @@ This unitsystem defines the following units:
   A unit of time that is equal to 60 seconds, using the current, or one of the historical, definitions of the SI units.
 * **[mole (mol)](../../units/si/general/mole.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/general/mole`](https://schemas.optimade.org/defs/v1.2/units/si/general/mole.md)  
   A unit of amount of substance using the current, or one of the historical, definitions of the SI units.
-* **[nautical mile (nauticalmile)](../../units/si/general/nauticalmile.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/general/nauticalmile`](https://schemas.optimade.org/defs/v1.2/units/si/general/nauticalmile.md)  
+* **[nautical mile (M)](../../units/si/general/nauticalmile.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/general/nauticalmile`](https://schemas.optimade.org/defs/v1.2/units/si/general/nauticalmile.md)  
   A unit of length primarily used in navigation defined as 1852 m using the current, or one of the historical, definitions of the SI units.
 * **[newton (N)](../../units/si/general/newton.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/general/newton`](https://schemas.optimade.org/defs/v1.2/units/si/general/newton.md)  
   A unit for force and weight equal to kg·m·s⁻² using the current, or one of the historical, definitions of the SI units.
@@ -173,7 +173,7 @@ This unitsystem defines the following prefixes:
 * **[ronna (R)](../../prefixes/si/ronna.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/ronna`](https://schemas.optimade.org/defs/v1.2/prefixes/si/ronna.md)  
   The ronna SI prefix defined as a dimensionless multiple of 10²⁷, defined at the 27th CGPM Meeting in 2022, resolution 3.
 * **[ronto (r)](../../prefixes/si/ronto.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/ronto`](https://schemas.optimade.org/defs/v1.2/prefixes/si/ronto.md)  
-  The ronto SI prefix defined as a dimensionless multiple of 10^⁻²⁷, defined at the 27th CGPM Meeting in 2022, resolution 3.
+  The ronto SI prefix defined as a dimensionless multiple of 10⁻²⁷, defined at the 27th CGPM Meeting in 2022, resolution 3.
 * **[quecto (q)](../../prefixes/si/quecto.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/quecto`](https://schemas.optimade.org/defs/v1.2/prefixes/si/quecto.md)  
   The quecto SI prefix defined as a dimensionless multiple of 10⁻³⁰, defined at the 27th CGPM Meeting in 2022, resolution 3.
 * **[exbi (Ei)](../../prefixes/si/exbi.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/exbi`](https://schemas.optimade.org/defs/v1.2/prefixes/si/exbi.md)  
@@ -384,7 +384,7 @@ This unitsystem defines the following prefixes:
                 "name": "arcsecond"
             }
         },
-        "are": {
+        "a": {
             "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/are",
             "title": "are",
             "symbol": "a",
@@ -837,7 +837,7 @@ This unitsystem defines the following prefixes:
                 "name": "curie"
             }
         },
-        "da": {
+        "Da": {
             "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/dalton",
             "title": "dalton",
             "symbol": "Da",
@@ -981,7 +981,7 @@ This unitsystem defines the following prefixes:
                 "name": "degcelsius"
             }
         },
-        "deg": {
+        "degree": {
             "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/degree",
             "title": "degree",
             "symbol": "degree",
@@ -1916,7 +1916,7 @@ This unitsystem defines the following prefixes:
                 "name": "mole"
             }
         },
-        "nauticalmile": {
+        "M": {
             "$id": "https://schemas.optimade.org/defs/v1.2/units/si/general/nauticalmile",
             "title": "nautical mile",
             "symbol": "M",
@@ -3520,7 +3520,7 @@ This unitsystem defines the following prefixes:
             "title": "ronto",
             "symbol": "r",
             "display-symbol": "r",
-            "description": "The ronto SI prefix defined as a dimensionless multiple of 10^\u207b\u00b2\u2077, defined at the 27th CGPM Meeting in 2022, resolution 3.",
+            "description": "The ronto SI prefix defined as a dimensionless multiple of 10\u207b\u00b2\u2077, defined at the 27th CGPM Meeting in 2022, resolution 3.",
             "resources": [
                 {
                     "relation": "Definition in the 27th CGPM Meeting in 2022, resolution 3",

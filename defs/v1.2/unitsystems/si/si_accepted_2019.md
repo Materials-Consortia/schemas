@@ -25,7 +25,7 @@ This unitsystem defines the following units:
   A unit of time equal to 86 400 seconds, using the 1967 base SI units.
 * **[astronomical unit (au)](../../units/si/2019/accepted/astronomicalunit.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/accepted/astronomicalunit`](https://schemas.optimade.org/defs/v1.2/units/si/2019/accepted/astronomicalunit.md)  
   A unit defined as exactly 149597870700 meters which is meant to represent the mean distance between the Earth and the Sun using the SI 1983 meter.
-* **[degree (deg)](../../units/si/1970/accepted/degree.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/degree`](https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/degree.md)  
+* **[degree](../../units/si/1970/accepted/degree.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/degree`](https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/degree.md)  
   A unit of plane and phase angle where a full circle is 360 degrees, which is equivalent to pi/180 rad, with rad defined according to the 1960 SI units.
 * **[arcminute (arcmin)](../../units/si/1970/accepted/arcminute.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/arcminute`](https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/arcminute.md)  
   A unit of plane and phase angle equal to 1/60 of a degree which is 1/21600 of a circle and equivalent to pi/10800 rad, with rad defined according to the 1960 supplementary SI unit.
@@ -37,7 +37,7 @@ This unitsystem defines the following units:
   The litre, or liter is a unit of volume equal to a cubic decimetre (1 dm³) implicitly redefined via the redefinition of the meter at the 17th CGPM Meeting in 1983, resolution 1.
 * **[tonne (t)](../../units/si/2019/accepted/tonne.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/accepted/tonne`](https://schemas.optimade.org/defs/v1.2/units/si/2019/accepted/tonne.md)  
   A unit of mass defined as 1000 kg, with kilogram defined according to the 2019 SI units.
-* **[dalton (da)](../../units/si/1998/accepted/dalton.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1998/accepted/dalton`](https://schemas.optimade.org/defs/v1.2/units/si/1998/accepted/dalton.md)  
+* **[dalton (Da)](../../units/si/1998/accepted/dalton.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1998/accepted/dalton`](https://schemas.optimade.org/defs/v1.2/units/si/1998/accepted/dalton.md)  
   A unit of mass defined as 1/12 of the mass of a free carbon 12 atom, at rest and in its ground state.
 * **[electron volt (eV)](../../units/si/2019/accepted/electronvolt.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/accepted/electronvolt`](https://schemas.optimade.org/defs/v1.2/units/si/2019/accepted/electronvolt.md)  
   A unit of energy equal to the amount of kinetic energy acquired by an electron as it accelerates through a 1 volt potential difference in a vacuum using the 2019 SI units.
@@ -306,7 +306,7 @@ This unitsystem defines the following prefixes:
                 "name": "astronomicalunit"
             }
         },
-        "deg": {
+        "degree": {
             "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/degree",
             "title": "degree",
             "symbol": "degree",
@@ -560,7 +560,7 @@ This unitsystem defines the following prefixes:
                 "name": "tonne"
             }
         },
-        "da": {
+        "Da": {
             "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1998/accepted/dalton",
             "title": "dalton",
             "symbol": "Da",

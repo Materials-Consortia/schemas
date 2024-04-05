@@ -158,7 +158,7 @@
                 "name": "astronomicalunit"
             }
         },
-        "deg": {
+        "degree": {
             "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/degree",
             "title": "degree",
             "symbol": "degree",
@@ -412,7 +412,7 @@
                 "name": "tonne"
             }
         },
-        "da": {
+        "Da": {
             "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1998/accepted/dalton",
             "title": "dalton",
             "symbol": "Da",

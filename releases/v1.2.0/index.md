@@ -7,7 +7,7 @@
                 * **electromagnetic**
                     * **[Bohr magneton](v1.2/constants/codata/2018/electromagnetic/bohrmagneton.md)** (constant) - [`https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/bohrmagneton`](https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/bohrmagneton.md)
                         
-                        The 2018 CODATA Bohr magneton constant is defined as "1 \(\mu_B\) = 9.274 010 0783(28)·10^-24 J·T^-1" with joule and tesla conforming to the 2019 redefinition of the SI derived units.
+                        The 2018 CODATA Bohr magneton constant is defined as "1 \(\mu_B\) = 9.274 010 0783(28)·10⁻²⁴ J·T⁻¹" with joule and tesla conforming to the 2019 redefinition of the SI derived units.
 
                     * **[elementary charge](v1.2/constants/codata/2018/electromagnetic/elementarycharge.md)** (constant) - [`https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/elementarycharge`](https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/elementarycharge.md)
                         
@@ -129,7 +129,7 @@
 
             * **[ronto](v1.2/prefixes/si/ronto.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/ronto`](https://schemas.optimade.org/defs/v1.2/prefixes/si/ronto.md)
                 
-                The ronto SI prefix defined as a dimensionless multiple of 10^⁻²⁷, defined at the 27th CGPM Meeting in 2022, resolution 3.
+                The ronto SI prefix defined as a dimensionless multiple of 10⁻²⁷, defined at the 27th CGPM Meeting in 2022, resolution 3.
 
             * **[tebi](v1.2/prefixes/si/tebi.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/tebi`](https://schemas.optimade.org/defs/v1.2/prefixes/si/tebi.md)
                 
