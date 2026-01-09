@@ -1,0 +1,104 @@
+# Wyckoff positions (property)
+
+This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
+
+**ID: [`https://schemas.optimade.org/defs/v1.3/properties/optimade/structures/wyckoff_positions`](https://schemas.optimade.org/defs/v1.3/properties/optimade/structures/wyckoff_positions.md)**  
+**Definition name:** `wyckoff_positions`
+
+**Property name:** Wyckoff positions  
+**Description:** A list of Wyckoff symbols of sites (where values for sites are specified with the same order of the property `cartesian_site_positions` and/or `fractional_site_positions`).  
+**Type:** list  
+
+**Requirements/Conventions**:
+
+- MUST have length equal to the number of sites in the structure (first dimension of the list properties `cartesian_site_positions` and/or `fractional_site_positions`).
+- If provided, MUST list a single letter (`a`-`z` or `α`) Wyckoff position for each site in the structure according to the International Tables for Crystallography vol. A (IUCr, 2016).
+
+**Bibliographic References**:
+
+- IUCr (2016). International Tables for Crystallography vol. A. Space-group Symmetry, Ed. M. I. Aroyo, 6-th edition. Chichester, John Wiley & Sons.
+
+**Examples:**
+
+
+
+**Formats:** [[JSON](wyckoff_positions.json)] [[MD](wyckoff_positions.md)]
+
+**JSON definition:**
+
+``` json
+{
+    "$id": "https://schemas.optimade.org/defs/v1.3/properties/optimade/structures/wyckoff_positions",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/property_definition.json",
+    "title": "Wyckoff positions",
+    "x-optimade-type": "list",
+    "x-optimade-definition": {
+        "label": "wyckoff_positions_optimade_structures",
+        "kind": "property",
+        "version": "1.3.0",
+        "format": "1.2",
+        "name": "wyckoff_positions"
+    },
+    "x-optimade-dimensions": {
+        "names": [
+            "dim_sites"
+        ],
+        "sizes": [
+            null
+        ]
+    },
+    "type": [
+        "array",
+        "null"
+    ],
+    "description": "A list of Wyckoff symbols of sites (where values for sites are specified with the same order of the property `cartesian_site_positions` and/or `fractional_site_positions`).\n\n**Requirements/Conventions**:\n\n- MUST have length equal to the number of sites in the structure (first dimension of the list properties `cartesian_site_positions` and/or `fractional_site_positions`).\n- If provided, MUST list a single letter (`a`-`z` or `\u03b1`) Wyckoff position for each site in the structure according to the International Tables for Crystallography vol. A (IUCr, 2016).\n\n**Bibliographic References**:\n\n- IUCr (2016). International Tables for Crystallography vol. A. Space-group Symmetry, Ed. M. I. Aroyo, 6-th edition. Chichester, John Wiley & Sons.",
+    "x-optimade-unit": "inapplicable",
+    "items": {
+        "$id": "https://schemas.optimade.org/defs/v1.3/properties/optimade/common/wyckoff_position",
+        "title": "Wyckoff position",
+        "x-optimade-type": "string",
+        "x-optimade-definition": {
+            "label": "wyckoff_position_optimade_common",
+            "kind": "property",
+            "version": "1.3.0",
+            "format": "1.2",
+            "name": "wyckoff_position"
+        },
+        "description": "The Wyckoff symbol for a site.",
+        "x-optimade-unit": "inapplicable",
+        "type": [
+            "string"
+        ],
+        "maxLength": 1,
+        "enum": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i",
+            "j",
+            "k",
+            "l",
+            "m",
+            "n",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "t",
+            "u",
+            "v",
+            "w",
+            "x",
+            "y",
+            "z",
+            "\u03b1"
+        ]
+    }
+}
+```

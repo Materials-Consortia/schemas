@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex/dist/contrib/mathtex-script-type.min.js" defer></script>
+    <title>list of space group symmetry operations</title>
+    <style>
+pre { line-height: 125%; }
+td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.codehilite .hll { background-color: #ffffcc }
+.codehilite { background: #f8f8f8; }
+.codehilite .c { color: #3D7B7B; font-style: italic } /* Comment */
+.codehilite .err { border: 1px solid #FF0000 } /* Error */
+.codehilite .k { color: #008000; font-weight: bold } /* Keyword */
+.codehilite .o { color: #666666 } /* Operator */
+.codehilite .ch { color: #3D7B7B; font-style: italic } /* Comment.Hashbang */
+.codehilite .cm { color: #3D7B7B; font-style: italic } /* Comment.Multiline */
+.codehilite .cp { color: #9C6500 } /* Comment.Preproc */
+.codehilite .cpf { color: #3D7B7B; font-style: italic } /* Comment.PreprocFile */
+.codehilite .c1 { color: #3D7B7B; font-style: italic } /* Comment.Single */
+.codehilite .cs { color: #3D7B7B; font-style: italic } /* Comment.Special */
+.codehilite .gd { color: #A00000 } /* Generic.Deleted */
+.codehilite .ge { font-style: italic } /* Generic.Emph */
+.codehilite .gr { color: #E40000 } /* Generic.Error */
+.codehilite .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.codehilite .gi { color: #008400 } /* Generic.Inserted */
+.codehilite .go { color: #717171 } /* Generic.Output */
+.codehilite .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+.codehilite .gs { font-weight: bold } /* Generic.Strong */
+.codehilite .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.codehilite .gt { color: #0044DD } /* Generic.Traceback */
+.codehilite .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+.codehilite .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+.codehilite .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
+.codehilite .kp { color: #008000 } /* Keyword.Pseudo */
+.codehilite .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+.codehilite .kt { color: #B00040 } /* Keyword.Type */
+.codehilite .m { color: #666666 } /* Literal.Number */
+.codehilite .s { color: #BA2121 } /* Literal.String */
+.codehilite .na { color: #687822 } /* Name.Attribute */
+.codehilite .nb { color: #008000 } /* Name.Builtin */
+.codehilite .nc { color: #0000FF; font-weight: bold } /* Name.Class */
+.codehilite .no { color: #880000 } /* Name.Constant */
+.codehilite .nd { color: #AA22FF } /* Name.Decorator */
+.codehilite .ni { color: #717171; font-weight: bold } /* Name.Entity */
+.codehilite .ne { color: #CB3F38; font-weight: bold } /* Name.Exception */
+.codehilite .nf { color: #0000FF } /* Name.Function */
+.codehilite .nl { color: #767600 } /* Name.Label */
+.codehilite .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+.codehilite .nt { color: #008000; font-weight: bold } /* Name.Tag */
+.codehilite .nv { color: #19177C } /* Name.Variable */
+.codehilite .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+.codehilite .w { color: #bbbbbb } /* Text.Whitespace */
+.codehilite .mb { color: #666666 } /* Literal.Number.Bin */
+.codehilite .mf { color: #666666 } /* Literal.Number.Float */
+.codehilite .mh { color: #666666 } /* Literal.Number.Hex */
+.codehilite .mi { color: #666666 } /* Literal.Number.Integer */
+.codehilite .mo { color: #666666 } /* Literal.Number.Oct */
+.codehilite .sa { color: #BA2121 } /* Literal.String.Affix */
+.codehilite .sb { color: #BA2121 } /* Literal.String.Backtick */
+.codehilite .sc { color: #BA2121 } /* Literal.String.Char */
+.codehilite .dl { color: #BA2121 } /* Literal.String.Delimiter */
+.codehilite .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+.codehilite .s2 { color: #BA2121 } /* Literal.String.Double */
+.codehilite .se { color: #AA5D1F; font-weight: bold } /* Literal.String.Escape */
+.codehilite .sh { color: #BA2121 } /* Literal.String.Heredoc */
+.codehilite .si { color: #A45A77; font-weight: bold } /* Literal.String.Interpol */
+.codehilite .sx { color: #008000 } /* Literal.String.Other */
+.codehilite .sr { color: #A45A77 } /* Literal.String.Regex */
+.codehilite .s1 { color: #BA2121 } /* Literal.String.Single */
+.codehilite .ss { color: #19177C } /* Literal.String.Symbol */
+.codehilite .bp { color: #008000 } /* Name.Builtin.Pseudo */
+.codehilite .fm { color: #0000FF } /* Name.Function.Magic */
+.codehilite .vc { color: #19177C } /* Name.Variable.Class */
+.codehilite .vg { color: #19177C } /* Name.Variable.Global */
+.codehilite .vi { color: #19177C } /* Name.Variable.Instance */
+.codehilite .vm { color: #19177C } /* Name.Variable.Magic */
+.codehilite .il { color: #666666 } /* Literal.Number.Integer.Long */
+
+.codehilite code, .codehilite pre{
+overflow: auto;
+overflow-wrap: break-word;
+}
+</style>
+<link rel="stylesheet" type="text/css" media="screen" href="https://www.optimade.org/assets/css/style.css" /><style>body {background: #f2f2f2;} html {margin: 0 auto; max-width: 900px;}</style>
+  </head>
+<body>
+<a href="https://www.optimade.org/"><img style="margin: 0.5em; float: left" src="https://avatars0.githubusercontent.com/u/23107754" width="10%" /></a><div style="width: 100%; clear: both"></div><h1>list of space group symmetry operations (property)</h1>
+<p>This page documents an <a href="https://www.optimade.org/">OPTIMADE</a> <a href="https://schemas.optimade.org/#definitions">Property Definition</a>. See <a href="https://schemas.optimade.org/">https://schemas.optimade.org/</a> for more information.</p>
+<p><strong>ID: <a href="https://schemas.optimade.org/defs/v1.3/properties/optimade/trajectories/space_group_symmetry_operations_xyz"><code>https://schemas.optimade.org/defs/v1.3/properties/optimade/trajectories/space_group_symmetry_operations_xyz</code></a></strong><br>
+<strong>Definition name:</strong> <code>space_group_symmetry_operations_xyz</code></p>
+<p><strong>Property name:</strong> list of space group symmetry operations<br>
+<strong>Description:</strong> A list of space_group_symmetry_operations_xyz items.
+A space_group_symmetry_operations_xyz item is a list of symmetry operations given as general position x, y and z coordinates in algebraic form.<br>
+<strong>Type:</strong> list  </p>
+<p>For each space_group_symmetry_operations_xyz item the following applies:</p>
+<p><strong>Requirements/Conventions</strong>:</p>
+<ul>
+<li>MUST be <code>null</code> if the property <code>nperiodic_dimensions</code> is equal to 0.</li>
+<li>Each symmetry operation is described by a string that gives that symmetry operation in Jones' faithful representation (Bradley &amp; Cracknell, 1972: pp. 35-37), adapted for computer string notation.</li>
+<li>The letters <code>x</code>, <code>y</code> and <code>z</code> that are typesetted with overbars in printed text represent coordinate values multiplied by -1 and are encoded as <code>-x</code>, <code>-y</code> and <code>-z</code>, respectively.</li>
+<li>The syntax of the string representing a symmetry operation MUST conform to regular expressions given in the OPTIMADE specification appendix 'The Symmetry Operation String Regular Expressions'.</li>
+<li>The interpretation of the strings MUST follow the conventions of the IUCr CIF core dictionary (IUCr, 2023).</li>
+<li>In particular, this property MUST explicitly provide all symmetry operations needed to generate all the atoms in the unit cell from the atoms in the asymmetric unit, for the setting used.</li>
+<li>This symmetry operation set MUST always include the <code>x,y,z</code> identity operation.</li>
+<li>The symmetry operations are to be applied to fractional atom coordinates.</li>
+<li>In case only Cartesian coordinates are available, these Cartesian coordinates must be converted to fractional coordinates before the application of the provided symmetry operations.</li>
+<li>If the symmetry operation list is present, it MUST be compatible with other space group specifications (e.g. the ITC space group number, the Hall symbol, the Hermann-Mauguin symbol) if these are present.</li>
+</ul>
+<p><strong>Notes</strong>:</p>
+<ul>
+<li>The list of space group symmetry operations applies to the whole periodic array of atoms and together with the lattice translations given in the <code>lattice_vectors</code> property provides the necessary information to reconstruct all atom site positions of the periodic material.</li>
+<li>Thus, the symmetry operations described in this property are only applicable to material models with at least one periodic dimension.</li>
+<li>This property is not meant to represent arbitrary symmetries of molecules, non-periodic (finite) collections of atoms or non-crystallographic symmetry.</li>
+</ul>
+<p><strong>Explained examples</strong>:</p>
+<ul>
+<li>Space group operations for the space group with ITC number 3 (H-M symbol <code>P 2</code>, extended H-M symbol <code>P 1 2 1</code>, Hall symbol <code>P 2y</code>): <code>["x,y,z", "-x,y,-z"]</code></li>
+<li>Space group operations for the space group with ITC number 5 (H-M symbol <code>C 2</code>, extended H-M symbol <code>C 1 2 1</code>, Hall symbol <code>C 2y</code>): <code>["x,y,z", "-x,y,-z", "x+1/2,y+1/2,z", "-x+1/2,y+1/2,-z"]</code></li>
+</ul>
+<p><strong>Bibliographic References</strong></p>
+<ul>
+<li>Bradley, C. J. and Cracknell, A. P. (1972) The Mathematical Theory of Symmetry in Solids. Oxford, Clarendon Press (paperback edition 2010) 745 p. <a href="https://isbnsearch.org/isbn/9780199582587&gt;">ISBN 978-0-19-958258-7</a>.</li>
+<li>IUCr (2023) Core dictionary (coreCIF) version 2.4.5; data name <code>_space_group_symop_operation_xyz</code>. Available from: <a href="https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Ispace_group_symop_operation_xyz.html">https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Ispace_group_symop_operation_xyz.html</a> [Accessed 2023-06-18T16:46+03:00].</li>
+</ul>
+<p><strong>Examples:</strong></p>
+<ul>
+<li><code>[["x,y,z", "-x,y,-z", "x+1/2,y+1/2,z", "-x+1/2,y+1/2,-z"], ["x,y,z", "-x,y,-z"]]</code></li>
+<li><code>[["x,y,z", "-x,y,-z"]]</code></li>
+</ul>
+<p><strong>Formats:</strong> [<a href="space_group_symmetry_operations_xyz.json">JSON</a>] [<a href="space_group_symmetry_operations_xyz.md">MD</a>]</p>
+<p><strong>JSON definition:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;$id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schemas.optimade.org/defs/v1.3/properties/optimade/trajectories/space_group_symmetry_operations_xyz&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;$schema&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schemas.optimade.org/meta/v1.3/optimade/property_definition.json&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;list of space group symmetry operations&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;x-optimade-type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;list&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;x-optimade-definition&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;space_group_symmetry_operations_xyz_optimade_trajectories&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;kind&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;property&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.3.0&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;format&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.3&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;space_group_symmetry_operations_xyz&quot;</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;x-optimade-dimensions&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;names&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">            </span><span class="s2">&quot;dim_frames&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="s2">&quot;dim_symops&quot;</span>
+<span class="w">        </span><span class="p">],</span>
+<span class="w">        </span><span class="nt">&quot;sizes&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">            </span><span class="kc">null</span><span class="p">,</span>
+<span class="w">            </span><span class="kc">null</span>
+<span class="w">        </span><span class="p">],</span>
+<span class="w">        </span><span class="nt">&quot;compactable&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">            </span><span class="s2">&quot;constant&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="s2">&quot;no&quot;</span>
+<span class="w">        </span><span class="p">]</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="s2">&quot;array&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;null&quot;</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A list of space_group_symmetry_operations_xyz items.\nA space_group_symmetry_operations_xyz item is a list of symmetry operations given as general position x, y and z coordinates in algebraic form.\n\nFor each space_group_symmetry_operations_xyz item the following applies:\n\n**Requirements/Conventions**:\n\n- MUST be `null` if the property `nperiodic_dimensions` is equal to 0.\n- Each symmetry operation is described by a string that gives that symmetry operation in Jones&#39; faithful representation (Bradley &amp; Cracknell, 1972: pp. 35-37), adapted for computer string notation.\n- The letters `x`, `y` and `z` that are typesetted with overbars in printed text represent coordinate values multiplied by -1 and are encoded as `-x`, `-y` and `-z`, respectively.\n- The syntax of the string representing a symmetry operation MUST conform to regular expressions given in the OPTIMADE specification appendix &#39;The Symmetry Operation String Regular Expressions&#39;.\n- The interpretation of the strings MUST follow the conventions of the IUCr CIF core dictionary (IUCr, 2023).\n- In particular, this property MUST explicitly provide all symmetry operations needed to generate all the atoms in the unit cell from the atoms in the asymmetric unit, for the setting used.\n- This symmetry operation set MUST always include the `x,y,z` identity operation.\n- The symmetry operations are to be applied to fractional atom coordinates.\n- In case only Cartesian coordinates are available, these Cartesian coordinates must be converted to fractional coordinates before the application of the provided symmetry operations.\n- If the symmetry operation list is present, it MUST be compatible with other space group specifications (e.g. the ITC space group number, the Hall symbol, the Hermann-Mauguin symbol) if these are present.\n\n**Notes**:\n\n- The list of space group symmetry operations applies to the whole periodic array of atoms and together with the lattice translations given in the `lattice_vectors` property provides the necessary information to reconstruct all atom site positions of the periodic material.\n- Thus, the symmetry operations described in this property are only applicable to material models with at least one periodic dimension.\n- This property is not meant to represent arbitrary symmetries of molecules, non-periodic (finite) collections of atoms or non-crystallographic symmetry.\n\n**Explained examples**:\n\n- Space group operations for the space group with ITC number 3 (H-M symbol `P 2`, extended H-M symbol `P 1 2 1`, Hall symbol `P 2y`): `[\&quot;x,y,z\&quot;, \&quot;-x,y,-z\&quot;]`\n- Space group operations for the space group with ITC number 5 (H-M symbol `C 2`, extended H-M symbol `C 1 2 1`, Hall symbol `C 2y`): `[\&quot;x,y,z\&quot;, \&quot;-x,y,-z\&quot;, \&quot;x+1/2,y+1/2,z\&quot;, \&quot;-x+1/2,y+1/2,-z\&quot;]`\n\n**Bibliographic References**\n\n- Bradley, C. J. and Cracknell, A. P. (1972) The Mathematical Theory of Symmetry in Solids. Oxford, Clarendon Press (paperback edition 2010) 745 p. [ISBN 978-0-19-958258-7](https://isbnsearch.org/isbn/9780199582587&gt;).\n- IUCr (2023) Core dictionary (coreCIF) version 2.4.5; data name `_space_group_symop_operation_xyz`. Available from: [https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Ispace_group_symop_operation_xyz.html](https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Ispace_group_symop_operation_xyz.html) [Accessed 2023-06-18T16:46+03:00].&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;examples&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="p">[</span>
+<span class="w">            </span><span class="p">[</span>
+<span class="w">                </span><span class="s2">&quot;x,y,z&quot;</span><span class="p">,</span>
+<span class="w">                </span><span class="s2">&quot;-x,y,-z&quot;</span><span class="p">,</span>
+<span class="w">                </span><span class="s2">&quot;x+1/2,y+1/2,z&quot;</span><span class="p">,</span>
+<span class="w">                </span><span class="s2">&quot;-x+1/2,y+1/2,-z&quot;</span>
+<span class="w">            </span><span class="p">],</span>
+<span class="w">            </span><span class="p">[</span>
+<span class="w">                </span><span class="s2">&quot;x,y,z&quot;</span><span class="p">,</span>
+<span class="w">                </span><span class="s2">&quot;-x,y,-z&quot;</span>
+<span class="w">            </span><span class="p">]</span>
+<span class="w">        </span><span class="p">],</span>
+<span class="w">        </span><span class="p">[</span>
+<span class="w">            </span><span class="p">[</span>
+<span class="w">                </span><span class="s2">&quot;x,y,z&quot;</span><span class="p">,</span>
+<span class="w">                </span><span class="s2">&quot;-x,y,-z&quot;</span>
+<span class="w">            </span><span class="p">]</span>
+<span class="w">        </span><span class="p">]</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;x-optimade-unit&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;unapplicable&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;items&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;$id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/space_group_symmetry_operations_xyz&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;space group symmetry operations&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;x-optimade-type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;list&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;x-optimade-definition&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;space_group_symmetry_operations_xyz_optimade_structures&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;kind&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;property&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.2.1&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;format&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.2&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;space_group_symmetry_operations_xyz&quot;</span>
+<span class="w">        </span><span class="p">},</span>
+<span class="w">        </span><span class="nt">&quot;x-optimade-dimensions&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;names&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                </span><span class="s2">&quot;dim_symops&quot;</span>
+<span class="w">            </span><span class="p">],</span>
+<span class="w">            </span><span class="nt">&quot;sizes&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                </span><span class="kc">null</span>
+<span class="w">            </span><span class="p">]</span>
+<span class="w">        </span><span class="p">},</span>
+<span class="w">        </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">            </span><span class="s2">&quot;array&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="s2">&quot;null&quot;</span>
+<span class="w">        </span><span class="p">],</span>
+<span class="w">        </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A list of symmetry operations given as general position x, y and z coordinates in algebraic form.\n\n**Requirements/Conventions**:\n\n- MUST be `null` if the property `nperiodic_dimensions` is equal to 0.\n- Each symmetry operation is described by a string that gives that symmetry operation in Jones&#39; faithful representation (Bradley &amp; Cracknell, 1972: pp. 35-37), adapted for computer string notation.\n- The letters `x`, `y` and `z` that are typesetted with overbars in printed text represent coordinate values multiplied by -1 and are encoded as `-x`, `-y` and `-z`, respectively.\n- The syntax of the string representing a symmetry operation MUST conform to regular expressions given in the OPTIMADE specification appendix &#39;The Symmetry Operation String Regular Expressions&#39;.\n- The interpretation of the strings MUST follow the conventions of the IUCr CIF core dictionary (IUCr, 2023).\n- In particular, this property MUST explicitly provide all symmetry operations needed to generate all the atoms in the unit cell from the atoms in the asymmetric unit, for the setting used.\n- This symmetry operation set MUST always include the `x,y,z` identity operation.\n- The symmetry operations are to be applied to fractional atom coordinates.\n- In case only Cartesian coordinates are available, these Cartesian coordinates must be converted to fractional coordinates before the application of the provided symmetry operations.\n- If the symmetry operation list is present, it MUST be compatible with other space group specifications (e.g. the ITC space group number, the Hall symbol, the Hermann-Mauguin symbol) if these are present.\n\n**Notes**:\n\n- The list of space group symmetry operations applies to the whole periodic array of atoms and together with the lattice translations given in the `lattice_vectors` property provides the necessary information to reconstruct all atom site positions of the periodic material.\n- Thus, the symmetry operations described in this property are only applicable to material models with at least one periodic dimension.\n- This property is not meant to represent arbitrary symmetries of molecules, non-periodic (finite) collections of atoms or non-crystallographic symmetry.\n\n**Explained examples**:\n\n- Space group operations for the space group with ITC number 3 (H-M symbol `P 2`, extended H-M symbol `P 1 2 1`, Hall symbol `P 2y`): `[\&quot;x,y,z\&quot;, \&quot;-x,y,-z\&quot;]`\n- Space group operations for the space group with ITC number 5 (H-M symbol `C 2`, extended H-M symbol `C 1 2 1`, Hall symbol `C 2y`): `[\&quot;x,y,z\&quot;, \&quot;-x,y,-z\&quot;, \&quot;x+1/2,y+1/2,z\&quot;, \&quot;-x+1/2,y+1/2,-z\&quot;]`\n\n**Bibliographic References**\n\n- Bradley, C. J. and Cracknell, A. P. (1972) The Mathematical Theory of Symmetry in Solids. Oxford, Clarendon Press (paperback edition 2010) 745 p. [ISBN 978-0-19-958258-7](https://isbnsearch.org/isbn/9780199582587&gt;).\n- IUCr (2023) Core dictionary (coreCIF) version 2.4.5; data name `_space_group_symop_operation_xyz`. Available from: [https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Ispace_group_symop_operation_xyz.html](https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Ispace_group_symop_operation_xyz.html) [Accessed 2023-06-18T16:46+03:00].&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;examples&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">            </span><span class="p">[</span>
+<span class="w">                </span><span class="s2">&quot;x,y,z&quot;</span><span class="p">,</span>
+<span class="w">                </span><span class="s2">&quot;-x,y,-z&quot;</span>
+<span class="w">            </span><span class="p">],</span>
+<span class="w">            </span><span class="p">[</span>
+<span class="w">                </span><span class="s2">&quot;x,y,z&quot;</span><span class="p">,</span>
+<span class="w">                </span><span class="s2">&quot;-x,y,-z&quot;</span><span class="p">,</span>
+<span class="w">                </span><span class="s2">&quot;x+1/2,y+1/2,z&quot;</span><span class="p">,</span>
+<span class="w">                </span><span class="s2">&quot;-x+1/2,y+1/2,-z&quot;</span>
+<span class="w">            </span><span class="p">]</span>
+<span class="w">        </span><span class="p">],</span>
+<span class="w">        </span><span class="nt">&quot;x-optimade-unit&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;inapplicable&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;items&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;$id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schemas.optimade.org/defs/v1.2/properties/optimade/common/space_group_symmetry_operation_xyz&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;space group symmetry operation&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;x-optimade-type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;string&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;x-optimade-definition&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;space_group_symmetry_operation_xyz_optimade_common&quot;</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">&quot;kind&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;property&quot;</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">&quot;version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.2.0&quot;</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">&quot;format&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.2&quot;</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;space_group_symmetry_operation_xyz&quot;</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">            </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                </span><span class="s2">&quot;string&quot;</span>
+<span class="w">            </span><span class="p">],</span>
+<span class="w">            </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A single symmetry operation.\n\n**Requirements/Conventions**:\n\n- The symmetry operation is described in Jones&#39; faithful representation (Bradley &amp; Cracknell, 1972: pp. 35-37), adapted for computer string notation.\n- The interpretation of the string MUST follow the conventions of the IUCr CIF core dictionary (IUCr, 2023).\n- The letters `x`, `y` and `z` that are typesetted with overbars in printed text represent coordinate values multiplied by -1 and are encoded as `-x`, `-y` and `-z`, respectively.\n- The syntax of the string representing a symmetry operation MUST conform to regular expressions given in the OPTIMADE specification appendix &#39;The Symmetry Operation String Regular Expressions&#39;.\n\n**Bibliographic References**\n\n- Bradley, C. J. and Cracknell, A. P. (1972) The Mathematical Theory of Symmetry in Solids. Oxford, Clarendon Press (paperback edition 2010) 745 p. [ISBN 978-0-19-958258-7](https://isbnsearch.org/isbn/9780199582587&gt;).\n- IUCr (2023) Core dictionary (coreCIF) version 2.4.5; data name `_space_group_symop_operation_xyz`. Available from: [https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Ispace_group_symop_operation_xyz.html](https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Ispace_group_symop_operation_xyz.html) [Accessed 2023-06-18T16:46+03:00].&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;examples&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                </span><span class="s2">&quot;x,y,z&quot;</span><span class="p">,</span>
+<span class="w">                </span><span class="s2">&quot;-x,y,-z&quot;</span>
+<span class="w">            </span><span class="p">],</span>
+<span class="w">            </span><span class="nt">&quot;x-optimade-unit&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;inapplicable&quot;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+</body>
+</html>

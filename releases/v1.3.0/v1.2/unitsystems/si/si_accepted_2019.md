@@ -1,0 +1,2715 @@
+# SI accepted 2019 (unitsystem)
+
+This page documents an [OPTIMADE](https://www.optimade.org/) [Unitsystem Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
+
+**ID: [`https://schemas.optimade.org/defs/v1.2/unitsystems/si/si_accepted_2019`](https://schemas.optimade.org/defs/v1.2/unitsystems/si/si_accepted_2019.md)**  
+**Definition name:** `si_accepted_2019`
+
+**Unitsystem name:** SI accepted 2019  
+**Description:** The SI 2019 unit system and units accepted to be used with the SI.
+
+The International System of Units (SI) is established and maintained by the General Conference on Weights and Measures (CGPM).
+In the redefinition of the SI unit system in 2019 the magnitudes of all SI units are defined from declaring exact numerical values for seven defining constants when expressed in terms of their SI units.
+The si_extra_2019 unit system includes the prefixes and the units designated in the International System of Units (SI), 9th ed. (2019) as "Non-SI units that are accepted for use with the SI."
+(The general logarithmic ratio quantities, B and dB are not included.)
+
+**Formats:** [[JSON](si_accepted_2019.json)] [[MD](si_accepted_2019.md)]
+
+This unitsystem defines the following units:
+
+* **[minute (min)](../../units/si/1970/accepted/minute.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/minute`](https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/minute.md)  
+  A unit of time that is equal to 60 seconds, using the 1967 base SI units.
+* **[hour (h)](../../units/si/1970/accepted/hour.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/hour`](https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/hour.md)  
+  A unit of time equal to 60 minutes, or 3600 seconds, using the 1967 base SI units.
+* **[day](../../units/si/1970/accepted/day.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/day`](https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/day.md)  
+  A unit of time equal to 86 400 seconds, using the 1967 base SI units.
+* **[astronomical unit (au)](../../units/si/2019/accepted/astronomicalunit.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/accepted/astronomicalunit`](https://schemas.optimade.org/defs/v1.2/units/si/2019/accepted/astronomicalunit.md)  
+  A unit defined as exactly 149597870700 meters which is meant to represent the mean distance between the Earth and the Sun using the SI 1983 meter.
+* **[degree](../../units/si/1970/accepted/degree.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/degree`](https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/degree.md)  
+  A unit of plane and phase angle where a full circle is 360 degrees, which is equivalent to pi/180 rad, with rad defined according to the 1960 SI units.
+* **[arcminute (arcmin)](../../units/si/1970/accepted/arcminute.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/arcminute`](https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/arcminute.md)  
+  A unit of plane and phase angle equal to 1/60 of a degree which is 1/21600 of a circle and equivalent to pi/10800 rad, with rad defined according to the 1960 supplementary SI unit.
+* **[arcsecond (arcsec)](../../units/si/1970/accepted/arcsecond.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/arcsecond`](https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/arcsecond.md)  
+  A unit of plane and phase angle equal to 1/60 of an arcminute, which is 1/1296000 of a circle and equivalent to pi/648000 rad, with rad defined according to the 1960 supplementary SI unit.
+* **[hectare (ha)](../../units/si/1983/temporary/hectare.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/hectare`](https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/hectare.md)  
+  A unit of area equal to 1000 square meters (1 hm²), with meter defined according to the 1983 SI base unit.
+* **[litre (l)](../../units/si/1983/accepted/litre.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1983/accepted/litre`](https://schemas.optimade.org/defs/v1.2/units/si/1983/accepted/litre.md)  
+  The litre, or liter is a unit of volume equal to a cubic decimetre (1 dm³) implicitly redefined via the redefinition of the meter at the 17th CGPM Meeting in 1983, resolution 1.
+* **[tonne (t)](../../units/si/2019/accepted/tonne.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/accepted/tonne`](https://schemas.optimade.org/defs/v1.2/units/si/2019/accepted/tonne.md)  
+  A unit of mass defined as 1000 kg, with kilogram defined according to the 2019 SI units.
+* **[dalton (Da)](../../units/si/1998/accepted/dalton.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1998/accepted/dalton`](https://schemas.optimade.org/defs/v1.2/units/si/1998/accepted/dalton.md)  
+  A unit of mass defined as 1/12 of the mass of a free carbon 12 atom, at rest and in its ground state.
+* **[electron volt (eV)](../../units/si/2019/accepted/electronvolt.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/accepted/electronvolt`](https://schemas.optimade.org/defs/v1.2/units/si/2019/accepted/electronvolt.md)  
+  A unit of energy equal to the amount of kinetic energy acquired by an electron as it accelerates through a 1 volt potential difference in a vacuum using the 2019 SI units.
+* **[second (s)](../../units/si/1967/base/second.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second`](https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second.md)  
+  The SI base unit of time defined via the periods of transitions between levels in the caesium 133 atom after the redefinition at the 13th CGPM Meeting in 1967.
+* **[metre (m)](../../units/si/1983/base/metre.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre`](https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre.md)  
+  The metre, or meter, is the SI base unit of length defined via the distance light travels in vacuum during a fixed time interval after the redefinition at the 17th CGPM Meeting in 1983.
+* **[kilogram (kg)](../../units/si/2019/base/kilogram.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram`](https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram.md)  
+  The SI base unit of mass defined by fixing the value of the Planck constant as defined at the 26th CGPM Meeting (2018) and adopted into SI in 2019.
+* **[ampere (A)](../../units/si/2019/base/ampere.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/base/ampere`](https://schemas.optimade.org/defs/v1.2/units/si/2019/base/ampere.md)  
+  The SI base unit of electric current defined by fixing the value of the elementary charge as defined at the 26th CGPM Meeting (2018) and adopted into SI in 2019.
+* **[kelvin (K)](../../units/si/2019/base/kelvin.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kelvin`](https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kelvin.md)  
+  The SI base unit of thermodynamic temperature defined by fixing the value of the Boltzmann constant as defined at the 26th CGPM Meeting (2018) and adopted into SI in 2019.
+* **[mole (mol)](../../units/si/2019/base/mole.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/base/mole`](https://schemas.optimade.org/defs/v1.2/units/si/2019/base/mole.md)  
+  The SI base unit of amount of substance defined by fixing the value of Avogadro constant as defined at the 26th CGPM Meeting (2018) and adopted into SI in 2019.
+* **[candela (cd)](../../units/si/2019/base/candela.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/base/candela`](https://schemas.optimade.org/defs/v1.2/units/si/2019/base/candela.md)  
+  The SI base unit of luminous intensity in a given direction defined by fixing the value of the luminous efficacy of radiation of a specific frequency precisely matching the definition at the 16th CGPM Meeting in 1979 using the 2019 SI units.
+* **[radian (rad)](../../units/si/1960/supplementary/radian.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/radian`](https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/radian.md)  
+  An SI unit of plane angle defined from the relation of the arc length on a circle intercepted at a given radius so that the full circle has an angle of 4π radians.
+* **[steradian (sr)](../../units/si/1960/supplementary/steradian.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/steradian`](https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/steradian.md)  
+  A supplementary SI unit of solid angle defined from the relation of the area cut out on a sphere at a given radius so that the entire sphere has a solid angle of 4π steradians, defined at the 9th CGPM Meeting in 1948 and included into SI at the 11th CGPM Meeting in 1960.
+* **[becquerel (Bq)](../../units/si/1975/named/becquerel.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1975/named/becquerel`](https://schemas.optimade.org/defs/v1.2/units/si/1975/named/becquerel.md)  
+  A derived SI unit for radioactivity, defined as s⁻¹ using the 1967 SI second, defined at the 15th CGPM Meeting in 1975.
+* **[coulomb (C)](../../units/si/2019/named/coulomb.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/coulomb`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/coulomb.md)  
+  A derived SI unit for electric charge equal to s·A in the 1983 SI base units.
+* **[degree Celsius (degC)](../../units/si/2019/named/degcelsius.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/degcelsius`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/degcelsius.md)  
+  A derived SI unit of temperature, defined as kelvin offset with +273.15 in the 2019 SI units.
+* **[farad (F)](../../units/si/2019/named/farad.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/farad`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/farad.md)  
+  A derived SI unit for electrical capacitance equal to kg⁻¹·m⁻²·s⁴·A² in the 2019 SI units.
+* **[gray (Gy)](../../units/si/1983/named/gray.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1983/named/gray`](https://schemas.optimade.org/defs/v1.2/units/si/1983/named/gray.md)  
+  A derived SI unit for absorbed dose of ionizing radiation equal to m²·s⁻² using the 1983 SI units.
+* **[henry (H)](../../units/si/2019/named/henry.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/henry`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/henry.md)  
+  A derived SI unit for inductance equal to kg·m²·s⁻²·A⁻² in the 1983 SI units.
+* **[hertz (Hz)](../../units/si/1967/named/hertz.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1967/named/hertz`](https://schemas.optimade.org/defs/v1.2/units/si/1967/named/hertz.md)  
+  A derived SI unit for frequency equal to s⁻¹ in the 1967 SI units.
+* **[joule (J)](../../units/si/2019/named/joule.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/joule`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/joule.md)  
+  A derived SI unit for energy, work, and heat equal to kg·m²·s⁻² in the 1983 SI units.
+* **[katal (kat)](../../units/si/2019/named/katal.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/katal`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/katal.md)  
+  A derived SI unit for catalytic activity, defined as mol·s⁻¹ using the 2019 SI units.
+* **[lumen (lm)](../../units/si/2019/named/lumen.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/lumen`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/lumen.md)  
+  A derived SI unit for luminous flux equal to cd·sr using the 1983 SI units.
+* **[lux (lx)](../../units/si/2019/named/lux.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/lux`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/lux.md)  
+  A derived SI unit for illuminance equal to cd⋅sr⋅m⁻² in 2019 SI units.
+* **[newton (N)](../../units/si/2019/named/newton.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/newton`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/newton.md)  
+  A derived SI unit for force and weight equal to kg·m·s⁻² in 2019 SI units.
+* **[ohm](../../units/si/2019/named/ohm.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/ohm`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/ohm.md)  
+  A derived SI unit for electrical resistance equal to kg·m²·s⁻³·A⁻² in the 2019 SI units.
+* **[pascal (Pa)](../../units/si/2019/named/pascal.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/pascal`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/pascal.md)  
+  A derived SI unit for pressure and stress equal to kg·m⁻¹·s⁻² using the 2019 SI units.
+* **[siemens (S)](../../units/si/2019/named/siemens.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/siemens`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/siemens.md)  
+  A derived SI unit for electrical conductance equal to kg⁻¹·m⁻²·s³·A² using the 2019 SI base units.
+* **[sievert (Sv)](../../units/si/1983/named/sievert.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/1983/named/sievert`](https://schemas.optimade.org/defs/v1.2/units/si/1983/named/sievert.md)  
+  A derived SI unit for equivalent dose of ionizing radiation equal to m²·s⁻² using the 1983 SI base units.
+* **[tesla (T)](../../units/si/2019/named/tesla.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/tesla`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/tesla.md)  
+  A derived SI unit for magnetic flux density equal to kg·s⁻²·A⁻¹ in the 2019 SI units.
+* **[volt (V)](../../units/si/2019/named/volt.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/volt`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/volt.md)  
+  A derived SI unit for electric potential, voltage, and electromotive force equal to kg·m²·s⁻³·A⁻¹ in the 2019 SI units.
+* **[watt (W)](../../units/si/2019/named/watt.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/watt`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/watt.md)  
+  A derived SI unit for power and radiant flux equal to kg·m²·s⁻³ in the 1983 SI units.
+* **[weber (Wb)](../../units/si/2019/named/weber.md)** (unit) - [`https://schemas.optimade.org/defs/v1.2/units/si/2019/named/weber`](https://schemas.optimade.org/defs/v1.2/units/si/2019/named/weber.md)  
+  A derived SI unit for magnetic flux equal to kg·m²·s⁻³·A⁻¹ in the 2019 SI units.
+
+This unitsystem defines the following prefixes:
+
+* **[yotta (Y)](../../prefixes/si/yotta.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/yotta`](https://schemas.optimade.org/defs/v1.2/prefixes/si/yotta.md)  
+  The yotta SI prefix defined as a dimensionless multiple of 10²⁴, defined at the 19th CGPM Meeting in 1991, resolution 4.
+* **[zetta (Z)](../../prefixes/si/zetta.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/zetta`](https://schemas.optimade.org/defs/v1.2/prefixes/si/zetta.md)  
+  The zetta SI prefix defined as a dimensionless multiple of 10²¹, defined at the 19th CGPM Meeting in 1991, resolution 4.
+* **[exa (E)](../../prefixes/si/exa.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/exa`](https://schemas.optimade.org/defs/v1.2/prefixes/si/exa.md)  
+  The exa SI prefix defined as a dimensionless multiple of 10¹⁸, defined at the 15th CGPM Meeting in 1975, resolution 10.
+* **[peta (P)](../../prefixes/si/peta.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/peta`](https://schemas.optimade.org/defs/v1.2/prefixes/si/peta.md)  
+  The peta SI prefix defined as a dimensionless multiple of 10¹⁵, defined at the 15th CGPM Meeting in 1975, resolution 10.
+* **[tera (T)](../../prefixes/si/tera.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/tera`](https://schemas.optimade.org/defs/v1.2/prefixes/si/tera.md)  
+  The tera SI prefix defined as a dimensionless multiple of 10¹², adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.
+* **[giga (G)](../../prefixes/si/giga.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/giga`](https://schemas.optimade.org/defs/v1.2/prefixes/si/giga.md)  
+  The giga SI prefix defined as a dimensionless multiple of 10⁹, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.
+* **[mega (M)](../../prefixes/si/mega.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/mega`](https://schemas.optimade.org/defs/v1.2/prefixes/si/mega.md)  
+  The mega SI prefix defined as a dimensionless multiple of 10⁶, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.
+* **[kilo (k)](../../prefixes/si/kilo.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/kilo`](https://schemas.optimade.org/defs/v1.2/prefixes/si/kilo.md)  
+  The kilo SI prefix defined as a dimensionless multiple of 10³, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.
+* **[hecto (h)](../../prefixes/si/hecto.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/hecto`](https://schemas.optimade.org/defs/v1.2/prefixes/si/hecto.md)  
+  The hecto SI prefix defined as a dimensionless multiple of 10², adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.
+* **[deca (da)](../../prefixes/si/deca.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/deca`](https://schemas.optimade.org/defs/v1.2/prefixes/si/deca.md)  
+  The deca SI prefix defined as a dimensionless multiple of 10, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.
+* **[deci (d)](../../prefixes/si/deci.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/deci`](https://schemas.optimade.org/defs/v1.2/prefixes/si/deci.md)  
+  The deci SI prefix defined as a dimensionless multiple of 10⁻¹, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.
+* **[centi (c)](../../prefixes/si/centi.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/centi`](https://schemas.optimade.org/defs/v1.2/prefixes/si/centi.md)  
+  The centi SI prefix defined as a dimensionless multiple of 10⁻², adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.
+* **[milli (m)](../../prefixes/si/milli.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/milli`](https://schemas.optimade.org/defs/v1.2/prefixes/si/milli.md)  
+  The milli SI prefix defined as a dimensionless multiple of 10⁻³, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.
+* **[micro (mc)](../../prefixes/si/micro.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/micro`](https://schemas.optimade.org/defs/v1.2/prefixes/si/micro.md)  
+  The micro SI prefix defined as a dimensionless multiple of 10⁻⁶, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.
+* **[nano (n)](../../prefixes/si/nano.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/nano`](https://schemas.optimade.org/defs/v1.2/prefixes/si/nano.md)  
+  The nano SI prefix defined as a dimensionless multiple of 10⁻⁹, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.
+* **[pico (p)](../../prefixes/si/pico.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/pico`](https://schemas.optimade.org/defs/v1.2/prefixes/si/pico.md)  
+  The pico SI prefix defined as a dimensionless multiple of 10⁻¹², adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.
+* **[femto (f)](../../prefixes/si/femto.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/femto`](https://schemas.optimade.org/defs/v1.2/prefixes/si/femto.md)  
+  The femto SI prefix defined as a dimensionless multiple of 10⁻¹⁵, defined at the 12th CGPM Meeting in 1964, resolution 8.
+* **[atto (a)](../../prefixes/si/atto.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/atto`](https://schemas.optimade.org/defs/v1.2/prefixes/si/atto.md)  
+  The atto SI prefix defined as a dimensionless multiple of 10⁻¹⁸, defined at the 12th CGPM Meeting in 1964, resolution 8.
+* **[zepto (z)](../../prefixes/si/zepto.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/zepto`](https://schemas.optimade.org/defs/v1.2/prefixes/si/zepto.md)  
+  The zepto SI prefix defined as a dimensionless multiple of 10⁻²¹, defined at the 19th CGPM Meeting in 1991, resolution 4.
+* **[yocto (y)](../../prefixes/si/yocto.md)** (prefix) - [`https://schemas.optimade.org/defs/v1.2/prefixes/si/yocto`](https://schemas.optimade.org/defs/v1.2/prefixes/si/yocto.md)  
+  The yocto SI prefix defined as a dimensionless multiple of 10⁻²⁴, defined at the 19th CGPM Meeting in 1991, resolution 4.
+
+**JSON definition:**
+
+``` json
+{
+    "$id": "https://schemas.optimade.org/defs/v1.2/unitsystems/si/si_accepted_2019",
+    "$schema": "https://schemas.optimade.org/meta/v1.2/optimade/unitsystem_definition.json",
+    "title": "SI accepted 2019",
+    "description": "The SI 2019 unit system and units accepted to be used with the SI.\n\nThe International System of Units (SI) is established and maintained by the General Conference on Weights and Measures (CGPM).\nIn the redefinition of the SI unit system in 2019 the magnitudes of all SI units are defined from declaring exact numerical values for seven defining constants when expressed in terms of their SI units.\nThe si_extra_2019 unit system includes the prefixes and the units designated in the International System of Units (SI), 9th ed. (2019) as \"Non-SI units that are accepted for use with the SI.\"\n(The general logarithmic ratio quantities, B and dB are not included.)",
+    "x-optimade-definition": {
+        "label": "si_accepted_2019_unitsystem",
+        "kind": "unitsystem",
+        "format": "1.2",
+        "version": "1.2.0",
+        "name": "si_accepted_2019"
+    },
+    "units": {
+        "min": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/minute",
+            "title": "minute",
+            "symbol": "min",
+            "display-symbol": "min",
+            "description": "A unit of time that is equal to 60 seconds, using the 1967 base SI units.\n\nThe minute unit appears in the International System of Units (SI), 1st ed. (1970) defined as \"1 min = 60 s\".\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \"Units in use with the International System.\"\n- The International System of Units (SI), 7th ed. (1998) changes the categorization to \"Non-SI units accepted for use with the International System.\"",
+            "resources": [
+                {
+                    "relation": "Definition in the International System of Units (SI), 1st Edition",
+                    "resource-id": "https://www.bipm.org/en/publications/si-brochure"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Minute"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [
+                    {
+                        "symbol": "s",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/second"
+                    }
+                ],
+                "base-units-expression": "s",
+                "scale": {
+                    "numerator": 60
+                }
+            },
+            "x-optimade-definition": {
+                "label": "minute_si_1970_accepted",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "minute"
+            }
+        },
+        "h": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/hour",
+            "title": "hour",
+            "symbol": "h",
+            "display-symbol": "h",
+            "description": "A unit of time equal to 60 minutes, or 3600 seconds, using the 1967 base SI units.\n\nThe hour unit appears in the International System of Units (SI), 1st ed. (1970) defined as \"1 h = 60 min = 3600 s\".\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \"Units in use with the International System.\"\n- The International System of Units (SI), 7th ed. (1998) changes the categorization to \"Non-SI units accepted for use with the International System.\"",
+            "resources": [
+                {
+                    "relation": "Definition in the International System of Units (SI), 1st Edition",
+                    "resource-id": "https://www.bipm.org/en/publications/si-brochure"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Hour"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [
+                    {
+                        "symbol": "s",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/second"
+                    }
+                ],
+                "base-units-expression": "s",
+                "scale": {
+                    "numerator": 3600
+                }
+            },
+            "x-optimade-definition": {
+                "label": "hour_si_1970_accepted",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "hour"
+            }
+        },
+        "day": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/day",
+            "title": "day",
+            "symbol": "day",
+            "display-symbol": "day",
+            "alternate-symbols": [
+                "d"
+            ],
+            "description": "A unit of time equal to 86 400 seconds, using the 1967 base SI units.\n\nThe day unit appears in the International System of Units (SI), 1st ed. (1970) defined as \"1 d = 24 h = 86400 s\".\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \"Units in use with the International System.\"\n- The International System of Units (SI), 7th ed. (1998) changes the categorization to \"Non-SI units accepted for use with the International System.\"",
+            "resources": [
+                {
+                    "relation": "Definition in the International System of Units (SI), 1st Edition",
+                    "resource-id": "https://www.bipm.org/en/publications/si-brochure"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Day"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [
+                    {
+                        "symbol": "s",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/second"
+                    }
+                ],
+                "base-units-expression": "s",
+                "scale": {
+                    "numerator": 86400
+                }
+            },
+            "x-optimade-definition": {
+                "label": "day_si_1970_accepted",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "day"
+            }
+        },
+        "au": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/accepted/astronomicalunit",
+            "title": "astronomical unit",
+            "symbol": "au",
+            "display-symbol": "au",
+            "description": "A unit defined as exactly 149597870700 meters which is meant to represent the mean distance between the Earth and the Sun using the SI 1983 meter.\n\nThe International System of Units (SI), 9th ed. (2019) changed the definition of the astronomical unit given in prior editions into: \"1 au = 149 597 870 700 m\" with the footnote \"As decided at the XXVIII General Assembly of the International Astronomical Union (Resolution B2, 2012).\"\n\nThe International System of Units (SI), 9th ed. (2019) categorizes the astronomical unit as a \"non-SI unit accepted for use with the SI units\".",
+            "resources": [
+                {
+                    "relation": "Definition in the International System of Units (SI), 9th Edition",
+                    "resource-id": "https://www.bipm.org/en/publications/si-brochure"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Astronomical_unit"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [
+                    {
+                        "symbol": "m",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
+                    }
+                ],
+                "base-units-expression": "m",
+                "scale": {
+                    "numerator": 149597870700
+                }
+            },
+            "x-optimade-definition": {
+                "label": "astronomicalunit_si_2019_accepted",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "astronomicalunit"
+            }
+        },
+        "degree": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/degree",
+            "title": "degree",
+            "symbol": "degree",
+            "display-symbol": "\u00b0",
+            "description": "A unit of plane and phase angle where a full circle is 360 degrees, which is equivalent to pi/180 rad, with rad defined according to the 1960 SI units.\n\nThe degree unit appears in the International System of Units (SI), 1st ed. (1970) defined as \"1\u00b0 = (pi/180) rad\".\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \"Units in use with the International System.\"\n- The International System of Units (SI), 7th ed. (1998) adds as a footnote: \"ISO 31 recommends that the degree be subdivided decimally rather than using the minute and second.\"\n- The International System of Units (SI), 8th ed. (2006) further adds to that footnote: \"For navigation and surveying, however, the minute has the advantage that one minute of latitude on the surface of the Earth corresponds (approximately) to one nautical mile.\"\n- The International System of Units (SI), 9th ed. (2019) replaces the footnote with: \"For some applications such as in astronomy, small angles are measured in arcseconds (i.e. seconds of plane angle), denoted as or \u2032\u2032, or milliarcseconds, microarcseconds and picoarcseconds, denoted mas, \u03bcas and pas, respectively, where arcsecond is an alternative name for second of plane angle.\"\n  The formulation \"denoted as or \u2033\" is reproduced here faithfully from the source and suggests an alternate symbol may have been omitted due to a typographical error.\n  It is not clear what alternate symbol was intended to be referenced.",
+            "resources": [
+                {
+                    "relation": "Definition in the International System of Units (SI), 9th Edition",
+                    "resource-id": "https://www.bipm.org/en/publications/si-brochure"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Degree_(angle)"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [
+                    {
+                        "symbol": "pi",
+                        "id": "https://schemas.optimade.org/defs/v1.2/constants/math/basic/pi"
+                    },
+                    {
+                        "symbol": "rad",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/radian"
+                    }
+                ],
+                "base-units-expression": "pi*rad",
+                "scale": {
+                    "denominator": 180
+                }
+            },
+            "x-optimade-definition": {
+                "label": "degree_si_1970_accepted",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "degree"
+            }
+        },
+        "arcmin": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/arcminute",
+            "title": "arcminute",
+            "symbol": "arcmin",
+            "display-symbol": "\u2032",
+            "alternate-symbols": [
+                "minute of arc",
+                "minute of angle",
+                "MOA",
+                "'"
+            ],
+            "description": "A unit of plane and phase angle equal to 1/60 of a degree which is 1/21600 of a circle and equivalent to pi/10800 rad, with rad defined according to the 1960 supplementary SI unit.\n\nThis definition uses \"arcminute\" as the unit name to distinguish it from the time unit named minute.\nA footnote in the International System of Units, 9th ed. (2019) note that \"arcsecond is an alternative name for second of plane angle\".\nHowever, \"arcminute\" and \"arcmin\" have so far not been mentioned in any of the editions of the International System of Units.\nThey are defined in the GNU Units 3.15 unit database as 1/60 degree.\n\nThe unit appear under the name minute (with symbol \u2032) in the International System of Units (SI), 1st ed. (1970) defined as \"1\u2032 = (1/60)\u00b0 = (\u03c0/10800) rad\".\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \"Units in use with the International System.\"\n- The International System of Units (SI), 7th ed. (1998) adds as a footnote: \"ISO 31 recommends that the degree be subdivided decimally rather than using the minute and second.\"\n- The International System of Units (SI), 8th ed. (2006) further adds to that footnote: \"For navigation and surveying, however, the minute has the advantage that one minute of latitude on the surface of the Earth corresponds (approximately) to one nautical mile.\"\n- The International System of Units (SI), 9th ed. (2019) replaces the footnote with: \"For some applications such as in astronomy, small angles are measured in arcseconds (i.e. seconds of plane angle), denoted as or \u2032\u2032, or milliarcseconds, microarcseconds and picoarcseconds, denoted mas, \u03bcas and pas, respectively, where arcsecond is an alternative name for second of plane angle.\"\n- The formulation \"denoted as or \u2033\" is reproduced here faithfully from the source and suggests an alternate symbol may have been omitted due to a typographical error.\n  It is not clear what alternate symbol was intended to be referenced.",
+            "resources": [
+                {
+                    "relation": "Definition in the International System of Units (SI), 1st Edition",
+                    "resource-id": "https://www.bipm.org/en/publications/si-brochure"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Minute_and_second_of_arc"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [
+                    {
+                        "symbol": "pi",
+                        "id": "https://schemas.optimade.org/defs/v1.2/constants/math/basic/pi"
+                    },
+                    {
+                        "symbol": "rad",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/radian"
+                    }
+                ],
+                "base-units-expression": "pi*rad",
+                "scale": {
+                    "denominator": 10800
+                }
+            },
+            "x-optimade-definition": {
+                "label": "arcminute_si_1970_accepted",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "arcminute"
+            }
+        },
+        "arcsec": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/arcsecond",
+            "title": "arcsecond",
+            "symbol": "arcsec",
+            "display-symbol": "\u2033",
+            "alternate-symbols": [
+                "second of plane angle",
+                "second of arc",
+                "\""
+            ],
+            "description": "A unit of plane and phase angle equal to 1/60 of an arcminute, which is 1/1296000 of a circle and equivalent to pi/648000 rad, with rad defined according to the 1960 supplementary SI unit.\n\nThis definition uses \"arcsecond\" as the unit name to distinguish it from the time unit named minute.\nThe unit appear under the name second (with symbol \u2033) in the International System of Units (SI), 1st ed. (1970) defined as \"1\u2033 = (1/60)\u2032 = (\u03c0/648 000) rad.\"\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \"Units in use with the International System.\"\n- The International System of Units (SI), 7th ed. (1998) adds as a footnote: \"ISO 31 recommends that the degree be subdivided decimally rather than using the minute and second.\"\n- The International System of Units (SI), 8th ed. (2006) further adds to that footnote: \"For navigation and surveying, however, the minute has the advantage that one minute of latitude on the surface of the Earth corresponds (approximately) to one nautical mile.\"\n- The International System of Units (SI), 9th ed. (2019) replaces the footnote with: \"For some applications such as in astronomy, small angles are measured in arcseconds (i.e. seconds of plane angle), denoted as or \u2032\u2032, or milliarcseconds, microarcseconds and picoarcseconds, denoted mas, \u03bcas and pas, respectively, where arcsecond is an alternative name for second of plane angle.\"\n  The formulation \"denoted as or \u2033\" is reproduced here faithfully from the source and suggests an alternate symbol may have been omitted due to a typographical error.\n  It is not clear what alternate symbol was intended to be referenced.",
+            "resources": [
+                {
+                    "relation": "Definition in the International System of Units (SI), 1st Edition",
+                    "resource-id": "https://www.bipm.org/en/publications/si-brochure"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Minute_and_second_of_arc"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [
+                    {
+                        "symbol": "pi",
+                        "id": "https://schemas.optimade.org/defs/v1.2/constants/math/basic/pi"
+                    },
+                    {
+                        "symbol": "rad",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/radian"
+                    }
+                ],
+                "base-units-expression": "pi*rad",
+                "scale": {
+                    "denominator": 648000
+                }
+            },
+            "x-optimade-definition": {
+                "label": "arcsecond_si_1970_accepted",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "arcsecond"
+            }
+        },
+        "ha": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/temporary/hectare",
+            "title": "hectare",
+            "symbol": "ha",
+            "display-symbol": "ha",
+            "description": "A unit of area equal to 1000 square meters (1 hm\u00b2), with meter defined according to the 1983 SI base unit.\n\nThe hectare unit appears in the International System of Units (SI), 1st ed. (1970) defined as \"1 ha = 1 hm\u00b2 = 10\u2074 m\u00b2\" with the footnote \"This unit and its symbol were adopted by the International Committee in 1879 (Proces-Verbaux C.I.P.M., 1879, p. 41).\"\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \"units in use temporarily\".\n- The International System of Units (SI), 5th ed. (1985) add the clarification that the unit is \"used to express agrarian areas.\"\n- The International System of Units (SI), 7th ed. (1998) changes the categorization to \"Other non-SI units currently accepted for use with the International System.\"\n\nThe hectare unit was implicitly redefined via the redefinition of the metre at the 17th CGPM meeting (1983), resolution 1.",
+            "resources": [
+                {
+                    "relation": "Definition in the International System of Units (SI), 9th Edition",
+                    "resource-id": "https://www.bipm.org/en/publications/si-brochure"
+                },
+                {
+                    "relation": "Redefinition of the metre at the 17th CGPM meeting (1983), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/17-1983/resolution-1"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Hectare"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [
+                    {
+                        "symbol": "m",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
+                    }
+                ],
+                "base-units-expression": "m^2",
+                "scale": {
+                    "exponent": 4
+                }
+            },
+            "x-optimade-definition": {
+                "label": "hectare_si_1983_temporary",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "hectare"
+            }
+        },
+        "l": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/accepted/litre",
+            "title": "litre",
+            "symbol": "l",
+            "display-symbol": "l",
+            "alternate-symbols": [
+                "L",
+                "liter"
+            ],
+            "description": "The litre, or liter is a unit of volume equal to a cubic decimetre (1 dm\u00b3) implicitly redefined via the redefinition of the meter at the 17th CGPM Meeting in 1983, resolution 1.\n\n\"The 12th Conf\u00e9rence G\u00e9n\u00e9rale des Poids et Mesures (CGPM) [...] declares that the word 'litre' may be employed as a special name for the cubic decimetre\" [12th CGPM meeting (1964), resolution 6].\n\nThe litre was defined at the 12th CGPM meeting in 1964, resolution 6, and implicitly redefined with the redefinition of the metre at the 17th CGPM Meeting in 1983, resolution 1.",
+            "resources": [
+                {
+                    "relation": "Definition at the 12th CGPM meeting (1964), resolution 6",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/12-1964/resolution-6"
+                },
+                {
+                    "relation": "Redefinition of the metre at the 17th CGPM meeting (1983), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/17-1983/resolution-1"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Litre"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [
+                    {
+                        "symbol": "m",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
+                    }
+                ],
+                "base-units-expression": "m^3",
+                "scale": {
+                    "exponent": -3
+                }
+            },
+            "x-optimade-definition": {
+                "label": "litre_si_1983_accepted",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "litre"
+            }
+        },
+        "t": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/accepted/tonne",
+            "title": "tonne",
+            "symbol": "t",
+            "display-symbol": "t",
+            "alternate-symbols": [
+                "t"
+            ],
+            "description": "A unit of mass defined as 1000 kg, with kilogram defined according to the 2019 SI units.\n\nThe International System of Units (SI), 1st ed. (1970) defines the tonne as \"1 t = 10\u00b3 kg\" with the footnote \"The symbol and the unit was defined in resolution 7 at the 9th meeting of the C.G.P.M. (1948).\"\n\nIn the 2019 implicit redefinition of the tonne, the kilogram in the definition refers to the 2019 kilogram SI base unit (https://schema.optimade.org/units/si/2019/named/kilogram).\n\n- The International System of Units (SI), 1st ed. (1970) categorizes the unit as \"Units used with the International System\"\n- The International System of Units (SI), 3rd ed. (19) changes the reference of the definition to the 1879 meeting of the CIPM page 41.\n- The International System of Units (SI), 6th ed. (1991) further adds \"In some English-speaking countries this unit is called \u226ametric ton\u226b.\"",
+            "resources": [
+                {
+                    "relation": "Definition in the International System of Units (SI), 9th Edition",
+                    "resource-id": "https://www.bipm.org/en/publications/si-brochure"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Tonne"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [
+                    {
+                        "symbol": "kg",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram"
+                    }
+                ],
+                "base-units-expression": "kg",
+                "scale": {
+                    "exponent": 3
+                }
+            },
+            "x-optimade-definition": {
+                "label": "tonne_si_2019_accepted",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "tonne"
+            }
+        },
+        "Da": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1998/accepted/dalton",
+            "title": "dalton",
+            "symbol": "Da",
+            "display-symbol": "Da",
+            "alternate-symbols": [
+                "u"
+            ],
+            "description": "A unit of mass defined as 1/12 of the mass of a free carbon 12 atom, at rest and in its ground state.\n\nThe name dalton as an alternative name to *atomic mass unit* is defined in the International System of Units (SI), 7th ed. (1998) in a footnote to a table labeled \"Non-SI units accepted for use with the International System, whose values in SI units are obtained experimentally\" in the section \"Units outside the international system\".\nThe definition given is: \"The unified atomic mass unit is equal to 1/12 of the mass of an unbound atom of the nuclide \u00b9\u00b2C, at rest, and in its ground state. In the field of biochemistry, the unified atomic mass unit is also called the dalton, symbol Da.\"\n\nThis definition makes the dalton equivalent to the atomic mass unit defined in the International System of Units (SI), 1st ed. (1970) (https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/atomicmassunit)\n\nIn the International System of Units (SI) 8th ed. (2006) the definition is slightly adjusted, replacing \"unbound\" with \"free\": \"The dalton (Da) and the unified atomic mass unit (u) are alternative names (and symbols) for the same unit, equal to 1/12 times the mass of a free carbon 12 atom, at rest and in its ground state.\"\n\nAll editions of the International System of Units (SI) note approximate relationships to the kilogram.\nThe 9th ed. states \"1 Da = 1.660 539 066 60(50)\u00d710\u207b\u00b2\u2077 kg\", where the 2018 CODATA value has been used and the 2019 SI kilogram is referenced (https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram).\n\nNote: in the 2019 redefinition of the SI units, the dalton is the only unit listed as accepted for use with SI that does not have an exact relation to the base SI units.",
+            "resources": [
+                {
+                    "relation": "Definition in the International System of Units (SI), 9th Edition",
+                    "resource-id": "https://www.bipm.org/en/publications/si-brochure"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Dalton_(unit)"
+                },
+                {
+                    "relation": "CODATA unified atomic mass unit fundamental physical constant: source for relationship to kg",
+                    "resource-id": "https://physics.nist.gov/cgi-bin/cuu/Value?ukg"
+                }
+            ],
+            "compatibility": [
+                "https://schemas.optimade.org/defs/v1.2/units/si/1970/accepted/atomicmassunit"
+            ],
+            "approximate-relations": [
+                {
+                    "base-units": [
+                        {
+                            "symbol": "kg",
+                            "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram"
+                        }
+                    ],
+                    "base-units-expression": "kg",
+                    "scale": {
+                        "value": 1.6605390666e-27,
+                        "standard_uncertainty": 5e-37
+                    }
+                }
+            ],
+            "x-optimade-definition": {
+                "label": "dalton_si_1998_accepted",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "dalton"
+            }
+        },
+        "eV": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/accepted/electronvolt",
+            "title": "electron volt",
+            "symbol": "eV",
+            "display-symbol": "eV",
+            "description": "A unit of energy equal to the amount of kinetic energy acquired by an electron as it accelerates through a 1 volt potential difference in a vacuum using the 2019 SI units.\n\nThe electronvolt unit appears in the International System of Units (SI), 1st ed. (1970) defined as \"1 electronvolt is the energy acquired by an electron after traversing a potential difference of 1 V in a vacuum; 1 eV = 1.60219\u00d710\u207b\u00b9\u2079 J approximately.\"\nThis definition makes the unit equal to 1 volt times the value of the elementary charge.\n\nIn the 2019 redefinition of the SI units the elementary charge is exactly 1.602176634\u00b710\u207b\u00b9\u2079 C, making the electron volt exactly equal to 1.602176634\u00b710\u207b\u00b9\u2079 J.\nThe International System of Units (SI), 9th ed. (2019) accordingly notes the exact relationship with the SI 2019 derived unit joule as \"1 eV = 1.602176634\u00b710\u207b\u00b9\u2079 J\" but retains the definition from 1970 in a footnote.\n\nThe unit is categorized in the International System of Units (SI), 9th ed. (2019) as \"Non-SI units accepted for use with the SI units\".",
+            "resources": [
+                {
+                    "relation": "Definition in the International System of Units (SI), 9th Edition",
+                    "resource-id": "https://www.bipm.org/en/publications/si-brochure"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Electronvolt"
+                }
+            ],
+            "approximate-relations": [
+                {
+                    "base-units": [
+                        {
+                            "symbol": "V",
+                            "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/volt"
+                        },
+                        {
+                            "symbol": "e",
+                            "id": "https://schemas.optimade.org/defs/v1.2/constants/codata/2018/electromagnetic/elementarycharge"
+                        }
+                    ],
+                    "base-units-expression": "e*V"
+                }
+            ],
+            "x-optimade-definition": {
+                "label": "electronvolt_si_2019_accepted",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "electronvolt"
+            }
+        },
+        "s": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second",
+            "title": "second",
+            "symbol": "s",
+            "display-symbol": "s",
+            "description": "The SI base unit of time defined via the periods of transitions between levels in the caesium 133 atom after the redefinition at the 13th CGPM Meeting in 1967.\n\n\"The second is the duration of 9192631770 periods of the radiation corresponding to the transition between the two hyperfine levels of the ground state of the caesium 133 atom\" [13th CGPM Meeting (1967), resolution 1]\n\nAt the 26th CGPM Meeting (2018), resolution 1 the definition was rephrased to: \"The second, symbol s, is the SI unit of time. It is defined by taking the fixed numerical value of the caesium frequency, \\(\\Delta \\nu_\\textrm{Cs}\\), the unperturbed ground-state hyperfine transition frequency of the caesium 133 atom, to be 9192631770 when expressed in the unit Hz, which is equal to s\u207b\u00b9.\"",
+            "resources": [
+                {
+                    "relation": "Definition in the 13th CGPM Meeting (1967), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/13-1967/resolution-1"
+                },
+                {
+                    "relation": "Rephrased definition in the 26th CGPM Meeting (2018), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/26-2018/resolution-1"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Second"
+                }
+            ],
+            "standard": {
+                "name": "si",
+                "year": 1967,
+                "category": "base",
+                "symbol": "s"
+            },
+            "x-optimade-definition": {
+                "label": "second_si_1967_base",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "second"
+            }
+        },
+        "m": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre",
+            "title": "metre",
+            "symbol": "m",
+            "display-symbol": "m",
+            "alternate-symbols": [
+                "metre",
+                "meter"
+            ],
+            "description": "The metre, or meter, is the SI base unit of length defined via the distance light travels in vacuum during a fixed time interval after the redefinition at the 17th CGPM Meeting in 1983.\n\n\"The metre is the length of the path travelled by light in vacuum during a time interval of 1/299792458 of a second.\" [17th CGPM Meeting (1983), resolution 1].\n\nAt the 26th CGPM Meeting (2018), resolution 1 the definition was rephrased to: \"The metre, symbol m, is the SI unit of length. It is defined by taking the fixed numerical value of the speed of light in vacuum \\(c\\) to be 299792458 when expressed in the unit m\u22c5s\u207b\u00b9, where the second is defined in terms of the caesium frequency \\(\\Delta \\nu_\\textrm{Cs}\\).\"\n\nThis definition references the SI 1967 second (https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second).",
+            "resources": [
+                {
+                    "relation": "Definition at the 17th CGPM meeting (1983), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/17-1983/resolution-1"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Metre"
+                }
+            ],
+            "standard": {
+                "name": "si",
+                "year": 1983,
+                "category": "base",
+                "symbol": "m"
+            },
+            "x-optimade-definition": {
+                "label": "metre_si_1983_base",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "metre"
+            }
+        },
+        "kg": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram",
+            "title": "kilogram",
+            "symbol": "kg",
+            "display-symbol": "kg",
+            "description": "The SI base unit of mass defined by fixing the value of the Planck constant as defined at the 26th CGPM Meeting (2018) and adopted into SI in 2019.\n\n\"The kilogram, symbol kg, is the SI unit of mass. It is defined by taking the fixed numerical value of the Planck constant \\(h\\) to be 6.62607015\u00d710\u207b\u00b3\u2074 when expressed in the unit J\u22c5s, which is equal to kg\u22c5m\u00b2\u22c5s\u207b\u00b9, where the metre and the second are defined in terms of \\(c\\) and \\(\\Delta \\nu_\\textrm{Cs}\\).\" [26th CGPM Meeting (2018), resolution 1].\n\nThis definition references:\n\n- The 2019 SI derived joule unit (https://schemas.optimade.org/defs/v1.2/units/si/2019/named/joule).\n- The 1967 SI base second unit (https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second).",
+            "resources": [
+                {
+                    "relation": "Definition in the 26th CGPM Meeting in 2018, resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/26-2018/resolution-1"
+                },
+                {
+                    "relation": "Definition in the International System of Units (SI), 9th Edition",
+                    "resource-id": "https://www.bipm.org/en/publications/si-brochure"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Kilogram"
+                }
+            ],
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "base",
+                "symbol": "kg"
+            },
+            "x-optimade-definition": {
+                "label": "kilogram_si_2019_base",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "kilogram"
+            }
+        },
+        "A": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/ampere",
+            "title": "ampere",
+            "symbol": "A",
+            "display-symbol": "A",
+            "description": "The SI base unit of electric current defined by fixing the value of the elementary charge as defined at the 26th CGPM Meeting (2018) and adopted into SI in 2019.\n\n\"The ampere, symbol A, is the SI unit of electric current. It is defined by taking the fixed numerical value of the elementary charge \\(e\\) to be 1.602176634\u00d710\u207b\u00b9\u2079 when expressed in the unit C, which is equal to A\u22c5s, where the second is defined in terms of \\(\\Delta \\nu_\\textrm{Cs}\\).\" [26th CGPM Meeting (2018), resolution 1].\n\nThis definition references the 1976 SI base second unit (https://schemas.optimade.org/defs/v1.2/units/si/1976/base/second).",
+            "resources": [
+                {
+                    "relation": "Definition in the 26th CGPM Meeting in 2018, resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/26-2018/resolution-1"
+                },
+                {
+                    "relation": "Definition in the International System of Units (SI), 9th Edition",
+                    "resource-id": "https://www.bipm.org/en/publications/si-brochure"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Ampere"
+                }
+            ],
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "base",
+                "symbol": "A"
+            },
+            "x-optimade-definition": {
+                "label": "ampere_si_2019_base",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "ampere"
+            }
+        },
+        "K": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kelvin",
+            "title": "kelvin",
+            "symbol": "K",
+            "display-symbol": "K",
+            "description": "The SI base unit of thermodynamic temperature defined by fixing the value of the Boltzmann constant as defined at the 26th CGPM Meeting (2018) and adopted into SI in 2019.\n\n\"The kelvin, symbol K, is the SI unit of thermodynamic temperature. It is defined by taking the fixed numerical value of the Boltzmann constant k to be 1.380649\u00d710\u207b\u00b2\u00b3 when expressed in the unit J\u22c5K\u207b\u00b9, which is equal to kg\u22c5m\u00b2\u22c5s\u207b\u00b2\u22c5K\u207b\u00b9, where the kilogram, metre and second are defined in terms of \\(h\\), \\(c\\) and \\(\\Delta \\nu_\\textrm{Cs}\\).\" [26th CGPM Meeting (2018), resolution 1].\n\nThis definition references the 2019 SI derived joule unit (https://schemas.optimade.org/defs/v1.2/units/si/2019/named/joule).",
+            "resources": [
+                {
+                    "relation": "Definition in the 26th CGPM Meeting in 2018, resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/26-2018/resolution-1"
+                },
+                {
+                    "relation": "Definition in the International System of Units (SI), 9th Edition",
+                    "resource-id": "https://www.bipm.org/en/publications/si-brochure"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Kelvin"
+                }
+            ],
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "base",
+                "symbol": "K"
+            },
+            "x-optimade-definition": {
+                "label": "kelvin_si_2019_base",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "kelvin"
+            }
+        },
+        "mol": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/mole",
+            "title": "mole",
+            "symbol": "mol",
+            "display-symbol": "mol",
+            "description": "The SI base unit of amount of substance defined by fixing the value of Avogadro constant as defined at the 26th CGPM Meeting (2018) and adopted into SI in 2019.\n\n\"The mole, symbol mol, is the SI unit of amount of substance. One mole contains exactly 6.02214076\u00d710\u00b2\u00b3 elementary entities. This number is the fixed numerical value of the Avogadro constant, \\(N_A\\), when expressed in the unit mol\u207b\u00b9 and is called the Avogadro number. The amount of substance, symbol \\(n\\), of a system is a measure of the number of specified elementary entities. An elementary entity may be an atom, a molecule, an ion, an electron, any other particle or specified group of particles.\" [26th CGPM Meeting (2018), resolution 1].",
+            "resources": [
+                {
+                    "relation": "Definition in the 26th CGPM Meeting in 2018, resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/26-2018/resolution-1"
+                },
+                {
+                    "relation": "Definition in the International System of Units (SI), 9th Edition",
+                    "resource-id": "https://www.bipm.org/en/publications/si-brochure"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Mole_(unit)"
+                }
+            ],
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "base",
+                "symbol": "mol"
+            },
+            "x-optimade-definition": {
+                "label": "mole_si_2019_base",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "mole"
+            }
+        },
+        "cd": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/candela",
+            "title": "candela",
+            "symbol": "cd",
+            "display-symbol": "cd",
+            "description": "The SI base unit of luminous intensity in a given direction defined by fixing the value of the luminous efficacy of radiation of a specific frequency precisely matching the definition at the 16th CGPM Meeting in 1979 using the 2019 SI units.\n\n\"The candela is the luminous intensity, in a given direction, of a source that emits monochromatic radiation of frequency 540\u00d710\u00b9\u00b2 hertz and that has a radiant intensity in that direction of 1/683 watt per steradian.\" [16th CGPM Meeting (1979), resolution 3].\n\nAt the 26th CGPM Meeting in 2018, resolution 1 the definition was rephrased to: \"The candela, symbol cd, is the SI unit of luminous intensity in a given direction. It is defined by taking the fixed numerical value of the luminous efficacy of monochromatic radiation of frequency 540\u00d710\u00b9\u00b2 Hz, \\(K_\\mathrm{cd}\\), to be 683 when expressed in the unit lm\u22c5W\u207b\u00b9, which is equal to cd\u22c5sr\u22c5W\u207b\u00b9, or cd\u22c5sr\u22c5kg\u207b\u00b9\u22c5m\u207b\u00b2\u22c5s\u00b3, where the kilogram, metre and second are defined in terms of \\(h\\), \\(c\\) and \\(\\Delta \\nu_\\textrm{Cs}\\).\" [26th CGPM Meeting (2018), resolution 1].\n\nFollowing the redefinition of the metre at the 17th CGPM Meeting in 1983, resolution 1, and the redefinition of the kilogram at the 26th CGPM Meeting (2018), resolution 1, the implicitly redefined candela references:\n\n- the SI 1967 derived hertz unit (https://schemas.optimade.org/defs/v1.2/units/si/1967/named/hertz) equal to second\u207b\u00b9, referencing the SI 1967 base unit second (https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second).\n- the SI 2019 derived watt unit (https://schemas.optimade.org/defs/v1.2/units/si/2019/named/watt) equal to kilogram\u00b7meter\u00b2\u00b7second\u207b\u00b3, referencing the SI 2019 base unit kilogram (https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram), the SI 1983 base unit metre (https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre); and the 1967 base unit second (https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second).\n- the SI 1960 supplementary unit steradian (https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/steradian).",
+            "resources": [
+                {
+                    "relation": "Definition in the 26th CGPM Meeting in 2018, resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/26-2018/resolution-1"
+                },
+                {
+                    "relation": "Definition in the International System of Units (SI), 9th Edition",
+                    "resource-id": "https://www.bipm.org/en/publications/si-brochure"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Candela"
+                }
+            ],
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "base",
+                "symbol": "cd"
+            },
+            "x-optimade-definition": {
+                "label": "candela_si_2019_base",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "candela"
+            }
+        },
+        "rad": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/radian",
+            "title": "radian",
+            "symbol": "rad",
+            "display-symbol": "rad",
+            "description": "An SI unit of plane angle defined from the relation of the arc length on a circle intercepted at a given radius so that the full circle has an angle of 4\u03c0 radians.\n\nThe radian is defined at the 9th CGPM Meeting in 1948 as: \"The radian is the angle with its vertex at the center of a circle that intercepts an arc of length equal to the radius on the circumference of that circle.\"\n\nThe International System of Units (SI), 9th ed. (2019) has a longer but equivalent definition: \"The plane angle, expressed in radian, between two lines originating from a common point is the length of circular arc \\(s\\), swept out between the lines by a radius vector of length \\(r\\) from the common point divided by the length of the radius vector, \\(\\theta\\) = \\(s/r\\) rad. The phase angle (often just referred to as the \u201cphase\u201d) is the argument of any complex number. It is the angle between the positive real axis and the radius of the polar representation of the complex number in the complex plane. One radian corresponds to the angle for which \\(s = r\\), thus 1 rad = 1. The measure of the right angle is exactly equal to the number \u03c0/2.\"\n\nThe radian is categorized in the International System of Units (SI), 1st Edition as a supplementary SI unit.\nAt the 20th CGPM meeting in 1995, resolution 8 the categorization was changed to a dimensionless derived SI unit.",
+            "resources": [
+                {
+                    "relation": "Definition at the 9th CGPM meeting (1948)",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/9-1948"
+                },
+                {
+                    "relation": "Definition in the International System of Units (SI), 9th Edition",
+                    "resource-id": "https://www.bipm.org/en/publications/si-brochure"
+                },
+                {
+                    "relation": "Establishment of the SI unit system at the 11th CGPM meeting (1960), resolution 12.",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
+                },
+                {
+                    "relation": "Reclassification at the 20th CGPM meeting (1995)",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/20-1995/resolution-8"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Radian"
+                }
+            ],
+            "standard": {
+                "name": "si",
+                "year": 1960,
+                "category": "supplementary",
+                "symbol": "rad"
+            },
+            "x-optimade-definition": {
+                "label": "radian_si_1960_supplementary",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "radian"
+            }
+        },
+        "sr": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/steradian",
+            "title": "steradian",
+            "symbol": "sr",
+            "display-symbol": "sr",
+            "alternate-symbols": [
+                "sterad"
+            ],
+            "description": "A supplementary SI unit of solid angle defined from the relation of the area cut out on a sphere at a given radius so that the entire sphere has a solid angle of 4\u03c0 steradians, defined at the 9th CGPM Meeting in 1948 and included into SI at the 11th CGPM Meeting in 1960.\n\nThe radian is defined at the 9th CGPM Meeting in 1948 as: \"The unit of solid angle is the steradian. The steradian is the solid angle with its vertex at the center of a sphere with a radius of one meter, which cuts out an area of one square meter on the surface of that sphere.\"\n\nThe International System of Units (SI), 9th Edition give a rephrased but equivalent definition: \"The solid angle, expressed in steradian, corresponds to the ratio between an area \\(A\\) of the surface of a sphere of radius \\(r\\) and the squared radius, \\(\\Omega = A/r^2\\) sr. One steradian corresponds to the solid angle for which \\(A = r^2\\), thus 1 sr = 1.\"\n\nThe steradian is categorized in the International System of Units (SI), 1st Edition as a supplementary SI unit.\nAt the 20th CGPM meeting in 1995, resolution 8 the categorization was changed to a dimensionless derived SI unit.",
+            "resources": [
+                {
+                    "relation": "Definition at the 9th CGPM meeting (1948)",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/9-1948"
+                },
+                {
+                    "relation": "Establishment of the SI unit system at the 11th CGPM meeting (1960), resolution 12.",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
+                },
+                {
+                    "relation": "Reclassification at the 20th CGPM meeting (1995)",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/20-1995/resolution-8"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Steradian"
+                }
+            ],
+            "standard": {
+                "name": "si",
+                "year": 1960,
+                "category": "supplementary",
+                "symbol": "sr"
+            },
+            "x-optimade-definition": {
+                "label": "steradian_si_1960_supplementary",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "steradian"
+            }
+        },
+        "Bq": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1975/named/becquerel",
+            "title": "becquerel",
+            "symbol": "Bq",
+            "display-symbol": "Bq",
+            "description": "A derived SI unit for radioactivity, defined as s\u207b\u00b9 using the 1967 SI second, defined at the 15th CGPM Meeting in 1975.\n\n\"The 15th Conf\u00e9rence G\u00e9n\u00e9rale des Poids et Mesures, [...] adopts the following special name for the SI unit of activity: becquerel, symbol Bq, equal to one reciprocal second.\" [15th CGPM Meeting (1975)]",
+            "resources": [
+                {
+                    "relation": "Definition at the 15th CGPM Meeting (1975)",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/15-1975"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Becquerel"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [
+                    {
+                        "symbol": "s",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
+                    }
+                ],
+                "base-units-expression": "s^-1"
+            },
+            "standard": {
+                "name": "si",
+                "year": 1975,
+                "category": "named",
+                "symbol": "Bq"
+            },
+            "x-optimade-definition": {
+                "label": "becquerel_si_1975_named",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "becquerel"
+            }
+        },
+        "C": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/coulomb",
+            "title": "coulomb",
+            "symbol": "C",
+            "display-symbol": "C",
+            "description": "A derived SI unit for electric charge equal to s\u00b7A in the 1983 SI base units.\n\n\"The coulomb is the amount of electricity transported in one second by a current of one ampere.\" [9th CGPM meeting in 1946]\n\nThe coulomb was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12, implicitly redefined via the redefinitions of the second at the 13th CGPM Meeting in 1967, resolution 1; the metre at the 17th CGPM meeting (1983), resolution 1; and the kilogram at the 26th CGPM Meeting (2018), resolution 1.",
+            "resources": [
+                {
+                    "relation": "Definition at the 9th CGPM meeting (1948)",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/9-1948"
+                },
+                {
+                    "relation": "Definition and establishment of the SI unit system at the 11th CGPM meeting (1960), resolution 12.",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
+                },
+                {
+                    "relation": "Redefinition of the second in the 13th CGPM Meeting (1967), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/13-1967/resolution-1"
+                },
+                {
+                    "relation": "Redefinition of the kilogram in the 26th CGPM Meeting (2018), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/26-2018/resolution-1"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Coulomb"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [
+                    {
+                        "symbol": "s",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
+                    },
+                    {
+                        "symbol": "A",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/ampere"
+                    }
+                ],
+                "base-units-expression": "A*s"
+            },
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "named",
+                "symbol": "C"
+            },
+            "x-optimade-definition": {
+                "label": "coulomb_si_2019_named",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "coulomb"
+            }
+        },
+        "degC": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/degcelsius",
+            "title": "degree Celsius",
+            "symbol": "degC",
+            "display-symbol": "\u00b0C",
+            "alternate-symbols": [
+                "degreecelsius"
+            ],
+            "description": "A derived SI unit of temperature, defined as kelvin offset with +273.15 in the 2019 SI units.\n\n\"If we add to the practical international Celsius temperatures defined above T\u2080 = 273.15 degrees, we obtain the practical international Kelvin temperatures. By subtracting T\u2080 from the thermodynamic temperatures, we obtain the thermodynamic Celsius temperatures.\" [11th CGPM meeting (1960)]\n\nThe degree Celsius was defined and included in SI at the 11th CGPM meeting in 1960, resolution 12 and implicitly redefined via the redefinitions of the kelvin at the 13th CGPM Meeting in 1967, resolution 4 and at the 26th CGPM Meeting (2018), resolution 1.",
+            "resources": [
+                {
+                    "relation": "Definition at the 11th CGPM meeting (1960)",
+                    "resource-id": "https://www.bipm.og/en/committees/cg/cgpm/11-1960"
+                },
+                {
+                    "relation": "Redefinition of the kelvin at the 13th CGPM meeting (1967), resolution 4",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/13-1967/resolution-4"
+                },
+                {
+                    "relation": "Redefinition of the kelvin at the 26th CGPM meeting (2018), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/26-2018/resolution-1"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Celsius"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [
+                    {
+                        "symbol": "K",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kelvin"
+                    }
+                ],
+                "base-units-expression": "K",
+                "offset": {
+                    "numerator": 27315,
+                    "denominator": 100
+                }
+            },
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "named",
+                "symbol": "degC"
+            },
+            "x-optimade-definition": {
+                "label": "degcelsius_si_2019_named",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "degcelsius"
+            }
+        },
+        "F": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/farad",
+            "title": "farad",
+            "symbol": "F",
+            "display-symbol": "F",
+            "description": "A derived SI unit for electrical capacitance equal to kg\u207b\u00b9\u00b7m\u207b\u00b2\u00b7s\u2074\u00b7A\u00b2 in the 2019 SI units.\n\n\"The farad is the capacitance of an electric capacitor between whose plates an electric potential difference of one volt appears when it is charged with an amount of electricity equal to one coulomb.\" [9th CGPM meeting in 1946]\n\nThe farad was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12 and implicitly redefined via the redefinitions of the second at the 13th CGPM Meeting in 1967, resolution 1, and the redefinitions of the ampere and kilogram at the 26th CGPM Meeting in 2018, resolution 1.",
+            "resources": [
+                {
+                    "relation": "Definition and establishment of the SI unit system at the 11th CGPM meeting (1960), resolution 12.",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
+                },
+                {
+                    "relation": "Redefinition of the second in the 13th CGPM Meeting (1967), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/13-1967/resolution-1"
+                },
+                {
+                    "relation": "Redefinition of the kilogram and ampere in the 26th CGPM Meeting (2018), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/26-2018/resolution-1"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Farad"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [
+                    {
+                        "symbol": "A",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/ampere"
+                    },
+                    {
+                        "symbol": "kg",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram"
+                    },
+                    {
+                        "symbol": "m",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
+                    },
+                    {
+                        "symbol": "s",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
+                    }
+                ],
+                "base-units-expression": "A^2*kg^-1*m^-2*s^4"
+            },
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "named",
+                "symbol": "F"
+            },
+            "x-optimade-definition": {
+                "label": "farad_si_2019_named",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "farad"
+            }
+        },
+        "Gy": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/named/gray",
+            "title": "gray",
+            "symbol": "Gy",
+            "display-symbol": "Gy",
+            "description": "A derived SI unit for absorbed dose of ionizing radiation equal to m\u00b2\u00b7s\u207b\u00b2 using the 1983 SI units.\n\n\"The 15th Conf\u00e9rence G\u00e9n\u00e9rale des Poids et Mesures, [...] adopts the following special name for the SI unit of ionizing radiation: gray, symbol Gy, equal to one joule per kilogram.\" [15th CGPM Meeting (1975)]\n\nThe gray was defined at the 15th CGPM Meeting in 1975, and implicitly redefined via the redefinition of the meter at the 17th CGPM Meeting in 1983, resolution 1.",
+            "resources": [
+                {
+                    "relation": "Definition at the 15th CGPM Meeting (1975)",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/15-1975"
+                },
+                {
+                    "relation": "Redefinition of the metre at the 17th CGPM meeting (1983), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/17-1983/resolution-1"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Gray_(unit)"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [
+                    {
+                        "symbol": "m",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
+                    },
+                    {
+                        "symbol": "s",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
+                    }
+                ],
+                "base-units-expression": "m^2*s^-2"
+            },
+            "standard": {
+                "name": "si",
+                "year": 1983,
+                "category": "named",
+                "symbol": "Gy"
+            },
+            "x-optimade-definition": {
+                "label": "gray_si_1983_named",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "gray"
+            }
+        },
+        "H": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/henry",
+            "title": "henry",
+            "symbol": "H",
+            "display-symbol": "H",
+            "description": "A derived SI unit for inductance equal to kg\u00b7m\u00b2\u00b7s\u207b\u00b2\u00b7A\u207b\u00b2 in the 1983 SI units.\n\n\"The henry is the inductance of a closed circuit in which an electromotive force of one volt is produced when the electric current passing through the circuit varies uniformly at a rate of one ampere per second.\" [9th CGPM meeting in 1946]\n\nThe henry was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12, and implicitly redefined via the redefinitions of the second at the 13th CGPM Meeting in 1967, resolution 1, the metre at the 17th CGPM meeting (1983), resolution 1, and the kilogram and ampere at the 26th CGPM Meeting (2018), resolution 1.",
+            "resources": [
+                {
+                    "relation": "Definition and establishment of the SI unit system at the 11th CGPM meeting (1960), resolution 12.",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
+                },
+                {
+                    "relation": "Redefinition of the metre at the 17th CGPM meeting (1983), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/17-1983/resolution-1"
+                },
+                {
+                    "relation": "Redefinition of the second at the 13th CGPM Meeting (1967), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/13-1967/resolution-1"
+                },
+                {
+                    "relation": "Redefinition of the kilogram and ampere at the 26th CGPM Meeting (2018), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/26-2018/resolution-1"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Henry_(unit)"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [
+                    {
+                        "symbol": "A",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/ampere"
+                    },
+                    {
+                        "symbol": "kg",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram"
+                    },
+                    {
+                        "symbol": "m",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
+                    },
+                    {
+                        "symbol": "s",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
+                    }
+                ],
+                "base-units-expression": "A^-2*kg*m^2*s^-2"
+            },
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "named",
+                "symbol": "H"
+            },
+            "x-optimade-definition": {
+                "label": "henry_si_2019_named",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "henry"
+            }
+        },
+        "Hz": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/named/hertz",
+            "title": "hertz",
+            "symbol": "Hz",
+            "display-symbol": "Hz",
+            "description": "A derived SI unit for frequency equal to s\u207b\u00b9 in the 1967 SI units.\n\n\"The frequency of a periodic phenomenon is expressed in hertz, as the inverse of its period expressed in seconds.\" [9th CGPM meeting in 1946]\n\nThe hertz was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12 and implicitly redefined via the redefinition of the second at the 13th CGPM Meeting in 1967, resolution 1.",
+            "resources": [
+                {
+                    "relation": "Definition at the 9th CGPM meeting (1948)",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/9-1948"
+                },
+                {
+                    "relation": "Definition and establishment of the SI unit system at the 11th CGPM meeting (1960), resolution 12.",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
+                },
+                {
+                    "relation": "Redefinition of the second in the 13th CGPM Meeting (1967), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/13-1967/resolution-1"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Hertz"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [
+                    {
+                        "symbol": "s",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
+                    }
+                ],
+                "base-units-expression": "s^-1"
+            },
+            "standard": {
+                "name": "si",
+                "year": 1967,
+                "category": "named",
+                "symbol": "Hz"
+            },
+            "x-optimade-definition": {
+                "label": "hertz_si_1967_named",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "hertz"
+            }
+        },
+        "J": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/joule",
+            "title": "joule",
+            "symbol": "J",
+            "display-symbol": "J",
+            "description": "A derived SI unit for energy, work, and heat equal to kg\u00b7m\u00b2\u00b7s\u207b\u00b2 in the 1983 SI units.\n\n\"The joule is the work produced by a newton whose point of application moves one meter in the direction of the force.\" [9th CGPM meeting in 1946]\n\nThe joule was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12, implicitly redefined via the redefinitions of the second at the 13th CGPM Meeting in 1967, resolution 1, the metre at the 17th CGPM meeting (1983), resolution 1, and the kilogram at the 26th CGPM Meeting (2018), resolution 1.",
+            "resources": [
+                {
+                    "relation": "Definition at the 9th CGPM meeting (1948)",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/9-1948"
+                },
+                {
+                    "relation": "Definition and establishment of the SI unit system at the 11th CGPM meeting (1960), resolution 12.",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
+                },
+                {
+                    "relation": "Redefinition of the metre at the 17th CGPM meeting (1983), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/17-1983/resolution-1"
+                },
+                {
+                    "relation": "Redefinition of the second in the 13th CGPM Meeting (1967), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/13-1967/resolution-1"
+                },
+                {
+                    "relation": "Redefinition of the kilogram at the 26th CGPM Meeting (2018), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/26-2018/resolution-1"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Joule"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [
+                    {
+                        "symbol": "kg",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram"
+                    },
+                    {
+                        "symbol": "m",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
+                    },
+                    {
+                        "symbol": "s",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
+                    }
+                ],
+                "base-units-expression": "kg*m^2*s^-2"
+            },
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "named",
+                "symbol": "J"
+            },
+            "x-optimade-definition": {
+                "label": "joule_si_2019_named",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "joule"
+            }
+        },
+        "kat": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/katal",
+            "title": "katal",
+            "symbol": "kat",
+            "display-symbol": "kat",
+            "description": "A derived SI unit for catalytic activity, defined as mol\u00b7s\u207b\u00b9 using the 2019 SI units.\n\n\"The 21st Conf\u00e9rence G\u00e9n\u00e9rale des Poids et Mesures, [...] decides to adopt the special name katal, symbol kat, for the SI unit mole per second to express catalytic activity, especially in the fields of medicine and biochemistry, and recommends that when the katal is used, the measurand be specified by reference to the measurement procedure; the measurement procedure must identify the indicator reaction.\" [21st CGPM meeting (1999), resolution 12]\n\nThe katal unit was implicitly redefined via the redefinition of the mole at the 26th CGPM Meeting (2018), resolution 1.",
+            "resources": [
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Katal"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [
+                    {
+                        "symbol": "mol",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/mole"
+                    },
+                    {
+                        "symbol": "s",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
+                    }
+                ],
+                "base-units-expression": "mol*s^-1"
+            },
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "named",
+                "symbol": "kat"
+            },
+            "x-optimade-definition": {
+                "label": "katal_si_2019_named",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "katal"
+            }
+        },
+        "lm": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/lumen",
+            "title": "lumen",
+            "symbol": "lm",
+            "display-symbol": "lm",
+            "description": "A derived SI unit for luminous flux equal to cd\u00b7sr using the 1983 SI units.\n\n\"The lumen is the luminous flux emitted in a steradian by a uniform point source with a luminous intensity of one candela.\" [9th CGPM meeting in 1946]\n\nThe lumen was defined at the 9th CGPM meeting in 1946, implicitly redefined via the redefinitions of the second at the 13th CGPM Meeting in 1967, resolution 1, the candela at the 16th CGPM Meeting in 1979, resolution 3, the metre at the 17th CGPM Meeting in 1983, resolution 1, and the candela (implicitly redefined via the kilogram) at the 26th CGPM Meeting (2018), resolution 1.",
+            "resources": [
+                {
+                    "relation": "Definition and establishment of the SI unit system at the 11th CGPM meeting (1960), resolution 12.",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
+                },
+                {
+                    "relation": "Redefinition of the candela at the 16th CGPM Meeting in 1979, resolution 3.",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/16-1979/resolution-3"
+                },
+                {
+                    "relation": "Redefinition of the second in the 13th CGPM Meeting in 1967, resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/13-1967/resolution-1"
+                },
+                {
+                    "relation": "Redefinition of the metre at the 17th CGPM meeting in 1983, resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/17-1983/resolution-1"
+                },
+                {
+                    "relation": "Redefinition of the kilogram at the 26th CGPM Meeting (2018), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/26-2018/resolution-1"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Lumen_(unit)"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [
+                    {
+                        "symbol": "cd",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/candela"
+                    },
+                    {
+                        "symbol": "sr",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/steradian"
+                    }
+                ],
+                "base-units-expression": "cd*sr"
+            },
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "named",
+                "symbol": "lm"
+            },
+            "x-optimade-definition": {
+                "label": "lumen_si_2019_named",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "lumen"
+            }
+        },
+        "lx": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/lux",
+            "title": "lux",
+            "symbol": "lx",
+            "display-symbol": "lx",
+            "description": "A derived SI unit for illuminance equal to cd\u22c5sr\u22c5m\u207b\u00b2 in 2019 SI units.\n\n\"The lux is the illuminance of a surface that receives a uniformly distributed luminous flux of one lumen per square meter.\" [9th CGPM meeting in 1946]\n\nThe lux was defined at the 9th CGPM meeting in 1946, and implicitly redefined via the redefinitions of the second at the 13th CGPM Meeting in 1967, resolution 1, the candela at the 16th CGPM Meeting in 1979, resolution 3, the metre at the 17th CGPM meeting (1983), resolution 1, and the candela (implicitly redefined via the kilogram) at the 26th CGPM Meeting (2018), resolution 1.",
+            "resources": [
+                {
+                    "relation": "Definition at the 9th CGPM meeting (1948)",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/9-1948"
+                },
+                {
+                    "relation": "Definition and establishment of the SI unit system at the 11th CGPM meeting (1960), resolution 12.",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
+                },
+                {
+                    "relation": "Redefinition of the candela at the 16th CGPM Meeting in 1979, resolution 3.",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/16-1979/resolution-3"
+                },
+                {
+                    "relation": "Redefinition of the metre at the 17th CGPM meeting (1983), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/17-1983/resolution-1"
+                },
+                {
+                    "relation": "Redefinition of the second in the 13th CGPM Meeting (1967), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/13-1967/resolution-1"
+                },
+                {
+                    "relation": "Redefinition of the kilogram at the 26th CGPM Meeting (2018), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/26-2018/resolution-1"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Lux"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [
+                    {
+                        "symbol": "cd",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/candela"
+                    },
+                    {
+                        "symbol": "sr",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/steradian"
+                    },
+                    {
+                        "symbol": "m",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
+                    }
+                ],
+                "base-units-expression": "cd*m^-2*sr"
+            },
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "named",
+                "symbol": "lx"
+            },
+            "x-optimade-definition": {
+                "label": "lux_si_2019_named",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "lux"
+            }
+        },
+        "N": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/newton",
+            "title": "newton",
+            "symbol": "N",
+            "display-symbol": "N",
+            "description": "A derived SI unit for force and weight equal to kg\u00b7m\u00b7s\u207b\u00b2 in 2019 SI units.\n\n\"The newton is the force that, in one second, imparts to a mass equal to one kilogram an increase in speed of one meter per second.\" [9th CGPM meeting in 1946]\n\nThe newton was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12, implicitly redefined via the redefinitions of the second at the 13th CGPM Meeting in 1967, resolution 1, the metre at the 17th CGPM meeting (1983), resolution 1, and the kilogram at the 26th CGPM Meeting (2018), resolution 1.",
+            "resources": [
+                {
+                    "relation": "Definition and establishment of the SI unit system at the 11th CGPM meeting (1960), resolution 12.",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
+                },
+                {
+                    "relation": "Redefinition of the second in the 13th CGPM Meeting (1967), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/13-1967/resolution-1"
+                },
+                {
+                    "relation": "Redefinition of the metre at the 17th CGPM meeting (1983), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/17-1983/resolution-1"
+                },
+                {
+                    "relation": "Redefinition of the kilogram at the 26th CGPM Meeting (2018), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/26-2018/resolution-1"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Newton_(unit)"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [
+                    {
+                        "symbol": "kg",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram"
+                    },
+                    {
+                        "symbol": "m",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
+                    },
+                    {
+                        "symbol": "s",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
+                    }
+                ],
+                "base-units-expression": "kg*m*s^-2"
+            },
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "named",
+                "symbol": "N"
+            },
+            "x-optimade-definition": {
+                "label": "newton_si_2019_named",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "newton"
+            }
+        },
+        "ohm": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/ohm",
+            "title": "ohm",
+            "symbol": "ohm",
+            "display-symbol": "\u03a9",
+            "description": "A derived SI unit for electrical resistance equal to kg\u00b7m\u00b2\u00b7s\u207b\u00b3\u00b7A\u207b\u00b2 in the 2019 SI units.\n\n\"The ohm is the electrical resistance that exists between two points of a conductor when a constant potential difference of one volt, applied between these two points, produces a current of one ampere in the conductor, provided that the conductor is not the seat of any electromotive force.\" [9th CGPM meeting in 1946]\n\nThe ohm was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12, implicitly redefined via the redefinitions of the second at the 13th CGPM Meeting in 1967, resolution 1, the metre at the 17th CGPM meeting (1983), resolution 1, and the kilogram and ampere at the 26th CGPM Meeting (2018), resolution 1.",
+            "resources": [
+                {
+                    "relation": "Definition at the 9th CGPM meeting (1948)",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/9-1948"
+                },
+                {
+                    "relation": "Definition and establishment of the SI unit system at the 11th CGPM meeting (1960), resolution 12.",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
+                },
+                {
+                    "relation": "Redefinition of the metre at the 17th CGPM meeting (1983), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/17-1983/resolution-1"
+                },
+                {
+                    "relation": "Redefinition of the second in the 13th CGPM Meeting (1967), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/13-1967/resolution-1"
+                },
+                {
+                    "relation": "Redefinition of the kilogram and the ampere at the 26th CGPM Meeting (2018), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/26-2018/resolution-1"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Ohm"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [
+                    {
+                        "symbol": "A",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/ampere"
+                    },
+                    {
+                        "symbol": "kg",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram"
+                    },
+                    {
+                        "symbol": "m",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
+                    },
+                    {
+                        "symbol": "s",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
+                    }
+                ],
+                "base-units-expression": "A^-2*kg*m^2*s^-3"
+            },
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "named",
+                "symbol": "ohm"
+            },
+            "x-optimade-definition": {
+                "label": "ohm_si_2019_named",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "ohm"
+            }
+        },
+        "Pa": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/pascal",
+            "title": "pascal",
+            "symbol": "Pa",
+            "display-symbol": "Pa",
+            "description": "A derived SI unit for pressure and stress equal to kg\u00b7m\u207b\u00b9\u00b7s\u207b\u00b2 using the 2019 SI units.\n\n\"The International Committee will ask the General Conference to approve two special names: pascal (symbol Pa) for the SI unit of pressure (N/m\u00b2), [...]\" [14th CGPM Meeting (1971)].\n\nThe pascal was defined at the 14th CGPM Meeting in 1971 and implicitly redefined via the redefinitions of the metre at the 17th CGPM Meeting in 1983, resolution 1, and the kilogram at the 26th CGPM Meeting (2018), resolution 1.",
+            "resources": [
+                {
+                    "relation": "Definition at the 14th CGPM Meeting (1971)",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/14-1971"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Pascal_(unit)"
+                },
+                {
+                    "relation": "Redefinition of the metre at the 17th CGPM meeting (1983), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/17-1983/resolution-1"
+                },
+                {
+                    "relation": "Redefinition of the kilogram at the 26th CGPM Meeting (2018), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/26-2018/resolution-1"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [
+                    {
+                        "symbol": "kg",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram"
+                    },
+                    {
+                        "symbol": "m",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
+                    },
+                    {
+                        "symbol": "s",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
+                    }
+                ],
+                "base-units-expression": "kg*m^-1*s^-2"
+            },
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "named",
+                "symbol": "Pa"
+            },
+            "x-optimade-definition": {
+                "label": "pascal_si_2019_named",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "pascal"
+            }
+        },
+        "S": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/siemens",
+            "title": "siemens",
+            "symbol": "S",
+            "display-symbol": "S",
+            "description": "A derived SI unit for electrical conductance equal to kg\u207b\u00b9\u00b7m\u207b\u00b2\u00b7s\u00b3\u00b7A\u00b2 using the 2019 SI base units.\n\n\"The International Committee will ask the General Conference to approve two special names: [...] siemens (symbol S) for the SI unit of conductance (\u03a9\u207b\u00b9).\" [14th CGPM Meeting (1971)].\n\nThe siemens was defined at the 14th CGPM Meeting in 1971 and implicitly redefined via the redefinitions of the meter at the 17th CGPM Meeting in 1983, resolution 1 and the kilogram at the 26th CGPM Meeting (2018), resolution 1.",
+            "resources": [
+                {
+                    "relation": "Definition at the 14th CGPM Meeting (1971)",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/14-1971"
+                },
+                {
+                    "relation": "Redefinition of the metre at the 17th CGPM meeting (1983), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/17-1983/resolution-1"
+                },
+                {
+                    "relation": "Redefinition of the kilogram at the 26th CGPM Meeting (2018), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/26-2018/resolution-1"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Siemens_(unit)"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [
+                    {
+                        "symbol": "A",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/ampere"
+                    },
+                    {
+                        "symbol": "kg",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram"
+                    },
+                    {
+                        "symbol": "m",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
+                    },
+                    {
+                        "symbol": "s",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
+                    }
+                ],
+                "base-units-expression": "A^2*kg^-1*m^-2*s^3"
+            },
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "named",
+                "symbol": "S"
+            },
+            "x-optimade-definition": {
+                "label": "siemens_si_2019_named",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "siemens"
+            }
+        },
+        "Sv": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/named/sievert",
+            "title": "sievert",
+            "symbol": "Sv",
+            "display-symbol": "Sv",
+            "description": "A derived SI unit for equivalent dose of ionizing radiation equal to m\u00b2\u00b7s\u207b\u00b2 using the 1983 SI base units.\n\n\"The 16th Conf\u00e9rence G\u00e9n\u00e9rale des Poids et Mesures, [...] adopts the special name sievert, symbol Sv, for the SI unit of dose equivalent in the field of radioprotection. The sievert is equal to the joule per kilogram.\" [16th CGPM meeting (1979), resolution 5]\n\nThe sievert was defined at the 16th CGPM meeting in 1979 and implicitly redefined via the redefinition of the meter at the 17th CGPM Meeting in 1983, resolution 1.",
+            "resources": [
+                {
+                    "relation": "Definition at the 16th CGPM meeting (1979), resolution 5",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/16-1979/resolution-5"
+                },
+                {
+                    "relation": "Redefinition of the metre at the 17th CGPM meeting (1983), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/17-1983/resolution-1"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Sievert"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [
+                    {
+                        "symbol": "m",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1960/base/metre"
+                    },
+                    {
+                        "symbol": "s",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
+                    }
+                ],
+                "base-units-expression": "m^2*s^-2"
+            },
+            "standard": {
+                "name": "si",
+                "year": 1983,
+                "category": "named",
+                "symbol": "Sv"
+            },
+            "x-optimade-definition": {
+                "label": "sievert_si_1983_named",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "sievert"
+            }
+        },
+        "T": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/tesla",
+            "title": "tesla",
+            "symbol": "T",
+            "display-symbol": "T",
+            "description": "A derived SI unit for magnetic flux density equal to kg\u00b7s\u207b\u00b2\u00b7A\u207b\u00b9 in the 2019 SI units.\n\nThe tesla was defined as 1 Wb/m in the introduction of the SI unit system the 11th CGPM Meeting in 1960, resolution 12, implicitly redefined via the redefinitions of the second at the 13th CGPM Meeting in 1967, resolution 1, the ampere (implicitly via the redefinition of the metre) at the 17th CGPM Meeting in 1983, resolution 1, and the kilogram and ampere at the 26th CGPM Meeting (2018), resolution 1.",
+            "resources": [
+                {
+                    "relation": "Definition and establishment of the SI unit system at the 11th CGPM meeting (1960), resolution 12.",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
+                },
+                {
+                    "relation": "Redefinition of the metre at the 17th CGPM meeting (1983), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/17-1983/resolution-1"
+                },
+                {
+                    "relation": "Redefinition of the kilogram and the ampere at the 26th CGPM Meeting (2018), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/26-2018/resolution-1"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Tesla_(unit)"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [
+                    {
+                        "symbol": "A",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/ampere"
+                    },
+                    {
+                        "symbol": "kg",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram"
+                    },
+                    {
+                        "symbol": "s",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
+                    }
+                ],
+                "base-units-expression": "A^-1*kg*s^-2"
+            },
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "named",
+                "symbol": "T"
+            },
+            "x-optimade-definition": {
+                "label": "tesla_si_2019_named",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "tesla"
+            }
+        },
+        "V": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/volt",
+            "title": "volt",
+            "symbol": "V",
+            "display-symbol": "V",
+            "description": "A derived SI unit for electric potential, voltage, and electromotive force equal to kg\u00b7m\u00b2\u00b7s\u207b\u00b3\u00b7A\u207b\u00b9 in the 2019 SI units.\n\n\"The volt is the electric potential difference that exists between two points of a conducting wire carrying a constant current of one ampere when the power dissipated between these points is equal to one watt.\" [9th CGPM meeting in 1946]\n\nThe volt was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12 and implicitly redefined via the redefinitions of the second at the 13th CGPM Meeting in 1967, resolution 1, the metre at the 17th CGPM Meeting in 1983, resolution 1, and the kilogram at the 26th CGPM Meeting (2018), resolution 1.",
+            "resources": [
+                {
+                    "relation": "Definition and establishment of the SI unit system at the 11th CGPM meeting (1960), resolution 12.",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
+                },
+                {
+                    "relation": "Redefinition of the metre at the 17th CGPM meeting (1983), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/17-1983/resolution-1"
+                },
+                {
+                    "relation": "Redefinition of the second in the 13th CGPM Meeting (1967), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/13-1967/resolution-1"
+                },
+                {
+                    "relation": "Redefinition of the kilogram at the 26th CGPM Meeting (2018), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/26-2018/resolution-1"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Volt"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [
+                    {
+                        "symbol": "kg",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram"
+                    },
+                    {
+                        "symbol": "m",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
+                    },
+                    {
+                        "symbol": "s",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
+                    },
+                    {
+                        "symbol": "A",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/ampere"
+                    }
+                ],
+                "base-units-expression": "A^-1*kg*m^2*s^-3"
+            },
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "named",
+                "symbol": "V"
+            },
+            "x-optimade-definition": {
+                "label": "volt_si_2019_named",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "volt"
+            }
+        },
+        "W": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/watt",
+            "title": "watt",
+            "symbol": "W",
+            "display-symbol": "W",
+            "description": "A derived SI unit for power and radiant flux equal to kg\u00b7m\u00b2\u00b7s\u207b\u00b3 in the 1983 SI units.\n\n\"The watt is the power that produces one joule per second.\" [9th CGPM meeting in 1946]\n\nThe watt was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12, implicitly redefined via the redefinitions of the second at the 13th CGPM Meeting in 1967, resolution 1; the metre at the 17th CGPM meeting (1983), resolution 1; and the kilogram at the 26th CGPM Meeting (2018), resolution 1.",
+            "resources": [
+                {
+                    "relation": "Definition and establishment of the SI unit system at the 11th CGPM meeting (1960), resolution 12.",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
+                },
+                {
+                    "relation": "Redefinition of the metre at the 17th CGPM meeting (1983), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/17-1983/resolution-1"
+                },
+                {
+                    "relation": "Redefinition of the second in the 13th CGPM Meeting (1967), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/13-1967/resolution-1"
+                },
+                {
+                    "relation": "Redefinition of the metre at the 17th CGPM meeting (1983), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/17-1983/resolution-1"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Watt"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [
+                    {
+                        "symbol": "kg",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram"
+                    },
+                    {
+                        "symbol": "m",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
+                    },
+                    {
+                        "symbol": "s",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
+                    }
+                ],
+                "base-units-expression": "kg*m^2*s^-3"
+            },
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "named",
+                "symbol": "W"
+            },
+            "x-optimade-definition": {
+                "label": "watt_si_2019_named",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "watt"
+            }
+        },
+        "Wb": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/named/weber",
+            "title": "weber",
+            "symbol": "Wb",
+            "display-symbol": "Wb",
+            "description": "A derived SI unit for magnetic flux equal to kg\u00b7m\u00b2\u00b7s\u207b\u00b3\u00b7A\u207b\u00b9 in the 2019 SI units.\n\n\"The weber is the magnetic induction flux that, passing through a single-turn circuit, produces an electromotive force of one volt if it is reduced to zero in one second by uniform decay.\" [9th CGPM meeting in 1946]\n\nThe weber was defined at the 9th CGPM Meeting in 1946, included in SI at the 11th CGPM meeting in 1960, resolution 12, implicitly redefined via the redefinitions of the second at the 13th CGPM Meeting in 1967, resolution 1; the metre at the 17th CGPM meeting (1983), resolution 1; and the kilogram at the 26th CGPM Meeting (2018), resolution 1.",
+            "resources": [
+                {
+                    "relation": "Definition at the 9th CGPM meeting (1948)",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/9-1948"
+                },
+                {
+                    "relation": "Definition and establishment of the SI unit system at the 11th CGPM meeting (1960), resolution 12.",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
+                },
+                {
+                    "relation": "Redefinition of the kilogram in the 26th CGPM Meeting (2018), resolution 1",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/26-2018/resolution-1"
+                },
+                {
+                    "relation": "Wikipedia article describing the unit",
+                    "resource-id": "https://en.wikipedia.org/wiki/Weber_(unit)"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [
+                    {
+                        "symbol": "A",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/ampere"
+                    },
+                    {
+                        "symbol": "kg",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram"
+                    },
+                    {
+                        "symbol": "m",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre"
+                    },
+                    {
+                        "symbol": "s",
+                        "id": "https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second"
+                    }
+                ],
+                "base-units-expression": "A^-1*kg*m^2*s^-3"
+            },
+            "standard": {
+                "name": "si",
+                "year": 2019,
+                "category": "named",
+                "symbol": "Wb"
+            },
+            "x-optimade-definition": {
+                "label": "weber_si_2019_named",
+                "kind": "unit",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "weber"
+            }
+        }
+    },
+    "prefixes": {
+        "Y": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/yotta",
+            "title": "yotta",
+            "symbol": "Y",
+            "display-symbol": "Y",
+            "description": "The yotta SI prefix defined as a dimensionless multiple of 10\u00b2\u2074, defined at the 19th CGPM Meeting in 1991, resolution 4.",
+            "resources": [
+                {
+                    "relation": "Definition in the 19th CGPM Meeting in 1991, resolution 4",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/19-1991/resolution-4"
+                },
+                {
+                    "relation": "Wikipedia article describing SI prefixes",
+                    "resource-id": "https://en.wikipedia.org/wiki/Metric_prefix"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [],
+                "base-units-expression": "",
+                "scale": {
+                    "exponent": 24
+                }
+            },
+            "x-optimade-definition": {
+                "label": "yotta_prefix_si",
+                "kind": "prefix",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "yotta"
+            }
+        },
+        "Z": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/zetta",
+            "title": "zetta",
+            "symbol": "Z",
+            "display-symbol": "Z",
+            "description": "The zetta SI prefix defined as a dimensionless multiple of 10\u00b2\u00b9, defined at the 19th CGPM Meeting in 1991, resolution 4.",
+            "resources": [
+                {
+                    "relation": "Definition in the 19th CGPM Meeting in 1991, resolution 4",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/19-1991/resolution-4"
+                },
+                {
+                    "relation": "Wikipedia article describing SI prefixes",
+                    "resource-id": "https://en.wikipedia.org/wiki/Metric_prefix"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [],
+                "base-units-expression": "",
+                "scale": {
+                    "exponent": 21
+                }
+            },
+            "x-optimade-definition": {
+                "label": "zetta_prefix_si",
+                "kind": "prefix",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "zetta"
+            }
+        },
+        "E": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/exa",
+            "title": "exa",
+            "symbol": "E",
+            "display-symbol": "E",
+            "description": "The exa SI prefix defined as a dimensionless multiple of 10\u00b9\u2078, defined at the 15th CGPM Meeting in 1975, resolution 10.",
+            "resources": [
+                {
+                    "relation": "Definition in the 15th CGPM Meeting in 1975, resolution 10",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/15-1975/resolution-10"
+                },
+                {
+                    "relation": "Wikipedia article describing SI prefixes",
+                    "resource-id": "https://en.wikipedia.org/wiki/Metric_prefix"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [],
+                "base-units-expression": "",
+                "scale": {
+                    "exponent": 18
+                }
+            },
+            "x-optimade-definition": {
+                "label": "exa_prefix_si",
+                "kind": "prefix",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "exa"
+            }
+        },
+        "P": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/peta",
+            "title": "peta",
+            "symbol": "P",
+            "display-symbol": "P",
+            "description": "The peta SI prefix defined as a dimensionless multiple of 10\u00b9\u2075, defined at the 15th CGPM Meeting in 1975, resolution 10.",
+            "resources": [
+                {
+                    "relation": "Definition in the 15th CGPM Meeting in 1975, resolution 10",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/15-1975/resolution-10"
+                },
+                {
+                    "relation": "Wikipedia article describing SI prefixes",
+                    "resource-id": "https://en.wikipedia.org/wiki/Metric_prefix"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [],
+                "base-units-expression": "",
+                "scale": {
+                    "exponent": 15
+                }
+            },
+            "x-optimade-definition": {
+                "label": "peta_prefix_si",
+                "kind": "prefix",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "peta"
+            }
+        },
+        "T": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/tera",
+            "title": "tera",
+            "symbol": "T",
+            "display-symbol": "T",
+            "description": "The tera SI prefix defined as a dimensionless multiple of 10\u00b9\u00b2, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
+            "resources": [
+                {
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
+                },
+                {
+                    "relation": "Wikipedia article describing the SI prefixes",
+                    "resource-id": "https://en.wikipedia.org/wiki/Metric_prefix"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [],
+                "base-units-expression": "",
+                "scale": {
+                    "exponent": 12
+                }
+            },
+            "x-optimade-definition": {
+                "label": "tera_prefix_si",
+                "kind": "prefix",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "tera"
+            }
+        },
+        "G": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/giga",
+            "title": "giga",
+            "symbol": "G",
+            "display-symbol": "G",
+            "description": "The giga SI prefix defined as a dimensionless multiple of 10\u2079, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
+            "resources": [
+                {
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
+                },
+                {
+                    "relation": "Wikipedia article describing the prefix",
+                    "resource-id": "https://en.wikipedia.org/wiki/Giga-"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [],
+                "base-units-expression": "",
+                "scale": {
+                    "exponent": 9
+                }
+            },
+            "x-optimade-definition": {
+                "label": "giga_prefix_si",
+                "kind": "prefix",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "giga"
+            }
+        },
+        "M": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/mega",
+            "title": "mega",
+            "symbol": "M",
+            "display-symbol": "M",
+            "description": "The mega SI prefix defined as a dimensionless multiple of 10\u2076, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
+            "resources": [
+                {
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
+                },
+                {
+                    "relation": "Wikipedia article describing the prefix",
+                    "resource-id": "https://en.wikipedia.org/wiki/Mega-"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [],
+                "base-units-expression": "",
+                "scale": {
+                    "exponent": 6
+                }
+            },
+            "x-optimade-definition": {
+                "label": "mega_prefix_si",
+                "kind": "prefix",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "mega"
+            }
+        },
+        "k": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/kilo",
+            "title": "kilo",
+            "symbol": "k",
+            "display-symbol": "k",
+            "description": "The kilo SI prefix defined as a dimensionless multiple of 10\u00b3, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
+            "resources": [
+                {
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
+                },
+                {
+                    "relation": "Wikipedia article describing the prefix",
+                    "resource-id": "https://en.wikipedia.org/wiki/Kilo-"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [],
+                "base-units-expression": "",
+                "scale": {
+                    "exponent": 3
+                }
+            },
+            "x-optimade-definition": {
+                "label": "kilo_prefix_si",
+                "kind": "prefix",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "kilo"
+            }
+        },
+        "h": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/hecto",
+            "title": "hecto",
+            "symbol": "h",
+            "display-symbol": "h",
+            "description": "The hecto SI prefix defined as a dimensionless multiple of 10\u00b2, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
+            "resources": [
+                {
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
+                },
+                {
+                    "relation": "Wikipedia article describing the prefix",
+                    "resource-id": "https://en.wikipedia.org/wiki/Hecto-"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [],
+                "base-units-expression": "",
+                "scale": {
+                    "exponent": 2
+                }
+            },
+            "x-optimade-definition": {
+                "label": "hecto_prefix_si",
+                "kind": "prefix",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "hecto"
+            }
+        },
+        "da": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/deca",
+            "title": "deca",
+            "symbol": "da",
+            "display-symbol": "da",
+            "description": "The deca SI prefix defined as a dimensionless multiple of 10, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
+            "resources": [
+                {
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
+                },
+                {
+                    "relation": "Wikipedia article describing the prefix",
+                    "resource-id": "https://en.wikipedia.org/wiki/Deca-"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [],
+                "base-units-expression": "",
+                "scale": {
+                    "exponent": 1
+                }
+            },
+            "x-optimade-definition": {
+                "label": "deca_prefix_si",
+                "kind": "prefix",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "deca"
+            }
+        },
+        "d": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/deci",
+            "title": "deci",
+            "symbol": "d",
+            "display-symbol": "d",
+            "description": "The deci SI prefix defined as a dimensionless multiple of 10\u207b\u00b9, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
+            "resources": [
+                {
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
+                },
+                {
+                    "relation": "Wikipedia article describing the prefix",
+                    "resource-id": "https://en.wikipedia.org/wiki/Deci-"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [],
+                "base-units-expression": "",
+                "scale": {
+                    "exponent": -1
+                }
+            },
+            "x-optimade-definition": {
+                "label": "deci_prefix_si",
+                "kind": "prefix",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "deci"
+            }
+        },
+        "c": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/centi",
+            "title": "centi",
+            "symbol": "c",
+            "display-symbol": "c",
+            "description": "The centi SI prefix defined as a dimensionless multiple of 10\u207b\u00b2, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
+            "resources": [
+                {
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
+                },
+                {
+                    "relation": "Wikipedia article describing the prefix",
+                    "resource-id": "https://en.wikipedia.org/wiki/Centi-"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [],
+                "base-units-expression": "",
+                "scale": {
+                    "exponent": -2
+                }
+            },
+            "x-optimade-definition": {
+                "label": "centi_prefix_si",
+                "kind": "prefix",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "centi"
+            }
+        },
+        "m": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/milli",
+            "title": "milli",
+            "symbol": "m",
+            "display-symbol": "m",
+            "description": "The milli SI prefix defined as a dimensionless multiple of 10\u207b\u00b3, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
+            "resources": [
+                {
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
+                },
+                {
+                    "relation": "Wikipedia article describing the prefix",
+                    "resource-id": "https://en.wikipedia.org/wiki/Milli-"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [],
+                "base-units-expression": "",
+                "scale": {
+                    "exponent": -3
+                }
+            },
+            "x-optimade-definition": {
+                "label": "milli_prefix_si",
+                "kind": "prefix",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "milli"
+            }
+        },
+        "mc": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/micro",
+            "title": "micro",
+            "symbol": "mc",
+            "display-symbol": "\u03bc",
+            "description": "The micro SI prefix defined as a dimensionless multiple of 10\u207b\u2076, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.\n\nThe micro SI prefix is the only one not using a Latin symbol.\nBased on the recommendation of the ISMP List of Error-Prone Abbreviations, Symbols, and Dose Designations to use mcg in place of \u03bcg, i.e., mc is used as the symbol for micro using the Latin alphabet.",
+            "resources": [
+                {
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
+                },
+                {
+                    "relation": "Use of mc to represent micro in the ISMP List of Error-Prone Abbreviations, Symbols, and Dose Designations",
+                    "resource-id": "https://www.ismp.org/recommendations/error-prone-abbreviations-list"
+                },
+                {
+                    "relation": "Wikipedia article describing the prefix",
+                    "resource-id": "https://en.wikipedia.org/wiki/Micro-"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [],
+                "base-units-expression": "",
+                "scale": {
+                    "exponent": -6
+                }
+            },
+            "x-optimade-definition": {
+                "label": "micro_prefix_si",
+                "kind": "prefix",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "micro"
+            }
+        },
+        "n": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/nano",
+            "title": "nano",
+            "symbol": "n",
+            "display-symbol": "n",
+            "description": "The nano SI prefix defined as a dimensionless multiple of 10\u207b\u2079, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
+            "resources": [
+                {
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
+                },
+                {
+                    "relation": "Wikipedia article describing the prefix",
+                    "resource-id": "https://en.wikipedia.org/wiki/Nano-"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [],
+                "base-units-expression": "",
+                "scale": {
+                    "exponent": -9
+                }
+            },
+            "x-optimade-definition": {
+                "label": "nano_prefix_si",
+                "kind": "prefix",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "nano"
+            }
+        },
+        "p": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/pico",
+            "title": "pico",
+            "symbol": "p",
+            "display-symbol": "p",
+            "description": "The pico SI prefix defined as a dimensionless multiple of 10\u207b\u00b9\u00b2, adopted into SI at its creation at the 11th CGPM Meeting in 1960, resolution 12.",
+            "resources": [
+                {
+                    "relation": "Definition in the 11th CGPM Meeting in 1960, resolution 12",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/11-1960/resolution-12"
+                },
+                {
+                    "relation": "Wikipedia article describing the SI prefixes",
+                    "resource-id": "https://en.wikipedia.org/wiki/Metric_prefix"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [],
+                "base-units-expression": "",
+                "scale": {
+                    "exponent": -12
+                }
+            },
+            "x-optimade-definition": {
+                "label": "pico_prefix_si",
+                "kind": "prefix",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "pico"
+            }
+        },
+        "f": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/femto",
+            "title": "femto",
+            "symbol": "f",
+            "display-symbol": "f",
+            "description": "The femto SI prefix defined as a dimensionless multiple of 10\u207b\u00b9\u2075, defined at the 12th CGPM Meeting in 1964, resolution 8.",
+            "resources": [
+                {
+                    "relation": "Definition in the 12th CGPM Meeting in 1964, resolution 8",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/12-1964/resolution-8"
+                },
+                {
+                    "relation": "Wikipedia article describing SI prefixes",
+                    "resource-id": "https://en.wikipedia.org/wiki/Metric_prefix"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [],
+                "base-units-expression": "",
+                "scale": {
+                    "exponent": -15
+                }
+            },
+            "x-optimade-definition": {
+                "label": "femto_prefix_si",
+                "kind": "prefix",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "femto"
+            }
+        },
+        "a": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/atto",
+            "title": "atto",
+            "symbol": "a",
+            "display-symbol": "a",
+            "description": "The atto SI prefix defined as a dimensionless multiple of 10\u207b\u00b9\u2078, defined at the 12th CGPM Meeting in 1964, resolution 8.",
+            "resources": [
+                {
+                    "relation": "Definition in the 12th CGPM Meeting in 1964, resolution 8",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/12-1964/resolution-8"
+                },
+                {
+                    "relation": "Wikipedia article describing the SI prefixes",
+                    "resource-id": "https://en.wikipedia.org/wiki/Metric_prefix"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [],
+                "base-units-expression": "",
+                "scale": {
+                    "exponent": -18
+                }
+            },
+            "x-optimade-definition": {
+                "label": "atto_prefix_si",
+                "kind": "prefix",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "atto"
+            }
+        },
+        "z": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/zepto",
+            "title": "zepto",
+            "symbol": "z",
+            "display-symbol": "z",
+            "description": "The zepto SI prefix defined as a dimensionless multiple of 10\u207b\u00b2\u00b9, defined at the 19th CGPM Meeting in 1991, resolution 4.",
+            "resources": [
+                {
+                    "relation": "Definition in the 19th CGPM Meeting in 1991, resolution 4",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/19-1991/resolution-4"
+                },
+                {
+                    "relation": "Wikipedia article describing SI prefixes",
+                    "resource-id": "https://en.wikipedia.org/wiki/Metric_prefix"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [],
+                "base-units-expression": "",
+                "scale": {
+                    "exponent": -21
+                }
+            },
+            "x-optimade-definition": {
+                "label": "zepto_prefix_si",
+                "kind": "prefix",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "zepto"
+            }
+        },
+        "y": {
+            "$id": "https://schemas.optimade.org/defs/v1.2/prefixes/si/yocto",
+            "title": "yocto",
+            "symbol": "y",
+            "display-symbol": "y",
+            "description": "The yocto SI prefix defined as a dimensionless multiple of 10\u207b\u00b2\u2074, defined at the 19th CGPM Meeting in 1991, resolution 4.",
+            "resources": [
+                {
+                    "relation": "Definition in the 19th CGPM Meeting in 1991, resolution 4",
+                    "resource-id": "https://www.bipm.org/en/committees/cg/cgpm/19-1991/resolution-4"
+                },
+                {
+                    "relation": "Wikipedia article describing SI prefixes",
+                    "resource-id": "https://en.wikipedia.org/wiki/Metric_prefix"
+                }
+            ],
+            "defining-relation": {
+                "base-units": [],
+                "base-units-expression": "",
+                "scale": {
+                    "exponent": -24
+                }
+            },
+            "x-optimade-definition": {
+                "label": "yocto_prefix_si",
+                "kind": "prefix",
+                "format": "1.2",
+                "version": "1.2.0",
+                "name": "yocto"
+            }
+        }
+    }
+}
+```

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex/dist/contrib/mathtex-script-type.min.js" defer></script>
+    <title>candela</title>
+    <style>
+pre { line-height: 125%; }
+td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.codehilite .hll { background-color: #ffffcc }
+.codehilite { background: #f8f8f8; }
+.codehilite .c { color: #3D7B7B; font-style: italic } /* Comment */
+.codehilite .err { border: 1px solid #FF0000 } /* Error */
+.codehilite .k { color: #008000; font-weight: bold } /* Keyword */
+.codehilite .o { color: #666666 } /* Operator */
+.codehilite .ch { color: #3D7B7B; font-style: italic } /* Comment.Hashbang */
+.codehilite .cm { color: #3D7B7B; font-style: italic } /* Comment.Multiline */
+.codehilite .cp { color: #9C6500 } /* Comment.Preproc */
+.codehilite .cpf { color: #3D7B7B; font-style: italic } /* Comment.PreprocFile */
+.codehilite .c1 { color: #3D7B7B; font-style: italic } /* Comment.Single */
+.codehilite .cs { color: #3D7B7B; font-style: italic } /* Comment.Special */
+.codehilite .gd { color: #A00000 } /* Generic.Deleted */
+.codehilite .ge { font-style: italic } /* Generic.Emph */
+.codehilite .gr { color: #E40000 } /* Generic.Error */
+.codehilite .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.codehilite .gi { color: #008400 } /* Generic.Inserted */
+.codehilite .go { color: #717171 } /* Generic.Output */
+.codehilite .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+.codehilite .gs { font-weight: bold } /* Generic.Strong */
+.codehilite .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.codehilite .gt { color: #0044DD } /* Generic.Traceback */
+.codehilite .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+.codehilite .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+.codehilite .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
+.codehilite .kp { color: #008000 } /* Keyword.Pseudo */
+.codehilite .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+.codehilite .kt { color: #B00040 } /* Keyword.Type */
+.codehilite .m { color: #666666 } /* Literal.Number */
+.codehilite .s { color: #BA2121 } /* Literal.String */
+.codehilite .na { color: #687822 } /* Name.Attribute */
+.codehilite .nb { color: #008000 } /* Name.Builtin */
+.codehilite .nc { color: #0000FF; font-weight: bold } /* Name.Class */
+.codehilite .no { color: #880000 } /* Name.Constant */
+.codehilite .nd { color: #AA22FF } /* Name.Decorator */
+.codehilite .ni { color: #717171; font-weight: bold } /* Name.Entity */
+.codehilite .ne { color: #CB3F38; font-weight: bold } /* Name.Exception */
+.codehilite .nf { color: #0000FF } /* Name.Function */
+.codehilite .nl { color: #767600 } /* Name.Label */
+.codehilite .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+.codehilite .nt { color: #008000; font-weight: bold } /* Name.Tag */
+.codehilite .nv { color: #19177C } /* Name.Variable */
+.codehilite .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+.codehilite .w { color: #bbbbbb } /* Text.Whitespace */
+.codehilite .mb { color: #666666 } /* Literal.Number.Bin */
+.codehilite .mf { color: #666666 } /* Literal.Number.Float */
+.codehilite .mh { color: #666666 } /* Literal.Number.Hex */
+.codehilite .mi { color: #666666 } /* Literal.Number.Integer */
+.codehilite .mo { color: #666666 } /* Literal.Number.Oct */
+.codehilite .sa { color: #BA2121 } /* Literal.String.Affix */
+.codehilite .sb { color: #BA2121 } /* Literal.String.Backtick */
+.codehilite .sc { color: #BA2121 } /* Literal.String.Char */
+.codehilite .dl { color: #BA2121 } /* Literal.String.Delimiter */
+.codehilite .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+.codehilite .s2 { color: #BA2121 } /* Literal.String.Double */
+.codehilite .se { color: #AA5D1F; font-weight: bold } /* Literal.String.Escape */
+.codehilite .sh { color: #BA2121 } /* Literal.String.Heredoc */
+.codehilite .si { color: #A45A77; font-weight: bold } /* Literal.String.Interpol */
+.codehilite .sx { color: #008000 } /* Literal.String.Other */
+.codehilite .sr { color: #A45A77 } /* Literal.String.Regex */
+.codehilite .s1 { color: #BA2121 } /* Literal.String.Single */
+.codehilite .ss { color: #19177C } /* Literal.String.Symbol */
+.codehilite .bp { color: #008000 } /* Name.Builtin.Pseudo */
+.codehilite .fm { color: #0000FF } /* Name.Function.Magic */
+.codehilite .vc { color: #19177C } /* Name.Variable.Class */
+.codehilite .vg { color: #19177C } /* Name.Variable.Global */
+.codehilite .vi { color: #19177C } /* Name.Variable.Instance */
+.codehilite .vm { color: #19177C } /* Name.Variable.Magic */
+.codehilite .il { color: #666666 } /* Literal.Number.Integer.Long */
+
+.codehilite code, .codehilite pre{
+overflow: auto;
+overflow-wrap: break-word;
+}
+</style>
+<link rel="stylesheet" type="text/css" media="screen" href="https://www.optimade.org/assets/css/style.css" /><style>body {background: #f2f2f2;} html {margin: 0 auto; max-width: 900px;}</style>
+  </head>
+<body>
+<a href="https://www.optimade.org/"><img style="margin: 0.5em; float: left" src="https://avatars0.githubusercontent.com/u/23107754" width="10%" /></a><div style="width: 100%; clear: both"></div><h1>candela, cd (unit)</h1>
+<p>This page documents an <a href="https://www.optimade.org/">OPTIMADE</a> <a href="https://schemas.optimade.org/#definitions">Unit Definition</a>. See <a href="https://schemas.optimade.org/">https://schemas.optimade.org/</a> for more information.</p>
+<p><strong>ID: <a href="https://schemas.optimade.org/defs/v1.2/units/si/2019/base/candela"><code>https://schemas.optimade.org/defs/v1.2/units/si/2019/base/candela</code></a></strong><br>
+<strong>Definition name:</strong> <code>candela</code></p>
+<p><strong>Unit name:</strong> candela<br>
+<strong>Latin symbol:</strong> cd<br>
+<strong>Display symbol:</strong> cd  </p>
+<p><strong>Description:</strong> The SI base unit of luminous intensity in a given direction defined by fixing the value of the luminous efficacy of radiation of a specific frequency precisely matching the definition at the 16th CGPM Meeting in 1979 using the 2019 SI units.</p>
+<p>"The candela is the luminous intensity, in a given direction, of a source that emits monochromatic radiation of frequency 540×10¹² hertz and that has a radiant intensity in that direction of 1/683 watt per steradian." [16th CGPM Meeting (1979), resolution 3].</p>
+<p>At the 26th CGPM Meeting in 2018, resolution 1 the definition was rephrased to: "The candela, symbol cd, is the SI unit of luminous intensity in a given direction. It is defined by taking the fixed numerical value of the luminous efficacy of monochromatic radiation of frequency 540×10¹² Hz, <script type="math/tex">K_\mathrm{cd}</script>, to be 683 when expressed in the unit lm⋅W⁻¹, which is equal to cd⋅sr⋅W⁻¹, or cd⋅sr⋅kg⁻¹⋅m⁻²⋅s³, where the kilogram, metre and second are defined in terms of <script type="math/tex">h</script>, <script type="math/tex">c</script> and <script type="math/tex">\Delta \nu_\textrm{Cs}</script>." [26th CGPM Meeting (2018), resolution 1].</p>
+<p>Following the redefinition of the metre at the 17th CGPM Meeting in 1983, resolution 1, and the redefinition of the kilogram at the 26th CGPM Meeting (2018), resolution 1, the implicitly redefined candela references:</p>
+<ul>
+<li>the SI 1967 derived hertz unit (https://schemas.optimade.org/defs/v1.2/units/si/1967/named/hertz) equal to second⁻¹, referencing the SI 1967 base unit second (https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second).</li>
+<li>the SI 2019 derived watt unit (https://schemas.optimade.org/defs/v1.2/units/si/2019/named/watt) equal to kilogram·meter²·second⁻³, referencing the SI 2019 base unit kilogram (https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram), the SI 1983 base unit metre (https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre); and the 1967 base unit second (https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second).</li>
+<li>the SI 1960 supplementary unit steradian (https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/steradian).</li>
+</ul>
+<p><strong>Resources:</strong></p>
+<ul>
+<li><a href="https://www.bipm.org/en/committees/cg/cgpm/26-2018/resolution-1">Definition in the 26th CGPM Meeting in 2018, resolution 1</a></li>
+<li><a href="https://www.bipm.org/en/publications/si-brochure">Definition in the International System of Units (SI), 9th Edition</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Candela">Wikipedia article describing the unit</a></li>
+</ul>
+<p><strong>Formats:</strong> [<a href="candela.json">JSON</a>] [<a href="candela.md">MD</a>]</p>
+<p><strong>JSON definition:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;$id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schemas.optimade.org/defs/v1.2/units/si/2019/base/candela&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;$schema&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schemas.optimade.org/meta/v1.2/optimade/physical_unit_definition.json&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;candela&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;symbol&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;cd&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;display-symbol&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;cd&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;The SI base unit of luminous intensity in a given direction defined by fixing the value of the luminous efficacy of radiation of a specific frequency precisely matching the definition at the 16th CGPM Meeting in 1979 using the 2019 SI units.\n\n\&quot;The candela is the luminous intensity, in a given direction, of a source that emits monochromatic radiation of frequency 540\u00d710\u00b9\u00b2 hertz and that has a radiant intensity in that direction of 1/683 watt per steradian.\&quot; [16th CGPM Meeting (1979), resolution 3].\n\nAt the 26th CGPM Meeting in 2018, resolution 1 the definition was rephrased to: \&quot;The candela, symbol cd, is the SI unit of luminous intensity in a given direction. It is defined by taking the fixed numerical value of the luminous efficacy of monochromatic radiation of frequency 540\u00d710\u00b9\u00b2 Hz, \\(K_\\mathrm{cd}\\), to be 683 when expressed in the unit lm\u22c5W\u207b\u00b9, which is equal to cd\u22c5sr\u22c5W\u207b\u00b9, or cd\u22c5sr\u22c5kg\u207b\u00b9\u22c5m\u207b\u00b2\u22c5s\u00b3, where the kilogram, metre and second are defined in terms of \\(h\\), \\(c\\) and \\(\\Delta \\nu_\\textrm{Cs}\\).\&quot; [26th CGPM Meeting (2018), resolution 1].\n\nFollowing the redefinition of the metre at the 17th CGPM Meeting in 1983, resolution 1, and the redefinition of the kilogram at the 26th CGPM Meeting (2018), resolution 1, the implicitly redefined candela references:\n\n- the SI 1967 derived hertz unit (https://schemas.optimade.org/defs/v1.2/units/si/1967/named/hertz) equal to second\u207b\u00b9, referencing the SI 1967 base unit second (https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second).\n- the SI 2019 derived watt unit (https://schemas.optimade.org/defs/v1.2/units/si/2019/named/watt) equal to kilogram\u00b7meter\u00b2\u00b7second\u207b\u00b3, referencing the SI 2019 base unit kilogram (https://schemas.optimade.org/defs/v1.2/units/si/2019/base/kilogram), the SI 1983 base unit metre (https://schemas.optimade.org/defs/v1.2/units/si/1983/base/metre); and the 1967 base unit second (https://schemas.optimade.org/defs/v1.2/units/si/1967/base/second).\n- the SI 1960 supplementary unit steradian (https://schemas.optimade.org/defs/v1.2/units/si/1960/supplementary/steradian).&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;resources&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;relation&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Definition in the 26th CGPM Meeting in 2018, resolution 1&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;resource-id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.bipm.org/en/committees/cg/cgpm/26-2018/resolution-1&quot;</span>
+<span class="w">        </span><span class="p">},</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;relation&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Definition in the International System of Units (SI), 9th Edition&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;resource-id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.bipm.org/en/publications/si-brochure&quot;</span>
+<span class="w">        </span><span class="p">},</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;relation&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Wikipedia article describing the unit&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;resource-id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://en.wikipedia.org/wiki/Candela&quot;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;standard&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;si&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;year&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">2019</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;category&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;base&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;symbol&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;cd&quot;</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;x-optimade-definition&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;candela_si_2019_base&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;kind&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;unit&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;format&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.2&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.2.0&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;candela&quot;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+</body>
+</html>

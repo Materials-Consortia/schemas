@@ -1,0 +1,125 @@
+# list of elements ratios (property)
+
+This page documents an [OPTIMADE](https://www.optimade.org/) [Property Definition](https://schemas.optimade.org/#definitions). See [https://schemas.optimade.org/](https://schemas.optimade.org/) for more information.
+
+**ID: [`https://schemas.optimade.org/defs/v1.3/properties/optimade/trajectories/elements_ratios`](https://schemas.optimade.org/defs/v1.3/properties/optimade/trajectories/elements_ratios.md)**  
+**Definition name:** `elements_ratios`
+
+**Property name:** list of elements ratios  
+**Description:** A list of element_ratios items.
+An element_ratios item is the relative proportions of different elements in the structure.  
+**Type:** list  
+
+For each element_ratios item the following applies:
+
+**Requirements/Conventions**:
+
+- Composed by the proportions of elements in the structure as a list of floating point numbers.
+- The sum of the numbers MUST be 1.0 (within floating point accuracy)
+- MUST refer to the same elements in the same order, and therefore be of the same length, as `elements`, if the latter is provided.
+
+**Query examples**:
+
+- Note: Useful filters can be formulated using the set operator syntax for correlated values.
+  However, since the values are floating point values, the use of equality comparisons is generally inadvisable.
+- OPTIONAL: a filter that matches structures where approximately 1/3 of the atoms in the structure are the element Al is: `elements:elements_ratios HAS ALL "Al":>0.3333, "Al":<0.3334`.
+
+**Examples:**
+
+- `[1.0]`
+- `[0.3333333333333333, 0.2222222222222222, 0.4444444444444444]`
+
+**Formats:** [[JSON](elements_ratios.json)] [[MD](elements_ratios.md)]
+
+**JSON definition:**
+
+``` json
+{
+    "$id": "https://schemas.optimade.org/defs/v1.3/properties/optimade/trajectories/elements_ratios",
+    "$schema": "https://schemas.optimade.org/meta/v1.3/optimade/property_definition.json",
+    "title": "list of elements ratios",
+    "x-optimade-type": "list",
+    "x-optimade-definition": {
+        "label": "elements_ratios_optimade_trajectories",
+        "kind": "property",
+        "version": "1.3.0",
+        "format": "1.3",
+        "name": "elements_ratios"
+    },
+    "x-optimade-dimensions": {
+        "names": [
+            "dim_elements",
+            "dim_elements"
+        ],
+        "sizes": [
+            null,
+            null
+        ],
+        "compactable": [
+            "constant",
+            "no"
+        ]
+    },
+    "type": [
+        "array",
+        "null"
+    ],
+    "description": "A list of element_ratios items.\nAn element_ratios item is the relative proportions of different elements in the structure.\n\nFor each element_ratios item the following applies:\n\n**Requirements/Conventions**:\n\n- Composed by the proportions of elements in the structure as a list of floating point numbers.\n- The sum of the numbers MUST be 1.0 (within floating point accuracy)\n- MUST refer to the same elements in the same order, and therefore be of the same length, as `elements`, if the latter is provided.\n\n**Query examples**:\n\n- Note: Useful filters can be formulated using the set operator syntax for correlated values.\n  However, since the values are floating point values, the use of equality comparisons is generally inadvisable.\n- OPTIONAL: a filter that matches structures where approximately 1/3 of the atoms in the structure are the element Al is: `elements:elements_ratios HAS ALL \"Al\":>0.3333, \"Al\":<0.3334`.",
+    "examples": [
+        [
+            1.0
+        ],
+        [
+            0.3333333333333333,
+            0.2222222222222222,
+            0.4444444444444444
+        ]
+    ],
+    "x-optimade-unit": "inapplicable",
+    "items": {
+        "$id": "https://schemas.optimade.org/defs/v1.2/properties/optimade/structures/elements_ratios",
+        "title": "elements ratios",
+        "x-optimade-type": "list",
+        "x-optimade-definition": {
+            "label": "elements_ratios_optimade_structures",
+            "kind": "property",
+            "version": "1.2.1",
+            "format": "1.2",
+            "name": "elements_ratios"
+        },
+        "x-optimade-dimensions": {
+            "names": [
+                "dim_elements"
+            ],
+            "sizes": [
+                null
+            ]
+        },
+        "type": [
+            "array",
+            "null"
+        ],
+        "description": "Relative proportions of different elements in the structure.\n\n**Requirements/Conventions**:\n\n- Composed by the proportions of elements in the structure as a list of floating point numbers.\n- The sum of the numbers MUST be 1.0 (within floating point accuracy)\n- MUST refer to the same elements in the same order, and therefore be of the same length, as `elements`, if the latter is provided.\n\n**Query examples**:\n\n- Note: Useful filters can be formulated using the set operator syntax for correlated values.\n  However, since the values are floating point values, the use of equality comparisons is generally inadvisable.\n- OPTIONAL: a filter that matches structures where approximately 1/3 of the atoms in the structure are the element Al is: `elements:elements_ratios HAS ALL \"Al\":>0.3333, \"Al\":<0.3334`.",
+        "examples": [
+            [
+                1.0
+            ],
+            [
+                0.3333333333333333,
+                0.2222222222222222,
+                0.4444444444444444
+            ]
+        ],
+        "x-optimade-unit": "inapplicable",
+        "items": {
+            "x-optimade-type": "float",
+            "type": [
+                "number"
+            ],
+            "x-optimade-unit": "dimensionless",
+            "minimum": 0.0,
+            "maximum": 1.0
+        }
+    }
+}
+```

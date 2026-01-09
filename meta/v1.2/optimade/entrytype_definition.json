@@ -1,0 +1,1283 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://schemas.optimade.org/meta/v1.2/optimade/entrytype_definition",
+    "title": "OPTIMADE entry type definition schema",
+    "required": [
+        "$id",
+        "$schema",
+        "x-optimade-definition",
+        "title",
+        "type",
+        "properties"
+    ],
+    "allOf": [
+        {
+            "$ref": "#/$defs/entrytype_definition_field"
+        },
+        {
+            "required": [
+                "$id",
+                "$schema"
+            ]
+        }
+    ],
+    "$defs": {
+        "id_field": {
+            "$id": "https://schemas.optimade.org/meta/v1.2/common/id_field",
+            "title": "ID",
+            "description": "An IRI that is an ID",
+            "type": "string",
+            "format": "iri"
+        },
+        "entrytype_definition_field": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "type",
+                "x-optimade-definition",
+                "properties"
+            ],
+            "properties": {
+                "$schema": {
+                    "type": "string"
+                },
+                "$id": {
+                    "$ref": "#/$defs/id_field"
+                },
+                "type": {
+                    "type": [
+                        "string",
+                        "array"
+                    ],
+                    "enum": [
+                        "object",
+                        [
+                            "object"
+                        ]
+                    ]
+                },
+                "x-optimade-definition": {
+                    "$id": "https://schemas.optimade.org/meta/v1.2/optimade/x-optimade-definition-field",
+                    "properties": {
+                        "kind": {
+                            "const": "entrytype",
+                            "type": "string",
+                            "description": "Specifies the kind of Property Definition.",
+                            "enum": [
+                                "property",
+                                "unit",
+                                "constant",
+                                "prefix",
+                                "entrytype",
+                                "unitsystem",
+                                "standard"
+                            ]
+                        },
+                        "label": {
+                            "type": "string",
+                            "description": "An expanded version of the name that clarifies its context sufficiently to be unique within definitions issued together as a set.",
+                            "pattern": "^[a-z_][a-z_0-9]*$"
+                        },
+                        "name": {
+                            "type": "string",
+                            "description": "Gives the definition a short name.",
+                            "pattern": "^[a-z_][a-z_0-9]*$"
+                        },
+                        "format": {
+                            "description": "Specifies the minor version of the Property Definitions format that the definition is expressed in.\nThis field MUST be included in standalone definitions, i.e., when they are not embedded inside other definitions or contexts that already declares a Property Definitions format.",
+                            "pattern": "^[0-9]+\\.[0-9]+$"
+                        },
+                        "version": {
+                            "description": "The version string of the referenced standard.\nThe string SHOULD be in the format described by the [semantic versioning v2](https://semver.org/spec/v2.0.0.html) standard.",
+                            "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$",
+                            "$comment": "This pattern is the suggested regular expression from: https://semver.org/spec/v2.0.0.html",
+                            "type": "string"
+                        },
+                        "resources": {
+                            "$id": "https://schemas.optimade.org/meta/v1.2/common/resource_list",
+                            "title": "resource list",
+                            "description": "A list of dictionaries that describe and reference remote resources.",
+                            "type": "array",
+                            "items": {
+                                "patternProperties": {
+                                    "^x-(?!optimade-)": {}
+                                },
+                                "additionalProperties": false,
+                                "properties": {
+                                    "relation": {
+                                        "description": "A human-readable description of the resource and what is being referenced in the resource, e.g., a \"natural language description\".",
+                                        "type": "string"
+                                    },
+                                    "resource-id": {
+                                        "description": "An IRI of the external resource (which MAY be a resolvable URL).",
+                                        "type": "string",
+                                        "format": "iri"
+                                    }
+                                },
+                                "required": [
+                                    "relation",
+                                    "resource-id"
+                                ],
+                                "type": "object"
+                            }
+                        }
+                    },
+                    "type": "object",
+                    "required": [
+                        "kind",
+                        "format",
+                        "name",
+                        "label"
+                    ],
+                    "patternProperties": {
+                        "^x-(?!optimade-)": {}
+                    },
+                    "additionalProperties": false
+                },
+                "x-optimade-requirements": {
+                    "additionalProperties": false,
+                    "properties": {
+                        "support": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "title": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "properties": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "allOf": [
+                            {
+                                "$ref": "#/$defs/property_definition_field"
+                            },
+                            {
+                                "required": [
+                                    "title",
+                                    "description"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "property_definition_field": {
+            "required": [
+                "type",
+                "x-optimade-type",
+                "x-optimade-unit"
+            ],
+            "anyOf": [
+                {
+                    "type": "object",
+                    "required": [
+                        "properties"
+                    ],
+                    "properties": {
+                        "type": {
+                            "enum": [
+                                [
+                                    "object"
+                                ],
+                                [
+                                    "object",
+                                    "null"
+                                ]
+                            ]
+                        },
+                        "enum": {
+                            "type": "array",
+                            "items": {
+                                "type": "object"
+                            }
+                        },
+                        "examples": {
+                            "type": "array",
+                            "items": {
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "object",
+                    "required": [
+                        "type",
+                        "items"
+                    ],
+                    "properties": {
+                        "type": {
+                            "enum": [
+                                [
+                                    "array"
+                                ],
+                                [
+                                    "array",
+                                    "null"
+                                ]
+                            ]
+                        },
+                        "enum": {
+                            "type": "array",
+                            "items": {
+                                "type": "array"
+                            }
+                        },
+                        "examples": {
+                            "type": "array",
+                            "items": {
+                                "type": "array"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "object",
+                    "required": [
+                        "type"
+                    ],
+                    "properties": {
+                        "type": {
+                            "enum": [
+                                [
+                                    "integer"
+                                ],
+                                [
+                                    "integer",
+                                    "null"
+                                ]
+                            ]
+                        },
+                        "multipleOf": {
+                            "type": "integer"
+                        },
+                        "maximum": {
+                            "type": "integer"
+                        },
+                        "exclusiveMaximum": {
+                            "type": "integer"
+                        },
+                        "minimum": {
+                            "type": "integer"
+                        },
+                        "exclusiveMinimum": {
+                            "type": "integer"
+                        },
+                        "enum": {
+                            "type": "array",
+                            "items": {
+                                "type": "integer"
+                            }
+                        },
+                        "examples": {
+                            "type": "array",
+                            "items": {
+                                "type": "integer"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "object",
+                    "required": [
+                        "type"
+                    ],
+                    "properties": {
+                        "type": {
+                            "enum": [
+                                [
+                                    "number"
+                                ],
+                                [
+                                    "number",
+                                    "null"
+                                ]
+                            ]
+                        },
+                        "multipleOf": {
+                            "type": "number"
+                        },
+                        "maximum": {
+                            "type": "number"
+                        },
+                        "exclusiveMaximum": {
+                            "type": "number"
+                        },
+                        "minimum": {
+                            "type": "number"
+                        },
+                        "exclusiveMinimum": {
+                            "type": "number"
+                        },
+                        "enum": {
+                            "type": "array",
+                            "items": {
+                                "type": "number"
+                            }
+                        },
+                        "examples": {
+                            "type": "array",
+                            "items": {
+                                "type": "number"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "object",
+                    "required": [
+                        "type"
+                    ],
+                    "properties": {
+                        "type": {
+                            "enum": [
+                                [
+                                    "string"
+                                ],
+                                [
+                                    "string",
+                                    "null"
+                                ]
+                            ]
+                        },
+                        "enum": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "examples": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "object",
+                    "required": [
+                        "type"
+                    ],
+                    "properties": {
+                        "type": {
+                            "enum": [
+                                [
+                                    "boolean"
+                                ],
+                                [
+                                    "boolean",
+                                    "null"
+                                ]
+                            ]
+                        },
+                        "enum": {
+                            "type": "array",
+                            "items": {
+                                "type": "boolean"
+                            }
+                        },
+                        "examples": {
+                            "type": "array",
+                            "items": {
+                                "type": "boolean"
+                            }
+                        }
+                    }
+                }
+            ],
+            "properties": {
+                "$schema": {
+                    "description": "A normalized URI for a meta-schema that validates the Property Definition.\nThis SHOULD be https://schemas.optimade.org/meta/{OPTIMADE_VERSION}/optimade/physical_unit_definition.json"
+                },
+                "$id": {
+                    "allOf": [
+                        {
+                            "$ref": "#/$defs/id_field"
+                        },
+                        {
+                            "description": "A static IRI identifier that is a URN or URL representing the specific version of this level of the defined property.\n(If it is a URL, clients SHOULD NOT assign any interpretation to the response when resolving that URL.)\nIt SHOULD NOT be changed as long as the property definition remains the same, and SHOULD be changed when the property definition changes.\nProperty Definitions SHOULD be regarded as the same if they only differ by:\n- The inclusion or omission of \"null\" in the type in the outermost layer of the definition.\n- Additions of annotating notes to end of the description field.\n- Changes to the following specific fields at any level: deprecated, examples, $comment, x-optimade-implementation, and x-optimade-requirements."
+                        }
+                    ]
+                },
+                "type": {
+                    "description": "Specifies the corresponding JSON type for this level of the defined property and whether the property can be `null` or not.\nThe value is directly correlated with `x-optimade-type` (cf. the `definition of the x-optimade-type field`).\n\nIt MUST be a list of one or two elements where the first element is a string correlated with `x-optimade-type` as follows; if `x-optimade-type` is:\n* `\"boolean\"`, `\"string\"`, or `\"integer\"` then `type` is the same string.\n* `\"dictionary\"` then `type` is `\"object\"`.\n* `\"list\"` then `type` is `\"array\"`.\n* `\"float\"` then `type` is `\"number\"`.\n* `\"timestamp\"` then `type` is `\"string\"`.\n\nIf the second element is included, it MUST be the string `\"null\"`.\nThis two element form specifies that the defined property can be `null`.",
+                    "type": "array",
+                    "enum": [
+                        [
+                            "object"
+                        ],
+                        [
+                            "object",
+                            "null"
+                        ],
+                        [
+                            "array"
+                        ],
+                        [
+                            "array",
+                            "null"
+                        ],
+                        [
+                            "integer"
+                        ],
+                        [
+                            "integer",
+                            "null"
+                        ],
+                        [
+                            "number"
+                        ],
+                        [
+                            "number",
+                            "null"
+                        ],
+                        [
+                            "string"
+                        ],
+                        [
+                            "string",
+                            "null"
+                        ],
+                        [
+                            "boolean"
+                        ],
+                        [
+                            "boolean",
+                            "null"
+                        ]
+                    ],
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "properties": {
+                    "description": "Gives key-value pairs where each value is an inner Property Definition.\nThe defined property is a dictionary that can only contain keys present in this dictionary, and, if so, the corresponding value is described by the respective inner Property Definition.\n(Or, if the type field is the list \"object\" and \"null\", it can also be null.)",
+                    "type": "object",
+                    "additionalProperties": {
+                        "$ref": "#/$defs/property_definition_field"
+                    }
+                },
+                "required": {
+                    "description": "The defined property MUST have keys that match all the strings in this list.\nOther keys present in the properties field are OPTIONAL in the defined property.\nIf not present or empty, all keys in properties are regarded as OPTIONAL.",
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "uniqueItems": true
+                },
+                "maxProperties": {
+                    "description": "The defined property is a dictionary where the number of keys MUST be less than or equal to the number given.",
+                    "type": "integer",
+                    "minimum": 0
+                },
+                "minProperties": {
+                    "description": "The defined property is a dictionary where the number of keys MUST be greater than or equal to the number given.",
+                    "type": "integer",
+                    "minimum": 0
+                },
+                "dependentRequired": {
+                    "description": "The dictionary keys are strings and the values are lists of unique strings.\nIf the defined property has a key that is equal to a key in the given dictionary, the defined property MUST also have keys that match each of the corresponding values.\nNo restriction is inferred from this field for keys in the defined property that do not match any key in the given dictionary.",
+                    "type": "object",
+                    "additionalProperties": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        },
+                        "uniqueItems": true
+                    }
+                },
+                "enum": {
+                    "description": "The defined property MUST take one of the values given in the provided list.",
+                    "type": "array",
+                    "items": {
+                        "$comment": "Must validate against the Property Definition itself, but there is no easy way to express that in the schema."
+                    }
+                },
+                "examples": {
+                    "description": "A list of example values that the defined property can have.",
+                    "type": "array",
+                    "items": {
+                        "$comment": "Must validate against the Property Definition itself, but there is no easy way to express that in the schema."
+                    }
+                },
+                "items": {
+                    "allOf": [
+                        {
+                            "$ref": "#/$defs/property_definition_field"
+                        },
+                        {
+                            "description": "The defined property is a list where each item MUST match this inner Property Definition."
+                        }
+                    ]
+                },
+                "uniqueItems": {
+                    "description": "If TRUE, the defined property is an array that MUST only contain unique items. If FALSE, this field sets no limitation on the defined property.",
+                    "type": "boolean"
+                },
+                "multipleOf": {
+                    "description": "An integer is strictly greater than 0.\nThe defined property MUST have a value that when divided by the given number results in an integer (i.e., it must be even divisible by this value without a fractional part).",
+                    "type": [
+                        "integer",
+                        "number"
+                    ],
+                    "exclusiveMinimum": 0
+                },
+                "maximum": {
+                    "description": "The defined property MUST be less than or equal to the given value.",
+                    "type": [
+                        "integer",
+                        "number"
+                    ]
+                },
+                "exclusiveMaximum": {
+                    "description": "The defined property MUST be strictly less than the given value; it cannot be equal.",
+                    "type": [
+                        "integer",
+                        "number"
+                    ]
+                },
+                "minimum": {
+                    "description": "The defined property MUST be greater than or equal to the given value.",
+                    "type": [
+                        "integer",
+                        "number"
+                    ]
+                },
+                "exclusiveMinimum": {
+                    "description": "The defined property MUST be strictly greater than the given value; it cannot be equal.",
+                    "type": [
+                        "integer",
+                        "number"
+                    ]
+                },
+                "maxLength": {
+                    "description": "The defined property is a string that MUST have a length that is less than or equal to the given integer.\n(The length of the string is the number of individual Unicode characters it is composed of.)",
+                    "type": "integer",
+                    "minimum": 0
+                },
+                "minLength": {
+                    "description": "The defined property is a string that MUST have a length that is less than or equal to the given integer.\n(The length of the string is the number of individual Unicode characters it is composed of.)",
+                    "type": "integer",
+                    "minimum": 0
+                },
+                "format": {
+                    "description": "Choose one of the following values to indicate that the defined property is a string that MUST adhere to the specified format:\n- \"date-time\": the date-time production in RFC 3339 section 5.6.\n- \"date\": the full-date production in RFC 3339 section 5.6.\n- \"time\": the full-time production in RFC 3339 section 5.6.\n- \"duration\": the duration production in RFC 3339 Appendix A.\n- \"email\": the \"Mailbox\" ABNF rule in RFC 5321 section 4.1.2.\n- \"uri\": a string instance is valid against this attribute if it is a valid URI according to RFC 3986.\n- \"iri\": a string instance is valid against this attribute if it is a valid IRI according to RFC 3987.",
+                    "type": "string",
+                    "enum": [
+                        "date-time",
+                        "date",
+                        "time",
+                        "duration",
+                        "email",
+                        "uri",
+                        "iri"
+                    ]
+                },
+                "title": {
+                    "description": "A short single-line human-readable explanation of the defined property appropriate to show as part of a user interface.",
+                    "type": "string"
+                },
+                "description": {
+                    "description": "A human-readable multi-line description that explains the purpose, requirements, and conventions of the defined property.\nThe format SHOULD be a one-line description, followed by a new paragraph (two newlines), followed by a more detailed description of all the requirements and conventions of the defined property.\nFormatting in the text SHOULD use Markdown in the CommonMark v0.3 format, with mathematical expressions written to render correctly with the LaTeX mode of Mathjax 3.2 <https://docs.mathjax.org/en/v3.2-latest/>.\nWhen possible, it is preferable for mathematical expressions to use as straightforward notation as possible to make them readable also when not rendered.\n\nAdditions appended to the end of the description field that are clearly marked as notes that clarify the definition without changing it are viewed as annotations to the Property Definition rather than an integral part of it.\nSuch annotations SHOULD only be added to the end of an otherwise unmodified description and MUST NOT change the meaning or interpretation of the text above them.\nThe purpose is to provide a way to add explanations and clarifications to a definition without having to regard it as a new definition.\nFor example, these annotations to the description MAY be used to explain why a definition has been deprecated.",
+                    "type": "string"
+                },
+                "x-optimade-definition": {
+                    "$id": "https://schemas.optimade.org/meta/v1.2/optimade/x-optimade-definition-field",
+                    "label": "property_definition_meta",
+                    "kind": "meta",
+                    "version": "1.2.1",
+                    "format": "1.2",
+                    "name": "property_definition",
+                    "type": "object",
+                    "required": [
+                        "kind",
+                        "format",
+                        "name",
+                        "label"
+                    ],
+                    "properties": {
+                        "label": {
+                            "type": "string",
+                            "description": "An expanded version of the name that clarifies its context sufficiently to be unique within definitions issued together as a set.",
+                            "pattern": "^[a-z_][a-z_0-9]*$"
+                        },
+                        "name": {
+                            "type": "string",
+                            "description": "Gives the definition a short name.",
+                            "pattern": "^[a-z_][a-z_0-9]*$"
+                        },
+                        "kind": {
+                            "type": "string",
+                            "description": "Specifies the kind of Property Definition.",
+                            "enum": [
+                                "property",
+                                "unit",
+                                "constant",
+                                "prefix",
+                                "entrytype",
+                                "unitsystem",
+                                "standard"
+                            ]
+                        },
+                        "format": {
+                            "description": "Specifies the minor version of the Property Definitions format that the definition is expressed in.\nThis field MUST be included in standalone definitions, i.e., when they are not embedded inside other definitions or contexts that already declares a Property Definitions format.",
+                            "pattern": "^[0-9]+\\.[0-9]+$"
+                        },
+                        "version": {
+                            "description": "The version string of the referenced standard.\nThe string SHOULD be in the format described by the [semantic versioning v2](https://semver.org/spec/v2.0.0.html) standard.",
+                            "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$",
+                            "$comment": "This pattern is the suggested regular expression from: https://semver.org/spec/v2.0.0.html",
+                            "type": "string"
+                        },
+                        "resources": {
+                            "$id": "https://schemas.optimade.org/meta/v1.2/common/resource_list",
+                            "title": "resource list",
+                            "description": "A list of dictionaries that describe and reference remote resources.",
+                            "type": "array",
+                            "items": {
+                                "patternProperties": {
+                                    "^x-(?!optimade-)": {}
+                                },
+                                "additionalProperties": false,
+                                "properties": {
+                                    "relation": {
+                                        "description": "A human-readable description of the resource and what is being referenced in the resource, e.g., a \"natural language description\".",
+                                        "type": "string"
+                                    },
+                                    "resource-id": {
+                                        "description": "An IRI of the external resource (which MAY be a resolvable URL).",
+                                        "type": "string",
+                                        "format": "iri"
+                                    }
+                                },
+                                "required": [
+                                    "relation",
+                                    "resource-id"
+                                ],
+                                "type": "object"
+                            }
+                        }
+                    },
+                    "patternProperties": {
+                        "^x-(?!optimade-)": {}
+                    },
+                    "additionalProperties": false
+                },
+                "x-optimade-dimensions": {
+                    "description": "Specification of the dimensions of one or multi-dimensional data represented as multiple levels of lists.\nEach dimension is given a name and optionally a fixed size.\nIt was decided that OPTIMADE Property Definitions cannot use the JSON Schema validating fields minItems and maxItems since that would require reprocessing the schema to handle requests asking for only parts of the data in the lists.\nInstead, provide information on the length of a list for an implementation to validate. This is communicated in the `sizes` subfield of this field. At this time, `sizes` can only specify a fixed length requirement.",
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                        "names",
+                        "sizes"
+                    ],
+                    "patternProperties": {
+                        "^x-(?!optimade-)": {}
+                    },
+                    "properties": {
+                        "names": {
+                            "description": "A list of names of the dimensions of the underlying one or multi-dimensionsional data represented as mutiple levels of lists.\nThe order is that the first name applies to the outermost list, the next name to the lists embedded in that list, etc.",
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "sizes": {
+                            "description": "A list of fixed length requirements on the underlying one or multi-dimensionsional data represented as mutiple levels of lists.\nThe order is that the first name applies to the outermost list, the next name to the lists embedded in that list, etc.\nThe data only validates if the respective level consists of lists of exactly this length.\nA value of `null` allows arbitrary-length lists at the corresponding level.",
+                            "type": "array",
+                            "items": {
+                                "type": [
+                                    "integer",
+                                    "null"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "x-optimade-unit-definitions": {
+                    "type": "array",
+                    "items": {
+                        "allOf": [
+                            {
+                                "$ref": "#/$defs/unit_entity_definition_field"
+                            },
+                            {
+                                "required": [
+                                    "title",
+                                    "symbol",
+                                    "display-symbol",
+                                    "description"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "x-optimade-type": {
+                    "type": "string",
+                    "enum": [
+                        "string",
+                        "integer",
+                        "float",
+                        "boolean",
+                        "timestamp",
+                        "list",
+                        "dictionary"
+                    ]
+                },
+                "x-optimade-unit": {
+                    "type": "string"
+                },
+                "x-optimade-implementation": {
+                    "additionalProperties": false,
+                    "patternProperties": {
+                        "^x-(?!optimade-)": {}
+                    },
+                    "properties": {
+                        "query-support": {
+                            "enum": [
+                                "all mandatory",
+                                "equality only",
+                                "partial",
+                                "none"
+                            ],
+                            "type": "string"
+                        },
+                        "query-support-operators": {
+                            "items": {
+                                "enum": [
+                                    "<",
+                                    "<=",
+                                    ">",
+                                    ">=",
+                                    "=",
+                                    "!=",
+                                    "CONTAINS",
+                                    "STARTS WITH",
+                                    "ENDS WITH",
+                                    "HAS",
+                                    "HAS ALL",
+                                    "HAS ANY",
+                                    "HAS ONLY",
+                                    "IS KNOWN",
+                                    "IS UNKNOWN"
+                                ],
+                                "type": "string"
+                            },
+                            "type": "array"
+                        },
+                        "response-level": {
+                            "enum": [
+                                "always",
+                                "yes",
+                                "no"
+                            ]
+                        },
+                        "sortable": {
+                            "type": "boolean"
+                        },
+                        "$comment": {
+                            "type": "string"
+                        }
+                    },
+                    "type": "object"
+                },
+                "x-optimade-requirements": {
+                    "additionalProperties": false,
+                    "patternProperties": {
+                        "^x-(?!optimade-)": {}
+                    },
+                    "properties": {
+                        "query-support": {
+                            "enum": [
+                                "all mandatory",
+                                "equality only",
+                                "partial",
+                                "none"
+                            ],
+                            "type": "string"
+                        },
+                        "query-support-operators": {
+                            "items": {
+                                "enum": [
+                                    "<",
+                                    "<=",
+                                    ">",
+                                    ">=",
+                                    "=",
+                                    "!=",
+                                    "CONTAINS",
+                                    "STARTS WITH",
+                                    "ENDS WITH",
+                                    "HAS",
+                                    "HAS ALL",
+                                    "HAS ANY",
+                                    "HAS ONLY",
+                                    "IS KNOWN",
+                                    "IS UNKNOWN"
+                                ],
+                                "type": "string"
+                            },
+                            "type": "array"
+                        },
+                        "response-level": {
+                            "enum": [
+                                "always",
+                                "must",
+                                "should",
+                                "may",
+                                "should not",
+                                "must not"
+                            ],
+                            "type": "string"
+                        },
+                        "sortable": {
+                            "type": "boolean"
+                        },
+                        "support": {
+                            "enum": [
+                                "must",
+                                "should",
+                                "may"
+                            ],
+                            "type": "string"
+                        },
+                        "$comment": {
+                            "type": "string"
+                        }
+                    },
+                    "type": "object"
+                },
+                "x-optimade-metadata-definition": {
+                    "description": "A dictionary that is a property definition of a dictionary-type property that defines all metadata properties.",
+                    "allOf": [
+                        {
+                            "$ref": "#/$defs/property_definition_field"
+                        },
+                        {
+                            "properties": {
+                                "type": {
+                                    "enum": [
+                                        [
+                                            "object",
+                                            "null"
+                                        ]
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                "$comment": {
+                    "description": "A human-readable comment relevant in the context of the raw definition data.\nThese comments should normally not be shown to the end users.\nComments pertaining to the Property Definition that are relevant to end users should go into the field description.\nFormatting in the text SHOULD use Markdown using the format described in the definition of the description field.\n\nThis field is an annotation rather than an integral part of the Property Definition.\nProperty Definitions that only differ by fields that are considered annotations are to be considered the same, and as explained in the definition of the $id field SHOULD share the same $id.",
+                    "type": "string"
+                },
+                "deprecated": {
+                    "description": "If TRUE, implementations SHOULD not use the defined property, and it MAY be removed in the future.\nIf FALSE, the defined property is not deprecated. The field not being present means FALSE.\n\nThis field is an annotation rather than an integral part of the Property Definition.\nProperty Definitions that only differ by fields that are considered annotations are to be considered the same, and as explained in the definition of the $id field SHOULD share the same $id.",
+                    "type": "boolean"
+                }
+            },
+            "additionalProperties": false,
+            "patternProperties": {
+                "^x-(?!optimade-)": {}
+            }
+        },
+        "symbol_list": {
+            "$id": "https://schemas.optimade.org/meta/v1.2/common/symbol_list",
+            "title": "symbol list",
+            "description": "A list of dictionaries that associate and id with a symbol",
+            "items": {
+                "additionalProperties": false,
+                "patternProperties": {
+                    "^_": {}
+                },
+                "properties": {
+                    "id": {
+                        "description": "The IRI of one of the referenced entity.",
+                        "format": "uri",
+                        "type": "string"
+                    },
+                    "symbol": {
+                        "description": "The symbol used to reference this entity.",
+                        "pattern": "^[a-zA-Z_][a-zA-Z_0-9]*$",
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "symbol",
+                    "id"
+                ],
+                "type": "object"
+            },
+            "type": "array"
+        },
+        "resource_list": {
+            "$id": "https://schemas.optimade.org/meta/v1.2/common/resource_list",
+            "title": "resource list",
+            "description": "A list of dictionaries that describe and reference remote resources.",
+            "type": "array",
+            "items": {
+                "patternProperties": {
+                    "^x-(?!optimade-)": {}
+                },
+                "additionalProperties": false,
+                "properties": {
+                    "relation": {
+                        "description": "A human-readable description of the resource and what is being referenced in the resource, e.g., a \"natural language description\".",
+                        "type": "string"
+                    },
+                    "resource-id": {
+                        "description": "An IRI of the external resource (which MAY be a resolvable URL).",
+                        "type": "string",
+                        "format": "iri"
+                    }
+                },
+                "required": [
+                    "relation",
+                    "resource-id"
+                ],
+                "type": "object"
+            }
+        },
+        "unit_entity_definition_field": {
+            "required": [
+                "title",
+                "symbol",
+                "display-symbol",
+                "description"
+            ],
+            "additionalProperties": false,
+            "patternProperties": {
+                "^_": {}
+            },
+            "properties": {
+                "$schema": {
+                    "description": "A normalized URI for a meta-schema that validates the definition."
+                },
+                "$id": {
+                    "allOf": [
+                        {
+                            "$ref": "#/$defs/id_field"
+                        },
+                        {
+                            "description": "A static IRI identifier that is a URN or URL representing the specific version of the definition.\n\n(If it is a URL, clients SHOULD NOT assign any interpretation to the response when resolving that URL.)\nIt SHOULD NOT be changed as long as the definition functionally remains identical, and SHOULD be changed when the definition changes.\nFor example, definitions SHOULD be regarded as the same if they only differ by, e.g.:\n\n- Additions or corrections of clarifying or historical notes to the `description` field.\n- Changes to the fields `deprecated` and `$comment` on any level.\n\nNote that this means that the version number part of the URL is *retained* even in newer releases of the OPTIMADE standard as long as the definition remains functionally identical."
+                        }
+                    ]
+                },
+                "$comment": {
+                    "type": "string"
+                },
+                "approximate-relations": {
+                    "items": {
+                        "patternProperties": {
+                            "^_": {}
+                        },
+                        "additionalProperties": false,
+                        "properties": {
+                            "base-units": {
+                                "allOf": [
+                                    {
+                                        "$ref": "#/$defs/symbol_list"
+                                    },
+                                    {
+                                        "items": {
+                                            "properties": {
+                                                "id": {
+                                                    "description": "The IRI of one of the units referenced in the dimensional formula for the defining relation."
+                                                },
+                                                "symbol": {
+                                                    "description": "The symbol used to reference this unit in the dimensional formula."
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "base-units-expression": {
+                                "type": "string"
+                            },
+                            "offset": {
+                                "patternProperties": {
+                                    "^_": {}
+                                },
+                                "additionalProperties": false,
+                                "properties": {
+                                    "standard_uncertainty": {
+                                        "type": "number"
+                                    },
+                                    "value": {
+                                        "type": "number"
+                                    }
+                                },
+                                "required": [
+                                    "value"
+                                ],
+                                "type": "object"
+                            },
+                            "scale": {
+                                "patternProperties": {
+                                    "^_": {}
+                                },
+                                "additionalProperties": false,
+                                "properties": {
+                                    "standard_uncertainty": {
+                                        "type": "number"
+                                    },
+                                    "value": {
+                                        "type": "number"
+                                    }
+                                },
+                                "required": [
+                                    "value"
+                                ],
+                                "type": "object"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "type": "array"
+                },
+                "compatibility": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/id_field"
+                    }
+                },
+                "defining-relation": {
+                    "description": "A dictionary that encodes a defining relation to a unit or set of units, with the primary intended use of reproduce the definition of the entity in SI units, if such a relationship exists.\nSome units, e.g., the atomic mass unit (also known as dalton, commonly denoted `u`), only has an approximate relationship to SI units, in which case the `defining-relation` MUST be omitted or `null`.\n\nIf the fields in `scale` are designated as `sn`, `sd`, and `se`; and the fields in `offset` are designated as `on`, `od`, and `oe`; and `base-units-expression` is designated as `b`, these fields state the following defining relation: a value `v` multiplied by the unit being defined is equal to the following expression `(v * (sn/sd) * 10**se + (on/od) * 10**oe)*b`, where `*` designates multiplication and `**` designates exponentiation.",
+                    "additionalProperties": false,
+                    "patternProperties": {
+                        "^_": {}
+                    },
+                    "properties": {
+                        "base-units": {
+                            "allOf": [
+                                {
+                                    "$ref": "#/$defs/symbol_list"
+                                },
+                                {
+                                    "items": {
+                                        "properties": {
+                                            "id": {
+                                                "description": "The IRI of one of the units referenced in the dimensional formula for the defining relation."
+                                            },
+                                            "symbol": {
+                                                "description": "The symbol used to reference this unit in the dimensional formula."
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "base-units-expression": {
+                            "description": "A string expressing the base units part of the defining relation for the unit being defined.\n\nA compound unit expression is created by a sequence of constants, prefixes, and unit symbols separated by a single multiplication `*` symbol.\nEach unit symbol can also be suffixed by a single `^` symbol followed by a positive or negative integer to indicate the power of the preceding unit, e.g., `m^3` for cubic meter, `m^-3` for inverse cubic meter.\n(Positive integers MUST NOT be preceded by a plus sign.)\nFurthermore:\n\n- No whitespace, parenthesis, or other symbols than specified above are permitted.\n- The unit symbols MUST appear in alphabetical order.",
+                            "type": "string"
+                        },
+                        "scale": {
+                            "description": "A dictionary specifying the scale in the defining relation.\n\nThe four fields `numerator`, `denominator`, `base`, and `exponent` specify the value as the rational number `numerator` / `denominator`, multiplied by `base` to the power of `exponent`.\nIf omitted or `null`, the defaults for the `numerator`, `denominator`, `base` and `exponent` are respectively 1, 1, 10, and 0.",
+                            "patternProperties": {
+                                "^_": {}
+                            },
+                            "additionalProperties": false,
+                            "properties": {
+                                "denominator": {
+                                    "type": "integer"
+                                },
+                                "numerator": {
+                                    "type": "integer"
+                                },
+                                "exponent": {
+                                    "type": "integer"
+                                },
+                                "base": {
+                                    "type": "integer"
+                                },
+                                "standard_uncertainty": {
+                                    "type": "number"
+                                }
+                            },
+                            "type": "object"
+                        },
+                        "offset": {
+                            "description": "The four fields `numerator`, `denominator`, `base`, and `exponent` specify the value as the rational number `numerator` / `denominator`, multiplied by `base` to the power of `exponent`.\nIf omitted or `null`, the defaults for the `numerator`, `denominator`, `base` and `exponent` are respectively 0, 1, 10, and 0.",
+                            "patternProperties": {
+                                "^_": {}
+                            },
+                            "additionalProperties": false,
+                            "properties": {
+                                "denominator": {
+                                    "type": "integer"
+                                },
+                                "exponent": {
+                                    "type": "integer"
+                                },
+                                "numerator": {
+                                    "type": "integer"
+                                },
+                                "base": {
+                                    "type": "integer"
+                                },
+                                "standard_uncertainty": {
+                                    "type": "number"
+                                }
+                            },
+                            "type": "object"
+                        }
+                    },
+                    "type": "object"
+                },
+                "description": {
+                    "description": "A human-readable multiline detailed description of the defined entity.",
+                    "type": "string"
+                },
+                "resources": {
+                    "$ref": "#/$defs/resource_list"
+                },
+                "standard": {
+                    "description": "This field is used to reference a preexisting standard for the defined entity.",
+                    "patternProperties": {
+                        "^_": {}
+                    },
+                    "additionalProperties": false,
+                    "properties": {
+                        "name": {
+                            "description": "The abbreviated name of the standard being referenced.",
+                            "enum": [
+                                "gnu units",
+                                "ucum",
+                                "qudt",
+                                "si",
+                                "codata",
+                                "iso-iec-80000"
+                            ],
+                            "type": "string"
+                        },
+                        "symbol": {
+                            "description": "The symbol to use from the referenced standard, expressed according to that standard.\nThe field MAY use mathematical expressions written to render correctly with the LaTeX mode of Mathjax 3.2.\nThis field MAY be different from the symbol being defined via the definition if the unit will be referenced in `x-optimade-unit` fields using a different symbol than the one used in the standard or if the symbol is expressed in the standard in a way that requires mathematical notation.\nHowever, if possible, the `symbol` fields SHOULD be the same.",
+                            "type": "string"
+                        },
+                        "year": {
+                            "description": "The year that the standards organization adopted the definition.",
+                            "type": "integer"
+                        },
+                        "category": {
+                            "description": "The category that the standards organization have used for the definition.",
+                            "type": "string"
+                        },
+                        "version": {
+                            "description": "A version string of the referenced standard.",
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "name",
+                        "symbol"
+                    ],
+                    "type": "object"
+                },
+                "symbol": {
+                    "description": "Specifies the symbol to be used in `x-optimade-unit` to reference the defined entity.",
+                    "type": "string",
+                    "pattern": "^[a-zA-Z_][a-zA-Z_0-9]*$"
+                },
+                "display-symbol": {
+                    "description": "The suggested standard typographical symbolic representation of the defined entity.\nFormatting in the text SHOULD use Markdown in the CommonMark v0.3 format, with mathematical expressions written to render correctly with the LaTeX mode of Mathjax 3.2.",
+                    "type": "string"
+                },
+                "alternate-symbols": {
+                    "description": "A list of other symbols often used for the defined entity.\nFormatting in the text SHOULD use Markdown in the CommonMark v0.3 format, with mathematical expressions written to render correctly with the LaTeX mode of Mathjax 3.2.",
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "title": {
+                    "description": "The standard human-readable name of the defined entity.",
+                    "type": "string"
+                },
+                "x-optimade-definition": {
+                    "$id": "https://schemas.optimade.org/meta/v1.2/optimade/x-optimade-definition-field",
+                    "type": "object",
+                    "required": [
+                        "kind",
+                        "format",
+                        "name",
+                        "label"
+                    ],
+                    "properties": {
+                        "label": {
+                            "type": "string",
+                            "description": "An expanded version of the name that clarifies its context sufficiently to be unique within definitions issued together as a set.",
+                            "pattern": "^[a-z_][a-z_0-9]*$"
+                        },
+                        "name": {
+                            "type": "string",
+                            "description": "Gives the definition a short name.",
+                            "pattern": "^[a-z_][a-z_0-9]*$"
+                        },
+                        "kind": {
+                            "type": "string",
+                            "description": "Specifies the kind of Property Definition.",
+                            "enum": [
+                                "property",
+                                "unit",
+                                "constant",
+                                "prefix",
+                                "entrytype",
+                                "unitsystem",
+                                "standard"
+                            ]
+                        },
+                        "format": {
+                            "description": "Specifies the minor version of the Property Definitions format that the definition is expressed in.\nThis field MUST be included in standalone definitions, i.e., when they are not embedded inside other definitions or contexts that already declares a Property Definitions format.",
+                            "pattern": "^[0-9]+\\.[0-9]+$"
+                        },
+                        "version": {
+                            "description": "The version string of the referenced standard.\nThe string SHOULD be in the format described by the [semantic versioning v2](https://semver.org/spec/v2.0.0.html) standard.",
+                            "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$",
+                            "$comment": "This pattern is the suggested regular expression from: https://semver.org/spec/v2.0.0.html",
+                            "type": "string"
+                        },
+                        "resources": {
+                            "$id": "https://schemas.optimade.org/meta/v1.2/common/resource_list",
+                            "title": "resource list",
+                            "description": "A list of dictionaries that describe and reference remote resources.",
+                            "type": "array",
+                            "items": {
+                                "patternProperties": {
+                                    "^x-(?!optimade-)": {}
+                                },
+                                "additionalProperties": false,
+                                "properties": {
+                                    "relation": {
+                                        "description": "A human-readable description of the resource and what is being referenced in the resource, e.g., a \"natural language description\".",
+                                        "type": "string"
+                                    },
+                                    "resource-id": {
+                                        "description": "An IRI of the external resource (which MAY be a resolvable URL).",
+                                        "type": "string",
+                                        "format": "iri"
+                                    }
+                                },
+                                "required": [
+                                    "relation",
+                                    "resource-id"
+                                ],
+                                "type": "object"
+                            }
+                        }
+                    },
+                    "patternProperties": {
+                        "^x-(?!optimade-)": {}
+                    },
+                    "additionalProperties": false
+                }
+            }
+        }
+    }
+}
